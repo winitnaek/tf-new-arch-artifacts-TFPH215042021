@@ -1,0 +1,10 @@
+{
+   "value":"CF",
+   "label":"Custom Payment Exceptions",
+   "desc":"Custom Payment Exceptions",
+   "id":"customPaymentTaxExceptions",
+   "type":"comp",
+   "link":false
+
+
+}

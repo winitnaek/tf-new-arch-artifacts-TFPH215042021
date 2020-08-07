@@ -1,0 +1,421 @@
+[
+	{
+		"name":"startDate",
+		"id":"startDate",
+		"placeholder":"Enter Start Date",
+		"fieldtype":"date",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+
+		},
+		"validationType":"string",
+		"label":"Start Date",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"uppercase",
+					"message":"Worksite needs to be in uppercase."
+				}
+			],
+			"constraint":[
+				{
+					"type":"max",
+					"input":8,
+					"message":"max 8 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"taxCodeToBeOverridden",
+		"id":"taxCodeToBeOverridden",
+		"placeholder":"Enter Tax Code",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"typeahead":true,
+		"options":[
+		 
+		]
+		},
+		"validationType":"string",
+		"label":"Tax Code to be Overridden",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"residentTaxType",
+		"id":"residentTaxType",
+		"placeholder":"Enter Tax Type",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"With Holding"
+		]
+		},
+		"validationType":"string",
+		"label":"Resident Tax Type",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"taxCodeToReciprocate",
+		"id":"taxCodeToReciprocate",
+		"placeholder":"Enter Tax Code",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"typeahead":true
+
+		},
+		"validationType":"string",
+		"label":"Tax Code To Reciprocate",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"nonresidentTaxType",
+		"id":"nonresidentTaxType",
+		"placeholder":"Enter Tax Type",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Nonresident Tax Type",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"endDate",
+		"id":"endDate",
+		"placeholder":"Enter End Date",
+		"fieldtype":"date",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+
+		},
+		"validationType":"string",
+		"label":"End Date",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":8,
+					"message":"max 8 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"calculationMethod",
+		"id":"calculationMethod",
+		"placeholder":"Select Calculation Method",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"Do not override"
+		]
+		},
+		"validationType":"string",
+		"label":"Calculation Method",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":5,
+					"message":"min 5 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"rate(methodPCAndX)",
+		"id":"rate(methodPCAndX)",
+		"placeholder":"Select Rate",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Rate (methods P,C and X)",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":12,
+					"message":"max 12 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"showCalcMessage",
+		"id":"showCalcMessage",
+		"placeholder":"",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Show Calc Message",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":25,
+					"message":"max 25 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"wageReportingMethod",
+		"id":"wageReportingMethod",
+		"placeholder":"Select Wage Reporting Method",
+		"fieldtype":"select",
+		"fieldlength":{
+		},
+		"fieldinfo":{
+		"options":[
+		"With Holding"
+			]
+		},
+		"validationType":"string",
+		"label":"Wage Reporting Method",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":5,
+					"message":"min 5 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"showReportMessage",
+		"id":"showReportMessage",
+		"placeholder":"",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Show Report Message",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":1,
+					"message":"max 1 characters"
+				}
+			]
+		}
+	}
+]

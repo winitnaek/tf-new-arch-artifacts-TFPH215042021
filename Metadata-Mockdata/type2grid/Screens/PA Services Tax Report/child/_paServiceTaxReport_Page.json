@@ -1,0 +1,154 @@
+{
+  "pgdef": {
+    "pgid": "paServiceTaxReport",
+    "pgtitle": "PA Services Tax Report",
+    "pgsubtitle": "",
+    "flowtype": "flowtype2",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "",
+    "helpLink": "",
+    "parentConfig": "paServicesTaxReport",
+    "childConfig": ""
+  },
+  "griddef": {
+    "gridtype": "type2",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No Data Found : ",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Authority",
+        "datafield": "authority",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "EFFECTIVE DATE",
+        "datafield": "effectiveDate",
+        "cellsalign": "left",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "TAX TYPE",
+        "datafield": "taxType",
+        "cellsalign": "left",
+        "width": "12.5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "MUNICIPALITY",
+        "datafield": "municipality",
+        "cellsalign": "left",
+        "width": "12.5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "MUNICIPAL PERCENT",
+        "datafield": "municipalPercent",
+        "cellsalign": "left",
+        "width": "12.5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "MUNICIPAL AMOUNT",
+        "datafield": "municipalAmount",
+        "cellsalign": "left",
+        "width": "12.5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "SD PERCENT",
+        "datafield": "sdPercent",
+        "cellsalign": "left",
+        "width": "12.5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "SD AMOUNT",
+        "datafield": "sdAmount",
+        "cellsalign": "left",
+        "width": "12.5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    "dataFields": [
+      {
+        "name": "authority",
+        "type": "string"
+      },
+      {
+        "name": "effectiveDate",
+        "type": "string"
+      },
+      {
+        "name": "taxType",
+        "type": "string"
+      },
+      {
+        "name": "municipality",
+        "type": "string"
+      },
+      {
+        "name": "municipalPercent",
+        "type": "string"
+      },
+      {
+        "name": "municipalAmount",
+        "type": "string"
+      },
+      {
+        "name": "sdPercent",
+        "type": "string"
+      },
+      {
+        "name": "sdAmount",
+        "type": "string"
+      }
+    ]
+  },
+  "formdef": {
+    "title": "Select Report",
+    "subtitle": "* No entry will imply ALL selection.",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "formflds": [],
+    "fltrflds": ""
+  }
+}

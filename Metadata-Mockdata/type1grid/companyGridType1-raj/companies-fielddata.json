@@ -1,0 +1,128 @@
+[
+  {
+    "id": "compCodeDispl",
+    "placeholder": "",
+    "fieldtype": "text",
+    "label": "Company Code",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Company Code needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "compName",
+    "placeholder": "",
+    "fieldtype": "text",
+    "label": "Company Name",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Company Name needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "compFein",
+    "placeholder": "",
+    "fieldtype": "text",
+    "label": "FEIN",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Company Code needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "manageCompaniesDetail_courtesy",
+    "placeholder": "",
+    "fieldtype": "checkbox",
+    "value": "",
+    "errmsg": "",
+    "fieldinfo": {
+      "options": [
+        {
+          "label": "Local Courtesy Withholding",
+          "id": "manageCompaniesDetail_courtesy"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  }
+]

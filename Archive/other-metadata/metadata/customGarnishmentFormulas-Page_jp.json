@@ -1,0 +1,126 @@
+{
+	"pgdef": {
+		"pgid": "customGarnishmentFormulas",
+		"pgtitle": "Custom Garnishment Formulas",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add new Custom Garnishment Formula or click on existing Custom Garnishment Formula to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/customGarnishmentFormulas",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+			{
+				"text": "Custom Garnishment Code",
+				"datafield": "customGarnishmentCodeName",
+				"cellsalign": "center",
+				"width": "25%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Custom Garnishment Name",
+				"datafield": "customTaxCodeName",
+				"width": "25%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Start Date",
+				"datafield": "startDate",
+				"cellsalign": "center",
+				"width": "25%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "End Data",
+				"datafield": "endDate",
+				"width": "25%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields": [
+			{
+				"name": "customGarnishmentCode",
+				"type": "string"
+			},
+			{
+				"name": "customGarnishmentName",
+				"type": "string"
+            },
+            {
+				"name": "startDate",
+				"type": "Date"
+			},
+			{
+				"name": "endDate",
+				"type": "Date"
+			}            			
+            
+		]
+	},
+	"formdef": {
+		"title": "Custom Formulas",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": false,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+			{
+				"id": "customGarnishmnetCode",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "customGarnishmnetName",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "startDate",
+				"order": 3,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "endDate",
+				"order": 4,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            }
+            
+		],
+		"fltrflds": ""
+	}
+}

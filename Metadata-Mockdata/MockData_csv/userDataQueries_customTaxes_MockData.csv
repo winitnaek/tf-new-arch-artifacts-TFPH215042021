@@ -1,0 +1,2 @@
+taxCode,startDate,endDate,taxRate,minimumWage,maximumWage,maximumTax,flatAmount,rounding,calculationMethod
+CTC1,3/10/2020,12/31/9999,0,0,0,0,0,0 - Round To Cents,00 Tax Rate Only

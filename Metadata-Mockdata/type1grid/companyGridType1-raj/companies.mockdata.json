@@ -1,0 +1,50 @@
+[
+  {
+    "compCodeDispl": 1,
+    "compName": "Children's Healthcare of Atlanta",
+    "compFein": 582367819
+  },
+  {
+    "compCodeDispl": "ABC",
+    "compName": "ABC",
+    "compFein": 888888888
+  },
+  {
+    "compCodeDispl": "COMP123456",
+    "compName": "10 character compCodeDispl"
+  },
+  {
+    "compCodeDispl": "COMP1234567",
+    "compName": "11 chars comp name",
+    "compFein": 999999999
+  },
+  {
+    "compCodeDispl": "FISH MAR 2",
+    "compName": "fish mar 2",
+    "compFein": 999999999
+  },
+  {
+    "compCodeDispl": "FLOWER DEPO",
+    "compName": "flower depot",
+    "compFein": 666666666
+  },
+  {
+    "compCodeDispl": "FLOWER SHOP",
+    "compName": "flower shop at JC",
+    "compFein": 999999999
+  },
+  {
+    "compCodeDispl": "MOD 1234567",
+    "compName": "Mod space 11"
+  },
+  {
+    "compCodeDispl": "SPACE MOD",
+    "compName": "Space company-mod sec",
+    "compFein": 999999999
+  },
+  {
+    "compCodeDispl": "SPACE MOD12",
+    "compName": "space mod 12",
+    "compFein": 999999999
+  }
+]

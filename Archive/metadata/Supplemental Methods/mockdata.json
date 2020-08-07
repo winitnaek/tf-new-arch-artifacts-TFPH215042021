@@ -1,0 +1,70 @@
+[
+  {
+    "attribute": "Authority Code",
+    "Value": 10000
+  },
+  {
+    "attribute": "Tax Type",
+    "Value": 1
+  },
+  {
+    "attribute": "Formula Number",
+    "Value": 1
+  },
+  {
+    "attribute": "Start Date",
+    "Value": "1/1/2020"
+  },
+  {
+    "attribute": "End Date",
+    "Value": "00/00/0000"
+  },
+  {
+    "attribute": "Regular Method Valid",
+    "Value": 0
+  },
+  {
+    "attribute": "Flat-Rate Method Valid",
+    "Value": 1
+  },
+  {
+    "attribute": "Separate Aggregation Method Valid",
+    "Value": 1
+  },
+  {
+    "attribute": "Rate Table Method Valid",
+    "Value": 0
+  },
+  {
+    "attribute": "Cumulative Method Valid",
+    "Value": 1
+  },
+  {
+    "attribute": "Aggregation Pay Period Method Valid",
+    "Value": 0
+  },
+  {
+    "attribute": "Wage Associated Method Valid",
+    "Value": 0
+  },
+  {
+    "attribute": "Concurrent Method Valid",
+    "Value": 1
+  },
+  {
+    "attribute": "Regular No Exemptions Method Valid",
+    "Value": 0
+  },
+  {
+    "attribute": "System Selected Supplemental Method Valid",
+    "Value": 2
+  },
+  {
+    "attribute": "Commission Cumulative Method Valid",
+    "Value": 0
+  },
+  {
+    "attribute": "Christmas Bonus Method Valid",
+    "Value": 0
+  }
+]

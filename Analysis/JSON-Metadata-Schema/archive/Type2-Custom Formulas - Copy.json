@@ -1,0 +1,89 @@
+﻿{
+  "screendef": {
+	"id": "Custom Formulas",
+    "flowtype": "flowtype2",
+    "pgtitle": "Custom Formulas",
+	
+    "pglabel": "Click on the Custom Tax Name to manage the Formula.",
+    
+    "filtergrid": true
+  },
+  "filtergriddef": {
+    "filterscreendef": {
+      "pgtitle": "Custom Formulas",
+      "addNewLabel": "Click here to add a new Custom Formula",
+      "areaname": "Custom Formulas"
+    },
+    "title": "Grid Title",
+    "noResultsFoundTxt": "No Data Found",
+    "gridtype": "type1",
+    "datatype": "json",
+    "contenttype": "application/json",
+    "columns": [
+      {
+        "text": "Column Label1",
+        "datafield": "userCode",
+        "cellsalign": "center",
+        "width": "30%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": [
+          {
+            "id1": "id1",
+            "id2": "id2",
+            "id3": "id3"
+          }
+        ],
+        "rendererStaticInput": [
+          {
+            "name": "Delete",
+            "value": "true"
+          }
+        ]
+      }
+    ],
+    "dataFields": {
+      "name": "FieldName",
+      "type": "FieldType"
+    }
+  },
+  "uigriddef": {
+    "uiscreendef": {
+      "pgtitle": "Custom Formulas",
+      "pglabel": "Custom Formulas",
+      "addNewLabel": "Click here to add a new Custom Formula",
+      "areaname": "Custom Formulas"
+    },
+    "title": "Grid Title",
+    "noResultsFoundTxt": "No Data Found",
+    "gridtype": "type1",
+    "datatype": "json",
+    "contenttype": "application/json",
+    "columns": [
+      {
+        "text": "Column Label1",
+        "datafield": "userCode",
+        "cellsalign": "center",
+        "width": "30%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": [
+          {
+            "id1": "id1",
+            "id2": "id2",
+            "id3": "id3"
+          }
+        ],
+        "rendererStaticInput": [
+          {
+            "name": "Delete",
+            "value": "true"
+          }
+        ]
+      }
+    ],
+    "dataFields":[
+      {"name": "FieldName","type": "FieldType"}
+    ]
+  }
+}

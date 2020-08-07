@@ -1,0 +1,9 @@
+{
+   "value":"CF",
+   "label":"Custom Nexus Data",
+   "desc":"Custom Nexus Data",
+   "id":"customNexusData",
+   "type":"comp",
+   "link":true
+
+}

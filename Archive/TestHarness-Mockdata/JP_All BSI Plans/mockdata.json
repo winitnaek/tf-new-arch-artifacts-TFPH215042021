@@ -1,0 +1,1290 @@
+[
+  {
+    "type": "C",
+    "description": "TIP CREDIT",
+    "code": "C001",
+    "planClass": "",
+    "startDate": 20190101
+  },
+  {
+    "type": "D",
+    "description": "AMOUNT LEGALLY OWED/DUE EMPLOYER",
+    "code": "D007",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "AUTOMOBILE INSURANCE",
+    "code": "D012",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "BALLOT ISSUE COMMITTEE",
+    "code": "D013",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "BOARD/HOUSING/LODGING",
+    "code": "D014",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "CHARITABLE CONTRIBUTIONS",
+    "code": "D015",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "CHILD CARE/DEPENDENT CARE",
+    "code": "D016",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "COLLEGE/SCHOLARSHIP SAVINGS PLANS",
+    "code": "D017",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "COMPANY PRODUCTS/MERCHANDISE",
+    "code": "D018",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "COMPUTER LOANS",
+    "code": "D019",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "CREDIT CARD ACCOUNTS",
+    "code": "D020",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "CREDIT UNION",
+    "code": "D021",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "DEDUCTIONS AS CONDITION OF EMPLOY",
+    "code": "D009",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "DEFERRED COMPENSATION PLANS",
+    "code": "D022",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "DENTAL INSURANCE",
+    "code": "D008",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "DISABILITY INSURANCE",
+    "code": "D004",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "DISABILITY INSURANCE DEP CHILD",
+    "code": "D011",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "DRUG TESTING / MEDICAL EXAM",
+    "code": "D063",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "DUES/FEES",
+    "code": "D023",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "EMPLOYEE LOANS",
+    "code": "D025",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "EMPLOYEE SAVINGS",
+    "code": "D024",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "EMPLOYER LOANS",
+    "code": "D026",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "EQUIPMENT",
+    "code": "D027",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "FLEXIBLE SPENDING ACCOUNTS",
+    "code": "D028",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "FLOWER FUNDS",
+    "code": "D029",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "GARNISHMENT ADJUSTMENT-DECREASE",
+    "code": "D064",
+    "planClass": "",
+    "startDate": 20160101
+  },
+  {
+    "type": "D",
+    "description": "GIFTS",
+    "code": "D030",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "GOVT EMP RETIREMENT LOANS (UVI)",
+    "code": "D031",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "HEALTH FOR DEPENDENT CHILD",
+    "code": "D005",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "HEALTH INSURANCE",
+    "code": "D002",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "HOMEOWNERS  INSURANCE",
+    "code": "D032",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "INITIATION FEE",
+    "code": "D006",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "LEGAL DEFENSE FUND",
+    "code": "D033",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "LEGAL EXPENSE INSURANCE",
+    "code": "D034",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "LIFE INSURANCE",
+    "code": "D003",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "LIFE INSURANCE DEPENDENT CHILD",
+    "code": "D010",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "MANDATORY RETIREMENT CONTRIBUTION",
+    "code": "D062",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "MEALS",
+    "code": "D035",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "MEDICAL EXPENSE PLANS",
+    "code": "D036",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "MENTAL HEALTH COVERAGE",
+    "code": "D060",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "MENTAL HLTH COVERAGE FOR DEPENDENT",
+    "code": "D061",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "MISCELLANEOUS",
+    "code": "D037",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "NMSN - ALL HEALTH",
+    "code": "D065",
+    "planClass": "",
+    "startDate": 20180101
+  },
+  {
+    "type": "D",
+    "description": "NMSN - DENTAL",
+    "code": "D067",
+    "planClass": "",
+    "startDate": 20180101
+  },
+  {
+    "type": "D",
+    "description": "NMSN - MEDICAL",
+    "code": "D066",
+    "planClass": "",
+    "startDate": 20180101
+  },
+  {
+    "type": "D",
+    "description": "NMSN - MENTAL HEALTH",
+    "code": "D070",
+    "planClass": "",
+    "startDate": 20180101
+  },
+  {
+    "type": "D",
+    "description": "NMSN - OTHER",
+    "code": "D071",
+    "planClass": "",
+    "startDate": 20180101
+  },
+  {
+    "type": "D",
+    "description": "NMSN - PRESCRIPTION DRUG",
+    "code": "D069",
+    "planClass": "",
+    "startDate": 20180101
+  },
+  {
+    "type": "D",
+    "description": "NMSN - VISION",
+    "code": "D068",
+    "planClass": "",
+    "startDate": 20180101
+  },
+  {
+    "type": "D",
+    "description": "PARKING",
+    "code": "D038",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "PERSONAL LOANS",
+    "code": "D039",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "POLITICAL/CAMPAIGN CONTRIBUTIONS",
+    "code": "D040",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "PRESCRIPTION DRUG",
+    "code": "D058",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "PRESCRIPTION DRUG FOR DEPENDENTS",
+    "code": "D059",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "PROFIT SHARING INCENTIVE PLAN LOANS",
+    "code": "D041",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "PUBLIC RADIO STATION CONTRIBUTIONS",
+    "code": "D042",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "SALARY ADVANCE",
+    "code": "D043",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "SALARY RESERVE",
+    "code": "D044",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "SAVINGS BOND",
+    "code": "D045",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "SERVICE CREDIT PURCHASE",
+    "code": "D046",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "THRIFT SAVINGS PLAN LOANS",
+    "code": "D047",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "TICKETS (ATHLETIC/ENTERTAINMENT)",
+    "code": "D048",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "TRANSIT/TRANSPORTATION",
+    "code": "D049",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "TUITION/BOOK FEES",
+    "code": "D050",
+    "planClass": "",
+    "startDate": 20030101
+  },
+  {
+    "type": "D",
+    "description": "UNAUTHORIZED/UNPAID LEAVE",
+    "code": "D051",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "UNIFORMS",
+    "code": "D052",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "UNION DUES",
+    "code": "D001",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "UNITED WAY",
+    "code": "D053",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "VEHICLE TAX",
+    "code": "D054",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "VISION COVERAGE",
+    "code": "D056",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "VISION COVERAGE FOR DEPENDENTS",
+    "code": "D057",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "D",
+    "description": "WELLNESS CENTER",
+    "code": "D055",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "E",
+    "description": "3RD PARTY SICK PAY - IN HOUSE PLAN",
+    "code": "E060",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "E",
+    "description": "3RD PARTY SICK PAY - OUTSIDE VENDOR",
+    "code": "E065",
+    "planClass": "",
+    "startDate": 20130101
+  },
+  {
+    "type": "E",
+    "description": "ADOPTION ASSIST-CHILD 1 (SEC 125)",
+    "code": "E074",
+    "planClass": "",
+    "startDate": 20150101
+  },
+  {
+    "type": "E",
+    "description": "ADOPTION ASSIST-CHILD 2 (SEC 125)",
+    "code": "E075",
+    "planClass": "",
+    "startDate": 20150101
+  },
+  {
+    "type": "E",
+    "description": "ADOPTION ASSIST-CHILD 3 (SEC 125)",
+    "code": "E076",
+    "planClass": "",
+    "startDate": 20150101
+  },
+  {
+    "type": "E",
+    "description": "ATHLETIC FACILITIES",
+    "code": "E003",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "BACK PAY",
+    "code": "E005",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "BELOW MARKET LOANS TO EMPLOYEES",
+    "code": "E025",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "BONUSES",
+    "code": "E006",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "BUSINESS EXPENSES",
+    "code": "E007",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "BUSINESS USE OF COMPANY CAR",
+    "code": "E018",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "COMMISSIONS",
+    "code": "E010",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "COVID-19 EMERGENCY EXP F&M LEAVE-DP",
+    "code": "E090",
+    "planClass": "",
+    "startDate": 20200401
+  },
+  {
+    "type": "E",
+    "description": "COVID-19 EMERGENCY PD SICK LEAVE-DP",
+    "code": "E089",
+    "planClass": "",
+    "startDate": 20200401
+  },
+  {
+    "type": "E",
+    "description": "COVID-19 EMERGENCY PD SICK LEAVE-EE",
+    "code": "E088",
+    "planClass": "",
+    "startDate": 20200401
+  },
+  {
+    "type": "E",
+    "description": "DIFFERENTIAL PAY-ACT DUTY MILITARY",
+    "code": "E068",
+    "planClass": "",
+    "startDate": 20090101
+  },
+  {
+    "type": "E",
+    "description": "DISCOUNTS",
+    "code": "E013",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "DISMISSAL/SEVERANCE",
+    "code": "E014",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "EDUCATIONAL ASSISTANCE (SEC 127)",
+    "code": "E015",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "EMPLOYEE ADULT CHILD HLTH INSURANCE",
+    "code": "E070",
+    "planClass": "",
+    "startDate": 20100330
+  },
+  {
+    "type": "E",
+    "description": "EMPLOYER ADULT CHILD HLTH INSURANCE",
+    "code": "E071",
+    "planClass": "",
+    "startDate": 20100330
+  },
+  {
+    "type": "E",
+    "description": "EMPLOYMENT AGENCY",
+    "code": "E016",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "ER PREMIUM SAME-SEX PARTNER DENTAL",
+    "code": "E073",
+    "planClass": "",
+    "startDate": 20120101
+  },
+  {
+    "type": "E",
+    "description": "ER PREMIUM SAME-SEX PARTNER MEDICAL",
+    "code": "E072",
+    "planClass": "",
+    "startDate": 20120101
+  },
+  {
+    "type": "E",
+    "description": "ER PREMIUM SAME-SEX PARTNER VISION",
+    "code": "E078",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "GARNISHMENT ADJUSTMENT-INCREASE",
+    "code": "E083",
+    "planClass": "",
+    "startDate": 20160101
+  },
+  {
+    "type": "E",
+    "description": "GIFTS",
+    "code": "E009",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "GOLDEN PARACHUTE",
+    "code": "E021",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "GROUP LEGAL SERVICES",
+    "code": "E022",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "GROUP TERM LIFE G.T. 50000",
+    "code": "E048",
+    "planClass": "",
+    "startDate": 20000101
+  },
+  {
+    "type": "E",
+    "description": "GUARANTEED WAGE",
+    "code": "E023",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "INCOME UNDER SECTION 409A",
+    "code": "E051",
+    "planClass": "",
+    "startDate": 20050101
+  },
+  {
+    "type": "E",
+    "description": "JURY DUTY PAY",
+    "code": "E024",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "MEALS AND LODGING",
+    "code": "E026",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "MINIMUM WAGE MAKEUP",
+    "code": "E087",
+    "planClass": "",
+    "startDate": 20190101
+  },
+  {
+    "type": "E",
+    "description": "MINISTERS HOUSING ALLOWANCE",
+    "code": "E049",
+    "planClass": "",
+    "startDate": 20000101
+  },
+  {
+    "type": "E",
+    "description": "N.Q. PLAN AWARDS AND PRIZES",
+    "code": "E004",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "NO ADDITIONAL COST SERVICES",
+    "code": "E020",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "NON CASH FRINGE",
+    "code": "E029",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "OUTPLACEMENT SERVICES",
+    "code": "E030",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "OVERTIME",
+    "code": "E031",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "PAY ADVANCES",
+    "code": "E002",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "PERSONAL USE OF COMPANY CAR",
+    "code": "E019",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "PRE EMPLOYMENT REIMBURSEMENT",
+    "code": "E033",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "PROBATIONARY PAY",
+    "code": "E034",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "QSEHRA FAMILY",
+    "code": "E082",
+    "planClass": "",
+    "startDate": 20170101
+  },
+  {
+    "type": "E",
+    "description": "QSEHRA SINGLE",
+    "code": "E081",
+    "planClass": "",
+    "startDate": 20170101
+  },
+  {
+    "type": "E",
+    "description": "QUALIFIED EQUIPMENT/TOOL/UNIFORM",
+    "code": "E017",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "QUALIFIED MOVING EXP-AF ACTIVE DUTY",
+    "code": "E085",
+    "planClass": "",
+    "startDate": 20180101
+  },
+  {
+    "type": "E",
+    "description": "QUALIFIED MOVING EXPENSES",
+    "code": "E028",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "QUALIFIED PARKING",
+    "code": "E032",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "REGULAR WAGES",
+    "code": "E035",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "SCHOLARSHIPS",
+    "code": "E036",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "SEVERANCE PAY - OTHER",
+    "code": "E077",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "SICK/DISABILITY PAY",
+    "code": "E037",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "STANDBY/IDLE TIME",
+    "code": "E038",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "STOCK PURCHASE & INCENTIVE PLAN",
+    "code": "E039",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "SUPPER MONEY",
+    "code": "E040",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "SUPPLEMENTAL MILITARY PAY",
+    "code": "E027",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "SUPPLEMENTAL UNEMPLOYMENT",
+    "code": "E041",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "TAXES PAID BY EMPLOYER",
+    "code": "E042",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "TIPS",
+    "code": "E043",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "TIPS ALTERNATE EMPLOYER RULE",
+    "code": "E079",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "TRANSPORTATION CHV",
+    "code": "E052",
+    "planClass": "",
+    "startDate": 20060101
+  },
+  {
+    "type": "E",
+    "description": "TRAVEL EXPENSE REIMBURSEMENT",
+    "code": "E044",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "TUITION REDUCTION (SEC 117)",
+    "code": "E045",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "TUITION REIMBURSEMENT (SEC 132)",
+    "code": "E080",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "UNION PAYMENT",
+    "code": "E046",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "VACATION PAY",
+    "code": "E047",
+    "planClass": "",
+    "startDate": 19960101
+  },
+  {
+    "type": "E",
+    "description": "YOUNG RESIDENT EE EXEMPT WAGES",
+    "code": "E084",
+    "planClass": "",
+    "startDate": 20170101
+  },
+  {
+    "type": "P",
+    "description": "401K",
+    "code": "P001",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "401K (SEC 125)",
+    "code": "P062",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "401K ROTH",
+    "code": "P016",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "403B",
+    "code": "P002",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "403B ROTH",
+    "code": "P017",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "408K",
+    "code": "P003",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "409A N.Q. DEFERRED COMPENSATION",
+    "code": "P029",
+    "planClass": "DI",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "409A NQDC VESTED PLAN",
+    "code": "P030",
+    "planClass": "DI",
+    "startDate": 20140101
+  },
+  {
+    "type": "P",
+    "description": "457B STATE AND LOCAL GOVMNT",
+    "code": "P004",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "457B TAX EXEMPT ENTITY",
+    "code": "P022",
+    "planClass": "DI",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "457F N.Q. DEFERRED COMPENSATION",
+    "code": "P025",
+    "planClass": "DI",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "7701J",
+    "code": "P005",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "7701J ROTH",
+    "code": "P055",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "CALSAVERS (AGE 50 AND OVER)",
+    "code": "P066",
+    "planClass": "DI",
+    "startDate": 20190701
+  },
+  {
+    "type": "P",
+    "description": "CALSAVERS (UP TO AGE 50)",
+    "code": "P065",
+    "planClass": "DI",
+    "startDate": 20190701
+  },
+  {
+    "type": "P",
+    "description": "CASH OUT (SEC 125)",
+    "code": "P012",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "COMMUTER BENEFITS/SALARY REDUCTION",
+    "code": "P023",
+    "planClass": "DI",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "COST OF ER-SPONSORED PLAN COVERAGE",
+    "code": "P056",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "DENTAL INSURANCE (SEC 125)",
+    "code": "P007",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "DEPENDENT CARE FILING SEP (SEC 125)",
+    "code": "P010",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "DEPENDENT CARE MARRIED (SEC 125)",
+    "code": "P011",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "FSA HEALTH",
+    "code": "P024",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "GROUP TERM LIFE (SEC 125)",
+    "code": "P008",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "HEALTH INSURANCE (SEC 125)",
+    "code": "P009",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "HSA FAMILY (NON-SEC 125)",
+    "code": "P054",
+    "planClass": "DI",
+    "startDate": 20160102
+  },
+  {
+    "type": "P",
+    "description": "HSA FAMILY (SEC 125)",
+    "code": "P021",
+    "planClass": "CP",
+    "startDate": 20160102
+  },
+  {
+    "type": "P",
+    "description": "HSA SELF-ONLY (SEC 125)",
+    "code": "P020",
+    "planClass": "CP",
+    "startDate": 20160102
+  },
+  {
+    "type": "P",
+    "description": "HSA SINGLE (NON-SEC 125)",
+    "code": "P053",
+    "planClass": "DI",
+    "startDate": 20160102
+  },
+  {
+    "type": "P",
+    "description": "IL SEC CHOICE (AGE 50 AND OVER)",
+    "code": "P068",
+    "planClass": "DI",
+    "startDate": 20190101
+  },
+  {
+    "type": "P",
+    "description": "IL SEC CHOICE (UP TO AGE 50)",
+    "code": "P067",
+    "planClass": "DI",
+    "startDate": 20190101
+  },
+  {
+    "type": "P",
+    "description": "OREGONSAVES (AGE 50 AND OVER)",
+    "code": "P064",
+    "planClass": "DI",
+    "startDate": 20171016
+  },
+  {
+    "type": "P",
+    "description": "OREGONSAVES (UP TO AGE 50)",
+    "code": "P063",
+    "planClass": "DI",
+    "startDate": 20171016
+  },
+  {
+    "type": "P",
+    "description": "QUALIFIED PARKING",
+    "code": "P018",
+    "planClass": "DI",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "ROTH 457B",
+    "code": "P026",
+    "planClass": "DI",
+    "startDate": 20200101
+  },
+  {
+    "type": "P",
+    "description": "SAME-SEX PARTNER DNTL INS (SEC 125)",
+    "code": "P057",
+    "planClass": "CP",
+    "startDate": 20130916
+  },
+  {
+    "type": "P",
+    "description": "SAME-SEX PARTNER MED INS (SEC 125)",
+    "code": "P059",
+    "planClass": "CP",
+    "startDate": 20130916
+  },
+  {
+    "type": "P",
+    "description": "SAME-SEX PARTNER VISION",
+    "code": "P061",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "SECTION 125",
+    "code": "P006",
+    "planClass": "CP",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "SIMPLE 401K",
+    "code": "P014",
+    "planClass": "DI",
+    "startDate": 20160102
+  },
+  {
+    "type": "P",
+    "description": "SIMPLE IRA 408P",
+    "code": "P031",
+    "planClass": "DI",
+    "startDate": 20160102
+  },
+  {
+    "type": "P",
+    "description": "TRANSPORTATION CHV",
+    "code": "P019",
+    "planClass": "DI",
+    "startDate": 20130101
+  },
+  {
+    "type": "P",
+    "description": "VISION INSURANCE (SEC 125)",
+    "code": "P060",
+    "planClass": "CP",
+    "startDate": 20130101
+  }
+]

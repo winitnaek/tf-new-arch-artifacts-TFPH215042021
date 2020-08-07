@@ -1,0 +1,171 @@
+[
+  
+ 
+{
+    "id": "Override API Message",
+    "placeholder": " ",
+    "fieldtype": "select",
+    "label": "overrideAPIMessage",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "0- N/A",
+            "1- Information",
+            "2- Legal",
+            "3- Severe",
+            "4- Fatal"
+ ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  },
+{
+    "id": "writeMessagesToDatabase",
+    "placeholder": " ",
+    "fieldtype": "select",
+    "label": "Write Messages To Database",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "Yes",
+            "No"
+ ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  },
+
+ {
+    "id": "calculatedLocalTaxInRESOrNRES",
+    "placeholder": " ",
+    "fieldtype": "select",
+    "label": "Calculated Local Tax in RES or NRES",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "0 - Resident Tax Records win tie",
+            "1 - Nonresident Tax Record wins tie"
+           ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  },
+{
+    "id": "auditDataChanges",
+    "placeholder": " ",
+    "fieldtype": "select",
+    "label": "Audit Data Changes",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "Yes",
+            "No"
+ ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  },
+
+ {
+    "id": "recip.OverrideOfRes.TaxableWages",
+    "placeholder": " ",
+    "fieldtype": "select",
+    "label": "Recip. Override of Res. Taxable Wages",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "No",
+            "Yes"
+ ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  }
+
+
+]

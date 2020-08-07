@@ -1,0 +1,8 @@
+{
+  "value": "UQ",
+  "label": "All Mapped Tax Codes With County",
+  "desc": "All Mapped Tax Codes With County",
+  "id": "allMappedTaxCodesWithCounty",
+  "type": "comp",
+  "link": false
+}

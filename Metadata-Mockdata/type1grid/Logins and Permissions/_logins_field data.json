@@ -1,0 +1,214 @@
+[
+  
+  {
+      "id":"loginName",
+      "placeholder":"Enter Login Name",
+      "fieldtype":"text",
+      "label":"Login Name",
+      "value":"",
+      "errmsg":"Login Name is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Street Name needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+ {
+      "id":"password",
+      "placeholder":"Enter Password",
+      "fieldtype":"text",
+      "label":"Password",
+      "value":"",
+      "errmsg":"Password is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Street Name needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+{
+      "id":"confirmPassword",
+      "placeholder":"Confirm Password",
+      "fieldtype":"text",
+      "label":"Confirm Password",
+      "value":"",
+      "errmsg":"Confirm Password is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Street Name needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+
+{
+    "id": "manageLogins",
+    "placeholder": " ",
+    "fieldtype": "select",
+    "label": "Manage Logins",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "Yes",
+            "No"
+ ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  },
+{
+    "id": "manageDatasets",
+    "placeholder": " ",
+    "fieldtype": "select",
+    "label": "Manage Datasets",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "Yes",
+            "No"
+ ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  },
+
+ {
+    "id": "userInterfacePermission",
+    "placeholder": " ",
+    "fieldtype": "select",
+    "label": "User Interface Permission",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "Yes",
+            "No"
+ ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  }
+
+
+]

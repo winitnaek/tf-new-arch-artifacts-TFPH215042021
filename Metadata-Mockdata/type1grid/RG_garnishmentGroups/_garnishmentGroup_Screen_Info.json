@@ -1,0 +1,8 @@
+{
+   "value":"GG",
+   "label":"Garnishment Groups",
+   "desc":"Garnishment Groups",
+   "id":"garnishmentGroup",
+   "type":"comp",
+   "link":true
+}

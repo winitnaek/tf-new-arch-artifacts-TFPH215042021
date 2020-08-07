@@ -1,0 +1,96 @@
+{
+	"pgdef": {
+		"pgid": "pensionWhat-If-Test",
+		"pgtitle": "Pension what-If-Test",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new Recipient, or click on existing Recipient to edit.",
+		"actiondel": true,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/pensionWhat-If_Test",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "There are no Recipients defined.",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+            
+            {
+				"text": "Recipient Code",
+				"datafield": "recipientCode",
+				"cellsalign": "center",
+				"width": "33%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+
+            {
+				"text": "Recipient Name",
+				"datafield": "recipientName",
+				"width": "33%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+
+            {
+				"text": "Check Date",
+				"datafield": "checkDate",
+				"cellsalign": "center",
+				"width": "33%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
+           
+		]
+	},
+	"formdef": {
+		"title": "Pension What-If Test",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": true,
+		"hasSaveAs": true,
+		"hasViewPDF": true,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+            {
+				"id": "recipientCode",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            
+            {
+				"id": "recipientName",
+				"order": 2,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "checkDate",
+				"order": 3,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			}
+            
+		],
+		"fltrflds": ""
+	}
+}

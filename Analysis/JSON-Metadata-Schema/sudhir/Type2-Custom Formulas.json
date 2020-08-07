@@ -1,0 +1,63 @@
+﻿{
+	"pgdef": {
+		"pgid": "Custom Formulas",
+		"pgtitle": "Custom Formulas",
+		"pgsubtitle":"Click on the Custom Tax Name to manage the Formula.",
+		"flowtype": "flowtype2",
+		"parentConfig": {
+			"parentFlow": "customTaxCode",
+			"parentTitle": "Custom Formulas",
+			"parentWithDataTitle": "Click on the Custom Tax Name to manage the Formula."
+		},
+		"hasAddNew": false,
+		"addNewLabel": "",
+		"actiondel": "false"
+	},
+	"griddef": { /*child grid*/
+		"gridtype": "type1",
+		"filtergrid": true,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"columns": [
+			{
+				"text": "Custom Tax Code - Name",
+				"datafield": "customFormulaName",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+						"customFormulaName": "gfg name",						
+						"editMode":"1"
+					}
+				],
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Custom Tax Name",
+				"datafield": "customTaxName",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true
+			}
+		],
+		"dataFields":[
+			{"name": "customTaxCode","type": "string"},
+			{"name": "customTaxName","type": "string"}
+		]
+	},
+	"cruddef": {
+		"title":"Custom Formulas",
+		"sbutitle":"Formula for GDFG (dfgdfgfd)",
+		"hasSave":true,
+		"hasDelete":true,
+		"hasSaveAs":false,
+		"hasDelete":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

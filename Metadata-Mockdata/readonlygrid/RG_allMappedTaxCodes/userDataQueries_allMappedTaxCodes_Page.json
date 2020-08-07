@@ -1,0 +1,105 @@
+{
+  "pgdef": {
+    "pgid": "allMappedTaxCodes",
+    "pgtitle": "All Mapped Tax Codes",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/allMappedTaxCodes",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "User Code",
+        "datafield": "taxcode",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "BSI Code",
+        "datafield": "bSICode",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Authority Name",
+        "datafield": "authorityName",
+        "cellsalign": "left",
+        "width": "40%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Preferred",
+        "datafield": "preferred",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      {
+        "name": "taxcode",
+        "type": "string"
+      },
+      {
+        "name": "bSICode",
+        "type": "string",
+        "map":"btxauth>bsiauth"
+      },
+      {
+        "name": "authorityName",
+        "type": "string",
+        "map":"btxauth>name"
+      },
+      {
+        "name": "preferred",
+        "type": "string"
+      }
+    ]
+  },
+
+  "formdef": {
+    "title": "All Mapped Tax Codes",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": " ",
+
+    "fltrflds": ""
+  }
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "userCode": "BSI00010000",
+    "bsiCode": "00010000",
+    "authorityName": "ALABAMA",
+    "perferred": "N",
+    "authorityTitle": "STATE",
+    "countyId": ""
+  },
+  {
+    "userCode": "BSI00010001",
+    "bsiCode": "00010001",
+    "authorityName": "ATTALLA",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "ETOWAH"
+  },
+  {
+    "userCode": "BSI00010002",
+    "bsiCode": "00010002",
+    "authorityName": "BESSEMER",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "JEFFERSON"
+  },
+  {
+    "userCode": "BSI00010003",
+    "bsiCode": "00010003",
+    "authorityName": "BRILLIANT",
+    "perferred": "N",
+    "authorityTitle": "TOWN",
+    "countyId": "MARION"
+  },
+  {
+    "userCode": "BSI00010004",
+    "bsiCode": "00010004",
+    "authorityName": "GADSDEN",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "ETOWAH"
+  },
+  {
+    "userCode": "BSI00010005",
+    "bsiCode": "00010005",
+    "authorityName": "GOODWATER",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "COOSA"
+  },
+  {
+    "userCode": "BSI00010006",
+    "bsiCode": "00010006",
+    "authorityName": "GLENCOE",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "ETOWAH"
+  },
+  {
+    "userCode": "BSI00010007",
+    "bsiCode": "00010007",
+    "authorityName": "GUIN",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "MARION"
+  },
+  {
+    "userCode": "BSI00010008",
+    "bsiCode": "00010008",
+    "authorityName": "HAMILTON",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "MARION"
+  },
+  {
+    "userCode": "BSI00010009",
+    "bsiCode": "00010009",
+    "authorityName": "MOUNTAIN BROOK",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "JEFFERSON"
+  },
+  {
+    "userCode": "BSI00010010",
+    "bsiCode": "00010010",
+    "authorityName": "OPELIKA",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "LEE"
+  },
+  {
+    "userCode": "BSI00010011",
+    "bsiCode": "00010011",
+    "authorityName": "RAINBOW CITY",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "ETOWAH"
+  },
+  {
+    "userCode": "BSI00010012",
+    "bsiCode": "00010012",
+    "authorityName": "SOUTHSIDE",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "ETOWAH"
+  },
+  {
+    "userCode": "BSI00010013",
+    "bsiCode": "00010013",
+    "authorityName": "TUSKEGEE",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "MACON"
+  },
+  {
+    "userCode": "BSI00010014",
+    "bsiCode": "00010014",
+    "authorityName": "RED BAY",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "FRANKLIN"
+  },
+  {
+    "userCode": "BSI00010015",
+    "bsiCode": "00010015",
+    "authorityName": "HALEYVILLE",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "WINSTON"
+  },
+  {
+    "userCode": "BSI00010016",
+    "bsiCode": "00010016",
+    "authorityName": "HACKLEBURG",
+    "perferred": "N",
+    "authorityTitle": "TOWN",
+    "countyId": "MARION"
+  },
+  {
+    "userCode": "BSI00010073",
+    "bsiCode": "00010073",
+    "authorityName": "AUBURN",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "LEE"
+  },
+  {
+    "userCode": "BSI00010074",
+    "bsiCode": "00010074",
+    "authorityName": "BEAR CREEK",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "MARION"
+  },
+  {
+    "userCode": "BSI00010075",
+    "bsiCode": "00010075",
+    "authorityName": "SULLIGENT",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "LAMAR"
+  },
+  {
+    "userCode": "BSI00010076",
+    "bsiCode": "00010076",
+    "authorityName": "MACON",
+    "perferred": "N",
+    "authorityTitle": "COUNTY",
+    "countyId": "MACON"
+  },
+  {
+    "userCode": "BSI00010501",
+    "bsiCode": "00010501",
+    "authorityName": "BIRMINGHAM",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "JEFFERSON"
+  },
+  {
+    "userCode": "BSI00010521",
+    "bsiCode": "00010521",
+    "authorityName": "JEFFERSON",
+    "perferred": "N",
+    "authorityTitle": "COUNTY",
+    "countyId": "JEFFERSON"
+  },
+  {
+    "userCode": "BSI00010522",
+    "bsiCode": "00010522",
+    "authorityName": "BEAVERTON",
+    "perferred": "N",
+    "authorityTitle": "TOWN",
+    "countyId": "LAMAR"
+  },
+  {
+    "userCode": "BSI00010523",
+    "bsiCode": "00010523",
+    "authorityName": "LEEDS",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "JEFFERSON"
+  },
+  {
+    "userCode": "BSI00010524",
+    "bsiCode": "00010524",
+    "authorityName": "LEEDS",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "ST. CLAIR"
+  },
+  {
+    "userCode": "BSI00010525",
+    "bsiCode": "00010525",
+    "authorityName": "LEEDS",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "SHELBY"
+  },
+  {
+    "userCode": "BSI00010526",
+    "bsiCode": "00010526",
+    "authorityName": "LYNN",
+    "perferred": "N",
+    "authorityTitle": "TOWN",
+    "countyId": "WINSTON"
+  },
+  {
+    "userCode": "BSI00010527",
+    "bsiCode": "00010527",
+    "authorityName": "MOSSES",
+    "perferred": "N",
+    "authorityTitle": "TOWN",
+    "countyId": "LOWNDES"
+  },
+  {
+    "userCode": "BSI00010528",
+    "bsiCode": "00010528",
+    "authorityName": "SHORTER",
+    "perferred": "N",
+    "authorityTitle": "TOWN",
+    "countyId": "MACON"
+  },
+  {
+    "userCode": "BSI00010529",
+    "bsiCode": "00010529",
+    "authorityName": "NOTASULGA",
+    "perferred": "N",
+    "authorityTitle": "TOWN",
+    "countyId": "MACON"
+  },
+  {
+    "userCode": "BSI00010530",
+    "bsiCode": "00010530",
+    "authorityName": "BIRMINGHAM",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "SHELBY"
+  },
+  {
+    "userCode": "BSI00010531",
+    "bsiCode": "00010531",
+    "authorityName": "FAIRFIELD",
+    "perferred": "N",
+    "authorityTitle": "CITY",
+    "countyId": "JEFFERSON"
+  }
+]

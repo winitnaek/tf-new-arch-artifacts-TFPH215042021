@@ -1,0 +1,160 @@
+{
+	"pgdef": 
+	{
+		"pgid": "userDataQueries",
+		"pgtitle": "User Data Queries",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/userDataQueries",
+		"parentConfig": ""
+	},
+	
+	 "Pagelinks": 
+		[
+				  { 
+					"name"  : "Tax Authority",
+					"pageId": "tax Authority"
+				  }, 
+				  {
+					"name"  : "Custom Taxes",
+					"pageId": "customTaxes"
+				  },
+				  {
+					"name"  : "BSI Taxes",
+					"pageId": "bSITaxes"				  
+				  },
+				  {
+					"name"  : "Tax Types",
+					"pageId": "taxTypes"					  
+				  },
+				  {
+					"name"  : "Employee Groups",
+					"pageId": "employeeGroups"					  
+				  },
+				  {
+				    "name"  : "Garnishment Groups",
+					"pageId": "garnishment Groups"
+				  },
+				  {
+				    "name"  : "Disposable Overrides",
+					"pageId": "disposableOverrides"				 
+				  },
+				  {
+				    "name"  : "Custom Garnishments",
+					"pageId": "customGarnishments"				  
+				  },
+				  {
+				    "name"  : "Garnishment Formula Override",
+					"pageId": "garnishmentFormulaOverride"
+				  },
+				  {
+				    "name"  : "All Mapped Tax Types",
+					"pageId": "allMappedTaxTypes"				  
+				  },
+				  {
+				    "name"  : "All Mapped Tax Codes",
+					"pageId": "allMappedTaxCodes"				  
+				  }, 
+				  {
+					"name"  :  "All Mapped Pay Codes",
+					"pageId":  "allMappedPayCodes"
+				  }, 
+				  {
+					"name"  :  "Companies",
+					"pageId":  "companies"				  
+				  },
+				  {
+					"name"  :  "Experience Rates",
+					"pageId":  "experienceRates"				  
+				  },
+				  {
+					"name"  :  "Supplemental Methods",
+					"pageId":  "supplementalMethods"				  
+				  },
+				  {
+					"name"  :  "All Mapped Pay Codes",
+					"pageId":  "allMappedPayCodes"				  
+				  },
+				  {
+					"name"  :  "Marital Status",
+					"pageId":  "maritalStatus"				  
+				  },
+				  {
+					"name"  :  "Resident/Work Validation",
+					"pageId":  "resident/WorkValidation"				  
+				  },
+				  {
+					"name"  :  "Unemployment",
+					"pageId":  "unemployment"				  
+				  },
+				  {
+					"name"  :  "Populated V3 States",
+					"pageId":  "populatedV3States"				  
+				  },
+				  {
+					"name"  :  "Monthly/Quarterly Tax Type",
+					"pageId":  "monthly/QuarterlyTaxType"				  
+				  }, 
+				  {
+					"name"  :  "Taxability for Authority",
+					"pageId":  "taxabilityForAuthority"					  
+				  },
+				  {
+					"name"  :  "Custom Taxability for Authority",
+					"pageId":  "customTaxabilityForAuthority"					  
+				  },
+				  {
+					"name"  :  "Custom Overrides for Authority",
+					"pageId":  "customOverridesForAuthority"					  
+				  },
+				  {
+					"name"  :  "Custom Garnishment Formula",
+					"pageId":  "customGarnishmentFormula"					  
+				  },
+				  {
+					"name"  :  "All BSI Plans",
+					"pageId":  "allBSIPlans"					  
+				  },
+				  {
+					"name"  :  "Garnishments Requiring Filing Status",
+					"pageId":  "garnishmentsRequiringFilingStatus"					  
+				  },
+				  {
+					"name"  :  "Ordered-Percent Garnishments",
+					"pageId":  "ordered-PercentGarnishments"					  
+				  },
+				  {
+					"name"  :  "Valid Tax Formulas",
+					"pageId":  "validTaxFormulas"					  
+				  },
+				  {
+                    "name"  :  "All Mapped Tax Codes With County",
+					"pageId":  "allMappedTaxCodesWithCounty"	
+				  },
+				  {
+					"name"  :  "Wage Limits By Authority And Tax Type",
+					"pageId":  "wageLimitsByAuthorityAndTaxType"					  
+				  },
+				  {
+					"name"  :  "Garnishment Disposable Wages",
+					"pageId":  "garnishmentDisposableWages"					  
+				  },
+				  {
+					"name"  :  "Statement of Exemption Authorities",
+					"pageId":  "statementofExemptionAuthorities"					  
+				  },
+				  {
+					"name"  :  "Minimum Age Taxes",
+					"pageId":  "minimumAgeTaxes"					  
+				  },
+				  {
+					"name"  :  "Garnishment Parameters",
+					"pageId":  "garnishmentParameters"					  
+				  }
+	    ]
+
+}

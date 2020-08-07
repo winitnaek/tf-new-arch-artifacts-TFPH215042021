@@ -1,0 +1,96 @@
+{
+	"pgdef": {
+		"pgid": "what-If-Test",
+		"pgtitle": "what-If-Test",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new Employee, or click on existing Employee to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/what-If_Test",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "There are no Employees defined.",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+            
+            {
+				"text": "Employee Code",
+				"datafield": "employeeCode",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+
+            {
+				"text": "Employee Name",
+				"datafield": "employeeName",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+
+            {
+				"text": "Check Date",
+				"datafield": "checkDate",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
+           
+		]
+	},
+	"formdef": {
+		"title": "What-If Test",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": true,
+		"hasSaveAs": true,
+		"hasViewPDF": true,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+            {
+				"id": "employeeCode",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            
+            {
+				"id": "employeeName",
+				"order": 2,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "checkDate",
+				"order": 3,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			}
+            
+		],
+		"fltrflds": ""
+	}
+}

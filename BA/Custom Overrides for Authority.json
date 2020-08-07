@@ -1,0 +1,194 @@
+{
+	"pgdef": {
+		"pgid": "customOverridesForAuthority",
+		"pgtitle": "Custom Overrides for Authority",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/customOverridesForAuthority",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+
+			{
+				"text": "Tax Type",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Description",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Override",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Group Code",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Description",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},			
+			{
+				"text": "Pay Type",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Earn/Pay Code",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Description",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Employee Limit",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Employer Limit",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "7%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Class",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Freq",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Start Date",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "7%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},			
+			{
+                "text": "End Date",
+                "datafield": "attribute",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "7%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "Tax Type","type": "string"},
+		  {"name": "Description","type": "string"},
+		  {"name": "Override","type": "string"},
+		  {"name": "Group Code","type": "string"},
+		  {"name": "Description","type": "string"},
+		  {"name": "Pay Type","type": "string"},
+		  {"name": "Earn/Pay Code","type": "string"},
+		  {"name": "Description","type": "string"},
+		  {"name": "Employee Limit","type": "string"},
+		  {"name": "Employer Limit","type": "string"},
+		  {"name": "Class","type": "string"},
+		  {"name": "Freq","type": "string"},
+		  {"name": "Start Date","type": "string"},
+		  {"name": "End Date","type": "string"}
+		  ]
+	},
+	"cruddef": {
+		"title":"Custom Overrides for Authority",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

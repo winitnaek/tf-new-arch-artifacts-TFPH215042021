@@ -1,0 +1,22 @@
+attribute,value
+Tax Code,BSI00010000
+User Tax Type,BSI502
+Start Date,20200101
+End Date,20201231
+Input Amount Indicator,Use Flat Amount
+Flat Amount,10
+Percent,2
+Priority,0
+Exemption Indicator,No exemptions
+Ex Flat Amount,0
+Exemption Amount,0
+Ex Dependent Amount,0
+Calc Method,No calculation  (take result of Input Section and Exemption Section)
+Calc Percent,0
+Calc Amount,0
+Calc Limit,0
+Deduction Indicator,No deductions
+Ded Flat Amount,0
+Deduction Amount,0
+Ded Dependent Amount,0
+Statement of Exemptions,0

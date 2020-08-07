@@ -1,0 +1,378 @@
+{
+  pgdef: {
+    pgid: "maritalStatus",
+    pgtitle: "Marital Status",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/maritalStatus",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Authority",
+        datafield: "authority",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Tax Type",
+        datafield: "taxType",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Formula",
+        datafield: "formula",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Start Date",
+        datafield: "startDate",
+        cellsalign: "center",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "End Date",
+        datafield: "endDate",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Single",
+        datafield: "single",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Married",
+        datafield: "married",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Separate",
+        datafield: "separate",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Two Working",
+        datafield: "twoWorking",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "One Working",
+        datafield: "oneWorking",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Head of Household",
+        datafield: "headOfHousehold",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Multiple Employers",
+        datafield: "multipleEmployers",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Widow/Widower",
+        datafield: "widow/widower",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Not Living w. Spouse",
+        datafield: "notLivingW.Spouse",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Claim Half/Joint",
+        datafield: "claimHalf/joint",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Claim All/Separate",
+        datafield: "claimAll/separate",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Claim None/Joint",
+        datafield: "claimNone/joint",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Living With Spouse",
+        datafield: "livingWithSpouse",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Single Tax Rate",
+        datafield: "singleTaxRate",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Civil Union",
+        datafield: "civilUnion",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "CU/Single Tax Rate",
+        datafield: "cu/singleTaxRate",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Spouse is Nonres Alien",
+        datafield: "riskClass",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Married 19",
+        datafield: "married19",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Married 20",
+        datafield: "married20",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Married 21",
+        datafield: "married21",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": """
+      }
+      {
+        text: "Married 22",
+        datafield: "married22",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Married 23",
+        datafield: "married23",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Married 24",
+        datafield: "married24",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Married 25",
+        datafield: "married25",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+      {
+        text: "Default",
+        datafield: "default",
+        cellsalign: "center",
+        "width": "5%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    dataFields: [
+      { name: "authority", type: "string" },
+      { name: "taxType", type: "string" },
+      { name: "formula", type: "string" },
+      { name: "startDate", type: "string" },
+      { name: "endDate", type: "string" },
+      { name: "single", type: "string" },
+      { name: "married", type: "string" },
+      { name: "separate", type: "string" },
+      { name: "twoWorking", type: "string" },
+      { name: "oneWorking", type: "string" },
+      { name: "headOfHousehold", type: "string" },
+      { name: "multipleEmployers", type: "string" },
+      { name: "widow/widower", type: "string" },
+      { name: "notLivingW.Spouse", type: "string" },
+      { name: "claimAll/joint", type: "string" },
+      { name: "claimHalf/joint", type: "string" },
+      { name: "claimAll/separate", type: "string" },
+      { name: "claimNone/joint", type: "string" },
+      { name: "livingWithSpouse", type: "string" },
+      { name: "singleTaxRate", type: "string" },
+      { name: "civilUnion", type: "string" },
+      { name: "cu/singleTaxRate", type: "string" },
+      { name: "spouseIsNonresAlien", type: "string" },
+      { name: "married19", type: "string" },
+      { name: "married20", type: "string" },
+      { name: "married21", type: "string" },
+      { name: "married22", type: "string" },
+      { name: "married23", type: "string" },
+      { name: "married24", type: "string" },
+      { name: "married25", type: "string" },
+      { name: "default", type: "string" }
+    ]
+  },
+  formdef: {
+    title: "Marital Status",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "authorityCode", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "taxType", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "formula", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "startDate", "order": 4, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
+    ]
+  }
+}

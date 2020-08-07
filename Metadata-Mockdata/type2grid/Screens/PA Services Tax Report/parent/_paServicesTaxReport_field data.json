@@ -1,0 +1,37 @@
+[
+  {
+    "id": "effectiveDate",
+    "placeholder": "",
+    "fieldtype": "date",
+    "label": "Effective Date",
+    "value": "new Date()",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Company Code needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  }
+]

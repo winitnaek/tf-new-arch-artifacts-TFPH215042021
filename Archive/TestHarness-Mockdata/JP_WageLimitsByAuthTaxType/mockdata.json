@@ -1,0 +1,1172 @@
+[
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "003 - EMPLOYEE SOCIAL SECURITY TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "004 - EMPLOYER SOCIAL SECURITY TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "005 - EMPLOYEE MEDICARE TAX",
+    "formula": 1,
+    "startDate": 19940101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "006 - EMPLOYER MEDICARE TAX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 1655,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "055 - EMPLOYEE RAILROAD RTMT TIER1 SOC S",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "056 - EMPLOYEE RAILROAD RTMT TIER2 SOC S",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 102300,
+    "taxRate": 0.05,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "057 - EMPLOYER RAILROAD RTMT TIER1 SOC S",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "058 - EMPLOYER RAILROAD RTMT TIER2 SOC S",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 102300,
+    "taxRate": 0.13,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "059 - EMPLOYEE RAILROAD RTMT TIER1 MEDIC",
+    "formula": 1,
+    "startDate": 19950101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "060 - EMPLOYER RAILROAD RTMT TIER1 MEDIC",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "204 - ER EMPLOYEE RETENTION CREDIT",
+    "formula": 1,
+    "startDate": 20200313,
+    "endDate": 0,
+    "maximumWage": 10000,
+    "taxRate": 0.5,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "206 - ER SOCIAL SECURITY TAX PMT DEFERRAL",
+    "formula": 1,
+    "startDate": 20200327,
+    "endDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "206 - ER SOCIAL SECURITY TAX PMT DEFERRAL",
+    "formula": 2,
+    "startDate": 20200327,
+    "endDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00000000 - FEDERAL",
+    "taxType": "206 - ER SOCIAL SECURITY TAX PMT DEFERRAL",
+    "formula": 3,
+    "startDate": 20200327,
+    "endDate": 0,
+    "maximumWage": 102300,
+    "taxRate": 0.13,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010000 - ALABAMA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 8000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010000 - ALABAMA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 8000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010000 - ALABAMA",
+    "taxType": "013 - ER EMPLMT SECURITY ENHANCMT TX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 8000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010000 - ALABAMA",
+    "taxType": "013 - ER EMPLMT SECURITY ENHANCMT TX",
+    "formula": 2,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 8000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010000 - ALABAMA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010000 - ALABAMA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010000 - ALABAMA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010000 - ALABAMA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010005 - GOODWATER",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "startDate": 19860401,
+    "endDate": 0,
+    "maximumWage": 20000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00010009 - MOUNTAIN BROOK",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "startDate": 20010101,
+    "endDate": 20051231,
+    "maximumWage": 100000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00020000 - ALASKA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 41500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00020000 - ALASKA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 41500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00020000 - ALASKA",
+    "taxType": "020 - EMPLOYEE UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 41500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00020000 - ALASKA",
+    "taxType": "020 - EMPLOYEE UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 41500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00020000 - ALASKA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00020000 - ALASKA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00020000 - ALASKA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00020000 - ALASKA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 20121231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 20151231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "startDate": 20130101,
+    "endDate": 20151231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00040000 - ARIZONA",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 2,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00050000 - ARKANSAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00050000 - ARKANSAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00050000 - ARKANSAS",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "startDate": 20140101,
+    "endDate": 20131231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00050000 - ARKANSAS",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00050000 - ARKANSAS",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00050000 - ARKANSAS",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00050000 - ARKANSAS",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20130102,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20130102,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "startDate": 20190101,
+    "endDate": 20181231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "startDate": 20130102,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "startDate": 20130102,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 1,
+    "startDate": 20200102,
+    "endDate": 0,
+    "maximumWage": 122909,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 2,
+    "startDate": 20200102,
+    "endDate": 0,
+    "maximumWage": 122909,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "048 - EMPLOYEE VOLUNTARY DISABILITY TAX",
+    "formula": 1,
+    "startDate": 20200102,
+    "endDate": 0,
+    "maximumWage": 122909,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "048 - EMPLOYEE VOLUNTARY DISABILITY TAX",
+    "formula": 2,
+    "startDate": 20200102,
+    "endDate": 0,
+    "maximumWage": 122909,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "077 - EMPLOYER VOLUNTARY DISABILITY TAX",
+    "formula": 1,
+    "startDate": 20200102,
+    "endDate": 0,
+    "maximumWage": 122909,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "077 - EMPLOYER VOLUNTARY DISABILITY TAX",
+    "formula": 2,
+    "startDate": 20200102,
+    "endDate": 0,
+    "maximumWage": 122909,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00060000 - CALIFORNIA",
+    "taxType": "081 - DISABILITY INSURANCE VP ASMENT TAX",
+    "formula": 1,
+    "startDate": 20200102,
+    "endDate": 0,
+    "maximumWage": 122909,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 13600,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 13600,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 20100101,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 20100101,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "068 - P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "startDate": 20100101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "069 - P.E.R.S. - MED. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "startDate": 20100102,
+    "endDate": 20100101,
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "078 - UNEMPLOYMENT SURCHARGE TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 13600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "078 - UNEMPLOYMENT SURCHARGE TAX",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 13600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 13600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00080000 - COLORADO",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 13600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00090000 - CONNECTICUT",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 15000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00090000 - CONNECTICUT",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 15000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00090000 - CONNECTICUT",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "startDate": 20160101,
+    "endDate": 20161231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00090000 - CONNECTICUT",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00090000 - CONNECTICUT",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00090000 - CONNECTICUT",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00090000 - CONNECTICUT",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 16500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20200101,
+    "endDate": 0,
+    "maximumWage": 16500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "startDate": 20140101,
+    "endDate": 20131231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "startDate": 20180101,
+    "endDate": 0,
+    "maximumWage": 16500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "startDate": 20180101,
+    "endDate": 0,
+    "maximumWage": 16500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00100000 - DELAWARE",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 2,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "098 - EMPLOYER FAMILY LEAVE INSURANCE TAX",
+    "formula": 1,
+    "startDate": 20190401,
+    "endDate": 0,
+    "maximumWage": 1000000000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00120000 - FLORIDA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20150101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00120000 - FLORIDA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20150101,
+    "endDate": 0,
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00120000 - FLORIDA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 20121231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00120000 - FLORIDA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00120000 - FLORIDA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00120000 - FLORIDA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00120000 - FLORIDA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "startDate": 20170101,
+    "endDate": 0,
+    "maximumWage": 9500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "startDate": 20170101,
+    "endDate": 0,
+    "maximumWage": 9500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "startDate": 20140101,
+    "endDate": 20131231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 1,
+    "startDate": 20170101,
+    "endDate": 0,
+    "maximumWage": 9500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 2,
+    "startDate": 20170101,
+    "endDate": 0,
+    "maximumWage": 9500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authority": "00130000 - GEORGIA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "startDate": 20130101,
+    "endDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  }
+]

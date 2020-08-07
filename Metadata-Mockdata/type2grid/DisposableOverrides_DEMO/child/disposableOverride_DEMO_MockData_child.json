@@ -1,0 +1,12 @@
+[
+  {
+    "authority": "BSI00000000 - FEDERAL",
+    "garnishment": "BSI502 - CURRENT SUPPORT",
+    "payment": "BSID008 - DENTAL INSURANCE",
+    "dates": "01/01/2020 - 12/31/9999",
+    "process": "Disposable",
+    "dateCode": "Not Applicable",
+    "percent": "Min :   0.000000000 Max :  0.000000000",
+    "amount": "Min :   15.00 Max :  50.00"
+  }
+]

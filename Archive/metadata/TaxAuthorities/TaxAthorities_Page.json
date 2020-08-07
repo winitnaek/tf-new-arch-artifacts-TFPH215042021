@@ -1,0 +1,109 @@
+{
+  pgdef: {
+    pgid: "taxAuthority",
+    pgtitle: "Tax Authority",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/taxAuthority",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Auth. Code",
+        datafield: "auth.Code",
+        cellsalign: "left",
+        align: "left",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },      {
+        text: "Auth. Name",
+        datafield: "auth.Name",
+        cellsalign: "left",
+        "width": "17%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Country ID",
+        datafield: "countryId",
+        cellsalign: "left",
+        "width": "17%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Auth. Type",
+        datafield: "auth.Type",
+        cellsalign: "left",
+        "width": "17%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Auth. Title",
+        datafield: "auth.Title",
+        cellsalign: "left",
+        "width": "17%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Authority ID",
+        datafield: "authorityId",
+        cellsalign: "left",
+        "width": "17%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    dataFields: [
+      { name: "auth.Code", type: "string" },
+      { name: "auth.Name", type: "string" },
+      { name: "countyID", type: "string" },
+      { name: "auth.Type", type: "string" },
+      { name: "auth.Title", type: "string" },
+      { name: "authorityId", type: "string" }
+    ]
+  },
+  formdef: {
+    title: "Tax Authority",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "authorityCode", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+
+    ]
+  }
+}

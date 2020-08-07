@@ -1,0 +1,3817 @@
+[
+  {
+    "authority": 210203,
+    "taxType": 51,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391001,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391003,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391003,
+    "taxType": 1,
+    "formula": 2,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391004,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391005,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2007",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391005,
+    "taxType": 1,
+    "formula": 2,
+    "effectiveDate": "7/1/2007",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391009,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1997",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391010,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1999",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391011,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1989",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391014,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2000",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391015,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1989",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391016,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2003",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391017,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391018,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/1982",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391019,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391020,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/2003",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391021,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391022,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1993",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391023,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391025,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391026,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1976",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391028,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1983",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391030,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391031,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391032,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391032,
+    "taxType": 1,
+    "formula": 2,
+    "effectiveDate": "7/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391033,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1968",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391034,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391035,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2000",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391036,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391037,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1968",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391039,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1972",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391040,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1993",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391041,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1979",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391042,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391045,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391047,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391048,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1988",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391051,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/1975",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391052,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391054,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391055,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1990",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391056,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391058,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391059,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1986",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391060,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1991",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391061,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391062,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391064,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391066,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391067,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391069,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1977",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391071,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391073,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391074,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1998",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391075,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1976",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391076,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391077,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391078,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391079,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1995",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391080,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "12/1/1982",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391081,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2015",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391083,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1975",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391084,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391085,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391086,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391088,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391090,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391091,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391092,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391092,
+    "taxType": 1,
+    "formula": 2,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391093,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391094,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/1992",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391097,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1974",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391098,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391100,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391102,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391103,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391105,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1990",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391106,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1994",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391107,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1996",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391107,
+    "taxType": 1,
+    "formula": 2,
+    "effectiveDate": "7/1/1996",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391108,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391111,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391112,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391115,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391119,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391121,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391122,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391124,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391126,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/1982",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391127,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391128,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391129,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/1985",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391130,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391131,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391132,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2004",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391135,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391136,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "12/1/1978",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391137,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1995",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391139,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391143,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1997",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391144,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391146,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1991",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391148,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2013",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391150,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391151,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1989",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391152,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1985",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391153,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1998",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391155,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/1969",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391157,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391158,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1995",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391159,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391161,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391162,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391163,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391164,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1968",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391165,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391166,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/2012",
+    "minimumAge": 15
+  },
+  {
+    "authority": 391167,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1968",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391173,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1997",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391176,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1991",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391177,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391178,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/1992",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391179,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391181,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2004",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391182,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1986",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391184,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391186,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1979",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391187,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391188,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1984",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391192,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1969",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391193,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391194,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391195,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391196,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391197,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1999",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391198,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1985",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391200,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391203,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391204,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391205,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391206,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391208,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391209,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "2/1/1970",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391210,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391211,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1982",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391212,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1990",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391213,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "11/14/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391214,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391215,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "5/1/1990",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391216,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1992",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391217,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391219,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391219,
+    "taxType": 1,
+    "formula": 2,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391221,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391222,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1989",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391223,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391224,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1993",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391225,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391226,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391227,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391230,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391232,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391233,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/1966",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391234,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391237,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1997",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391238,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391241,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391243,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391244,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391245,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/1994",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391250,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391251,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391252,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1979",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391253,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1984",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391256,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391257,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391258,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391259,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391260,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2001",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391262,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391263,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2013",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391265,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391267,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391269,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1968",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391270,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391271,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1982",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391272,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391276,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391277,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2004",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391278,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "5/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391279,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391280,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391281,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391282,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391283,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391284,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391285,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391286,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1977",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391287,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391291,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/1975",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391293,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391294,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1990",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391295,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391298,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391299,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2014",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391300,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1968",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391304,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1970",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391307,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "8/1/1980",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391309,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391310,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391313,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2003",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391315,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1996",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391316,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2015",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391317,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391318,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1998",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391319,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1973",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391321,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391323,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2005",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391325,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391326,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/2001",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391327,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391328,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391329,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1976",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391331,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1982",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391332,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1971",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391334,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391335,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/1991",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391336,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1983",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391337,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391338,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1973",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391339,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391340,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391342,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391343,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1999",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391344,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1981",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391345,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "11/4/1971",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391347,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391348,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391349,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391351,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/1982",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391352,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391353,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1982",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391355,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1970",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391356,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391361,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/1983",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391363,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391364,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391366,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391367,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1968",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391368,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391370,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391371,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1997",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391372,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1977",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391374,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391375,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391377,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391380,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1993",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391382,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "5/1/2016",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391384,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1998",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391385,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391386,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1992",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391387,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391389,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1989",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391390,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1978",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391392,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391393,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1986",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391394,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391398,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2004",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391401,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1985",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391403,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391404,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1980",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391405,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391409,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391410,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1980",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391411,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391413,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1995",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391414,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "5/31/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391415,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2014",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391416,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391417,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/15/1986",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391418,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1971",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391419,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391420,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1993",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391422,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391423,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1989",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391425,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391426,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391427,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391429,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391432,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1988",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391434,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391435,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "8/3/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391437,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1990",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391437,
+    "taxType": 1,
+    "formula": 2,
+    "effectiveDate": "1/1/1990",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391439,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "5/28/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391440,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1993",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391443,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391444,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391445,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1981",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391446,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391449,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391450,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391451,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1968",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391452,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2011",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391455,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391456,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1989",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391457,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1993",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391458,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1993",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391459,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "12/1/1973",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391460,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391461,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391463,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391464,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391465,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/1969",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391467,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1985",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391468,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391470,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1989",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391472,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391473,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391474,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1995",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391475,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391477,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391479,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2017",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391480,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391481,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391483,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391485,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391486,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391487,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1986",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391489,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1973",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391490,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391493,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391494,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1991",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391495,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1996",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391496,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1970",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391497,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391499,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1987",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391500,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391502,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1986",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391503,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391504,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/1985",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391509,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391510,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/1975",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391511,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391512,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391514,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391515,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1984",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391517,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391523,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "2/4/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391524,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391526,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391529,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1993",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391531,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391533,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391534,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391536,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391537,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391538,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391539,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2004",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391541,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/1997",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391546,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1995",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391547,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "5/1/2004",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391551,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391552,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391553,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "11/25/1996",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391555,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2009",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391557,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391558,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391563,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391565,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1998",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391568,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/1990",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391573,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391574,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391575,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391579,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391580,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2000",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391581,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391582,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391583,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/1975",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391585,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1998",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391586,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1998",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391589,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391590,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "12/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391591,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391600,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391602,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391603,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2003",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391604,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2003",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391605,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391606,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2004",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391607,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391608,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391609,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391612,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391613,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/10/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391614,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2004",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391615,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2004",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391616,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391617,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391631,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391632,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391633,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391636,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391637,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391646,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391647,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391648,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391649,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391650,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "10/31/1995",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391651,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391652,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1986",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391653,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/10/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391655,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391658,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391659,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391691,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391692,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1998",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391694,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "3/1/1994",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391695,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391696,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391699,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1996",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391816,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391817,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2007",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391817,
+    "taxType": 1,
+    "formula": 2,
+    "effectiveDate": "7/1/2007",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391819,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391826,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391827,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391834,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "8/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391835,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/1999",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391840,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391841,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2013",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391843,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391858,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391859,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391860,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391861,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391865,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391866,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391872,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2008",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391873,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2009",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391874,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391875,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391876,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391877,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391879,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391880,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2002",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391881,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391882,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2003",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391883,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391887,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391890,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "10/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391891,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2003",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391892,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391893,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391895,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391896,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391897,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391898,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391902,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 17
+  },
+  {
+    "authority": 391903,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391904,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391905,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391906,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391907,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391909,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391910,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391912,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391913,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1995",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391915,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391920,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391925,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "2/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391927,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391928,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391929,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "5/1/2011",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391930,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2005",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391932,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391933,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391934,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2013",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391935,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "6/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391937,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "10/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391938,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "10/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391939,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "10/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391940,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2007",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391941,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391942,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391944,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/1992",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391946,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391947,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "10/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391950,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "10/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391951,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2001",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391953,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391954,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391963,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391964,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391965,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391966,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2010",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391967,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391968,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "4/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391970,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "4/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391971,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391973,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391974,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2014",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391977,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391978,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391979,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391984,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2015",
+    "minimumAge": 16
+  },
+  {
+    "authority": 391991,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391992,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "9/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391993,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391994,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/1988",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391998,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 391999,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "3/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392005,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "7/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392006,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392008,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392009,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392010,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "10/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392011,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2013",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392016,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2001",
+    "minimumAge": 16
+  },
+  {
+    "authority": 392017,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2001",
+    "minimumAge": 16
+  },
+  {
+    "authority": 392019,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "9/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392020,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2001",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392022,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "10/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392024,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392033,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2018",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392039,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392040,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "6/18/2012",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392042,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "1/1/2006",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392043,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392044,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "7/1/2015",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392058,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "6/1/2009",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392060,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392061,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392072,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392073,
+    "taxType": 1,
+    "formula": 1,
+    "effectiveDate": "1/1/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392095,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "11/21/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392096,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "3/7/2011",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392097,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "12/5/2016",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392098,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "4/12/2017",
+    "minimumAge": 18
+  },
+  {
+    "authority": 392099,
+    "taxType": 47,
+    "formula": 1,
+    "effectiveDate": "3/12/2019",
+    "minimumAge": 18
+  },
+  {
+    "authority": 440000,
+    "taxType": 41,
+    "formula": 1,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 16
+  },
+  {
+    "authority": 440000,
+    "taxType": 41,
+    "formula": 2,
+    "effectiveDate": "1/1/2020",
+    "minimumAge": 16
+  }
+]

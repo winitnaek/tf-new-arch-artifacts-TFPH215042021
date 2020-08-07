@@ -1,0 +1,73 @@
+{
+	"pgdef": {
+		"pgid": "orderedPercentGarnishments",
+		"pgtitle": "Ordered-Percent Garnishments",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/orderedPercentGarnishments",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Type",
+				"datafield": "taxtype",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Start Date",
+				"datafield": "startDate",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "authority","type": "string"},
+		  {"name": "taxtype","type": "string"},
+		  {"name": "startDate","type": "string"}
+		  ]
+	},
+	"cruddef": {
+		"title":"orderedPercentGarnishments",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

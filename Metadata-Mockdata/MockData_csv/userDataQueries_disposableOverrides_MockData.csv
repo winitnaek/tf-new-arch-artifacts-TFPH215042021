@@ -1,0 +1,2 @@
+authorityCode,authorityName,garnishmentType,garnishmentName,paymentCode,paymentName,startDate,endDate,process,dateCode,minAmount,maxAmount,minPercent,maxPercent
+BSI00000000,FEDERAL,BSI502,CURRENT SUPPORT,BSID008,DENTAL INSURANCE,1/1/2020,12/31/9999,Disposable,Date Not Applicable,15,50,0,0

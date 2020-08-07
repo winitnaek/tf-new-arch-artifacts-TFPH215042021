@@ -1,0 +1,103 @@
+{
+  "pgdef": {
+    "pgid": "allMappedTaxTypes",
+    "pgtitle": "All Mapped Tax Types",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/allMappedTaxTypes",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "User Code",
+        "datafield": "userTax",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "BSI Code",
+        "datafield": "taxType",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax Type Name",
+        "datafield": "taxTypeName",
+        "cellsalign": "left",
+        "width": "40%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Preferred",
+        "datafield": "locReturn",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      {
+        "name": "userTax",
+        "type": "string"
+      },
+      {
+        "name": "taxType",
+        "type": "string"
+      },
+      {
+        "name": "taxTypeName",
+        "type": "string"
+      },
+      {
+        "name": "locReturn",
+        "type": "string"
+      }
+    ]
+  },
+
+  "formdef": {
+    "title": "All Mapped Tax Types",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": " ",
+
+    "fltrflds": ""
+  }
+}

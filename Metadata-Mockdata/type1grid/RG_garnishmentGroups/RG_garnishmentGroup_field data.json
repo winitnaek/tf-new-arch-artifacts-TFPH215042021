@@ -1,0 +1,77 @@
+[
+   {
+      "id":"groupCode",
+      "placeholder":"Enter Group Code",
+      "fieldtype":"text",
+      "label":"Group Code",
+      "value":"",
+      "errmsg":"Group Code is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Group Code needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":1,
+               "message":"min 1 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+ {
+      "id":"groupName",
+      "placeholder":"Enter Group Name",
+      "fieldtype":"text",
+      "label":"Group Name",
+      "value":"",
+      "errmsg":"Group Name is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Group Name needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":1,
+               "message":"min 1 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   }
+   
+]

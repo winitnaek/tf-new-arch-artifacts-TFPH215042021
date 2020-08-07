@@ -1,0 +1,82 @@
+[
+  {
+    "authority": "ABINGTON HEIGHTS S D,LACKAWANNA(00420005 )",
+    "effectiveDate": "08/05/2020",
+    "taxType": "084 - Local Services Tax",
+    "municipality": "00420003 WAVERLY TOWNSHIP",
+    "municipalPercent": "1.000000",
+    "municipalAmount": "10.00",
+    "sdPercent": "0.000000",
+    "sdAmount": "10.00"
+  },
+  {
+    "authority": "ABINGTON HEIGHTS S D,LACKAWANNA(00420005 )",
+    "effectiveDate": "08/05/2020",
+    "taxType": "084 - Local Services Tax",
+    "municipality": "00420453 CLARKS GREEN BOROUGH",
+    "municipalPercent": "0.903846",
+    "municipalAmount": "52.00",
+    "sdPercent": "0.500000",
+    "sdAmount": "10.00"
+  },
+  {
+    "authority": "ABINGTON HEIGHTS S D,LACKAWANNA(00420005 )",
+    "effectiveDate": "08/05/2020",
+    "taxType": "084 - Local Services Tax",
+    "municipality": "00420454 CLARKS SUMMIT BOROUGH",
+    "municipalPercent": "0.903846",
+    "municipalAmount": "52.00",
+    "sdPercent": "0.500000",
+    "sdAmount": "10.00"
+  },
+  {
+    "authority": "ABINGTON HEIGHTS S D,LACKAWANNA(00420005 )",
+    "effectiveDate": "08/05/2020",
+    "taxType": "084 - Local Services Tax",
+    "municipality": "00421004 GLENBURN TOWNSHIP",
+    "municipalPercent": "0.000000",
+    "municipalAmount": "10.00",
+    "sdPercent": "1.000000",
+    "sdAmount": "10.00"
+  },
+  {
+    "authority": "ABINGTON HEIGHTS S D,LACKAWANNA(00420005 )",
+    "effectiveDate": "08/05/2020",
+    "taxType": "084 - Local Services Tax",
+    "municipality": "00421824 NEWTON TOWNSHIP",
+    "municipalPercent": "0.903846",
+    "municipalAmount": "52.00",
+    "sdPercent": "0.500000",
+    "sdAmount": "10.00"
+  },
+  {
+    "authority": "ABINGTON HEIGHTS S D,LACKAWANNA(00420005 )",
+    "effectiveDate": "08/05/2020",
+    "taxType": "084 - Local Services Tax",
+    "municipality": "00421838 NORTH ABINGTON TOWNSHIP",
+    "municipalPercent": "0.903846",
+    "municipalAmount": "52.00",
+    "sdPercent": "0.500000",
+    "sdAmount": "10.00"
+  },
+  {
+    "authority": "ABINGTON HEIGHTS S D,LACKAWANNA(00420005 )",
+    "effectiveDate": "08/05/2020",
+    "taxType": "084 - Local Services Tax",
+    "municipality": "00422171 RANSOM TOWNSHIP",
+    "municipalPercent": "0.500000",
+    "municipalAmount": "10.00",
+    "sdPercent": "0.500000",
+    "sdAmount": "10.00"
+  },
+  {
+    "authority": "ABINGTON HEIGHTS S D,LACKAWANNA(00420005 )",
+    "effectiveDate": "08/05/2020",
+    "taxType": "084 - Local Services Tax",
+    "municipality": "00422417 SOUTH ABINGTON TOWNSHIP",
+    "municipalPercent": "0.903846",
+    "municipalAmount": "52.00",
+    "sdPercent": "0.500000",
+    "sdAmount": "10.00"
+  }
+]

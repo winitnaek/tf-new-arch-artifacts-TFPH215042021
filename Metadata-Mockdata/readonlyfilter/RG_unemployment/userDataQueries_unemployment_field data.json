@@ -1,0 +1,70 @@
+[
+  {
+    "id": "authorityCode",
+    "placeholder": "Enter Authority Code",
+    "fieldtype": "select",
+    "label": "Authority Code",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+
+  {
+    "id": "userTaxCode",
+    "placeholder": "Enter User Tax Code",
+    "fieldtype": "select",
+    "label": "User Tax Code",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+
+  {
+    "id": "startDate",
+    "placeholder": "Enter Start Date",
+    "fieldtype": "date",
+    "label": "Start Date",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

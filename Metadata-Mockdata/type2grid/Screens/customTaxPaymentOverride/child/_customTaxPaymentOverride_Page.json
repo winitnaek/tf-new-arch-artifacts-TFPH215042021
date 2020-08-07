@@ -1,0 +1,143 @@
+{
+  "pgdef": {
+    "pgid": "customTaxPaymentOverride",
+    "pgtitle": "Custom Tax Payment Overrides",
+    "pgsubtitle": "Custom Tax Payment Overrides for: ",
+    "flowtype": "flowtype2",
+    "hasAddNew": true,
+    "addNewLabel": "Click here to add new Override. Or click on existing Override to edit.",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/customTaxPaymentOverrides",
+    "parentConfig": "customTaxPaymentOverrides",
+    "childConfig": ""
+  },
+  "griddef": {
+    "gridtype": "type2",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "There are no Custom Payment Exceptions for : ",
+    "recordEdit": true,
+    "recordDelete": true,
+    "columns": [
+      
+      {
+        "text": "Authority",
+        "datafield": "authorityCode",
+        "width": "20%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax Type",
+        "datafield": "taxType",
+        "width": "20%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Start Date",
+        "datafield": "startDate",
+        "cellsalign": "center",
+        "width": "20%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "End Data",
+        "datafield": "endDate",
+        "width": "20%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Custom Tax Code",
+        "datafield": "customTaxCode",
+        "width": "20%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+
+    ],
+    "dataFields": [
+     
+      {
+        "name": "authorityCode",
+        "type": "string"
+      },
+      {
+        "name": "taxType",
+        "type": "string"
+      },
+      {
+        "name": "startDate",
+        "type": "Date"
+      },
+      {
+        "name": "endDate",
+        "type": "Date"
+      },
+      {
+        "name": "customTaxCode",
+        "type": "string"
+      }
+
+    ]
+  },
+
+  "formdef": {
+    "title": "Custom Tax Payment Overridess",
+    "subtitle": "Custom Tax Payment Overrides for ",
+    "hasSave": true,
+    "hasDelete": true,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "startDate",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "authorityCode",
+        "order": 2,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "taxType",
+        "order": 3,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "endDate",
+        "order": 4,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+
+    ],
+    "fltrflds": ""
+  }
+}

@@ -1,0 +1,21 @@
+attribute,value
+Custom Garnishment Code,CUSTGAR001
+Start Date,1/1/2020
+End Date,12/31/2020
+Input Amount Indicator,
+Flat Amount,10
+Percent,0
+Priority,0
+Exemption Indicator,
+Exemption Flat Amount,0
+Exemption Amount,0
+Exemption Dependent Amount,0
+Calculation Method,
+Calculation Percent,0
+Calculation Amount,0
+Calculation Limit,0
+Deduction Indicator,
+Deduction Flat Amount,0
+Deduction Amount,0
+Deduction Dependent Amount,0
+Statement of Exemptions,0

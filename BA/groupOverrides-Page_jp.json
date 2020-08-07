@@ -1,0 +1,185 @@
+{
+	"pgdef": {
+		"pgid": "groupOverride",
+		"pgtitle": "Group Override",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add new Override or click on existing Override to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/groupOverride",
+		"parentConfig": "",
+		"childConfig": ""
+	},
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Code",
+				"datafield": "taxCode",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Tax Type",
+				"datafield": "taxType",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Formula",
+				"datafield": "formula",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Start Date",
+				"datafield": "startDate",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Residency",
+				"datafield": "residency",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Type",
+				"datafield": "type",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields": [
+            {
+				"name": "Authority",
+				"type": "string"
+			},
+			{
+				"name": "Tax Code",
+				"type": "string"
+            },
+            {
+				"name": "Tax Type",
+				"type": "string"
+            },
+            {
+				"name": "Formula",
+				"type": "string"
+			},
+           {
+				"name": "startDate",
+				"type": "Date"
+			},
+			{
+				"name": "Residency",
+				"type": "string"
+            },
+            {
+				"name": "Type",
+				"type": "string"
+			}           			
+            
+		]
+	},
+	"formdef": {
+		"title": "Group Override",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": false,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+            {
+				"id": "authority",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "taxCode",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "taxType",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "formula",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "startDate",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+            {
+				"id": "residency",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "type",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            }
+            
+		],
+		"fltrflds": ""
+	}
+}

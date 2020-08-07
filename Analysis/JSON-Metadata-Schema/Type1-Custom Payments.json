@@ -1,0 +1,58 @@
+﻿{
+	"pgdef": {
+		"pgid": "customPayments",
+		"pgtitle": "Custom Payments",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add new Custom Payment. Or click on existing Custom Payment to edit.",
+		"actiondel": "false"
+	},
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"columns": [
+			{
+				"text": "Custom Payment Code",
+				"datafield": "customPaymentCode",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+						"payName": "test",
+						"payCode": "PAYME",
+						"editMode": "2",
+						"payType": "E",
+						"taxability": "Taxable",
+						"eeMax": "0.00",
+						"erMax": "-",
+						"aggStatus": "N/A"
+					}
+				],
+				"rendererStaticInput": [{"name": "","value": ""}]
+			}
+		],
+		"dataFields":[
+		  {"name": "customPaymentCode","type": "string"},
+		  {"name": "customPaymentName","type": "string"},
+		  {"name": "paymentType","type": "string"},
+		  {"name": "avgStatus","type": "string"}
+		]
+	},
+	"cruddef": {
+		"title":"Custom Payments",
+		"sbutitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":true,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasDelete":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

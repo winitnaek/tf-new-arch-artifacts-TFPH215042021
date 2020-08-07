@@ -1,0 +1,17 @@
+[
+  {
+    "customPaymentCode": "CUSTPYMNT1",
+    "customPaymentName": "Custom Payment Code1",
+    "paymentType": "Earning"
+  },
+  {
+    "customPaymentCode": "CUSTPYMNT2",
+    "customPaymentName": "Custom Payment Code2",
+    "paymentType": "Earning"
+  },
+  {
+    "customPaymentCode": "CUSTPYMT3",
+    "customPaymentName": "Custom Payment 3",
+    "paymentType": "Earning"
+  }
+]

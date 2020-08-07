@@ -1,0 +1,1983 @@
+[
+  {
+    "bsiauthName": "ALABAMA",
+    "bsiauth": 10000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "ALABAMA",
+    "bsiauth": 10000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "ALABAMA",
+    "bsiauth": 10000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "ALABAMA",
+    "bsiauth": 10000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "ALASKA",
+    "bsiauth": 20000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20121002
+  },
+  {
+    "bsiauthName": "ALASKA",
+    "bsiauth": 20000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "ALASKA",
+    "bsiauth": 20000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "ALASKA",
+    "bsiauth": 20000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20121001
+  },
+  {
+    "bsiauthName": "ALASKA",
+    "bsiauth": 20000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20130102
+  },
+  {
+    "bsiauthName": "AMERICAN SAMOA",
+    "bsiauth": 70000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "AMERICAN SAMOA",
+    "bsiauth": 70000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "ARIZONA",
+    "bsiauth": 40000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "ARIZONA",
+    "bsiauth": 40000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "ARIZONA",
+    "bsiauth": 40000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "ARIZONA",
+    "bsiauth": 40000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "ARIZONA",
+    "bsiauth": 40000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "ARKANSAS",
+    "bsiauth": 50000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "ARKANSAS",
+    "bsiauth": 50000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "ARKANSAS",
+    "bsiauth": 50000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "ARKANSAS",
+    "bsiauth": 50000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "ARKANSAS",
+    "bsiauth": 50000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "CALIFORNIA",
+    "bsiauth": 60000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20130703
+  },
+  {
+    "bsiauthName": "CALIFORNIA",
+    "bsiauth": 60000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "CALIFORNIA",
+    "bsiauth": 60000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20130701
+  },
+  {
+    "bsiauthName": "CALIFORNIA",
+    "bsiauth": 60000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "CALIFORNIA",
+    "bsiauth": 60000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "CALIFORNIA",
+    "bsiauth": 60000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "COLORADO",
+    "bsiauth": 80000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20130102
+  },
+  {
+    "bsiauthName": "COLORADO",
+    "bsiauth": 80000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "COLORADO",
+    "bsiauth": 80000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20190101
+  },
+  {
+    "bsiauthName": "COLORADO",
+    "bsiauth": 80000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "COLORADO",
+    "bsiauth": 80000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20130101
+  },
+  {
+    "bsiauthName": "COLORADO",
+    "bsiauth": 80000,
+    "taxtypeName": "STATE BENEFIT LEVY",
+    "taxtype": 531,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "COLORADO",
+    "bsiauth": 80000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "CONNECTICUT",
+    "bsiauth": 90000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20191001
+  },
+  {
+    "bsiauthName": "CONNECTICUT",
+    "bsiauth": 90000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20191001
+  },
+  {
+    "bsiauthName": "CONNECTICUT",
+    "bsiauth": 90000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20120101
+  },
+  {
+    "bsiauthName": "CONNECTICUT",
+    "bsiauth": 90000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "CONNECTICUT",
+    "bsiauth": 90000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030103
+  },
+  {
+    "bsiauthName": "DELAWARE",
+    "bsiauth": 100000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "DELAWARE",
+    "bsiauth": 100000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20191001
+  },
+  {
+    "bsiauthName": "DELAWARE",
+    "bsiauth": 100000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "DELAWARE",
+    "bsiauth": 100000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "DELAWARE",
+    "bsiauth": 100000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "DELAWARE",
+    "bsiauth": 100000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "DISTRICT OF COLUMBIA",
+    "bsiauth": 110000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "DISTRICT OF COLUMBIA",
+    "bsiauth": 110000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20190702
+  },
+  {
+    "bsiauthName": "DISTRICT OF COLUMBIA",
+    "bsiauth": 110000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "DISTRICT OF COLUMBIA",
+    "bsiauth": 110000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "FEDERAL",
+    "bsiauth": 0,
+    "taxtypeName": "ADMINISTRATIVE WAGE GARNISHMENT",
+    "taxtype": 506,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "FEDERAL",
+    "bsiauth": 0,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090725
+  },
+  {
+    "bsiauthName": "FEDERAL",
+    "bsiauth": 0,
+    "taxtypeName": "NON-COURT ORDERED STUDENT LOAN",
+    "taxtype": 527,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "FEDERAL",
+    "bsiauth": 0,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "FLORIDA",
+    "bsiauth": 120000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "FLORIDA",
+    "bsiauth": 120000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20100102
+  },
+  {
+    "bsiauthName": "FLORIDA",
+    "bsiauth": 120000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "FLORIDA",
+    "bsiauth": 120000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "FLORIDA",
+    "bsiauth": 120000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "GEORGIA",
+    "bsiauth": 130000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "GEORGIA",
+    "bsiauth": 130000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "GEORGIA",
+    "bsiauth": 130000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "GUAM",
+    "bsiauth": 140000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "GUAM",
+    "bsiauth": 140000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "GUAM",
+    "bsiauth": 140000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060101
+  },
+  {
+    "bsiauthName": "HAWAII",
+    "bsiauth": 150000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "HAWAII",
+    "bsiauth": 150000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "HAWAII",
+    "bsiauth": 150000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "HAWAII",
+    "bsiauth": 150000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "HAWAII",
+    "bsiauth": 150000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "IDAHO",
+    "bsiauth": 160000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20130702
+  },
+  {
+    "bsiauthName": "IDAHO",
+    "bsiauth": 160000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "IDAHO",
+    "bsiauth": 160000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "IDAHO",
+    "bsiauth": 160000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "IDAHO",
+    "bsiauth": 160000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "ILLINOIS",
+    "bsiauth": 170000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "ILLINOIS",
+    "bsiauth": 170000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "ILLINOIS",
+    "bsiauth": 170000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "ILLINOIS",
+    "bsiauth": 170000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "ILLINOIS",
+    "bsiauth": 170000,
+    "taxtypeName": "CREDITOR GARNISHMENT EMPLOYER FEE",
+    "taxtype": 521,
+    "effective": 20140101
+  },
+  {
+    "bsiauthName": "ILLINOIS",
+    "bsiauth": 170000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "INDIANA",
+    "bsiauth": 180000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20140701
+  },
+  {
+    "bsiauthName": "INDIANA",
+    "bsiauth": 180000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20140701
+  },
+  {
+    "bsiauthName": "INDIANA",
+    "bsiauth": 180000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "INDIANA",
+    "bsiauth": 180000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "INDIANA",
+    "bsiauth": 180000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "IOWA",
+    "bsiauth": 190000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030104
+  },
+  {
+    "bsiauthName": "IOWA",
+    "bsiauth": 190000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090725
+  },
+  {
+    "bsiauthName": "IOWA",
+    "bsiauth": 190000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "IOWA",
+    "bsiauth": 190000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "IOWA",
+    "bsiauth": 190000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "IOWA",
+    "bsiauth": 190000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "KANSAS",
+    "bsiauth": 200000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "KANSAS",
+    "bsiauth": 200000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "KANSAS",
+    "bsiauth": 200000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "KANSAS",
+    "bsiauth": 200000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20130703
+  },
+  {
+    "bsiauthName": "KENTUCKY",
+    "bsiauth": 210000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20080103
+  },
+  {
+    "bsiauthName": "KENTUCKY",
+    "bsiauth": 210000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090701
+  },
+  {
+    "bsiauthName": "KENTUCKY",
+    "bsiauth": 210000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "KENTUCKY",
+    "bsiauth": 210000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "KENTUCKY",
+    "bsiauth": 210000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "KENTUCKY",
+    "bsiauth": 210000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "LOUISIANA",
+    "bsiauth": 220000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "LOUISIANA",
+    "bsiauth": 220000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "LOUISIANA",
+    "bsiauth": 220000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "LOUISIANA",
+    "bsiauth": 220000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "MAINE",
+    "bsiauth": 230000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20091002
+  },
+  {
+    "bsiauthName": "MAINE",
+    "bsiauth": 230000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "MAINE",
+    "bsiauth": 230000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "MAINE",
+    "bsiauth": 230000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20091001
+  },
+  {
+    "bsiauthName": "MAINE",
+    "bsiauth": 230000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "MAINE",
+    "bsiauth": 230000,
+    "taxtypeName": "STATE BENEFIT LEVY",
+    "taxtype": 531,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "MAINE",
+    "bsiauth": 230000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "MARYLAND",
+    "bsiauth": 240000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "MARYLAND",
+    "bsiauth": 240000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "MARYLAND",
+    "bsiauth": 240000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "MARYLAND",
+    "bsiauth": 240000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "MASSACHUSETTS",
+    "bsiauth": 250000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030103
+  },
+  {
+    "bsiauthName": "MASSACHUSETTS",
+    "bsiauth": 250000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "MASSACHUSETTS",
+    "bsiauth": 250000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20110407
+  },
+  {
+    "bsiauthName": "MASSACHUSETTS",
+    "bsiauth": 250000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "MASSACHUSETTS",
+    "bsiauth": 250000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "MICHIGAN",
+    "bsiauth": 260000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20140103
+  },
+  {
+    "bsiauthName": "MICHIGAN",
+    "bsiauth": 260000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "MICHIGAN",
+    "bsiauth": 260000,
+    "taxtypeName": "STATE AGENCY NON-TAX DEBT LEVY",
+    "taxtype": 529,
+    "effective": 20130101
+  },
+  {
+    "bsiauthName": "MICHIGAN",
+    "bsiauth": 260000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060103
+  },
+  {
+    "bsiauthName": "MINNESOTA",
+    "bsiauth": 270000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "MINNESOTA",
+    "bsiauth": 270000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090725
+  },
+  {
+    "bsiauthName": "MINNESOTA",
+    "bsiauth": 270000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "MINNESOTA",
+    "bsiauth": 270000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "MINNESOTA",
+    "bsiauth": 270000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "MINNESOTA",
+    "bsiauth": 270000,
+    "taxtypeName": "STATE BENEFIT LEVY",
+    "taxtype": 531,
+    "effective": 20160101
+  },
+  {
+    "bsiauthName": "MINNESOTA",
+    "bsiauth": 270000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "MISSISSIPPI",
+    "bsiauth": 280000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "MISSISSIPPI",
+    "bsiauth": 280000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "MISSISSIPPI",
+    "bsiauth": 280000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "MISSISSIPPI",
+    "bsiauth": 280000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "MISSOURI",
+    "bsiauth": 290000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "MISSOURI",
+    "bsiauth": 290000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20150115
+  },
+  {
+    "bsiauthName": "MISSOURI",
+    "bsiauth": 290000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "MISSOURI",
+    "bsiauth": 290000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "MISSOURI",
+    "bsiauth": 290000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "MISSOURI",
+    "bsiauth": 290000,
+    "taxtypeName": "CREDITOR GARNISHMENT EMPLOYER FEE",
+    "taxtype": 521,
+    "effective": 20140101
+  },
+  {
+    "bsiauthName": "MISSOURI",
+    "bsiauth": 290000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060103
+  },
+  {
+    "bsiauthName": "MONTANA",
+    "bsiauth": 300000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "MONTANA",
+    "bsiauth": 300000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "MONTANA",
+    "bsiauth": 300000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "MONTANA",
+    "bsiauth": 300000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "MONTANA",
+    "bsiauth": 300000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "NEBRASKA",
+    "bsiauth": 310000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090103
+  },
+  {
+    "bsiauthName": "NEBRASKA",
+    "bsiauth": 310000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090725
+  },
+  {
+    "bsiauthName": "NEBRASKA",
+    "bsiauth": 310000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "NEBRASKA",
+    "bsiauth": 310000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NEBRASKA",
+    "bsiauth": 310000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "NEVADA",
+    "bsiauth": 320000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20171001
+  },
+  {
+    "bsiauthName": "NEVADA",
+    "bsiauth": 320000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NEVADA",
+    "bsiauth": 320000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060103
+  },
+  {
+    "bsiauthName": "NEW HAMPSHIRE",
+    "bsiauth": 330000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "NEW HAMPSHIRE",
+    "bsiauth": 330000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NEW HAMPSHIRE",
+    "bsiauth": 330000,
+    "taxtypeName": "STATE BENEFIT LEVY",
+    "taxtype": 531,
+    "effective": 20160102
+  },
+  {
+    "bsiauthName": "NEW HAMPSHIRE",
+    "bsiauth": 330000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "NEW JERSEY",
+    "bsiauth": 340000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20150101
+  },
+  {
+    "bsiauthName": "NEW JERSEY",
+    "bsiauth": 340000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20150101
+  },
+  {
+    "bsiauthName": "NEW JERSEY",
+    "bsiauth": 340000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NEW JERSEY",
+    "bsiauth": 340000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060103
+  },
+  {
+    "bsiauthName": "NEW MEXICO",
+    "bsiauth": 350000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "NEW MEXICO",
+    "bsiauth": 350000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "NEW MEXICO",
+    "bsiauth": 350000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "NEW MEXICO",
+    "bsiauth": 350000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NEW MEXICO",
+    "bsiauth": 350000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "NEW YORK",
+    "bsiauth": 360000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20191231
+  },
+  {
+    "bsiauthName": "NEW YORK",
+    "bsiauth": 360000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20191231
+  },
+  {
+    "bsiauthName": "NEW YORK",
+    "bsiauth": 360000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "NEW YORK",
+    "bsiauth": 360000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NEW YORK",
+    "bsiauth": 360000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "NORTH CAROLINA",
+    "bsiauth": 370000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "NORTH CAROLINA",
+    "bsiauth": 370000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20140101
+  },
+  {
+    "bsiauthName": "NORTH CAROLINA",
+    "bsiauth": 370000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NORTH CAROLINA",
+    "bsiauth": 370000,
+    "taxtypeName": "STATE BENEFIT LEVY",
+    "taxtype": 531,
+    "effective": 20160101
+  },
+  {
+    "bsiauthName": "NORTH CAROLINA",
+    "bsiauth": 370000,
+    "taxtypeName": "MEDICAID DEBT",
+    "taxtype": 532,
+    "effective": 20140101
+  },
+  {
+    "bsiauthName": "NORTH CAROLINA",
+    "bsiauth": 370000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "NORTH DAKOTA",
+    "bsiauth": 380000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "NORTH DAKOTA",
+    "bsiauth": 380000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090726
+  },
+  {
+    "bsiauthName": "NORTH DAKOTA",
+    "bsiauth": 380000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NORTH DAKOTA",
+    "bsiauth": 380000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "NORTHERN MARIANA ISLANDS",
+    "bsiauth": 570000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "NORTHERN MARIANA ISLANDS",
+    "bsiauth": 570000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "NORTHERN MARIANA ISLANDS",
+    "bsiauth": 570000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060104
+  },
+  {
+    "bsiauthName": "OHIO",
+    "bsiauth": 390000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090725
+  },
+  {
+    "bsiauthName": "OHIO",
+    "bsiauth": 390000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090725
+  },
+  {
+    "bsiauthName": "OHIO",
+    "bsiauth": 390000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "OHIO",
+    "bsiauth": 390000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "OHIO",
+    "bsiauth": 390000,
+    "taxtypeName": "SUPPORT EMPLOYER FEE",
+    "taxtype": 519,
+    "effective": 20030103
+  },
+  {
+    "bsiauthName": "OHIO",
+    "bsiauth": 390000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "OKLAHOMA",
+    "bsiauth": 400000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "OKLAHOMA",
+    "bsiauth": 400000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "OKLAHOMA",
+    "bsiauth": 400000,
+    "taxtypeName": "STATE BENEFIT LEVY",
+    "taxtype": 531,
+    "effective": 20160101
+  },
+  {
+    "bsiauthName": "OKLAHOMA",
+    "bsiauth": 400000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "OREGON",
+    "bsiauth": 410000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "OREGON",
+    "bsiauth": 410000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "OREGON",
+    "bsiauth": 410000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "OREGON",
+    "bsiauth": 410000,
+    "taxtypeName": "CREDITOR GARNISHMENT EMPLOYER FEE",
+    "taxtype": 521,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "OREGON",
+    "bsiauth": 410000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "PENNSYLVANIA",
+    "bsiauth": 420000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "PENNSYLVANIA",
+    "bsiauth": 420000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200115
+  },
+  {
+    "bsiauthName": "PENNSYLVANIA",
+    "bsiauth": 420000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "PENNSYLVANIA",
+    "bsiauth": 420000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "PENNSYLVANIA",
+    "bsiauth": 420000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "PENNSYLVANIA",
+    "bsiauth": 420000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "PUERTO RICO",
+    "bsiauth": 430000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "PUERTO RICO",
+    "bsiauth": 430000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "PUERTO RICO",
+    "bsiauth": 430000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060101
+  },
+  {
+    "bsiauthName": "RHODE ISLAND",
+    "bsiauth": 440000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090103
+  },
+  {
+    "bsiauthName": "RHODE ISLAND",
+    "bsiauth": 440000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "RHODE ISLAND",
+    "bsiauth": 440000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "RHODE ISLAND",
+    "bsiauth": 440000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "RHODE ISLAND",
+    "bsiauth": 440000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "SOUTH CAROLINA",
+    "bsiauth": 450000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "SOUTH CAROLINA",
+    "bsiauth": 450000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "SOUTH CAROLINA",
+    "bsiauth": 450000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "SOUTH CAROLINA",
+    "bsiauth": 450000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "SOUTH CAROLINA",
+    "bsiauth": 450000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "SOUTH CAROLINA",
+    "bsiauth": 450000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "SOUTH DAKOTA",
+    "bsiauth": 460000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "SOUTH DAKOTA",
+    "bsiauth": 460000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "SOUTH DAKOTA",
+    "bsiauth": 460000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "SOUTH DAKOTA",
+    "bsiauth": 460000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "SOUTH DAKOTA",
+    "bsiauth": 460000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "CURRENT SUPPORT",
+    "taxtype": 502,
+    "effective": 20030103
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20160101
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090726
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "CURRENT SUPPORT ARREARS",
+    "taxtype": 510,
+    "effective": 20030103
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "MEDICAL SUPPORT",
+    "taxtype": 511,
+    "effective": 20030103
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "MEDICAL SUPPORT ARREARS",
+    "taxtype": 512,
+    "effective": 20190403
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "SUPPORT EMPLOYER FEE",
+    "taxtype": 519,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "TENNESSEE",
+    "bsiauth": 470000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "TEXAS",
+    "bsiauth": 480000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "TEXAS",
+    "bsiauth": 480000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "TEXAS",
+    "bsiauth": 480000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "TEXAS",
+    "bsiauth": 480000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "U.S. VIRGIN ISLANDS",
+    "bsiauth": 520000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "U.S. VIRGIN ISLANDS",
+    "bsiauth": 520000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "U.S. VIRGIN ISLANDS",
+    "bsiauth": 520000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "UTAH",
+    "bsiauth": 490000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "UTAH",
+    "bsiauth": 490000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090725
+  },
+  {
+    "bsiauthName": "UTAH",
+    "bsiauth": 490000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "UTAH",
+    "bsiauth": 490000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20140327
+  },
+  {
+    "bsiauthName": "UTAH",
+    "bsiauth": 490000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "VERMONT",
+    "bsiauth": 500000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "VERMONT",
+    "bsiauth": 500000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "VERMONT",
+    "bsiauth": 500000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "VERMONT",
+    "bsiauth": 500000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "VERMONT",
+    "bsiauth": 500000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "VIRGINIA",
+    "bsiauth": 510000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "VIRGINIA",
+    "bsiauth": 510000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090725
+  },
+  {
+    "bsiauthName": "VIRGINIA",
+    "bsiauth": 510000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "VIRGINIA",
+    "bsiauth": 510000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "VIRGINIA",
+    "bsiauth": 510000,
+    "taxtypeName": "STATE AGENCY NON-TAX DEBT LEVY",
+    "taxtype": 529,
+    "effective": 20170101
+  },
+  {
+    "bsiauthName": "VIRGINIA",
+    "bsiauth": 510000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "WASHINGTON",
+    "bsiauth": 530000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20140101
+  },
+  {
+    "bsiauthName": "WASHINGTON",
+    "bsiauth": 530000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20200101
+  },
+  {
+    "bsiauthName": "WASHINGTON",
+    "bsiauth": 530000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "WASHINGTON",
+    "bsiauth": 530000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20120607
+  },
+  {
+    "bsiauthName": "WASHINGTON",
+    "bsiauth": 530000,
+    "taxtypeName": "STATE BENEFIT LEVY",
+    "taxtype": 531,
+    "effective": 20160101
+  },
+  {
+    "bsiauthName": "WASHINGTON",
+    "bsiauth": 530000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "WEST VIRGINIA",
+    "bsiauth": 540000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20160101
+  },
+  {
+    "bsiauthName": "WEST VIRGINIA",
+    "bsiauth": 540000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20160607
+  },
+  {
+    "bsiauthName": "WEST VIRGINIA",
+    "bsiauth": 540000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "WEST VIRGINIA",
+    "bsiauth": 540000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "WEST VIRGINIA",
+    "bsiauth": 540000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20030102
+  },
+  {
+    "bsiauthName": "WISCONSIN",
+    "bsiauth": 550000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "WISCONSIN",
+    "bsiauth": 550000,
+    "taxtypeName": "CREDITOR GARNISHMENT",
+    "taxtype": 507,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "WISCONSIN",
+    "bsiauth": 550000,
+    "taxtypeName": "CRIMINAL RESTITUTION",
+    "taxtype": 508,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "WISCONSIN",
+    "bsiauth": 550000,
+    "taxtypeName": "SPOUSAL SUPPORT",
+    "taxtype": 513,
+    "effective": 20030101
+  },
+  {
+    "bsiauthName": "WISCONSIN",
+    "bsiauth": 550000,
+    "taxtypeName": "VOL WAGE ASSIGNMENT",
+    "taxtype": 515,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "WISCONSIN",
+    "bsiauth": 550000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "WISCONSIN",
+    "bsiauth": 550000,
+    "taxtypeName": "STATE BENEFIT LEVY",
+    "taxtype": 531,
+    "effective": 20150101
+  },
+  {
+    "bsiauthName": "WISCONSIN",
+    "bsiauth": 550000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  },
+  {
+    "bsiauthName": "WYOMING",
+    "bsiauth": 560000,
+    "taxtypeName": "STATE TAX LEVY",
+    "taxtype": 504,
+    "effective": 20090724
+  },
+  {
+    "bsiauthName": "WYOMING",
+    "bsiauth": 560000,
+    "taxtypeName": "STATE STUDENT LOAN",
+    "taxtype": 517,
+    "effective": 20100101
+  },
+  {
+    "bsiauthName": "WYOMING",
+    "bsiauth": 560000,
+    "taxtypeName": "TOTAL SUPPORT",
+    "taxtype": 600,
+    "effective": 20060102
+  }
+]

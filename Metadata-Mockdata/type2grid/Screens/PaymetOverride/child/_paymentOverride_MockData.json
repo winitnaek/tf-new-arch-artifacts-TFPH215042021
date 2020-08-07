@@ -1,0 +1,13 @@
+[
+  {
+    "authority": "BSI00010000 - ALABAMA",
+    "taxType": "001 - WITHHOLDING TAX",
+    "payment": "BSIP063 - OREGONSAVES (UP TO AGE 50)",
+    "type": "Benefit Plan",
+    "startDate": "6/1/2020",
+    "endDate": "12/31/9999",
+    "taxability": "Both Disabled",
+    "eeMax": 0,
+    "aggStatus": "Aggregate to Highest Maximum"
+  }
+]

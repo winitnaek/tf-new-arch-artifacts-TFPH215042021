@@ -1,0 +1,76 @@
+[
+   {
+      "id":"groupCode",
+      "placeholder":"Enter Group Code",
+      "fieldtype":"text",
+      "label":"Group Code",
+      "value":"",
+      "errmsg":"Group Code is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Group Code needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":3,
+               "message":"min 3 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+      "id":"groupName",
+      "placeholder":"Enter Group Name",
+      "fieldtype":"text",
+      "label":"Group Name",
+      "value":"",
+      "errmsg":"Group Tax Name is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"lowercase",
+               "message":"Group Name may not be blank."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   }
+]

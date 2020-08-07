@@ -1,0 +1,194 @@
+[
+  {
+    "id": "authorityCode",
+    "placeholder": "Enter the Authority",
+    "fieldtype": "select",
+    "label": "Authority",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync":true
+    },
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+ {
+    "id": "taxType",
+    "placeholder": "Enter the Tax Type",
+    "fieldtype": "select",
+    "label": "tax Type",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync":true
+    },
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+ {
+      "name":"Formula Effective Date",
+      "id":"formulaEffectiveDate",
+      "placeholder":"Enter Formula Effective Date",
+      "fieldtype":"date",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"Formula Effective Date",
+      "value":"new Date()",
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"Date",
+               "message":"Please enter a Formula Effective Date."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":8,
+               "message":"min 8 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+ {
+      "name":"Start Date",
+      "id":"startDate",
+      "placeholder":"Enter Start Date",
+      "fieldtype":"date",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"Start Date",
+      "value":"new Date()",
+      "validation":{
+         "required":false,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"Date",
+               "message":""
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":8,
+               "message":"min 8 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+{
+      "name":"End Date",
+      "id":"endDate",
+      "placeholder":"Enter End Date",
+      "fieldtype":"date",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"End Date",
+      "value":"12/31/9999",
+      "validation":{
+         "required":false,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"Date",
+               "message":""
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":8,
+               "message":"min 8 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   }
+
+ 
+
+]

@@ -1,0 +1,187 @@
+{
+	"pgdef": {
+		"pgid": "customFormulas",
+		"pgtitle": "Custom Formulas",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add new Custom Formula or click on existing Custom Tax to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/customFormulas",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+			{
+				"text": "Custom Tax Code Name",
+				"datafield": "customTaxCodeName",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Method",
+				"datafield": "method",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Tax Rate",
+				"datafield": "taxRate",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Rounding",
+				"datafield": "rounding",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields": [
+			{
+				"name": "customTaxCodeName",
+				"type": "string"
+			},
+			{
+				"name": "method",
+				"type": "string"
+            },
+            {
+				"name": "taxRate",
+				"type": "number"
+			},
+			{
+				"name": "rounding",
+				"type": "number"
+			},
+            {
+				"name": "minWage",
+				"type": "number"
+			},
+			{
+				"name": "maxWage",
+				"type": "number"
+            },
+            {
+				"name": "maxAmount",
+				"type": "number"
+			},
+			{
+				"name": "flatAmount",
+				"type": "number"
+			},
+            {
+				"name": "startDate",
+				"type": "number"
+			},
+			{
+				"name": "endDate",
+				"type": "number"
+			}
+            
+		]
+	},
+	"formdef": {
+		"title": "Custom Formulas",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": false,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+			{
+				"id": "customTaxcodeName",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "method",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "taxRate",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "rounding",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "minWage",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "maxwage",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "maxTax",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "flatAmount",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "startDate",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "endDtae",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            }
+            
+            
+		],
+		"fltrflds": ""
+	}
+}

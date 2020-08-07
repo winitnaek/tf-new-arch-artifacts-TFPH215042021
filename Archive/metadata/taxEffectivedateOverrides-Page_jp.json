@@ -1,0 +1,151 @@
+{
+	"pgdef": {
+		"pgid": "tax EffectiveDateOverrides",
+		"pgtitle": "Tax Effective Date Overrides",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new Tax Effective Date Overrides, or click on existing Tax Effective Date Override to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/taxEffectiveDateOverrides",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "There are no Tax Effective Date Overrides defined.",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+
+            {
+				"text": " Tax Type",
+				"datafield": "taxType",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Formula Effective Date",
+				"datafield": "formulaEffectiveDate",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+  {
+				"text": "Start Date",
+				"datafield": "startDate",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "End Date",
+				"datafield": "endDate",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
+		],
+		"dataFields": [
+            {
+				"name": "Authority",
+				"type": "string"
+            },
+            
+            {
+				"name": "Tax Type",
+				"type": "string"
+            },
+           
+            {
+				"name": "Formula Effective Date",
+				"type": "number"
+			}, 
+            {
+				"name": "startDate",
+				"type": "Date"
+            },
+            {
+				"name": "endtDate",
+				"type": "Date"
+			}
+		]
+	},
+	"formdef": {
+		"title": "Tax Effective Date Overrides",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": false,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+            {
+				"id": "authority",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            
+            {
+				"id": "taxType",
+				"order": 2,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "formulaEffectiveDate",
+				"order": 3,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			
+            {
+				"id": "startDate",
+				"order": 4,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "endDate",
+				"order": 5,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			}
+            
+            
+		],
+		"fltrflds": ""
+	}
+}

@@ -1,0 +1,86 @@
+{
+  pgdef: {
+    pgid: "garnishmentDisposableWages",
+    pgtitle: "Garnishment Disposable Wages",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/garnishmentDisposableWages",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Authority",
+        datafield: "authority",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      }
+      {
+        text: "Tax Type",
+        datafield: "taxType",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Tax Type Name",
+        datafield: "taxTypeName",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Payment",
+        datafield: "payment",
+        cellsalign: "center",
+        align: "center",
+        width: "20%"
+      },
+      {
+        text: "Payment Name",
+        datafield: "paymentName",
+        cellsalign: "center",
+        align: "center",
+        width: "20%"
+      }     
+    ],
+    dataFields: [
+      { name: "authority", type: "string" },
+      { name: "taxType", type: "string" },
+      { name: "taxTypeName", type: "string" },
+      { name: "payment", type: "string" },
+      { name: "paymentName", type: "string" }
+    ]
+  },
+  formdef: {
+    title: "Garnishment Disposable Wages",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "authorityCode", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "taxType", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "startDate", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }     
+    ]
+  }
+}

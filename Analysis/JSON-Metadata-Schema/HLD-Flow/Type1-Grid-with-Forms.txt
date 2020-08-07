@@ -1,0 +1,111 @@
+﻿{
+	"pgdef": {
+		"pgid": "customPayments",
+		"pgtitle": "Custom Payments",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add new Custom Payment. Or click on existing Custom Payment to edit.",
+		"actiondel": "false",
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/customPayments",
+		"parentConfig":"",
+	},
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"columns": [
+			{
+				"text": "Custom Payment Code",
+				"datafield": "customPaymentCode",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+						"payName": "test",
+						"payCode": "PAYME",
+						"editMode": "2",
+						"payType": "E",
+						"taxability": "Taxable",
+						"eeMax": "0.00",
+						"erMax": "-",
+						"aggStatus": "N/A"
+					}
+				],
+				"rendererStaticInput": [{"name": "","value": ""}]
+			}...
+		],
+		"dataFields":[
+		  {"name": "customPaymentCode","type": "string"},
+		  {"name": "customPaymentName","type": "string"},
+		  {"name": "paymentType","type": "string"},
+		  {"name": "avgStatus","type": "string"}
+		]
+	},
+	"cruddef": {
+		"title":"Custom Payments",
+		"sbutitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":true,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasDelete":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	},
+	"crudflds":[
+ 	{
+          name: "customTaxCode",
+          id: "customTaxCode",
+          placeholder: "Enter Custom Tax Code",
+          type: "text",
+          label: "Custom Tax Code",
+          initialValue:'',
+	  validation:"required",
+	  errmsg:"Custom Tax Code is required" 	
+        },
+        {
+          name: "customTaxName",
+          id: "customTaxName",
+          placeholder: "Enter Custom Tax Name",
+          type: "text",
+          label: "Custom Tax Name",
+	  validation:"required",
+	  errmsg:"Custom Tax Name is required" 	
+
+        },
+	{
+          name: "taxCode",
+          id: "taxCode",
+          placeholder: "Select or Enter TaxCode",
+          type: "select",
+          label: "Tax Code",
+	  autocomplete:true,
+	  options:[],
+	  isMulti:false,
+	  validation:"required",
+	  errmsg:"Tax Code is required" 		
+        }
+	],
+	"fltrflds":[
+	{
+          name: "taxCode",
+          id: "taxCode",
+          placeholder: "Select or Enter TaxCode",
+          type: "select",
+          label: "Tax Code",
+	  autocomplete:true,
+	  options:[],
+	  isMulti:false,
+	  validation:"required",
+	  errmsg:"Tax Code is required" 		
+        }
+	]
+
+}

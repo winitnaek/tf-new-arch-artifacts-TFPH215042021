@@ -1,0 +1,72 @@
+{
+  "pgdef": {
+    "pgid": "customGarnishmentFormula",
+    "pgtitle": "Custom Garnishment Formula",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/customGarnishmentFormula",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Attribute",
+        "datafield": "attribute",
+        "cellsalign": "left",
+        "width": "50%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Value",
+        "datafield": "value",
+        "cellsalign": "left",
+        "width": "50%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      { "name": "attribute", "type": "string" },
+      { "name": "value", "type": "string" }
+    ]
+  },
+
+  "formdef": {
+    "title": "Custom Garnishment Formula",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": [
+      { "id": "attribute", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "value", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false }
+    ],
+
+    "fltrflds": ""
+  }
+}

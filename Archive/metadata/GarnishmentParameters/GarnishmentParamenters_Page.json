@@ -1,0 +1,206 @@
+{
+  pgdef: {
+    pgid: "garnishmentParameters",
+    pgtitle: "Garnishment Parameters",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/garnishmentParameters",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Authority",
+        datafield: "authority",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },
+      {
+        text: "Tax Type",
+        datafield: "taxType",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "DU:",
+        datafield: "du:",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "GI:",
+        datafield: "gi:",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "PN:",
+        datafield: "pn:",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "SE:",
+        datafield: "se:",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "CO:",
+        datafield: "co:",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "HF:",
+        datafield: "hf:",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "NC:",
+        datafield: "nc:",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "TD:",
+        datafield: "td:",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "VO:",
+        datafield: "vo:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "AL:",
+        datafield: "al:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "DE:",
+        datafield: "de:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "LS:",
+        datafield: "ls:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "SF:",
+        datafield: "sf:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "UF:",
+        datafield: "uf:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "AD:",
+        datafield: "ad:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "FS:",
+        datafield: "fs:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "ND:",
+        datafield: "nd:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "NE:",
+        datafield: "ne:",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "TOW",
+        datafield: "tow",
+        cellsalign: "center",
+        align: "center"
+      }
+      {
+        text: "Med Support",
+        datafield: "medSupport",
+        cellsalign: "center",
+        align: "center"
+      }
+    ],
+    dataFields: [
+      { name: "authority", type: "string" },
+      { name: taxType", type: "string" },
+      { name: "du:", type: "string" },
+      { name: "gi:", type: "string" },
+      { name: "pn:", type: "string" },
+      { name: "se:", type: "string" },
+      { name: "co:", type: "string" },
+      { name: "hf:", type: "string" },
+      { name: "nc:", type: "string" },
+      { name: "td:", type: "string" },
+      { name: "vo:", type: "string" }
+      { name: "al:", type: "string" },
+      { name: "de:", type: "string" },
+      { name: "ls:", type: "string" },
+      { name: "sf:", type: "string" },
+      { name: "uf:", type: "string" },
+      { name: "ad:", type: "string" },
+      { name: "fs:", type: "string" },
+      { name: "nd:", type: "string" },
+      { name: "ne:", type: "string" },
+      { name: "tow", type: "string" },
+      { name: "medSupport", type: "string" }	
+    ]
+  },
+  formdef: {
+    title: "Garnishment Parameters",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "authorityCode", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "taxType", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "effectiveDate", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }     
+    ]
+  }
+}

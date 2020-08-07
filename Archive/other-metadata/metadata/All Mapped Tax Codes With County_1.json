@@ -1,0 +1,107 @@
+{
+	"pgdef": {
+		"pgid": "allMappedTaxCodesWithCounty",
+		"pgtitle": "All Mapped Tax Codes With County",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/allMappedTaxCodesWithCounty",
+		"childConfig":""
+			 },
+			 
+	 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+
+			{
+				"text": "User Code",
+				"datafield": "userCode",
+				"cellsalign": "left",
+			"width": "16.5%',
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "BSI Code",
+				"datafield": "bsiCode",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Authority Name",
+				"datafield": "authorityName",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Preferred",
+				"datafield": "preferred",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Authority Title",
+				"datafield": "authorityTitle",
+				"cellsalign": "left",
+			"width": "16.5%',
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "County ID",
+				"datafield": "countyID",
+				"cellsalign": "left",
+			"width": "16.5%',
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "authority","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "startDate","type": "string"},
+		  {"name": "formulaNumber","type": "string"},
+		  {"name": "formulaDescription","type": "string"},
+		  {"name": "formulaDescription","type": "string"}
+		  ]
+	},
+	"cruddef": {
+		"title":"Valid TaxFormulas",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

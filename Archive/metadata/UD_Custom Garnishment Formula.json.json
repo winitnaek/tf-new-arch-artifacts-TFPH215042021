@@ -1,0 +1,82 @@
+[
+  {
+    "Attribute": "Custom Garnishment Code",
+    "Value": "CUSTGAR001"
+  },
+  {
+    "Attribute": "Start Date",
+    "Value": "1/1/2020"
+  },
+  {
+    "Attribute": "End Date",
+    "Value": "12/31/2020"
+  },
+  {
+    "Attribute": "Input Amount Indicator",
+    "Value": ""
+  },
+  {
+    "Attribute": "Flat Amount",
+    "Value": 10
+  },
+  {
+    "Attribute": "Percent",
+    "Value": 0
+  },
+  {
+    "Attribute": "Priority",
+    "Value": 0
+  },
+  {
+    "Attribute": "Exemption Indicator",
+    "Value": ""
+  },
+  {
+    "Attribute": "Exemption Flat Amount",
+    "Value": 0
+  },
+  {
+    "Attribute": "Exemption Amount",
+    "Value": 0
+  },
+  {
+    "Attribute": "Exemption Dependent Amount",
+    "Value": 0
+  },
+  {
+    "Attribute": "Calculation Method",
+    "Value": ""
+  },
+  {
+    "Attribute": "Calculation Percent",
+    "Value": 0
+  },
+  {
+    "Attribute": "Calculation Amount",
+    "Value": 0
+  },
+  {
+    "Attribute": "Calculation Limit",
+    "Value": 0
+  },
+  {
+    "Attribute": "Deduction Indicator",
+    "Value": ""
+  },
+  {
+    "Attribute": "Deduction Flat Amount",
+    "Value": 0
+  },
+  {
+    "Attribute": "Deduction Amount",
+    "Value": 0
+  },
+  {
+    "Attribute": "Deduction Dependent Amount",
+    "Value": 0
+  },
+  {
+    "Attribute": "Statement of Exemptions",
+    "Value": 0
+  }
+]

@@ -1,0 +1,938 @@
+[
+	{
+		"name":"garnishmentDeductionBenefitPlan",
+		"id":"garnishmentDeductionBenefitPlan",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Deduction/Benefit Plans",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"amount",
+		"id":"amount",
+		"placeholder":"Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentPlanCalculationIndicator",
+		"id":"garnishmentPlanCalculationIndicator",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Plan Calculation Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentDeductionBenefitPlan",
+		"id":"garnishmentDeductionBenefitPlan",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Deduction/Benefit Plans",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"amount",
+		"id":"amount",
+		"placeholder":"Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentPlanCalculationIndicator",
+		"id":"garnishmentPlanCalculationIndicator",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Plan Calculation Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentDeductionBenefitPlan",
+		"id":"garnishmentDeductionBenefitPlan",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Deduction/Benefit Plans",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"amount",
+		"id":"amount",
+		"placeholder":"Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentPlanCalculationIndicator",
+		"id":"garnishmentPlanCalculationIndicator",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Plan Calculation Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentDeductionBenefitPlan",
+		"id":"garnishmentDeductionBenefitPlan",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Deduction/Benefit Plans",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"amount",
+		"id":"amount",
+		"placeholder":"Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentPlanCalculationIndicator",
+		"id":"garnishmentPlanCalculationIndicator",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Plan Calculation Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentDeductionBenefitPlan",
+		"id":"garnishmentDeductionBenefitPlan",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Deduction/Benefit Plans",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"amount",
+		"id":"amount",
+		"placeholder":"Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentPlanCalculationIndicator",
+		"id":"garnishmentPlanCalculationIndicator",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Plan Calculation Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentDeductionBenefitPlan",
+		"id":"garnishmentDeductionBenefitPlan",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Deduction/Benefit Plans",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"amount",
+		"id":"amount",
+		"placeholder":"Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentPlanCalculationIndicator",
+		"id":"garnishmentPlanCalculationIndicator",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Plan Calculation Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentDeductionBenefitPlan",
+		"id":"garnishmentDeductionBenefitPlan",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Deduction/Benefit Plans",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"amount",
+		"id":"amount",
+		"placeholder":"Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentPlanCalculationIndicator",
+		"id":"garnishmentPlanCalculationIndicator",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Plan Calculation Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentDeductionBenefitPlan",
+		"id":"garnishmentDeductionBenefitPlan",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Deduction/Benefit Plans",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"amount",
+		"id":"amount",
+		"placeholder":"Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"garnishmentPlanCalculationIndicator",
+		"id":"garnishmentPlanCalculationIndicator",
+		"placeholder":"Select",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Garnishment Plan Calculation Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	}
+	]

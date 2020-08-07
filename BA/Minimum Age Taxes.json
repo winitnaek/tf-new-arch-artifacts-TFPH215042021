@@ -1,0 +1,95 @@
+{
+	"pgdef": {
+		"pgid": "minimumAgeTaxes",
+		"pgtitle": " Minimum Age Taxes",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/minimumAgeTaxes",
+		"childConfig":""
+		
+			 },
+			 
+		"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Type",
+				"datafield": "taxType",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Formula",
+				"datafield": "formula",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Effective Date",
+				"datafield": "effectiveDate",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Minimum Age",
+				"datafield": "minimumAge",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "authority","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "formula","type": "string"},
+		  {"name": "effectiveDate","type": "string"},
+		  {"name": "minimumAge","type": "string"}
+		  ]
+		   },
+		"cruddef": {
+		"title":" Minimum Age Taxes",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

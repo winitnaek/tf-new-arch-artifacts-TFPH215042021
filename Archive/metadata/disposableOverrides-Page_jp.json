@@ -1,0 +1,209 @@
+{
+	"pgdef": {
+		"pgid": "disposableOverrides",
+		"pgtitle": "Disposable Overrides",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new Override or click on existing Override to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/disposableOverrides",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "center",
+				"width": "12.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Garnishment",
+				"datafield": "garnishment",
+				"width": "12.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Payment",
+				"datafield": "payment",
+				"cellsalign": "center",
+				"width": "12.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+			
+            {
+				"text": "Dates",
+				"datafield": "dates",
+				"cellsalign": "center",
+				"width": "12.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Process",
+				"datafield": "process",
+				"cellsalign": "center",
+				"width": "12.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+			{
+				"text": "Date Code",
+				"datafield": "dateCode",
+				"width": "12.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Percent",
+				"datafield": "percent",
+				"cellsalign": "center",
+				"width": "12.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Amount",
+				"datafield": "amount",
+				"cellsalign": "center",
+				"width": "12.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
+
+		],
+		"dataFields": [
+			{
+				"name": "authority",
+				"type": "string"
+            },
+            {
+				"name": "garnishment",
+				"type": "string"
+            },
+            {
+				"name": "payment",
+				"type": "string"
+            },
+			
+            {
+				"name": "dates",
+				"type": "Date"
+            },
+            {
+				"name": "process",
+				"type": "string"
+            },
+			{
+				"name": "dateCode",
+				"type": "string"
+            },
+            {
+				"name": "percent",
+				"type": "number"
+            },
+            {
+				"name": "amount",
+				"type": "number"
+			}
+		]
+	},
+	"formdef": {
+		"title": "Disposable Overides",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": false,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+			
+			{
+				"id": "authority",
+				"order": 1,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "garnishment",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            }, 
+            {
+				"id": "payment",
+				"order": 3,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },          
+            {
+				"id": "dates",
+				"order": 4,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "process",
+				"order": 5,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            }, 
+			{
+				"id": "dateCode",
+				"order": 6,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "percent",
+				"order": 7,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "amount",
+				"order": 8,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            }
+            
+		],
+		"fltrflds": ""
+	}
+}

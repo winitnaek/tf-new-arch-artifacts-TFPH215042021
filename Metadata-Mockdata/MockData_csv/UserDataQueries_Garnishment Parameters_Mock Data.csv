@@ -1,0 +1,14 @@
+authority,taxType,dU:,gI:,pN:,sE:,cO:,hF:,nC:,tD:,vO:,aL:,dE:,lS:,sF:,uF:,aD:,fS:,nD:,nE:,tOW,medicalSupport
+00010000-ALABAMA,502-CURRENT SUPPORT,-,x,-,-,-,-,-,-,-,-,x,-,x,-,-,-,-,-,-,x
+00010000-ALABAMA,504-STATE TAX LEVY,-,x,-,-,x,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+00010000-ALABAMA,507-CREDITOR GARNISHMENT,-,x,-,-,-,-,-,x,-,-,-,-,-,-,-,-,-,-,-,-
+00010000-ALABAMA,510-CURRENT SUPPORT ARREARS,-,x,-,-,-,-,-,-,-,-,x,-,x,-,-,-,-,-,-,x
+00010000-ALABAMA,511-MEDICAL SUPPORT,-,x,-,-,-,-,-,-,-,-,x,-,x,-,-,-,-,-,-,x
+00010000-ALABAMA,512-MEDICAL SUPPORT ARREARS,-,x,-,-,-,-,-,-,-,-,x,-,x,-,-,-,-,-,-,x
+00010000-ALABAMA,513-SPOUSAL SUPPORT,-,x,-,-,-,-,-,-,-,-,x,-,x,-,-,-,-,-,-,x
+00010000-ALABAMA,514-SPOUSAL SUPPORT ARREARS,-,x,-,-,-,-,-,-,-,-,x,-,x,-,-,-,-,-,-,x
+00010000-ALABAMA,516-OUT OF STATE SUPPORT,-,x,-,-,-,-,-,-,-,-,x,-,x,-,-,-,-,-,-,x
+00010000-ALABAMA,517-STATE STUDENT LOAN,-,-,-,-,x,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+00010000-ALABAMA,519-SUPPORT EMPLOYER FEE,-,x,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+00010000-ALABAMA,528-LUMP SUM SUPPORT,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+00010000-ALABAMA,600-TOTAL SUPPORT,-,x,-,-,-,-,-,-,-,-,x,-,x,-,-,-,-,-,-,x

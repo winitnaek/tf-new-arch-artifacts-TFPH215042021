@@ -1,0 +1,10 @@
+[
+  {
+    "customTaxCode": "CTC1",
+    "customTaxName": "Custom Tax Code1"
+  },
+  {
+    "customTaxCode": "CTC2",
+    "customTaxName": "Custom Tax Code 2"
+  }
+]

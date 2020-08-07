@@ -1,0 +1,97 @@
+{
+   "pgdef":{
+      "pgid":"statementOfExemptionAuthorities",
+      "pgtitle":"Statement of Exemption Authorities",
+      "pgsubtitle":"",
+      "flowtype":"flowtype1",
+      "hasAddNew":false,
+      "addNewLabel":"",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/statementOfExemptionAuthorities",
+      "parentConfig":"",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"ro",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found",
+      "recordEdit":false,
+      "recordDelete":false,
+      "columns":[
+         {
+            "text":"Auth. Code",
+            "datafield":"auth.Code",
+            "cellsalign":"center",
+            "width":"25%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Tax Type",
+            "datafield":"taxType",
+            "cellsalign":"center",
+            "width":"25%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Effective Date",
+            "datafield":"effectiveDate",
+            "cellsalign":"center",
+            "width":"25%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Rescind Date",
+            "datafield":"rescindDate",
+            "cellsalign":"center",
+            "width":"25%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         }
+      ],
+      "dataFields":[
+         {
+            "name":"auth.Code",
+            "type":"string"
+         },
+         {
+            "name":"taxType",
+            "type":"string"
+         },
+         {
+            "name":"effectiveDate",
+            "type":"string"
+         },
+         {
+            "name":"rescindDate",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef":{
+      "title":"Statement of Exemption Authorities",
+      "subtitle":"",
+      "hasSave":false,
+      "hasDelete":false,
+      "hasSaveAs":false,
+      "hasViewPDF":false,
+      "hasView":false,
+      "hasRecentUsage":false,
+      "formflds":""
+   }
+}

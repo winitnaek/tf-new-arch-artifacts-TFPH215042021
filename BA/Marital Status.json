@@ -1,0 +1,385 @@
+{
+	"pgdef": {
+		"pgid": "maritalStatus",
+		"pgtitle": "Marital Status",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/maritalStatus",
+		"childConfig":""
+			 },
+		 
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Tax Type",
+                "datafield": "taxType",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "5%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Formula",
+                "datafield": "formula",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Start Date",
+                "datafield": "startDate",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} ,
+			{
+                "text": "End Date",
+                "datafield": "endDate",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Single",
+                "datafield": "single",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Married",
+                "datafield": "married",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Separate",
+                "datafield": "separate",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} ,
+			{
+                "text": "One Working",
+                "datafield": "oneWorking",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "Two Working",
+                "datafield": "twoWorking",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Head of Household",
+                "datafield": "headOfHousehold",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Multiple Employers",
+                "datafield": "multipleEmployers",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} ,
+			{
+                "text": "Widow/Widower",
+                "datafield": "widow/Widower",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Not Living w. Spouse",
+                "datafield": "notLivingW.Spouse",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Claim All/Joint",
+                "datafield": "claimAll/Joint",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Claim Half/Joint",
+                "datafield": "claimHalf/Joint",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} ,
+			{
+                "text": "Claim All/Separate",
+                "datafield": "claimAll/Separate",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Claim None/Joint",
+                "datafield": "claimNone/Joint",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Living With Spouse",
+                "datafield": "livingWithSpouse",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Single Tax Rate",
+                "datafield": "singleTaxRate",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} ,
+			{
+                "text": "Civil Union",
+                "datafield": "civilUnion",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "CU/Single Tax Rate",
+                "datafield": "cU/SingleTaxRate",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Spouse is Nonres Alien",
+                "datafield": "spouseIsNonresAlien",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Married 19",
+                "datafield": "married19",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} ,
+			{
+                "text": "Married 20",
+                "datafield": "married20",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Married 21",
+                "datafield": "married21",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Married 22",
+                "datafield": "married22",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} ,
+			{
+                "text": "Married 23",
+                "datafield": "married23",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "Married 24",
+                "datafield": "married24",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Married 25",
+                "datafield": "married25",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Default",
+                "datafield": "default",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "3%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} 
+		],
+		"dataFields":[
+		  {"name": "authority","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "formula","type": "string"},
+		  {"name": "startDate","type": "string"},
+		  {"name": "endDate","type": "string"},
+		  {"name": "single","type": "string"},
+		  {"name": "married","type": "string"},
+		  {"name": "separate","type": "string"},		  
+		  {"name": "twoWorking","type": "string"},
+		  {"name": "oneWorking","type": "string"},
+		  {"name": "headOfHousehold","type": "string"},
+		  {"name": "multipleEmployers","type": "string"},
+		  {"name": "widow/Widower","type": "string"},
+		  {"name": "notLivingW.Spouse","type": "string"},
+		  {"name": "claimAll/Joint","type": "string"},
+		  {"name": "claimHalf/Joint","type": "string"},	
+		  {"name": "claimAll/Separate","type": "string"},
+		  {"name": "claimNone/Joint","type": "string"},		  
+		  {"name": "livingWithSpouse","type": "string"},
+		  {"name": "singleTaxRate","type": "string"},
+		  {"name": "civilUnion","type": "string"},
+		  {"name": "cU/SingleTaxRate","type": "string"},
+		  {"name": "spouseIsNonresAlien","type": "string"},
+		  {"name": "married19","type": "string"},
+		  {"name": "married20","type": "string"},
+		  {"name": "married21","type": "string"},
+		  {"name": "married22","type": "string"},
+		  {"name": "married23","type": "string"},
+		  {"name": "married24","type": "string"},
+		  {"name": "married25","type": "string"},
+		  {"name": "default","type": "string"}		  
+
+		  ],
+	
+	"cruddef": {
+		"title":"Marital Status",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

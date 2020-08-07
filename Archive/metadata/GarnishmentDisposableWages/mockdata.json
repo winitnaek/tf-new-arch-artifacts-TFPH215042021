@@ -1,0 +1,1269 @@
+[
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "C001",
+    "paymentName": "TIP CREDIT"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "D062",
+    "paymentName": "MANDATORY RETIREMENT CONTRIBUTION"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E002",
+    "paymentName": "PAY ADVANCES"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E005",
+    "paymentName": "BACK PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E006",
+    "paymentName": "BONUSES"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E010",
+    "paymentName": "COMMISSIONS"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E014",
+    "paymentName": "DISMISSAL/SEVERANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E021",
+    "paymentName": "GOLDEN PARACHUTE"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E023",
+    "paymentName": "GUARANTEED WAGE"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E024",
+    "paymentName": "JURY DUTY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E027",
+    "paymentName": "SUPPLEMENTAL MILITARY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E031",
+    "paymentName": "OVERTIME"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E034",
+    "paymentName": "PROBATIONARY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E035",
+    "paymentName": "REGULAR WAGES"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E037",
+    "paymentName": "SICK/DISABILITY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E038",
+    "paymentName": "STANDBY/IDLE TIME"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E041",
+    "paymentName": "SUPPLEMENTAL UNEMPLOYMENT"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E043",
+    "paymentName": "TIPS"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E047",
+    "paymentName": "VACATION PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E060",
+    "paymentName": "3RD PARTY SICK PAY - IN HOUSE PLAN"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E068",
+    "paymentName": "DIFFERENTIAL PAY-ACT DUTY MILITARY"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E079",
+    "paymentName": "TIPS ALTERNATE EMPLOYER RULE"
+  },
+  {
+    "authority": 0,
+    "taxType": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "payment": "E087",
+    "paymentName": "MINIMUM WAGE MAKEUP"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "C001",
+    "paymentName": "TIP CREDIT"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "D062",
+    "paymentName": "MANDATORY RETIREMENT CONTRIBUTION"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E002",
+    "paymentName": "PAY ADVANCES"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E005",
+    "paymentName": "BACK PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E006",
+    "paymentName": "BONUSES"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E010",
+    "paymentName": "COMMISSIONS"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E014",
+    "paymentName": "DISMISSAL/SEVERANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E021",
+    "paymentName": "GOLDEN PARACHUTE"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E023",
+    "paymentName": "GUARANTEED WAGE"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E024",
+    "paymentName": "JURY DUTY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E027",
+    "paymentName": "SUPPLEMENTAL MILITARY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E031",
+    "paymentName": "OVERTIME"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E034",
+    "paymentName": "PROBATIONARY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E035",
+    "paymentName": "REGULAR WAGES"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E037",
+    "paymentName": "SICK/DISABILITY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E038",
+    "paymentName": "STANDBY/IDLE TIME"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E041",
+    "paymentName": "SUPPLEMENTAL UNEMPLOYMENT"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E047",
+    "paymentName": "VACATION PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E068",
+    "paymentName": "DIFFERENTIAL PAY-ACT DUTY MILITARY"
+  },
+  {
+    "authority": 0,
+    "taxType": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "payment": "E087",
+    "paymentName": "MINIMUM WAGE MAKEUP"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "C001",
+    "paymentName": "TIP CREDIT"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D001",
+    "paymentName": "UNION DUES"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D002",
+    "paymentName": "HEALTH INSURANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D003",
+    "paymentName": "LIFE INSURANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D004",
+    "paymentName": "DISABILITY INSURANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D005",
+    "paymentName": "HEALTH FOR DEPENDENT CHILD"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D006",
+    "paymentName": "INITIATION FEE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D007",
+    "paymentName": "AMOUNT LEGALLY OWED/DUE EMPLOYER"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D008",
+    "paymentName": "DENTAL INSURANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D009",
+    "paymentName": "DEDUCTIONS AS CONDITION OF EMPLOY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D010",
+    "paymentName": "LIFE INSURANCE DEPENDENT CHILD"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D011",
+    "paymentName": "DISABILITY INSURANCE DEP CHILD"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D012",
+    "paymentName": "AUTOMOBILE INSURANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D013",
+    "paymentName": "BALLOT ISSUE COMMITTEE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D014",
+    "paymentName": "BOARD/HOUSING/LODGING"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D015",
+    "paymentName": "CHARITABLE CONTRIBUTIONS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D016",
+    "paymentName": "CHILD CARE/DEPENDENT CARE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D017",
+    "paymentName": "COLLEGE/SCHOLARSHIP SAVINGS PLANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D018",
+    "paymentName": "COMPANY PRODUCTS/MERCHANDISE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D019",
+    "paymentName": "COMPUTER LOANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D020",
+    "paymentName": "CREDIT CARD ACCOUNTS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D021",
+    "paymentName": "CREDIT UNION"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D022",
+    "paymentName": "DEFERRED COMPENSATION PLANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D023",
+    "paymentName": "DUES/FEES"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D024",
+    "paymentName": "EMPLOYEE SAVINGS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D025",
+    "paymentName": "EMPLOYEE LOANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D026",
+    "paymentName": "EMPLOYER LOANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D027",
+    "paymentName": "EQUIPMENT"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D028",
+    "paymentName": "FLEXIBLE SPENDING ACCOUNTS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D029",
+    "paymentName": "FLOWER FUNDS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D030",
+    "paymentName": "GIFTS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D031",
+    "paymentName": "GOVT EMP RETIREMENT LOANS (UVI)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D032",
+    "paymentName": "HOMEOWNERS  INSURANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D033",
+    "paymentName": "LEGAL DEFENSE FUND"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D034",
+    "paymentName": "LEGAL EXPENSE INSURANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D035",
+    "paymentName": "MEALS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D036",
+    "paymentName": "MEDICAL EXPENSE PLANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D037",
+    "paymentName": "MISCELLANEOUS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D038",
+    "paymentName": "PARKING"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D039",
+    "paymentName": "PERSONAL LOANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D040",
+    "paymentName": "POLITICAL/CAMPAIGN CONTRIBUTIONS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D041",
+    "paymentName": "PROFIT SHARING INCENTIVE PLAN LOANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D042",
+    "paymentName": "PUBLIC RADIO STATION CONTRIBUTIONS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D043",
+    "paymentName": "SALARY ADVANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D044",
+    "paymentName": "SALARY RESERVE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D045",
+    "paymentName": "SAVINGS BOND"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D046",
+    "paymentName": "SERVICE CREDIT PURCHASE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D047",
+    "paymentName": "THRIFT SAVINGS PLAN LOANS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D048",
+    "paymentName": "TICKETS (ATHLETIC/ENTERTAINMENT)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D049",
+    "paymentName": "TRANSIT/TRANSPORTATION"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D050",
+    "paymentName": "TUITION/BOOK FEES"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D051",
+    "paymentName": "UNAUTHORIZED/UNPAID LEAVE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D052",
+    "paymentName": "UNIFORMS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D053",
+    "paymentName": "UNITED WAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D054",
+    "paymentName": "VEHICLE TAX"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D055",
+    "paymentName": "WELLNESS CENTER"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D056",
+    "paymentName": "VISION COVERAGE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D057",
+    "paymentName": "VISION COVERAGE FOR DEPENDENTS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D058",
+    "paymentName": "PRESCRIPTION DRUG"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D059",
+    "paymentName": "PRESCRIPTION DRUG FOR DEPENDENTS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D060",
+    "paymentName": "MENTAL HEALTH COVERAGE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D061",
+    "paymentName": "MENTAL HLTH COVERAGE FOR DEPENDENT"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D062",
+    "paymentName": "MANDATORY RETIREMENT CONTRIBUTION"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D063",
+    "paymentName": "DRUG TESTING / MEDICAL EXAM"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D065",
+    "paymentName": "NMSN - ALL HEALTH"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D066",
+    "paymentName": "NMSN - MEDICAL"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D067",
+    "paymentName": "NMSN - DENTAL"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D068",
+    "paymentName": "NMSN - VISION"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D069",
+    "paymentName": "NMSN - PRESCRIPTION DRUG"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D070",
+    "paymentName": "NMSN - MENTAL HEALTH"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "D071",
+    "paymentName": "NMSN - OTHER"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E002",
+    "paymentName": "PAY ADVANCES"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E005",
+    "paymentName": "BACK PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E006",
+    "paymentName": "BONUSES"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E010",
+    "paymentName": "COMMISSIONS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E014",
+    "paymentName": "DISMISSAL/SEVERANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E021",
+    "paymentName": "GOLDEN PARACHUTE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E023",
+    "paymentName": "GUARANTEED WAGE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E024",
+    "paymentName": "JURY DUTY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E027",
+    "paymentName": "SUPPLEMENTAL MILITARY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E031",
+    "paymentName": "OVERTIME"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E034",
+    "paymentName": "PROBATIONARY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E035",
+    "paymentName": "REGULAR WAGES"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E037",
+    "paymentName": "SICK/DISABILITY PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E038",
+    "paymentName": "STANDBY/IDLE TIME"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E041",
+    "paymentName": "SUPPLEMENTAL UNEMPLOYMENT"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E043",
+    "paymentName": "TIPS"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E047",
+    "paymentName": "VACATION PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E068",
+    "paymentName": "DIFFERENTIAL PAY-ACT DUTY MILITARY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E072",
+    "paymentName": "ER PREMIUM SAME-SEX PARTNER MEDICAL"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E073",
+    "paymentName": "ER PREMIUM SAME-SEX PARTNER DENTAL"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E079",
+    "paymentName": "TIPS ALTERNATE EMPLOYER RULE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "E087",
+    "paymentName": "MINIMUM WAGE MAKEUP"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P001",
+    "paymentName": "401K"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P002",
+    "paymentName": "403B"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P003",
+    "paymentName": "408K"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P004",
+    "paymentName": "457B STATE AND LOCAL GOVMNT"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P005",
+    "paymentName": "7701J"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P006",
+    "paymentName": "SECTION 125"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P007",
+    "paymentName": "DENTAL INSURANCE (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P008",
+    "paymentName": "GROUP TERM LIFE (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P009",
+    "paymentName": "HEALTH INSURANCE (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P010",
+    "paymentName": "DEPENDENT CARE FILING SEP (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P011",
+    "paymentName": "DEPENDENT CARE MARRIED (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P012",
+    "paymentName": "CASH OUT (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P014",
+    "paymentName": "SIMPLE 401K"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P016",
+    "paymentName": "401K ROTH"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P017",
+    "paymentName": "403B ROTH"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P018",
+    "paymentName": "QUALIFIED PARKING"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P019",
+    "paymentName": "TRANSPORTATION CHV"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P020",
+    "paymentName": "HSA SELF-ONLY (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P021",
+    "paymentName": "HSA FAMILY (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P022",
+    "paymentName": "457B TAX EXEMPT ENTITY"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P023",
+    "paymentName": "COMMUTER BENEFITS/SALARY REDUCTION"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P024",
+    "paymentName": "FSA HEALTH"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P025",
+    "paymentName": "457F N.Q. DEFERRED COMPENSATION"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P026",
+    "paymentName": "ROTH 457B"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P029",
+    "paymentName": "409A N.Q. DEFERRED COMPENSATION"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P031",
+    "paymentName": "SIMPLE IRA 408P"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P053",
+    "paymentName": "HSA SINGLE (NON-SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P054",
+    "paymentName": "HSA FAMILY (NON-SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P055",
+    "paymentName": "7701J ROTH"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P056",
+    "paymentName": "COST OF ER-SPONSORED PLAN COVERAGE"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P057",
+    "paymentName": "SAME-SEX PARTNER DNTL INS (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P059",
+    "paymentName": "SAME-SEX PARTNER MED INS (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P060",
+    "paymentName": "VISION INSURANCE (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P061",
+    "paymentName": "SAME-SEX PARTNER VISION"
+  },
+  {
+    "authority": 0,
+    "taxType": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "payment": "P062",
+    "paymentName": "401K (SEC 125)"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "C001",
+    "paymentName": "TIP CREDIT"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "D062",
+    "paymentName": "MANDATORY RETIREMENT CONTRIBUTION"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "E002",
+    "paymentName": "PAY ADVANCES"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "E005",
+    "paymentName": "BACK PAY"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "E006",
+    "paymentName": "BONUSES"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "E010",
+    "paymentName": "COMMISSIONS"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "E014",
+    "paymentName": "DISMISSAL/SEVERANCE"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "E021",
+    "paymentName": "GOLDEN PARACHUTE"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "E023",
+    "paymentName": "GUARANTEED WAGE"
+  },
+  {
+    "authority": 0,
+    "taxType": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "payment": "E024",
+    "paymentName": "JURY DUTY PAY"
+  }
+]

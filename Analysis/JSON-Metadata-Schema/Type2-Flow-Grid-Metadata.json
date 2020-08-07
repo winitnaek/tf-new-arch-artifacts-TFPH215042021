@@ -1,0 +1,51 @@
+﻿{
+	"pgdef": {
+		"pgid": "Custom Formulas",
+		"pgtitle": "Custom Formulas",
+		"pgsubtitle":"Click on the Custom Tax Name to manage the Formula.",
+		"flowtype": "flowtype2",
+		"hasAddNew": false,
+		"addNewLabel": "",
+		"actiondel": "false"
+	},
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": true,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"columns": [
+			{
+				"text": "Custom Tax Code",
+				"datafield": "customTaxCode",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+						"taxCode": "TestTAXCode",
+						"taxName": "test text name",
+						"editMode":"1"
+					}
+				],
+				"rendererStaticInput": [{"name": "","value": ""}]
+			}
+		],
+		"dataFields":[
+			{"name": "testDataId","type": "string"},
+			{"name": "testDataName","type": "string"}
+		]
+	},
+	"cruddef": {
+		"title":"Test title",
+		"sbutitle":"Test Subtitle",
+		"hasSave":false,
+		"hasDelete":flase,
+		"hasSaveAs":false,
+		"hasDelete":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

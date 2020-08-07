@@ -1,0 +1,8 @@
+{
+   "value":"UQ",
+   "label":"All Mapped Pay Codes",
+   "desc":"All Mapped Pay Codes",
+   "id":"allMappedPayCodes",
+   "type":"RO",
+   "link":false
+}

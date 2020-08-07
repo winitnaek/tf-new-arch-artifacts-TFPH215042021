@@ -1,0 +1,299 @@
+{
+	"pgdef": {
+		"pgid": "garnishmentParameters",
+		"pgtitle": "Garnishment Parameters",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/garnishmentParameters",
+		"childConfig":""
+			 },
+			 
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "Tax Type",
+                "datafield": "taxtype",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "5%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "DU:",
+                "datafield": "dU:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "GI:",
+                "datafield": "gI:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "PN:",
+                "datafield": "pN:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "SE:",
+                "datafield": "sE:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "CO:",
+                "datafield": "cO:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "HF:",
+                "datafield": "hF:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "NC:",
+                "datafield": "nC:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "TD:",
+                "datafield": "tD:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "VO:",
+                "datafield": "vO:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "AL:",
+                "datafield": "aL:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "DE:",
+                "datafield": "dE:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "LS:",
+                "datafield": "lS:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "SF:",
+                "datafield": "sF:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "UF:",
+                "datafield": "uF:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+
+			{
+                "text": "AD:",
+                "datafield": "aD:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "FS:",
+                "datafield": "fS:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "ND:",
+                "datafield": "nD:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "NE:",
+                "datafield": "nE:",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "TOW",
+                "datafield": "tow",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "2%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Medical Support",
+                "datafield": "medicalSupport",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "5%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "authority","type": "string"},
+		  {"name": "taxType","type": "string"},
+          {"name": "dU:","type": "string"},
+          {"name": "gI:","type": "string"},
+          {"name": "pN:","type": "string"},
+          {"name": "sE:","type": "string"},
+		  {"name": "cO:","type": "string"},
+          {"name": "hF:","type": "string"},
+          {"name": "nC:","type": "string"},
+          {"name": "tD:","type": "string"},
+          {"name": "vO:","type": "string"},
+		  {"name": "aL:","type": "string"},
+          {"name": "dE:","type": "string"},
+          {"name": "lS:","type": "string"},
+          {"name": "sF:","type": "string"},
+          {"name": "uF:","type": "string"},
+		  {"name": "aD:","type": "string"},
+          {"name": "fS:","type": "string"},
+          {"name": "nD:","type": "string"},
+          {"name": "nE:","type": "string"},
+		  {"name": "TOW","type": "string"},
+		  {"name": "medicalSupport","type": "string"}
+		]
+	},
+
+	"cruddef": {
+		"title":"Garnishment Parameters",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

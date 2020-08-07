@@ -1,0 +1,714 @@
+[
+  {
+    "auth.Code": 0,
+    "auth.Name": "FEDERAL",
+    "countyId": "",
+    "auth.Type": "A",
+    "auth.Title": "FEDERAL",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10000,
+    "auth.Name": "ALABAMA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10001,
+    "auth.Name": "ATTALLA",
+    "countyId": "ETOWAH",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10002,
+    "auth.Name": "BESSEMER",
+    "countyId": "JEFFERSON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10003,
+    "auth.Name": "BRILLIANT",
+    "countyId": "MARION",
+    "auth.Type": "D",
+    "auth.Title": "TOWN",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10004,
+    "auth.Name": "GADSDEN",
+    "countyId": "ETOWAH",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10005,
+    "auth.Name": "GOODWATER",
+    "countyId": "COOSA",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10006,
+    "auth.Name": "GLENCOE",
+    "countyId": "ETOWAH",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10007,
+    "auth.Name": "GUIN",
+    "countyId": "MARION",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10008,
+    "auth.Name": "HAMILTON",
+    "countyId": "MARION",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10009,
+    "auth.Name": "MOUNTAIN BROOK",
+    "countyId": "JEFFERSON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10010,
+    "auth.Name": "OPELIKA",
+    "countyId": "LEE",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10011,
+    "auth.Name": "RAINBOW CITY",
+    "countyId": "ETOWAH",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10012,
+    "auth.Name": "SOUTHSIDE",
+    "countyId": "ETOWAH",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10013,
+    "auth.Name": "TUSKEGEE",
+    "countyId": "MACON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10014,
+    "auth.Name": "RED BAY",
+    "countyId": "FRANKLIN",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10015,
+    "auth.Name": "HALEYVILLE",
+    "countyId": "WINSTON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10016,
+    "auth.Name": "HACKLEBURG",
+    "countyId": "MARION",
+    "auth.Type": "D",
+    "auth.Title": "TOWN",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10073,
+    "auth.Name": "AUBURN",
+    "countyId": "LEE",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10074,
+    "auth.Name": "BEAR CREEK",
+    "countyId": "MARION",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10075,
+    "auth.Name": "SULLIGENT",
+    "countyId": "LAMAR",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10076,
+    "auth.Name": "MACON",
+    "countyId": "MACON",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10501,
+    "auth.Name": "BIRMINGHAM",
+    "countyId": "JEFFERSON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10521,
+    "auth.Name": "JEFFERSON",
+    "countyId": "JEFFERSON",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10522,
+    "auth.Name": "BEAVERTON",
+    "countyId": "LAMAR",
+    "auth.Type": "D",
+    "auth.Title": "TOWN",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10523,
+    "auth.Name": "LEEDS",
+    "countyId": "JEFFERSON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10524,
+    "auth.Name": "LEEDS",
+    "countyId": "ST. CLAIR",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10525,
+    "auth.Name": "LEEDS",
+    "countyId": "SHELBY",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10526,
+    "auth.Name": "LYNN",
+    "countyId": "WINSTON",
+    "auth.Type": "D",
+    "auth.Title": "TOWN",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10527,
+    "auth.Name": "MOSSES",
+    "countyId": "LOWNDES",
+    "auth.Type": "D",
+    "auth.Title": "TOWN",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10528,
+    "auth.Name": "SHORTER",
+    "countyId": "MACON",
+    "auth.Type": "D",
+    "auth.Title": "TOWN",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10529,
+    "auth.Name": "NOTASULGA",
+    "countyId": "MACON",
+    "auth.Type": "D",
+    "auth.Title": "TOWN",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10530,
+    "auth.Name": "BIRMINGHAM",
+    "countyId": "SHELBY",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10531,
+    "auth.Name": "FAIRFIELD",
+    "countyId": "JEFFERSON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10532,
+    "auth.Name": "MIDFIELD",
+    "countyId": "JEFFERSON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10533,
+    "auth.Name": "TARRANT",
+    "countyId": "JEFFERSON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10534,
+    "auth.Name": "WADLEY",
+    "countyId": "RANDOLPH",
+    "auth.Type": "D",
+    "auth.Title": "TOWN",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 10535,
+    "auth.Name": "IRONDALE",
+    "countyId": "JEFFERSON",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 20000,
+    "auth.Name": "ALASKA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 40000,
+    "auth.Name": "ARIZONA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 50000,
+    "auth.Name": "ARKANSAS",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 50001,
+    "auth.Name": "TEXARKANA",
+    "countyId": "MILLER",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 60000,
+    "auth.Name": "CALIFORNIA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 60001,
+    "auth.Name": "SAN FRANCISCO",
+    "countyId": "SAN FRANCISCO",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 70000,
+    "auth.Name": "AMERICAN SAMOA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "POSSESSION",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 80000,
+    "auth.Name": "COLORADO",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 80080,
+    "auth.Name": "DENVER",
+    "countyId": "DENVER",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 80085,
+    "auth.Name": "GREENWOOD VILLAGE",
+    "countyId": "ARAPAHOE",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 80094,
+    "auth.Name": "AURORA",
+    "countyId": "ADAMS",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 80095,
+    "auth.Name": "GLENDALE",
+    "countyId": "ARAPAHOE",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 80103,
+    "auth.Name": "SHERIDAN",
+    "countyId": "ARAPAHOE",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 80104,
+    "auth.Name": "AURORA",
+    "countyId": "ARAPAHOE",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 80105,
+    "auth.Name": "AURORA",
+    "countyId": "DOUGLAS",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 90000,
+    "auth.Name": "CONNECTICUT",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 100000,
+    "auth.Name": "DELAWARE",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 100502,
+    "auth.Name": "WILMINGTON",
+    "countyId": "NEW CASTLE",
+    "auth.Type": "D",
+    "auth.Title": "CITY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 110000,
+    "auth.Name": "DISTRICT OF COLUMBIA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 120000,
+    "auth.Name": "FLORIDA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 130000,
+    "auth.Name": "GEORGIA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 140000,
+    "auth.Name": "GUAM",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "POSSESSION",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 150000,
+    "auth.Name": "HAWAII",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 160000,
+    "auth.Name": "IDAHO",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 170000,
+    "auth.Name": "ILLINOIS",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180000,
+    "auth.Name": "INDIANA",
+    "countyId": "",
+    "auth.Type": "B",
+    "auth.Title": "STATE",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180001,
+    "auth.Name": "ADAMS",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180002,
+    "auth.Name": "ALLEN",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180003,
+    "auth.Name": "BARTHOLOMEW",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180004,
+    "auth.Name": "BENTON",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180005,
+    "auth.Name": "BLACKFORD",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180006,
+    "auth.Name": "BOONE",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180007,
+    "auth.Name": "BROWN",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180008,
+    "auth.Name": "CARROLL",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180009,
+    "auth.Name": "CASS",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180011,
+    "auth.Name": "CLAY",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180012,
+    "auth.Name": "CLINTON",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180013,
+    "auth.Name": "CRAWFORD",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180014,
+    "auth.Name": "DAVIESS",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180015,
+    "auth.Name": "DEARBORN",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180016,
+    "auth.Name": "DECATUR",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180017,
+    "auth.Name": "DEKALB",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180018,
+    "auth.Name": "DELAWARE",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180019,
+    "auth.Name": "DUBOIS",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180020,
+    "auth.Name": "ELKHART",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180021,
+    "auth.Name": "FAYETTE",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180022,
+    "auth.Name": "FLOYD",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180023,
+    "auth.Name": "FOUNTAIN",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180024,
+    "auth.Name": "FRANKLIN",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180025,
+    "auth.Name": "FULTON",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  },
+  {
+    "auth.Code": 180026,
+    "auth.Name": "GIBSON",
+    "countyId": "",
+    "auth.Type": "C",
+    "auth.Title": "COUNTY",
+    "authorityId": ""
+  }
+]

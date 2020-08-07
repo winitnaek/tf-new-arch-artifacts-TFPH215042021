@@ -1,0 +1,96 @@
+{
+  "pgdef": {
+    "pgid": "companies",
+    "pgtitle": "Companies",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/companies",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Company Code",
+        "datafield": "company",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Company Name",
+        "datafield": "companyName",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Company FEIN",
+        "datafield": "fein",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      {
+        "name": "company",
+        "type": "string"
+      },
+      {
+        "name": "companyName",
+        "type": "string"
+      },
+      {
+        "name": "fein",
+        "type": "string"
+      }
+    ]
+  },
+
+  "formdef": {
+    "title": "Companies",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": " ",
+
+    "fltrflds": [
+      {
+        "id": "companyCode",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }
+    ]
+  }
+}

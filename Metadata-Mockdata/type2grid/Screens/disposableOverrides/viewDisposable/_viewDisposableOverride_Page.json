@@ -1,0 +1,229 @@
+{
+  "pgdef": {
+    "pgid": "viewDisposableOverride",
+    "pgtitle": "Disposable Overrides",
+    "pgsubtitle": "disposable Overrides for: ",
+    "flowtype": "flowtype2",
+    "hasAddNew": false,
+    "addNewLabel": "Click here to add new Override. Or click on existing Override to edit.",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/disposableOverrides",
+    "parentConfig": "disposableOverride",
+    "childConfig": ""
+
+  },
+  "griddef": {
+    "gridtype": "type2",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "There are no disposable Overrides for:  ",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+
+      {
+        "text": "Authority",
+        "datafield": "authorityCode",
+        "width": "12.50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Garnishment",
+        "datafield": "garnishment",
+        "width": "12.50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Payment",
+        "datafield": "paymentCode",
+        "width": "12.50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Dates",
+        "datafield": "startDate",
+        "cellsalign": "center",
+        "width": "12.50%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Process",
+        "datafield": "process",
+        "width": "12.50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Date Code",
+        "datafield": "dateCode",
+        "width": "12.50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Percent",
+        "datafield": "percent",
+        "width": "12.50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Amount",
+        "datafield": "amount",
+        "width": "12.50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+
+    ],
+    "dataFields": [
+
+      {
+        "name": "authorityCode",
+        "type": "string"
+      },
+      {
+        "name": "garnishment",
+        "type": "string"
+      },
+      {
+        "name": "paymentCode",
+        "type": "string"
+      },
+      {
+        "name": "dates",
+        "type": "string"
+      },
+      {
+        "name": "process",
+        "type": "string"
+      },
+      {
+        "name": "dateCode",
+        "type": "string"
+      },
+      {
+        "name": "percent",
+        "type": "number"
+      },
+      {
+        "name": "amount",
+        "type": "number"
+      }
+
+    ]
+  },
+
+  "formdef": {
+    "title": "Disposable Overrides",
+    "subtitle": "Disposable Overrides for ",
+    "hasSave": true,
+    "hasDelete": true,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": true,
+    "viewAllBtnText": "View All Disposable",
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "startDate",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "",
+        "order": 2,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "garnishment",
+        "order": 3,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "paymentCode",
+        "order": 4,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "endDate",
+        "order": 5,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "dateCode",
+        "order": 6,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "processCode",
+        "order": 7,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "minimumAmount",
+        "order": 8,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "maximumAmount",
+        "order": 9,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "minimumPercent",
+        "order": 10,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "maximumPercent",
+        "order": 11,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+
+],
+    "fltrflds": ""
+  }
+}

@@ -1,0 +1,18 @@
+attribute,value
+Authority Code,10000
+Tax Type,1
+Formula Number,1
+Start Date,1/1/2020
+End Date,00/00/0000
+Regular Method Valid,0
+Flat-Rate Method Valid,1
+Separate Aggregation Method Valid,1
+Rate Table Method Valid,0
+Cumulative Method Valid,1
+Aggregation Pay Period Method Valid,0
+Wage Associated Method Valid,0
+Concurrent Method Valid,1
+Regular No Exemptions Method Valid,0
+System Selected Supplemental Method Valid,2
+Commission Cumulative Method Valid,0
+Christmas Bonus Method Valid,0

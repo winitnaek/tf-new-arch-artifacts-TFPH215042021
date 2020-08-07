@@ -1,0 +1,51 @@
+﻿{
+	"pgdef": {
+		"pgid": "customTaxCodes",
+		"pgtitle": "Custom Formulas",
+		"pgsubtitle":"Click on the Custom Tax Name to manage the Formula.",
+		"flowtype": "flowtype2",
+		"hasAddNew": true,
+		"addNewLabel": "",
+		"actiondel": "false",
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/customTaxCodes",
+		"childConfig": {
+			"parentpgid": "customTaxCodes",
+			"childpgid": "customFormulas"
+			"parentTitle": "Custom Formulas",
+			"parentWithDataTitle": "Click on the Custom Tax Name to manage the Formula."
+		},
+	},
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": true,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordDelete":"false"
+		"columns": [
+			{
+				"text": "Custom Tax Code",
+				"datafield": "customTaxCode",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+						"taxCode": "FFF",
+						"taxName": "fff",
+						"editMode": "1"
+					}
+				],
+				"rendererStaticInput":""
+			}...
+		],
+		"dataFields":[
+		  {"name": "customTaxCode","type": "string"},
+		  {"name": "customTaxName","type": "string"}
+		]
+	},
+	"cruddef":""
+}

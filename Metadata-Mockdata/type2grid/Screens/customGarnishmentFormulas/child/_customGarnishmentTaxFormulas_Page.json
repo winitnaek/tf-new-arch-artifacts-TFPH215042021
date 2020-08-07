@@ -1,0 +1,229 @@
+{
+  "pgdef": {
+    "pgid": "customGarnishmentTaxFormulas",
+    "pgtitle": "Custom Garnishment Formulas",
+    "pgsubtitle": "The Following formulas are definded for : ",
+    "flowtype": "flowtype2",
+    "hasAddNew": true,
+    "addNewLabel": "Click here to add new Custom Garnishment Formula or click on existing Custom Garnishment Formula to edit.",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/customGarnishmentFormulas",
+    "parentConfig": "customGarnishmentFormulas",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type2",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "There are no formulas defined for : ",
+    "recordEdit": true,
+    "recordDelete": true,
+    "columns": [
+      {
+        "text": "Custom Garnishment Code",
+        "datafield": "customGarnishmentCode",
+        "cellsalign": "center",
+        "width": "25%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Custom Garnishment Name",
+        "datafield": "customGarnishmentName",
+        "width": "25%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Start Date",
+        "datafield": "startDate",
+        "cellsalign": "center",
+        "width": "25%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "End Data",
+        "datafield": "endDate",
+        "width": "25%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    "dataFields": [
+      {
+        "name": "customGarnishmentCode",
+        "type": "string"
+      },
+      {
+        "name": "customGarnishmentName",
+        "type": "string"
+      },
+      {
+        "name": "startDate",
+        "type": "Date"
+      },
+      {
+        "name": "endDate",
+        "type": "Date"
+      }
+
+    ]
+  },
+
+  "formdef": {
+    "title": "Custom Garnishment Formulas",
+    "subtitle": "Formula for ",
+    "hasSave": true,
+    "hasDelete": true,
+    "hasSaveAs": false,
+    "hasViewPDF": true,
+    "hasView": false,
+    "hasExit": true,
+    "hasRecentUsage": false,
+
+    "formflds": [
+      {
+        "id": "customGarnishmentCode",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "startDate",
+        "order": 2,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "endDate",
+        "order": 3,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "method1",
+        "order": 4,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "flatAmount",
+        "order": 5,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "percent",
+        "order": 6,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "priority",
+        "order": 7,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "method2",
+        "order": 8,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "exemptionFlatAmount",
+        "order": 9,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "exemptionAmount",
+        "order": 10,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "exemptionDependentAmount",
+        "order": 11,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+
+      {
+        "id": "statementOfExemptions",
+        "order": 12,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "method3",
+        "order": 13,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "calculationPercent",
+        "order": 14,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "calculationAmount",
+        "order": 15,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "calculationLimit",
+        "order": 16,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "method4",
+        "order": 17,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "deductionFlatAmount",
+        "order": 18,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "deductionAmount",
+        "order": 19,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "deductionDependentAmount",
+        "order": 20,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+
+
+    ],
+
+    "fltrflds": ""
+  }
+
+}

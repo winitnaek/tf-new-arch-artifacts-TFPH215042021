@@ -1,0 +1,10 @@
+[
+  {
+    "customPaymentCode": "CUSTPYMNT1",
+    "customPaymentName": "Custom Payment Code1",
+    "paymentType": "E",
+    "taxability": "Taxable",
+    "eeMax": 0,
+    "agg.Status": "N/A"
+  }
+]

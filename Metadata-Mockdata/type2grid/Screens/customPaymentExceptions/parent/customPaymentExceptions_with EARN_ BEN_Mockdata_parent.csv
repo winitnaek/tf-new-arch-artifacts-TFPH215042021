@@ -1,0 +1,12 @@
+customPaymentCode,customPaymentName,paymentType
+CUSTPYMNT1,Custom Payment Code1,Earning
+CUSTPYMNT2,Custom Payment Code2-Non Taxable,Earning
+CUSTPYMNT3,Custom Payment Code3-Limit YTD,Earning
+CUSTPYMNT4,Custom Payment Code4_Limit QTD,Earning
+CUSTPYMNT5,Custom Payment Code5- Limit MTD,Earning
+CUSTPYMNT6,Custom Payment Code6- Taxable/Exclu,Earning
+CUSTPYMNT7,Custom Payment Code7_Imputed,Earning
+CUSTPYTBEN1,CUSTPYTBEN1-do not agg Pl_TX,Benefit Plan
+CUSTPYTBEN2,CUSTPYTBEN2_do not agg_NTX,Benefit Plan
+CUSTPYTBEN3,CUSTPYTBEN3-Do not Agg_TX-NTX,Benefit Plan
+CUSTPYTBEN4,CUSTPYTBEN4-Do nor agg pl_NTX-TX,Benefit Plan

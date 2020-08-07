@@ -1,0 +1,380 @@
+[
+	{
+		"name":"startDate",
+		"id":"startDate",
+		"placeholder":"Enter Start Date",
+		"fieldtype":"date",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+
+		},
+		"validationType":"string",
+		"label":"Start Date",
+		"value":"new Date()",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"uppercase",
+					"message":"Worksite needs to be in uppercase."
+				}
+			],
+			"constraint":[
+				{
+					"type":"max",
+					"input":8,
+					"message":"max 8 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"authority",
+		"id":"authorityCode",
+		"placeholder":"Enter Authority",
+		"fieldtype":"select",
+		"fieldlength":{
+			
+		},
+		"fieldinfo":{
+			"typeahead":true,
+			"isasync":true
+		},
+		"validationType":"string",
+		"label":"Authority",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"taxType",
+		"id":"taxType",
+		"placeholder":"Enter Tax Type",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"typeahead":true,
+			"isasync":true
+		},
+		"validationType":"string",
+		"label":"Tax Type",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"formula",
+		"id":"formula",
+		"placeholder":"Enter Formula",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"typeahead":true,
+			"isasync":true
+		},
+		"validationType":"string",
+		"label":"Formula",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"endDate",
+		"id":"endDate",
+		"placeholder":"Enter End Date",
+		"fieldtype":"date",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+
+		},
+		"validationType":"string",
+		"label":"End Date",
+		"value":"9999-12-31",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":8,
+					"message":"max 8 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"riskClassificationCode",
+		"id":"riskClassificationCode",
+		"placeholder":"Select Risk Code",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Risk Classification Code",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":5,
+					"message":"min 5 characters"
+				},
+				{
+					"type":"max",
+					"input":25,
+					"message":"max 25 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"account",
+		"id":"account",
+		"placeholder":"Select Risk Code",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Account",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":25,
+					"message":"max 25 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"optionalRate",
+		"id":"optionalRate",
+		"placeholder":"Select Optional Rate",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Optional Rate",
+		"value":"0.00",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":11,
+					"message":"max 11 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"overrideMaxWage",
+		"id":"overrideMaxWage",
+		"placeholder":"Select Override Max Wage",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Override Max Wage",
+		"value":"0.00",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":15,
+					"message":"max 15 characters"
+				}
+			]
+		}
+	},
+		{
+		"name":"bsiWage(BsiMaintainedFormula)",
+		"id":"bsiWage",
+		"placeholder":"Select BSI Wage",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"BSI Wage (BSI Maintained Formula)",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":15,
+					"message":"max 15 characters"
+				}
+			]
+		}
+	}
+]

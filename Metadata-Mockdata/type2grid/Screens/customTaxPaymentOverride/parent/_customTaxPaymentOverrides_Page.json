@@ -1,0 +1,85 @@
+{
+  "pgdef": {
+    "pgid": "customTaxPaymentOverrides",
+    "pgtitle": "Custom Tax Payment Overrides ",
+    "pgsubtitle": "Click on the Custom Tax Code to manage its Overrides.",
+    "flowtype": "flowtype2",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/customPaymentExceptions",
+    "parentConfig": "",
+    "childConfig": "customTaxPaymentOverride"
+  },
+   "griddef":{
+      "gridtype":"type2",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":false,
+      "recordDelete":false,
+    "columns": [
+      {
+        "text": "Custom Tax Code",
+        "datafield": "customTaxCode",
+        "cellsalign": "center",
+        "width": "49.5%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Custom Tax Name",
+        "datafield": "customTaxName",
+        "cellsalign": "center",
+        "width": "49.5%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    "dataFields": [
+      {
+        "name": "customTaxCode",
+        "type": "string"
+      },
+      {
+        "name": "customTaxName",
+        "type": "string"
+      }
+    ]
+   },
+  "formdef": {
+    "title": "Custom Tax Payment Overrides",
+    "subtitle": "  ",
+    "hasSave": true,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasExit": true,
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "customTaxCode",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "customTaxName",
+        "order": 2,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+
+    ],
+    "fltrflds": ""
+  }
+}

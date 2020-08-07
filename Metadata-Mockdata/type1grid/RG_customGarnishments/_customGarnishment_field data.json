@@ -1,0 +1,77 @@
+[
+   {
+      "id":"code",
+      "placeholder":"Enter Code",
+      "fieldtype":"text",
+      "label":"Code",
+      "value":"",
+      "errmsg":"Code is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Code needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":1,
+               "message":"min 1 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+ {
+      "id":"name",
+      "placeholder":"Enter Name",
+      "fieldtype":"text",
+      "label":"Name",
+      "value":"",
+      "errmsg":"Name is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Name needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":1,
+               "message":"min 1 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   }
+   
+]

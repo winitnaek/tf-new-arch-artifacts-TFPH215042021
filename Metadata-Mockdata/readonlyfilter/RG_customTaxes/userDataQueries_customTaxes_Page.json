@@ -1,0 +1,149 @@
+{
+  "pgdef": {
+    "pgid": "customTaxes",
+    "pgtitle": "Custom Taxes",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/customTaxes",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Tax Code",
+        "datafield": "taxcode",
+        "cellsalign": "left",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Start Date",
+        "datafield": "startdate",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "10%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "End Date",
+        "datafield": "rescinddate",
+        "cellsalign": "left",
+        "align": "left",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "text": "Tax Rate",
+        "datafield": "taxrateDspl",
+        "cellsalign": "left",
+        "align": "left",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "text": "Minimum Wage",
+        "datafield": "minwageDspl",
+        "cellsalign": "left",
+        "align": "left",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "text": "Maximum Wage",
+        "datafield": "maxwageDspl",
+        "cellsalign": "left",
+        "align": "left",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "text": "MaximumTax",
+        "datafield": "maxtaxDspl",
+        "cellsalign": "left",
+        "align": "left",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "text": "Flat Amount",
+        "datafield": "flatamtDspl",
+        "cellsalign": "left",
+        "align": "left",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "text": "Rounding",
+        "datafield": "rounding",
+        "cellsalign": "left",
+        "align": "left",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "text": "Calculation Method",
+        "datafield": "calcmeth",
+        "cellsalign": "left",
+        "align": "left",
+        "width": "10%",
+        "sortable": true
+      }
+    ],
+
+    "dataFields": [
+      { "name": "taxcode", "type": "string" },
+      { "name": "startdate", "type": "string" },
+      { "name": "rescinddate", "type": "string" },
+      { "name": "taxrateDspl", "type": "string" },
+      { "name": "minwageDspl", "type": "string" },
+      { "name": "maxwageDspl", "type": "string" },
+      { "name": "maxtaxDspl", "type": "string" },
+      { "name": "flatamtDspl", "type": "string" },
+      { "name": "rounding", "type": "string" },
+      { "name": "calcmeth", "type": "string" }
+    ]
+  },
+
+  "formdef": {
+    "title": "Custom Taxes",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note": "* No entry will imply ALL selection.",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": "",
+
+    "fltrflds": [
+      {
+        "id": "taxcode",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }
+    ]
+  }
+}

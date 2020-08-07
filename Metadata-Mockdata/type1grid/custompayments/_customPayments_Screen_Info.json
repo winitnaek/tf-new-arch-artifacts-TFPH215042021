@@ -1,0 +1,8 @@
+{
+   "value":"CP",
+   "label":"Custom Payments",
+   "desc":"Custom Payments",
+   "id":"customPayments",
+   "type":"comp",
+   "link":true
+}

@@ -1,0 +1,83 @@
+{
+   "pgdef":{
+      "pgid":"employeeGroup",
+      "pgtitle":"Employee Groups",
+      "pgsubtitle":"",
+      "flowtype":"flowtype1",
+      "hasAddNew":true,
+      "addNewLabel":"Click here to add new Employee group Or click on existing Group to edit.",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/employeeGroups",
+      "parentConfig":"",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"type1",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":true,
+      "recordDelete":false,
+      "columns":[
+         {
+            "text":"Group Code",
+            "datafield":"groupCode",
+            "cellsalign":"left",
+            "width":"50%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Group Name",
+            "datafield":"groupName",
+            "cellsalign":"left",
+            "width":"50%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         }
+      ],
+      "dataFields":[
+         {
+            "name":"groupCode",
+            "type":"string"
+         },
+         {
+            "name":"groupName",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef":{
+      "title":"Custom Payments",
+      "subtitle":"Note: Required fields are marked with an asterisk (*)",
+      "hasSave":true,
+      "hasDelete":true,
+      "hasSaveAs":false,
+      "hasViewPDF":false,
+      "hasView":false,
+      "hasRecentUsage":true,
+      "formflds":[
+         {
+            "id":"groupCode",
+            "order":1,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"groupName",
+            "order":2,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         }
+      ],
+      "fltrflds":""
+   }
+}

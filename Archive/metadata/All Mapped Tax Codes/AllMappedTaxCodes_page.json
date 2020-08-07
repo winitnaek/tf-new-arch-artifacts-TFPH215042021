@@ -1,0 +1,87 @@
+{
+  pgdef: {
+    pgid: "allMappedTaxCodes",
+    pgtitle: "All Mapped Tax Codes",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/allMappedTaxCodes",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "User Code",
+        datafield: "userCode",
+        cellsalign: "center",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "BSI Code",
+        datafield: "bsiCode",
+        cellsalign: "center",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Authority Name",
+        datafield: "authorityName",
+        cellsalign: "center",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Perferred",
+        datafield: "perferred",
+        cellsalign: "center",
+        align: "center"
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }  
+    ],
+    dataFields: [
+      { name: "userCode", type: "string" },
+      { name: "bsiCode", type: "string" },
+      { name: "authorityName", type: "string" },
+      { name: "Preferred", type: "string" }
+    ]
+  },
+  formdef: {
+    title: "All Mapped Tax Codes",
+    subtitle: "",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: false,
+    hasRecentUsage: false,
+    formflds: "",   
+    ]
+  }
+}

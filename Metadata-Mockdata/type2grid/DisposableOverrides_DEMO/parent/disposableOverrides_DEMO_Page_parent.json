@@ -1,0 +1,90 @@
+{
+  "pgdef": {
+    "pgid": "disposableOverrides",
+    "pgtitle": "Disposable Overrides",
+    "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
+    "flowtype": "flowtype2",
+    "hasAddNew": false,
+    "addNewLabel": "Click on Group Name to manage the Overrides",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/disposableOverrides",
+    "parentConfig": "",
+    "childConfig": "disposableOverrides"
+  },
+  "griddef": {
+    "gridtype": "type2",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "There are no Garnishment Groups ",
+    "recordEdit": true,
+    "recordDelete": true,
+    "columns": [
+      
+      {
+        "text": "Group Code",
+        "datafield": "groupCode",
+        "width": "50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+     
+      {
+        "text": "Group Name",
+        "datafield": "groupName",
+        "width": "50%",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+
+    ],
+    "dataFields": [
+     
+      {
+        "name": "groupCode",
+        "type": "string"
+      },
+      {
+        "name": "groupName",
+        "type": "string"
+      }
+
+    ]
+  },
+
+  "formdef": {
+    "title": "Disposable Overridess",
+    "subtitle": "Click here to add new Garnishment Group. Or Click on existing Garnishment Group to edit. ",
+    "hasSave": true,
+    "hasDelete": true,
+    "hasSaveAs": false,
+    "hasViewPDF": true,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "groupCode",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "groupName",
+        "order": 2,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+
+    ],
+    "fltrflds": ""
+  }
+}

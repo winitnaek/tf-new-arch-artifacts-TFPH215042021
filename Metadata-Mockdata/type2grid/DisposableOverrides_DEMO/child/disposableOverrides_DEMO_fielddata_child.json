@@ -1,0 +1,403 @@
+[
+   {
+      "name":"Start Date",
+      "id":"startDate",
+      "placeholder":"Enter Start Date",
+      "fieldtype":"date",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"Start Date",
+      "value":"",
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"Date",
+               "message":"Please enter a Start Date."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":8,
+               "message":"min 8 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+      "name":"Authority",
+      "id":"authority",
+      "placeholder":"Enter authority Code",
+      "fieldtype":"text",
+      "label":"Authority",
+      "value":"",
+      "errmsg":"Authority cannot be Blank ",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":""
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":1,
+               "message":"min 1 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+      "name":"Garnishment",
+      "id":"garnishment",
+      "placeholder":"Enter Tax Type",
+      "fieldtype":"text",
+      "label":"Garnishment",
+      "value":"",
+      "errmsg":" ",
+      "fieldlength":{
+         "minlength":5,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":""
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+      "name":"Payment Code",
+      "id":"paymentCode",
+      "placeholder":"Enter Payment Code",
+      "fieldtype":"text",
+      "label":"Payment Code",
+      "value":"",
+      "errmsg":"Payment Code cannot be Blank ",
+      "fieldlength":{
+         "minlength":5,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":""
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+      "name":"End Date",
+      "id":"endDate",
+      "placeholder":"Enter End Date",
+      "fieldtype":"date",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"End Date",
+      "value":"",
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"lowercase",
+               "message":""
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":8,
+               "message":"min 8 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+     "name":"Date Code",      
+     "id":"dateCode",
+      "placeholder":"Enter Date Code",
+      "fieldtype":"text",
+      "label":"Date Code",
+      "value":"",
+      "errmsg":" ",
+      "fieldlength":{
+         "minlength":5,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":false,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":""
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+     "name":"Process Code",
+      "id":"processCode",
+      "placeholder":"Enter Process Code",
+      "fieldtype":"text",
+      "label":"Process Code",
+      "value":"",
+      "errmsg":" ",
+      "fieldlength":{
+         "minlength":5,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":false,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":""
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+      "name":"Minimum Amount",
+      "id":"minimumAmount",
+      "placeholder":"Enter Minimum Amount",
+      "fieldtype":"text",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"Minimum Amount",
+      "value":"",
+      "validation":{
+         "required":false,
+         "type":"number",
+         "subtype":[
+            {
+               "type":"positive",
+               "message":"Minimum Amount cannot be negative"
+            },
+            {
+               "type":"typeError",
+               "message":"Must be a number"
+            }
+         ],
+         "constraint":[
+      
+         ]
+      }
+   },
+   {
+      "name":"Maximum Amount",
+      "id":"maximumAmount",
+      "placeholder":"Enter Maximum Amount",
+      "fieldtype":"text",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"Maximum Amount",
+      "value":"",
+      "validation":{
+         "required":false,
+         "type":"number",
+         "subtype":[
+            {
+               "type":"positive",
+               "message":"Maximum Amount cannot be negative"
+            },
+            {
+               "type":"typeError",
+               "message":"Must be a number"
+            }
+         ],
+         "constraint":[
+           
+         ]
+      }
+   },
+   {
+      "name":"Minimum Percent",
+      "id":"minimumPercent",
+      "placeholder":"Enter Minimum Percent",
+      "fieldtype":"text",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"Minimum Percent",
+      "value":"",
+      "validation":{
+         "required":false,
+         "type":"number",
+         "subtype":[
+            {
+               "type":"positive",
+               "message":"Minimum Percent cannot be negative"
+            },
+            {
+               "type":"typeError",
+               "message":"Must be a number"
+            }
+         ],
+         "constraint":[
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+      "name":"Maximum Percent",
+      "id":"maximumPercent",
+      "placeholder":"Enter Maximum Percent",
+      "fieldtype":"text",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"Maximum Percent",
+      "value":"",
+      "validation":{
+         "required":false,
+         "type":"number",
+         "subtype":[
+            {
+               "type":"positive",
+               "message":"Maximum Amount cannot be negative"
+            },
+            {
+               "type":"typeError",
+               "message":"Must be a number"
+            }
+         ],
+         "constraint":[
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   }
+
+]

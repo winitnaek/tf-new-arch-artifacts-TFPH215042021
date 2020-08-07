@@ -1,0 +1,24 @@
+[
+  {
+    "id": "userTax",
+    "placeholder": "Enter Use Tax",
+    "fieldtype": "select",
+    "label": "User Tax",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

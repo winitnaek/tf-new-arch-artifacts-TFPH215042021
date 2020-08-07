@@ -1,0 +1,97 @@
+{
+  "pgdef":{
+     "pgid":"allMappedTaxTypes",
+     "pgtitle":"All Mapped Tax Types",
+     "pgsubtitle":"",
+     "flowtype":"flowtype1",
+     "hasAddNew":false,
+     "addNewLabel":"",
+     "actiondel":false,
+     "helpAvailable":true,
+     "helpLblTxt":"Click here for more info!",
+     "helpLink":"/allMappedTaxTypes",
+     "parentConfig":"",
+     "childConfig":""
+  },
+  "griddef":{
+     "gridtype":"ro",
+     "isfilter":false,
+     "isfilterform":false,
+     "datatype":"json",
+     "contenttype":"application/json",
+     "noResultsFoundTxt":"No Data Found",
+     "recordEdit":false,
+     "recordDelete":false,
+     "columns":[
+        {
+           "text":"User Code",
+           "datafield":"userCode",
+           "cellsalign":"center",
+           "width":"25%",
+           "align":"left",
+           "sortable":true,
+           "rendererInput":"",
+           "rendererStaticInput":""
+        },
+        {
+           "text":"BSI Code",
+           "datafield":"bsiCode",
+           "cellsalign":"center",
+           "width":"25%",
+           "align":"left",
+           "sortable":true,
+           "rendererInput":"",
+           "rendererStaticInput":""
+        },
+        {
+           "text":"Tax Type Name",
+           "datafield":"taxTypeName",
+           "cellsalign":"center",
+           "width":"25%",
+           "align":"left",
+           "sortable":true,
+           "rendererInput":"",
+           "rendererStaticInput":""
+        },
+        {
+           "text":"Perferred",
+           "datafield":"perferred",
+           "cellsalign":"center",
+           "width":"25%",
+           "align":"left",
+           "sortable":true,
+           "rendererInput":"",
+           "rendererStaticInput":""
+        }
+     ],
+     "dataFields":[
+        {
+           "name":"userCode",
+           "type":"string"
+        },
+        {
+           "name":"bsiCode",
+           "type":"string"
+        },
+        {
+           "name":"taxTypeName",
+           "type":"string"
+        },
+        {
+           "name":"preferred",
+           "type":"string"
+        }
+     ]
+  },
+  "formdef":{
+     "title":"All Mapped Tax Codes",
+     "subtitle":"",
+     "hasSave":false,
+     "hasDelete":false,
+     "hasSaveAs":false,
+     "hasViewPDF":false,
+     "hasView":false,
+     "hasRecentUsage":false,
+     "formflds":""
+  }
+}

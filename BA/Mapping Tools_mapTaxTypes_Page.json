@@ -1,0 +1,99 @@
+{
+    "pgdef": {
+    "pgid": "mapTaxTypes",
+    "pgtitle": "Map Tax Types",
+    "pgsubtitle":"",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable":true,
+    "helpLblTxt":"Click here for more info!",
+    "helpLink":"/mapTaxTypes",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+ 
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": true,
+    "recordDelete": false,
+    "columns": [
+        {
+            "text": "Tax Type Name",
+            "datafield": "taxTypeName",
+            "cellsalign": "left",
+            "width": "25%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+
+        {
+            "text": "BSI Code",
+            "datafield": "bSICode",
+            "cellsalign": "left",
+            "width": "25%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Mapping",
+            "datafield": "mapping",
+            "cellsalign": "left",
+            "width": "25%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Preferred",
+            "datafield": "preferred",
+            "cellsalign": "left",
+            "width": "5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        }
+    ],
+    "dataFields":[
+      {"name": "taxTypeName","type": "string"},
+      {"name": "bSICode","type": "string"},
+      {"name": "mapping","type": "string"},
+      {"name": "preferred","type": "string"}
+      ]
+	},
+  
+  "formdef":  {
+		"title":"mapTaxTypes",
+        "subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasView": false,
+        "hasRecentUsage": false,
+        
+		"formflds": [
+      
+      { "id": "taxTypeName", "order":1, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false },
+      { "id": "bSICode", "order":2, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false },
+      { "id": "mapping", "order":3, "isReadOnlyOnEdit":false,"isReadOnlyOnNew":false },
+      { "id": "preferred", "order":4, "isReadOnlyOnEdit":true, "isReadOnlyOnNew": false }
+    ],
+
+    "fltrflds": ""
+
+  }
+}

@@ -1,0 +1,70 @@
+{
+  pgdef: {
+    pgid: "companies",
+    pgtitle: "Companies",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/companies",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Company Code",
+        datafield: "companyCode",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },
+      {
+        text: "Company Name",
+        datafield: "companyName",
+        cellsalign: "center",
+        align: "center",
+        width: "30%"
+      },
+      {
+        text: "Company Fein",
+        datafield: "companyFein",
+        cellsalign: "center",
+        align: "center"
+	width: "30%"
+      },     
+    ],
+    dataFields: [
+      { name: "companyCode", type: "string" },
+      { name: "companyName", type: "string" },
+      { name: "companyFein", type: "string" },      
+    ]
+  },
+  formdef: {
+    title: "Companies",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "companyCode", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }     
+    ]
+  }
+}

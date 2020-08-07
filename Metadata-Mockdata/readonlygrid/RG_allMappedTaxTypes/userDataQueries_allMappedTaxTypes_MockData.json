@@ -1,0 +1,812 @@
+[
+  {
+    "userCode": "BSI001",
+    "bSICode": 1,
+    "taxTypeName": "WITHHOLDING TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI002",
+    "bSICode": 2,
+    "taxTypeName": "EARNED INCOME CREDIT PAYMENT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI003",
+    "bSICode": 3,
+    "taxTypeName": "EMPLOYEE SOCIAL SECURITY TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI004",
+    "bSICode": 4,
+    "taxTypeName": "EMPLOYER SOCIAL SECURITY TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI005",
+    "bSICode": 5,
+    "taxTypeName": "EMPLOYEE MEDICARE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI006",
+    "bSICode": 6,
+    "taxTypeName": "EMPLOYER MEDICARE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI007",
+    "bSICode": 7,
+    "taxTypeName": "STATE UNEMPLOYMENT INSURANCE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI008",
+    "bSICode": 8,
+    "taxTypeName": "SOCIAL CHARGE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI009",
+    "bSICode": 9,
+    "taxTypeName": "EMPLOYER SPECIAL PAYROLL TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI010",
+    "bSICode": 10,
+    "taxTypeName": "EMPLOYER UNEMPLOYMENT TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI011",
+    "bSICode": 11,
+    "taxTypeName": "EMPLOYER DEBT REPAYMENT TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI012",
+    "bSICode": 12,
+    "taxTypeName": "EMPLOYER OLD FUND LIABILITY TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI013",
+    "bSICode": 13,
+    "taxTypeName": "ER EMPLMT SECURITY ENHANCMT TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI014",
+    "bSICode": 14,
+    "taxTypeName": "ER RE-EMPLMT PLACEMT TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI015",
+    "bSICode": 15,
+    "taxTypeName": "ER JOB DEVMT ASSESSMT TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI016",
+    "bSICode": 16,
+    "taxTypeName": "EMPLOYMENT TRAINING TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI017",
+    "bSICode": 17,
+    "taxTypeName": "EMPLOYER HEALTH INSURANCE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI018",
+    "bSICode": 18,
+    "taxTypeName": "EMPLOYER WORKFORCE DEVLMT TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI019",
+    "bSICode": 19,
+    "taxTypeName": "PAYROLL EXPENSE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI020",
+    "bSICode": 20,
+    "taxTypeName": "EMPLOYEE UNEMPLOYMENT TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI021",
+    "bSICode": 21,
+    "taxTypeName": "EMPLOYEE DEBT REPAYMENT TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI022",
+    "bSICode": 22,
+    "taxTypeName": "EMPLOYEE OLD FUND LIABILITY TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI023",
+    "bSICode": 23,
+    "taxTypeName": "EMPLOYEE HEALTH INSURANCE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI024",
+    "bSICode": 24,
+    "taxTypeName": "EMPLOYEE WORKFORCE DEVLPMT TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI025",
+    "bSICode": 25,
+    "taxTypeName": "EE COMBINED UI/WF&SWF/HC/DI/FLI TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI026",
+    "bSICode": 26,
+    "taxTypeName": "EMPLOYEE CHAUFFEURS LICENSE FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI027",
+    "bSICode": 27,
+    "taxTypeName": "EMPLOYER CHAUFFEURS LICENSE FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI028",
+    "bSICode": 28,
+    "taxTypeName": "ER COMBINED WF&SWF/HC/DI TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI029",
+    "bSICode": 29,
+    "taxTypeName": "SPECIAL ADMIN RESERVE FUND TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI030",
+    "bSICode": 30,
+    "taxTypeName": "EMPLOYER WORKER COMPENSATION TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI031",
+    "bSICode": 31,
+    "taxTypeName": "EMPLOYER DISABILITY TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI032",
+    "bSICode": 32,
+    "taxTypeName": "EMPLOYER ACCIDENT FUND TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI033",
+    "bSICode": 33,
+    "taxTypeName": "EMPLOYER MEDICAL AID FUND TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI034",
+    "bSICode": 34,
+    "taxTypeName": "EMPLOYER SUPLMTAL PENSION TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI035",
+    "bSICode": 35,
+    "taxTypeName": "TRANSIT  DISTRICT EXCISE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI036",
+    "bSICode": 36,
+    "taxTypeName": "WORKFORCE ENHANCEMENT FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI037",
+    "bSICode": 37,
+    "taxTypeName": "ADMINISTRATIVE CONTINGENCY FUND TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI038",
+    "bSICode": 38,
+    "taxTypeName": "EMPLOYER INVESTMENT FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI039",
+    "bSICode": 39,
+    "taxTypeName": "EMPLOYMENT ADMINISTRATION FUND",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI040",
+    "bSICode": 40,
+    "taxTypeName": "EMPLOYEE WORKER COMPENSATION TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI041",
+    "bSICode": 41,
+    "taxTypeName": "EMPLOYEE DISABILITY TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI042",
+    "bSICode": 42,
+    "taxTypeName": "EMPLOYEE SUPLMTAL PENSION TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI043",
+    "bSICode": 43,
+    "taxTypeName": "EMPLOYEE MEDICAL AID FUND TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI044",
+    "bSICode": 44,
+    "taxTypeName": "EE MENTAL HEALTH TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI045",
+    "bSICode": 45,
+    "taxTypeName": "EMPLOYEE SENIOR CITIZEN TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI046",
+    "bSICode": 46,
+    "taxTypeName": "EMPLOYEE MENTAL HEALTH TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI047",
+    "bSICode": 47,
+    "taxTypeName": "JOINT ECONOMIC DEV. DISTRICT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI048",
+    "bSICode": 48,
+    "taxTypeName": "EMPLOYEE VOLUNTARY DISABILITY TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI049",
+    "bSICode": 49,
+    "taxTypeName": "EE SEN CIT/MNTAL HLT/TRANSP TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI050",
+    "bSICode": 50,
+    "taxTypeName": "EMPLOYEE TRANSPORTATION TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI051",
+    "bSICode": 51,
+    "taxTypeName": "EMPLOYEE OCCUPATION TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI052",
+    "bSICode": 52,
+    "taxTypeName": "EMPLOYER HEAD TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI053",
+    "bSICode": 53,
+    "taxTypeName": "EMPLOYEE SCHOOL TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI054",
+    "bSICode": 54,
+    "taxTypeName": "EMPLOYER OCCUPATION TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI055",
+    "bSICode": 55,
+    "taxTypeName": "EMPLOYEE RAILROAD RTMT TIER1 SOC S",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI056",
+    "bSICode": 56,
+    "taxTypeName": "EMPLOYEE RAILROAD RTMT TIER2 SOC S",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI057",
+    "bSICode": 57,
+    "taxTypeName": "EMPLOYER RAILROAD RTMT TIER1 SOC S",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI058",
+    "bSICode": 58,
+    "taxTypeName": "EMPLOYER RAILROAD RTMT TIER2 SOC S",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI059",
+    "bSICode": 59,
+    "taxTypeName": "EMPLOYEE RAILROAD RTMT TIER1 MEDIC",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI060",
+    "bSICode": 60,
+    "taxTypeName": "EMPLOYER RAILROAD RTMT TIER1 MEDIC",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI061",
+    "bSICode": 61,
+    "taxTypeName": "EMPLOYEE RETIREMENT PLAN-S.S",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI062",
+    "bSICode": 62,
+    "taxTypeName": "EMPLOYEE RETIREMENT PLAN-MED.",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI063",
+    "bSICode": 63,
+    "taxTypeName": "EMPLOYER RETIREMENT PLAN-S.S",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI064",
+    "bSICode": 64,
+    "taxTypeName": "EMPLOYER RETIREMENT PLAN-MED.",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI065",
+    "bSICode": 65,
+    "taxTypeName": "EMPLOYER SUPPLEMENTAL RAILROAD RTMT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI068",
+    "bSICode": 68,
+    "taxTypeName": "P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI069",
+    "bSICode": 69,
+    "taxTypeName": "P.E.R.S. - MED. - EMPLOYER PICK-UP",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI070",
+    "bSICode": 70,
+    "taxTypeName": "PENSION PERIODIC WITHHOLDING",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI071",
+    "bSICode": 71,
+    "taxTypeName": "PENSION N.P. ELIGIBLE ROLLOVER",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI072",
+    "bSICode": 72,
+    "taxTypeName": "PENSION N.P. NONQUALIFYING",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI073",
+    "bSICode": 73,
+    "taxTypeName": "PREMATURE DIST FROM QUALIFIED PLANS",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI075",
+    "bSICode": 75,
+    "taxTypeName": "JOB DEVELOPMENT FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI076",
+    "bSICode": 76,
+    "taxTypeName": "CITY SERVICE FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI077",
+    "bSICode": 77,
+    "taxTypeName": "EMPLOYER VOLUNTARY DISABILITY TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI078",
+    "bSICode": 78,
+    "taxTypeName": "UNEMPLOYMENT SURCHARGE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI079",
+    "bSICode": 79,
+    "taxTypeName": "WAGE AND SALARY TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI080",
+    "bSICode": 80,
+    "taxTypeName": "EMPLOYER WAGE SECURITY FUND TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI081",
+    "bSICode": 81,
+    "taxTypeName": "DISABILITY INSURANCE VP ASMENT TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI082",
+    "bSICode": 82,
+    "taxTypeName": "UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI084",
+    "bSICode": 84,
+    "taxTypeName": "LOCAL SERVICES TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI085",
+    "bSICode": 85,
+    "taxTypeName": "COMPETITIVENESS SKILLS SCHLR FUND",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI086",
+    "bSICode": 86,
+    "taxTypeName": "EE JOB DEVMT ASSESSMT TX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI087",
+    "bSICode": 87,
+    "taxTypeName": "EMPLOYEE FAMILY LEAVE INSURANCE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI088",
+    "bSICode": 88,
+    "taxTypeName": "EMPLOYEE FAMILY LEAVE INS-VOL TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI089",
+    "bSICode": 89,
+    "taxTypeName": "UI INTEREST ASSESSMENT FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI090",
+    "bSICode": 90,
+    "taxTypeName": "EMPLOYER STAY AT WORK PROGRAM TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI091",
+    "bSICode": 91,
+    "taxTypeName": "EMPLOYEE STAY AT WORK PROGRAM TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI092",
+    "bSICode": 92,
+    "taxTypeName": "ER MEDICAL ASST CONTRIBUTION TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI093",
+    "bSICode": 93,
+    "taxTypeName": "NON-RESIDENT ALIEN ADDITIONAL TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI094",
+    "bSICode": 94,
+    "taxTypeName": "TECHNOLOGY FUND TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI095",
+    "bSICode": 95,
+    "taxTypeName": "EMPLOYER ADMINISTRATIVE FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI096",
+    "bSICode": 96,
+    "taxTypeName": "STATEWIDE TRANSIT TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI098",
+    "bSICode": 98,
+    "taxTypeName": "EMPLOYER FAMILY LEAVE INSURANCE TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI099",
+    "bSICode": 99,
+    "taxTypeName": "EMPLOYEE MEDICAL LEAVE INSUR TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI100",
+    "bSICode": 100,
+    "taxTypeName": "EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI101",
+    "bSICode": 101,
+    "taxTypeName": "EMPLOYER FAMILY LEAVE INS-VOL TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI102",
+    "bSICode": 102,
+    "taxTypeName": "EMPLOYEE MEDICAL LEAVE INS-VOL TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI103",
+    "bSICode": 103,
+    "taxTypeName": "EMPLOYER MEDICAL LEAVE INS-VOL TAX",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI501",
+    "bSICode": 501,
+    "taxTypeName": "BANKRUPTCY",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI502",
+    "bSICode": 502,
+    "taxTypeName": "CURRENT SUPPORT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI503",
+    "bSICode": 503,
+    "taxTypeName": "FEDERAL TAX LEVY",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI504",
+    "bSICode": 504,
+    "taxTypeName": "STATE TAX LEVY",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI505",
+    "bSICode": 505,
+    "taxTypeName": "STUDENT LOAN",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI506",
+    "bSICode": 506,
+    "taxTypeName": "ADMINISTRATIVE WAGE GARNISHMENT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI507",
+    "bSICode": 507,
+    "taxTypeName": "CREDITOR GARNISHMENT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI508",
+    "bSICode": 508,
+    "taxTypeName": "CRIMINAL RESTITUTION",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI509",
+    "bSICode": 509,
+    "taxTypeName": "COURT COSTS",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI510",
+    "bSICode": 510,
+    "taxTypeName": "CURRENT SUPPORT ARREARS",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI511",
+    "bSICode": 511,
+    "taxTypeName": "MEDICAL SUPPORT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI512",
+    "bSICode": 512,
+    "taxTypeName": "MEDICAL SUPPORT ARREARS",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI513",
+    "bSICode": 513,
+    "taxTypeName": "SPOUSAL SUPPORT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI514",
+    "bSICode": 514,
+    "taxTypeName": "SPOUSAL SUPPORT ARREARS",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI515",
+    "bSICode": 515,
+    "taxTypeName": "VOL WAGE ASSIGNMENT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI516",
+    "bSICode": 516,
+    "taxTypeName": "OUT OF STATE SUPPORT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI517",
+    "bSICode": 517,
+    "taxTypeName": "STATE STUDENT LOAN",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI518",
+    "bSICode": 518,
+    "taxTypeName": "STUDENT LOAN EMPLOYER FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI519",
+    "bSICode": 519,
+    "taxTypeName": "SUPPORT EMPLOYER FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI520",
+    "bSICode": 520,
+    "taxTypeName": "STATE LEVY EMPLOYER FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI521",
+    "bSICode": 521,
+    "taxTypeName": "CREDITOR GARNISHMENT EMPLOYER FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI522",
+    "bSICode": 522,
+    "taxTypeName": "CRIMINAL RESTITUTION EMPLOYER FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI523",
+    "bSICode": 523,
+    "taxTypeName": "VOL WAGE ASSIGNMENT EMPLOYER FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI524",
+    "bSICode": 524,
+    "taxTypeName": "ER PAID CREDITOR GARNISHMENT FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI525",
+    "bSICode": 525,
+    "taxTypeName": "STATE BENEFIT LEVY ER FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI526",
+    "bSICode": 526,
+    "taxTypeName": "ADMIN WAGE GARNISHMENT EMPLOYER FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI527",
+    "bSICode": 527,
+    "taxTypeName": "NON-COURT ORDERED STUDENT LOAN",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI528",
+    "bSICode": 528,
+    "taxTypeName": "LUMP SUM SUPPORT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI529",
+    "bSICode": 529,
+    "taxTypeName": "STATE AGENCY NON-TAX DEBT LEVY",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI531",
+    "bSICode": 531,
+    "taxTypeName": "STATE BENEFIT LEVY",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI532",
+    "bSICode": 532,
+    "taxTypeName": "MEDICAID DEBT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI533",
+    "bSICode": 533,
+    "taxTypeName": "MEDICAID DEBT FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI535",
+    "bSICode": 535,
+    "taxTypeName": "SUPPORT AGENCY FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI545",
+    "bSICode": 545,
+    "taxTypeName": "MEDICAL SUPPORT AGENCY FEE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI600",
+    "bSICode": 600,
+    "taxTypeName": "TOTAL SUPPORT",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI888",
+    "bSICode": 888,
+    "taxTypeName": "EE TAX-CALC DEPENDENCY-DO NOT USE",
+    "preferred": ""
+  },
+  {
+    "userCode": "BSI999",
+    "bSICode": 999,
+    "taxTypeName": "TAX CALC SPECIAL USE LIMITS",
+    "preferred": ""
+  }
+]

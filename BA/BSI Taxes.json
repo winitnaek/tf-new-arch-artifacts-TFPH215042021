@@ -1,0 +1,178 @@
+{
+	"pgdef": {
+		"pgid": "bsiTaxes",
+		"pgtitle": "BSI Taxes",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/bsiTaxes",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority Code",
+				"datafield": "authorityCode",
+				"cellsalign": "left",
+				"width": "6%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Tax Type",
+                "datafield": "taxType",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "6.5%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Start Date",
+                "datafield": "startDate",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "7%",
+				"sortable":true
+			},
+			{
+                "text": "End Date",
+                "datafield": "endDate",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "7%",
+				"sortable":true
+			  },
+			  {
+                "text": "Coterm. Valid",
+                "datafield": "coterm.Valid",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Reg. Valid",
+                "datafield": "reg.Valid",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  },
+			  {
+                "text": "Supp. Valid",
+                "datafield": "supp.Valid",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Vac. Valid",
+                "datafield": "vac.Valid",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  },
+			  {
+                "text": "Cum. Valid",
+                "datafield": "cum.Valid",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Daily Factor",
+                "datafield": "dailyFactor",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  },
+			  {
+                "text": "Additional Tax",
+                "datafield": "additionalTax",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  },
+			  {
+                "text": "Tax Disposition",
+                "datafield": "taxDisposition",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Mandatory",
+                "datafield": "mandatory",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  },
+			  {
+                "text": "PSR Proc.Flag",
+                "datafield": "psrProc.Flag",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			  },
+			  {
+                "text": "EIC Cert",
+                "datafield": "eicCert",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  }
+		],
+		"dataFields":[
+		  {"name": "authorityCode","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "startDate","type": "string"},
+		  {"name": "endDate","type": "string"},
+		  {"name": "coterm.Valid","type": "string"},
+		  {"name": "reg.Valid","type": "string"},
+		  {"name": "supp.Valid","type": "string"},
+		  {"name": "vac.Valid","type": "string"},
+		  {"name": "cum.Valid","type": "string"},
+		  {"name": "dailyFactor","type": "string"},
+		  {"name": "additionalTax","type": "string"},
+		  {"name": "taxDisposition","type": "string"},		        	
+		  {"name": "mandatory","type": "string"},
+		  {"name": "psrProc.Flag","type": "string"},
+		  {"name": "eicCert","type": "string"}					
+		            ]
+	},
+	"cruddef": {
+		"title":"BSI Taxes",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

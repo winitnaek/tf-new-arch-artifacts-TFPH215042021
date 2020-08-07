@@ -1,0 +1,54 @@
+﻿{
+	"pgdef": {
+		"pgid": "Custom Payments",
+		"pgtitle": "Custom Payments",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add new Custom Payment. Or click on existing Custom Payment to edit.",
+		"actiondel": "false"
+	},
+	"griddef": {
+		"gridtype": "type1",
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"columns": [
+			{
+				"text": "Column Label1",
+				"datafield": "userCode",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+					"id1": "id1",
+					"id2": "id2",
+					"id3": "id3"
+					}
+				],
+				"rendererStaticInput": [
+					{
+					"name": "Delete",
+					"value": "true"
+					}
+				]
+			}
+		],
+		"dataFields":[
+		  {"name": "FieldName","type": "FieldType"}
+		]
+	},
+	"cruddef":{
+		"title":"Custom Payments",
+		"sbutitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":true,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasDelete":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

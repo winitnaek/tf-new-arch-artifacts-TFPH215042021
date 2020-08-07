@@ -1,0 +1,94 @@
+{
+	"pgdef": {
+		"pgid": "garnishmentDisposableWages",
+		"pgtitle": "Garnishment Disposable Wages",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/garnishmentDisposableWages",
+		"childConfig":""
+			 } ,
+			 
+		"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Type",
+				"datafield": "taxType",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Type Name",
+				"datafield": "taxTypeName",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Payment",
+				"datafield": "payment",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Payment Name",
+				"datafield": "paymentName",
+				"cellsalign": "left",
+				"width": "20%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "authority","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "taxTypeName","type": "string"},
+		  {"name": "payment","type": "string"},
+		  {"name": "paymentName","type": "string"}
+		  ]
+		   },
+		"cruddef": {
+		"title":"Garnishment Disposable Wages",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

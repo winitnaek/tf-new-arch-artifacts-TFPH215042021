@@ -1,0 +1,69 @@
+[
+  {
+    "id": "authorityCode",
+    "placeholder": "Authority Code",
+    "fieldtype": "select",
+    "label": "Authority Code",
+    "value": "",
+    "errmsg": "Authority Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "garnishParamTaxType",
+    "placeholder": "Tax Type",
+    "fieldtype": "select",
+    "label": "Tax Type",
+    "value": "",
+    "errmsg": "Tax Type is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "dependentFields": [],
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "effDate",
+    "placeholder": "Effective Date",
+    "fieldtype": "date",
+    "label": "Effective Date",
+    "value": "new Date()",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

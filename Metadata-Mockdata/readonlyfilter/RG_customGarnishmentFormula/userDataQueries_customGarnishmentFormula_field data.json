@@ -1,0 +1,68 @@
+[
+  {
+    "id": "customTaxCode",
+    "placeholder": "Enter Custom Tax Code",
+    "fieldtype": "text",
+    "label": "Custom Tax Code",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "customTaxName",
+    "placeholder": "Enter Custom Tax Name",
+    "fieldtype": "text",
+    "label": "Custom Tax Name",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "effectiveDate",
+    "placeholder": "Enter Effective Date",
+    "fieldtype": "date",
+    "label": "Start Date",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

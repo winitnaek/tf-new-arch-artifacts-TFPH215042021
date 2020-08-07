@@ -1,0 +1,1442 @@
+[
+  {
+    "taxType": 1,
+    "taxName": "WITHHOLDING TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 2,
+    "taxName": "EARNED INCOME CREDIT PAYMENT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 3,
+    "taxName": "EMPLOYEE SOCIAL SECURITY TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 1,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 4,
+    "taxName": "EMPLOYER SOCIAL SECURITY TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 1,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 5,
+    "taxName": "EMPLOYEE MEDICARE TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 1,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 6,
+    "taxName": "EMPLOYER MEDICARE TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 1,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 7,
+    "taxName": "STATE UNEMPLOYMENT INSURANCE TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 8,
+    "taxName": "SOCIAL CHARGE TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 9,
+    "taxName": "EMPLOYER SPECIAL PAYROLL TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 10,
+    "taxName": "EMPLOYER UNEMPLOYMENT TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 11,
+    "taxName": "EMPLOYER DEBT REPAYMENT TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 12,
+    "taxName": "EMPLOYER OLD FUND LIABILITY TX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 13,
+    "taxName": "ER EMPLMT SECURITY ENHANCMT TX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 14,
+    "taxName": "ER RE-EMPLMT PLACEMT TX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 15,
+    "taxName": "ER JOB DEVMT ASSESSMT TX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 16,
+    "taxName": "EMPLOYMENT TRAINING TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 17,
+    "taxName": "EMPLOYER HEALTH INSURANCE TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 18,
+    "taxName": "EMPLOYER WORKFORCE DEVLMT TX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 19,
+    "taxName": "PAYROLL EXPENSE TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 20,
+    "taxName": "EMPLOYEE UNEMPLOYMENT TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 21,
+    "taxName": "EMPLOYEE DEBT REPAYMENT TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 22,
+    "taxName": "EMPLOYEE OLD FUND LIABILITY TX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 23,
+    "taxName": "EMPLOYEE HEALTH INSURANCE TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 24,
+    "taxName": "EMPLOYEE WORKFORCE DEVLPMT TX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 25,
+    "taxName": "EE COMBINED UI/WF&SWF/HC/DI/FLI TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 26,
+    "taxName": "EMPLOYEE CHAUFFEURS LICENSE FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 27,
+    "taxName": "EMPLOYER CHAUFFEURS LICENSE FEE",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 28,
+    "taxName": "ER COMBINED WF&SWF/HC/DI TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 29,
+    "taxName": "SPECIAL ADMIN RESERVE FUND TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 30,
+    "taxName": "EMPLOYER WORKER COMPENSATION TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 31,
+    "taxName": "EMPLOYER DISABILITY TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 32,
+    "taxName": "EMPLOYER ACCIDENT FUND TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 33,
+    "taxName": "EMPLOYER MEDICAL AID FUND TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 34,
+    "taxName": "EMPLOYER SUPLMTAL PENSION TX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 35,
+    "taxName": "TRANSIT  DISTRICT EXCISE TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 36,
+    "taxName": "WORKFORCE ENHANCEMENT FEE",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 37,
+    "taxName": "ADMINISTRATIVE CONTINGENCY FUND TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 38,
+    "taxName": "EMPLOYER INVESTMENT FEE",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 39,
+    "taxName": "EMPLOYMENT ADMINISTRATION FUND",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 40,
+    "taxName": "EMPLOYEE WORKER COMPENSATION TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 41,
+    "taxName": "EMPLOYEE DISABILITY TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 42,
+    "taxName": "EMPLOYEE SUPLMTAL PENSION TX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 43,
+    "taxName": "EMPLOYEE MEDICAL AID FUND TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 44,
+    "taxName": "EE MENTAL HEALTH TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 45,
+    "taxName": "EMPLOYEE SENIOR CITIZEN TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 46,
+    "taxName": "EMPLOYEE MENTAL HEALTH TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 47,
+    "taxName": "JOINT ECONOMIC DEV. DISTRICT",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 48,
+    "taxName": "EMPLOYEE VOLUNTARY DISABILITY TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 49,
+    "taxName": "EE SEN CIT/MNTAL HLT/TRANSP TX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 50,
+    "taxName": "EMPLOYEE TRANSPORTATION TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 51,
+    "taxName": "EMPLOYEE OCCUPATION TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 52,
+    "taxName": "EMPLOYER HEAD TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 53,
+    "taxName": "EMPLOYEE SCHOOL TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 54,
+    "taxName": "EMPLOYER OCCUPATION TAX",
+    "payee": "ER",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 55,
+    "taxName": "EMPLOYEE RAILROAD RTMT TIER1 SOC S",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 2,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 56,
+    "taxName": "EMPLOYEE RAILROAD RTMT TIER2 SOC S",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 4,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 57,
+    "taxName": "EMPLOYER RAILROAD RTMT TIER1 SOC S",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 2,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 58,
+    "taxName": "EMPLOYER RAILROAD RTMT TIER2 SOC S",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 4,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 59,
+    "taxName": "EMPLOYEE RAILROAD RTMT TIER1 MEDIC",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 2,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 60,
+    "taxName": "EMPLOYER RAILROAD RTMT TIER1 MEDIC",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 2,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 61,
+    "taxName": "EMPLOYEE RETIREMENT PLAN-S.S",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 62,
+    "taxName": "EMPLOYEE RETIREMENT PLAN-MED.",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 63,
+    "taxName": "EMPLOYER RETIREMENT PLAN-S.S",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 64,
+    "taxName": "EMPLOYER RETIREMENT PLAN-MED.",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 65,
+    "taxName": "EMPLOYER SUPPLEMENTAL RAILROAD RTMT",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 2,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 68,
+    "taxName": "P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 69,
+    "taxName": "P.E.R.S. - MED. - EMPLOYER PICK-UP",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 70,
+    "taxName": "PENSION PERIODIC WITHHOLDING",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 1,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 71,
+    "taxName": "PENSION N.P. ELIGIBLE ROLLOVER",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 1,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 72,
+    "taxName": "PENSION N.P. NONQUALIFYING",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 1,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 73,
+    "taxName": "PREMATURE DIST FROM QUALIFIED PLANS",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 1,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 75,
+    "taxName": "JOB DEVELOPMENT FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 76,
+    "taxName": "CITY SERVICE FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 77,
+    "taxName": "EMPLOYER VOLUNTARY DISABILITY TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 78,
+    "taxName": "UNEMPLOYMENT SURCHARGE TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 79,
+    "taxName": "WAGE AND SALARY TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 80,
+    "taxName": "EMPLOYER WAGE SECURITY FUND TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 81,
+    "taxName": "DISABILITY INSURANCE VP ASMENT TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 82,
+    "taxName": "UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 84,
+    "taxName": "LOCAL SERVICES TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 85,
+    "taxName": "COMPETITIVENESS SKILLS SCHLR FUND",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 86,
+    "taxName": "EE JOB DEVMT ASSESSMT TX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 87,
+    "taxName": "EMPLOYEE FAMILY LEAVE INSURANCE TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 88,
+    "taxName": "EMPLOYEE FAMILY LEAVE INS-VOL TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 89,
+    "taxName": "UI INTEREST ASSESSMENT FEE",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 90,
+    "taxName": "EMPLOYER STAY AT WORK PROGRAM TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 91,
+    "taxName": "EMPLOYEE STAY AT WORK PROGRAM TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 92,
+    "taxName": "ER MEDICAL ASST CONTRIBUTION TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 93,
+    "taxName": "NON-RESIDENT ALIEN ADDITIONAL TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 94,
+    "taxName": "TECHNOLOGY FUND TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 95,
+    "taxName": "EMPLOYER ADMINISTRATIVE FEE",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 96,
+    "taxName": "STATEWIDE TRANSIT TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 98,
+    "taxName": "EMPLOYER FAMILY LEAVE INSURANCE TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 99,
+    "taxName": "EMPLOYEE MEDICAL LEAVE INSUR TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 100,
+    "taxName": "EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 101,
+    "taxName": "EMPLOYER FAMILY LEAVE INS-VOL TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 102,
+    "taxName": "EMPLOYEE MEDICAL LEAVE INS-VOL TAX",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 103,
+    "taxName": "EMPLOYER MEDICAL LEAVE INS-VOL TAX",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 104,
+    "taxName": "EMPLOYEE TIF TAX",
+    "payee": "EE",
+    "recip": 1,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 105,
+    "taxName": "EMPLOYER PAID CITY SERVICE FEE",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 200,
+    "taxName": "ER INDIVIDUAL PSL CREDIT",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 201,
+    "taxName": "ER FAMILY  PSL CREDIT",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 202,
+    "taxName": "ER EXTENDED PFML  CREDIT",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 203,
+    "taxName": "ER MEDICARE LEAVE CREDIT",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 204,
+    "taxName": "ER EMPLOYEE RETENTION CREDIT",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 205,
+    "taxName": "ER SOCIAL SECURITY LEAVE CREDIT",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 206,
+    "taxName": "ER SOCIAL SECURITY TAX PMT DEFERRAL",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 501,
+    "taxName": "BANKRUPTCY",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 1,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 502,
+    "taxName": "CURRENT SUPPORT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 3,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 503,
+    "taxName": "FEDERAL TAX LEVY",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 2,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 504,
+    "taxName": "STATE TAX LEVY",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 4,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 505,
+    "taxName": "STUDENT LOAN",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 5,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 506,
+    "taxName": "ADMINISTRATIVE WAGE GARNISHMENT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 5,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 507,
+    "taxName": "CREDITOR GARNISHMENT",
+    "payee": "NA",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 5,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 508,
+    "taxName": "CRIMINAL RESTITUTION",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 5,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 509,
+    "taxName": "COURT COSTS",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 510,
+    "taxName": "CURRENT SUPPORT ARREARS",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 3,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 511,
+    "taxName": "MEDICAL SUPPORT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 3,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 512,
+    "taxName": "MEDICAL SUPPORT ARREARS",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 3,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 513,
+    "taxName": "SPOUSAL SUPPORT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 3,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 514,
+    "taxName": "SPOUSAL SUPPORT ARREARS",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 3,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 515,
+    "taxName": "VOL WAGE ASSIGNMENT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 6,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 516,
+    "taxName": "OUT OF STATE SUPPORT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 3,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 517,
+    "taxName": "STATE STUDENT LOAN",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 5,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 518,
+    "taxName": "STUDENT LOAN EMPLOYER FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 519,
+    "taxName": "SUPPORT EMPLOYER FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 9,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 520,
+    "taxName": "STATE LEVY EMPLOYER FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 521,
+    "taxName": "CREDITOR GARNISHMENT EMPLOYER FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 522,
+    "taxName": "CRIMINAL RESTITUTION EMPLOYER FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 523,
+    "taxName": "VOL WAGE ASSIGNMENT EMPLOYER FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 524,
+    "taxName": "ER PAID CREDITOR GARNISHMENT FEE",
+    "payee": "NA",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 525,
+    "taxName": "STATE BENEFIT LEVY ER FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 526,
+    "taxName": "ADMIN WAGE GARNISHMENT EMPLOYER FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 527,
+    "taxName": "NON-COURT ORDERED STUDENT LOAN",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 5,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 528,
+    "taxName": "LUMP SUM SUPPORT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 10,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 529,
+    "taxName": "STATE AGENCY NON-TAX DEBT LEVY",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 5,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 531,
+    "taxName": "STATE BENEFIT LEVY",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 4,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 532,
+    "taxName": "MEDICAID DEBT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 5,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 533,
+    "taxName": "MEDICAID DEBT FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 7,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 535,
+    "taxName": "SUPPORT AGENCY FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 9,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 545,
+    "taxName": "MEDICAL SUPPORT AGENCY FEE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 9,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 600,
+    "taxName": "TOTAL SUPPORT",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 8,
+    "garnCapLimit": 1
+  },
+  {
+    "taxType": 888,
+    "taxName": "EE TAX-CALC DEPENDENCY-DO NOT USE",
+    "payee": "EE",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  },
+  {
+    "taxType": 999,
+    "taxName": "TAX CALC SPECIAL USE LIMITS",
+    "payee": "ER",
+    "recip": 0,
+    "taxId": 0,
+    "railRoad": 0,
+    "garnTypeInd": 0,
+    "garnCapLimit": 0
+  }
+]

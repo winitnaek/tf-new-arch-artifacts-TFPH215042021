@@ -1,0 +1,293 @@
+{
+	"pgdef": {
+		"pgid": "reciprocalOverride",
+		"pgtitle": "Reciprocal Override",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new State Reciprocal Override, or click on existing Override to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/reciprocalOverride",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+			{
+				"text": "Override Type",
+				"datafield": "overrideType",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Resident Tax Code",
+				"datafield": "residentTaxCode",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+			
+            {
+				"text": "Resident Tax Type",
+				"datafield": "residentTaxType",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Non Resident Tax Code",
+				"datafield": "nonRresidentTaxCode",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+			
+            {
+				"text": "Non Resident Tax Type",
+				"datafield": "nonResidentTaxType",
+				"width": "47.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Calculation Method",
+				"datafield": "calculationMethod",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Rate",
+				"datafield": "rate",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Display Recip. Calc. Msg.",
+				"datafield": "displayRecip.Calc.Msg.",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Reporting Method",
+				"datafield": "reprtingMethod",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Display Report Wage Message",
+				"datafield": "displayReportWageMessage",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Start Date",
+				"datafield": "startDate",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "End Date",
+				"datafield": "endDate",
+				"cellsalign": "center",
+				"width": "47.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
+		],
+		"dataFields": [
+            {
+				"name": "Override Type",
+				"type": "string"
+            },
+            {
+				"name": "Resident Tax Code",
+				"type": "string"
+            },
+
+            {
+				"name": "Resident Tax Type",
+				"type": "string"
+            },
+            {
+				"name": "Non Resident Tax Code",
+				"type": "string"
+            },
+
+            {
+				"name": "Non Resident Tax Type",
+				"type": "string"
+            },
+            {
+				"name": "Calculation Method",
+				"type": "string"
+            },
+            {
+				"name": "Rate",
+				"type": "string"
+            },
+            {
+				"name": "Display Recip. Calc. Msg.",
+				"type": "string"
+            },
+            {
+				"name": "Reporting Method",
+				"type": "number"
+            },
+            {
+				"name": "Display Report Wage Message",
+				"type": "number"
+			}, 
+            {
+				"name": "startDate",
+				"type": "Date"
+            },
+            {
+				"name": "endtDate",
+				"type": "Date"
+			}
+		]
+	},
+	"formdef": {
+		"title": "Reciprocal Rate Override",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": false,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+            {
+				"id": "overrideType",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "residentTaxCode",
+				"order": 2,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+            {
+				"id": "residentTaxType",
+				"order": 3,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "nonResidentTaxCode",
+				"order": 4,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			
+            {
+				"id": "nonResidentTaxType",
+				"order": 5,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "calculationMethod",
+				"order": 6,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "rate",
+				"order": 7,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },    
+			{
+				"id": "displayRecip.Calc.Msg.",
+				"order": 8,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "reportingMethod",
+				"order": 9,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+           
+            {
+				"id": "displayReportWageMessage",
+				"order": 10,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+
+            {
+				"id": "startDate",
+				"order": 11,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "endDate",
+				"order": 12,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			}
+            
+            
+		],
+		"fltrflds": ""
+	}
+}

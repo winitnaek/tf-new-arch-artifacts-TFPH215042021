@@ -1,0 +1,2 @@
+"Custom Garnishment Code","Custom Garnishment Name","Start Date","End Date"
+"CUSTGAR001","Custom Gar 001","01/01/2020","12/31/2020"

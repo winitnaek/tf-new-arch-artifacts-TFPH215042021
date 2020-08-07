@@ -1,0 +1,154 @@
+{
+  pgdef: {
+    pgid: "customTaxes",
+    pgtitle: "Custom Taxes",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/customTaxes",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Tax Code",
+        datafield: "taxCode",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "State Date",
+        datafield: "stateDate",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "End Date",
+        datafield: "endDate",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Tax Rate",
+        datafield: "taxRate",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Min. Wage",
+        datafield: "min.Wage",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Max. Wage",
+        datafield: "max.Wage",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Max. Tax",
+        datafield: "maxTax",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Flat Amt.",
+        datafield: "flatAmt.",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Rounding",
+        datafield: "rounding",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Calc Method",
+        datafield: "calcMethod4",
+        cellsalign: "center",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    dataFields: [
+      { name: "taxCode", type: "string" },
+      { name: "startDate", type: "string" },
+      { name: "endDate", type: "string" },
+      { name: "taxRate", type: "string" },
+      { name: "min.Wage", type: "string" },
+      { name: "max.Wage", type: "string" },
+      { name: "max.Tax", type: "string" },
+      { name: "flatAmt.", type: "string" },
+      { name: "rounding", type: "string" },
+      { name: "calc.Method", type: "string" }    
+    ]
+  },
+  formdef: {
+    title: "Custom Taxes",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "taxcode", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
+    ]
+  }
+}

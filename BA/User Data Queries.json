@@ -1,0 +1,175 @@
+{
+	"pgdef": {
+		"pgid": "userDataQueries",
+		"pgtitle": "User Data Queries",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/userDataQueries",
+		"parentConfig":""
+		},
+		"pagelinks" :[ {
+					"name": "Tax Authority",
+					"pageId": "taxAuthority"
+					}
+				
+					,
+				"customTaxes":{
+					"name": "Custom Taxes",
+					"pageId": "customTaxes"
+					},
+				"bsiTaxes":{
+					"name": "BSI Taxes",
+					"pageId": "bsiTaxes"
+					},
+				"taxTypes":{
+					"name": "Tax Types",
+					"pageId": "taxTypes"
+					},	
+				"employeeGroups":{
+					"name": "Employee Groups",
+					"pageId": "employeeGroups"
+					},
+				"garnishmentGroups":{
+					"name": "Garnishment Groups",
+					"pageId": "garnishmentGroups"
+					},
+				"disposableOverrides":{
+					"name": "Disposable Overrides",
+					"pageId": "disposableOverrides"
+					},
+				"customGarnishments":{
+					"name": "Custom Garnishments",
+					"pageId": "customGarnishments"
+					},		
+				"garnishmentFormulaOverride":{
+					"name": "Garnishment Formula Override",
+					"pageId": "garnishmentFormulaOverride"
+					},
+				"customTaxes":{
+					"name": "Custom Taxes",
+					"pageId": "customTaxes"
+					},
+				"allMappedTaxTypes":{
+					"name": "All Mapped Tax Types",
+					"pageId": "allMappedTaxTypes"
+					},
+				"allMappedTaxCodes":{
+					"name": "All Mapped Tax Codes",
+					"pageId": "allMappedTaxCodes"
+					},
+				"allMappedPayCodes":{
+					"name": "All Mapped Pay Codes",
+					"pageId": "allMappedPayCodes"
+					},
+				"taxTypes":{
+					"name": "Tax Types",
+					"pageId": "taxTypes"
+					},	
+				"companies":{
+					"name": "Companies",
+					"pageId": "companies"
+					},
+				"experienceRates":{
+					"name": "Experience Rates",
+					"pageId": "experienceRates"
+					},
+				"supplementalMethods":{
+					"name": "Supplemental Methods",
+					"pageId": "supplementalMethods"
+					},	
+				"maritalStatus":{
+					"name": "Marital Status",
+					"pageId": "Marital Status"
+					},
+				"resident/WorkValidation":{
+					"name": "Resident/Work Validation",
+					"pageId": "resident/WorkValidation"
+					},
+				"unemployment":{
+					"name": "Unemployment",
+					"pageId": "unemployment"
+					},
+				"populatedV3States":{
+					"name": "Populated V3 States",
+					"pageId": "populatedV3States"
+					},	
+				"monthly/QuarterlyTaxType":{
+					"name": "Monthly/Quarterly Tax Type",
+					"pageId": "monthly/QuarterlyTaxType"
+					},
+				"taxabilityForAuthority":{
+					"name": "Taxability for Authority",
+					"pageId": "taxabilityForAuthority"
+					},
+				"customTaxabilityForAuthority":{
+					"name": "Custom Taxability for Authority",
+					"pageId": "customTaxabilityForAuthority"
+					},
+				"customOverridesForAuthority":{
+					"name": "Custom Overrides for Authority",
+					"pageId": "customOverridesForAuthority"
+					},		
+				"customGarnishmentFormula":{
+					"name": "Custom Garnishment Formula",
+					"pageId": "customGarnishmentFormula"
+					},
+				"allBSIPlans":{
+					"name": "All BSI Plans",
+					"pageId": "allBSIPlans"
+					},
+				"garnishmentsRequiringFilingStatus":{
+					"name": "Garnishments Requiring Filing Status",
+					"pageId": "garnishmentsRequiringFilingStatus"
+					},
+				"ordered-PercentGarnishments":{
+					"name": "Ordered-Percent Garnishments",
+					"pageId": "ordered-PercentGarnishments"
+					},
+				"validTaxFormulas":{
+					"name": "Valid Tax Formulas",
+					"pageId": "validTaxFormulas"
+					},
+				"allMappedTaxCodesWithCounty":{
+					"name": "All Mapped Tax Codes With County",
+					"pageId": "allMappedTaxCodesWithCounty"
+					},	
+				"wageLimitsByAuthorityAndTaxType":{
+					"name": "Wage Limits By Authority And Tax Type",
+					"pageId": "wageLimitsByAuthorityAndTaxType"
+					},
+				"garnishmentDisposableWages":{
+					"name": "Garnishment Disposable Wages",
+					"pageId": "garnishmentDisposableWages"
+					},
+				"statementOfExemptionAuthorities":{
+					"name": "Statement of Exemption Authorities",
+					"pageId": "statementOfExemptionAuthorities"
+					},
+				"minimumAgeTaxes":{
+					"name": "Minimum Age Taxes",
+					"pageId": "minimumAgeTaxes"
+					},
+				"garnishmentParameters":{
+					"name": "Garnishment Parameters",
+					"pageId": "garnishmentParameters"
+					}		
+		]
+
+ }
+	
+	"cruddef": {
+		"title":"User Data Queries",
+		"subtitle":"",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasDelete":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

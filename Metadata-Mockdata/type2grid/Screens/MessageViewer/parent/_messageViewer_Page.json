@@ -1,0 +1,131 @@
+{
+  "pgdef": {
+    "pgid": "messageViewer",
+    "pgtitle": "Message Viewer",
+    "pgsubtitle": "",
+    "flowtype": "flowtype2",
+    "hasAddNew": false,
+    "hasDeleteAll": true,
+
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "",
+    "helpLink": "",
+    "parentConfig": "",
+    "childConfig": "messagesViewer"
+  },
+  "confirmdef": {
+    "cheader": "",
+    "cbody": "The aciton will delete ALL messages from the BSI system. \n Are you sure you wish to proceed?",
+    "okbtnlbl": "Ok",
+    "cancelbtnlbl": "Cancel"
+  },
+  "griddef": {
+    "gridtype": "type2",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No Data Found : ",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Run Name",
+        "datafield": "runName",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Run Date",
+        "datafield": "runDate",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Run Time",
+        "datafield": "runTime",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Product",
+        "datafield": "product",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    "dataFields": [
+      {
+        "name": "runName",
+        "type": "string"
+      },
+      {
+        "name": "runDate",
+        "type": "string"
+      },
+      {
+        "name": "runTime",
+        "type": "string"
+      },
+      {
+        "name": "product",
+        "type": "string"
+      }
+    ]
+  },
+  "formdef": {
+    "title": "Select Report",
+    "subtitle": "* No entry will imply ALL selection.",
+    "hasSave": true,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "runName",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "runDate",
+        "order": 2,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "runTime",
+        "order": 3,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "product",
+        "order": 4,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+    ],
+    "fltrflds": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+   "value":"CF",
+   "label":"Custom Garnishment Formulas",
+   "desc":"Custom Garnishment Formulas",
+   "id":"customGarnishmentTaxFormulas",
+   "type":"comp",
+   "link":false
+
+
+}

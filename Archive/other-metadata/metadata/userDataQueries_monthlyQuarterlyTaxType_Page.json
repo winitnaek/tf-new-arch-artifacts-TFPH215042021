@@ -1,0 +1,136 @@
+{
+    "pgdef": {
+        "pgid": "monthly/QuarterlyTaxType",
+		"pgtitle": "Monthly/Quarterly Tax Type",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/monthly/QuarterlyTaxType",
+        "parentConfig": "",
+       "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": true,
+    "recordDelete": false,
+    "columns": [
+        {
+            "text": "Authority Code",
+            "datafield": "authorityCode",
+            "cellsalign": "left",
+            "width": "20%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Tax Type",
+            "datafield": "taxtype",
+            "cellsalign": "left",
+            "width": "14.25%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Formula Number",
+            "datafield": "formulaNumber",
+            "cellsalign": "left",
+            "width": "14.25%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Start Date",
+            "datafield": "startDate",
+            "cellsalign": "left",
+            "width": "14.25%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "End Date",
+            "datafield": "endDate",
+            "cellsalign": "left",
+            "width": "14.25%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Monthly/Quarterly",
+            "datafield": "monthly/Quarterly",
+            "cellsalign": "left",
+            "width": "14.25%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Formula Title",
+            "datafield": "formulaTitle",
+            "cellsalign": "left",
+            "align": "left",
+            "sortable": true,
+            "width": "14.25%",
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        }
+     ],
+
+    "dataFields":[
+        {"name": "authorityCode","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "formula Number","type": "string"},
+		  {"name": "startDate","type": "string"},
+		  {"name": "endDate","type": "string"},
+		  {"name": "monthly/Quarterly","type": "string"},
+		  {"name": "formulaTitle","type": "string"}
+      ]
+    },
+    
+  
+  "formdef":  {
+		"title":"Monthly/Quarterly Tax Type",
+        "subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasView": false,
+        "hasRecentUsage": false,
+        
+		"formflds": [
+      { "id": "authorityCode", "order":1, "isReadOnlyOnEdit":true, "isReadOnlyOnNew": false },
+      { "id": "taxType", "order":2, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false },
+      { "id": "formulaNumber", "order":3, "isReadOnlyOnEdit":false,"isReadOnlyOnNew":false },
+      { "id": "startDate", "order":4, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false },
+      { "id": "endDate", "order":5, "isReadOnlyOnEdit":false,"isReadOnlyOnNew":false },
+      { "id": "monthly/Quarterly", "order":6, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false },
+      { "id": "formulaTitle", "order":7, "isReadOnlyOnEdit":false,"isReadOnlyOnNew":false }
+           
+        ],
+        
+
+    "fltrflds": ""
+
+  }
+}

@@ -1,0 +1,125 @@
+{
+	"pgdef": {
+		"pgid": "logins",
+		"pgtitle": "Logins",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new Login or click on an existing Login to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/logins",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+			{
+				"text": "Login",
+				"datafield": "login",
+				"cellsalign": "center",
+				"width": "40%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Manage Logins and Permissions",
+				"datafield": "manageLoginsAndPermissions",
+				"width": "16.5%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Manage Datasets",
+				"datafield": "manageDatasets",
+				"cellsalign": "center",
+				"width": "16.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "User Interface Permission",
+				"datafield": "userInterfacePermission",
+				"cellsalign": "center",
+				"width": "16.5%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields": [
+            {
+				"name": "login",
+				"type": "string"
+			},
+			{
+				"name": "manageLoginsAndPermissions",
+				"type": "string"
+            },
+            {
+				"name": "manageDatasets",
+				"type": "string"
+			},
+			{
+				"name": "userInterfacePermission",
+				"type": "string"
+            }  			
+            
+		]
+	},
+	"formdef": {
+		"title": "Logins",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": true,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+            {
+				"id": "login",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "manageLoginsAndPermissions",
+				"order": 2,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "manageDatasets",
+				"order": 3,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+			},
+			{
+				"id": "userInterfacePermission",
+				"order": 4,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            }
+		],
+		"fltrflds": ""
+	}
+}

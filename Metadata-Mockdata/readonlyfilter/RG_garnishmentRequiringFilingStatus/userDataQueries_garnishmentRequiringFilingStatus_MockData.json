@@ -1,0 +1,22 @@
+[
+  {
+    "authority": 0,
+    "taxType": 503,
+    "startDate": "2020/1/1"
+  },
+  {
+    "authority": 40000,
+    "taxType": 504,
+    "startDate": "1/1/2020"
+  },
+  {
+    "authority": 210000,
+    "taxType": 504,
+    "startDate": "1/1/2008"
+  },
+  {
+    "authority": 260000,
+    "taxType": 504,
+    "startDate": "1/1/2014"
+  }
+]

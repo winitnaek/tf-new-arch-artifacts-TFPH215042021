@@ -1,0 +1,85 @@
+{
+	"pgdef": {
+		"pgid": "garnishmentGroups",
+		"pgtitle": "Garnishment Groups",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new Garnishment Group or click on existing Garnishment Group to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/garnishmentGroup",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+			{
+				"text": "Group Code",
+				"datafield": "groupCode",
+				"cellsalign": "center",
+				"width": "15%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Group Name",
+				"datafield": "groupName",
+				"width": "25%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
+		],
+		"dataFields": [
+			{
+				"name": "groupCode",
+				"type": "string"
+            },
+            {
+				"name": "groupName",
+				"type": "string"
+            }
+		]
+	},
+	"formdef": {
+		"title": "Garnishment Groups",
+		"subtitle": "",
+		"hasSave": true,
+		"hasDelete": false,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+		"hasRecentUsage": true,
+		"formflds": [
+			
+			{
+				"id": "groupCode",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "groupName",
+				"order": 2,
+				"isReadOnlyOnEdit": false,
+				"isReadOnlyOnNew": false
+            }
+		],
+		"fltrflds": ""
+	}
+}

@@ -1,0 +1,161 @@
+{
+	"pgdef": {
+		"pgid": "experienceRates",
+		"pgtitle": "Experience Rates",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/experienceRates",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+
+			{
+				"text": "Company Code",
+				"datafield": "companyCode",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Code",
+				"datafield": "taxCode",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Type",
+				"datafield": "taxType",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Formula Number",
+				"datafield": "formulaNumber",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Start Date",
+				"datafield": "startDate",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},			
+			{
+				"text": "End Date",
+				"datafield": "endDate",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Account Number",
+				"datafield": "accountNumber",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Experience Rate",
+				"datafield": "experienceRate",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Maximum Wage",
+				"datafield": "maximumWage",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "BSI Wage",
+				"datafield": "bSIWage",
+				"cellsalign": "left",
+				"width": "7%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Risk Class",
+				"datafield": "riskClass",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "companyCode","type": "string"},
+		  {"name": "taxCode","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "formulaNumber","type": "string"},
+		  {"name": "startDate","type": "string"},
+		  {"name": "endDate","type": "string"},
+		  {"name": "accountNumber","type": "string"},
+		  {"name": "experienceRate","type": "string"},
+		  {"name": "maximumWage","type": "string"},
+		  {"name": "bSIWage","type": "string"},
+		  {"name": "riskClass","type": "string"}
+		  ]
+	},
+	"cruddef": {
+		"title":"Experience Rates",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

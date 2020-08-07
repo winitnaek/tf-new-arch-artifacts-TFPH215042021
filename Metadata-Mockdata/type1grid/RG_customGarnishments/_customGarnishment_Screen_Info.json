@@ -1,0 +1,8 @@
+{
+  "value": "EG",
+  "label": "Custom Garnishments",
+  "desc": "Custom Garnishments",
+  "id": "customGarnishment",
+  "type": "comp",
+  "link": true
+}

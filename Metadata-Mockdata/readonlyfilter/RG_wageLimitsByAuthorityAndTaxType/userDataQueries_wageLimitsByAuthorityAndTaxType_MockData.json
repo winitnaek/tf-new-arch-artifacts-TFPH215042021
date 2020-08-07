@@ -1,0 +1,6052 @@
+[
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "003 - EMPLOYEE SOCIAL SECURITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"00000000",
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "004 - EMPLOYER SOCIAL SECURITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"00000000",
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "005 - EMPLOYEE MEDICARE TAX",
+    "formula": 1,
+    "effectiveDate": 19940101,
+    "rescindDate":"00000000",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "006 - EMPLOYER MEDICARE TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 1655,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "055 - EMPLOYEE RAILROAD RTMT TIER1 SOC S",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "056 - EMPLOYEE RAILROAD RTMT TIER2 SOC S",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 102300,
+    "taxRate": 0.05,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "057 - EMPLOYER RAILROAD RTMT TIER1 SOC S",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "058 - EMPLOYER RAILROAD RTMT TIER2 SOC S",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 102300,
+    "taxRate": 0.13,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "059 - EMPLOYEE RAILROAD RTMT TIER1 MEDIC",
+    "formula": 1,
+    "effectiveDate": 19950101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "060 - EMPLOYER RAILROAD RTMT TIER1 MEDIC",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "204 - ER EMPLOYEE RETENTION CREDIT",
+    "formula": 1,
+    "effectiveDate": 20200313,
+    "rescindDate":"0",
+    "maximumWage": 10000,
+    "taxRate": 0.5,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "206 - ER SOCIAL SECURITY TAX PMT DEFERRAL",
+    "formula": 1,
+    "effectiveDate": 20200327,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "206 - ER SOCIAL SECURITY TAX PMT DEFERRAL",
+    "formula": 2,
+    "effectiveDate": 20200327,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.06,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00000000 - FEDERAL",
+    "taxType": "206 - ER SOCIAL SECURITY TAX PMT DEFERRAL",
+    "formula": 3,
+    "effectiveDate": 20200327,
+    "rescindDate":"0",
+    "maximumWage": 102300,
+    "taxRate": 0.13,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010000 - ALABAMA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 8000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010000 - ALABAMA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 8000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010000 - ALABAMA",
+    "taxType": "013 - ER EMPLMT SECURITY ENHANCMT TX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 8000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010000 - ALABAMA",
+    "taxType": "013 - ER EMPLMT SECURITY ENHANCMT TX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 8000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010000 - ALABAMA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010000 - ALABAMA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010000 - ALABAMA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010000 - ALABAMA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010005 - GOODWATER",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19860401,
+    "rescindDate":"0",
+    "maximumWage": 20000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00010009 - MOUNTAIN BROOK",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20010101,
+    "rescindDate":"20051231",
+    "maximumWage": 100000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00020000 - ALASKA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00020000 - ALASKA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00020000 - ALASKA",
+    "taxType": "020 - EMPLOYEE UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00020000 - ALASKA",
+    "taxType": "020 - EMPLOYEE UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00020000 - ALASKA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00020000 - ALASKA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00020000 - ALASKA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00020000 - ALASKA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20121231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20151231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"20151231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00040000 - ARIZONA",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00050000 - ARKANSAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00050000 - ARKANSAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00050000 - ARKANSAS",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate":"20131231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00050000 - ARKANSAS",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00050000 - ARKANSAS",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00050000 - ARKANSAS",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00050000 - ARKANSAS",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130102,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130102,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20190101,
+    "rescindDate":"20181231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "effectiveDate": 20130102,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "effectiveDate": 20130102,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200102,
+    "rescindDate":"0",
+    "maximumWage": 122909,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20200102,
+    "rescindDate":"0",
+    "maximumWage": 122909,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "048 - EMPLOYEE VOLUNTARY DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200102,
+    "rescindDate":"0",
+    "maximumWage": 122909,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "048 - EMPLOYEE VOLUNTARY DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20200102,
+    "rescindDate":"0",
+    "maximumWage": 122909,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "077 - EMPLOYER VOLUNTARY DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200102,
+    "rescindDate":"0",
+    "maximumWage": 122909,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "077 - EMPLOYER VOLUNTARY DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20200102,
+    "rescindDate":"0",
+    "maximumWage": 122909,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00060000 - CALIFORNIA",
+    "taxType": "081 - DISABILITY INSURANCE VP ASMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200102,
+    "rescindDate":"0",
+    "maximumWage": 122909,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 13600,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 13600,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20100101",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20100101",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "068 - P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "effectiveDate": 20100101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "069 - P.E.R.S. - MED. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "effectiveDate": 20100102,
+    "rescindDate":"20100101",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "078 - UNEMPLOYMENT SURCHARGE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 13600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "078 - UNEMPLOYMENT SURCHARGE TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 13600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 13600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00080000 - COLORADO",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 13600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00090000 - CONNECTICUT",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00090000 - CONNECTICUT",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00090000 - CONNECTICUT",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20160101,
+    "rescindDate":"20161231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00090000 - CONNECTICUT",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00090000 - CONNECTICUT",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00090000 - CONNECTICUT",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00090000 - CONNECTICUT",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 16500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 16500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate":"20131231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 16500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 16500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00100000 - DELAWARE",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00110000 - DISTRICT OF COLUMBIA",
+    "taxType": "098 - EMPLOYER FAMILY LEAVE INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20190401,
+    "rescindDate":"0",
+    "maximumWage": 1000000000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00120000 - FLORIDA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00120000 - FLORIDA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00120000 - FLORIDA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20121231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00120000 - FLORIDA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00120000 - FLORIDA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00120000 - FLORIDA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00120000 - FLORIDA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate":"20131231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 1,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 2,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00130000 - GEORGIA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00150000 - HAWAII",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 48100,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00150000 - HAWAII",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 48100,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00150000 - HAWAII",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 48100,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00150000 - HAWAII",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 48100,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00150000 - HAWAII",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00150000 - HAWAII",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00150000 - HAWAII",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00150000 - HAWAII",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41600,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41600,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "018 - EMPLOYER WORKFORCE DEVLMT TX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "018 - EMPLOYER WORKFORCE DEVLMT TX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "029 - SPECIAL ADMIN RESERVE FUND TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "029 - SPECIAL ADMIN RESERVE FUND TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 41600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00160000 - IDAHO",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00170000 - ILLINOIS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 12740,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00170000 - ILLINOIS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 12740,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00170000 - ILLINOIS",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20111231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00170000 - ILLINOIS",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00170000 - ILLINOIS",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00170000 - ILLINOIS",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00170000 - ILLINOIS",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00180000 - INDIANA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00180000 - INDIANA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00180000 - INDIANA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"20151231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00180000 - INDIANA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00180000 - INDIANA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00180000 - INDIANA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00180000 - INDIANA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 31600,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 31600,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 1,
+    "effectiveDate": 20030101,
+    "rescindDate":"20031231",
+    "maximumWage": 19200,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "029 - SPECIAL ADMIN RESERVE FUND TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 31600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "029 - SPECIAL ADMIN RESERVE FUND TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 31600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00190000 - IOWA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00200000 - KANSAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00200000 - KANSAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00200000 - KANSAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 3,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00200000 - KANSAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 4,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00200000 - KANSAS",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00200000 - KANSAS",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00200000 - KANSAS",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00200000 - KANSAS",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "009 - EMPLOYER SPECIAL PAYROLL TAX",
+    "formula": 1,
+    "effectiveDate": 19990101,
+    "rescindDate":"20011231",
+    "maximumWage": 8000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 10800,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 10800,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"20151231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "078 - UNEMPLOYMENT SURCHARGE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 10800,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210000 - KENTUCKY",
+    "taxType": "078 - UNEMPLOYMENT SURCHARGE TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 10800,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210002 - BOONE",
+    "taxType": "044 - EE MENTAL HEALTH TAX",
+    "formula": 1,
+    "effectiveDate": 19870401,
+    "rescindDate":"0",
+    "maximumWage": 16666,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210002 - BOONE",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 63136,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210005 - CAMPBELL",
+    "taxType": "045 - EMPLOYEE SENIOR CITIZEN TAX",
+    "formula": 1,
+    "effectiveDate": 20050101,
+    "rescindDate":"0",
+    "maximumWage": 38667,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210005 - CAMPBELL",
+    "taxType": "046 - EMPLOYEE MENTAL HEALTH TAX",
+    "formula": 1,
+    "effectiveDate": 20050101,
+    "rescindDate":"0",
+    "maximumWage": 38667,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210005 - CAMPBELL",
+    "taxType": "049 - EE SEN CIT/MNTAL HLT/TRANSP TX",
+    "formula": 1,
+    "effectiveDate": 20050101,
+    "rescindDate":"0",
+    "maximumWage": 38667,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210005 - CAMPBELL",
+    "taxType": "050 - EMPLOYEE TRANSPORTATION TAX",
+    "formula": 1,
+    "effectiveDate": 20050101,
+    "rescindDate":"0",
+    "maximumWage": 38667,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210006 - CARROLL",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 5005000,
+    "taxRate": 0.01,
+    "minimumWage": 5000
+  },
+  {
+    "authorityName": "00210007 - CLARK",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19920101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210008 - CUMBERLAND",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20111001,
+    "rescindDate":"0",
+    "maximumWage": 60000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210008 - CUMBERLAND",
+    "taxType": "053 - EMPLOYEE SCHOOL TAX",
+    "formula": 1,
+    "effectiveDate": 19920101,
+    "rescindDate":"0",
+    "maximumWage": 100000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210015 - KENTON",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20010101,
+    "rescindDate":"0",
+    "maximumWage": 80400,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210019 - MARSHALL",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 6500000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210022 - MONTGOMERY",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20190701,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.02,
+    "minimumWage": 10000
+  },
+  {
+    "authorityName": "00210023 - NELSON",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19920101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210025 - POWELL",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19920101,
+    "rescindDate":"0",
+    "maximumWage": 30000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210028 - SCOTT",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19920102,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 10000
+  },
+  {
+    "authorityName": "00210032 - ESTILL",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19920101,
+    "rescindDate":"0",
+    "maximumWage": 46666,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210042 - RUSSELL",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 333333.33,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210203 - AUGUSTA",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 72000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210209 - BURKESVILLE",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 37500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210213 - COVINGTON",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210214 - CRESCENT SPRINGS",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19950101,
+    "rescindDate":"0",
+    "maximumWage": 61200,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210215 - CRESTVIEW HILLS",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210226 - FLORENCE",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210229 - FORT WRIGHT",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210231 - FRANKLIN",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 118500,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210234 - GEORGETOWN",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19920102,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 10000
+  },
+  {
+    "authorityName": "00210237 - HAZARD",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19990701,
+    "rescindDate":"0",
+    "maximumWage": 60000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210241 - JACKSON",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210242 - JAMESTOWN",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20020101,
+    "rescindDate":"0",
+    "maximumWage": 40000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210258 - NEWPORT",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210264 - PARK HILLS",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20101001,
+    "rescindDate":"0",
+    "maximumWage": 50000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210284 - WILDER",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210287 - CALVERT",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20010101,
+    "rescindDate":"0",
+    "maximumWage": 3000000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210295 - COLD SPRING",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210307 - ALEXANDRIA",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210317 - HIGHLAND HEIGHTS",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210318 - CAMARGO",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 19900701,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 10000
+  },
+  {
+    "authorityName": "00210319 - HODGENVILLE",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20000701,
+    "rescindDate":"0",
+    "maximumWage": 75000,
+    "taxRate": 0.01,
+    "minimumWage": 5000
+  },
+  {
+    "authorityName": "00210325 - MCLEAN",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20000701,
+    "rescindDate":"0",
+    "maximumWage": 50000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210327 - CLINTON",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20000701,
+    "rescindDate":"0",
+    "maximumWage": 40000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210332 - SIMPSON",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20190101,
+    "rescindDate":"0",
+    "maximumWage": 132900,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210342 - BARDSTOWN",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20120101,
+    "rescindDate":"0",
+    "maximumWage": 100000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210359 - WEST POINT",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20120813,
+    "rescindDate":"0",
+    "maximumWage": 50000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210363 - HICKMAN",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20070401,
+    "rescindDate":"0",
+    "maximumWage": 75000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00210372 - ROCKCASTLE",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20080702,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 4000
+  },
+  {
+    "authorityName": "00210396 - HOPKINS",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 500000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00220000 - LOUISIANA",
+    "taxType": "008 - SOCIAL CHARGE TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00220000 - LOUISIANA",
+    "taxType": "008 - SOCIAL CHARGE TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00220000 - LOUISIANA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00220000 - LOUISIANA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00220000 - LOUISIANA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00220000 - LOUISIANA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00220000 - LOUISIANA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00220000 - LOUISIANA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 12000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 12000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20121231",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20121231",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "068 - P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "effectiveDate": 20100101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "085 - COMPETITIVENESS SKILLS SCHLR FUND",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 12000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00230000 - MAINE",
+    "taxType": "085 - COMPETITIVENESS SKILLS SCHLR FUND",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 12000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00240000 - MARYLAND",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 8500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00240000 - MARYLAND",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 8500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00240000 - MARYLAND",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00240000 - MARYLAND",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00240000 - MARYLAND",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00240000 - MARYLAND",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20190101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20190101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "017 - EMPLOYER HEALTH INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"20191231",
+    "maximumWage": 15000,
+    "taxRate": 0.05,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "017 - EMPLOYER HEALTH INSURANCE TAX",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"20191231",
+    "maximumWage": 15000,
+    "taxRate": 0.05,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "018 - EMPLOYER WORKFORCE DEVLMT TX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "018 - EMPLOYER WORKFORCE DEVLMT TX",
+    "formula": 2,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20121231",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20121231",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "068 - P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "087 - EMPLOYEE FAMILY LEAVE INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "088 - EMPLOYEE FAMILY LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "092 - ER MEDICAL ASST CONTRIBUTION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "092 - ER MEDICAL ASST CONTRIBUTION TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "098 - EMPLOYER FAMILY LEAVE INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "099 - EMPLOYEE MEDICAL LEAVE INSUR TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "100 - EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "100 - EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "100 - EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "formula": 3,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "100 - EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "formula": 4,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "101 - EMPLOYER FAMILY LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "102 - EMPLOYEE MEDICAL LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "103 - EMPLOYER MEDICAL LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "103 - EMPLOYER MEDICAL LEAVE INS-VOL TAX",
+    "formula": 2,
+    "effectiveDate": 20190701,
+    "rescindDate":"20190630",
+    "maximumWage": 132900,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00250000 - MASSACHUSETTS",
+    "taxType": "103 - EMPLOYER MEDICAL LEAVE INS-VOL TAX",
+    "formula": 3,
+    "effectiveDate": 20190701,
+    "rescindDate":"20190630",
+    "maximumWage": 132900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 3,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 4,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20111231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 1,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 2,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 3,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 4,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 3,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00260000 - MICHIGAN",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 4,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130102,
+    "rescindDate":"20111231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "036 - WORKFORCE ENHANCEMENT FEE",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "036 - WORKFORCE ENHANCEMENT FEE",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00270000 - MINNESOTA",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00280000 - MISSISSIPPI",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00280000 - MISSISSIPPI",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00280000 - MISSISSIPPI",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00280000 - MISSISSIPPI",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "effectiveDate": 20170101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00280000 - MISSISSIPPI",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00280000 - MISSISSIPPI",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00280000 - MISSISSIPPI",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00280000 - MISSISSIPPI",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 11500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 11500,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate":"20131231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "039 - EMPLOYMENT ADMINISTRATION FUND",
+    "formula": 1,
+    "effectiveDate": 20100101,
+    "rescindDate":"20110331",
+    "maximumWage": 13000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "039 - EMPLOYMENT ADMINISTRATION FUND",
+    "formula": 2,
+    "effectiveDate": 20100101,
+    "rescindDate":"20110331",
+    "maximumWage": 13000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00290000 - MISSOURI",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 34100,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 34100,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "012 - EMPLOYER OLD FUND LIABILITY TX",
+    "formula": 1,
+    "effectiveDate": 19930701,
+    "rescindDate":"19981231",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "022 - EMPLOYEE OLD FUND LIABILITY TX",
+    "formula": 1,
+    "effectiveDate": 19930701,
+    "rescindDate":"19981231",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "039 - EMPLOYMENT ADMINISTRATION FUND",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 34100,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "039 - EMPLOYMENT ADMINISTRATION FUND",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 34100,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00300000 - MONTANA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "007 - STATE UNEMPLOYMENT INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "007 - STATE UNEMPLOYMENT INSURANCE TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "007 - STATE UNEMPLOYMENT INSURANCE TAX",
+    "formula": 3,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 24000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "007 - STATE UNEMPLOYMENT INSURANCE TAX",
+    "formula": 4,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 24000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 3,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 24000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 4,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 24000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00310000 - NEBRASKA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 32500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 32500,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20121231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 32500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 32500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"20171231",
+    "maximumWage": 30500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00320000 - NEVADA",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"20171231",
+    "maximumWage": 30500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00330000 - NEW HAMPSHIRE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200401,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00330000 - NEW HAMPSHIRE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200401,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00330000 - NEW HAMPSHIRE",
+    "taxType": "029 - SPECIAL ADMIN RESERVE FUND TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00330000 - NEW HAMPSHIRE",
+    "taxType": "029 - SPECIAL ADMIN RESERVE FUND TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00330000 - NEW HAMPSHIRE",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00330000 - NEW HAMPSHIRE",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00330000 - NEW HAMPSHIRE",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00330000 - NEW HAMPSHIRE",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate":"20131231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "017 - EMPLOYER HEALTH INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "017 - EMPLOYER HEALTH INSURANCE TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "018 - EMPLOYER WORKFORCE DEVLMT TX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "018 - EMPLOYER WORKFORCE DEVLMT TX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "020 - EMPLOYEE UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "020 - EMPLOYEE UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "023 - EMPLOYEE HEALTH INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "023 - EMPLOYEE HEALTH INSURANCE TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "024 - EMPLOYEE WORKFORCE DEVLPMT TX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "024 - EMPLOYEE WORKFORCE DEVLPMT TX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "025 - EE COMBINED UI/WF&SWF/HC/DI/FLI TAX",
+    "formula": 1,
+    "effectiveDate": 20190101,
+    "rescindDate":"20191231",
+    "maximumWage": 34400,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "025 - EE COMBINED UI/WF&SWF/HC/DI/FLI TAX",
+    "formula": 2,
+    "effectiveDate": 20190101,
+    "rescindDate":"20191231",
+    "maximumWage": 34400,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "028 - ER COMBINED WF&SWF/HC/DI TAX",
+    "formula": 1,
+    "effectiveDate": 20190101,
+    "rescindDate":"20191231",
+    "maximumWage": 34400,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "028 - ER COMBINED WF&SWF/HC/DI TAX",
+    "formula": 2,
+    "effectiveDate": 20190101,
+    "rescindDate":"20191231",
+    "maximumWage": 34400,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "031 - EMPLOYER DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "031 - EMPLOYER DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 134900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 134900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "048 - EMPLOYEE VOLUNTARY DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 134900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "048 - EMPLOYEE VOLUNTARY DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 134900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "077 - EMPLOYER VOLUNTARY DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "077 - EMPLOYER VOLUNTARY DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 35300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "087 - EMPLOYEE FAMILY LEAVE INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 134900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "087 - EMPLOYEE FAMILY LEAVE INSURANCE TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 134900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "088 - EMPLOYEE FAMILY LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 134900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00340000 - NEW JERSEY",
+    "taxType": "088 - EMPLOYEE FAMILY LEAVE INS-VOL TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 134900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00350000 - NEW MEXICO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 25800,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00350000 - NEW MEXICO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 25800,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00350000 - NEW MEXICO",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00350000 - NEW MEXICO",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00350000 - NEW MEXICO",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00350000 - NEW MEXICO",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 11600,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 11600,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"20151231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "014 - ER RE-EMPLMT PLACEMT TX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 11600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "014 - ER RE-EMPLMT PLACEMT TX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 11600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20131231",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20131231",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "068 - P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00360000 - NEW YORK",
+    "taxType": "087 - EMPLOYEE FAMILY LEAVE INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 72860.84,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00370000 - NORTH CAROLINA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 25200,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00370000 - NORTH CAROLINA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 25200,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00370000 - NORTH CAROLINA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"20151231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00370000 - NORTH CAROLINA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00370000 - NORTH CAROLINA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00370000 - NORTH CAROLINA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00370000 - NORTH CAROLINA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00380000 - NORTH DAKOTA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 37900,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00380000 - NORTH DAKOTA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 37900,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00380000 - NORTH DAKOTA",
+    "taxType": "030 - EMPLOYER WORKER COMPENSATION TAX",
+    "formula": 1,
+    "effectiveDate": 20190701,
+    "rescindDate":"0",
+    "maximumWage": 36400,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00380000 - NORTH DAKOTA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00380000 - NORTH DAKOTA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00380000 - NORTH DAKOTA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00380000 - NORTH DAKOTA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20160101,
+    "rescindDate":"20161231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "030 - EMPLOYER WORKER COMPENSATION TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20070101",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20070101",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00390000 - OHIO",
+    "taxType": "068 - P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "effectiveDate": 20090101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00391107 - CUYAHOGA FALLS",
+    "taxType": "001 - WITHHOLDING TAX",
+    "formula": 1,
+    "effectiveDate": 19960701,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00391256 - MANCHESTER",
+    "taxType": "001 - WITHHOLDING TAX",
+    "formula": 1,
+    "effectiveDate": 19920101,
+    "rescindDate":"0",
+    "maximumWage": 6000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00391615 - SHERWOOD",
+    "taxType": "001 - WITHHOLDING TAX",
+    "formula": 1,
+    "effectiveDate": 20040701,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 10000
+  },
+  {
+    "authorityName": "00391911 - GREEN TWP-CHEVIOT CITY JEDD II",
+    "taxType": "047 - JOINT ECONOMIC DEV. DISTRICT",
+    "formula": 1,
+    "effectiveDate": 20120501,
+    "rescindDate":"0",
+    "maximumWage": 100000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00391986 - WESTERN RIDGE JEDD",
+    "taxType": "047 - JOINT ECONOMIC DEV. DISTRICT",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 117260,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00391987 - MERCY HOSPITALS WEST JEDD",
+    "taxType": "047 - JOINT ECONOMIC DEV. DISTRICT",
+    "formula": 1,
+    "effectiveDate": 20130514,
+    "rescindDate":"0",
+    "maximumWage": 100000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00400000 - OKLAHOMA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 18700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00400000 - OKLAHOMA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 18700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00400000 - OKLAHOMA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00400000 - OKLAHOMA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00400000 - OKLAHOMA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00400000 - OKLAHOMA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00400000 - OKLAHOMA",
+    "taxType": "094 - TECHNOLOGY FUND TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 18700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00400000 - OKLAHOMA",
+    "taxType": "094 - TECHNOLOGY FUND TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 18700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "009 - EMPLOYER SPECIAL PAYROLL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 42100,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "009 - EMPLOYER SPECIAL PAYROLL TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 42100,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 42100,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 42100,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00410000 - OREGON",
+    "taxType": "080 - EMPLOYER WAGE SECURITY FUND TAX",
+    "formula": 1,
+    "effectiveDate": 20090101,
+    "rescindDate":"20090331",
+    "maximumWage": 31300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 10000,
+    "taxRate": 0.04,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 10000,
+    "taxRate": 0.04,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130102,
+    "rescindDate":"20111231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "020 - EMPLOYEE UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "020 - EMPLOYEE UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00420000 - PENNSYLVANIA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "031 - EMPLOYER DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "031 - EMPLOYER DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20070101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20070101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20070101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20070101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00430000 - PUERTO RICO",
+    "taxType": "068 - P.E.R.S. - S.S. - EMPLOYER PICK-UP",
+    "formula": 1,
+    "effectiveDate": 20190101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 24000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 24000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 3,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 25500,
+    "taxRate": 0.1,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 4,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 25500,
+    "taxRate": 0.1,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate":"20131231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "014 - ER RE-EMPLMT PLACEMT TX",
+    "formula": 1,
+    "effectiveDate": 20010101,
+    "rescindDate":"20031231",
+    "maximumWage": 12000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 24000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 24000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 3,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 25500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "015 - ER JOB DEVMT ASSESSMT TX",
+    "formula": 4,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 25500,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 72300,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "041 - EMPLOYEE DISABILITY TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 72300,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00440000 - RHODE ISLAND",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"20151231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "037 - ADMINISTRATIVE CONTINGENCY FUND TAX",
+    "formula": 1,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "037 - ADMINISTRATIVE CONTINGENCY FUND TAX",
+    "formula": 2,
+    "effectiveDate": 20160101,
+    "rescindDate":"0",
+    "maximumWage": 14000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00450000 - SOUTH CAROLINA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20190701,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20190701,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "038 - EMPLOYER INVESTMENT FEE",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "038 - EMPLOYER INVESTMENT FEE",
+    "formula": 2,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 1,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "082 - UNEMPLOYMENT SOLVENCY TAX SURCHARGE",
+    "formula": 2,
+    "effectiveDate": 20150101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "095 - EMPLOYER ADMINISTRATIVE FEE",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00460000 - SOUTH DAKOTA",
+    "taxType": "095 - EMPLOYER ADMINISTRATIVE FEE",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 15000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00470000 - TENNESSEE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00470000 - TENNESSEE",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00470000 - TENNESSEE",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00470000 - TENNESSEE",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00470000 - TENNESSEE",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00470000 - TENNESSEE",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00470000 - TENNESSEE",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00470000 - TENNESSEE",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "016 - EMPLOYMENT TRAINING TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 1,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00480000 - TEXAS",
+    "taxType": "089 - UI INTEREST ASSESSMENT FEE",
+    "formula": 2,
+    "effectiveDate": 20180101,
+    "rescindDate":"0",
+    "maximumWage": 9000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00490000 - UTAH",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 36600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00490000 - UTAH",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 36600,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00490000 - UTAH",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00490000 - UTAH",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00490000 - UTAH",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00490000 - UTAH",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00500000 - VERMONT",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 16100,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00500000 - VERMONT",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 16100,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00500000 - VERMONT",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20121231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00500000 - VERMONT",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00500000 - VERMONT",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00500000 - VERMONT",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00500000 - VERMONT",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00510000 - VIRGINIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 8000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00510000 - VIRGINIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 8000,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00510000 - VIRGINIA",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"20111231",
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00510000 - VIRGINIA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00510000 - VIRGINIA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00510000 - VIRGINIA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00510000 - VIRGINIA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00520000 - U.S. VIRGIN ISLANDS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 28900,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00520000 - U.S. VIRGIN ISLANDS",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 28900,
+    "taxRate": 0.02,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00520000 - U.S. VIRGIN ISLANDS",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 7000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00520000 - U.S. VIRGIN ISLANDS",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00520000 - U.S. VIRGIN ISLANDS",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00520000 - U.S. VIRGIN ISLANDS",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00520000 - U.S. VIRGIN ISLANDS",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate":"0",
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 52700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate":"0",
+    "maximumWage": 52700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "018 - EMPLOYER WORKFORCE DEVLMT TX",
+    "formula": 1,
+    "effectiveDate": 19990101,
+    "rescindDate": 19991231,
+    "maximumWage": 24300,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "039 - EMPLOYMENT ADMINISTRATION FUND",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 52700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "039 - EMPLOYMENT ADMINISTRATION FUND",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 52700,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "087 - EMPLOYEE FAMILY LEAVE INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "088 - EMPLOYEE FAMILY LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "098 - EMPLOYER FAMILY LEAVE INSURANCE TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "099 - EMPLOYEE MEDICAL LEAVE INSUR TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "100 - EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "100 - EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "100 - EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "formula": 3,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "100 - EMPLOYER MEDICAL LEAVE INSUR TAX",
+    "formula": 4,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "101 - EMPLOYER FAMILY LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "102 - EMPLOYEE MEDICAL LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "103 - EMPLOYER MEDICAL LEAVE INS-VOL TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 137700,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "888 - EE TAX-CALC DEPENDENCY-DO NOT USE",
+    "formula": 1,
+    "effectiveDate": 20190101,
+    "rescindDate": 20181231,
+    "maximumWage": 132900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00530000 - WASHINGTON",
+    "taxType": "999 - TAX CALC SPECIAL USE LIMITS",
+    "formula": 1,
+    "effectiveDate": 20190101,
+    "rescindDate": 20181231,
+    "maximumWage": 132900,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00540000 - WEST VIRGINIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 12000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00540000 - WEST VIRGINIA",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 12000,
+    "taxRate": 0.03,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00540000 - WEST VIRGINIA",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00540000 - WEST VIRGINIA",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00540000 - WEST VIRGINIA",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00540000 - WEST VIRGINIA",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00540001 - HUNTINGTON",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20110701,
+    "rescindDate": 20110630,
+    "maximumWage": 125000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00540002 - HUNTINGTON",
+    "taxType": "051 - EMPLOYEE OCCUPATION TAX",
+    "formula": 1,
+    "effectiveDate": 20110701,
+    "rescindDate": 20110630,
+    "maximumWage": 125000,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00550000 - WISCONSIN",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 14000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00550000 - WISCONSIN",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 14000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00550000 - WISCONSIN",
+    "taxType": "011 - EMPLOYER DEBT REPAYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20140101,
+    "rescindDate": 20131231,
+    "maximumWage": 7000,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00550000 - WISCONSIN",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00550000 - WISCONSIN",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00550000 - WISCONSIN",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00550000 - WISCONSIN",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00560000 - WYOMING",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 26400,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00560000 - WYOMING",
+    "taxType": "010 - EMPLOYER UNEMPLOYMENT TAX",
+    "formula": 2,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 26400,
+    "taxRate": 0,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00560000 - WYOMING",
+    "taxType": "030 - EMPLOYER WORKER COMPENSATION TAX",
+    "formula": 1,
+    "effectiveDate": 20200101,
+    "rescindDate": 0,
+    "maximumWage": 9999999.99,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00560000 - WYOMING",
+    "taxType": "030 - EMPLOYER WORKER COMPENSATION TAX",
+    "formula": 2,
+    "effectiveDate": 20190101,
+    "rescindDate": 0,
+    "maximumWage": 46670.04,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00560000 - WYOMING",
+    "taxType": "061 - EMPLOYEE RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00560000 - WYOMING",
+    "taxType": "062 - EMPLOYEE RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00560000 - WYOMING",
+    "taxType": "063 - EMPLOYER RETIREMENT PLAN-S.S",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  },
+  {
+    "authorityName": "00560000 - WYOMING",
+    "taxType": "064 - EMPLOYER RETIREMENT PLAN-MED.",
+    "formula": 1,
+    "effectiveDate": 20130101,
+    "rescindDate": 0,
+    "maximumWage": 0,
+    "taxRate": 0.01,
+    "minimumWage": 0
+  }
+]

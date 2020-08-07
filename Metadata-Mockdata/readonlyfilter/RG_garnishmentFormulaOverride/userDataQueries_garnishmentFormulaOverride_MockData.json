@@ -1,0 +1,86 @@
+[
+  {
+    "attribute": "Tax Code",
+    "value": "BSI00010000"
+  },
+  {
+    "attribute": "User Tax Type",
+    "value": "BSI502"
+  },
+  {
+    "attribute": "Start Date",
+    "value": 20200101
+  },
+  {
+    "attribute": "End Date",
+    "value": 20201231
+  },
+  {
+    "attribute": "Input Amount Indicator",
+    "value": "Use Flat Amount"
+  },
+  {
+    "attribute": "Flat Amount",
+    "value": 10
+  },
+  {
+    "attribute": "Percent",
+    "value": 2
+  },
+  {
+    "attribute": "Priority",
+    "value": 0
+  },
+  {
+    "attribute": "Exemption Indicator",
+    "value": "No exemptions"
+  },
+  {
+    "attribute": "Ex Flat Amount",
+    "value": 0
+  },
+  {
+    "attribute": "Exemption Amount",
+    "value": 0
+  },
+  {
+    "attribute": "Ex Dependent Amount",
+    "value": 0
+  },
+  {
+    "attribute": "Calc Method",
+    "value": "No calculation  (take result of Input Section and Exemption Section)"
+  },
+  {
+    "attribute": "Calc Percent",
+    "value": 0
+  },
+  {
+    "attribute": "Calc Amount",
+    "value": 0
+  },
+  {
+    "attribute": "Calc Limit",
+    "value": 0
+  },
+  {
+    "attribute": "Deduction Indicator",
+    "value": "No deductions"
+  },
+  {
+    "attribute": "Ded Flat Amount",
+    "value": 0
+  },
+  {
+    "attribute": "Deduction Amount",
+    "value": 0
+  },
+  {
+    "attribute": "Ded Dependent Amount",
+    "value": 0
+  },
+  {
+    "attribute": "Statement of Exemptions",
+    "value": 0
+  }
+]

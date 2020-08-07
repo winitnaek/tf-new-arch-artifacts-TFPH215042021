@@ -1,0 +1,170 @@
+[
+  {
+    "id": "code",
+    "placeholder": "Enter Custom Payment Code",
+    "fieldtype": "text",
+    "label": "Code",
+    "value": "",
+    "errmsg": "Code may not be blank",
+    "fieldlength": {
+      "minlength": 3,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+
+    },
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Payment Code may not be blank."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 3,
+          "message": "min 5 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "type",
+    "placeholder": "Enter Custom Payment Type",
+    "fieldtype": "select",
+    "label": "Custom Payment Type",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 5,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+ "options":[
+            "Custom earning",
+            "Custom Benefit Plan"
+ ]   
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+     
+      ]
+    }
+  },
+  {
+    "id": "name",
+    "placeholder": "Enter Custom Payment Name",
+    "fieldtype": "text",
+    "label": "Name",
+    "value": "",
+    "errmsg": "Name may not be blank",
+    "fieldlength": {
+      "minlength": 3,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+
+    },
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": "Payment name may not be blank."
+        }
+      ],
+      "constraint": [
+      
+      ]
+    }
+  },
+  {
+    "id": "taxability",
+    "placeholder": "select Taxability",
+    "fieldtype": "select",
+    "label": "Taxability",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options":     [
+            "Taxable",
+	          "Non-Taxable",
+            "Limit-YTD",
+            "Limit-QTD",
+            "Limit-MTD",
+            "Taxable/Exclude",
+            "Imputed"
+           ] 
+            
+
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "."
+        }
+      ],
+      "constraint": [
+       
+      ]
+    }
+  },
+  {
+      "name":"Maximum Limit",
+      "id":"maximumLimit",
+      "placeholder":"Enter the Maximum Limit",
+      "fieldtype":"text",
+      "fieldlength":{
+
+      },
+      "fieldinfo":{
+
+      },
+      "validationType":"string",
+      "label":"Maximum Limit",
+      "value":"",
+      "validation":{
+         "required":false,
+         "type":"number",
+         "subtype":[
+            {
+               "type":"positive",
+               "message":"Maximum limit cannot be negative"
+            },
+            {
+               "type":"typeError",
+               "message":"Must be a number"
+            }
+         ],
+         "constraint":[
+           
+         ]
+      }
+   }
+
+]

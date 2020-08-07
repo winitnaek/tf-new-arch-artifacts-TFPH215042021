@@ -1,0 +1,112 @@
+{
+    "pgdef": {
+        "pgid": "validTaxFormulas",
+		"pgtitle": "Valid Tax Formulas",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/validTaxFormulas",
+        "parentConfig": "",
+       "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": true,
+    "recordDelete": false,
+    "columns": [
+
+        {
+            "text": "Authority",
+            "datafield": "authority",
+            "cellsalign": "left",
+            "width": "16.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Tax Type",
+            "datafield": "taxType",
+            "cellsalign": "left",
+            "width": "16.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Start Date",
+            "datafield": "startDate",
+            "cellsalign": "left",
+            "width": "16.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Formula Number",
+            "datafield": "formulaNumber",
+            "cellsalign": "left",
+            "width": "16.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Formula Description",
+            "datafield": "formulaDescription",
+            "cellsalign": "left",
+           "width": "16.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        }
+    ],
+
+    "dataFields":[
+        {"name": "authority","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "startDate","type": "string"},
+		  {"name": "formulaNumber","type": "string"},
+		  {"name": "formulaDescription","type": "string"}
+      ]
+    },
+    
+  
+  "formdef":  {
+		"title":"Valid Tax Formulas",
+        "subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasView": false,
+        "hasRecentUsage": false,
+        
+		"formflds": "",
+        
+
+    "fltrflds": [
+        { "id": "authorityCode", "order":1, "isReadOnlyOnEdit":false, "isReadOnlyOnNew": false },
+        { "id": "taxType", "order":2, "isReadOnlyOnEdit":false,"isReadOnlyOnNew":false },
+        { "id": "startDate", "order":3, "isReadOnlyOnEdit":false,"isReadOnlyOnNew":false }
+       
+             
+          ]
+
+  }
+}

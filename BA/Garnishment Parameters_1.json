@@ -1,0 +1,139 @@
+{
+	"pgdef": {
+		"pgid": "garnishmentParameters",
+		"pgtitle": "Garnishment Parameters",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/garnishmentParameters",
+		"childConfig":""
+			 },
+			 
+		"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority",
+				"datafield": "authority",
+				"cellsalign": "left",
+				"width": "15%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Type",
+				"datafield": "taxType",
+				"cellsalign": "left",
+				"width": "15%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "GDC",
+				"datafield": "gDC",
+				"cellsalign": "left",
+				"width": "9%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "CDC",
+				"datafield": "cDC",
+				"cellsalign": "left",
+				"width": "9%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "ODC",
+				"datafield": "oDC",
+				"cellsalign": "left",
+				"width": "9%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "LDC",
+				"datafield": "lDC",
+				"cellsalign": "left",
+				"width": "9%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "RDG",
+				"datafield": "rDG",
+				"cellsalign": "left",
+				"width": "9%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "TOW",
+                "datafield": "tow",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "5%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Medical Support",
+                "datafield": "medicalSupport",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "5%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "authority","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "gDC","type": "string"},
+		  {"name": "cDC","type": "string"},	
+		  {"name": "oDC","type": "string"},
+		  {"name": "lDC","type": "string"},
+		  {"name": "rDG","type": "string"},
+		  {"name": "TOW","type": "string"},
+		  {"name": "medicalSupport","type": "string"}
+		  ]
+		   },
+		"cruddef": {
+		"title":"Garnishment Parameters",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

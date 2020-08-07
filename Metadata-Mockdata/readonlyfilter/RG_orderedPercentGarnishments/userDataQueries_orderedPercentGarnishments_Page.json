@@ -1,0 +1,107 @@
+{
+  "pgdef": {
+    "pgid": "orderedPercentGarnishments",
+    "pgtitle": "Ordered-Percent Garnishments",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/orderedPercentGarnishments",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Authority",
+        "datafield": "bsiauthName",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Authority ID",
+        "datafield": "bsiauth",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax Type",
+        "datafield": "taxtypeName",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax Type ID",
+        "datafield": "taxtype",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Start Date",
+        "datafield": "effective",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      { "name": "bsiauthName", "type": "string" },
+      { "name": "bsiauth", "type": "string" },
+      { "name": "taxtypeName", "type": "string" },
+      { "name": "taxtype", "type": "string" },
+      { "name": "effective", "type": "string" }
+    ]
+  },
+
+  "formdef": {
+    "title": "Ordered-Percent Garnishments",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note": "* No entry will imply ALL selection",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": " ",
+
+    "fltrflds": [
+      { "id": "authorityCode", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "taxType", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "startDate", "order": 3, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false }
+    ]
+  }
+}

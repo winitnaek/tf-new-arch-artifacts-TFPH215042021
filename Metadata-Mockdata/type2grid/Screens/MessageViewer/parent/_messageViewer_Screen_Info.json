@@ -1,0 +1,8 @@
+{
+  "value": "CF",
+  "label": "Message Viewer",
+  "desc": "Message Viewer",
+  "id": "messageViewer",
+  "type": "comp",
+  "link": true
+}

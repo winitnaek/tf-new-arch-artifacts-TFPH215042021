@@ -1,0 +1,166 @@
+{
+	"pgdef": {
+		"pgid": "worksites",
+		"pgtitle": "Worksites",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new Worksite, Click here to select a different Company.Or click on existing Worksite to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/worksites",
+		"parentConfig": "",
+		"childConfig": ""
+	}
+		,
+	"griddef": {
+		"gridtype": "type1",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "There are no Locations defined for this Company.",
+		"recordEdit": true,
+		"recordDelete": true,
+		"columns": [
+            
+            {
+				"text": "Worksite",
+				"datafield": "worksite",
+				"cellsalign": "center",
+				"width": "14.2%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+
+            {
+				"text": "Street 1",
+				"datafield": "street1",
+				"width": "14.2%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "Street 2",
+				"datafield": "street",
+				"width": "14.2%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "City",
+				"datafield": "city",
+				"cellsalign": "center",
+				"width": "14.2%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+
+            {
+				"text": "County",
+				"datafield": "county",
+				"width": "14.2%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+            {
+				"text": "State",
+				"datafield": "state",
+				"width": "14.2%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            },
+
+           {
+				"text": "Zip",
+				"datafield": "zip",
+				"cellsalign": "center",
+				"width": "14.2%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
+           
+		]
+	},
+	"formdef": {
+		"title": "Worksites",
+		"subtitle": "",
+		"hasSave": false,
+		"hasDelete": false,
+		"hasSaveAs": false,
+		"hasViewPDF": false,
+		"hasView": false,
+        "hasRecentUsage": true,
+        "hasExit": true,
+        
+		"formflds": [
+            {
+				"id": "worksite",
+				"order": 1,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            
+            {
+				"id": "street1",
+				"order": 2,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "street2",
+				"order": 3,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "city",
+				"order": 4,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            
+            {
+				"id": "county",
+				"order": 5,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "state",
+				"order": 6,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            },
+            {
+				"id": "Zip",
+				"order": 7,
+				"isReadOnlyOnEdit": true,
+				"isReadOnlyOnNew": false
+            }
+            
+
+            
+		],
+		"fltrflds": ""
+	}
+}

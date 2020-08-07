@@ -1,0 +1,353 @@
+{
+  "pgdef": {
+    "pgid": "garnishmentParameters",
+    "pgtitle": "Garnishment Parameters",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/garnishmentParameters",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Authority",
+        "datafield":"authorityCode",
+        "cellsalign": "left",
+        "width": "12%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "Tax Type",
+        "datafield":"taxType",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "8%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "DU:",
+        "datafield":"usesDuration",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "GI:",
+        "datafield":"usesGarnishmentCap",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "PN:",
+        "datafield":"usesPaymentNumber",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "SE:",
+        "datafield":"usesSOE",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "CO:",
+        "datafield":"usesConsent",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "HF:",
+        "datafield":"usesHeadOfFamily",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "NC:",
+        "datafield":"usesNumDepChildren",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "TD:",
+        "datafield":"usesTypeOfDebt",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "VO:",
+        "datafield":"usesVocation",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "AL:",
+        "datafield":"usesUseAlternateLimit",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "DE:",
+        "datafield":"usesIsDelinquent",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "LS:",
+        "datafield":"usesLumpSumInd",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "SF:",
+        "datafield":"usesSecondFamily",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "UF:",
+        "datafield":"usesUseFederalLimit",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "AD:",
+        "datafield":"usesAdditionalSTD",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "FS:",
+        "datafield":"usesFilingStatus",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "ND:",
+        "datafield":"usesNumberOfDependents",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "NE:",
+        "datafield":"usesNumberOfExemptions",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+
+      {
+        "text": "TOW",
+        "datafield":"usesTimeOfWrit",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "4%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Medical Support",
+        "datafield":"usesMedicalSupport",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "6%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      { 
+        "name": "authorityCode",
+         "type": "string" },
+      { 
+        "name": "taxType",
+         "type": "string" },
+      { 
+        "name": "usesDuration",
+         "type": "string" },
+      { 
+        "name": "usesGarnishmentCap",
+         "type": "string" },
+      { 
+        "name": "usesPaymentNumber",
+         "type": "string" },
+      { 
+        "name": "usesSOE",
+         "type": "string" },
+      { 
+        "name": "usesConsent",
+         "type": "string" },
+      { 
+        "name": "usesHeadOfFamily",
+         "type": "string" },
+      { 
+        "name": "usesNumDepChildren",
+         "type": "string" },
+      { 
+        "name": "usesTypeOfDebt",
+         "type": "string" },
+      { 
+        "name": "usesVocation",
+         "type": "string" },
+      { 
+        "name": "usesUseAlternateLimit",
+         "type": "string" },
+      { 
+        "name": "usesIsDelinquent",
+         "type": "string" },
+      { 
+        "name": "usesLumpSumInd",
+         "type": "string" },
+      { 
+        "name": "usesSecondFamily",
+         "type": "string" },
+      { 
+        "name": "usesUseFederalLimit",
+         "type": "string" },
+      { 
+        "name": "usesAdditionalSTD",
+         "type": "string" },
+      { 
+        "name": "usesFilingStatus",
+         "type": "string" },
+      { 
+        "name": "usesNumberOfDependents",
+         "type": "string" },
+      { 
+        "name": "usesNumberOfExemptions",
+         "type": "string" },
+      { 
+        "name": "usesTimeOfWrit",
+         "type": "string" },
+      { 
+        "name": "usesMedicalSupport",
+         "type": "string" }
+    ]
+  },
+
+  "formdef": {
+    "title": "Garnishment Parameters",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note": "* No entry will imply ALL selection.",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": "",
+
+    "fltrflds": [
+      { "id": "authorityCode", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "taxType", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "effectiveDate", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "pgdef": {
+    "pgid": "employeeGroups",
+    "pgtitle": "Employee Groups",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/employeeGroups",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Group Code",
+        "datafield": "groupCode",
+        "cellsalign": "left",
+        "width": "45%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Group Name",
+        "datafield": "groupName",
+        "cellsalign": "left",
+        "width": "55%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      {
+        "name": "groupCode",
+        "type": "string",
+        "map": "btxegrp>id>empgroup"
+      },
+      {
+        "name": "groupName",
+        "type": "string"
+      }
+    ]
+  },
+
+  "formdef": {
+    "title": "Employee Groups",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note": "* No entry will imply ALL selection.",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": "",
+    "fltrflds": [
+      {
+        "id": "garnishmentGroup",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }
+    ]
+  }
+}

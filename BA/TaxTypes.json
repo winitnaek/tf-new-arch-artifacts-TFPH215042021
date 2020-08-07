@@ -1,0 +1,117 @@
+{
+	"pgdef": {
+		"pgid": "taxTypes",
+		"pgtitle": "Tax Types",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/taxTypes",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Tax Type",
+				"datafield": "taxType",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			
+			{
+                "text": "Tax Name",
+                "datafield": "taxName",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "30%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Payee",
+                "datafield": "payee",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true
+			},
+			{
+                "text": "Recip",
+                "datafield": "recip",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true
+			  },
+			  {
+                "text": "Tax ID",
+                "datafield": "taxId",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Rail Road",
+                "datafield": "railRoad",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true
+			  },
+			  {
+                "text": "Garn Type Ind",
+                "datafield": "garnTypeInd",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Garn Cap Limit",
+                "datafield": "garnCapLimit",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true
+			  }
+		],
+		"dataFields":[
+		  {"name": "taxType","type": "string"},
+		  {"name": "taxName","type": "string"},
+		  {"name": "payee","type": "string"},
+		  {"name": "recip","type": "string"},
+		  {"name": "taxId","type": "string"},
+		  {"name": "railRoad","type": "string"},
+		  {"name": "garnTypeInd","type": "string"},
+		  {"name": "garnCapLimit","type": "string"}
+		]
+	},
+
+	"cruddef": {
+		"title":"Tax Types",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

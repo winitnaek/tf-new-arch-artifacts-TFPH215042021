@@ -1,0 +1,168 @@
+{
+  pgdef: {
+    pgid: "experienceRates",
+    pgtitle: "Experience Rates",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/experienceRates",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Company Code",
+        datafield: "companyCode",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Tax Code",
+        datafield: "taxCode",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Tax Type",
+        datafield: "taxType",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Formula No.",
+        datafield: "formula",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Start Date",
+        datafield: "startDate",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "End Date",
+        datafield: "rescindDate",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Account No.",
+        datafield: "acctNumber",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Exp. Rate",
+        datafield: "exprate",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Max. Wage",
+        datafield: "maxwage",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "BSI Wage",
+        datafield: "bsiWage",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        text: "Risk Class",
+        datafield: "riskClass",
+        cellsalign: "center",
+        "width": "9%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    dataFields: [
+      { name: "companyCode", type: "string" },
+      { name: "taxCode", type: "string" },
+      { name: "taxType", type: "string" },
+      { name: "formula", type: "string" },
+      { name: "startDate", type: "string" },
+      { name: "rescindDate", type: "string" },
+      { name: "acctNumber", type: "string" },
+      { name: "exprate", type: "string" },
+      { name: "maxwage", type: "string" },
+      { name: "bsiWage", type: "string" },
+      { name: "riskClass", type: "string" }
+    ]
+  },
+  formdef: {
+    title: "Experience Rates",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "taxability", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "companyCode", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "startDate", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "riskClass", "order": 4, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
+    ]
+  }
+}

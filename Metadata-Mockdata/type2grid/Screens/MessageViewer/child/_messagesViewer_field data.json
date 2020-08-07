@@ -1,0 +1,46 @@
+[
+  {
+    "id": "messageFilter",
+    "placeholder": "",
+    "fieldtype": "select",
+    "label": "Message Filter",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "All Message" },
+{ "id": "1", "label": "0000 - 0999 - Informational" },
+{ "id": "2", "label": "1000 - 1999 - Assumption" },
+{ "id": "3", "label": "2000 - 2999 - Legalitie" },
+{ "id": "4", "label": "3000 - 4999 - Failure" },
+{ "id": "5", "label": "5000 - 9999 - Fatal" }
+      ]
+    },
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Company Code needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  }
+]

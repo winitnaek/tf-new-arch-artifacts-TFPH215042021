@@ -1,0 +1,62 @@
+{
+  pgdef: {
+    pgid: "customGarnishments",
+    pgtitle: "Custom Garnishments",
+    pgsubtitle: "",
+    flowtype: "flowtype2",
+    hasAddNew: true,
+    addNewLabel: "Click here to add new Custom Garnishment.",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/customGarnishments",
+    parentConfig: "customGarnishmenyFormulas",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "type1",
+    filtergrid: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: true,
+    recordDelete: true,
+    columns: [
+      {
+        text: "Code",
+        datafield: "code",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        width: "15%"
+      },
+      {
+        text: "Name",
+        datafield: "name",
+        cellsalign: "center",
+        align: "center",
+        width: "8.8889%"
+      }
+    ],
+    dataFields: [
+      { name: "code", type: "string" },
+      { name: "name", type: "string" }
+    ]
+  },
+  
+  formdef: {
+    title: "Custom Garnishments",
+    subtitle: " ",
+    hasSave: true,
+    hasDelete: true,
+    hasSaveAs: false,
+    hasViewPDF: true,
+    hasView: false,
+    hasRecentUsage: false
+    formflds: [
+      { id: "customGarnishmentCode", "order":1, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":true },
+      { id: "customGarnishmentName", "order":2, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false }	
+	  ],
+    fltrflds: ""
+  }
+}

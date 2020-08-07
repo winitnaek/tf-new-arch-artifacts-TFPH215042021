@@ -1,0 +1,161 @@
+{
+	"pgdef": {
+		"pgid": "customTaxabilityForAuthority",
+		"pgtitle": "Custom Taxability for Authority",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/customTaxabilityForAuthority",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+
+			{
+				"text": "Tax Type",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Description",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Pay Type",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Custom Payment Code",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Description",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "15%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "EE Limit",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "EE Freq",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "ER Limit",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "ER Freq",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Earn Freq",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Limit Type",
+                "datafield": "attribute",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "10%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "Tax Type","type": "string"},
+		  {"name": "Description","type": "string"},
+		  {"name": "pay Type","type": "string"},
+		  {"name": "Custom Payment Code","type": "string"},
+		  {"name": "Description","type": "string"},
+		  {"name": "EE Limit","type": "string"},
+		  {"name": "EE Freq","type": "string"},
+		  {"name": "ER Limit","type": "string"},
+		  {"name": "ER Freq","type": "string"},
+		  {"name": "Earn Freq","type": "string"},
+		  {"name": "Limit Type","type": "string"}
+		  ]
+	},
+	"cruddef": {
+		"title":"Custom Taxability for Authority",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

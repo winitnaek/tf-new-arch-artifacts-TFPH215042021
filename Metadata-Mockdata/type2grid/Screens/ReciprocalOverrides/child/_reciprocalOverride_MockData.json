@@ -1,0 +1,16 @@
+[
+  {
+    "ovr.Type": "STATE",
+    "r.TaxCode": "BSI00010000 ALABAMA",
+    "r.TaxType": "001 WITHHOLDING TAX",
+    "nr.TaxCode": "BSI00060000 CALIFORNIA",
+    "nr.TaxType": "001 WITHHOLDING TAX",
+    "calculationMethod": "Use system default.",
+    "rate": 0,
+    "displayRecip.Calc.Message": "N",
+    "reportingMethod": "0 - System Default",
+    "displayReportWageMessage": "N",
+    "startDate": "6/2/2020",
+    "endDate": "12/31/9999"
+  }
+]

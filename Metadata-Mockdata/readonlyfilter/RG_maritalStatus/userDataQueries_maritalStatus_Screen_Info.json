@@ -1,0 +1,8 @@
+{
+   "value":"UQ",
+   "label":"Marital Status",
+   "desc":"Marital Status",
+   "id":"maritalStatus",
+   "type":"comp",
+   "link":false
+}

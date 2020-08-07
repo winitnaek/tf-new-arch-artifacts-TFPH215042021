@@ -1,0 +1,1106 @@
+[
+  {
+    "userCode": "BSIC001",
+    "bsiCode": "C001",
+    "name": "TIP CREDIT",
+    "type": "CREDIT"
+  },
+  {
+    "userCode": "BSID001",
+    "bsiCode": "D001",
+    "name": "UNION DUES",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID002",
+    "bsiCode": "D002",
+    "name": "HEALTH INSURANCE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID003",
+    "bsiCode": "D003",
+    "name": "LIFE INSURANCE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID004",
+    "bsiCode": "D004",
+    "name": "DISABILITY INSURANCE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID005",
+    "bsiCode": "D005",
+    "name": "HEALTH FOR DEPENDENT CHILD",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID006",
+    "bsiCode": "D006",
+    "name": "INITIATION FEE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID007",
+    "bsiCode": "D007",
+    "name": "AMOUNT LEGALLY OWED/DUE EMPLOYER",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID008",
+    "bsiCode": "D008",
+    "name": "DENTAL INSURANCE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID009",
+    "bsiCode": "D009",
+    "name": "DEDUCTIONS AS CONDITION OF EMPLOY",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID010",
+    "bsiCode": "D010",
+    "name": "LIFE INSURANCE DEPENDENT CHILD",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID011",
+    "bsiCode": "D011",
+    "name": "DISABILITY INSURANCE DEP CHILD",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID012",
+    "bsiCode": "D012",
+    "name": "AUTOMOBILE INSURANCE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID013",
+    "bsiCode": "D013",
+    "name": "BALLOT ISSUE COMMITTEE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID014",
+    "bsiCode": "D014",
+    "name": "BOARD/HOUSING/LODGING",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID015",
+    "bsiCode": "D015",
+    "name": "CHARITABLE CONTRIBUTIONS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID016",
+    "bsiCode": "D016",
+    "name": "CHILD CARE/DEPENDENT CARE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID017",
+    "bsiCode": "D017",
+    "name": "COLLEGE/SCHOLARSHIP SAVINGS PLANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID018",
+    "bsiCode": "D018",
+    "name": "COMPANY PRODUCTS/MERCHANDISE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID019",
+    "bsiCode": "D019",
+    "name": "COMPUTER LOANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID020",
+    "bsiCode": "D020",
+    "name": "CREDIT CARD ACCOUNTS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID021",
+    "bsiCode": "D021",
+    "name": "CREDIT UNION",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID022",
+    "bsiCode": "D022",
+    "name": "DEFERRED COMPENSATION PLANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID023",
+    "bsiCode": "D023",
+    "name": "DUES/FEES",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID024",
+    "bsiCode": "D024",
+    "name": "EMPLOYEE SAVINGS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID025",
+    "bsiCode": "D025",
+    "name": "EMPLOYEE LOANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID026",
+    "bsiCode": "D026",
+    "name": "EMPLOYER LOANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID027",
+    "bsiCode": "D027",
+    "name": "EQUIPMENT",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID028",
+    "bsiCode": "D028",
+    "name": "FLEXIBLE SPENDING ACCOUNTS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID029",
+    "bsiCode": "D029",
+    "name": "FLOWER FUNDS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID030",
+    "bsiCode": "D030",
+    "name": "GIFTS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID031",
+    "bsiCode": "D031",
+    "name": "GOVT EMP RETIREMENT LOANS (UVI)",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID032",
+    "bsiCode": "D032",
+    "name": "HOMEOWNERS  INSURANCE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID033",
+    "bsiCode": "D033",
+    "name": "LEGAL DEFENSE FUND",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID034",
+    "bsiCode": "D034",
+    "name": "LEGAL EXPENSE INSURANCE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID035",
+    "bsiCode": "D035",
+    "name": "MEALS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID036",
+    "bsiCode": "D036",
+    "name": "MEDICAL EXPENSE PLANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID037",
+    "bsiCode": "D037",
+    "name": "MISCELLANEOUS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID038",
+    "bsiCode": "D038",
+    "name": "PARKING",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID039",
+    "bsiCode": "D039",
+    "name": "PERSONAL LOANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID040",
+    "bsiCode": "D040",
+    "name": "POLITICAL/CAMPAIGN CONTRIBUTIONS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID041",
+    "bsiCode": "D041",
+    "name": "PROFIT SHARING INCENTIVE PLAN LOANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID042",
+    "bsiCode": "D042",
+    "name": "PUBLIC RADIO STATION CONTRIBUTIONS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID043",
+    "bsiCode": "D043",
+    "name": "SALARY ADVANCE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID044",
+    "bsiCode": "D044",
+    "name": "SALARY RESERVE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID045",
+    "bsiCode": "D045",
+    "name": "SAVINGS BOND",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID046",
+    "bsiCode": "D046",
+    "name": "SERVICE CREDIT PURCHASE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID047",
+    "bsiCode": "D047",
+    "name": "THRIFT SAVINGS PLAN LOANS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID048",
+    "bsiCode": "D048",
+    "name": "TICKETS (ATHLETIC/ENTERTAINMENT)",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID049",
+    "bsiCode": "D049",
+    "name": "TRANSIT/TRANSPORTATION",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID050",
+    "bsiCode": "D050",
+    "name": "TUITION/BOOK FEES",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID051",
+    "bsiCode": "D051",
+    "name": "UNAUTHORIZED/UNPAID LEAVE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID052",
+    "bsiCode": "D052",
+    "name": "UNIFORMS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID053",
+    "bsiCode": "D053",
+    "name": "UNITED WAY",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID054",
+    "bsiCode": "D054",
+    "name": "VEHICLE TAX",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID055",
+    "bsiCode": "D055",
+    "name": "WELLNESS CENTER",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID056",
+    "bsiCode": "D056",
+    "name": "VISION COVERAGE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID057",
+    "bsiCode": "D057",
+    "name": "VISION COVERAGE FOR DEPENDENTS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID058",
+    "bsiCode": "D058",
+    "name": "PRESCRIPTION DRUG",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID059",
+    "bsiCode": "D059",
+    "name": "PRESCRIPTION DRUG FOR DEPENDENTS",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID060",
+    "bsiCode": "D060",
+    "name": "MENTAL HEALTH COVERAGE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID061",
+    "bsiCode": "D061",
+    "name": "MENTAL HLTH COVERAGE FOR DEPENDENT",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID062",
+    "bsiCode": "D062",
+    "name": "MANDATORY RETIREMENT CONTRIBUTION",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID063",
+    "bsiCode": "D063",
+    "name": "DRUG TESTING / MEDICAL EXAM",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID064",
+    "bsiCode": "D064",
+    "name": "GARNISHMENT ADJUSTMENT-DECREASE",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID065",
+    "bsiCode": "D065",
+    "name": "NMSN - ALL HEALTH",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID066",
+    "bsiCode": "D066",
+    "name": "NMSN - MEDICAL",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID067",
+    "bsiCode": "D067",
+    "name": "NMSN - DENTAL",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID068",
+    "bsiCode": "D068",
+    "name": "NMSN - VISION",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID069",
+    "bsiCode": "D069",
+    "name": "NMSN - PRESCRIPTION DRUG",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID070",
+    "bsiCode": "D070",
+    "name": "NMSN - MENTAL HEALTH",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSID071",
+    "bsiCode": "D071",
+    "name": "NMSN - OTHER",
+    "type": "DEDUCTION"
+  },
+  {
+    "userCode": "BSIE002",
+    "bsiCode": "E002",
+    "name": "PAY ADVANCES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE003",
+    "bsiCode": "E003",
+    "name": "ATHLETIC FACILITIES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE004",
+    "bsiCode": "E004",
+    "name": "N.Q. PLAN AWARDS AND PRIZES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE005",
+    "bsiCode": "E005",
+    "name": "BACK PAY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE006",
+    "bsiCode": "E006",
+    "name": "BONUSES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE007",
+    "bsiCode": "E007",
+    "name": "BUSINESS EXPENSES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE009",
+    "bsiCode": "E009",
+    "name": "GIFTS",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE010",
+    "bsiCode": "E010",
+    "name": "COMMISSIONS",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE013",
+    "bsiCode": "E013",
+    "name": "DISCOUNTS",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE014",
+    "bsiCode": "E014",
+    "name": "DISMISSAL/SEVERANCE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE015",
+    "bsiCode": "E015",
+    "name": "EDUCATIONAL ASSISTANCE (SEC 127)",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE016",
+    "bsiCode": "E016",
+    "name": "EMPLOYMENT AGENCY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE017",
+    "bsiCode": "E017",
+    "name": "QUALIFIED EQUIPMENT/TOOL/UNIFORM",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE018",
+    "bsiCode": "E018",
+    "name": "BUSINESS USE OF COMPANY CAR",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE019",
+    "bsiCode": "E019",
+    "name": "PERSONAL USE OF COMPANY CAR",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE020",
+    "bsiCode": "E020",
+    "name": "NO ADDITIONAL COST SERVICES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE021",
+    "bsiCode": "E021",
+    "name": "GOLDEN PARACHUTE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE022",
+    "bsiCode": "E022",
+    "name": "GROUP LEGAL SERVICES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE023",
+    "bsiCode": "E023",
+    "name": "GUARANTEED WAGE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE024",
+    "bsiCode": "E024",
+    "name": "JURY DUTY PAY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE025",
+    "bsiCode": "E025",
+    "name": "BELOW MARKET LOANS TO EMPLOYEES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE026",
+    "bsiCode": "E026",
+    "name": "MEALS AND LODGING",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE027",
+    "bsiCode": "E027",
+    "name": "SUPPLEMENTAL MILITARY PAY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE028",
+    "bsiCode": "E028",
+    "name": "QUALIFIED MOVING EXPENSES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE029",
+    "bsiCode": "E029",
+    "name": "NON CASH FRINGE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE030",
+    "bsiCode": "E030",
+    "name": "OUTPLACEMENT SERVICES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE031",
+    "bsiCode": "E031",
+    "name": "OVERTIME",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE032",
+    "bsiCode": "E032",
+    "name": "QUALIFIED PARKING",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE033",
+    "bsiCode": "E033",
+    "name": "PRE EMPLOYMENT REIMBURSEMENT",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE034",
+    "bsiCode": "E034",
+    "name": "PROBATIONARY PAY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE035",
+    "bsiCode": "E035",
+    "name": "REGULAR WAGES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE036",
+    "bsiCode": "E036",
+    "name": "SCHOLARSHIPS",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE037",
+    "bsiCode": "E037",
+    "name": "SICK/DISABILITY PAY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE038",
+    "bsiCode": "E038",
+    "name": "STANDBY/IDLE TIME",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE039",
+    "bsiCode": "E039",
+    "name": "STOCK PURCHASE & INCENTIVE PLAN",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE040",
+    "bsiCode": "E040",
+    "name": "SUPPER MONEY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE041",
+    "bsiCode": "E041",
+    "name": "SUPPLEMENTAL UNEMPLOYMENT",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE042",
+    "bsiCode": "E042",
+    "name": "TAXES PAID BY EMPLOYER",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE043",
+    "bsiCode": "E043",
+    "name": "TIPS",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE044",
+    "bsiCode": "E044",
+    "name": "TRAVEL EXPENSE REIMBURSEMENT",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE045",
+    "bsiCode": "E045",
+    "name": "TUITION REDUCTION (SEC 117)",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE046",
+    "bsiCode": "E046",
+    "name": "UNION PAYMENT",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE047",
+    "bsiCode": "E047",
+    "name": "VACATION PAY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE048",
+    "bsiCode": "E048",
+    "name": "GROUP TERM LIFE G.T. 50000",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE049",
+    "bsiCode": "E049",
+    "name": "MINISTERS HOUSING ALLOWANCE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE051",
+    "bsiCode": "E051",
+    "name": "INCOME UNDER SECTION 409A",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE052",
+    "bsiCode": "E052",
+    "name": "TRANSPORTATION CHV",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE060",
+    "bsiCode": "E060",
+    "name": "3RD PARTY SICK PAY - IN HOUSE PLAN",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE065",
+    "bsiCode": "E065",
+    "name": "3RD PARTY SICK PAY - OUTSIDE VENDOR",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE068",
+    "bsiCode": "E068",
+    "name": "DIFFERENTIAL PAY-ACT DUTY MILITARY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE070",
+    "bsiCode": "E070",
+    "name": "EMPLOYEE ADULT CHILD HLTH INSURANCE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE071",
+    "bsiCode": "E071",
+    "name": "EMPLOYER ADULT CHILD HLTH INSURANCE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE072",
+    "bsiCode": "E072",
+    "name": "ER PREMIUM SAME-SEX PARTNER MEDICAL",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE073",
+    "bsiCode": "E073",
+    "name": "ER PREMIUM SAME-SEX PARTNER DENTAL",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE074",
+    "bsiCode": "E074",
+    "name": "ADOPTION ASSIST-CHILD 1 (SEC 125)",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE075",
+    "bsiCode": "E075",
+    "name": "ADOPTION ASSIST-CHILD 2 (SEC 125)",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE076",
+    "bsiCode": "E076",
+    "name": "ADOPTION ASSIST-CHILD 3 (SEC 125)",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE077",
+    "bsiCode": "E077",
+    "name": "SEVERANCE PAY - OTHER",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE078",
+    "bsiCode": "E078",
+    "name": "ER PREMIUM SAME-SEX PARTNER VISION",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE079",
+    "bsiCode": "E079",
+    "name": "TIPS ALTERNATE EMPLOYER RULE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE080",
+    "bsiCode": "E080",
+    "name": "TUITION REIMBURSEMENT (SEC 132)",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE081",
+    "bsiCode": "E081",
+    "name": "QSEHRA SINGLE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE082",
+    "bsiCode": "E082",
+    "name": "QSEHRA FAMILY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE083",
+    "bsiCode": "E083",
+    "name": "GARNISHMENT ADJUSTMENT-INCREASE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE084",
+    "bsiCode": "E084",
+    "name": "YOUNG RESIDENT EE EXEMPT WAGES",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE085",
+    "bsiCode": "E085",
+    "name": "QUALIFIED MOVING EXP-AF ACTIVE DUTY",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE087",
+    "bsiCode": "E087",
+    "name": "MINIMUM WAGE MAKEUP",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE088",
+    "bsiCode": "E088",
+    "name": "COVID-19 EMERGENCY PD SICK LEAVE-EE",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE089",
+    "bsiCode": "E089",
+    "name": "COVID-19 EMERGENCY PD SICK LEAVE-DP",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIE090",
+    "bsiCode": "E090",
+    "name": "COVID-19 EMERGENCY EXP F&M LEAVE-DP",
+    "type": "EARNING"
+  },
+  {
+    "userCode": "BSIP001",
+    "bsiCode": "P001",
+    "name": "401K",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP002",
+    "bsiCode": "P002",
+    "name": "403B",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP003",
+    "bsiCode": "P003",
+    "name": "408K",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP004",
+    "bsiCode": "P004",
+    "name": "457B STATE AND LOCAL GOVMNT",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP005",
+    "bsiCode": "P005",
+    "name": "7701J",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP006",
+    "bsiCode": "P006",
+    "name": "SECTION 125",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP007",
+    "bsiCode": "P007",
+    "name": "DENTAL INSURANCE (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP008",
+    "bsiCode": "P008",
+    "name": "GROUP TERM LIFE (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP009",
+    "bsiCode": "P009",
+    "name": "HEALTH INSURANCE (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP010",
+    "bsiCode": "P010",
+    "name": "DEPENDENT CARE FILING SEP (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP011",
+    "bsiCode": "P011",
+    "name": "DEPENDENT CARE MARRIED (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP012",
+    "bsiCode": "P012",
+    "name": "CASH OUT (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP014",
+    "bsiCode": "P014",
+    "name": "SIMPLE 401K",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP016",
+    "bsiCode": "P016",
+    "name": "401K ROTH",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP017",
+    "bsiCode": "P017",
+    "name": "403B ROTH",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP018",
+    "bsiCode": "P018",
+    "name": "QUALIFIED PARKING",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP019",
+    "bsiCode": "P019",
+    "name": "TRANSPORTATION CHV",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP020",
+    "bsiCode": "P020",
+    "name": "HSA SELF-ONLY (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP021",
+    "bsiCode": "P021",
+    "name": "HSA FAMILY (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP022",
+    "bsiCode": "P022",
+    "name": "457B TAX EXEMPT ENTITY",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP023",
+    "bsiCode": "P023",
+    "name": "COMMUTER BENEFITS/SALARY REDUCTION",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP024",
+    "bsiCode": "P024",
+    "name": "FSA HEALTH",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP025",
+    "bsiCode": "P025",
+    "name": "457F N.Q. DEFERRED COMPENSATION",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP026",
+    "bsiCode": "P026",
+    "name": "ROTH 457B",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP029",
+    "bsiCode": "P029",
+    "name": "409A N.Q. DEFERRED COMPENSATION",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP030",
+    "bsiCode": "P030",
+    "name": "409A NQDC VESTED PLAN",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP031",
+    "bsiCode": "P031",
+    "name": "SIMPLE IRA 408P",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP053",
+    "bsiCode": "P053",
+    "name": "HSA SINGLE (NON-SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP054",
+    "bsiCode": "P054",
+    "name": "HSA FAMILY (NON-SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP055",
+    "bsiCode": "P055",
+    "name": "7701J ROTH",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP056",
+    "bsiCode": "P056",
+    "name": "COST OF ER-SPONSORED PLAN COVERAGE",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP057",
+    "bsiCode": "P057",
+    "name": "SAME-SEX PARTNER DNTL INS (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP059",
+    "bsiCode": "P059",
+    "name": "SAME-SEX PARTNER MED INS (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP060",
+    "bsiCode": "P060",
+    "name": "VISION INSURANCE (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP061",
+    "bsiCode": "P061",
+    "name": "SAME-SEX PARTNER VISION",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP062",
+    "bsiCode": "P062",
+    "name": "401K (SEC 125)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP063",
+    "bsiCode": "P063",
+    "name": "OREGONSAVES (UP TO AGE 50)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP064",
+    "bsiCode": "P064",
+    "name": "OREGONSAVES (AGE 50 AND OVER)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP065",
+    "bsiCode": "P065",
+    "name": "CALSAVERS (UP TO AGE 50)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP066",
+    "bsiCode": "P066",
+    "name": "CALSAVERS (AGE 50 AND OVER)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP067",
+    "bsiCode": "P067",
+    "name": "IL SEC CHOICE (UP TO AGE 50)",
+    "type": "BENEFIT PLAN"
+  },
+  {
+    "userCode": "BSIP068",
+    "bsiCode": "P068",
+    "name": "IL SEC CHOICE (AGE 50 AND OVER)",
+    "type": "BENEFIT PLAN"
+  }
+]

@@ -1,0 +1,177 @@
+{
+	"pgdef": {
+		"pgid": "disposableOverrides",
+		"pgtitle": "Disposable Overrides",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/disposableOverrides",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority Code",
+				"datafield": "authorityCode",
+				"cellsalign": "left",
+				"width": "6%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Authority Name",
+				"datafield": "authorityName",
+				"cellsalign": "left",
+				"width": "6%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Garnishment Type",
+                "datafield": "garnishmentType",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "6.5%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Garnishment Name",
+                "datafield": "garnishmentName",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "6.5%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Payment Code",
+				"datafield": "paymentCode",
+				"cellsalign": "left",
+				"width": "6%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Payment Name",
+				"datafield": "paymentName",
+				"cellsalign": "left",
+				"width": "6%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Start Date",
+                "datafield": "startDate",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			},
+			{
+                "text": "End Date",
+                "datafield": "endDate",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			},
+			  {
+                "text": "Process",
+                "datafield": "process",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Date Code",
+                "datafield": "dateCode",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  },
+			  {
+                "text": "Min Amount",
+                "datafield": "minAmount",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Max Amount",
+                "datafield": "maxAmount",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  },
+			  {
+                "text": "Min Percent",
+                "datafield": "minPercent",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true
+			  },
+			  {
+                "text": "Max Percent",
+                "datafield": "maxPercent",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "6%",
+				"sortable":true				
+			  }
+		],
+		"dataFields":[
+		  {"name": "authorityCode","type": "string"},
+		  {"name": "authorityName","type": "string"},
+		  {"name": "garnishmentType","type": "string"},
+		  {"name": "garnishmentName","type": "string"},		  
+		  {"name": "paymentCode","type": "string"},
+		  {"name": "paymentName","type": "string"},
+		  {"name": "startDate","type": "string"},
+		  {"name": "endDate","type": "string"},
+		  {"name": "process","type": "string"},
+		  {"name": "dateCode","type": "string"},
+		  {"name": "minAmount","type": "number"},
+		  {"name": "maxAmount","type": "number"},		        	
+		  {"name": "minPercent","type": "string"},
+		  {"name": "maxPercent","type": "string"}
+		  ]
+	},
+	"cruddef": {
+		"title":"Disposable Overrides",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

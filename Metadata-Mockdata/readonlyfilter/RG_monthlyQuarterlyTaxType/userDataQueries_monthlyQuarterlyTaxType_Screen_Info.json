@@ -1,0 +1,8 @@
+{
+  "value": "UQ",
+  "label": "Monthly/Quarterly Tax Type",
+  "desc": "MonthlyQuarterly Tax Type",
+  "id": "monthlyQuarterlyTaxType",
+  "type": "comp",
+  "link": false
+}

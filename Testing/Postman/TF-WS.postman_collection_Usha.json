@@ -1,0 +1,2655 @@
+{
+	"info": {
+		"_postman_id": "d7eff1e3-0685-45dd-9dd3-f33d576cbeee",
+		"name": "TF-WS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "testcfEcho",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/EchoService/echo?name=foo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"EchoService",
+						"echo"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "foo"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCompanyList - worsites",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"worksites\",\r\n      \"dataset\":\"VINIT\",\r\n      \"userId\":\"TF11\",\r\n      \"companyCode\":\"\",\r\n      \"taxCode\":\"\",\r\n      \"startdate\":\"\",\r\n      \"riskClass\":\"\",\r\n      \"taxType\":\"\",\r\n      \"formNumber\":0\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/getCompanyList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"getCompanyList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCompanyList - companies",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"companies\",\r\n      \"dataset\":\"VINIT\",\r\n      \"userId\":\"TF11\",\r\n      \"companyCode\":\"\",\r\n      \"taxCode\":\"\",\r\n      \"startdate\":\"\",\r\n      \"riskClass\":\"\",\r\n      \"taxType\":\"\",\r\n      \"formNumber\":0\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/getCompanyList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"getCompanyList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getExistingFavoriteLinks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FavoriteLinksService/getExistingFavoriteLinks?login=TF10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FavoriteLinksService",
+						"getExistingFavoriteLinks"
+					],
+					"query": [
+						{
+							"key": "login",
+							"value": "TF10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllTaxCodesAutocomplete-Select",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dataset\":\"VINIT\",\n\t\"pattern\":\"fed\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ssqa01:1900/tfws/r/v1/TaxCodeService/getAllTaxCodesAutocomplete",
+					"protocol": "http",
+					"host": [
+						"ssqa01"
+					],
+					"port": "1900",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getAllTaxCodesAutocomplete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAutocompleteAuthorities-Select",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dataset\":\"VINIT\",\n\t\"pattern\":\"flo\",\n\t\"pageid\":\"authorityCode\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ssqa01:1900/tfws/r/v1/TaxCodeService/getAutocompleteAuthorities",
+					"protocol": "http",
+					"host": [
+						"ssqa01"
+					],
+					"port": "1900",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getAutocompleteAuthorities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAuthoritiesList-Select",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dataset\":\"VINIT\",\n\t\"pattern\":\"flo\",\n\t\"pageid\":\"authorityCodeList\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ssqa01:1900/tfws/r/v1/TaxCodeService/getAutocompleteAuthorities",
+					"protocol": "http",
+					"host": [
+						"ssqa01"
+					],
+					"port": "1900",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getAutocompleteAuthorities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomPaymentList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customPayments\",\r\n      \"dataset\":\"VINIT\",\r\n      \"userId\":\"TF11\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/PaymentsService/getCustomPaymentList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"PaymentsService",
+						"getCustomPaymentList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getWorksiteManagementLocationList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"experienceRates\",\r\n      \"dataset\":\"VINIT\",\r\n      \"userId\":\"TF11\",\r\n      \"companyCode\":\"TESTCOMP1\",\r\n      \"companyName\":\"Test Company 1\",\r\n      \"taxCode\":\"BSI00000000\",\r\n      \"taxName\":\"\",\r\n      \"startdate\":\"03/05/2020\",\r\n      \"riskClass\":\"\",\r\n      \"taxType\":\"001\",\r\n      \"formNumber\":1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/getWorksiteManagementLocationList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"getWorksiteManagementLocationList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomFormulaList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customPayments\",\r\n      \"dataset\":\"VINIT\",\r\n      \"userId\":\"TF11\",\r\n      \"taxCode\":\"FDSFSDF\",\r\n      \"taxName\":\"dsfdsfdsfdsfdsf\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/getCustomFormulaList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getCustomFormulaList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomTaxCodesList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customPayments\",\r\n      \"dataset\":\"VINIT\",\r\n      \"userId\":\"TF11\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/getCustomTaxCodesList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getCustomTaxCodesList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insertTaxCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"pageId\":\"customTaxCodes\",\r\n   \"dataset\":\"VINIT\",\r\n   \"userId\":\"TF11\",\r\n   \"editMode\":1,\r\n   \"taxCode\":\"csadadad\",\r\n   \"taxName\":\"sadsadsad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/insertTaxCodeRec",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"insertTaxCodeRec"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allBSIPlans",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customPayments\",\r\n      \"dataset\":\"VINIT\",\r\n      \"userId\":\"TF11\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/PaymentsService/getMasterPaymentList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"PaymentsService",
+						"getMasterPaymentList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllPopulatedV3States",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customPayments\",\r\n      \"dataset\":\"DEFAULT\",\r\n      \"userId\":\"TF11\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getAllPopulatedV3States",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getAllPopulatedV3States"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getExperienceRates",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"experienceRates\",\r\n      \"dataset\":\"DEFAULT\",\r\n      \"userId\":\"TF11\",\r\n      \"companyCode\":\"\",\r\n      \"taxCode\":\"\",\r\n      \"startdate\":\"05/01/2020\",\r\n      \"riskClass\":\"\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getExperienceRates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getExperienceRates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTaxAuthorities",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"taxAuthorities\",   \r\n      \"dataset\":\"DEFAULT\",   \r\n      \"authCode\":\"\"    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getTaxAuthorities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getTaxAuthorities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomTaxCodes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customTaxes\",  \r\n      \"dataset\":\"DEFAULT\",\r\n      \"taxCode\":\"\"    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getCustomTaxCodes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getCustomTaxCodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTaxTypes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"taxTypes\",  \r\n      \"dataset\":\"DEFAULT\",\r\n      \"taxType\":\"\"    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getTaxTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getTaxTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData getTaxTypes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"taxTypes\",  \r\n      \"dataset\":\"DEFAULT\",\r\n      \"taxType\":\"001\"    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getTaxTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getTaxTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getBsiTaxes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"taxAuthorities\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"authCode\":\"\", \r\n      \"taxCode\":\"\", \r\n      \"startdate\":\"03/05/2020\", \r\n      \"exemptStat\":\"0\" \r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getBsiTaxes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getBsiTaxes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllMappedTaxTypes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"allMappedTaxTypes\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCompanies",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"companies\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\",\r\n      \"companyCode\":\"\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getResidentWorkValidation",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"residentWorkValidation\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\",\r\n      \"taxCode\":\"BSI00000000\" ,\r\n      \"taxType\":\"001\" ,\r\n      \"formNumber\":\"1\" ,\r\n      \"startdate\":\"07/09/2020\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUnemployment",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"unemployment\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\",\r\n      \"taxCode\":\"00000000\" ,\r\n      \"authCode\":\"\" ,     \r\n      \"startdate\":\"07/09/2020\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMonthlyQuarterlyTaxType",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"monthlyQuarterlyTaxType\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\",     \r\n      \"authCode\":\"\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData getMonthlyQuarterlyTaxType",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"monthlyQuarterlyTaxType\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\",     \r\n      \"authCode\":\"00110000\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData getUnemployment",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"unemployment\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\",\r\n      \"taxCode\":\"\" ,\r\n      \"authCode\":\"00000000\" ,     \r\n      \"startdate\":\"07/09/2020\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData getCompanies",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"companies\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\",\r\n      \"companyCode\":\"FB11\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getGarnishmentFormulaOverrides",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"garnishmentFormulaOverrides\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllMappedTaxCodes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"allMappedTaxCodes\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllMappedPayCodes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"allMappedPayCodes\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData BsiTaxes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"taxAuthorities\",      \r\n      \"dataset\":\"VINIT\", \r\n      \"authCode\":\"00000000\", \r\n      \"taxCode\":\"001\", \r\n      \"startdate\":\"03/05/2020\", \r\n      \"exemptStat\":\"0\" \r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getBsiTaxes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getBsiTaxes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData CustomTaxCodes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"pageId\":\"customTaxes\",  \r\n      \"dataset\":\"DEFAULT\",\r\n      \"taxCode\":\"CTC\"     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getCustomTaxCodes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getCustomTaxCodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData TaxAuthorities",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n       \"pageId\":\"taxAuthorities\",  \r\n       \"dataset\":\"DEFAULT\",    \r\n      \"authCode\":\"00000000\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getTaxAuthorities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getTaxAuthorities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData ExperienceRates",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"VINIT\",\r\n   \"pageId\":\"experienceRates\",\r\n   \"riskClass\":\"\",\r\n   \"startdate\":\"05/01/2020\",\r\n   \"taxCode\":\"BSI00000000\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData EmployeeGroups",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"employeeGroups\",\r\n   \"groupCode\":\"457ROTH\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEmployeeGroups",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"employeeGroups\",\r\n   \"groupCode\":\"\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomGarnishmentFormulas",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"customGarnishmentFormula\",  \r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getCustomGarnishmentFormulas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getCustomGarnishmentFormulas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomGarnishmentFormulasDetail",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"customGarnishmentFormula\",  \r\n   \"userId\":\"TF11\",\r\n   \"taxCode\":\"CTC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/getCustomGarnishmentFormulasDetail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"getCustomGarnishmentFormulasDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDisposableOverrides",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"disposableOverrides\",\r\n   \"groupCode\":\"\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomGarnishments",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"customGarnishments\",\r\n   \"usrtax\":\"\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllBsiPlans",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"allBsiPlans\",  \r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData getCustomGarnishments",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"customGarnishments\",\r\n   \"usrtax\":\"CG\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData getDisposableOverrides",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"disposableOverrides\",\r\n   \"groupCode\":\"GG\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getGarnishmentGroups",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"garnishmentGroups\",\r\n   \"groupCode\":\"\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData getGarnishmentGroups",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",\r\n   \"pageId\":\"garnishmentGroups\",\r\n   \"groupCode\":\"GG000\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData CustomTaxabilityForAuthority",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customTaxabilityForAuthority\",\r\n      \"dataset\":\"VINIT\",\r\n      \"userId\":\"TF11\",\r\n      \"companyCode\":\"\",\r\n      \"taxCode\":\"BSI00000000 - FEDERAL\",\r\n      \"startdate\":\"20200624\",\r\n      \"riskClass\":\"\",\r\n      \"taxType\":\"\",\r\n      \"authCode\":\"00000000\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TaxabilityForAuthority",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"taxabilityForAuthority\",\r\n      \"dataset\":\"DEFAULT\",\r\n      \"userId\":\"TF11\",     \r\n      \"pmtUsrCode\":\"\",\r\n      \"startdate\":\"20200624\",     \r\n      \"taxType\":\"\",\r\n      \"authCode\":\"00000000\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CustomOverridesForAuthority",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customOverridesForAuthority\",\r\n      \"dataset\":\"DEFAULT\",\r\n      \"userId\":\"TF11\",     \r\n      \"pmtUsrCode\":\"\",\r\n      \"startdate\":\"20200624\",     \r\n      \"taxType\":\"\",\r\n      \"groupCode\":\"\",\r\n      \"authCode\":\"00000000\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterGridData TaxabilityForAuthority Copy",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"taxabilityForAuthority\",\r\n      \"dataset\":\"DEFAULT\",\r\n      \"userId\":\"TF11\",     \r\n      \"pmtUsrCode\":\"\",\r\n      \"startdate\":\"20200624\",     \r\n      \"taxType\":\"\",\r\n      \"authCode\":\"00000000\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TfApiService/userDataQueries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TfApiService",
+						"userDataQueries"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

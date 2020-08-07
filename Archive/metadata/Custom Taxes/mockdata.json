@@ -1,0 +1,14 @@
+[
+  {
+    "taxCode": "CTC1",
+    "startDate": "5/6/2020",
+    "endDate": "12/31/9999",
+    "taxRate": 5,
+    "min.Wage": 0,
+    "max.Wage": 0,
+    "max.Tax": 0,
+    "flatAmt.": 0,
+    "rounding": "0 - Round To Cents",
+    "calc.Method": "00 Tax Rate Only"
+  }
+]

@@ -1,0 +1,8 @@
+{
+   "value":"UQ",
+   "label":"Unemployment",
+   "desc":"Unemployment",
+   "id":"unemployment",
+   "type":"comp",
+   "link":false
+}

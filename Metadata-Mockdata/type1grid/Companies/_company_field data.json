@@ -1,0 +1,121 @@
+[
+
+  {
+    "id": "companyCode",
+    "placeholder": "Enter Company Code",
+    "fieldtype": "text",
+    "label": "Company",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+
+  {
+    "id": "companyName",
+    "placeholder": "Enter Company Name",
+    "fieldtype": "text",
+    "label": "Company Name",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "fein",
+    "placeholder": "Enter FEIN",
+    "fieldtype": "text",
+    "label": "FEIN",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 9,
+      "maxlength": 9
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "Numerical"
+    }
+  },
+
+  {
+    "id": "localCourtesyWithholding",
+    "placeholder": " ",
+    "fieldtype": "checkbox",
+    "label": "Local Courtesy Withholding",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "Check Box"
+    }
+  },
+  "formdef",
+  {
+    "title": "Companies",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "hasSave": true,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "hasExit": true,
+    "formflds": " ",
+    "fltrflds": " "
+  }
+
+]
+
+
+
+
+

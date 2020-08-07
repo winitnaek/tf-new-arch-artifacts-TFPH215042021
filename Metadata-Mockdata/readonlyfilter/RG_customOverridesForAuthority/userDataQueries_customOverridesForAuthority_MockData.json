@@ -1,0 +1,34 @@
+[
+  {
+    "taxType": 1,
+    "description1": "WITHHOLDING TAX",
+    "override": "",
+    "groupCode": "",
+    "description2": "",
+    "payType": "P",
+    "earn/PayCode": "P001",
+    "description3": "401K",
+    "employeeLimit": 0,
+    "employerLimit": "UNLIMITED",
+    "className": "DI",
+    "freq": 0,
+    "startDate": "",
+    "endDate": ""
+  },
+  {
+    "taxType": 1,
+    "description1": "WITHHOLDING TAX",
+    "override": "OVERRIDE",
+    "groupCode": "EMPGR00001",
+    "description2": "EMPLOYEE GROUP 00001",
+    "payType": "P",
+    "earn/PayCode": "P001",
+    "description3": "401K",
+    "employeeLimit": 0,
+    "employerLimit": 0,
+    "className": "DI",
+    "freq": "YTD",
+    "startDate": 20200101,
+    "endDate": 20201231
+  }
+]

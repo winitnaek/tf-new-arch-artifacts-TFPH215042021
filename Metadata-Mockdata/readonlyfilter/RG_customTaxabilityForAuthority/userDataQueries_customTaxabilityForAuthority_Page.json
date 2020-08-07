@@ -1,0 +1,172 @@
+{
+  "pgdef": {
+    "pgid": "customTaxabilityForAuthority",
+    "pgtitle": "Custom Taxability for Authority",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/customTaxabilityForAuthority",
+    "parentConfig": "",
+    "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Tax Type",
+        "datafield": "taxType",
+        "cellsalign": "left",
+        "width": "3%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Description",
+        "datafield": "taxTypeName",
+        "cellsalign": "left",
+        "width": "12%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Pay Type",
+        "datafield": "paymentType",
+        "cellsalign": "left",
+        "width": "3%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Custom Payment Code",
+        "datafield": "payment",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Description",
+        "datafield": "paymentName",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "EE Limit",
+        "datafield": "employeePlanMax",
+        "cellsalign": "left",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "EE Freq",
+        "datafield": "eelimitFrequency",
+        "cellsalign": "left",
+        "width": "6%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "ER Limit",
+        "datafield": "employerPlanMax",
+        "cellsalign": "left",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "ER Freq",
+        "datafield": "erlimitFrequency",
+        "cellsalign": "left",
+        "width": "7%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Earn Freq",
+        "datafield": "earnLimitFrequency",
+        "cellsalign": "left",
+        "width": "7%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Limit Type",
+        "datafield": "limitFrequency",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "width": "7%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      { "name": "taxType", "type": "string" },
+      { "name": "taxTypeName", "type": "string" },
+      { "name": "paymentType", "type": "string" },
+      { "name": "payment", "type": "string" },
+      { "name": "paymentName", "type": "string" },
+      { "name": "employeePlanMax", "type": "string" },
+      { "name": "eelimitFrequency", "type": "string" },
+      { "name": "employerPlanMax", "type": "string" },
+      { "name": "erlimitFrequency", "type": "string" },
+      { "name": "earnLimitFrequency", "type": "string" },
+      { "name": "limitFrequency", "type": "string" }
+    ]
+  },
+
+  "formdef": {
+    "title": "Custom Taxability For Authority",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": "",
+    "fltrflds": [
+      { "id": "authorityCode", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "taxType", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "typeOfData", "order": 3, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "startDate", "order": 4, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false }
+    ]
+  }
+}

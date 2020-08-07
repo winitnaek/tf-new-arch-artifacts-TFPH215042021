@@ -1,0 +1,90 @@
+[
+  {
+    "customPaymentCode": "CUSTPYMNT1",
+    "customPaymentName": "Custom Payment Code1",
+    "paymentType": "E",
+    "taxability": "Taxable",
+    "eEMax": 0,
+    "aggStatus": "N/A"
+  },
+  {
+    "customPaymentCode": "CUSTPYMNT2",
+    "customPaymentName": "Custom Payment Code2-Non Taxable",
+    "paymentType": "E",
+    "taxability": "Non-Taxable",
+    "eEMax": 100000000000,
+    "aggStatus": "N/A"
+  },
+  {
+    "customPaymentCode": "CUSTPYMNT3",
+    "customPaymentName": "Custom Payment Code3-Limit YTD",
+    "paymentType": "E",
+    "taxability": "Limit / YTD",
+    "eEMax": 1000,
+    "aggStatus": "N/A"
+  },
+  {
+    "customPaymentCode": "CUSTPYMNT4",
+    "customPaymentName": "Custom Payment Code4_Limit QTD",
+    "paymentType": "E",
+    "taxability": "Limit / QTD",
+    "eEMax": 1300,
+    "aggStatus": "N/A"
+  },
+  {
+    "customPaymentCode": "CUSTPYMNT5",
+    "customPaymentName": "Custom Payment Code5- Limit MTD",
+    "paymentType": "E",
+    "taxability": "Limit / MTD",
+    "eEMax": 1400,
+    "aggStatus": "N/A"
+  },
+  {
+    "customPaymentCode": "CUSTPYMNT6",
+    "customPaymentName": "Custom Payment Code6- Taxable/Exclu",
+    "paymentType": "E",
+    "taxability": "Taxable/Exclude",
+    "eEMax": 99999999999,
+    "aggStatus": "N/A"
+  },
+  {
+    "customPaymentCode": "CUSTPYMNT7",
+    "customPaymentName": "Custom Payment Code7_Imputed",
+    "paymentType": "E",
+    "taxability": "Imputed",
+    "eEMax": 99999999996,
+    "aggStatus": "N/A"
+  },
+  {
+    "customPaymentCode": "CUSTPYTBEN1",
+    "customPaymentName": "CUSTPYTBEN1-do not agg Pl_TX",
+    "paymentType": "P",
+    "taxability": "Taxable / Taxable",
+    "eEMax": 0,
+    "aggStatus": "Do Not Aggregate Plans"
+  },
+  {
+    "customPaymentCode": "CUSTPYTBEN2",
+    "customPaymentName": "CUSTPYTBEN2_do not agg_NTX",
+    "paymentType": "P",
+    "taxability": "Non-Taxable / Non-Taxable",
+    "eEMax": 100000000000,
+    "aggStatus": "Do Not Aggregate Plans"
+  },
+  {
+    "customPaymentCode": "CUSTPYTBEN3",
+    "customPaymentName": "CUSTPYTBEN3-Do not Agg_TX-NTX",
+    "paymentType": "P",
+    "taxability": "Taxable / Non-Taxable",
+    "eEMax": 0,
+    "aggStatus": "Do Not Aggregate Plans"
+  },
+  {
+    "customPaymentCode": "CUSTPYTBEN4",
+    "customPaymentName": "CUSTPYTBEN4-Do nor agg pl_NTX-TX",
+    "paymentType": "P",
+    "taxability": "Non-Taxable / Taxable",
+    "eEMax": 100000000000,
+    "aggStatus": "Do Not Aggregate Plans"
+  }
+]

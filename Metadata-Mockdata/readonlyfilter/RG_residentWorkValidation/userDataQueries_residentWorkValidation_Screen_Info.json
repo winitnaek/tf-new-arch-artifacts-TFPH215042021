@@ -1,0 +1,8 @@
+{
+   "value":"UQ",
+   "label":"Resident / Work Validation",
+   "desc":"Resident / Work Validation",
+   "id":"residentWorkValidation",
+   "type":"comp",
+   "link":false
+}

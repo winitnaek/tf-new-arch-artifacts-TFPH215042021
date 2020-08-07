@@ -1,0 +1,51 @@
+﻿{
+	"pgdef": {
+		"pgid": "customPayments",
+		"pgtitle": "Custom Payments",
+		"pgsubtitle":"",
+		"flowtype": "flowtype2",
+		"hasAddNew": true,
+		"addNewLabel": "Click on the Custom Tax Name to manage the Formula.",
+		"actiondel": "false"
+	},
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": true,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"columns": [
+			{
+				"text": "Custom Tax Code",
+				"datafield": "customTaxCode",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+						"payName": "FFFF",
+						"payCode": "FFFF",
+						"editMode": "1"
+					}
+				],
+				"rendererStaticInput": [{"name": "","value": ""}]
+			}
+		],
+		"dataFields":[
+		  {"name": "customPaymentCode","type": "string"},
+		  {"name": "customPaymentName","type": "string"},
+		]
+	},
+	"cruddef": {
+		"title":"Custom Payments",
+		"sbutitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":true,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasDelete":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

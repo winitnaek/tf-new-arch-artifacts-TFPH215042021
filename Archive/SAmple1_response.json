@@ -1,0 +1,5 @@
+
+// Retrieving data:
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name;

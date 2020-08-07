@@ -1,0 +1,9 @@
+[
+  {
+    "authorityCode": "00010000 - ALABAMA",
+    "taxType": "WITHHOLDING TAX",
+    "startDate": "1/1/2020",
+    "endDate": "12/31/2020",
+    "customTaxCode": "CTC1"
+  }
+]

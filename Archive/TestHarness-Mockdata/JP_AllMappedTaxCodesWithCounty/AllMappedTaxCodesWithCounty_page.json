@@ -1,0 +1,124 @@
+{
+   "pgdef":{
+      "pgid":"allMappedTaxCodesWithCounty",
+      "pgtitle":"All Mapped Tax Codes With County",
+      "pgsubtitle":"",
+      "flowtype":"flowtype1",
+      "hasAddNew":false,
+      "addNewLabel":"",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/allMappedTaxCodesWithCounty",
+      "parentConfig":"",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"ro",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found",
+      "recordEdit":false,
+      "recordDelete":false,
+      "columns":[
+         {
+            "text":"User Code",
+            "datafield":"userCode",
+            "cellsalign":"center",
+            "align":"center",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"BSI Code",
+            "datafield":"bsiCode",
+            "cellsalign":"center",
+            "width":"18%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Authority Name",
+            "datafield":"authorityName",
+            "cellsalign":"center",
+            "width":"18%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Perferred",
+            "datafield":"perferred",
+            "cellsalign":"center",
+            "width":"18%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Authority Title",
+            "datafield":"authorityTitle",
+            "cellsalign":"center",
+            "width":"18%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"County ID",
+            "datafield":"countyId",
+            "cellsalign":"center",
+            "width":"10%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         }
+      ],
+      "dataFields":[
+         {
+            "name":"userCode",
+            "type":"string"
+         },
+         {
+            "name":"bsiCode",
+            "type":"string"
+         },
+         {
+            "name":"authorityName",
+            "type":"string"
+         },
+         {
+            "name":"perferred",
+            "type":"string"
+         },
+         {
+            "name":"authorityTitle",
+            "type":"string"
+         },
+         {
+            "name":"countyId",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef":{
+      "title":"All Mapped Tax Codes With County",
+      "subtitle":"",
+      "hasSave":false,
+      "hasDelete":false,
+      "hasSaveAs":false,
+      "hasViewPDF":false,
+      "hasView":false,
+      "hasRecentUsage":false,
+      "formflds":""
+   }
+}

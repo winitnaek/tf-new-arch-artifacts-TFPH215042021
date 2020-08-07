@@ -1,0 +1,105 @@
+{
+  pgdef: {
+    pgid: "wageLimitsByAuthorityAndTaxType",
+    pgtitle: "Wage Limits By Authority And Tax Type",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/wageLimitsByAuthorityAndTaxType",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Authority",
+        datafield: "authority",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },
+      {
+        text: "Tax Type",
+        datafield: "taxType",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Formula",
+        datafield: "formula",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Start Date",
+        datafield: "startDate",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "End Date",
+        datafield: "endDate",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "Maximum Wage",
+        datafield: "maximumWage",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Tax Rate",
+        datafield: "taxRate",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Minimum Wage",
+        datafield: "minimumWage",
+        cellsalign: "center",
+        align: "center"
+      }
+    ],
+    dataFields: [
+      { name: "authority", type: "string" },
+      { name: "taxType", type: "string" },
+      { name: "formula", type: "string" },
+      { name: "startDate", type: "string" },
+      { name: "endDate", type: "string" },
+      { name: "maximumWage", type: "string" },
+      { name: "taxRate", type: "string" },
+      { name: "minimumWage", type: "string" }   
+    ]
+  },
+  formdef: {
+    title: "Wage Limits By Authority And Tax Type",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "startDate", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
+    ]
+  }
+}

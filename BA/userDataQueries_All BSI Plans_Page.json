@@ -1,0 +1,106 @@
+{
+    "pgdef": {
+        "pgid": "All BSI Plans",
+		"pgtitle": "allBSIPlans",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/allBSIPlans",
+        "parentConfig": "",
+       "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": true,
+    "recordDelete": false,
+    "columns": [
+
+        {
+            "text": "Type",
+            "datafield": "type",
+            "cellsalign": "left",
+            "width": "20%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Description",
+            "datafield": "description",
+            "cellsalign": "left",
+            "width": "20%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Code",
+            "datafield": "code",
+            "cellsalign": "left",
+            "width": "20%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Plan Class",
+            "datafield": "planClass",
+            "cellsalign": "left",
+            "width": "20%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Start Date",
+            "datafield": "startDate",
+            "cellsalign": "left",
+            "width": "20%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        }
+    ],
+
+    "dataFields":[
+        {"name": "type","type": "string"},
+        {"name": "description","type": "string"},
+        {"name": "code","type": "string"},
+        {"name": "planClass","type": "string"},
+        {"name": "startDate","type": "string"}
+      ]
+    },
+    
+  
+  "formdef":  {
+		"title":"All BSI Plans",
+        "subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasView": false,
+        "hasRecentUsage": false,
+        
+		"formflds": "",
+        
+
+    "fltrflds": ""
+
+  }
+}

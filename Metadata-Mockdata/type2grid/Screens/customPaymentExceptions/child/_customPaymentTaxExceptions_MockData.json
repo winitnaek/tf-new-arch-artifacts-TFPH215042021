@@ -1,0 +1,11 @@
+[
+  {
+    "authorityCode": "BSI00010000",
+    "authority": "ALABAMA",
+    "taxType": "WITHHOLDING TAX",
+    "startDate": "1/1/2020",
+    "endDate": "4/30/2020",
+    "taxability": "EE - Taxable",
+    "eEMax": 0
+  }
+]

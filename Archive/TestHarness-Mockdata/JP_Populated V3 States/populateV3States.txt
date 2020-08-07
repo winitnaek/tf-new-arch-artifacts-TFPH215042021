@@ -1,0 +1,75 @@
+{
+  pgdef: {
+    pgid: "populateV3States",
+    pgtitle: "Populate V3 States",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/populateV3States",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: false,
+    isfilterform: false,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "State",
+        datafield: "state",
+        cellsalign: "center",
+        width: "25%",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },
+      {
+        text: "State Name",
+        datafield: "stName",
+        cellsalign: "center",
+        width: "25%",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },
+      {
+        text: "Record Count",
+        datafield: "count",
+        cellsalign: "center",
+        width: "25%",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""     
+      },
+      {
+        text: "Bulletin",
+        datafield: "bulltn",
+        cellsalign: "center",
+        width: "25%",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      }
+    ],
+    dataFields: [
+      { name: "state", type: "string" },
+      { name: "stName", type: "string" },
+      { name: "count", type: "string" },
+      { name: "bulltn", type: "string" }
+    ]
+  },
+  formdef: ""
+}

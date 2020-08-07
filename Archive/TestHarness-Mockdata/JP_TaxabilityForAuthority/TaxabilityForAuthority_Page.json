@@ -1,0 +1,124 @@
+{
+  pgdef: {
+    pgid: "taxabilityForAuthority",
+    pgtitle: "Taxability For Authority",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/taxabilityForAuthority",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Authority Code",
+        datafield: "authorityCode",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },
+      {
+        text: "Tax Type",
+        datafield: "taxType",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "Description",
+        datafield: "description",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Pay Type",
+        datafield: "payType",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Earn/Pay Code",
+        datafield: "earn/pay Code",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "Description",
+        datafield: "description",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "Employee Limit",
+        datafield: "employeeLimit",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "ER Freq",
+        datafield: "erFreq",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Class",
+        datafield: "class",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "CatchUp Amnt",
+        datafield: "catchupAmnt",
+        cellsalign: "center",
+        align: "center"
+      }
+    ],
+    dataFields: [
+      { name: "authorityCode", type: "string" },
+      { name: "taxType", type: "string" },
+      { name: "description", type: "string" },
+      { name: "payType", type: "string" },
+      { name: "earn/payCode", type: "string" },
+      { name: "description", type: "string" },
+      { name: "employeeLimit", type: "string" },
+      { name: "eeFreq", type: "string" },
+      { name: "employerLimit", type: "string" },
+      { name: "class", type: "string" },
+      { name: "catchupAmnt", type: "string" }
+    ]
+  },
+  formdef: {
+    title: "Taxability for Authority",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "authorityCode", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "taxType", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "typeOfData", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "startDate", "order": 4, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
+    ]
+  }
+}

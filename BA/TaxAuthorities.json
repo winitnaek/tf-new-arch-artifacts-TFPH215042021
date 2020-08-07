@@ -1,0 +1,98 @@
+{
+	"pgdef": {
+		"pgid": "taxAuthorities",
+		"pgtitle": "Tax Authorities",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/taxAuthorities",
+		"childConfig":""
+			 },
+			 
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority Code",
+				"datafield": "authorityCode",
+				"cellsalign": "left",
+				"width": "30%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Authority Name",
+                "datafield": "authorityName",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "40%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "County ID",
+                "datafield": "countyId",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "20%",
+				"sortable":true
+			},
+			{
+                "text": "Authority Type",
+                "datafield": "authorityType",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true
+			  },
+			  {
+                "text": "Authority Title",
+                "datafield": "authorityTitle",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true				
+			  },
+			  {
+                "text": "Authority ID",
+                "datafield": "authorityId",
+                "cellsalign": "left",
+                "align": "left",
+				"width": "10%",
+				"sortable":true
+			  }
+		],
+		"dataFields":[
+		  {"name": "authorityCode","type": "string"},
+		  {"name": "authorityname","type": "string"},
+		  {"name": "countyId","type": "string"},
+		  {"name": "authorityType","type": "string"},
+		  {"name": "authorityTitle","type": "string"},
+		  {"name": "authorityId","type": "string"}
+		        	]
+	},
+	"cruddef": {
+		"title":"Tax Authorities",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

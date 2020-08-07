@@ -1,0 +1,82 @@
+{
+	"pgdef": {
+		"pgid": "allMappedPayCodes",
+		"pgtitle": "All Mapped Pay Codes",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/allMappedPayCodes",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "User Code",
+				"datafield": "userCode",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "BSI Code",
+				"datafield": "bsiCode",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Name",
+                "datafield": "name",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "50%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Type",
+                "datafield": "type",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "10%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "userCode","type": "string"},
+		  {"name": "bsiCode","type": "string"},
+		  {"name": "name","type": "string"},
+		  {"name": "type","type": "string"}
+		  ]
+	},
+	"cruddef": {
+		"title":"All Mapped Pay Codes",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

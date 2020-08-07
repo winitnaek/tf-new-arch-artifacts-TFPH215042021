@@ -1,0 +1,152 @@
+[
+  {
+    "login": "AR",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "CERTUSR",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "No",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "daniel",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "No"
+  },
+  {
+    "login": "deborah",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "HS",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "igor",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "jeff",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "jkrute@applied.com1313",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "No",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "k",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "No",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "ming",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "peter",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "qP9cV9h",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "No",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "raj",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "raji",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "reynolds_ralph@bsi.com.dev",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "No",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "sita",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "sudhir",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "supcert@bsi.com.sfdev",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "No"
+  },
+  {
+    "login": "TEST",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "tf10_generator",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "No",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "tf10_generator_noui",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "No",
+    "userInterfacePermission": "No"
+  },
+  {
+    "login": "TF11",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "tf11",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "vinit",
+    "manageLoginsAndPermissions": "Yes",
+    "manageDatasets": "Yes",
+    "userInterfacePermission": "Yes"
+  },
+  {
+    "login": "vw4Ski6",
+    "manageLoginsAndPermissions": "No",
+    "manageDatasets": "No",
+    "userInterfacePermission": "No"
+  }
+]

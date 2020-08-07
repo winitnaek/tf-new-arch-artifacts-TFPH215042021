@@ -1,0 +1,85 @@
+{
+	"pgdef": {
+		"pgid": "statementOfExemptionAuthorities",
+		"pgtitle": "Statement of Exemption Authorities",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/statementOfExemptionAuthorities",
+		"childConfig":""
+			 },
+			 
+		"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority Code",
+				"datafield": "authorityCode",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Type",
+				"datafield": "taxType",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Effective Date",
+				"datafield": "effectiveDate",
+				"cellsalign": "left",
+				"width": "12.5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Rescind Date",
+				"datafield": "rescindDate",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "authorityCode","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "effectiveDate","type": "string"},
+		  {"name": "rescindDate","type": "string"}
+		  ]
+		   },
+
+
+		"cruddef": {
+		"title":"Statement of Exemption Authorities",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

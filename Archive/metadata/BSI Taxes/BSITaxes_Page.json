@@ -1,0 +1,169 @@
+{
+  pgdef: {
+    pgid: "bsiTaxes",
+    pgtitle: "BSI Taxes",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/experienceRates",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Auth. Code",
+        datafield: "auth.Code",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },
+      {
+        text: "Tax Type",
+        datafield: "taxType",
+        cellsalign: "center",
+        align: "center",
+        width: "7%"
+      },
+      {
+        text: "Start Date",
+        datafield: "startDate",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      },
+      {
+        text: "End Date",
+        datafield: "endDate",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      },
+      {
+        text: "Coterm. Valid",
+        datafield: "coterm.Valid",
+        cellsalign: "center",
+        align: "center",
+        width: "7%"
+      },
+      {
+        text: "Reg. Valid",
+        datafield: "reg.Valid",
+        cellsalign: "center",
+        align: "center",
+        width: "7%"
+      },
+      {
+        text: "Supp. Valid",
+        datafield: "supp.Valid",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      },
+      {
+        text: "Vac. Valid",
+        datafield: "vac.Valid",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      },
+      {
+        text: "Cum. Valid",
+        datafield: "cum.Valid",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      },
+      {
+        text: "Daily Factor",
+        datafield: "dailyFactor",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      },
+      {
+        text: "Additional Tax",
+        datafield: "additionalTax",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      }
+      {
+        text: "Tax Disposition",
+        datafield: "taxDisposition",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      }
+      {
+        text: "Mandatory",
+        datafield: "mandatory",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      }
+      {
+        text: "PSR Proc. Flag",
+        datafield: "psrProc.Flag",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      }
+      {
+        text: "EIC Cert",
+        datafield: "eicCert",
+        cellsalign: "center",
+        align: "center"
+	width: "7%"
+      }
+    ],
+    dataFields: [
+      { name: "auth.Code", type: "string" },
+      { name: "taxType", type: "string" },
+      { name: "startDate", type: "string" },
+      { name: "endDate", type: "string" },
+      { name: "conterm.Valid", type: "string" },
+      { name: "reg.Valid", type: "string" },
+      { name: "supp.Valid", type: "string" },
+      { name: "vac.Valid", type: "string" },
+      { name: "cum.Valid", type: "string" },
+      { name: "dailyFactor", type: "string" },
+      { name: "additionalTax", type: "string" },
+      { name: "taxDisposition", type: "string" },
+      { name: "mandatory", type: "string" },
+      { name: "psrProc.Flag", type: "string" },
+      { name: "eicCert", type: "string" },
+    ]
+  },
+  formdef: {
+    title: "BSI Taxes",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "suthorityCode", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "taxType", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "exemptionStatus", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "startDate", "order": 4, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
+    ]
+  }
+}

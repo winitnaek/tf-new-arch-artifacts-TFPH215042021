@@ -1,0 +1,13 @@
+[
+  {
+    "authority": "BSI00010000 -  ALABAMA",
+    "taxType": "075- JOB DEVELOPMENT FEE",
+    "formula": "1- JOB DEVELOPMENT FEE",
+    "startDate": "2020-12-12",
+    "endDate": "20200112",
+    "riskClassificationCode": "",
+    "account#": "N/A",
+    "rate": 0,
+    "maxWage": 0
+  }
+]

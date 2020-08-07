@@ -1,0 +1,76 @@
+[
+   {
+      "id":"companyCode",
+      "placeholder":"Enter Company Code",
+      "fieldtype":"text",
+      "label":"Company Code",
+      "value":"",
+      "errmsg":"Company Code is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"uppercase",
+               "message":"Tax Code needs to be in uppercase."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":3,
+               "message":"min 3 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   },
+   {
+      "id":"companyName",
+      "placeholder":"Enter Company Name",
+      "fieldtype":"text",
+      "label":"Custom Name",
+      "value":"",
+      "errmsg":"Custom Tax Name is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+
+      },
+      "validation":{
+         "required":true,
+         "type":"string",
+         "subtype":[
+            {
+               "type":"lowercase",
+               "message":"Company Name may not be blank."
+            }
+         ],
+         "constraint":[
+            {
+               "type":"min",
+               "input":5,
+               "message":"min 5 characters"
+            },
+            {
+               "type":"max",
+               "input":25,
+               "message":"max 25 characters"
+            }
+         ]
+      }
+   }
+]

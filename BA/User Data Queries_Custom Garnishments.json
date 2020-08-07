@@ -1,0 +1,63 @@
+{
+	"pgdef": {
+		"pgid": "customGarnishments",
+		"pgtitle": "Custom Garnishments",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/customGarnishments",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "User Tax",
+				"datafield": "userTax",
+				"cellsalign": "left",
+				"width": "50%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			
+			{
+                "text": "Name",
+                "datafield": "name",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "50%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "userTax","type": "string"},
+		  {"name": "name","type": "string"}
+		]
+	},
+
+	"cruddef": {
+		"title":"Custom Garnishments",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

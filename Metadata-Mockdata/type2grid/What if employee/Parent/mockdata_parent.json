@@ -1,0 +1,32 @@
+[
+  {
+    "employeeCode": 1,
+    "employeeName": "EMPLOYEE CODE 00001",
+    "checkDate": "1/1/2020"
+  },
+  {
+    "employeeCode": "EC02172020",
+    "employeeName": "EMPLOYEE CODE EC02172020",
+    "checkDate": "2/17/2020"
+  },
+  {
+    "employeeCode": "EC03032020",
+    "employeeName": "EMPLOYEE CODE EC03032020",
+    "checkDate": "3/3/2020"
+  },
+  {
+    "employeeCode": "IL-PG2",
+    "employeeName": "EMPLOYEE CODE IL-PG2",
+    "checkDate": "10/12/2018"
+  },
+  {
+    "employeeCode": "M-2513",
+    "employeeName": "EMPLOYEE CODE M-2513",
+    "checkDate": "10/12/2018"
+  },
+  {
+    "employeeCode": "MSG2014",
+    "employeeName": "EMPLOYEE CODE MSG2014",
+    "checkDate": "1/1/2003"
+  }
+]

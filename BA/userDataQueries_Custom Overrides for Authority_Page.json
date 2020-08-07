@@ -1,0 +1,292 @@
+{
+    "pgdef": {
+        "pgid": "customOverridesForAuthority",
+        "pgtitle": "Custom Overrides for Authority",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/customOverridesForAuthority",
+        "parentConfig": "",
+       "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": true,
+    "recordDelete": false,
+    "columns":[
+
+        {
+            "text": "Tax Type",
+            "datafield": "taxType",
+            "cellsalign": "left",
+            "width": "5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Description",
+            "datafield": "description1",
+            "cellsalign": "left",
+            "width": "12%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Override",
+            "datafield": "override",
+            "cellsalign": "left",
+            "width": "7%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Group Code",
+            "datafield": "groupCode",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Description",
+            "datafield": "description2",
+            "cellsalign": "left",
+            "width": "6%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },			
+        {
+            "text": "Pay Type",
+            "datafield": "payType",
+            "cellsalign": "left",
+            "width": "6%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Earn/Pay Code",
+            "datafield": "earn/PayCode",
+            "cellsalign": "left",
+            "width": "6%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Description",
+            "datafield": "description3",
+            "cellsalign": "left",
+            "width": "6%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Employee Limit",
+            "datafield": "employeeLimit",
+            "cellsalign": "left",
+            "width": "6%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Employer Limit",
+            "datafield": "employerLimit",
+            "cellsalign": "left",
+            "width": "7%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Class",
+            "datafield": "className",
+            "cellsalign": "left",
+            "width": "6%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Freq",
+            "datafield": "freq",
+            "cellsalign": "left",
+            "width": "6%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Start Date",
+            "datafield": "startDate",
+            "cellsalign": "left",
+            "width": "6%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },			
+        {
+            "text": "End Date",
+            "datafield": "endDate",
+            "cellsalign": "left",
+            "align": "left",
+            "sortable": true,
+            "width": "6%",
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        }
+    ],
+
+    "dataFields":[
+        {"name": "taxType","type": "string"},
+        {"name": "description1","type": "string"},
+        {"name": "override","type": "string"},
+        {"name": "groupCode","type": "string"},
+        {"name": "description2","type": "string"},
+        {"name": "payType","type": "string"},
+        {"name": "earn/PayCode","type": "string"},
+        {"name": "description3","type": "string"},
+        {"name": "employeeLimit","type": "string"},
+        {"name": "employerLimit","type": "string"},
+        {"name": "className","type": "string"},
+        {"name": "freq","type": "string"},
+        {"name": "startDate","type": "string"},
+        {"name": "endDate","type": "string"}
+        ]
+    },
+
+
+  "formdef": {
+    "title": "Custom Overrides for Authority",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note": "Note: * No entry will imply ALL selection.",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": [
+      {
+        "id": "taxtype",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "description1",
+        "order": 2,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "override",
+        "order": 3,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "groupCode",
+        "order": 4,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "description2",
+        "order": 5,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "payType",
+        "order": 6,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "earn/PayCode",
+        "order": 7,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "description3",
+        "order": 8,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "employeeLimit",
+        "order": 9,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "employerLimit",
+        "order": 10,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "className",
+        "order": 11,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "freq",
+        "order": 12,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "startDate",
+        "order": 13,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "endDate",
+        "order": 14,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }
+
+    ],
+
+
+    "fltrflds": ""
+
+  }
+}

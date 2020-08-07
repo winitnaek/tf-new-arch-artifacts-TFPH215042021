@@ -1,0 +1,73 @@
+{
+	"pgdef": {
+		"pgid": "company",
+		"pgtitle": "Company",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/company",
+		"parentConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Company Code",
+				"datafield": "companyCode",
+				"cellsalign": "left",
+				"width": "20%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "Company Name",
+                "datafield": "companyName",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "60%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Company FEIN",
+                "datafield": "companyFein",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "20%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "companyCode","type": "string"},
+		  {"name": "companyName","type": "string"},
+		  {"name": "companyFein","type": "number"}
+		  ]
+	},
+	"cruddef": {
+		"title":"Company",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"pgdef": {
+		"pgid": "supplementalMethods",
+		"pgtitle": "Supplemental Methods",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/supplementalMethods",
+		"childConfig":""
+			 },
+			 
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Attribute",
+				"datafield": "attribute",
+				"cellsalign": "left",
+				"width": "20%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+
+			{
+                "text": "Value",
+                "datafield": "value",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "60%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Value",
+                "datafield": "value",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "20%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Value",
+                "datafield": "value",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "20%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			} ,
+			{
+                "text": "Value",
+                "datafield": "value",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "20%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "attribute","type": "string"},
+		  {"name": "value","type": "string"},
+		  {"name": "value","type": "string"},
+		  {"name": "value","type": "string"}
+		  ]
+	},
+	"cruddef": {
+		"title":"Supplemental Methods",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

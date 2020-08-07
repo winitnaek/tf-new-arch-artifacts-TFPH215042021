@@ -1,0 +1,141 @@
+{
+    "pgdef": {
+        "pgid": "wageLimitsByAuthorityAndTaxType",
+		"pgtitle": "Wage Limits By Authority And Tax Type",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/wageLimitsByAuthorityAndTaxType",
+        "parentConfig": "",
+       "childConfig": ""
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": true,
+    "recordDelete": false,
+    "columns": [
+        {
+            "text": "Authority",
+            "datafield": "authority",
+            "cellsalign": "left",
+            "width": "12.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Tax Type",
+            "datafield": "taxType",
+            "cellsalign": "left",
+            "width": "12.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Formula",
+            "datafield": "formula",
+            "cellsalign": "left",
+            "width": "12.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Start Date",
+            "datafield": "startDate",
+            "cellsalign": "left",
+            "width": "5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "End Date",
+            "datafield": "endDate",
+            "cellsalign": "left",
+            "width": "20%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Maximum Wage",
+            "datafield": "maximumWage",
+            "cellsalign": "left",
+            "width": "12.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Tax Rate",
+            "datafield": "taxRate",
+            "cellsalign": "left",
+            "width": "12.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        },
+        {
+            "text": "Minimum Wage",
+            "datafield": "minimumWage",
+            "cellsalign": "left",
+            "width": "12.5%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+        }
+    ],
+
+    "dataFields":[
+        {"name": "authority","type": "string"},
+        {"name": "taxType","type": "string"},
+        {"name": "formula","type": "string"},
+        {"name": "startDate","type": "date"},
+        {"name": "endDate","type": "date"},
+        {"name": "maximumWage","type": "number"},
+        {"name": "taxRate","type": "number"},
+        {"name": "minimumWage","type": "number"}
+      ]
+	},
+  
+  "formdef":  {
+		"title":"Wage Limits By Authority And Tax Type",
+        "subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasView": false,
+        "hasRecentUsage": false,
+        
+        "formflds": "",
+         
+        "fltrflds":
+        [
+      { "id": "startDate", "order":1, "isReadOnlyOnEdit":true, "isReadOnlyOnNew": false }
+        ]
+
+
+
+  }
+}

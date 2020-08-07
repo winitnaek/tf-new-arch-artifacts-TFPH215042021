@@ -1,0 +1,24 @@
+[
+  {
+    "id": "groupCode",
+    "placeholder": "Enter Group Name",
+    "fieldtype": "select",
+    "label": "Group Name",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  }
+]

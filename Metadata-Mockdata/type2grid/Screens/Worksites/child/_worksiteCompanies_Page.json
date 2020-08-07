@@ -1,0 +1,136 @@
+{
+  "pgdef": {
+    "pgid": "worksiteCompanies",
+    "pgtitle": "Worksites",
+    "pgsubtitle": "Manage Worksites for: ",
+    "flowtype": "flowtype2",
+    "hasAddNew": true,
+    "addNewLabel": "Click here to add new Company.",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/companies",
+    "parentConfig": "worksites",
+    "childConfig": ""
+  },
+  "griddef": {
+    "gridtype": "type2",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "There are no Locations defined for this company : ",
+    "recordEdit": true,
+    "recordDelete": true,
+    "columns": [
+      {
+        "text": "Worksite",
+        "datafield": "location",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Street",
+        "datafield": "street1",
+        "cellsalign": "center",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Street2",
+        "datafield": "street2",
+        "cellsalign": "center",
+        "align": "center",
+        "width": "20%"
+      },
+      {
+        "text": "City",
+        "datafield": "city",
+        "cellsalign": "center",
+        "align": "center"
+      },
+      {
+        "text": "County",
+        "datafield": "county",
+        "cellsalign": "center",
+        "align": "center"
+      },
+      {
+        "text": "State",
+        "datafield": "state",
+        "cellsalign": "center",
+        "align": "center"
+      },
+      {
+        "text": "Zip",
+        "datafield": "zip",
+        "cellsalign": "center",
+        "align": "center"
+      }
+    ],
+    "dataFields": [
+      { "name": "location", "type": "string" },
+      { "name": "street1", "type": "string" },
+      { "name": "street2", "type": "string" },
+      { "name": "city", "type": "string" },
+      { "name": "county", "type": "string" },
+      { "name": "state", "type": "string" },
+      { "name": "zip", "type": "string" }
+    ]
+  },
+  "formdef": {
+    "title": "Worksite",
+    "subtitle": "Manage Worksites for: TESTCOMP1 (Test Company 1)",
+    "note": "Note: Required fields are marked with an asterisk (*)",
+    "hasSave": true,
+    "hasDelete": true,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": true,
+    "formflds": [
+      {
+        "id": "worksiteLocation",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "worksiteStreet1",
+        "order": 2,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "worksiteCity",
+        "order": 3,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "worksiteCounty",
+        "order": 4,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "worksiteState",
+        "order": 5,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "worksiteZip",
+        "order": 6,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }
+    ],
+    "fltrflds": ""
+  }
+}

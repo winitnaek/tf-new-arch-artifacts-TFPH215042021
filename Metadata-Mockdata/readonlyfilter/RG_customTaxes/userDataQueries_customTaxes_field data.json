@@ -1,0 +1,24 @@
+[
+  {
+    "id": "customTaxCode",
+    "placeholder": "Enter Tax Code",
+    "fieldtype": "select",
+    "label": "Tax Code",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

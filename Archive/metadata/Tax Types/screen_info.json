@@ -1,0 +1,8 @@
+{
+   "value":"UQ",
+   "label":"Tax Types",
+   "desc":"Tax Types",
+   "id":"taxTypes",
+   "type":"comp",
+   "link":false
+}

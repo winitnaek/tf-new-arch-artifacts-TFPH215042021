@@ -1,0 +1,30 @@
+[
+  {
+    "attribute": "Authority Code",
+    "value": 10000
+  },
+  {
+    "attribute": "End Date",
+    "value": "00/00/0000"
+  },
+  {
+    "attribute": "Maximum Wage",
+    "value": 8000
+  },
+  {
+    "attribute": "Minimum Wage",
+    "value": 0
+  },
+  {
+    "attribute": "Rate",
+    "value": 0.027
+  },
+  {
+    "attribute": "Start Date",
+    "value": "1/1/2013"
+  },
+  {
+    "attribute": "Tax Type",
+    "value": 10
+  }
+]

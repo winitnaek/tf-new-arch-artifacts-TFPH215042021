@@ -1,0 +1,8 @@
+{
+   "value":"UQ",
+   "label":"Custom Taxability For Authority",
+   "desc":"Custom Taxability For Authority",
+   "id":"customTaxabilityForAuthority",
+   "type":"comp",
+   "link":false
+}

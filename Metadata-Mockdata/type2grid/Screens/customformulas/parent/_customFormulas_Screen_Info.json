@@ -1,0 +1,8 @@
+{
+   "value":"CF",
+   "label":"Custom Formulas",
+   "desc":"Custom Formulas",
+   "id":"customFormulas",
+   "type":"comp",
+   "link":true
+}

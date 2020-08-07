@@ -1,0 +1,67 @@
+[
+  {
+    "id": "authorityCode",
+    "placeholder": "Enter Authority Code",
+    "fieldtype": "select",
+    "label": "Authority Code",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "taxType",
+    "placeholder": "Enter Tax Type",
+    "fieldtype": "select",
+    "label": "Tax Type",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "startDate",
+    "placeholder": "Enter Effective Date",
+    "fieldtype": "date",
+    "label": "Start Date",
+    "value": "new Date()",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

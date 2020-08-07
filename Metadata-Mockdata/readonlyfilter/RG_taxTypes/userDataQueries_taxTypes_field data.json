@@ -1,0 +1,28 @@
+[
+{
+      "id":"taxType",
+      "placeholder":"Enter Tax Type",
+      "fieldtype":"select",
+      "label":"Tax Type",
+      "value":"",
+      "errmsg":" ",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+         "typeahead":true,
+         "isasync":true,
+         "options":[
+
+         ],
+         "multiselect":false
+      },
+      "validation":{
+         "required":false,
+         "type":"string"
+      }
+   }
+]
+
+

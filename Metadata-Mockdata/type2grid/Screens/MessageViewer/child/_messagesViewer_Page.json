@@ -1,0 +1,172 @@
+{
+  "pgdef": {
+    "pgid": "messagesViewer",
+    "pgtitle": "Message Viewer",
+    "pgsubtitle": "",
+    "flowtype": "flowtype2",
+    "hasAddNew": false,
+    "hasDeleteAll": true,
+    
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "",
+    "helpLink": "",
+    "parentConfig": "messageViewer",
+    "childConfig": ""
+  },
+  "confirmdef": {
+    "cheader": "",
+    "cbody": "The aciton will delete all messages for the selected payroll run and the payroll run itself from the BSI system. \n Are you sure you wish to proceed?",
+    "okbtnlbl": "Ok",
+    "cancelbtnlbl": "Cancel"
+  },
+  "griddef": {
+    "gridtype": "type2",
+    "hasFilter": true,
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No Data Found : ",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Message Number",
+        "datafield": "messageNumber",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Employee Code",
+        "datafield": "employeeCode",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Employee Name",
+        "datafield": "employeeName",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Company",
+        "datafield": "company",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Employee Group",
+        "datafield": "employeeGroup",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Message Text",
+        "datafield": "messageText",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    "dataFields": [
+      {
+        "name": "messageNumber",
+        "type": "string"
+      },
+      {
+        "name": "employeeCode",
+        "type": "string"
+      },
+      {
+        "name": "employeeName",
+        "type": "string"
+      },
+      {
+        "name": "company",
+        "type": "string"
+      },
+      {
+        "name": "employeeGroup",
+        "type": "string"
+      },
+      {
+        "name": "messageText",
+        "type": "string"
+      }
+    ]
+  },
+  "formdef": {
+    "title": "Select Report",
+    "subtitle": "* No entry will imply ALL selection.",
+    "hasSave": true,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "messageNumber",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "employeeCode",
+        "order": 2,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "employeeName",
+        "order": 3,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "company",
+        "order": 4,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "employeeGroup",
+        "order": 5,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "messageText",
+        "order": 6,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+    ],
+    "fltrflds": ""
+  }
+}

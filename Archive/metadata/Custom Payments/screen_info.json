@@ -1,0 +1,8 @@
+{
+   "value":"UQ",
+   "label":"Custom Payments",
+   "desc":"Custom Payments",
+   "id":"customPayments",
+   "type":"comp",
+   "link":false
+}

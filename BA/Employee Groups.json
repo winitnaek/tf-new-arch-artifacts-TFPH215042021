@@ -1,0 +1,63 @@
+{
+	"pgdef": {
+		"pgid": "employeeGroups",
+		"pgtitle": "Employee Groups",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/employeeGroups",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Group Code",
+				"datafield": "groupCode",
+				"cellsalign": "left",
+				"width": "50%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			
+			{
+                "text": "Group Name",
+                "datafield": "groupName",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "50%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":[
+		  {"name": "groupCode","type": "string"},
+		  {"name": "groupName","type": "string"}
+		]
+	},
+
+	"cruddef": {
+		"title":"Employee Groups",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

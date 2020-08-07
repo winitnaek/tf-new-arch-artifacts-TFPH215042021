@@ -1,0 +1,9 @@
+[
+  {
+    "authorityCode": "00010000 - ALABAMA",
+    "taxType": "WITHHOLDING TAX",
+    "formulaEffectiveDate": "04/20/2020",
+    "startDate": "04/20/2020",
+    "endDate": "12/31/9999"
+  }
+]

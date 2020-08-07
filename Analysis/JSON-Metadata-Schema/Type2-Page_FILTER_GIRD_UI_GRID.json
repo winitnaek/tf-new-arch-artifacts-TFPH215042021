@@ -1,0 +1,82 @@
+﻿{
+	"pgdef": {
+		"pgid": "Custom Formulas",
+		"pgtitle": "Custom Formulas",
+		"pglabel": "Click on the Custom Tax Name to manage the Formula.",
+		"flowtype": "flowtype2",
+	},
+	"fltr_griddef": {
+		"gridtype": "type1",
+		"filtergrid": true,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"columns": [
+			{
+				"text": "Custom Tax Code",
+				"datafield": "customTaxCode",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+						"taxCode": "TestTAXCode",
+						"taxName": "test text name",
+						"editMode":"1"
+					}
+				],
+				"rendererStaticInput": [{"name": "","value": ""}]
+			}
+		],
+		"dataFields":[
+			{"name": "testDataId","type": "string"},
+			{"name": "testDataName","type": "string"}
+		]
+	},
+	"chld_griddef": {
+		"gridtype": "type1",
+		"gridtitle": "Custom Formula"
+		"girdsubtitle":"Following formulas are defined for GDFG (dfgdfgfd)"
+		"filtergrid": flase,
+		"hasAddNew": true,
+		"addNewLabel": "Click here to add a new Custom Formula or click on existing Custom Tax to edit",
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"columns": [
+			{
+				"text": "Custom Tax Name",
+				"datafield": "customTaxName",
+				"cellsalign": "center",
+				"width": "30%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": [
+					{
+						"taxCode": "TestTAXName",
+						"taxName": "test text name",
+						"startDate":"01/16/2020",
+						"endDate":"12/31/9999"
+					}
+				],
+				"rendererStaticInput": [{"name": "","value": ""}]
+			}
+		],
+		"dataFields":[
+			{"name": "testDataId","type": "string"},
+			{"name": "testDataName","type": "string"}
+		]
+	}
+	"cruddef": {
+		"title":"Custom Formulas",
+		"sbutitle":"Formula for GDFG (dfgdfgfd)",
+		"hasSave":true,
+		"hasDelete":true,
+		"hasSaveAs":false,
+		"hasDelete":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

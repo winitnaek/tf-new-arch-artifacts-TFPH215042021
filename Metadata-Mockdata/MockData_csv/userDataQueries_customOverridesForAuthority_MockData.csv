@@ -1,0 +1,3 @@
+taxType,description,override,groupCode,description,payType,earn/PayCode,description,employeeLimit,employerLimit,class,freq,startDate,endDate
+1,WITHHOLDING TAX,,,,P,P001,401K,0,UNLIMITED,DI,0,,
+1,WITHHOLDING TAX,OVERRIDE,EMPGR00001,EMPLOYEE GROUP 00001,P,P001,401K,0,0,DI,YTD,20200101,20201231

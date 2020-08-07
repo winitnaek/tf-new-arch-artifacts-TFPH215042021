@@ -1,0 +1,8 @@
+{
+   "value":"EG",
+   "label":"Employee Groups",
+   "desc":"Employee Groups",
+   "id":"employeeGroup",
+   "type":"comp",
+   "link":true
+}

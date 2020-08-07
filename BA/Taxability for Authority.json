@@ -1,0 +1,173 @@
+{
+	"pgdef": {
+		"pgid": "taxabilityForAuthority",
+		"pgtitle": "Taxability for Authority",
+		"pgsubtitle":"",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+	    "addNewLabel": "",
+		"actiondel": false,
+		"helpAvailable":true,
+		"helpLblTxt":"Click here for more info!",
+		"helpLink":"/taxabilityForAuthority",
+		"childConfig":""
+			 },
+			 
+	"griddef": {
+		"gridtype": "type1",
+		"filtergrid": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No record retrieved for your query",
+		"recordEdit": false,
+        "recordDelete": false,
+    	"columns": [
+			{
+				"text": "Authority Code",
+				"datafield": "authorityCode",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Type",
+				"datafield": "taxType",
+				"cellsalign": "left",
+				"width": "3%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Description",
+				"datafield": "description",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Pay Type",
+				"datafield": "payType",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Earn/Pay Code",
+				"datafield": "earn/PayCode",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Description",
+				"datafield": "description",
+				"cellsalign": "left",
+				"width": "15%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Employee Limit",
+				"datafield": "employeeLimit",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Employee Frequency",
+				"datafield": "employeeFrequency",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Employer Limit",
+				"datafield": "employerLimit",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Employer Frequency",
+				"datafield": "employerFrequency",
+				"cellsalign": "left",
+				"width": "5%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Class",
+				"datafield": "class",
+				"cellsalign": "left",
+				"width": "10%",
+				"align": "left",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+                "text": "Catch Up Amount",
+                "datafield": "catchUpAmount",
+                "cellsalign": "left",
+                "align": "left",
+				"sortable": true,
+				"width": "10%",
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			}
+		],
+		"dataFields":
+		[
+		  {"name": "authorityCode","type": "string"},
+		  {"name": "taxType","type": "string"},
+		  {"name": "description","type": "string"},
+		  {"name": "payType","type": "string"},
+		  {"name": "earn/Pay Code","type": "string"},
+		  {"name": "Description","type": "string"},
+		  {"name": "employeeLimit","type": "string"},
+		  {"name": "employeeFrequency","type": "string"},
+		  {"name": "employerLimit","type": "string"},
+		  {"name": "employerFrequency","type": "string"},
+		  {"name": "class","type": "string"},
+		  {"name": "catchUpAmount","type": "string"}
+		  ]
+	},
+	
+	"cruddef": {
+		"title":"Taxability for Authority",
+"subtitle":"Note: Required fields are marked with an asterisk (*)",
+		"hasSave":false,
+		"hasDelete":false,
+		"hasSaveAs":false,
+		"hasViewPDF":false,
+		"hasExit":true,
+		"hasRecentUsage":"false"
+	}
+}

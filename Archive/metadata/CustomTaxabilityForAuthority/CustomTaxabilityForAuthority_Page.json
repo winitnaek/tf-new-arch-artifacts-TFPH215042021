@@ -1,0 +1,123 @@
+{
+  pgdef: {
+    pgid: "customTaxabilityForAuthority",
+    pgtitle: "Custom Taxability for Authority",
+    pgsubtitle: "",
+    flowtype: "flowtype1",
+    hasAddNew: false,
+    addNewLabel: "",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/customTaxabilityForAuthority",
+    parentConfig: "",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "ro",
+    isfilter: true,
+    isfilterform: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: false,
+    recordDelete: false,
+    columns: [
+      {
+        text: "Tax Type",
+        datafield: "taxType",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        rendererInput: "",
+        rendererStaticInput: ""
+      },
+      {
+        text: "description",
+        datafield: "description",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "Pay Type",
+        datafield: "payType",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Custom Payment Code",
+        datafield: "customPaymentCode",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Description",
+        datafield: "description",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "EE Limit",
+        datafield: "eeLimit",
+        cellsalign: "center",
+        align: "center",
+        width: "10%"
+      },
+      {
+        text: "EE Freq",
+        datafield: "eeFreq",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "ER Limit",
+        datafield: "erLimit",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "ER Freq",
+        datafield: "erFreq",
+        cellsalign: "center",
+        align: "center"
+      },
+      {
+        text: "Limit Type",
+        datafield: "limitType",
+        cellsalign: "center",
+        align: "center"
+      }
+    ],
+    dataFields: [
+      { name: "taxType", type: "string" },
+      { name: "description", type: "string" },
+      { name: "payType", type: "string" },
+      { name: "customPaymentCode", type: "string" },
+      { name: "description", type: "string" },
+      { name: "eeLimit", type: "string" },
+      { name: "eeFreq", type: "string" },
+      { name: "erLimit", type: "string" },
+      { name: "erFreq", type: "string" },
+      { name: "limitType", type: "string" }     
+    ]
+  },
+  formdef: {
+    title: "Custom Taxability for Authority",
+    subtitle: "Select Report",
+    hasSave: false,
+    hasDelete: false,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: true,
+    hasRecentUsage: false,
+    formflds: "",
+    fltrflds: [
+      { id: "authorityCode", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "taxType", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "typeOfData", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { id: "startDate", "order": 4, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
+    ]
+  }
+}

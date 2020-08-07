@@ -1,0 +1,10 @@
+[
+  {
+    "taxCode": "BSI00130000",
+    "authorityName": "GEORGIA",
+    "taxType": 70,
+    "taxName": "PENSION PERIODIC WITHHOLDING",
+    "formula#": 1,
+    "formula": "PERCENTAGE METHOD FORMULA"
+  }
+]

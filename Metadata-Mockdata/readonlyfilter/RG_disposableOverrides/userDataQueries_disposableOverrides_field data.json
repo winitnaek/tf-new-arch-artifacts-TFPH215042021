@@ -1,0 +1,24 @@
+[
+  {
+    "id": "garnishmentGroupCode",
+    "placeholder": "Enter Garnishment Group Code",
+    "fieldtype": "select",
+    "label": "Garnishment Group Code",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

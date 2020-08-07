@@ -1,0 +1,298 @@
+{
+      "pgdef":{
+      "pgid": "addressOverrides",
+      "pgtitle": "Address Overrides",
+      "pgsubtitle":"",
+      "flowtype":"flowtype1",
+      "hasAddNew":true,
+      "addNewLabel":"Click here to add new Custom Payment.",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/addressOverrides",
+      "parentConfig":"",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"type1",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":true,
+      "recordDelete":false,
+      "columns":[
+         {
+           "text": "Street Name",
+            "datafield": "streetName",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+           "text": "Starting Number",
+           "datafield": "startingNumber",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+           "text": "Ending Number",
+           "datafield": "endingNumber",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+           "text": "Parity",
+           "datafield": "parity",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+           "text": "State",
+           "datafield": "state",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+           "text": "Postal Code",
+           "datafield": "postalCode",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+        
+         {
+           "text": "County",
+           "datafield": "county",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+           "text": "Place Code",
+           "datafield": "placeCode",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+           "text": "School District",
+           "datafield": "schoolDistrict",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+           "text": "School District Tax Code",
+           "datafield": "schoolDistrictTaxCode",
+            "cellsalign": "left",
+            "width": "10%",
+            "align": "left",
+            "sortable": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         }
+      ],
+      "dataFields":[
+         {
+            "name":"streetName",
+            "type":"string"
+         },
+         {
+            "name":"startingNumber",
+            "type":"string"
+         },
+        {
+            "name":"endingNumber",
+            "type":"string"
+         },
+         {
+            "name":"parity",
+            "type":"string"
+         },
+         {
+            "name":"state",
+            "type":"string"
+         },
+         {
+            "name": "postalCode",
+            "type": "string"
+          },
+          {
+            "name": "county",
+            "type": "string"
+          },
+          {
+            "name": "placeCode",
+            "type": "string"
+          },
+          {
+            "name": "schoolDistrict",
+            "type": "string"
+          },
+          {
+            "name": "schoolDistrictTaxCode",
+            "type": "string"
+          }
+      ]
+   },
+   "formdef":{
+      "title":"Address Overrides",
+      "subtitle":"Note: Required fields are marked with an asterisk (*)",
+      "hasSave":true,
+      "hasDelete":true,
+      "hasSaveAs":false,
+      "hasViewPDF":false,
+      "hasView":false,
+      "hasRecentUsage":true,
+      "formflds":[
+         {
+            "id":"streetNumberType",
+            "order":1,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"prefixDirection",
+            "order":2,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"streetName",
+            "order":3,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"streetType",
+            "order":4,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"postDirection",
+            "order":5,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         },
+              {
+        "id": "streetType",
+        "order": 4,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "postDirection",
+        "order": 5,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "startingNumber",
+        "order": 6,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "alphaNumericStartingNumber",
+        "order": 7,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "endingNumber",
+        "order": 8,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "alphaNumericEndingNumber",
+        "order": 9,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "postalCode",
+        "order": 10,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "parity",
+        "order": 11,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "secondaryUnit",
+        "order": 12,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "showMessage",
+        "order": 13,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "stateAbbreviation",
+        "order": 14,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "county",
+        "order": 15,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "placeCode",
+        "order": 16,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "schoolDistrict",
+        "order": 17,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+      ],
+      "fltrflds":""
+   }
+}

@@ -1,0 +1,8 @@
+{
+  "value": "UQ",
+  "label": "Custom Garnishments",
+  "desc": "Custom Garnishment",
+  "id": "customGarnishments",
+  "type": "comp",
+  "link": false
+}

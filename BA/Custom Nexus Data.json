@@ -1,0 +1,92 @@
+{
+  pgdef: {
+    pgid: "customNexusData",
+    pgtitle: "Custom Nexus Data",
+    pgsubtitle: "",
+    flowtype: "flowtype2",
+    hasAddNew: true,
+    addNewLabel: "Click here to add a new Nexus relatioship.",
+    actiondel: false,
+    helpAvailable: true,
+    helpLblTxt: "Click here for more info!",
+    helpLink: "/customNexusData",
+    parentConfig: "customGarnishmenyFormulas",
+    childConfig: ""
+  },
+  griddef: {
+    gridtype: "type1",
+    filtergrid: true,
+    datatype: "json",
+    contenttype: "application/json",
+    noResultsFoundTxt: "No Data Found",
+    recordEdit: true,
+    recordDelete: true,
+    columns: [
+      {
+        text: "Tax Code",
+        datafield: "taxCode",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        width: "15%"
+      },
+      {
+        text: "Authority Name",
+        datafield: "authorityName",
+        cellsalign: "center",
+        align: "center",
+        width: "8.8889%"
+      },
+	  {
+        text: "Start Date",
+        datafield: "startDate",
+        cellsalign: "center",
+        align: "center",
+        sortable: true,
+        width: "15%"
+      },
+      {
+        text: "End Date",
+        datafield: "endDate",
+        cellsalign: "center",
+        align: "center",
+        width: "8.8889%"
+      },
+	  {
+        text: "DC Courtesy",
+        datafield: "dCCourtesy",
+        cellsalign: "center",
+        align: "center",
+        width: "8.8889%"
+      }
+    ],
+    dataFields: [
+      { name: "taxCode", type: "string" },
+      { name: "authorityName", type: "string" },
+	  { name: "startDate", type: "string" },
+      { name: "endDate", type: "string" },
+	  { name: "dCCourtesy", type: "string" }
+    ]
+  },
+  
+  formdef: {
+    title: "Custom Nexus Data",
+    subtitle: " ",
+    hasSave: true,
+    hasDelete: true,
+    hasSaveAs: false,
+    hasViewPDF: false,
+    hasView: false,
+    hasRecentUsage: false,
+	
+    formflds: [
+      { id: "authorityName", "order":1, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":true },
+      { id: "startDate", "order":2, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false },	
+	  { id: "endDate", "order":3, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false }
+ 
+        ]
+		},
+		
+    fltrflds: ""
+            
+}

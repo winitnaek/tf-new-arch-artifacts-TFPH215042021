@@ -1,0 +1,8 @@
+{
+   "value":"UQ",
+   "label":"Custom Garnishment Formula",
+   "desc":"Custom Garnishment Formula",
+   "id":"customGarnishmentFormula",
+   "type":"comp",
+   "link":false
+}

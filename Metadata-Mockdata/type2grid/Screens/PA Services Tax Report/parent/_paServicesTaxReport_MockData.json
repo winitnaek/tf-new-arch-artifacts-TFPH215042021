@@ -1,0 +1,27 @@
+[
+  {
+    "authorityCode": "00420005",
+    "title": "ABINGTON HEIGHTS S D",
+    "countyName": "LACKAWANNA"
+  },
+  {
+    "authorityCode": "00420006",
+    "title": "ABINGTON S D",
+    "countyName": "MONTGOMERY"
+  },
+  {
+    "authorityCode": "00420018",
+    "title": "ALBERT GALLATIN ASD",
+    "countyName": "FAYETTE"
+  },
+  {
+    "authorityCode": "00420026",
+    "title": "ALIQUIPPA S D",
+    "countyName": "BEAVER"
+  },
+  {
+    "authorityCode": "00420034",
+    "title": "ALLEGHENY VALLEY S D",
+    "countyName": "ALLEGHENY"
+  }
+]

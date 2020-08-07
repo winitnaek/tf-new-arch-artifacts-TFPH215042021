@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "9b72cb49-3e0a-4648-a82a-6ab0b128410f",
+		"name": "TF WS Security",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-ROLE",
+						"value": "ER",
+						"type": "text"
+					},
+					{
+						"key": "X-DATASET",
+						"value": "SF128034",
+						"type": "text"
+					},
+					{
+						"key": "X-USER",
+						"value": "TF11",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/AuthenticationService/login?username=TF11&password=bsi&dataset=SF128034",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"AuthenticationService",
+						"login"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "TF11"
+						},
+						{
+							"key": "password",
+							"value": "bsi"
+						},
+						{
+							"key": "dataset",
+							"value": "SF128034"
+						}
+					]
+				},
+				"description": "Invokes /login endpoint."
+			},
+			"response": []
+		},
+		{
+			"name": "sso",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-ROLE",
+						"value": "ER",
+						"type": "text"
+					},
+					{
+						"key": "X-DATASET",
+						"value": "SF128034",
+						"type": "text"
+					},
+					{
+						"key": "X-USER",
+						"value": "TF11",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/AuthenticationService/sso?input={\"subject\":\"TF11\",\"companyuuid\":\"SF128034\",\"role\":\"ER\"}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"AuthenticationService",
+						"sso"
+					],
+					"query": [
+						{
+							"key": "input",
+							"value": "{\"subject\":\"TF11\",\"companyuuid\":\"SF128034\",\"role\":\"ER\"}"
+						}
+					]
+				},
+				"description": "Invokes /sso endpoint."
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "WSUSERXXX",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "WSUSERXXX",
+				"type": "string"
+			}
+		]
+	},
+	"protocolProfileBehavior": {}
+}

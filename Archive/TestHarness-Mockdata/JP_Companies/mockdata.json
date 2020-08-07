@@ -1,0 +1,12 @@
+[
+  {
+    "companyCode": "ACME",
+    "companyName": "ACME",
+    "companyFein": ""
+  },
+  {
+    "companyCode": "CC072919",
+    "companyName": "Magnolia",
+    "companyFein": 123456789
+  }
+]
