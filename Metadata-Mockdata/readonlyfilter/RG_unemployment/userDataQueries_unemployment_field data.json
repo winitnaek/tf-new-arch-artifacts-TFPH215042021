@@ -23,7 +23,7 @@
   },
 
   {
-    "id": "userTaxCode",
+    "id": "taxCode",
     "placeholder": "Enter User Tax Code",
     "fieldtype": "select",
     "label": "User Tax Code",
