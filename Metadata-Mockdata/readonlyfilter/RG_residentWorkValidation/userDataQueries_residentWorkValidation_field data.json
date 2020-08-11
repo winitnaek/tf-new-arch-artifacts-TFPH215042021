@@ -4,7 +4,7 @@
       "placeholder":"Enter Start Date",
       "fieldtype":"date",
       "label":"Start Date",
-      "value":"",
+      "value":"new Date()",
       "errmsg":" ",
       "fieldlength":{
          "minlength":1,
@@ -17,7 +17,7 @@
       "multiselect": false
     },
       "validation":{
-         "required":true,
+         "required":false,
          "type":"string"
       }
  },
@@ -52,6 +52,7 @@
       "fieldtype":"select",
       "label":"Tax Type",
       "value":"",
+      "dependentFields": ["formula"],
       "errmsg":" ",
       "fieldlength":{
          "minlength":1,
@@ -73,7 +74,7 @@
 {
       "id":"formula",
       "placeholder":"Enter the Formula",
-      "fieldtype":"text",
+      "fieldtype":"select",
       "label":"Formula",
       "value":"",
       "errmsg":" ",
@@ -82,8 +83,8 @@
          "maxlength":25
       },
       "fieldinfo":{
-         "typeahead":false,
-         "isasync":false,
+         "typeahead":true,
+         "isasync":true,
          "options":[
 
          ],
