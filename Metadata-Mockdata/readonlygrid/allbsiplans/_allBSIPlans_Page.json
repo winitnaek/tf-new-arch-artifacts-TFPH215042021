@@ -26,9 +26,9 @@
          {
             "text":"Type",
             "datafield":"payTypeLtr",
-            "cellsalign":"center",
+            "cellsalign":"left",
             "width":"30%",
-            "align":"center",
+            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -36,20 +36,20 @@
          {
             "text":"Description",
             "datafield":"usercodeDesc",
-            "cellsalign":"center",
-            "align":"center"
+            "cellsalign":"left",
+            "align":"left"
          },
          {
             "text":"Code",
             "datafield":"usercode",
-            "cellsalign":"center",
-            "align":"center"
+            "cellsalign":"left",
+            "align":"left"
          },
          {
             "text":"Plan Class",
             "datafield":"planClass",
-            "cellsalign":"center",
-            "align":"center"
+            "cellsalign":"left",
+            "align":"left"
          },
          {
             "text":"Start Date",

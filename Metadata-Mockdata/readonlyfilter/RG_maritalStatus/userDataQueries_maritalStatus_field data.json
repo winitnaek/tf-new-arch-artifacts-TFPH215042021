@@ -1,26 +1,5 @@
 [
-  {
-    "id": "startDate",
-    "placeholder": "Enter Start Date",
-    "fieldtype": "date",
-    "label": "Start Date",
-    "value": "",
-    "errmsg": " ",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
-      "options": [],
-      "multiselect": false
-    },
-    "validation": {
-      "required": true,
-      "type": "string"
-    }
-  },
+  
 
   {
     "id": "taxCode",
@@ -62,7 +41,7 @@
       "multiselect": false
     },
     "validation": {
-      "required": true,
+      "required": false,
       "type": "string"
     }
   },
@@ -84,7 +63,55 @@
       "multiselect": false
     },
     "validation": {
-      "required": true,
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "startDate",
+    "placeholder": "Enter Start Date",
+    "fieldtype": "date",
+    "label": "Start Date",
+    "value": "new Date()",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "returnInfo",
+    "placeholder": "Return Information for All Dates",
+    "fieldtype": "checkbox",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+   "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Return Information for All Dates",
+          "id": "returnInfo"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
       "type": "string"
     }
   }

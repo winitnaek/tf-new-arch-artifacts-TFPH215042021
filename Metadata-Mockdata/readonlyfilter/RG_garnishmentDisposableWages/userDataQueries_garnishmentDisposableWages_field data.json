@@ -22,7 +22,7 @@
     }
   },
   {
-    "id": "taxType",
+    "id": "garnishParamTaxType",
     "placeholder": "Enter Tax Type",
     "fieldtype": "select",
     "label": "Tax Type",
@@ -35,7 +35,7 @@
 
     "fieldinfo": {
       "typeahead": true,
-      "isasync": false,
+      "isasync": true,
       "options": [],
       "multiselect": false
     },
