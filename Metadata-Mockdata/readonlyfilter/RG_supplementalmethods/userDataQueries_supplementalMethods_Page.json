@@ -25,30 +25,68 @@
     "recordDelete": false,
     "columns":[
         {
-            "text": "Attribute",
-            "datafield": "attribute",
+            "text": "Authority Code",
+            "datafield": "authCode",
             "cellsalign": "left",
-           "width": "45%",
             "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
         },
         {
-            "text": "Value",
-            "datafield": "value",
+            "text": "Tax Type",
+            "datafield": "taxType",
             "cellsalign": "left",
-           "width": "55%",
             "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
-        }
+        },
+        {
+          "text": "Formula",
+          "datafield": "formula",
+          "cellsalign": "left",
+          "align": "left",
+          "sortable": true,
+          "rendererInput": "",
+          "rendererStaticInput": ""
+       },
+       {
+        "text": "Start Date",
+        "datafield": "startDate",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+     },
+       {
+        "text": "End Date",
+        "datafield":"endDate",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+     },
+     {
+      "text": "Regular Method",
+      "datafield": "regMethValid",
+      "cellsalign": "left",
+      "align": "left",
+      "sortable": true,
+      "rendererInput": "",
+      "rendererStaticInput": ""
+   }
     ], 
 
     	"dataFields": [
-            {"name": "attribute","type": "string"},
-            {"name": "value","type": "string"}
+            {"name": "authCode","type": "string"},
+            {"name": "taxType","type": "string"},
+            {"name": "formula","type": "string"},
+            {"name": "startDate","type": "string"},
+            {"name": "endDate","type": "string"},
+            {"name": "regMethValid","type": "string"}
             ]
 	},
 
