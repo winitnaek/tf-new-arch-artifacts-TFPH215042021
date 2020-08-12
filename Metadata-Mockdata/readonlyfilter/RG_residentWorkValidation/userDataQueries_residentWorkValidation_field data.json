@@ -1,6 +1,6 @@
 [
 {
-      "id":"startDate",
+      "id":"startdate",
       "placeholder":"Enter Start Date",
       "fieldtype":"date",
       "label":"Start Date",
@@ -52,7 +52,6 @@
       "fieldtype":"select",
       "label":"Tax Type",
       "value":"",
-      "dependentFields": ["formula"],
       "errmsg":" ",
       "fieldlength":{
          "minlength":1,
@@ -85,6 +84,7 @@
       "fieldinfo":{
          "typeahead":true,
          "isasync":true,
+         "isDependentOnFormData": true,
          "options":[
 
          ],
