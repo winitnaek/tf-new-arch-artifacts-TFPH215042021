@@ -55,6 +55,7 @@
   "formdef": {
     "title": "Supplemental Methods",
     "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note": "*No entry in Formula or value 0 will imply ALL selection",
     "hasSave": false,
     "hasDelete": false,
     "hasSaveAs": false,
