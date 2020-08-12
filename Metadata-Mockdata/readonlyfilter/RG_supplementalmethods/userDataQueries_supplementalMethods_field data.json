@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "formulaNumber",
+    "id": "formula",
     "placeholder": "Enter the Formula",
     "fieldtype": "text",
     "label": "Formula Number",
