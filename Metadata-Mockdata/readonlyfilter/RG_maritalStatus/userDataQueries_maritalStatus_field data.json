@@ -7,7 +7,7 @@
     "fieldtype": "select",
     "label": "Authority Code",
     "value": "",
-    "errmsg": " ",
+    "errmsg": "Authority Code may not be blank.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -90,7 +90,7 @@
     }
   },
   {
-    "id": "returnInfo",
+    "id": "includeAllDates",
     "placeholder": "Return Information for All Dates",
     "fieldtype": "checkbox",
     "value": "",
@@ -105,7 +105,7 @@
       "options": [
         {
           "label": "Return Information for All Dates",
-          "id": "returnInfo"
+          "id": "includeAllDates"
         }
       ],
       "multiselect": false
@@ -113,6 +113,7 @@
     "validation": {
       "required": false,
       "type": "string"
-    }
+    },
+    "disable": ["startDate"]
   }
 ]
