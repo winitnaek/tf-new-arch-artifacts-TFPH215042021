@@ -26,7 +26,7 @@
     "columns": [
       {
         "text": "Company",
-        "datafield": "companyCode",
+        "datafield": "company",
         "cellsalign": "left",
         "width": "30%",
         "align": "left",
@@ -56,20 +56,20 @@
       },
       {
         "text": "Local Courtesy Withholding",
-        "datafield": "localCourtesyWithholding",
+        "datafield": "courtesy",
         "cellsalign": "left",
         "width": "33%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "courtesyRenderer"
       }
 
     ],
 
     "dataFields": [
       {
-        "name": "companyCode",
+        "name": "company",
         "type": "string"
       },
       {
@@ -81,8 +81,8 @@
         "type": "string"
       },
       {
-        "name": "localCourtesyWithholding",
-        "type": "string"
+        "name": "courtesy",
+        "type": "boolean"
       }
     ]
   },
