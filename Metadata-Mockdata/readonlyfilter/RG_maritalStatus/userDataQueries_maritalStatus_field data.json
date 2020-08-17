@@ -64,7 +64,7 @@
     },
     "validation": {
       "required": true,
-      "type": "string"
+      "type": "number"
     }
   },
   {
