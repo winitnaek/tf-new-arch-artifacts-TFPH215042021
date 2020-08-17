@@ -1,7 +1,7 @@
 [
 
   {
-    "id": "companyCode",
+    "id": "company",
     "placeholder": "Enter Company Code",
     "fieldtype": "text",
     "label": "Company",
@@ -75,10 +75,10 @@
   },
 
   {
-    "id": "localCourtesyWithholding",
-    "placeholder": " ",
+    "id": "courtesy",
+    "placeholder": "Local Courtesy Withholding",
     "fieldtype": "checkbox",
-    "label": "Local Courtesy Withholding",
+    "label": "",
     "value": "",
     "errmsg": " ",
     "fieldlength": {
@@ -89,13 +89,16 @@
       "typeahead": false,
       "isasync": false,
       "options": [
-
+        {
+          "label": "Local Courtesy Withholding",
+          "id": "courtesy"
+        }
       ],
       "multiselect": false
     },
     "validation": {
       "required": false,
-      "type": "Check Box"
+      "type": "boolean"
     }
   },
   "formdef",

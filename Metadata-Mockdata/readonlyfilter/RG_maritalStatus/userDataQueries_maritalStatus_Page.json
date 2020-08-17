@@ -26,9 +26,8 @@
     "columns": [
       {
         "text": "Authority",
-        "datafield": "authority",
+        "datafield": "authorityCode",
         "cellsalign": "left",
-        "width": "5%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
@@ -40,33 +39,30 @@
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "5%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Formula",
-        "datafield": "formula",
+        "datafield": "formulaNumber",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Start Date",
-        "datafield": "startDate",
+        "datafield": "effectiveDate",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "End Date",
-        "datafield": "endDate",
+        "datafield": "rescindDate",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -76,17 +72,16 @@
       },
       {
         "text": "Single",
-        "datafield": "single",
+        "datafield": "singleMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Married",
-        "datafield": "married",
+        "datafield": "marriedTwoMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -96,241 +91,217 @@
       },
       {
         "text": "Separate",
-        "datafield": "separate",
+        "datafield": "marriedThreeMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "One Working",
-        "datafield": "oneWorking",
+        "datafield": "marriedFiveMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Two Working",
-        "datafield": "twoWorking",
+        "datafield": "marriedFourMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Head of Household",
-        "datafield": "headOfHousehold",
+        "datafield": "headOfHouseMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Multiple Employers",
-        "datafield": "multipleEmployers",
+        "datafield": "marriedSevenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Widow/Widower",
-        "datafield": "widow/Widower",
+        "datafield": "widowWidowerMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Not Living w. Spouse",
-        "datafield": "notLivingW.Spouse",
+        "datafield": "marriedNineMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Claim All/Joint",
-        "datafield": "claimAll/Joint",
+        "datafield": "marriedTenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Claim Half/Joint",
-        "datafield": "claimHalf/Joint",
+        "datafield": "marriedElevenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Claim All/Separate",
-        "datafield": "claimAll/Separate",
+        "datafield": "marriedTwelveMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Claim None/Joint",
-        "datafield": "claimNone/Joint",
+        "datafield": "marriedThirteenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Living With Spouse",
-        "datafield": "livingWithSpouse",
+        "datafield": "marriedFourteenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Single Tax Rate",
-        "datafield": "singleTaxRate",
+        "datafield": "marriedFifteenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Civil Union",
-        "datafield": "civilUnion",
+        "datafield": "marriedSixteenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "CU/Single Tax Rate",
-        "datafield": "cU/SingleTaxRate",
+        "datafield": "marriedSeventeenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Spouse is Nonres Alien",
-        "datafield": "spouseIsNonresAlien",
+        "datafield": "marriedEighteenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Married 19",
-        "datafield": "married19",
+        "datafield": "marriedNineteenMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Married 20",
-        "datafield": "married20",
+        "datafield": "marriedTwentyMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Married 21",
-        "datafield": "married21",
+        "datafield": "marriedTwentyOneMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Married 22",
-        "datafield": "married22",
+        "datafield": "marriedTwentyTwoMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Married 23",
-        "datafield": "married23",
+        "datafield": "marriedTwentyThreeMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Married 24",
-        "datafield": "married24",
+        "datafield": "marriedTwentyFourMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Married 25",
-        "datafield": "married25",
+        "datafield": "marriedTwentyFiveMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Default",
-        "datafield": "default",
+        "datafield": "defaultMarital",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       }
@@ -338,7 +309,7 @@
 
     "dataFields": [
       {
-        "name": "authority",
+        "name": "authorityCode",
         "type": "string"
       },
       {
@@ -346,119 +317,119 @@
         "type": "string"
       },
       {
-        "name": "formula",
+        "name": "formulaNumber",
         "type": "string"
       },
       {
-        "name": "startDate",
+        "name": "effectiveDate",
         "type": "string"
       },
       {
-        "name": "endDate",
+        "name": "rescindDate",
         "type": "string"
       },
       {
-        "name": "single",
+        "name": "singleMarital",
         "type": "string"
       },
       {
-        "name": "married",
+        "name": "marriedTwoMarital",
         "type": "string"
       },
       {
-        "name": "separate",
+        "name": "marriedThreeMarital",
         "type": "string"
       },
       {
-        "name": "twoWorking",
+        "name": "marriedFourMarital",
         "type": "string"
       },
       {
-        "name": "oneWorking",
+        "name": "marriedFiveMarital",
         "type": "string"
       },
       {
-        "name": "headOfHousehold",
+        "name": "headOfHouseMarital",
         "type": "string"
       },
       {
-        "name": "multipleEmployers",
+        "name": "marriedSevenMarital",
         "type": "string"
       },
       {
-        "name": "widow/Widower",
+        "name": "widowWidowerMarital",
         "type": "string"
       },
       {
-        "name": "notLivingW.Spouse",
+        "name": "marriedNineMarital",
         "type": "string"
       },
       {
-        "name": "claimAll/Joint",
+        "name": "marriedTenMarital",
         "type": "string"
       },
       {
-        "name": "claimHalf/Joint",
+        "name": "marriedElevenMarital",
         "type": "string"
       },
       {
-        "name": "claimAll/Separate",
+        "name": "marriedTwelveMarital",
         "type": "string"
       },
       {
-        "name": "claimNone/Joint",
+        "name": "marriedThirteenMarital",
         "type": "string"
       },
       {
-        "name": "livingWithSpouse",
+        "name": "marriedFourteenMarital",
         "type": "string"
       },
       {
-        "name": "singleTaxRate",
+        "name": "marriedFifteenMarital",
         "type": "string"
       },
       {
-        "name": "civilUnion",
+        "name": "marriedSixteenMarital",
         "type": "string"
       },
       {
-        "name": "cU/SingleTaxRate",
+        "name": "marriedSeventeenMarital",
         "type": "string"
       },
       {
-        "name": "spouseIsNonresAlien",
+        "name": "marriedEighteenMarital",
         "type": "string"
       },
       {
-        "name": "married19",
+        "name": "marriedNineteenMarital",
         "type": "string"
       },
       {
-        "name": "married20",
+        "name": "marriedTwentyMarital",
         "type": "string"
       },
       {
-        "name": "married21",
+        "name": "marriedTwentyOneMarital",
         "type": "string"
       },
       {
-        "name": "married22",
+        "name": "marriedTwentyTwoMarital",
         "type": "string"
       },
       {
-        "name": "married23",
+        "name": "marriedTwentyThreeMarital",
         "type": "string"
       },
       {
-        "name": "married24",
+        "name": "marriedTwentyFourMarital",
         "type": "string"
       },
       {
-        "name": "married25",
+        "name": "marriedTwentyFiveMarital",
         "type": "string"
       },
       {
-        "name": "default",
+        "name": "defaultMarital",
         "type": "string"
       }
     ]

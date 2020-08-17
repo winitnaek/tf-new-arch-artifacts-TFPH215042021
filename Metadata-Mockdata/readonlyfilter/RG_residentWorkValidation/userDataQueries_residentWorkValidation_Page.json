@@ -27,7 +27,7 @@
 
         {
             "text": "Attribute",
-            "datafield": "attribute",
+            "datafield": "key",
             "cellsalign": "left",
             "width": "45%",
             "align": "left",
@@ -48,7 +48,7 @@
     ],
 
     "dataFields":[
-        {"name": "attribute","type": "string"},
+        {"name": "key","type": "string"},
         {"name": "value","type": "string"}
         ]
     },
