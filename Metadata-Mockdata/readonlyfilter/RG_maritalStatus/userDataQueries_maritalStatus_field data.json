@@ -51,7 +51,7 @@
     "fieldtype": "text",
     "label": "Formula",
     "value": "",
-    "errmsg": " ",
+    "errmsg": "Formula value must be an integer.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -63,7 +63,7 @@
       "multiselect": false
     },
     "validation": {
-      "required": false,
+      "required": true,
       "type": "string"
     }
   },
