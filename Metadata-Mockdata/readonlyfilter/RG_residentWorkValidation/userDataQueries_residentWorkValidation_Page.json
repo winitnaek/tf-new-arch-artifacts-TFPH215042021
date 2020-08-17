@@ -1,6 +1,6 @@
 {
   "pgdef": {
-    "pgid": "resident/WorkValidation",
+    "pgid": "residentWorkValidation",
     "pgtitle": "Resident / Work Validation",
     "pgsubtitle": "",
     "flowtype": "flowtype1",
