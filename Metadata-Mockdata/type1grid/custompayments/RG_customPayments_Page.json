@@ -103,7 +103,7 @@
       "hasRecentUsage":true,
       "formflds":[
          {
-            "id":"code",
+            "id":"userCode",
             "order":1,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false

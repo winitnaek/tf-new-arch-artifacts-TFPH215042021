@@ -1,6 +1,6 @@
 [
    {
-      "id":"code",
+      "id":"userCode",
       "placeholder":"Enter Custom Payment Code",
       "fieldtype":"text",
       "label":"Code",
