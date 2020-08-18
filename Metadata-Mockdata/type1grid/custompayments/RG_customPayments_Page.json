@@ -109,7 +109,7 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"type",
+            "id":"payType",
             "order":2,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false

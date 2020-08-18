@@ -37,7 +37,7 @@
       }
    },
    {
-      "id":"type",
+      "id":"payType",
       "placeholder":"Select a type",
       "fieldtype":"select",
       "label":"Type",
@@ -109,14 +109,7 @@
       "fieldinfo":{
          "typeahead":false,
          "isasync":false,
-         "options":[
-                     { "id": "0", "label": "Taxable" },
-                     { "id": "999", "label": "Non-Taxable" },
-                     { "id": "100", "label": "Limit-YTD" },
-                     { "id": "101", "label": "Limit-QTD" },
-                     { "id": "200", "label": "Limit-MTD" },
-                     { "id": "995", "label": "Taxable/Exclude" }
-                   ],
+         "options":[{ "id": "0", "label": "Taxable" },{ "id": "999", "label": "Non-Taxable" },{ "id": "100", "label": "Limit-YTD" },{ "id": "101", "label": "Limit-QTD" },{ "id": "200", "label": "Limit-MTD" },{ "id": "995", "label": "Taxable/Exclude" }],
          "multiselect":false
       },
       "validation":{
