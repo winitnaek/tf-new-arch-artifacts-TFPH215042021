@@ -5,7 +5,7 @@
     "fieldtype": "select",
     "label": "Tax Code",
     "value": "",
-    "errmsg": " ",
+    "errmsg": "Tax Code is required.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -26,7 +26,7 @@
     "placeholder": "Enter Tax Type",
     "fieldtype": "select",
     "label": "Tax Type",
-    "value": "",
+    "value": "Tax Type is required.",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "formulaNumber",
+    "id": "formNumber",
     "placeholder": "Enter the Formula",
     "fieldtype": "text",
     "label": "Formula Number",
@@ -61,7 +61,7 @@
       "multiselect": false
     },
     "validation": {
-      "required": true,
+      "required": false,
       "type": "string"
     }
   },
@@ -70,8 +70,8 @@
     "placeholder": "Enter Start Date",
     "fieldtype": "date",
     "label": "Start Date",
-    "value": "",
-    "errmsg": " ",
+    "value": "new Date()",
+    "errmsg": "Start Date is required.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25

@@ -15,7 +15,7 @@
   },
 
   "griddef": {
-    "gridtype": "type2",
+    "gridtype": "type1",
     "isfilter": false,
     "isfilterform": false,
     "datatype": "json",
@@ -26,7 +26,7 @@
     "columns": [
       {
         "text": "Company",
-        "datafield": "companyCode",
+        "datafield": "company",
         "cellsalign": "left",
         "width": "30%",
         "align": "left",
@@ -56,20 +56,20 @@
       },
       {
         "text": "Local Courtesy Withholding",
-        "datafield": "localCourtesyWithholding",
+        "datafield": "courtesy",
         "cellsalign": "left",
         "width": "33%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "courtesyRenderer"
       }
 
     ],
 
     "dataFields": [
       {
-        "name": "companyCode",
+        "name": "company",
         "type": "string"
       },
       {
@@ -81,8 +81,8 @@
         "type": "string"
       },
       {
-        "name": "localCourtesyWithholding",
-        "type": "string"
+        "name": "courtesy",
+        "type": "boolean"
       }
     ]
   },
@@ -91,17 +91,17 @@
     "title": "Companies",
     "subtitle": "Note: Required fields are marked with an asterisk (*)",
     "hasSave": false,
-    "hasDelete": false,
+    "hasDelete": true,
     "hasSaveAs": false,
     "hasViewPDF": false,
     "hasView": false,
-    "hasRecentUsage": false,
+    "hasRecentUsage": true,
 
-    "formflds": " ",
+    "formflds": "",
 
     "fltrflds": [
       {
-        "id": "companyCode",
+        "id": "company",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
@@ -119,7 +119,7 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "localCourtesyWithholding",
+        "id": "courtesy",
         "order": 4,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false

@@ -100,7 +100,7 @@
       "hasSaveAs":false,
       "hasViewPDF":false,
       "hasView":false,
-      "hasRecentUsage":true,
+      "hasRecentUsage":false,
       "formflds":[
          {
             "id":"userCode",

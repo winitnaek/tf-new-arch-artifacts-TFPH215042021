@@ -2,12 +2,12 @@
   
 
   {
-    "id": "taxCode",
+    "id": "bsiAuth",
     "placeholder": "Enter Tax Code",
     "fieldtype": "select",
     "label": "Authority Code",
     "value": "",
-    "errmsg": " ",
+    "errmsg": "Authority Code may not be blank.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -51,7 +51,7 @@
     "fieldtype": "text",
     "label": "Formula",
     "value": "",
-    "errmsg": " ",
+    "errmsg": "Formula value must be an integer.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -63,8 +63,8 @@
       "multiselect": false
     },
     "validation": {
-      "required": false,
-      "type": "string"
+      "required": true,
+      "type": "number"
     }
   },
   {
@@ -90,7 +90,7 @@
     }
   },
   {
-    "id": "returnInfo",
+    "id": "includeAllDates",
     "placeholder": "Return Information for All Dates",
     "fieldtype": "checkbox",
     "value": "",
@@ -105,7 +105,7 @@
       "options": [
         {
           "label": "Return Information for All Dates",
-          "id": "returnInfo"
+          "id": "includeAllDates"
         }
       ],
       "multiselect": false
@@ -113,6 +113,7 @@
     "validation": {
       "required": false,
       "type": "string"
-    }
+    },
+    "disable": ["startDate"]
   }
 ]
