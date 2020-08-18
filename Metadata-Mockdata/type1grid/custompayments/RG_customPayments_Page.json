@@ -127,7 +127,7 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"maximumLimit",
+            "id":"eemax",
             "order":5,
             "isReadOnlyOnEdit":false,
             "isReadOnlyOnNew":false
