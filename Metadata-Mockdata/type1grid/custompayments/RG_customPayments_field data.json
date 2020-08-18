@@ -114,7 +114,7 @@
         { "id": "100", "label": "Limit / YTD" },
         { "id": "101", "label": "Limit / QTD" },
         { "id": "102", "label": "Limit / MTD" },
-        { "id": "200", "label": "Taxable/Exclude" }
+        { "id": "200", "label": "Taxable/Exclude" },
         { "id": "995", "label": "Imputed" }
       ],
       "multiselect": false
