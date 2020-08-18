@@ -83,7 +83,7 @@
     "customPaymentCode": "CUSTPYTBEN4",
     "customPaymentName": "CUSTPYTBEN4-Do nor agg pl_NTX-TX",
     "paymentType": "P",
-    "taxability": "Non-Taxable / Taxable",
+    "taxability": "Non-Taxable",
     "eEMax": 100000000000,
     "aggStatus": "Do Not Aggregate Plans"
   }
