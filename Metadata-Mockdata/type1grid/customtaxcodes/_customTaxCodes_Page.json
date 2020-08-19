@@ -75,7 +75,7 @@
       "hasRecentUsage":true,
       "formflds":[
          {
-            "id":"taxcode",
+            "id":"taxCode",
             "order":1,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
