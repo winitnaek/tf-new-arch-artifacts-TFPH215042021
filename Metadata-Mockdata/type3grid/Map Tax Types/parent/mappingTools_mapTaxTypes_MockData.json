@@ -1,0 +1,14 @@
+[
+  {
+    "taxTypeName": "WITHHOLDING TAX",
+    "bsiCode": "001",
+    "mapping": "BSI001",
+    "preferred": "N"
+  },
+  {
+    "taxTypeName": "WITHHOLDING TAX",
+    "bsiCode": "001",
+    "mapping": "SDFSDFS",
+    "preferred": "N"
+  }
+]

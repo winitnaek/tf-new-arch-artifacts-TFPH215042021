@@ -1,0 +1,8 @@
+{
+  "value": "MT",
+  "label": "Employee Groups",
+  "desc": "Employee Groups",
+  "id": "mapTaxCode",
+  "type": "comp",
+  "link": false
+}

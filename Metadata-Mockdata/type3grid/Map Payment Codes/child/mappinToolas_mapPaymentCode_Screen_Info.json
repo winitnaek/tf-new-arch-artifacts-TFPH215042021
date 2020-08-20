@@ -1,0 +1,8 @@
+{
+   "value":"MT",
+   "label":"Map Payment Code",
+   "desc":"Map Payment Code",
+   "id":"mapPaymentCode",
+   "type":"comp",
+   "link":false
+}

@@ -1,10 +1,9 @@
 [
-
   {
-    "id": "company",
-    "placeholder": "Enter Company Code",
+    "id": "name_bsicode_paymentcode",
+    "placeholder": "Enter Payment Code",
     "fieldtype": "text",
-    "label": "Company",
+    "label": "Name / BSI Code / Payment Code Containing",
     "value": "",
     "errmsg": " ",
     "fieldlength": {
@@ -14,9 +13,7 @@
     "fieldinfo": {
       "typeahead": false,
       "isasync": false,
-      "options": [
-
-      ],
+      "options": [],
       "multiselect": false
     },
     "validation": {
@@ -24,87 +21,76 @@
       "type": "string"
     }
   },
-
   {
-    "id": "companyName",
-    "placeholder": "Enter Company Name",
-    "fieldtype": "text",
-    "label": "Company Name",
+    "id": "payment_codes",
+    "placeholder": "",
+    "fieldtype": "select",
+    "label": "Payment Codes that are",
     "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
-    },
-    "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
-      "options": [
-
-      ],
-      "multiselect": false
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "fein",
-    "placeholder": "Enter FEIN",
-    "fieldtype": "text",
-    "label": "FEIN",
-    "value": "",
-    "errmsg": " ",
-    "fieldlength": {
-      "minlength": 9,
-      "maxlength": 9
-    },
-    "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
-      "options": [
-
-      ],
-      "multiselect": false
-    },
-    "validation": {
-      "required": false,
-      "type": "Numerical"
-    }
-  },
-
-  {
-    "id": "courtesy",
-    "placeholder": "Local Courtesy Withholding",
-    "fieldtype": "checkbox",
-    "label": "",
-    "value": "",
-    "errmsg": " ",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 1
     },
     "fieldinfo": {
       "typeahead": false,
       "isasync": false,
       "options": [
         {
-          "label": "Local Courtesy Withholding",
-          "id": "courtesy"
+          "id": "0",
+          "label": "Both:Mapped and Not Mapped"
+        },
+        { "id": "1", "label": "Mapped" },
+        { "id": "2", "label": "Not Mapped" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "earning_types",
+    "placeholder": "",
+    "fieldtype": "select",
+    "label": "Plan Earning Types",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": "",
+          "label": "ALL"
+        },
+        {
+          "id": "0",
+          "label": "Earning"
+        },
+        {
+          "id": "1",
+          "label": "Credit"
+        },
+        {
+          "id": "2",
+          "label": "Deduction"
+        },
+        {
+          "id": "3",
+          "label": "Plan"
         }
       ],
       "multiselect": false
     },
     "validation": {
       "required": false,
-      "type": "boolean"
+      "type": "string"
     }
   }
-
 ]
-
-
-
-
-

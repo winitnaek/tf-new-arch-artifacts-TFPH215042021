@@ -1,0 +1,10 @@
+[
+  {
+     "customTaxType": "BSI001",
+     "preferred": "Y"
+  },
+  {
+     "customTaxType": "SDSDSDS",
+     "preferred": "N"
+  }
+]

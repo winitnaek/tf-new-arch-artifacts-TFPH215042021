@@ -1,0 +1,38 @@
+{
+  "mapTaxCodes": [
+    {
+      "name": "Tax Codes",
+      "mapped": 4984,
+      "notMapped": 25
+    }
+  ],
+  "mapTaxTypes": [
+    {
+      "name": "Tax Types",
+      "mapped": 141,
+      "notMapped": 8
+    }
+  ],
+  "mapPaymentCodes": [
+    {
+      "name": "Credit Codes",
+      "mapped": 3,
+      "notMapped": 0
+    },
+    {
+      "name": "Deduction Codes",
+      "mapped": 75,
+      "notMapped": 0
+    },
+    {
+      "name": "Plan Codes",
+      "mapped": 42,
+      "notMapped": 0
+    },
+    {
+      "name": "Earning Codes",
+      "mapped": 70,
+      "notMapped": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "taxCode",
+    "placeholder": "Tax Code",
+    "fieldtype": "text",
+    "label": "Tax Code",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  {
+    "id": "taxLocator",
+    "placeholder": "Preferred for Tax Locator",
+    "fieldtype": "checkbox",
+    "label": "",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "options": [
+        {
+          "label": "Preferred for Tax Locator",
+          "id": "taxLocator"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "boolean"
+    }
+  }
+]

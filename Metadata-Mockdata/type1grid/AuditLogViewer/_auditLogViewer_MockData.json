@@ -1,0 +1,18 @@
+[
+  {
+    "eventTime": "01/01/1970 11:49:17 PM",
+    "login": "TF11",
+    "dataSet": "HSLAB",
+    "toolId": "CG",
+    "event": "CREATED",
+    "eventDescription": "Custom GARN (TaxCode): CGC3320"
+  },
+  {
+    "eventTime": "01/02/1970 02:12:02 AM",
+    "login": "TF11",
+    "dataSet": "TF11_LJY_SAAS",
+    "toolId": "CG",
+    "event": "CREATED",
+    "eventDescription": "Custom GARN (TaxCode): Rental fee"
+  }
+]

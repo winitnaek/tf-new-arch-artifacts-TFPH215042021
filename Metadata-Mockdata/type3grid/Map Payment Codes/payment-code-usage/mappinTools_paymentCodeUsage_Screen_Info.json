@@ -1,0 +1,8 @@
+{
+   "value":"MT",
+   "label":"Custom Payments Code Usage",
+   "desc":"Custom Payments Code Usage",
+   "id":"paymentCodeUsage",
+   "type":"page",
+   "link":false
+}
