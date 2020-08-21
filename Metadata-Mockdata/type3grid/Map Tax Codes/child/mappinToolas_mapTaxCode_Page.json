@@ -11,7 +11,22 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/mapTaxCode",
     "parentConfig": "mapTaxCodes",
-    "childConfig": "taxCodeUsage"
+    "childConfig": "taxCodeUsage",
+    "extraLinks": [
+      {
+        "id": "createDefault",
+        "description": "Click here to create default mapping for all authorities",
+        "icon": "fa-window-restore",
+        "successMessage": "All Tax Codes are updated with default Mappings",
+        "errorMessage": ""
+      },
+      {
+        "id": "createMap",
+        "description": "Click here to create default mapping for all Federal and State authorities",
+        "icon": "fa-link",
+        "successMessage": "All Tax Codes are updated with default Mappings",
+        "errorMessage": ""
+      }]
   },
 
   "griddef": {
