@@ -1,161 +1,228 @@
 [
-   {
-      "id":"userCode",
-      "placeholder":"Enter Custom Payment Code",
-      "fieldtype":"text",
-      "label":"Code",
-      "value":"",
-      "errmsg":"Custom Payment Code is required",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
-      },
-      "fieldinfo":{
+  {
+    "id": "userCode",
+    "placeholder": "Enter Custom Payment Code",
+    "fieldtype": "text",
+    "label": "Code",
+    "fieldHeader": "Enter Custom Payments",
+    "value": "",
+    "errmsg": "Custom Payment Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Tax Code needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "payType",
+    "placeholder": "Select a type",
+    "fieldtype": "select",
+    "label": "Type",
+    "value": "",
+    "errmsg": "PayType is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        { "id": "E", "label": "Custom Earnings" },
+        {
+          "id": "P",
+          "label": "Custom Benefit Plan",
+          "mappedFieldsToShow": ["aggregationStatus", "employerTaxability"]
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "name",
+    "placeholder": "Enter Custom Payment Name",
+    "fieldtype": "text",
+    "label": " Name",
+    "value": "",
+    "errmsg": "Custom Payment Name is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Payment Name needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 5,
+          "message": "min 5 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aggregationStatus",
+    "placeholder": "Select a Aggregation Status",
+    "fieldtype": "select",
+    "hide": true,
+    "label": "Aggregation Status",
+    "fieldHeader": "Custom Earning Details",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
 
-      },
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"uppercase",
-               "message":"Tax Code needs to be in uppercase."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":1,
-               "message":"min 1 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-   {
-      "id":"payType",
-      "placeholder":"Select a type",
-      "fieldtype":"select",
-      "label":"Type",
-      "value":"",
-      "errmsg":"PayType is required",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
-      },
-      "fieldinfo":{
-         "typeahead": false,
-         "isasync": false,
-         "options":[{ "id": "E", "label": "Custom Earnings" },{ "id": "P", "label": "Custom Benefit Plan" }],
-         "multiselect": false
-      },
-      "validation":{
-         "required":false,
-         "type":"string"
-      }
-   },
-   {
-      "id":"name",
-      "placeholder":"Enter Custom Payment Name",
-      "fieldtype":"text",
-      "label":" Name",
-      "value":"",
-      "errmsg":"Custom Payment Name is required",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
-      },
-      "fieldinfo":{
+      "options": [
+        { "id": "Y", "label": "Aggregate to Highest Maximum" },
+        { "id": "L", "label": "Aggregate to Lowest Maximum" },
+        { "id": "N", "label": "Do Not Aggregate Plans" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "taxability",
+    "placeholder": "Select a type",
+    "fieldtype": "select",
+    "label": "Taxability",
+    "fieldHeader": "Custom Earning Details",
+    "value": "",
+    "errmsg": "PayType is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        { "id": "0", "label": "Taxable" },
+        { "id": "999", "label": "Non-Taxable" },
+        { "id": "100", "label": "Limit / YTD" },
+        { "id": "101", "label": "Limit / QTD" },
+        { "id": "102", "label": "Limit / MTD" },
+        { "id": "200", "label": "Taxable/Exclude" },
+        { "id": "995", "label": "Imputed" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  {
+    "id": "eemax",
+    "placeholder": "Enter Maximum Limit Here",
+    "fieldtype": "text",
+    "label": "Maximum Limit",
+    "value": "",
+    "errmsg": "Custom Payment Name is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "positive",
+          "message": "Maximum Limit Cannot be negative"
+        },
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 0,
+          "message": "Maximum Limit can not be < 0"
+        },
+        {
+          "type": "max",
+          "input": 100,
+          "message": "Maximum Limit can not be > 100"
+        }
+      ]
+    }
+  },
+  {
+    "id": "employerTaxability",
+    "hide": true,
+    "placeholder": "Employer Taxability",
+    "fieldtype": "select",
+    "label": "Employer Taxability",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
 
-      },
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"uppercase",
-               "message":"Payment Name needs to be in uppercase."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":5,
-               "message":"min 5 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-   {
-      "id":"taxability",
-      "placeholder":"Select a type",
-      "fieldtype":"select",
-      "label":"Taxability",
-      "value":"",
-      "errmsg":"PayType is required",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
-      },
-      "fieldinfo":{
-         "typeahead":false,
-         "isasync":false,
-         "options":[{ "id": "0", "label": "Taxable" },{ "id": "999", "label": "Non-Taxable" },{ "id": "100", "label": "Limit-YTD" },{ "id": "101", "label": "Limit-QTD" },{ "id": "200", "label": "Limit-MTD" },{ "id": "995", "label": "Taxable/Exclude" }],
-         "multiselect":false
-      },
-      "validation":{
-         "required":true,
-         "type":"string"
-      }
-   },
-   {
-      "id":"eemax",
-      "placeholder":"Enter Maximum Limit Here",
-      "fieldtype":"text",
-      "label":"Maximum Limit",
-      "value":"",
-      "errmsg":"Custom Payment Name is required",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
-      },
-      "fieldinfo":{
-
-      },
-      "validation":{
-         "required":false,
-         "type":"number",
-         "subtype":[
-            {
-               "type":"positive",
-               "message":"Maximum Limit Cannot be negative"
-            },
-            {
-               "type":"typeError",
-               "message":"Must be a number"
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":0,
-               "message":"Maximum Limit can not be < 0"
-            },
-            {
-               "type":"max",
-               "input":100,
-               "message":"Maximum Limit can not be > 100"
-            }
-         ]
-      }
-   }
+      "options": [
+        { "id": "0", "label": "Taxable" },
+        { "id": "999", "label": "Non-Taxable" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
 ]

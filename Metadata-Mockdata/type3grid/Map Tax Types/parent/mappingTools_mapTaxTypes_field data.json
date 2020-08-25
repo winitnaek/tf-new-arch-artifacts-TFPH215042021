@@ -1,0 +1,53 @@
+[
+  {
+    "id": "bsiCode",
+    "placeholder": "Enter Tax Type",
+    "fieldtype": "text",
+    "label": "Tax Type/ BSI Code/ Mapping Containing",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "taxType",
+    "placeholder": "",
+    "fieldtype": "select",
+    "label": "Tax Types that are",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": "0",
+          "label": "Both:Mapped and Not Mapped"
+        },
+        { "id": "1", "label": "Mapped" },
+        { "id": "2", "label": "Not Mapped" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

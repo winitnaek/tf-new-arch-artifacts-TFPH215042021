@@ -1,0 +1,85 @@
+{
+  "pgdef": {
+    "pgid": "mapTaxType",
+    "pgtitle": "Map Tax Types",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/employeeGroups",
+    "parentConfig": "mapTaxTypes",
+    "childConfig": "taxTypeUsage"
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Custom Tax Type",
+        "datafield": "customTaxType",
+        "cellsalign": "left",
+        "width": "50%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Preferred",
+        "datafield": "preferred",
+        "cellsalign": "left",
+        "width": "45%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      {
+        "name": "customTaxType",
+        "type": "string"
+      },
+      {
+        "name": "preferred",
+        "type": "string"
+      }
+    ]
+
+  },
+
+
+  "formdef": {
+    "title": "Map Tax Types",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note": "* No entry will imply ALL selection.",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": "",
+    "fltrflds": [
+      {
+        "id": "garnishmentGroup",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }
+
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "authority": "FEDERAL",
+    "title": "FEDERAL",
+    "countryId": "",
+    "bsiCode":"00000000",
+    "taxCode":"ASDF",
+    "preferred":"Y"
+  },
+  {
+    "authority": "BESSEMER",
+    "title": "CITY",
+    "countryId": "JEFFERSON",
+    "bsiCode":"BSI00010002",
+    "taxCode":"00010002",
+    "preferred":"N"
+  }
+]

@@ -68,14 +68,14 @@
       "title":"Custom Payments",
       "subtitle":"Note: Required fields are marked with an asterisk (*)",
       "hasSave":true,
-      "hasDelete":false,
+      "hasDelete":true,
       "hasSaveAs":false,
       "hasViewPDF":false,
       "hasView":false,
       "hasRecentUsage":true,
       "formflds":[
          {
-            "id":"taxcode",
+            "id":"taxCode",
             "order":1,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false

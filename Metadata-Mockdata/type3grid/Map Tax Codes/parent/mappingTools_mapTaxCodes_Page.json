@@ -1,0 +1,152 @@
+{
+  "pgdef": {
+    "pgid": "mapTaxCodes",
+    "pgtitle": "Map Tax Codes",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": false,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/mapTaxCodes",
+    "parentConfig": "",
+    "childConfig": "mapTaxCode",
+    "extraLinks": [
+      {
+        "id": "createDefault",
+        "description": "Click here to create default mapping for all authorities",
+        "icon": "fa-window-restore",
+        "successMessage": "All Tax Codes are updated with default Mappings",
+        "errorMessage": ""
+      },
+      {
+        "id": "createMap",
+        "description": "Click here to create default mapping for all Federal and State authorities",
+        "icon": "fa-link",
+        "successMessage": "All Tax Codes are updated with default Mappings",
+        "errorMessage": ""
+      }
+    ]
+  },
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": true,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Authority",
+        "datafield": "authority",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Title",
+        "datafield": "title",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Coutry ID",
+        "datafield": "countryId",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "BSI Code",
+        "datafield": "bsiCode",
+        "cellsalign": "left",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax Code",
+        "datafield": "taxCode",
+        "cellsalign": "left",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Preferred",
+        "datafield": "preferred",
+        "cellsalign": "left",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      {
+        "name": "authority",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "countryId",
+        "type": "string"
+      },
+      {
+        "name": "bsiCode",
+        "type": "string"
+      },
+      {
+        "name": "taxCode",
+        "type": "string"
+      },
+      {
+        "name": "preferred",
+        "type": "string"
+      }
+    ]
+  },
+
+  "formdef": {
+    "title": "Map Tax Codes",
+    "subtitle": "",
+    "note": "* No entry will imply ALL selection.",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "formflds": "",
+    "fltrflds": [
+      {
+        "id": "garnishmentGroup",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }
+    ]
+  }
+}

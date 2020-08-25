@@ -1,0 +1,133 @@
+[
+  {
+    "id": "authority",
+    "placeholder": "Enter BSI Code / Authority Name / Tax Code",
+    "fieldtype": "text",
+    "label": "BSI Code / Authority Name / Tax Code Containing",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "title",
+    "placeholder": "",
+    "fieldtype": "select",
+    "label": "Tax Codes that are",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": "0",
+          "label": "Both:Mapped and Not Mapped"
+        },
+        { "id": "1", "label": "Mapped" },
+        { "id": "2", "label": "Not Mapped" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "countryId",
+    "placeholder": "",
+    "fieldtype": "select",
+    "label": "State (and its locals)",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        { "id": "", "label": "--ALL--" },
+        { "id": "00010000", "label": "ALABAMA" },
+        { "id": "00020000", "label": "ALASKA" },
+        { "id": "00070000", "label": "AMERICAN SAMOA" },
+        { "id": "00040000", "label": "ARIZONA" },
+        { "id": "00050000", "label": "ARKANSAS" },
+        { "id": "00060000", "label": "CALIFORNIA" },
+        { "id": "00080000", "label": "COLORADO" },
+        { "id": "00090000", "label": "CONNECTICUT" },
+        { "id": "00100000", "label": "DELAWARE" },
+        { "id": "00110000", "label": "DISTRICT OF COLUMBIA" },
+        { "id": "00120000", "label": "FLORIDA" },
+        { "id": "00130000", "label": "GEORGIA" },
+        { "id": "00140000", "label": "GUAM" },
+        { "id": "00150000", "label": "HAWAII" },
+        { "id": "00160000", "label": "IDAHO" },
+        { "id": "00170000", "label": "ILLINOIS" },
+        { "id": "00180000", "label": "INDIANA" },
+        { "id": "00190000", "label": "IOWA" },
+        { "id": "00200000", "label": "KANSAS" },
+        { "id": "00210000", "label": "KENTUCKY" },
+        { "id": "00220000", "label": "LOUISIANA" },
+        { "id": "00230000", "label": "MAINE" },
+        { "id": "00240000", "label": "MARYLAND" },
+        { "id": "00250000", "label": "MASSACHUSETTS" },
+        { "id": "00260000", "label": "MICHIGAN" },
+        { "id": "00270000", "label": "MINNESOTA" },
+        { "id": "00280000", "label": "MISSISSIPPI" },
+        { "id": "00290000", "label": "MISSOURI" },
+        { "id": "00300000", "label": "MONTANA" },
+        { "id": "00310000", "label": "NEBRASKA" },
+        { "id": "00320000", "label": "NEVADA" },
+        { "id": "00330000", "label": "NEW HAMPSHIRE" },
+        { "id": "00340000", "label": "NEW JERSEY" },
+        { "id": "00350000", "label": "NEW MEXICO" },
+        { "id": "00360000", "label": "NEW YORK" },
+        { "id": "00370000", "label": "NORTH CAROLINA" },
+        { "id": "00380000", "label": "NORTH DAKOTA" },
+        { "id": "00570000", "label": "NORTHERN MARIANA ISLANDS" },
+        { "id": "00390000", "label": "OHIO" },
+        { "id": "00400000", "label": "OKLAHOMA" },
+        { "id": "00410000", "label": "OREGON" },
+        { "id": "00420000", "label": "PENNSYLVANIA" },
+        { "id": "00430000", "label": "PUERTO RICO" },
+        { "id": "00440000", "label": "RHODE ISLAND" },
+        { "id": "00450000", "label": "SOUTH CAROLINA" },
+        { "id": "00460000", "label": "SOUTH DAKOTA" },
+        { "id": "00470000", "label": "TENNESSEE" },
+        { "id": "00480000", "label": "TEXAS" },
+        { "id": "00520000", "label": "U.S. VIRGIN ISLANDS" },
+        { "id": "00490000", "label": "UTAH" },
+        { "id": "00500000", "label": "VERMONT" },
+        { "id": "00510000", "label": "VIRGINIA" },
+        { "id": "00530000", "label": "WASHINGTON" },
+        { "id": "00540000", "label": "WEST VIRGINIA" },
+        { "id": "00550000", "label": "WISCONSIN" },
+        { "id": "00560000", "label": "WYOMING" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+]

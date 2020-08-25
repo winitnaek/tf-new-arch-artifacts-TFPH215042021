@@ -1,0 +1,8 @@
+{
+   "value":"MT",
+   "label":"Tax Code Usage Summary",
+   "desc":"Tax Code Usage Summary",
+   "id":"taxCodeUsage",
+   "type":"page",
+   "link":false
+}

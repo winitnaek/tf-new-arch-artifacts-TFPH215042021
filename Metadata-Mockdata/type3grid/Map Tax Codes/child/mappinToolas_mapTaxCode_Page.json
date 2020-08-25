@@ -1,0 +1,99 @@
+{
+  "pgdef": {
+    "pgid": "mapTaxCode",
+    "pgtitle": "Map Tax Codes",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": true,
+    "addNewLabel": "Create New Tax Code",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/mapTaxCode",
+    "parentConfig": "mapTaxCodes",
+    "childConfig": "taxCodeUsage",
+    "extraLinks": [
+      {
+        "id": "createDefault",
+        "description": "Click here to create default mapping for all authorities",
+        "icon": "fa-window-restore",
+        "successMessage": "All Tax Codes are updated with default Mappings",
+        "errorMessage": ""
+      },
+      {
+        "id": "createMap",
+        "description": "Click here to create default mapping for all Federal and State authorities",
+        "icon": "fa-link",
+        "successMessage": "All Tax Codes are updated with default Mappings",
+        "errorMessage": ""
+      }]
+  },
+
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No record retrieved for your query",
+    "recordEdit": false,
+    "recordDelete": false,
+    "columns": [
+      {
+        "text": "Tax Code",
+        "datafield": "taxCode",
+        "cellsalign": "left",
+        "width": "50%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Preferred for Tax Locator",
+        "datafield": "taxLocator",
+        "width": "45%",
+        "align": "left",
+        "columntype": "checkbox",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+
+    "dataFields": [
+      {
+        "name": "taxCode",
+        "type": "string"
+      },
+      {
+        "name": "taxLocator",
+        "type": "bool"
+      }
+    ]
+
+  },
+
+
+  "formdef": {
+    "title": "Map Tax Codes",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note": "* No entry will imply ALL selection.",
+    "hasSave": true,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+
+    "formflds": "",
+    "fltrflds": [
+      {
+        "id": "taxCode",
+        "order": 1,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+
+    ]
+  }
+}

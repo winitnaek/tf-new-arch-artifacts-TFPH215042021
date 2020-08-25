@@ -1,0 +1,16 @@
+{
+  "pgdef": {
+    "pgid": "taxCodeUsage",
+    "pgtitle": "Tax Code Usage Summary",
+    "pgsubtitle": "Tax Code ${taxCode} is used in the following context:",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "",
+    "actiondel": false,
+    "helpAvailable": false,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/taxCodeUsage",
+    "parentConfig": "mapTaxCode",
+    "childConfig": ""
+  }
+}

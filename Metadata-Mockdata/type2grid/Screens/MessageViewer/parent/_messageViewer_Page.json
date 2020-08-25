@@ -6,7 +6,6 @@
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "hasDeleteAll": true,
-
     "addNewLabel": "",
     "actiondel": false,
     "helpAvailable": true,

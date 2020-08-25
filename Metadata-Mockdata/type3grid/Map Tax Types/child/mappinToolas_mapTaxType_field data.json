@@ -1,0 +1,28 @@
+[
+{
+      "id":"groupCode",
+      "placeholder":"Enter Group Code",
+      "fieldtype":"select",
+      "label":"Group Code",
+      "value":"",
+      "errmsg":" ",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+         "typeahead":true,
+         "isasync":true,
+         "options":[
+
+         ],
+         "multiselect":false
+      },
+      "validation":{
+         "required":true,
+         "type":"string"
+      }
+   }
+]
+
+

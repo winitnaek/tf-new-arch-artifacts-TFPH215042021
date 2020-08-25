@@ -1,0 +1,21 @@
+{
+  "pgdef": {
+    "pgid": "mappingTools",
+    "pgtitle": "Mapping Tools",
+    "pgsubtitle": ""
+  },
+  "tools": {
+    "mapTaxCodes": {
+      "title": "Tax Codes",
+      "subTitle": "For the current data set:"
+    },
+    "mapTaxTypes": {
+      "title": "Tax Types",
+      "subTitle": "For the current data set:"
+    },
+    "mapPaymentCodes": {
+      "title": "Payment Codes",
+      "subTitle": "For the current data set:"
+    }
+  }
+}

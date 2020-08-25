@@ -25,7 +25,7 @@
       "columns":[
          {
             "text":"Group Code",
-            "datafield":"groupCode",
+            "datafield":"code",
             "cellsalign":"left",
             "width":"50%",
             "align":"left",
@@ -35,7 +35,7 @@
          },
          {
             "text":"Group Name",
-            "datafield":"groupName",
+            "datafield":"name",
             "cellsalign":"left",
             "width":"50%",
             "align":"left",
@@ -46,11 +46,11 @@
       ],
       "dataFields":[
          {
-            "name":"groupCode",
+            "name":"code",
             "type":"string"
          },
          {
-            "name":"groupName",
+            "name":"name",
             "type":"string"
          }
       ]
@@ -66,13 +66,13 @@
       "hasRecentUsage":true,
       "formflds":[
          {
-            "id":"groupCode",
+            "id":"code",
             "order":1,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
          },
          {
-            "id":"groupName",
+            "id":"name",
             "order":2,
             "isReadOnlyOnEdit":false,
             "isReadOnlyOnNew":false
