@@ -4,6 +4,7 @@
     "placeholder": "Enter Custom Payment Code",
     "fieldtype": "text",
     "label": "Code",
+    "fieldHeader": "Enter Custom Payments",
     "value": "",
     "errmsg": "Custom Payment Code is required",
     "fieldlength": {
@@ -50,7 +51,11 @@
       "isasync": false,
       "options": [
         { "id": "E", "label": "Custom Earnings" },
-        { "id": "P", "label": "Custom Benefit Plan" }
+        {
+          "id": "P",
+          "label": "Custom Benefit Plan",
+          "mappedFieldsToShow": ["aggregationStatus", "employerTaxability"]
+        }
       ],
       "multiselect": false
     },
@@ -95,10 +100,40 @@
     }
   },
   {
+    "id": "aggregationStatus",
+    "placeholder": "Select a Aggregation Status",
+    "fieldtype": "select",
+    "hide": true,
+    "label": "Aggregation Status",
+    "fieldHeader": "Custom Earning Details",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+
+      "options": [
+        { "id": "Y", "label": "Aggregate to Highest Maximum" },
+        { "id": "L", "label": "Aggregate to Lowest Maximum" },
+        { "id": "N", "label": "Do Not Aggregate Plans" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
     "id": "taxability",
     "placeholder": "Select a type",
     "fieldtype": "select",
     "label": "Taxability",
+    "fieldHeader": "Custom Earning Details",
     "value": "",
     "errmsg": "PayType is required",
     "fieldlength": {
@@ -161,6 +196,33 @@
           "message": "Maximum Limit can not be > 100"
         }
       ]
+    }
+  },
+  {
+    "id": "employerTaxability",
+    "hide": true,
+    "placeholder": "Employer Taxability",
+    "fieldtype": "select",
+    "label": "Employer Taxability",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+
+      "options": [
+        { "id": "0", "label": "Taxable" },
+        { "id": "999", "label": "Non-Taxable" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
     }
   }
 ]
