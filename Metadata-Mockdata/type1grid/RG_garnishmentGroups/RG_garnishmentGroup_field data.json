@@ -1,6 +1,6 @@
 [
    {
-      "id":"groupCode",
+      "id":"code",
       "placeholder":"Enter Group Code",
       "fieldtype":"text",
       "label":"Group Code",
@@ -8,7 +8,7 @@
       "errmsg":"Group Code is required",
       "fieldlength":{
          "minlength":1,
-         "maxlength":25
+         "maxlength":11
       },
       "fieldinfo":{
 
@@ -30,14 +30,14 @@
             },
             {
                "type":"max",
-               "input":25,
-               "message":"max 25 characters"
+               "input":11,
+               "message":"max 11 characters"
             }
          ]
       }
    },
  {
-      "id":"groupName",
+      "id":"name",
       "placeholder":"Enter Group Name",
       "fieldtype":"text",
       "label":"Group Name",
