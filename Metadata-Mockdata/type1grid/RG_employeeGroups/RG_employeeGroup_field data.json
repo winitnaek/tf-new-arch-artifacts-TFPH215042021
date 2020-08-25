@@ -1,6 +1,6 @@
 [
    {
-      "id":"groupCode",
+      "id":"id",
       "placeholder":"Enter Group Code",
       "fieldtype":"text",
       "label":"Group Code",
