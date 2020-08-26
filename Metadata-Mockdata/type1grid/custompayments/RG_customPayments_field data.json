@@ -54,7 +54,6 @@
         {
           "id": "P",
           "label": "Custom Benefit Plan",
-          "mappedFieldsToShow": ["aggregationStatus", "employerTaxability"]
         }
       ],
       "multiselect": false
@@ -103,9 +102,12 @@
     "id": "aggregationStatus",
     "placeholder": "Select a Aggregation Status",
     "fieldtype": "select",
-    "hide": true,
+    "show": {
+      "payType": ["P"]
+    },
     "label": "Aggregation Status",
-    "fieldHeader": "Custom Earning Details",
+    "fieldHeader": "Custom Benefit Plan Details",
+    "nextFieldHeader": "Custom Earning Details",
     "value": "",
     "errmsg": "",
     "fieldlength": {
@@ -200,7 +202,10 @@
   },
   {
     "id": "employerTaxability",
-    "hide": true,
+    "show": { 
+      "taxability": ["","0", "999", "100", "101", "102", "995"],
+      "payType": ["P"]
+    },
     "placeholder": "Employer Taxability",
     "fieldtype": "select",
     "label": "Employer Taxability",
