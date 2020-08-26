@@ -208,22 +208,8 @@
          "required":false,
          "type":"string",
          "subtype":[
-            {
-               "type":"lowercase",
-               "message":"Tax Code needs to be in uppercase."
-            }
          ],
          "constraint":[
-            {
-               "type":"min",
-               "input":5,
-               "message":"min 5 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
          ]
       }
    },
@@ -231,34 +217,35 @@
       "name":"taxRate",
       "id":"taxRate",
       "placeholder":"Enter Tax Rate",
-      "fieldtype":"text",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
       "label":"Tax Rate",
       "value":"0.0000",
+      "fieldtype":"text",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":11
+      },
+      "fieldinfo":{
+        
+      },
       "validation":{
          "required":false,
          "type":"number",
          "subtype":[
             {
-               "type":"positive",
-               "message":"Zipcode cannot be negative"
-            },
-            {
                "type":"typeError",
-               "message":"Must be a number"
+               "message":"Tax Rate must be a number."
             }
          ],
          "constraint":[
             {
+               "type":"min",
+               "input":0,
+               "message":"Tax Rate minimum value is 0."
+            },
+            {
                "type":"max",
-               "input":25,
-               "message":"max 25 characters"
+               "input":9.999999999,
+               "message":"Tax Rate maximum value is 9.999999999."
             }
          ]
       }
@@ -305,24 +292,8 @@
       "validation":{
          "required":false,
          "type":"string",
-         "subtype":[
-            {
-               "type":"lowercase",
-               "message":"Tax Code needs to be in uppercase."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":5,
-               "message":"min 5 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
+         "subtype":[],
+         "constraint":[]
       }
    },
    {
@@ -331,10 +302,11 @@
       "placeholder":"Enter Min Wage",
       "fieldtype":"text",
       "fieldlength":{
-
+         "minlength":1,
+         "maxlength":14
       },
       "fieldinfo":{
-
+        
       },
       "validationType":"string",
       "label":"Minimum Wage",
@@ -349,14 +321,19 @@
             },
             {
                "type":"typeError",
-               "message":"Must be a number"
+               "message":"Minimum Wage must be a number"
             }
          ],
          "constraint":[
             {
+               "type":"min",
+               "input":0,
+               "message":"Minimum Wage minimum value is 0."
+            },
+            {
                "type":"max",
-               "input":25,
-               "message":"max 25 characters"
+               "input":99999999999.99,
+               "message":"Minimum Wage maximum value is 99999999999.99."
             }
          ]
       }
@@ -367,7 +344,8 @@
       "placeholder":"Enter Max Wage",
       "fieldtype":"text",
       "fieldlength":{
-
+         "minlength":1,
+         "maxlength":14
       },
       "fieldinfo":{
 
@@ -381,18 +359,23 @@
          "subtype":[
             {
                "type":"positive",
-               "message":"Maximum Wage cannot be negative"
+               "message":"Maximum Wage cannot be negative."
             },
             {
                "type":"typeError",
-               "message":"Must be a number"
+               "message":"Maximum Wage must be a number."
             }
          ],
          "constraint":[
             {
                "type":"max",
-               "input":25,
-               "message":"max 25 characters"
+               "input":0,
+               "message":"Maximum Wage minimum value is 0."
+            },
+            {
+               "type":"max",
+               "input":99999999999.99,
+               "message":"Maximum Wage minimum value is 99999999999.99."
             }
          ]
       }
@@ -403,7 +386,8 @@
       "placeholder":"Enter Max Tax",
       "fieldtype":"text",
       "fieldlength":{
-
+         "minlength":1,
+         "maxlength":14
       },
       "fieldinfo":{
 
@@ -417,18 +401,23 @@
          "subtype":[
             {
                "type":"positive",
-               "message":"Maximum Tax cannot be negative"
+               "message":"Maximum Tax cannot be negative."
             },
             {
                "type":"typeError",
-               "message":"Must be a number"
+               "message":"Maximum Tax must be a number."
             }
          ],
          "constraint":[
             {
+               "type":"min",
+               "input":0,
+               "message":"Maximum Tax minimum value is 0."
+            },
+            {
                "type":"max",
                "input":25,
-               "message":"max 25 characters"
+               "message":"Maximum Tax maximum value is 99999999999.99."
             }
          ]
       }
@@ -439,32 +428,34 @@
       "placeholder":"Enter Flat Amount",
       "fieldtype":"text",
       "fieldlength":{
-
+         "minlength":1,
+         "maxlength":14
       },
       "fieldinfo":{
 
       },
       "validationType":"string",
       "label":"Flat Amount",
-      "value":"0.00",
+      "value":"0",
       "validation":{
          "required":false,
          "type":"number",
          "subtype":[
             {
-               "type":"positive",
-               "message":"Zipcode cannot be negative"
-            },
-            {
                "type":"typeError",
-               "message":"Must be a number"
+               "message":"Flat Amount Must be a number"
             }
          ],
          "constraint":[
             {
+               "type":"min",
+               "input":0,
+               "message":"Flat Amount minimum value is 0."
+            },
+            {
                "type":"max",
                "input":25,
-               "message":"max 25 characters"
+               "message":"Flat Amount maximum value is 99999999999.99."
             }
          ]
       }
