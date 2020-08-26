@@ -25,7 +25,7 @@
       "columns":[
          {
             "text":"Custom Tax Code Name",
-            "datafield":"customTaxCode",
+            "datafield":"taxName",
             "cellsalign":"center",
             "align":"center",
             "sortable":true,
@@ -47,7 +47,7 @@
          },
          {
             "text":"Rounding",
-            "datafield":"rounding",
+            "datafield":"roundingDisplay",
             "cellsalign":"center",
             "align":"center",
             "width":"8.8889%"
@@ -97,7 +97,11 @@
       ],
       "dataFields":[
          {
-            "name":"customTaxCode",
+            "name":"taxCode",
+            "type":"string"
+         },
+         {
+            "name":"taxName",
             "type":"string"
          },
          {
@@ -110,6 +114,10 @@
          },
          {
             "name":"rounding",
+            "type":"string"
+         },
+         {
+            "name":"roundingDisplay",
             "type":"string"
          },
          {
@@ -149,7 +157,7 @@
       "hasRecentUsage":false,
       "formflds":[
          {
-            "id":"customTaxCode",
+            "id":"taxCode",
             "order":1,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":true
@@ -179,7 +187,7 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"roundingMethods",
+            "id":"roundingDisplay",
             "order":6,
             "isReadOnlyOnEdit":false,
             "isReadOnlyOnNew":false
