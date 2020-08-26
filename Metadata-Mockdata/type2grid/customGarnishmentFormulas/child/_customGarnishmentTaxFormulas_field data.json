@@ -126,10 +126,10 @@
      "options":[
             "0 - Use Flat Amount",
             "1 - Use Disposable Earnings Amount",
-            "2 - Use Disposable Earnings Amount reduced by higher priority garnishment"
+            "2 - Use Disposable Earnings Amount reduced by higher priority garnishment",
             "3 - Use Gross Wages API Amount",
             "4 - Use Gross Wages API Amount reduced by higher priority garnishment",
-            "5 - Use Gross Wages API Amount"
+            "5 - Use Gross Wages API Amount",
             "6 - Use Net Wages API Amount reduced by higher priority"
          ]
 
