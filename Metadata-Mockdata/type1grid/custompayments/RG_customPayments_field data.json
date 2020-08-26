@@ -53,7 +53,7 @@
         { "id": "E", "label": "Custom Earnings" },
         {
           "id": "P",
-          "label": "Custom Benefit Plan",
+          "label": "Custom Benefit Plan"
         }
       ],
       "multiselect": false
