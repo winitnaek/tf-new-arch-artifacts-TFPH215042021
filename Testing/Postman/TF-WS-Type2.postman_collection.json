@@ -1,0 +1,339 @@
+{
+	"info": {
+		"_postman_id": "d08d3377-da36-4d12-a70b-7b7fb715e4af",
+		"name": "TF-WS-Type2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saveCustomFormula",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customTaxFormulas\",      \r\n      \"dataset\":\"SITA\", \r\n      \"userId\":\"TF11\",\r\n     \"taxCode\" : \"ABCDEFGH\",\r\n      \"taxName\":\"ABCDEFGHcode\" ,     \r\n      \"editMode\":\"1\" ,\r\n      \"startDate\":\"08/19/2016\",\r\n      \"endDate\":\"12/31/2016\",\r\n      \"calcMethod\": \"4\",\r\n\"taxRate\": \"0.000000000\",\r\n\"rounding\": \"0\",\r\n\"minWage\": \"0.00\",\r\n\"maxWage\": \"0.00\",\r\n\"maxTax\": \"0.00\",\r\n\"flatAmount\":\"0.00\"\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/saveCustomFormula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"saveCustomFormula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveCustomFormula",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customTaxFormulas\",      \r\n      \"dataset\":\"SITA\", \r\n      \"userId\":\"sita\",\r\n     \"taxCode\" : \"ABCDEFGH\",\r\n      \"taxName\":\"ABCDEFGHcode\" ,     \r\n      \"editMode\":\"1\" ,\r\n      \"startDate\":\"08/18/2015\",\r\n      \"endDate\":\"12/31/2015\",\r\n      \"calcMethod\": \"4\",\r\n\"taxRate\": \"0.000000000\",\r\n\"rounding\": \"0\",\r\n\"minWage\": \"0.00\",\r\n\"maxWage\": \"0.00\",\r\n\"maxTax\": \"0.00\",\r\n\"flatAmount\":\"0.00\"\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/saveCustomFormula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"saveCustomFormula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCustomFormula",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customTaxFormulas\",      \r\n      \"dataset\":\"SITA\", \r\n      \"userId\":\"sita\",\r\n     \"taxCode\" : \"ABCDEFGH\",\r\n      \"taxName\":\"ABCDEFGHcode\" ,     \r\n     \"startDate\":\"08/19/2016\",\r\n      \"endDate\":\"12/31/2016\",\r\n      \"calcMethod\": \"4\",\r\n   \"taxRate\": \"0.000000000\",\r\n\"rounding\": \"0\",\r\n\"minWage\": \"0.00\",\r\n\"maxWage\": \"0.00\",\r\n\"maxTax\": \"0.00\",\r\n\"flatAmount\":\"0.00\"\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/deleteCustomFormula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"deleteCustomFormula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomFormula",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customTaxFormulas\",      \r\n      \"dataset\":\"SITA\", \r\n      \"userId\":\"TF11\",\r\n     \"taxCode\" : \"ABCDEFGH\",\r\n      \"taxName\":\"ABCDEFGHcode\" ,     \r\n     \"startDate\":\"08/10/2019\",\r\n      \"endDate\":\"12/23/2019\"\r\n     \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/getCustomFormula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getCustomFormula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomFormula",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"customTaxFormulas\",      \r\n      \"dataset\":\"SITA\", \r\n      \"userId\":\"TF11\",\r\n     \"taxCode\" : \"ABCDEFGH\",\r\n      \"taxName\":\"ABCDEFGHcode\" ,     \r\n     \"startDate\":\"08/10/2019\",\r\n      \"endDate\":\"12/23/2019\"\r\n     \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/getCustomFormula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getCustomFormula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveWksiteMgmtLocation",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"dataset\": \"SITA\",\n \"pageId\":\"worksiteCompanies\",\n\"companyCode\": \"987654321\",\n\"companyName\": \"Sita_TF_Company\",\n \"editMode\":\"1\",\n \"location\": \"WFO_WK\",\n\"street1\": \"155 Tech parkway\",\n\"street2\": \"Kirkwell Rd\",\n\"city\":\"Cumming\",\n\"county\":\"Gwinett\",\n\"state\": \"GA\",\n\"zip\": \"30041\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/saveWksiteMgmtLocation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"saveWksiteMgmtLocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteWksiteMgmtLocation",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"dataset\": \"SITA\",\n \"pageId\":\"worksiteCompanies\",\n\"companyCode\": \"987654321\",\n\"companyName\": \"Sita_TF_Company\",\n\"location\": \"WFH_WK\",\n\"street1\": \"155 Tech parkway\",\n\"street2\": \"Kirkwell Rd\",\n\"city\":\"Cumming\",\n\"county\":\"Gwinett\",\n\"state\": \"GA\",\n\"zip\": \"30041\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/deleteWksiteMgmtLocation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"deleteWksiteMgmtLocation"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
