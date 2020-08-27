@@ -116,87 +116,87 @@
       "fieldinfo":{
          "options":[
             {
-               "id":0,
+               "id":"0",
                "label":"00 Tax Rate Only"
             },
             {
-               "id":1,
+               "id":"1",
                "label":"01 Tax Rate, Max Wage"
             },
             {
-               "id":2,
+               "id":"2",
                "label":"02 Tax Rate, Min Wage"
             },
             {
-               "id":3,
+               "id":"3",
                "label":"03 Tax Rate, Min Wage, Max Wage"
             },
             {
-               "id":4,
+               "id":"4",
                "label":"04 Tax Rate, Max Tax"
             },
             {
-               "id":5,
+               "id":"5",
                "label":"05 Tax Rate, Min Wage, Max Tax"
             },
             {
-               "id":6,
+               "id":"6",
                "label":"06 Flat Amount Only"
             },
             {
-               "id":7,
+               "id":"7",
                "label":"07 Flat Amount, Max Wage"
             },
             {
-               "id":8,
+               "id":"8",
                "label":"08 Flat Amount, Min Wage"
             },
             {
-               "id":9,
+               "id":"9",
                "label":"09 Flat Amount, Min Wage, Max Wage"
             },
             {
-               "id":10,
+               "id":"10",
                "label":"10 Flat Amount, Max Tax"
             },
             {
-               "id":11,
+               "id":"11",
                "label":"11 Flat Amount, Tax Rate"
             },
             {
-               "id":12,
+               "id":"12",
                "label":"12 Tax Rate For Hours Worked"
             },
             {
-               "id":13,
+               "id":"13",
                "label":"13 Tax Rate, Max Annualized Wage"
             },
             {
-               "id":14,
+               "id":"14",
                "label":"14 Tax Rate, Min YTD Wage"
             },
             {
-               "id":15,
+               "id":"15",
                "label":"15 Tax Rate, Min YTD Wage, Max YTD Wage, Max Tax"
             },
             {
-               "id":16,
+               "id":"16",
                "label":"16 Flat Amt, Max YTD Wage"
             },
             {
-               "id":17,
+               "id":"17",
                "label":"17 Flat Amt, Min YTD Wage"
             },
             {
-               "id":18,
+               "id":"18",
                "label":"18 Flat Amt, Min YTD Wage, Max YTD Wage"
             },
             {
-               "id":19,
+               "id":"19",
                "label":"19 Flat Amt, Min YTD Wage, Max Tax"
             },
             {
-               "id":20,
+               "id":"20",
                "label":"20 Tax Rate, Min YTD Wage, Max Tax"
             }
          ]
@@ -261,27 +261,27 @@
       "fieldinfo":{
          "options":[
             {
-               "id":0,
+               "id":"0",
                "label":"0 - Round To Cents"
             },
             {
-               "id":1,
+               "id":"1",
                "label":"1 - Round To Dollars"
             },
             {
-               "id":2,
+               "id":"2",
                "label":"2 - Either/Cents"
             },
             {
-               "id":3,
+               "id":"3",
                "label":"3 - Either/Dollars"
             },
             {
-               "id":4,
+               "id":"4",
                "label":"4 - Round Down To Dollars"
             },
             {
-               "id":5,
+               "id":"5",
                "label":"5 - Authority/Round Down To Dollars"
             }
          ]
@@ -308,7 +308,6 @@
       "fieldinfo":{
         
       },
-      "validationType":"string",
       "label":"Minimum Wage",
       "value":"0.00",
       "validation":{
@@ -350,7 +349,6 @@
       "fieldinfo":{
 
       },
-      "validationType":"string",
       "label":"Maximum Wage",
       "value":"0.00",
       "validation":{
@@ -368,7 +366,7 @@
          ],
          "constraint":[
             {
-               "type":"max",
+               "type":"min",
                "input":0,
                "message":"Maximum Wage minimum value is 0."
             },
@@ -392,7 +390,6 @@
       "fieldinfo":{
 
       },
-      "validationType":"string",
       "label":"Maximum Tax",
       "value":"0.00",
       "validation":{
@@ -416,7 +413,7 @@
             },
             {
                "type":"max",
-               "input":25,
+               "input":99999999999.99,
                "message":"Maximum Tax maximum value is 99999999999.99."
             }
          ]
@@ -434,9 +431,8 @@
       "fieldinfo":{
 
       },
-      "validationType":"string",
       "label":"Flat Amount",
-      "value":"0",
+      "value":"0.00",
       "validation":{
          "required":false,
          "type":"number",
@@ -454,7 +450,7 @@
             },
             {
                "type":"max",
-               "input":25,
+               "input":99999999999.99,
                "message":"Flat Amount maximum value is 99999999999.99."
             }
          ]
