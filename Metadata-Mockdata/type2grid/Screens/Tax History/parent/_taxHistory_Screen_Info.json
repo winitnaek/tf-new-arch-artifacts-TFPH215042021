@@ -1,0 +1,8 @@
+{
+  "value": "TR",
+  "label": "Tax History Report",
+  "desc": "Tax History Report",
+  "id": "taxHistory",
+  "type": "comp",
+  "link": true
+}

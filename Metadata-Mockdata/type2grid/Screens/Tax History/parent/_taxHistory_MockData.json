@@ -1,0 +1,19 @@
+[
+  {
+    "authCode": "00000000",
+    "county": "FEDERAL"
+  },
+  {
+    "authCode": "00010000",
+    "county": "ALABAMA"
+  },
+  {
+    "authCode": "00020000",
+    "county": "ALASKA"
+  },
+  {
+    "authCode": "00040000",
+    "county": "ARIZONA"
+  }
+
+]

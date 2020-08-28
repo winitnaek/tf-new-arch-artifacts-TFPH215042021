@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "authCode": "00000000 - FEDERAL",
+      "taxType": "001 - WITHHOLDING TAX",
+      "formula": "1 - PCT MTHD-RES. US, CAN, MEX & KR",
+      "startDateDspl": "01/03/2020",
+      "type": "FEDERAL",
+      "county": "",
+      "rescindDateDspl": ""
+    },
+    {
+      "authCode": "00000000 - FEDERAL",
+      "taxType": "001 - WITHHOLDING TAX",
+      "formula": "2 - PCT MTHD-NONRES. US, CAN, MEX & KR",
+      "startDateDspl": "01/03/2020",
+      "type": "FEDERAL",
+      "county": "",
+      "rescindDateDspl": ""
+    }
+  ],
+  [
+    {
+      "authCode": "00000000 - FEDERAL",
+      "taxType": "001 - WITHHOLDING TAX",
+      "formula": "3 - APPORTIONMENT FORMULA",
+      "startDateDspl": "01/03/2020",
+      "type": "FEDERAL",
+      "county": "",
+      "rescindDateDspl": ""
+    },
+    {
+      "authCode": "00000000 - FEDERAL",
+      "taxType": "001 - WITHHOLDING TAX",
+      "formula": "1 - PCT MTHD-RES. US, CAN, MEX & KR",
+      "startDateDspl": "01/03/2020",
+      "type": "FEDERAL",
+      "county": "",
+      "rescindDateDspl": ""
+    }
+  ]
+]
