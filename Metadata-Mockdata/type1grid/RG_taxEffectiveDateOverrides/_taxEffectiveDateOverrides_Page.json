@@ -29,13 +29,13 @@
     "columns": [
       {
         "text": "Authority",
-        "datafield": "authorityCode",
+        "datafield": "bsiAuth",
         "cellsalign": "center",
         "width": "20%",
         "align": "center",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "baiAuthAuthNamerenderer"
       },
       {
         "text": "Tax Type",
@@ -45,11 +45,11 @@
         "align": "center",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "taxTypeCodeNamerenderer"
       },
       {
         "text": "Formula Effective Date",
-        "datafield": "formulaEffectiveDate",
+        "datafield": "effecDate",
         "cellsalign": "center",
         "formatter": "date", 
         "cellsformat": "MM/DD/yyyy",
@@ -83,7 +83,11 @@
     ],
     "dataFields": [
       {
-        "name": "authorityCode",
+        "name": "bsiAuth",
+        "type": "string"
+      },
+      {
+        "name": "authName",
         "type": "string"
       },
       {
@@ -91,7 +95,11 @@
         "type": "string"
       },
       {
-        "name": "formulaEffectiveDate",
+        "name": "taxTypeName",
+        "type": "string"
+      },
+      {
+        "name": "effecDate",
         "type": "Date"
       },
       {
@@ -112,14 +120,14 @@
     "hasSave": true,
     "hasDelete": true,
     "hasSaveAs": false,
-    "hasViewPDF": true,
+    "hasViewPDF": false,
     "hasView": false,
     "hasExit": true,
     "hasRecentUsage": false,
 
     "formflds": [
       {
-        "id": "authority",
+        "id": "bsiAuth",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
@@ -131,7 +139,7 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "formulaEffectiveDate",
+        "id": "effecDate",
         "order": 3,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false

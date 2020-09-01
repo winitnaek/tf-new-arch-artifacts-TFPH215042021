@@ -1,6 +1,6 @@
 [
   {
-    "id": "authorityCode",
+    "id": "bsiAuth",
     "placeholder": "Enter the Authority",
     "fieldtype": "select",
     "label": "Authority",
@@ -79,7 +79,7 @@
   },
  {
       "name":"Formula Effective Date",
-      "id":"formulaEffectiveDate",
+      "id":"effecDate",
       "placeholder":"Enter Formula Effective Date",
       "fieldtype":"date",
       "fieldlength":{
