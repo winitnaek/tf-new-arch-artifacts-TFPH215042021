@@ -5,6 +5,7 @@
   },
   "formdef": {
     "hideReset": true,
-    "submitButtonText": "Generate File"
+    "hasGenerate": true,
+    "generateButtonText": "Generate File"
   }
 }
