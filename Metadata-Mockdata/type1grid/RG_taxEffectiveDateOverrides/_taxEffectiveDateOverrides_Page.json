@@ -13,7 +13,8 @@
     "parentConfig": "",
     "childConfig": "",
     "metaInfo":{
-        "cbody": "***Warning***\n This tool helps customers to enter information",
+        "cheader":"Warning",
+        "cbody": "This tool allows the customer to enter information that will be processed by BSI TaxFactory. BSI excludes responsibility for any outcome resulting from customer - entered information.",
         "okbtnlbl": "Ok"
     }
   },
