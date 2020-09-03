@@ -13,7 +13,8 @@
     "parentConfig": "",
     "childConfig": "",
     "metaInfo":{
-        "cbody": "***Warning***\n This tool helps customers to enter information",
+        "cheader":"Warning",
+        "cbody": "This tool allows the customer to enter information that will be processed by BSI TaxFactory. BSI excludes responsibility for any outcome resulting from customer - entered information.",
         "okbtnlbl": "Ok"
     }
   },
@@ -29,32 +30,32 @@
     "columns": [
       {
         "text": "Authority",
-        "datafield": "authorityCode",
-        "cellsalign": "center",
+        "datafield": "bsiAuth",
+        "cellsalign": "left",
         "width": "20%",
-        "align": "center",
+        "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "baiAuthAuthNamerenderer"
       },
       {
         "text": "Tax Type",
         "datafield": "taxType",
         "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
+        "cellsalign": "left",
+        "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "taxTypeCodeNamerenderer"
       },
       {
         "text": "Formula Effective Date",
-        "datafield": "formulaEffectiveDate",
-        "cellsalign": "center",
+        "datafield": "effecDate",
+        "cellsalign": "left",
         "formatter": "date", 
         "cellsformat": "MM/DD/yyyy",
         "width": "20%",
-        "align": "center",
+        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -62,9 +63,9 @@
       {
         "text": "Start Date",
         "datafield": "startDate",
-        "cellsalign": "center",
+        "cellsalign": "left",
         "width": "20%",
-        "align": "center",
+        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -74,8 +75,8 @@
         "datafield": "endDate",
         "width": "20%",
         "cellsformat": "MM/dd/yyyy",
-        "cellsalign": "center",
-        "align": "center",
+        "cellsalign": "left",
+        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -83,7 +84,11 @@
     ],
     "dataFields": [
       {
-        "name": "authorityCode",
+        "name": "bsiAuth",
+        "type": "string"
+      },
+      {
+        "name": "authName",
         "type": "string"
       },
       {
@@ -91,7 +96,11 @@
         "type": "string"
       },
       {
-        "name": "formulaEffectiveDate",
+        "name": "taxTypeName",
+        "type": "string"
+      },
+      {
+        "name": "effecDate",
         "type": "Date"
       },
       {
@@ -112,14 +121,14 @@
     "hasSave": true,
     "hasDelete": true,
     "hasSaveAs": false,
-    "hasViewPDF": true,
+    "hasViewPDF": false,
     "hasView": false,
     "hasExit": true,
     "hasRecentUsage": false,
 
     "formflds": [
       {
-        "id": "authority",
+        "id": "bsiAuth",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
@@ -131,7 +140,7 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "formulaEffectiveDate",
+        "id": "effecDate",
         "order": 3,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false

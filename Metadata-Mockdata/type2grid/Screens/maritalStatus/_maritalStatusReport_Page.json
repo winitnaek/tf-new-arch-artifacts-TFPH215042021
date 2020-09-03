@@ -1,0 +1,11 @@
+{
+  "pgdef": {
+    "pgid": "maritalStatusReport",
+    "pgtitle": "Marital Status Report"
+  },
+  "formdef": {
+    "hideReset": true,
+    "hasGenerate": true,
+    "generateButtonText": "Generate File"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "value": "MR",
+  "label": "Marital Status Report",
+  "desc": "Marital Status Report",
+  "id": "maritalStatusReport",
+  "type": "page",
+  "link": true
+}

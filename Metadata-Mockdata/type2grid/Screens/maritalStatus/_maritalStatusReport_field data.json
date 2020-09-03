@@ -1,0 +1,45 @@
+[
+  {
+    "name": "effDate",
+    "id": "effDate",
+    "fieldHeader": "Select Report",
+    "label": "Effective Date",
+    "placeholder": "",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "value": "new Date()",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }, {
+    "id": "allDates",
+    "placeholder": "Return Information for All Dates",
+    "fieldtype": "checkbox",
+    "label": "",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Return Information for All Dates",
+          "id": "allDates"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "boolean"
+    },
+    "disable": ["effDate"]
+  }
+
+]
