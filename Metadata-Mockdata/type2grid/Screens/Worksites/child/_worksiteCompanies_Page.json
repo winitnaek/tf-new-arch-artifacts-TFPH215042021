@@ -92,42 +92,48 @@
     "hasSaveAs": false,
     "hasViewPDF": false,
     "hasView": false,
-    "hasRecentUsage": true,
+    "hasRecentUsage": false,
     "formflds": [
       {
-        "id": "worksiteLocation",
+        "id": "location",
         "order": 1,
         "isReadOnlyOnEdit": true,
-        "isReadOnlyOnNew": false
+        "isReadOnlyOnNew": true
       },
       {
-        "id": "worksiteStreet1",
+        "id": "street1",
         "order": 2,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "worksiteCity",
+        "id": "street2",
         "order": 3,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "worksiteCounty",
+        "id": "city",
         "order": 4,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "worksiteState",
+        "id": "county",
         "order": 5,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "worksiteZip",
+        "id": "state",
         "order": 6,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "zip",
+        "order": 7,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       }
     ],

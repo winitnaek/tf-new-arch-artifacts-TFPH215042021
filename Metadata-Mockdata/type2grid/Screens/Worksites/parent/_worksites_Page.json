@@ -4,7 +4,7 @@
     "pgtitle": "Worksites",
     "pgsubtitle": "Click the magnifying glass in the view column on the appropriate row to manage the worksite",
     "flowtype": "flowtype2",
-    "hasAddNew": true,
+    "hasAddNew": false,
     "addNewLabel": "Click here to add new Custom Tax Code.",
     "actiondel": false,
     "helpAvailable": true,

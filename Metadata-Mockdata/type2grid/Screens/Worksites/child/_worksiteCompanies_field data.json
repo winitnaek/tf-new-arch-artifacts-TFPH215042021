@@ -146,7 +146,7 @@
     "label": "County",
     "value": "",
     "validation": {
-      "required": false,
+      "required": true,
       "type": "string",
       "subtype": [
         {
@@ -175,61 +175,235 @@
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "typeahead": true,
+      "typeahead": false,
       "isasync": false,
       "multiselect": false,
-      "options": [
-        "Alabama",
-        "Alaska",
-        "Arizona",
-        "Arkansas",
-        "California",
-        "Colorado",
-        "Connecticut",
-        "Delaware",
-        "Florida",
-        "GA",
-        "Hawaii",
-        "Idaho",
-        "Illinois",
-        "Indiana",
-        "Iowa",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maine",
-        "Maryland",
-        "Massachusetts",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Montana",
-        "Nebraska",
-        "Nevada",
-        "New Hampshire",
-        "New Jersey",
-        "New Mexico",
-        "New York",
-        "North Carolina",
-        "North Dakota",
-        "Ohio",
-        "Oklahoma",
-        "Oregon",
-        "Pennsylvania",
-        "Rhode Island",
-        "South Carolina",
-        "South Dakota",
-        "Tennessee",
-        "Texas",
-        "Utah",
-        "Vermont",
-        "Virginia",
-        "Washington",
-        "West Virginia",
-        "Wisconsin",
-        "Wyoming"
-      ]
+      "options":[
+        {
+           "id":"AK",
+           "label":"AK - ALASKA"
+        },
+        {
+           "id":"AL",
+           "label":"AL - ALABAMA"
+        },
+        {
+           "id":"AR",
+           "label":"AR - ARKANSAS"
+        },
+        {
+           "id":"AS",
+           "label":"AS - AMERICAN SAMOA"
+        },
+        {
+           "id":"AZ",
+           "label":"AZ - ARIZONA"
+        },
+        {
+           "id":"CA",
+           "label":"CA - CALIFORNIA"
+        },
+        {
+           "id":"CO",
+           "label":"CO - COLORADO"
+        },
+        {
+           "id":"CT",
+           "label":"CT - CONNECTICUT"
+        },
+        {
+           "id":"DC",
+           "label":"DC - DISTRICT OF COLUMBIA"
+        },
+        {
+           "id":"DE",
+           "label":"DE - DELAWARE"
+        },
+        {
+           "id":"FL",
+           "label":"FL - FLORIDA"
+        },
+        {
+           "id":"GA",
+           "label":"GA - GEORGIA"
+        },
+        {
+           "id":"GU",
+           "label":"GU - GUAM"
+        },
+        {
+           "id":"HI",
+           "label":"HI - HAWAII"
+        },
+        {
+           "id":"IA",
+           "label":"IA - IOWA"
+        },
+        {
+           "id":"ID",
+           "label":"ID - IDAHO"
+        },
+        {
+           "id":"IL",
+           "label":"IL - ILLINOIS"
+        },
+        {
+           "id":"IN",
+           "label":"IN - INDIANA"
+        },
+        {
+           "id":"KS",
+           "label":"KS - KANSAS"
+        },
+        {
+           "id":"KY",
+           "label":"KY - KENTUCKY"
+        },
+        {
+           "id":"LA",
+           "label":"LA - LOUISIANA"
+        },
+        {
+           "id":"MA",
+           "label":"MA - MASSACHUSETTS"
+        },
+        {
+           "id":"MD",
+           "label":"MD - MARYLAND"
+        },
+        {
+           "id":"ME",
+           "label":"ME - MAINE"
+        },
+        {
+           "id":"MI",
+           "label":"MI - MICHIGAN"
+        },
+        {
+           "id":"MN",
+           "label":"MN - MINNESOTA"
+        },
+        {
+           "id":"MO",
+           "label":"MO - MISSOURI"
+        },
+        {
+           "id":"MP",
+           "label":"MP - NORTHERN MARIANA ISLANDS"
+        },
+        {
+           "id":"MS",
+           "label":"MS - MISSISSIPPI"
+        },
+        {
+           "id":"MT",
+           "label":"MT - MONTANA"
+        },
+        {
+           "id":"NC",
+           "label":"NC - NORTH CAROLINA"
+        },
+        {
+           "id":"ND",
+           "label":"ND - NORTH DAKOTA"
+        },
+        {
+           "id":"NE",
+           "label":"NE - NEBRASKA"
+        },
+        {
+           "id":"NH",
+           "label":"NH - NEW HAMPSHIRE"
+        },
+        {
+           "id":"NJ",
+           "label":"NJ - NEW JERSEY"
+        },
+        {
+           "id":"NM",
+           "label":"NM - NEW MEXICO"
+        },
+        {
+           "id":"NV",
+           "label":"NV - NEVADA"
+        },
+        {
+           "id":"NY",
+           "label":"NY - NEW YORK"
+        },
+        {
+           "id":"OH",
+           "label":"OH - OHIO"
+        },
+        {
+           "id":"OK",
+           "label":"OK - OKLAHOMA"
+        },
+        {
+           "id":"OR",
+           "label":"OR - OREGON"
+        },
+        {
+           "id":"PA",
+           "label":"PA - PENNSYLVANIA"
+        },
+        {
+           "id":"PR",
+           "label":"PR - PUERTO RICO"
+        },
+        {
+           "id":"RI",
+           "label":"RI - RHODE ISLAND"
+        },
+        {
+           "id":"SC",
+           "label":"SC - SOUTH CAROLINA"
+        },
+        {
+           "id":"SD",
+           "label":"SD - SOUTH DAKOTA"
+        },
+        {
+           "id":"TN",
+           "label":"TN - TENNESSEE"
+        },
+        {
+           "id":"TX",
+           "label":"TX - TEXAS"
+        },
+        {
+           "id":"UT",
+           "label":"UT - UTAH"
+        },
+        {
+           "id":"VA",
+           "label":"VA - VIRGINIA"
+        },
+        {
+           "id":"VI",
+           "label":"VI - U.S. VIRGIN ISLANDS"
+        },
+        {
+           "id":"VT",
+           "label":"VT - VERMONT"
+        },
+        {
+           "id":"WA",
+           "label":"WA - WASHINGTON"
+        },
+        {
+           "id":"WI",
+           "label":"WI - WISCONSIN"
+        },
+        {
+           "id":"WV",
+           "label":"WV - WEST VIRGINIA"
+        },
+        {
+           "id":"WY",
+           "label":"WY - WYOMING"
+        }
+     ]
     },
     "validationType": "string",
     "label": "State",
