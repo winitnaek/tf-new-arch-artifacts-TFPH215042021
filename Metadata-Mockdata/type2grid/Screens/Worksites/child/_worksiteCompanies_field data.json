@@ -1,6 +1,6 @@
 [
   {
-    "name": "location",
+    "name": "Worksite",
     "id": "location",
     "placeholder": "Enter Worksite",
     "fieldtype": "text",
