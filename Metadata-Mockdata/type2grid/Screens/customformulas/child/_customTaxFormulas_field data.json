@@ -1,459 +1,431 @@
 [
-   {
-      "name":"taxCode",
-      "id":"taxCode",
-      "placeholder":"Enter Custom Tax Code",
-      "fieldtype":"text",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"Custom Tax Code",
-      "value":"",
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"uppercase",
-               "message":"Tax Code needs to be in uppercase."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-   {
-      "name":"startDate",
-      "id":"startDate",
-      "placeholder":"Enter Start Date",
-      "fieldtype":"date",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"Start Date",
-      "value":"new Date()",
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"lowercase",
-               "message":"Tax Code needs to be in uppercase."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":5,
-               "message":"min 5 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-   {
-      "name":"rescind",
-      "id":"rescind",
-      "placeholder":"Enter End Date",
-      "fieldtype":"date",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"End Date",
-      "value":"12/31/9999",
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"lowercase",
-               "message":"Tax Code needs to be in uppercase."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":5,
-               "message":"min 5 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-   {
-      "name":"cmName",
-      "id":"cmName",
-      "placeholder":"Select Calculation Method",
-      "fieldtype":"select",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-         "options":[
-            {
-               "id":"0",
-               "label":"00 Tax Rate Only"
-            },
-            {
-               "id":"1",
-               "label":"01 Tax Rate, Max Wage"
-            },
-            {
-               "id":"2",
-               "label":"02 Tax Rate, Min Wage"
-            },
-            {
-               "id":"3",
-               "label":"03 Tax Rate, Min Wage, Max Wage"
-            },
-            {
-               "id":"4",
-               "label":"04 Tax Rate, Max Tax"
-            },
-            {
-               "id":"5",
-               "label":"05 Tax Rate, Min Wage, Max Tax"
-            },
-            {
-               "id":"6",
-               "label":"06 Flat Amount Only"
-            },
-            {
-               "id":"7",
-               "label":"07 Flat Amount, Max Wage"
-            },
-            {
-               "id":"8",
-               "label":"08 Flat Amount, Min Wage"
-            },
-            {
-               "id":"9",
-               "label":"09 Flat Amount, Min Wage, Max Wage"
-            },
-            {
-               "id":"10",
-               "label":"10 Flat Amount, Max Tax"
-            },
-            {
-               "id":"11",
-               "label":"11 Flat Amount, Tax Rate"
-            },
-            {
-               "id":"12",
-               "label":"12 Tax Rate For Hours Worked"
-            },
-            {
-               "id":"13",
-               "label":"13 Tax Rate, Max Annualized Wage"
-            },
-            {
-               "id":"14",
-               "label":"14 Tax Rate, Min YTD Wage"
-            },
-            {
-               "id":"15",
-               "label":"15 Tax Rate, Min YTD Wage, Max YTD Wage, Max Tax"
-            },
-            {
-               "id":"16",
-               "label":"16 Flat Amt, Max YTD Wage"
-            },
-            {
-               "id":"17",
-               "label":"17 Flat Amt, Min YTD Wage"
-            },
-            {
-               "id":"18",
-               "label":"18 Flat Amt, Min YTD Wage, Max YTD Wage"
-            },
-            {
-               "id":"19",
-               "label":"19 Flat Amt, Min YTD Wage, Max Tax"
-            },
-            {
-               "id":"20",
-               "label":"20 Tax Rate, Min YTD Wage, Max Tax"
-            }
-         ]
-      },
-      "validationType":"string",
-      "label":"Calculation Method",
-      "value":"",
-      "validation":{
-         "required":false,
-         "type":"string",
-         "subtype":[
-         ],
-         "constraint":[
-         ]
-      }
-   },
-   {
-      "name":"taxRate",
-      "id":"taxRate",
-      "placeholder":"Enter Tax Rate",
-      "label":"Tax Rate",
-      "value":"0.0000",
-      "fieldtype":"text",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":11
-      },
-      "fieldinfo":{
-        
-      },
-      "validation":{
-         "required":false,
-         "type":"number",
-         "subtype":[
-            {
-               "type":"typeError",
-               "message":"Tax Rate must be a number."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":0,
-               "message":"Tax Rate minimum value is 0."
-            },
-            {
-               "type":"max",
-               "input":9.999999999,
-               "message":"Tax Rate maximum value is 9.999999999."
-            }
-         ]
-      }
-   },
-   {
-      "name":"roundingDisplay",
-      "id":"roundingDisplay",
-      "placeholder":"Enter Rounding Value",
-      "fieldtype":"select",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-         "options":[
-            {
-               "id":"0",
-               "label":"0 - Round To Cents"
-            },
-            {
-               "id":"1",
-               "label":"1 - Round To Dollars"
-            },
-            {
-               "id":"2",
-               "label":"2 - Either/Cents"
-            },
-            {
-               "id":"3",
-               "label":"3 - Either/Dollars"
-            },
-            {
-               "id":"4",
-               "label":"4 - Round Down To Dollars"
-            },
-            {
-               "id":"5",
-               "label":"5 - Authority/Round Down To Dollars"
-            }
-         ]
-      },
-      "validationType":"string",
-      "label":"Rounding Methods",
-      "value":"",
-      "validation":{
-         "required":false,
-         "type":"string",
-         "subtype":[],
-         "constraint":[]
-      }
-   },
-   {
-      "name":"minWage",
-      "id":"minWage",
-      "placeholder":"Enter Min Wage",
-      "fieldtype":"text",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":14
-      },
-      "fieldinfo":{
-        
-      },
-      "label":"Minimum Wage",
-      "value":"0.00",
-      "validation":{
-         "required":false,
-         "type":"number",
-         "subtype":[
-            {
-               "type":"positive",
-               "message":"Minimum Wage cannot be negative"
-            },
-            {
-               "type":"typeError",
-               "message":"Minimum Wage must be a number"
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":0,
-               "message":"Minimum Wage minimum value is 0."
-            },
-            {
-               "type":"max",
-               "input":99999999999.99,
-               "message":"Minimum Wage maximum value is 99999999999.99."
-            }
-         ]
-      }
-   },
-   {
-      "name":"maxWage",
-      "id":"maxWage",
-      "placeholder":"Enter Max Wage",
-      "fieldtype":"text",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":14
-      },
-      "fieldinfo":{
-
-      },
-      "label":"Maximum Wage",
-      "value":"0.00",
-      "validation":{
-         "required":false,
-         "type":"number",
-         "subtype":[
-            {
-               "type":"positive",
-               "message":"Maximum Wage cannot be negative."
-            },
-            {
-               "type":"typeError",
-               "message":"Maximum Wage must be a number."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":0,
-               "message":"Maximum Wage minimum value is 0."
-            },
-            {
-               "type":"max",
-               "input":99999999999.99,
-               "message":"Maximum Wage minimum value is 99999999999.99."
-            }
-         ]
-      }
-   },
-   {
-      "name":"maxTax",
-      "id":"maxTax",
-      "placeholder":"Enter Max Tax",
-      "fieldtype":"text",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":14
-      },
-      "fieldinfo":{
-
-      },
-      "label":"Maximum Tax",
-      "value":"0.00",
-      "validation":{
-         "required":false,
-         "type":"number",
-         "subtype":[
-            {
-               "type":"positive",
-               "message":"Maximum Tax cannot be negative."
-            },
-            {
-               "type":"typeError",
-               "message":"Maximum Tax must be a number."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":0,
-               "message":"Maximum Tax minimum value is 0."
-            },
-            {
-               "type":"max",
-               "input":99999999999.99,
-               "message":"Maximum Tax maximum value is 99999999999.99."
-            }
-         ]
-      }
-   },
-   {
-      "name":"flatAmount",
-      "id":"flatAmount",
-      "placeholder":"Enter Flat Amount",
-      "fieldtype":"text",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":14
-      },
-      "fieldinfo":{
-
-      },
-      "label":"Flat Amount",
-      "value":"0.00",
-      "validation":{
-         "required":false,
-         "type":"number",
-         "subtype":[
-            {
-               "type":"typeError",
-               "message":"Flat Amount Must be a number"
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":0,
-               "message":"Flat Amount minimum value is 0."
-            },
-            {
-               "type":"max",
-               "input":99999999999.99,
-               "message":"Flat Amount maximum value is 99999999999.99."
-            }
-         ]
-      }
-   }
+  {
+    "name": "taxCode",
+    "id": "taxCode",
+    "placeholder": "Enter Custom Tax Code",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Custom Tax Code",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Tax Code needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "startDate",
+    "id": "startDate",
+    "placeholder": "Enter Start Date",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Start Date",
+    "value": "new Date()",
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": "Tax Code needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 5,
+          "message": "min 5 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "rescind",
+    "id": "rescind",
+    "placeholder": "Enter End Date",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "End Date",
+    "value": "12/31/9999",
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": "Tax Code needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 5,
+          "message": "min 5 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "cmName",
+    "id": "cmName",
+    "placeholder": "Select Calculation Method",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        {
+          "id": "0",
+          "label": "00 Tax Rate Only"
+        },
+        {
+          "id": "1",
+          "label": "01 Tax Rate, Max Wage"
+        },
+        {
+          "id": "2",
+          "label": "02 Tax Rate, Min Wage"
+        },
+        {
+          "id": "3",
+          "label": "03 Tax Rate, Min Wage, Max Wage"
+        },
+        {
+          "id": "4",
+          "label": "04 Tax Rate, Max Tax"
+        },
+        {
+          "id": "5",
+          "label": "05 Tax Rate, Min Wage, Max Tax"
+        },
+        {
+          "id": "6",
+          "label": "06 Flat Amount Only"
+        },
+        {
+          "id": "7",
+          "label": "07 Flat Amount, Max Wage"
+        },
+        {
+          "id": "8",
+          "label": "08 Flat Amount, Min Wage"
+        },
+        {
+          "id": "9",
+          "label": "09 Flat Amount, Min Wage, Max Wage"
+        },
+        {
+          "id": "10",
+          "label": "10 Flat Amount, Max Tax"
+        },
+        {
+          "id": "11",
+          "label": "11 Flat Amount, Tax Rate"
+        },
+        {
+          "id": "12",
+          "label": "12 Tax Rate For Hours Worked"
+        },
+        {
+          "id": "13",
+          "label": "13 Tax Rate, Max Annualized Wage"
+        },
+        {
+          "id": "14",
+          "label": "14 Tax Rate, Min YTD Wage"
+        },
+        {
+          "id": "15",
+          "label": "15 Tax Rate, Min YTD Wage, Max YTD Wage, Max Tax"
+        },
+        {
+          "id": "16",
+          "label": "16 Flat Amt, Max YTD Wage"
+        },
+        {
+          "id": "17",
+          "label": "17 Flat Amt, Min YTD Wage"
+        },
+        {
+          "id": "18",
+          "label": "18 Flat Amt, Min YTD Wage, Max YTD Wage"
+        },
+        {
+          "id": "19",
+          "label": "19 Flat Amt, Min YTD Wage, Max Tax"
+        },
+        {
+          "id": "20",
+          "label": "20 Tax Rate, Min YTD Wage, Max Tax"
+        }
+      ]
+    },
+    "validationType": "string",
+    "label": "Calculation Method",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "taxRate",
+    "id": "taxRate",
+    "placeholder": "Enter Tax Rate",
+    "label": "Tax Rate",
+    "value": "0.0000",
+    "fieldtype": "text",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 11
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Tax Rate must be a number."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 0,
+          "message": "Tax Rate minimum value is 0."
+        },
+        {
+          "type": "max",
+          "input": 9.999999999,
+          "message": "Tax Rate maximum value is 9.999999999."
+        }
+      ]
+    }
+  },
+  {
+    "name": "roundingDisplay",
+    "id": "roundingDisplay",
+    "placeholder": "Enter Rounding Value",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        {
+          "id": "0",
+          "label": "0 - Round To Cents"
+        },
+        {
+          "id": "1",
+          "label": "1 - Round To Dollars"
+        },
+        {
+          "id": "2",
+          "label": "2 - Either/Cents"
+        },
+        {
+          "id": "3",
+          "label": "3 - Either/Dollars"
+        },
+        {
+          "id": "4",
+          "label": "4 - Round Down To Dollars"
+        },
+        {
+          "id": "5",
+          "label": "5 - Authority/Round Down To Dollars"
+        }
+      ]
+    },
+    "validationType": "string",
+    "label": "Rounding Methods",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "minWage",
+    "id": "minWage",
+    "placeholder": "Enter Min Wage",
+    "fieldtype": "text",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
+    "fieldinfo": {},
+    "label": "Minimum Wage",
+    "value": "0.00",
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "positive",
+          "message": "Minimum Wage cannot be negative"
+        },
+        {
+          "type": "typeError",
+          "message": "Minimum Wage must be a number"
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 0,
+          "message": "Minimum Wage minimum value is 0."
+        },
+        {
+          "type": "max",
+          "input": 99999999999.99,
+          "message": "Minimum Wage maximum value is 99999999999.99."
+        }
+      ]
+    }
+  },
+  {
+    "name": "maxWage",
+    "id": "maxWage",
+    "placeholder": "Enter Max Wage",
+    "fieldtype": "text",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
+    "fieldinfo": {},
+    "label": "Maximum Wage",
+    "value": "0.00",
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "positive",
+          "message": "Maximum Wage cannot be negative."
+        },
+        {
+          "type": "typeError",
+          "message": "Maximum Wage must be a number."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 0,
+          "message": "Maximum Wage minimum value is 0."
+        },
+        {
+          "type": "max",
+          "input": 99999999999.99,
+          "message": "Maximum Wage minimum value is 99999999999.99."
+        }
+      ]
+    }
+  },
+  {
+    "name": "maxTax",
+    "id": "maxTax",
+    "placeholder": "Enter Max Tax",
+    "fieldtype": "text",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
+    "fieldinfo": {},
+    "label": "Maximum Tax",
+    "value": "0.00",
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "positive",
+          "message": "Maximum Tax cannot be negative."
+        },
+        {
+          "type": "typeError",
+          "message": "Maximum Tax must be a number."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 0,
+          "message": "Maximum Tax minimum value is 0."
+        },
+        {
+          "type": "max",
+          "input": 99999999999.99,
+          "message": "Maximum Tax maximum value is 99999999999.99."
+        }
+      ]
+    }
+  },
+  {
+    "name": "flatAmount",
+    "id": "flatAmount",
+    "placeholder": "Enter Flat Amount",
+    "fieldtype": "text",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
+    "fieldinfo": {},
+    "label": "Flat Amount",
+    "value": "0.00",
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Flat Amount Must be a number"
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 0,
+          "message": "Flat Amount minimum value is 0."
+        },
+        {
+          "type": "max",
+          "input": 99999999999.99,
+          "message": "Flat Amount maximum value is 99999999999.99."
+        }
+      ]
+    }
+  }
 ]
