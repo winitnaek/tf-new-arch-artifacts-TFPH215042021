@@ -80,7 +80,8 @@
       { "name": "city", "type": "string" },
       { "name": "county", "type": "string" },
       { "name": "state", "type": "string" },
-      { "name": "zip", "type": "string" }
+      { "name": "zip", "type": "string" },
+      { "name": "fein", "type": "string" }
     ]
   },
   "formdef": {
@@ -98,7 +99,7 @@
         "id": "location",
         "order": 1,
         "isReadOnlyOnEdit": true,
-        "isReadOnlyOnNew": true
+        "isReadOnlyOnNew": false
       },
       {
         "id": "street1",
