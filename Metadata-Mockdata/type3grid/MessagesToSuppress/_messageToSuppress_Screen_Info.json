@@ -1,0 +1,8 @@
+{
+  "value": "MS",
+  "label": "Messages to Suppress",
+  "desc": "Messages to Suppress",
+  "id": "messageToSuppress",
+  "type": "page",
+  "link": true
+}
