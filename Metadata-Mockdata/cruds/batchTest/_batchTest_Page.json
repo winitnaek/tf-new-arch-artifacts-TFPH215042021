@@ -1,0 +1,14 @@
+{
+  "pgdef": {
+    "pgid": "batchTest",
+    "pgtitle": "Batch Test",
+    "pgsubtitle": "In order to run Batch Test the test file has to be uploaded to the server. After successful upload the server will do the calculations and post the results back.",
+    "disclaimer":"*The upload and calculation may take several minutes depending on the size of the file. Once the calculation is done, this page will be refreshed automatically to display the results.",
+    "messageLabel": "System Message"
+  },
+  "formdef": {
+    "hideReset": true,
+    "title": "File Upload",
+    "submitButtonText": "Upload"
+  }
+}

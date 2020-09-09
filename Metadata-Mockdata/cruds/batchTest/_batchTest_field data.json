@@ -1,0 +1,62 @@
+[
+  {
+    "id": "upload",
+    "placeholder": "Please select a batch test file to upload",
+    "fieldtype": "fileUpload",
+    "fieldHeader": "File Upload",
+    "label": "Please select a batch test file to upload",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+      
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "boolean"
+    }
+  },
+  {
+    "id": "exportTo",
+    "placeholder": "Export to What-if Test",
+    "fieldtype": "checkbox",
+    "label": "Upload Mode",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Export to What-if Test",
+          "id": "exportTo"
+        },
+        {
+          "label": "Output in Extended Format",
+          "id": "outputIn"
+        },
+        {
+          "label": "Generate Summary MNC File",
+          "id": "generateFile"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "boolean"
+    }
+  }
+]

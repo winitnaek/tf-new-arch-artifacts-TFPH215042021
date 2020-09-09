@@ -1,0 +1,8 @@
+{
+  "value": "BT",
+  "label": "Batch Test",
+  "desc": "BatchTest",
+  "id": "batchTest",
+  "type": "page",
+  "link": true
+}

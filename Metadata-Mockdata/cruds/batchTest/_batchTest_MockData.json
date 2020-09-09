@@ -1,0 +1,25 @@
+{
+  "uploadStatus": "Upload to server complete.",
+  "batchStatus": "Batch processing complete.",
+  "instruction":"Click on filename to view contents:",
+  "results":[
+    {
+      "label": "Batch Test:",
+      "link": "1599068891910_MSG1005.tst",
+      "linkLabel": "view PDF",
+      "size":"221 Bytes"
+    },
+    {
+      "label": "Results",
+      "link": "1599068891910_MSG1005.tst",
+      "linkLabel": "view PDF",
+      "size":"1.7 KB"
+    },
+    {
+      "label": "Error Report:",
+      "link": "1599068891910_MSG1005.tst",
+      "linkLabel": "view PDF",
+      "size":"839 Bytes"
+    }
+  ]
+}
