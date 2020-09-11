@@ -1,6 +1,6 @@
 {
    "pgdef":{
-      "pgid":"garnishmentFormulaOverrides",
+      "pgid":"garnishmentFormulasOverride",
       "pgtitle":"garnishmentFormulaOverrides",
       "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
       "flowtype":"flowtype2",
@@ -9,13 +9,13 @@
       "actiondel":false,
       "helpAvailable":true,
       "helpLblTxt":"Click here for more info!",
-      "helpLink":"/garnishmentFormulaOverride",
+      "helpLink":"/garnishmentFormulasOverride",
       "parentConfig":"",
-      "childConfig":"garnishmentFormulaOverride"
+      "childConfig":"garnishmentFormulaOverrides"
    },
    "griddef":{
       "gridtype":"type2",
-      "isfilter":false,
+      "isfilter":true,
       "isfilterform":false,
       "datatype":"json",
       "contenttype":"application/json",
