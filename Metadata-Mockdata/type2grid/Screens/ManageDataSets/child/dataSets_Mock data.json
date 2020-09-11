@@ -1,0 +1,126 @@
+[
+  {
+    "dataSetId": "00RG1",
+    "dataSetDescription": "Neals Lab CU testing data set"
+  },
+  {
+    "dataSetId": "ABTEST",
+    "dataSetDescription": "BSI DEFAULT DATASET"
+  },
+  {
+    "dataSetId": "ARTEST",
+    "dataSetDescription": "AR Test Dataset"
+  },
+  {
+    "dataSetId": "CERTUSR1",
+    "dataSetDescription": "data set CERTUSR1 for CERTUSR login"
+  },
+  {
+    "dataSetId": "CERTUSR2",
+    "dataSetDescription": "CERTUSR2-Overrides"
+  },
+  {
+    "dataSetId": "CYNDI",
+    "dataSetDescription": "Cyndi Dataset"
+  },
+  {
+    "dataSetId": "DANIEL",
+    "dataSetDescription": "Daniel's test dataset"
+  },
+  {
+    "dataSetId": "DEBORAH",
+    "dataSetDescription": "Deborah's test dataset"
+  },
+  {
+    "dataSetId": "DEFAULT",
+    "dataSetDescription": "CHOA-PROD"
+  },
+  {
+    "dataSetId": "DSCSBHH4ZY95NOO1",
+    "dataSetDescription": "DSCSBHH4ZY95NOO1"
+  },
+  {
+    "dataSetId": "DSCSBHH4ZY95NOO2",
+    "dataSetDescription": "DSCSBHH4ZY95NOO2"
+  },
+  {
+    "dataSetId": "DSCSBHH4ZY95NOO3",
+    "dataSetDescription": "DSCSBHH4ZY95NOO3"
+  },
+  {
+    "dataSetId": "HS_LAB_2",
+    "dataSetDescription": "CERTUSR3"
+  },
+  {
+    "dataSetId": "HSLAB",
+    "dataSetDescription": "CERTUSR3"
+  },
+  {
+    "dataSetId": "IGOR",
+    "dataSetDescription": "Igor's test dataset"
+  },
+  {
+    "dataSetId": "JEFF",
+    "dataSetDescription": "Jeff's test dataset"
+  },
+  {
+    "dataSetId": "MING",
+    "dataSetDescription": "Ming's test dataset"
+  },
+  {
+    "dataSetId": "NEAL_LABCU",
+    "dataSetDescription": "Neals Lab CU testing data set"
+  },
+  {
+    "dataSetId": "PETER",
+    "dataSetDescription": "Peter's test dataset"
+  },
+  {
+    "dataSetId": "PRUTHVI",
+    "dataSetDescription": "Pruthvi's test dataset"
+  },
+  {
+    "dataSetId": "RAJI",
+    "dataSetDescription": "Raji's test dataset"
+  },
+  {
+    "dataSetId": "RRDATASET",
+    "dataSetDescription": "RR DATASET"
+  },
+  {
+    "dataSetId": "SF128034",
+    "dataSetDescription": "CHOA-PROD"
+  },
+  {
+    "dataSetId": "SF136876",
+    "dataSetDescription": "Development Dataset"
+  },
+  {
+    "dataSetId": "SFDEV",
+    "dataSetDescription": "SFDEV"
+  },
+  {
+    "dataSetId": "SITA",
+    "dataSetDescription": "Sita's test dataset"
+  },
+  {
+    "dataSetId": "SUDHIR",
+    "dataSetDescription": "Neals Lab CU testing data set"
+  },
+  {
+    "dataSetId": "SUNLAB11",
+    "dataSetDescription": "Sundari's TF11 Lab"
+  },
+  {
+    "dataSetId": "TF11_LAB_INSTANCE",
+    "dataSetDescription": "Lab box TF11 database"
+  },
+  {
+    "dataSetId": "TF11_LJY_SAAS",
+    "dataSetDescription": "LJY_SAAS_Dataset"
+  },
+  {
+    "dataSetId": "VINIT",
+    "dataSetDescription": "Vinit's test dataset"
+  }
+]
