@@ -1,0 +1,10 @@
+[
+  {
+    "taxName": "GEORGIA",
+    "taxCode": "BSI00130000",
+    "garnishment": "BSI507",
+    "garnishmentName": "CREDITOR GARNISHMENT",
+    "startDate": "2/7/2019",
+    "endDate": "12/31/2019"
+  }
+]
