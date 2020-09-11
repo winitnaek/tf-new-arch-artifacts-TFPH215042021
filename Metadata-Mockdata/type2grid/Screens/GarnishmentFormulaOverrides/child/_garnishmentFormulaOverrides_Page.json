@@ -1,6 +1,6 @@
 {
    "pgdef":{
-      "pgid":"garnishmentFormulaOverride",
+      "pgid":"garnishmentFormulaOverrides",
       "pgtitle":"Garnishment Formula Overrides",
       "pgsubtitle":"The Following formulas are definded for : ",
       "flowtype":"flowtype2",
@@ -10,7 +10,7 @@
       "helpAvailable":true,
       "helpLblTxt":"Click here for more info!",
       "helpLink":"/garnishmentFormulaOverrides",
-      "parentConfig":"garnishmentFormulaOverrides",
+      "parentConfig":"garnishmentFormulasOverride",
       "childConfig":""
    },
    "griddef":{

@@ -3,15 +3,12 @@
     "name": "authority",
     "id": "authority",
     "placeholder": "Enter Authority",
+    "fieldHeader": "Edit Override Information",
     "fieldtype": "select",
-    "fieldlength": {
-
-    },
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": true,
-      "options": [
-
-      ]
+      "options": []
     },
     "validationType": "string",
     "label": "Authority to be Overridden",
@@ -44,14 +41,10 @@
     "id": "garnishment",
     "placeholder": "Enter garnishment",
     "fieldtype": "select",
-    "fieldlength": {
-
-    },
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": true,
-      "options": [
-
-      ]
+      "options": []
     },
     "validationType": "string",
     "label": "Garnishment to be Overridden",
@@ -84,12 +77,8 @@
     "id": "startDate",
     "placeholder": "Enter Start Date",
     "fieldtype": "date",
-    "fieldlength": {
-
-    },
-    "fieldinfo": {
-
-    },
+    "fieldlength": {},
+    "fieldinfo": {},
     "validationType": "string",
     "label": "Start Date",
     "value": "",
@@ -116,12 +105,8 @@
     "id": "endDate",
     "placeholder": "Enter End Date",
     "fieldtype": "date",
-    "fieldlength": {
-
-    },
-    "fieldinfo": {
-
-    },
+    "fieldlength": {},
+    "fieldinfo": {},
     "validationType": "string",
     "label": "End Date",
     "value": "",
@@ -152,15 +137,11 @@
     "name": "method",
     "id": "method",
     "placeholder": "Enter Method",
+    "fieldHeader":"Input Section",
     "fieldtype": "select",
-    "fieldlength": {
-
-    },
+    "fieldlength": {},
     "fieldinfo": {
-      "options": [
-        "option1",
-        "Option2"
-      ]
+      "options": ["option1", "Option2"]
     },
     "validationType": "string",
     "label": "Method",
@@ -192,13 +173,10 @@
     "name": "flatAmount",
     "id": "flatAmount",
     "placeholder": "Enter Flat Amount",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Flat Amount",
@@ -230,13 +208,10 @@
     "name": "percent",
     "id": "percent",
     "placeholder": "Enter Percent",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Percent",
@@ -268,13 +243,10 @@
     "name": "priority",
     "id": "priority",
     "placeholder": "Enter Priority",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Priority",
@@ -306,15 +278,11 @@
     "name": "method",
     "id": "method",
     "placeholder": "Enter Method",
+    "fieldHeader": "Exemption Section",
     "fieldtype": "select",
-    "fieldlength": {
-
-    },
+    "fieldlength": {},
     "fieldinfo": {
-      "options": [
-        "option1",
-        "Option2"
-      ]
+      "options": ["option1", "Option2"]
     },
     "validationType": "string",
     "label": "Method",
@@ -346,13 +314,10 @@
     "name": "exemptionFlatAmount",
     "id": "exemptionFlatAmount",
     "placeholder": "Enter Exemption Flat Amount",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Exemption Flat Amount",
@@ -384,13 +349,10 @@
     "name": "exemptionAmount",
     "id": "exemptionAmount",
     "placeholder": "Enter Exemption Amount",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Exemption Amount",
@@ -422,13 +384,10 @@
     "name": "exemptionDependantAmount",
     "id": "exemptionDependantAmount",
     "placeholder": "Enter Exemption Dependant Amount",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Exemption Dependent Amount",
@@ -461,14 +420,9 @@
     "id": "statementOfExemptions",
     "placeholder": "Enter Statement Of Exemptions",
     "fieldtype": "select",
-    "fieldlength": {
-
-    },
+    "fieldlength": {},
     "fieldinfo": {
-      "options": [
-        "option1",
-        "Option2"
-      ]
+      "options": ["option1", "Option2"]
     },
     "validationType": "string",
     "label": "Statement Of Exemptions",
@@ -499,16 +453,12 @@
   {
     "name": "method",
     "id": "method",
+    "fieldHeader": "Calculation Section",
     "placeholder": "Enter Method",
     "fieldtype": "select",
-    "fieldlength": {
-
-    },
+    "fieldlength": {},
     "fieldinfo": {
-      "options": [
-        "option1",
-        "Option2"
-      ]
+      "options": ["option1", "Option2"]
     },
     "validationType": "string",
     "label": "Method",
@@ -540,13 +490,10 @@
     "name": "calculationPercent",
     "id": "calculationPercent",
     "placeholder": "Enter Calculation Percent",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Calculation Percent",
@@ -578,13 +525,10 @@
     "name": "calculationAmount",
     "id": "calculationAmount",
     "placeholder": "Enter Calculation Amount",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Calculation Amount",
@@ -616,13 +560,10 @@
     "name": "calculationLimit",
     "id": "calculationLimit",
     "placeholder": "Enter Calculation Limit",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Calculation Limit",
@@ -653,16 +594,12 @@
   {
     "name": "method",
     "id": "method",
+    "fieldHeader":"Deduction Section",
     "placeholder": "Enter Method",
     "fieldtype": "select",
-    "fieldlength": {
-
-    },
+    "fieldlength": {},
     "fieldinfo": {
-      "options": [
-        "option1",
-        "Option2"
-      ]
+      "options": ["option1", "Option2"]
     },
     "validationType": "string",
     "label": "Method",
@@ -694,13 +631,10 @@
     "name": "deductionFlatAmount",
     "id": "deductionFlatAmount",
     "placeholder": "Enter Deduction Flat Amount",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Deduction Flat Amount",
@@ -732,13 +666,10 @@
     "name": "deductionAmount",
     "id": "deductionAmount",
     "placeholder": "Enter Deduction Amount",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Deduction Amount",
@@ -770,13 +701,10 @@
     "name": "deductionDependentAmount",
     "id": "deductionDependentAmount",
     "placeholder": "Enter Deduction Dependent Amount",
-    "fieldtype": "numeric",
-    "fieldlength": {
-
-    },
+    "fieldtype": "text",
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false
-
     },
     "validationType": "string",
     "label": "Deduction Dependent Amount",
@@ -804,6 +732,4 @@
       ]
     }
   }
-
-]
 ]
