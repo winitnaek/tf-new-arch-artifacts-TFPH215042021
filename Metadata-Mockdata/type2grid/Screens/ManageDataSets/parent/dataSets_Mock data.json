@@ -1,0 +1,126 @@
+[
+  {
+    "Data Set ID": "00RG1",
+    "Data Set Description": "Neals Lab CU testing data set"
+  },
+  {
+    "Data Set ID": "ABTEST",
+    "Data Set Description": "BSI DEFAULT DATASET"
+  },
+  {
+    "Data Set ID": "ARTEST",
+    "Data Set Description": "AR Test Dataset"
+  },
+  {
+    "Data Set ID": "CERTUSR1",
+    "Data Set Description": "data set CERTUSR1 for CERTUSR login"
+  },
+  {
+    "Data Set ID": "CERTUSR2",
+    "Data Set Description": "CERTUSR2-Overrides"
+  },
+  {
+    "Data Set ID": "CYNDI",
+    "Data Set Description": "Cyndi Dataset"
+  },
+  {
+    "Data Set ID": "DANIEL",
+    "Data Set Description": "Daniel's test dataset"
+  },
+  {
+    "Data Set ID": "DEBORAH",
+    "Data Set Description": "Deborah's test dataset"
+  },
+  {
+    "Data Set ID": "DEFAULT",
+    "Data Set Description": "CHOA-PROD"
+  },
+  {
+    "Data Set ID": "DSCSBHH4ZY95NOO1",
+    "Data Set Description": "DSCSBHH4ZY95NOO1"
+  },
+  {
+    "Data Set ID": "DSCSBHH4ZY95NOO2",
+    "Data Set Description": "DSCSBHH4ZY95NOO2"
+  },
+  {
+    "Data Set ID": "DSCSBHH4ZY95NOO3",
+    "Data Set Description": "DSCSBHH4ZY95NOO3"
+  },
+  {
+    "Data Set ID": "HS_LAB_2",
+    "Data Set Description": "CERTUSR3"
+  },
+  {
+    "Data Set ID": "HSLAB",
+    "Data Set Description": "CERTUSR3"
+  },
+  {
+    "Data Set ID": "IGOR",
+    "Data Set Description": "Igor's test dataset"
+  },
+  {
+    "Data Set ID": "JEFF",
+    "Data Set Description": "Jeff's test dataset"
+  },
+  {
+    "Data Set ID": "MING",
+    "Data Set Description": "Ming's test dataset"
+  },
+  {
+    "Data Set ID": "NEAL_LABCU",
+    "Data Set Description": "Neals Lab CU testing data set"
+  },
+  {
+    "Data Set ID": "PETER",
+    "Data Set Description": "Peter's test dataset"
+  },
+  {
+    "Data Set ID": "PRUTHVI",
+    "Data Set Description": "Pruthvi's test dataset"
+  },
+  {
+    "Data Set ID": "RAJI",
+    "Data Set Description": "Raji's test dataset"
+  },
+  {
+    "Data Set ID": "RRDATASET",
+    "Data Set Description": "RR DATASET"
+  },
+  {
+    "Data Set ID": "SF128034",
+    "Data Set Description": "CHOA-PROD"
+  },
+  {
+    "Data Set ID": "SF136876",
+    "Data Set Description": "Development Dataset"
+  },
+  {
+    "Data Set ID": "SFDEV",
+    "Data Set Description": "SFDEV"
+  },
+  {
+    "Data Set ID": "SITA",
+    "Data Set Description": "Sita's test dataset"
+  },
+  {
+    "Data Set ID": "SUDHIR",
+    "Data Set Description": "Neals Lab CU testing data set"
+  },
+  {
+    "Data Set ID": "SUNLAB11",
+    "Data Set Description": "Sundari's TF11 Lab"
+  },
+  {
+    "Data Set ID": "TF11_LAB_INSTANCE",
+    "Data Set Description": "Lab box TF11 database"
+  },
+  {
+    "Data Set ID": "TF11_LJY_SAAS",
+    "Data Set Description": "LJY_SAAS_Dataset"
+  },
+  {
+    "Data Set ID": "VINIT",
+    "Data Set Description": "Vinit's test dataset"
+  }
+]

@@ -1,0 +1,151 @@
+{
+   "pgdef":{
+      "pgid":"garnishmentFormulaOverride",
+      "pgtitle":"Garnishment Formula Overrides",
+      "pgsubtitle":"The Following formulas are definded for : ",
+      "flowtype":"flowtype2",
+      "hasAddNew":true,
+      "addNewLabel":"Click here to add new Garnishment Formula Override.",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/garnishmentFormulaOverrides",
+      "parentConfig":"garnishmentFormulaOverrides",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"type2",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"There are no formulas defined for : ",
+      "recordEdit":true,
+      "recordDelete":true,
+      "columns":[
+         {
+            "text":"Tax Name",
+            "datafield":"taxName",
+            "cellsalign":"left",
+            "align":"left",
+            "sortable":true,
+            "width":"16%"
+         },
+         {
+            "text":"Tax Code",
+            "datafield":"taxCode",
+            "cellsalign":"left",
+            "align":"left",
+            "sortable":true,
+            "width":"16%"
+         },
+         {
+            "text":"Garnishment",
+            "datafield":"garnishment",
+            "cellsalign":"",
+            "align":"left",
+            "sortable":true,
+            "width":"8%"
+         },
+         {
+            "text":"Garnishment Name",
+            "datafield":"garnishmentName",
+            "cellsalign":"left",
+            "align":"left",
+            "sortable":true,
+            "width":"16%"
+         },
+         {
+            "text":"Start Date",
+            "datafield":"startDate",
+            "cellsalign":"left",
+            "align":"left",
+            "sortable":true,
+            "width":"8%"
+         },
+         {
+            "text":"End Date",
+            "datafield":"endDate",
+            "cellsalign":"left",
+            "align":"left",
+            "sortable":true,
+            "width":"8%"
+         }
+      ],
+      "dataFields":[
+         {
+            "name":"taxName",
+            "type":"string"
+         },
+         {
+            "name":"taxCode",
+            "type":"string"
+         },
+         {
+            "name":"garnishment",
+            "type":"string"
+         },
+         {
+            "name":"garnishmentName",
+            "type":"string"
+         },
+         {
+            "name":"startDate",
+            "type":"string"
+         },
+         {
+            "name":"endDate",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef":{
+      "title":"Reciprocal Overrides",
+      "subtitle":"Formula for ",
+      "hasSave":true,
+      "hasDelete":true,
+      "hasSaveAs":false,
+      "hasViewPDF":false,
+      "hasView":false,
+      "hasRecentUsage":false,
+      "formflds":[
+         {
+            "id":"taxName",
+            "order":1,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"taxCode",
+            "order":2,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"garnishment",
+            "order":3,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"garnishmentName",
+            "order":4,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         },    
+         {
+            "id":"startDate",
+            "order":5,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         },   
+         {
+            "id":"endDate",
+            "order":6,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         }            
+      ],
+      "fltrflds":""
+   }
+}

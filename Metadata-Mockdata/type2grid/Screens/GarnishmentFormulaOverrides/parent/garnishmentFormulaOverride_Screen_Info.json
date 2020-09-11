@@ -1,0 +1,8 @@
+{
+   "value":"OO",
+   "label":"Garnishment Formula Overrides",
+   "desc":"Garnishment Formula Overrides",
+   "id":"garnishmentFormulaOverrides",
+   "type":"comp",
+   "link":true
+}
