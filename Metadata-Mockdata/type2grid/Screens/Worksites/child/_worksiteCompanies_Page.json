@@ -81,7 +81,9 @@
       { "name": "county", "type": "string" },
       { "name": "state", "type": "string" },
       { "name": "zip", "type": "string" },
-      { "name": "fein", "type": "string" }
+      { "name": "fein", "type": "string" },
+      { "name": "company", "type": "string" },
+      { "name": "companyName", "type": "string" }
     ]
   },
   "formdef": {
@@ -134,6 +136,18 @@
       {
         "id": "zip",
         "order": 7,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "company",
+        "order": 8,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "companyName",
+        "order": 9,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       }

@@ -1,4 +1,41 @@
-[
+[{
+   "name": "company",
+   "id": "company",
+   "placeholder": "",
+   "fieldtype": "text",
+   "fieldlength": {},
+   "fieldinfo": {},
+   "hidden":"hidden",
+   "validationType": "string",
+   "label": "",
+   "value": "",
+   "validation": {
+     "required": false,
+     "type": "string",
+     "subtype": [
+     ],
+     "constraint": []
+   }
+ },
+ {
+   "name": "companyName",
+   "id": "companyName",
+   "placeholder": "",
+   "fieldtype": "text",
+   "fieldlength": {},
+   "fieldinfo": {},
+   "hidden":"hidden",
+   "validationType": "string",
+   "label": "",
+   "value": "",
+   "validation": {
+     "required": false,
+     "type": "string",
+     "subtype": [
+     ],
+     "constraint": []
+   }
+ },
   {
     "name": "Worksite",
     "id": "location",
@@ -421,7 +458,7 @@
     "fieldlength": {},
     "fieldinfo": {},
     "validationType": "string",
-    "label": "Max Tax",
+    "label": "Zip",
     "value": "",
     "validation": {
       "required": true,
