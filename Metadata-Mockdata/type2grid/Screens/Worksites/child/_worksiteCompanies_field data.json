@@ -41,11 +41,15 @@
     "id": "location",
     "placeholder": "Enter Worksite",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 11
+    },
     "fieldinfo": {},
     "validationType": "string",
-    "label": "Location",
+    "label": "Worksite",
     "value": "",
+    "errmsg":"Worksite is required.",
     "validation": {
       "required": true,
       "type": "string",
@@ -58,13 +62,13 @@
       "constraint": [
         {
           "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
+          "input": 1,
+          "message": "min 1 characters"
         },
         {
           "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "input": 11,
+          "message": "max 11 characters"
         }
       ]
     }
@@ -72,14 +76,18 @@
   {
     "name": "street1",
     "id": "street1",
-    "placeholder": "Enter Street",
+    "placeholder": "Enter Street1",
     "description": "Example: PeachTree Industrial",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 50
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Street1",
     "value": "",
+    "errmsg":"Street1 is required.",
     "validation": {
       "required": true,
       "type": "string",
@@ -97,8 +105,8 @@
         },
         {
           "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "input": 50,
+          "message": "max 50 characters"
         }
       ]
     }
@@ -108,7 +116,10 @@
     "id": "street2",
     "placeholder": "Enter Street2",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 50
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Street2",
@@ -130,8 +141,8 @@
         },
         {
           "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "input": 50,
+          "message": "max 50 characters"
         }
       ]
     }
@@ -141,11 +152,15 @@
     "id": "city",
     "placeholder": "Enter city",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 57
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "City",
     "value": "",
+    "errmsg":"City is required.",
     "validation": {
       "required": true,
       "type": "string",
@@ -163,8 +178,8 @@
         },
         {
           "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "input": 57,
+          "message": "max 57 characters"
         }
       ]
     }
@@ -174,7 +189,10 @@
     "id": "county",
     "placeholder": "Select County",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 22
+    },
     "fieldinfo": {
       "isasync": true,
       "typeahead": false
@@ -182,6 +200,7 @@
     "validationType": "string",
     "label": "County",
     "value": "",
+    "errmsg":"County is required.",
     "validation": {
       "required": true,
       "type": "string",
@@ -199,8 +218,8 @@
         },
         {
           "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "input": 22,
+          "message": "max 22 characters"
         }
       ]
     }
@@ -445,6 +464,7 @@
     "validationType": "string",
     "label": "State",
     "value": "",
+    "errmsg":"State is required.",
     "validation": {
       "required": true,
       "type": "string"
@@ -455,22 +475,26 @@
     "id": "zip",
     "placeholder": "Enter zip",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength": 5,
+      "maxlength": 9
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Zip",
     "value": "",
+    "errmsg":"Zip is required.",
     "validation": {
       "required": true,
       "type": "number",
       "subtype": [
         {
           "type": "positive",
-          "message": "Zipcode cannot be negative"
+          "message": "Zip cannot be negative"
         },
         {
           "type": "integer",
-          "message": "Zipcode must be an integer"
+          "message": "Zip must be an integer"
         },
         {
           "type": "typeError",
@@ -480,13 +504,13 @@
       "constraint": [
         {
           "type": "min",
-          "input": 0,
-          "message": "Invalid Zip Code"
+          "input": 10000,
+          "message": "US Postal Code must be 5 or 9 digits."
         },
         {
           "type": "max",
-          "input": 99999,
-          "message": "Invalid Zip Code"
+          "input": 999999999,
+          "message": "US Postal Code must be 5 or 9 digits."
         }
       ]
     }
