@@ -1,6 +1,6 @@
 {
   "pgdef": {
-    "pgid": "garnishmentFormulaOverrideDetails",
+    "pgid": "garnishmentFormulaOverride",
     "pgtitle": "Garnishment Formula Override",
     "pgsubtitle": "",
     "flowtype": "flowtype1",
@@ -9,7 +9,7 @@
     "actiondel": false,
     "helpAvailable": true,
     "helpLblTxt": "Click here for more info!",
-    "helpLink": "/garnishmentFormulaOverrideDetails",
+    "helpLink": "/garnishmentFormulaOverride",
     "parentConfig": "",
     "childConfig": ""
   },
@@ -26,7 +26,7 @@
     "columns": [
         {
             "text": "Attribute",
-            "datafield": "attribute",
+            "datafield": "label",
             "cellsalign": "left",
             "width": "45%",
             "align": "left",
@@ -47,7 +47,7 @@
         }
     ],
     "dataFields":[
-      {"name": "attribute","type": "string"},
+      {"name": "label","type": "string"},
       {"name": "value","type": "string"}
       ]
 	},
