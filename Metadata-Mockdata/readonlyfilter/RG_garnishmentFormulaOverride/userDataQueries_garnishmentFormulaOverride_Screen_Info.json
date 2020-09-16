@@ -2,7 +2,7 @@
    "value":"UQ",
    "label":"Garnishment Formula Override",
    "desc":"Garnishment Formula Override",
-   "id":"garnishmentFormulaOverride",
+   "id":"garnishmentFormulaOverrideDetails",
    "type":"comp",
    "link":false
 }
