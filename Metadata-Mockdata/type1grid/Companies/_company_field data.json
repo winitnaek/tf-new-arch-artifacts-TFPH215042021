@@ -9,7 +9,7 @@
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
-      "maxlength": 25
+      "maxlength": 11
     },
     "fieldinfo": {
       "typeahead": false,
@@ -34,7 +34,7 @@
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
-      "maxlength": 25
+      "maxlength": 50
     },
     "fieldinfo": {
       "typeahead": false,
