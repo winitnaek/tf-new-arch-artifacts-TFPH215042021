@@ -1,9 +1,31 @@
 [
   {
-    "id": "customTaxName",
-    "placeholder": "Enter Custom Tax Name",
+    "id": "attribute",
+    "placeholder": "Enter the Attribute",
     "fieldtype": "select",
-    "label": "Tax Name",
+    "label": "attribute",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+{
+    "id": "value",
+    "placeholder": "Enter value",
+    "fieldtype": "select",
+    "label": "Value",
     "value": "",
     "errmsg": " ",
     "fieldlength": {

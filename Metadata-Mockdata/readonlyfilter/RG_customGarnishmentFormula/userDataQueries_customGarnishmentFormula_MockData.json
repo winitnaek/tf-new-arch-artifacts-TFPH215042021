@@ -1,15 +1,15 @@
 [
   {
     "attribute": "Custom Garnishment Code",
-    "value": "CUSTGAR001"
+    "value": "TESTCG"
   },
   {
     "attribute": "Start Date",
-    "value": "1/1/2020"
+    "value": "8/10/2020"
   },
   {
     "attribute": "End Date",
-    "value": "12/31/2020"
+    "value": "12/31/9999"
   },
   {
     "attribute": "Input Amount Indicator",
@@ -17,7 +17,7 @@
   },
   {
     "attribute": "Flat Amount",
-    "value": 10
+    "value": 0
   },
   {
     "attribute": "Percent",
