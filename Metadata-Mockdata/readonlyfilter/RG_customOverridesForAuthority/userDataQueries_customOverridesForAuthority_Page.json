@@ -37,7 +37,7 @@
         },
         {
             "text": "Description",
-            "datafield": "description1",
+            "datafield": "taxTypeName",
             "cellsalign": "left",
             "width": "12%",
             "align": "left",
@@ -47,7 +47,7 @@
         },
         {
             "text": "Override",
-            "datafield": "override",
+            "datafield": "isOverride",
             "cellsalign": "left",
             "width": "7%",
             "align": "left",
@@ -67,9 +67,9 @@
         },
         {
             "text": "Description",
-            "datafield": "description2",
+            "datafield": "groupName",
             "cellsalign": "left",
-            "width": "6%",
+            "width": "8%",
             "align": "left",
             "sortable": true,
             "rendererInput": "",
@@ -77,7 +77,7 @@
         },			
         {
             "text": "Pay Type",
-            "datafield": "payType",
+            "datafield": "paymentType",
             "cellsalign": "left",
             "width": "6%",
             "align": "left",
@@ -87,7 +87,7 @@
         },
         {
             "text": "Earn/Pay Code",
-            "datafield": "earn/PayCode",
+            "datafield": "payment",
             "cellsalign": "left",
             "width": "6%",
             "align": "left",
@@ -97,7 +97,7 @@
         },
         {
             "text": "Description",
-            "datafield": "description3",
+            "datafield": "paymentName",
             "cellsalign": "left",
             "width": "6%",
             "align": "left",
@@ -107,7 +107,7 @@
         },
         {
             "text": "Employee Limit",
-            "datafield": "employeeLimit",
+            "datafield": "employeePlanMax",
             "cellsalign": "left",
             "width": "6%",
             "align": "left",
@@ -117,7 +117,7 @@
         },
         {
             "text": "Employer Limit",
-            "datafield": "employerLimit",
+            "datafield": "employerPlanMax",
             "cellsalign": "left",
             "width": "7%",
             "align": "left",
@@ -127,7 +127,7 @@
         },
         {
             "text": "Class",
-            "datafield": "className",
+            "datafield": "planClass",
             "cellsalign": "left",
             "width": "6%",
             "align": "left",
@@ -137,7 +137,7 @@
         },
         {
             "text": "Freq",
-            "datafield": "freq",
+            "datafield": "limitFrequency",
             "cellsalign": "left",
             "width": "6%",
             "align": "left",
@@ -149,7 +149,7 @@
             "text": "Start Date",
             "datafield": "startDate",
             "cellsalign": "left",
-            "width": "6%",
+            "width": "8%",
             "align": "left",
             "sortable": true,
             "rendererInput": "",
@@ -161,7 +161,7 @@
             "cellsalign": "left",
             "align": "left",
             "sortable": true,
-            "width": "6%",
+            "width": "7%",
             "rendererInput": "",
             "rendererStaticInput": ""
         }
@@ -169,17 +169,17 @@
 
     "dataFields":[
         {"name": "taxType","type": "string"},
-        {"name": "description1","type": "string"},
-        {"name": "override","type": "string"},
+        {"name": "taxTypeName","type": "string"},
+        {"name": "isOverride","type": "string"},
         {"name": "groupCode","type": "string"},
-        {"name": "description2","type": "string"},
-        {"name": "payType","type": "string"},
-        {"name": "earn/PayCode","type": "string"},
-        {"name": "description3","type": "string"},
-        {"name": "employeeLimit","type": "string"},
-        {"name": "employerLimit","type": "string"},
-        {"name": "className","type": "string"},
-        {"name": "freq","type": "string"},
+        {"name": "groupName","type": "string"},
+        {"name": "paymentType","type": "string"},
+        {"name": "payment","type": "string"},
+        {"name": "paymentName","type": "string"},
+        {"name": "employeePlanMax","type": "string"},
+        {"name": "employerPlanMax","type": "string"},
+        {"name": "planClass","type": "string"},
+        {"name": "limitFrequency","type": "string"},
         {"name": "startDate","type": "string"},
         {"name": "endDate","type": "string"}
         ]
