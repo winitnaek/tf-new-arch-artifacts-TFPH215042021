@@ -26,8 +26,8 @@
     "placeholder": "Enter Tax Type",
     "fieldtype": "select",
     "label": "Tax Type",
-    "value": "Tax Type is required.",
-    "errmsg": " ",
+    "value": "",
+    "errmsg": "Tax Type is required.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
