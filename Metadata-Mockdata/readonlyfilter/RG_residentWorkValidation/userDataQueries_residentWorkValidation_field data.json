@@ -5,7 +5,7 @@
       "fieldtype":"date",
       "label":"Start Date",
       "value":"new Date()",
-      "errmsg":" ",
+      "errmsg":"Start Date is required.",
       "fieldlength":{
          "minlength":1,
          "maxlength":25
@@ -17,7 +17,7 @@
       "multiselect": false
     },
       "validation":{
-         "required":false,
+         "required":true,
          "type":"string"
       }
  },
@@ -28,7 +28,7 @@
       "fieldtype":"select",
       "label":"Tax Code",
       "value":"",
-      "errmsg":" ",
+      "errmsg":"Tax Code is required.",
       "fieldlength":{
          "minlength":1,
          "maxlength":25
@@ -52,7 +52,7 @@
       "fieldtype":"select",
       "label":"Tax Type",
       "value":"",
-      "errmsg":" ",
+      "errmsg":"Tax Type is required.",
       "fieldlength":{
          "minlength":1,
          "maxlength":25
@@ -76,7 +76,7 @@
       "fieldtype":"select",
       "label":"Formula",
       "value":"",
-      "errmsg":" ",
+      "errmsg":"Formula is required.",
       "fieldlength":{
          "minlength":1,
          "maxlength":25
