@@ -64,7 +64,7 @@
 
     "formflds": [
       { "id": "attribute", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
-      { "id": "value", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false }
+      { "id": "value", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
     ],
 
     "fltrflds": ""
