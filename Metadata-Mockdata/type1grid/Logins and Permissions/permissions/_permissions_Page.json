@@ -1,0 +1,167 @@
+{
+  "pgdef": {
+    "pgid": "permissions",
+    "pgtitle": "Permissions",
+    "pgsubtitle": "Login ID -",
+    "flowtype": "flowtype1",
+    "hasAddNew": false,
+    "addNewLabel": "Click here to add new Login Or click on existing Login to edit.",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/permissions",
+    "parentConfig": "logins",
+    "childConfig": ""
+  },
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "pageSize": 58,
+    "pagesizeoptions": [10, 20, 30, 58],
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No Data Found : ",
+    "recordEdit": false,
+    "recordDelete": false,
+    "editable": true,
+    "editControls": [
+      { "id": "checkAll", "buttonText": "Check All", "color": "primary", "className": "mr-1" },
+      { "id": "uncheckAll", "buttonText": "Uncheck All", "color": "primary", "className": "mr-1" },
+      { "id": "viewPdf", "buttonText": "View PDF", "color": "primary", "className": "mr-1" },
+      { "id": "save", "buttonText": "Save", "color": "primary", "className": "mr-1" },
+      { "id": "resetToDefault", "buttonText": "Reset to Default", "color": "primary", "className": "mr-1" }
+    ],
+    "columns": [
+      {
+        "text": "Tool Name",
+        "datafield": "toolName",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "editable": false,
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "View",
+        "datafield": "view",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "columntype": "checkbox",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Save",
+        "datafield": "save",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "columntype": "checkbox",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Delete",
+        "datafield": "delete",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "columntype": "checkbox",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Run",
+        "datafield": "run",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "columntype": "checkbox",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Audit",
+        "datafield": "audit",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "columntype": "checkbox",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": "",
+        "editable": false
+      },
+      {
+        "text": "Auditable",
+        "datafield": "isAuditable",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "columntype": "checkbox",
+        "hidden": true,
+        "sortable": false,
+        "rendererInput": "",
+        "rendererStaticInput": "",
+        "editable": false
+      }
+    ],
+    "dataFields": [
+      {
+        "name": "toolName",
+        "type": "string"
+      },
+      {
+        "name": "view",
+        "type": "bool"
+      },
+      {
+        "name": "save",
+        "type": "bool"
+      },
+      {
+        "name": "delete",
+        "type": "bool"
+      },
+      {
+        "name": "run",
+        "type": "bool"
+      },
+      {
+        "name": "audit",
+        "type": "bool"
+      },
+      {
+        "name": "isAuditable",
+        "type": "bool"
+      }
+    ]
+  },
+  "formdef": {
+    "isTopSelector": true,
+    "title": "",
+    "subtitle": "",
+    "hasSave": false,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "permissionFor",
+        "order": 1,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      }
+    ]
+  }
+}

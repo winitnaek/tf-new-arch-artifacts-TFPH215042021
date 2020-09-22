@@ -1,0 +1,30 @@
+[
+  {
+    "id": "permissionFor",
+    "placeholder": "",
+    "fieldtype": "select",
+    "label": "Permission for dataset:",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": true,
+      "options": []
+    },
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": []
+    }
+  }
+]

@@ -9,9 +9,10 @@
       "actiondel":false,
       "helpAvailable":true,
       "helpLblTxt":"Click here for more info!",
-      "helpLink":"/addressOverrides",
+      "helpLink":"/logins",
       "parentConfig":"",
-      "childConfig":""
+      "childConfig":"",
+      "gridSubNavigations":[{"id":"permissions", "label": "Manage Permissions"}]
    },
    "griddef":{
       "gridtype":"type1",
@@ -47,7 +48,7 @@
            "text": "Manage Datasets",
            "datafield": "manageDatasets",
             "cellsalign": "left",
-            "width": "25%",
+            "width": "20%",
             "align": "left",
             "sortable": true,
             "rendererInput":"",
@@ -57,7 +58,7 @@
            "text": "User Interface Permission",
            "datafield": "userInteracePermission",
             "cellsalign": "left",
-            "width": "25%",
+            "width": "20%",
             "align": "left",
             "sortable": true,
             "rendererInput":"",

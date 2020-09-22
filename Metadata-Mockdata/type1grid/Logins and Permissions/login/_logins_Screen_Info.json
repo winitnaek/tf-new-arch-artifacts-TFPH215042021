@@ -1,0 +1,8 @@
+{
+   "value":"LI",
+   "label":"Logins and Permissions",
+   "desc":"Logins and Permissions",
+   "id":"logins",
+   "type":"comp",
+   "link":true
+}

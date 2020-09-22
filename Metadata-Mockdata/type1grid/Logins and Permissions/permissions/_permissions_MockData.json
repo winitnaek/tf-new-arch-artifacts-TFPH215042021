@@ -1,0 +1,533 @@
+[
+  {
+    "toolName": "Batch Test",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Companies",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Coterminous Report",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Custom Backup/Restore",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Custom Formulas",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Custom Garnishment Formulas",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Custom Garnishments",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Custom Nexus Data",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Custom Payments",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Custom Tax Codes",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Custom Tax Payment Overrides",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Cyclic Bulletins",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Database Connect",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Database Load",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Disposable Overrides",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Enhanced Locator Address Override",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Garnishment Formula Overrides",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Garnishment Groups",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Group Overrides",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Groups",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Home Webpage",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Localities Report",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Locator Bulletins",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Marital Status",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Message Filter",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Message Viewer",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Optional Rates",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "PA Services Tax Report",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Payment Overrides",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Pension Quick Formulas",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Pension What-If Test",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Plan/Earning Codes",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Purge Data",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Quick Formulas",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Reciprocal Overrides",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Regulatory Bulletin Updates",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "System Tools",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Tax Codes",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Tax Effective Date Override",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Tax History",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Tax Locator",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Tax Types",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Taxability Report",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "TaxFactory API",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxFactory Federal/State",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxFactory Federal/State/Local",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxFactory Pension Taxes",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxLocator",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxLocator Garnishment Option",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxLocator Gross Up Option",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxLocator Reciprocal Option",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxLocator Version 1 Option",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxLocator Version 2 Option",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "TaxLocator Wage Assessment Option",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Unemployment Overrides",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "Update",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": true
+  },
+  {
+    "toolName": "User Queries",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "What-If Test",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  },
+  {
+    "toolName": "Worksites",
+    "view": true,
+    "save": true,
+    "delete": true,
+    "run": true,
+    "audit": false,
+    "isAuditable": false
+  }
+]
