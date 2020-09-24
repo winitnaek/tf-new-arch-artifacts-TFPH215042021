@@ -26,72 +26,72 @@
          {
             "text":"Custom Tax Code Name",
             "datafield":"taxName",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "sortable":true,
             "width":"15%"
          },
          {
             "text":"Method",
             "datafield":"cmName",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          },
          {
             "text":"Tax Rate",
             "datafield":"taxRate",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          },
          {
             "text":"Rounding",
             "datafield":"roundingDisplay",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          },
          {
             "text":"Min Wage",
             "datafield":"minWage",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          },
          {
             "text":"Max Wage",
             "datafield":"maxWage",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          },
          {
             "text":"Max Tax",
             "datafield":"maxTax",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          },
          {
             "text":"Flat Amount",
             "datafield":"flatAmount",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          },
          {
             "text":"Start Date",
             "datafield":"startDate",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          },
          {
             "text":"End Date",
             "datafield":"rescind",
-            "cellsalign":"center",
-            "align":"center",
+            "cellsalign":"left",
+            "align":"left",
             "width":"8.8889%"
          }
       ],
