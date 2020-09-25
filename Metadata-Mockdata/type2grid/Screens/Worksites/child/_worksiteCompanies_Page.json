@@ -26,8 +26,8 @@
       {
         "text": "Worksite",
         "datafield": "location",
-        "cellsalign": "center",
-        "align": "center",
+        "cellsalign": "left",
+        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -35,8 +35,8 @@
       {
         "text": "Street",
         "datafield": "street1",
-        "cellsalign": "center",
-        "align": "center",
+        "cellsalign": "left",
+        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -44,33 +44,33 @@
       {
         "text": "Street2",
         "datafield": "street2",
-        "cellsalign": "center",
-        "align": "center",
+        "cellsalign": "left",
+        "align": "left",
         "width": "20%"
       },
       {
         "text": "City",
         "datafield": "city",
-        "cellsalign": "center",
-        "align": "center"
+        "cellsalign": "left",
+        "align": "left"
       },
       {
         "text": "County",
         "datafield": "county",
-        "cellsalign": "center",
-        "align": "center"
+        "cellsalign": "left",
+        "align": "left"
       },
       {
         "text": "State",
         "datafield": "state",
-        "cellsalign": "center",
-        "align": "center"
+        "cellsalign": "left",
+        "align": "left"
       },
       {
         "text": "Zip",
         "datafield": "zip",
-        "cellsalign": "center",
-        "align": "center"
+        "cellsalign": "left",
+        "align": "left"
       }
     ],
     "dataFields": [
