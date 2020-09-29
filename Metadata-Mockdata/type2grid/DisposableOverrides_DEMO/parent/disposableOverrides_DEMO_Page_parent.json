@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "disposableOverrides",
     "pgtitle": "Disposable Overrides",
-    "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
+    "pgsubtitle": "Click the magnifying glass in the view column on the appropriate row to manage the formula",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "Click on Group Name to manage the Overrides",
@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/disposableOverrides",
     "parentConfig": "",
-    "childConfig": "disposableOverrides"
+    "childConfig": [{ "pgid": "disposableOverrides", "columnHeader": "View" }]
   },
   "griddef": {
     "gridtype": "type2",
@@ -23,7 +23,6 @@
     "recordEdit": true,
     "recordDelete": true,
     "columns": [
-      
       {
         "text": "Group Code",
         "datafield": "groupCode",
@@ -34,7 +33,7 @@
         "rendererInput": "",
         "rendererStaticInput": ""
       },
-     
+
       {
         "text": "Group Name",
         "datafield": "groupName",
@@ -45,10 +44,8 @@
         "rendererInput": "",
         "rendererStaticInput": ""
       }
-
     ],
     "dataFields": [
-     
       {
         "name": "groupCode",
         "type": "string"
@@ -57,7 +54,6 @@
         "name": "groupName",
         "type": "string"
       }
-
     ]
   },
 
@@ -67,7 +63,7 @@
     "hasSave": true,
     "hasDelete": true,
     "hasSaveAs": false,
-    "hasViewPDF": true,
+    "hasViewPDF": false,
     "hasView": false,
     "hasRecentUsage": false,
     "formflds": [
@@ -83,7 +79,6 @@
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       }
-
     ],
     "fltrflds": ""
   }

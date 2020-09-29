@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/disposableOverrides",
     "parentConfig": "disposableRateOverrides",
-    "childConfig": "viewDisposableOverride"
+    "childConfig": []
 
   },
   "griddef": {

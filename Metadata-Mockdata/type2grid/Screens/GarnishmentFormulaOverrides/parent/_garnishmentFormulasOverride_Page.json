@@ -11,7 +11,7 @@
       "helpLblTxt":"Click here for more info!",
       "helpLink":"/garnishmentFormulasOverride",
       "parentConfig":"",
-      "childConfig":"garnishmentFormulaOverrides"
+      "childConfig": [{"pgid":"garnishmentFormulaOverrides", "columnHeader": "View"}]
    },
    "griddef":{
       "gridtype":"type2",

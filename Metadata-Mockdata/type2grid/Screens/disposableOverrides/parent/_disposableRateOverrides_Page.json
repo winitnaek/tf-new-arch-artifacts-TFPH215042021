@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/disposableOverrides",
     "parentConfig": "",
-    "childConfig": "disposableOverride"
+    "childConfig": [{"pgid":"disposableOverride", "columnHeader": "View"}]
   },
   "griddef": {
     "gridtype": "type2",
@@ -67,7 +67,7 @@
     "hasSave": true,
     "hasDelete": true,
     "hasSaveAs": false,
-    "hasViewPDF": true,
+    "hasViewPDF": false,
     "hasView": false,
     "hasRecentUsage": false,
     "formflds": [

@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/customPaymentExceptions",
     "parentConfig": "",
-    "childConfig": "customTaxPaymentOverride"
+    "childConfig": [{"pgid":"customTaxPaymentOverride", "columnHeader": "View"}]
   },
    "griddef":{
       "gridtype":"type2",

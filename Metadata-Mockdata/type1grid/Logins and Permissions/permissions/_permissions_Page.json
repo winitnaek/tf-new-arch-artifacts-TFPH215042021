@@ -17,7 +17,7 @@
     "gridtype": "type1",
     "isfilter": true,
     "pageSize": 59,
-    "pagesizeoptions": [10, 20, 30, 58],
+    "pagesizeoptions": [10, 20, 30, 59],
     "isfilterform": false,
     "datatype": "json",
     "contenttype": "application/json",

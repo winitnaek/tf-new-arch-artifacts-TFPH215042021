@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/customPaymentExceptions",
     "parentConfig": "customPayments",
-    "childConfig": "customPaymentTaxExceptions"
+    "childConfig": [{"pgid":"customPaymentTaxExceptions", "columnHeader": "View"}]
   },
    "griddef":{
       "gridtype":"type2",
@@ -75,7 +75,7 @@
     "hasSave": true,
     "hasDelete": true,
     "hasSaveAs": false,
-    "hasViewPDF": true,
+    "hasViewPDF": false,
     "hasView": false,
     "hasRecentUsage": true,
     "formflds": [

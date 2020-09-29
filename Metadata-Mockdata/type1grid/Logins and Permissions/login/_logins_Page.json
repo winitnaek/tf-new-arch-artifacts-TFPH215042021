@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/logins",
     "parentConfig": "",
-    "childConfig": [{ "id": "permissions", "label": "Manage Permissions" }]
+    "childConfig": [{ "pgid": "permissions", "columnHeader": "Manage Permissions" }]
   },
   "griddef": {
     "gridtype": "type1",
