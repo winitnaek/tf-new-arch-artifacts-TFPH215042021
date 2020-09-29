@@ -25,8 +25,8 @@
       {
         "text": "Company Code",
         "datafield": "company",
-        "cellsalign": "center",
-        "align": "center",
+        "cellsalign": "left",
+        "align": "left",
         "sortable": true,
         "width": "47.5%",
         "rendererInput": "",
@@ -35,8 +35,8 @@
       {
         "text": "Company Name",
         "datafield": "companyName",
-        "cellsalign": "center",
-        "align": "center",
+        "cellsalign": "left",
+        "align": "left",
         "sortable": true,
         "width": "47.5%",
         "rendererInput": "",

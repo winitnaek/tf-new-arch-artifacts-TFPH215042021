@@ -87,8 +87,8 @@
       "constraint": [
         {
           "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
+          "input": 1,
+          "message": "min 1 character"
         },
         {
           "type": "max",
