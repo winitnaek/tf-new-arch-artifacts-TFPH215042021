@@ -146,13 +146,41 @@
       "typeahead": false,
       "isasync": false,
       "options": [
-        { "id": "0", "label": "Taxable" },
-        { "id": "999", "label": "Non-Taxable" },
-        { "id": "100", "label": "Limit / YTD" },
-        { "id": "101", "label": "Limit / QTD" },
-        { "id": "102", "label": "Limit / MTD" },
-        { "id": "200", "label": "Taxable/Exclude" },
-        { "id": "995", "label": "Imputed" }
+        {
+          "id": "0",
+          "label": "Taxable",
+          "disable": ["eemax"],
+          "valuesToUpdate": {
+            "eemax": "0.00"
+          }
+        },
+        {
+          "id": "999",
+          "label": "Non-Taxable",
+          "disable": ["eemax"],
+          "valuesToUpdate": {
+            "eemax": 99999999999.99
+          }
+        },
+        { "id": "100", "label": "Limit / YTD", "enable": ["eemax"] },
+        { "id": "101", "label": "Limit / QTD", "enable": ["eemax"] },
+        { "id": "102", "label": "Limit / MTD", "enable": ["eemax"] },
+        {
+          "id": "200",
+          "label": "Taxable/Exclude",
+          "disable": ["eemax"],
+          "valuesToUpdate": {
+            "eemax": 99999999998.99
+          }
+        },
+        {
+          "id": "995",
+          "label": "Imputed",
+          "disable": ["eemax"],
+          "valuesToUpdate": {
+            "eemax": 99999999995.99
+          }
+        }
       ],
       "multiselect": false
     },
@@ -178,32 +206,16 @@
       "type": "number",
       "subtype": [
         {
-          "type": "positive",
-          "message": "Maximum Limit Cannot be negative"
-        },
-        {
           "type": "typeError",
           "message": "Must be a number"
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 0,
-          "message": "Maximum Limit can not be < 0"
-        },
-        {
-          "type": "max",
-          "input": 100,
-          "message": "Maximum Limit can not be > 100"
         }
       ]
     }
   },
   {
     "id": "employerTaxability",
-    "show": { 
-      "taxability": ["","0", "999", "100", "101", "102", "995"],
+    "show": {
+      "taxability": ["", "0", "999", "100", "101", "102", "995"],
       "payType": ["P"]
     },
     "placeholder": "Employer Taxability",

@@ -1,0 +1,8 @@
+{
+  "value": "SP",
+  "label": "Select Sample Page",
+  "desc": "Select Sample Page",
+  "id": "selectSamplePage",
+  "type": "comp",
+  "link": true
+}
