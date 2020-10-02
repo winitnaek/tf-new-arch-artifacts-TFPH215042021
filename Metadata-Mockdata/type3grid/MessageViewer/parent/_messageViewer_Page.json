@@ -12,7 +12,7 @@
     "helpLblTxt": "",
     "helpLink": "",
     "parentConfig": "",
-    "childConfig": "messagesViewer"
+    "childConfig": [{ "pgid": "messagesViewer" }]
   },
   "confirmdef": {
     "cheader": "",

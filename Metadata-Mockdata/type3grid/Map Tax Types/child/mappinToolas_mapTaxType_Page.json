@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/employeeGroups",
     "parentConfig": "mapTaxTypes",
-    "childConfig": "taxTypeUsage"
+    "childConfig": [{ "pgid": "taxTypeUsage" }]
   },
 
   "griddef": {
@@ -56,9 +56,7 @@
         "type": "string"
       }
     ]
-
   },
-
 
   "formdef": {
     "title": "Map Tax Types",
@@ -79,7 +77,6 @@
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       }
-
     ]
   }
 }

@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/worksites",
     "parentConfig": "",
-    "childConfig": "worksiteCompanies"
+    "childConfig": [{ "pgid": "worksiteCompanies" }]
   },
   "griddef": {
     "gridtype": "type2",
@@ -41,7 +41,7 @@
         "width": "47.5%",
         "rendererInput": "",
         "rendererStaticInput": ""
-      } 
+      }
     ],
     "dataFields": ""
   },

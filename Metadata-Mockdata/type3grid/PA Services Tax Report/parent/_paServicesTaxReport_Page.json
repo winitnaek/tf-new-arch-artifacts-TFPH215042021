@@ -11,7 +11,7 @@
     "helpLblTxt": "",
     "helpLink": "",
     "parentConfig": "",
-    "childConfig": "paServiceTaxReport"
+    "childConfig": [{ "pgid": "paServiceTaxReport" }]
   },
   "griddef": {
     "gridtype": "type2",

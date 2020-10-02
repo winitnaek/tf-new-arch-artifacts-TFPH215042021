@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/mapTaxCodes",
     "parentConfig": "",
-    "childConfig": "mapTaxCode",
+    "childConfig": [{ "pgid": "mapTaxCode" }],
     "extraLinks": [
       {
         "id": "createDefault",

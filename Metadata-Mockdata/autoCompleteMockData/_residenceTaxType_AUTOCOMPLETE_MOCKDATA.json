@@ -2,5 +2,9 @@
   {
     "id": "051 - EMPLOYEE OCCUPATION TAX",
     "label": "051 - EMPLOYEE OCCUPATION TAX"
+  },
+  {
+    "id": "052",
+    "label": "052 - EMPLOYEE TEST TAX"
   }
 ]

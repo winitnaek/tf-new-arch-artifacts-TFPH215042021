@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/mapPaymentCode",
     "parentConfig": "",
-    "childConfig": "mapPaymentCode"
+    "childConfig": [{ "pgid": "mapPaymentCode" }]
   },
 
   "griddef": {
@@ -84,7 +84,6 @@
         "type": "string"
       }
     ]
-
   },
   "formdef": {
     "title": "Map Payment Codes",
@@ -105,7 +104,6 @@
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       }
-
     ]
   }
 }

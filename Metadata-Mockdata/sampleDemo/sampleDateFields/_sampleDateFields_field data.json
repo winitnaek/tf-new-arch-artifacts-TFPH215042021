@@ -5,6 +5,7 @@
     "fieldtype": "select",
     "label": "Tax Code to be Overridden",
     "value": "",
+    "fieldHeader": "Clear button demo with dependent fields",
     "errmsg": "Tax Code to be Overridden is required",
     "dependentFields": ["residenceTaxType"],
     "fieldlength": {
@@ -149,6 +150,7 @@
     "id": "gfo_eductionsectionMethod",
     "placeholder": "Deduction Section Method",
     "fieldtype": "select",
+    "fieldHeader": "Dependency chain fields demo",
     "label": "Deduction Section Method",
     "value": "NONE",
     "errmsg": "Method is required",
@@ -159,11 +161,11 @@
     },
     "fieldinfo": {
       "options": [
-        "0- No Deductions",
-        "1- Subtract Deduction Flat Amount",
-        "2- Subtract Deduction Amount",
-        "3- Subtract Deduction Dependent Amount * Number of Dependents",
-        "4- Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents"
+        { "id": "0", "label": "0- No Deductions" },
+        { "id": "1", "label": "1- Subtract Deduction Flat Amount" },
+        { "id": "2", "label": "2- Subtract Deduction Amount" },
+        { "id": "3", "label": "3- Subtract Deduction Dependent Amount * Number of Dependents" },
+        { "id": "4", "label": "4- Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents" }
       ]
     },
     "validation": {
