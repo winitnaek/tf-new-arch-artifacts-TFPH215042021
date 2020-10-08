@@ -1,8 +1,9 @@
 {
-  "value": "TR",
+  "value": "UQ",
   "label": "Tax History Report",
   "desc": "Tax History Report",
   "id": "taxHistory",
   "type": "comp",
-  "link": true
+  "link": true,
+  "section":"Tax Details"
 }
