@@ -1,6 +1,6 @@
 [
   {
-    "id": "effectiveDate",
+    "id": "startdate",
     "placeholder": "",
     "fieldtype": "date",
     "label": "Effective Date",

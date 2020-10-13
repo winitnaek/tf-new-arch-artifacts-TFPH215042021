@@ -11,6 +11,24 @@
     "helpLblTxt": "",
     "helpLink": "",
     "parentConfig": "paServicesTaxReport",
+    "parentFields": [
+      {
+        "id": "startdate",
+        "label": "Effective Date"
+      },
+      {
+        "id": "bsiauth",
+        "label": "Authority Code"
+      },
+      {
+        "id": "authtitle",
+        "label": "Title"
+      },
+      {
+        "id": "countyid",
+        "label": "County Names"
+      }
+    ],
     "childConfig": ""
   },
   "griddef": {
@@ -24,8 +42,28 @@
     "recordDelete": false,
     "columns": [
       {
-        "text": "Authority",
-        "datafield": "authority",
+        "text": "TAX TYPE",
+        "datafield": "taxType",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "MUNICIPALITY",
+        "datafield": "authnametitlelst",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "MUNICIPAL PERCENT",
+        "datafield": "othertaxrlst",
         "cellsalign": "left",
         "width": "15%",
         "align": "left",
@@ -34,50 +72,10 @@
         "rendererStaticInput": ""
       },
       {
-        "text": "EFFECTIVE DATE",
-        "datafield": "effectiveDate",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
-        "sortable": true,
-        "rendererInput": "",
-        "rendererStaticInput": ""
-      },
-      {
-        "text": "TAX TYPE",
-        "datafield": "taxType",
-        "cellsalign": "left",
-        "width": "12.5%",
-        "align": "left",
-        "sortable": true,
-        "rendererInput": "",
-        "rendererStaticInput": ""
-      },
-      {
-        "text": "MUNICIPALITY",
-        "datafield": "municipality",
-        "cellsalign": "left",
-        "width": "12.5%",
-        "align": "left",
-        "sortable": true,
-        "rendererInput": "",
-        "rendererStaticInput": ""
-      },
-      {
-        "text": "MUNICIPAL PERCENT",
-        "datafield": "municipalPercent",
-        "cellsalign": "left",
-        "width": "12.5%",
-        "align": "left",
-        "sortable": true,
-        "rendererInput": "",
-        "rendererStaticInput": ""
-      },
-      {
         "text": "MUNICIPAL AMOUNT",
-        "datafield": "municipalAmount",
+        "datafield": "maximumtax2lst",
         "cellsalign": "left",
-        "width": "12.5%",
+        "width": "15%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
@@ -85,9 +83,9 @@
       },
       {
         "text": "SD PERCENT",
-        "datafield": "sdPercent",
+        "datafield": "taxratelst",
         "cellsalign": "left",
-        "width": "12.5%",
+        "width": "15%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
@@ -95,9 +93,9 @@
       },
       {
         "text": "SD AMOUNT",
-        "datafield": "sdAmount",
+        "datafield": "maximumtax_lst",
         "cellsalign": "left",
-        "width": "12.5%",
+        "width": "15%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
@@ -106,35 +104,27 @@
     ],
     "dataFields": [
       {
-        "name": "authority",
-        "type": "string"
-      },
-      {
-        "name": "effectiveDate",
-        "type": "string"
-      },
-      {
         "name": "taxType",
         "type": "string"
       },
       {
-        "name": "municipality",
+        "name": "authnametitlelst",
         "type": "string"
       },
       {
-        "name": "municipalPercent",
+        "name": "othertaxrlst",
         "type": "string"
       },
       {
-        "name": "municipalAmount",
+        "name": "maximumtax2lst",
         "type": "string"
       },
       {
-        "name": "sdPercent",
+        "name": "taxratelst",
         "type": "string"
       },
       {
-        "name": "sdAmount",
+        "name": "maximumtax_lst",
         "type": "string"
       }
     ]

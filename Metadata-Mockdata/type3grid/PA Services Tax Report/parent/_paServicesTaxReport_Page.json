@@ -15,7 +15,7 @@
   },
   "griddef": {
     "gridtype": "type2",
-    "isfilter": true,
+    "isDateFilter": true,
     "isfilterform": true,
     "datatype": "json",
     "contenttype": "application/json",
@@ -25,7 +25,7 @@
     "columns": [
       {
         "text": "Authority Code",
-        "datafield": "authorityCode",
+        "datafield": "bsiauth",
         "cellsalign": "left",
         "width": "33%",
         "align": "left",
@@ -35,7 +35,7 @@
       },
       {
         "text": "Title",
-        "datafield": "title",
+        "datafield": "authtitle",
         "cellsalign": "left",
         "width": "34%",
         "align": "left",
@@ -45,7 +45,7 @@
       },
       {
         "text": "County Name",
-        "datafield": "countyName",
+        "datafield": "countyid",
         "cellsalign": "left",
         "width": "33%",
         "align": "left",
@@ -56,15 +56,15 @@
     ],
     "dataFields": [
       {
-        "name": "authorityCode",
+        "name": "bsiauth",
         "type": "string"
       },
       {
-        "name": "title",
+        "name": "authtitle",
         "type": "string"
       },
       {
-        "name": "countyName",
+        "name": "countyid",
         "type": "string"
       }
     ]
@@ -80,19 +80,19 @@
     "hasRecentUsage": false,
     "formflds": [
       {
-        "id": "authorityCode",
+        "id": "bsiauth",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "title",
+        "id": "authtitle",
         "order": 2,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "countyName",
+        "id": "countyid",
         "order": 3,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false

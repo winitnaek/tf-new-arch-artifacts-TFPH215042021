@@ -1095,7 +1095,10 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["N/A", "EMPGR00001 - EMPLOYEE GROUP 00001"]
+      "options": [
+        { "id": "N/A", "label": "N/A" },
+        { "id": "EMPGR00001 - EMPLOYEE GROUP 00001", "label": "EMPGR00001 - EMPLOYEE GROUP 00001" }
+      ]
     },
     "validation": {
       "required": false,
@@ -1114,7 +1117,11 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["N/A", "RG999 - RG999 Company", "Z001 - company Z001 for cache-testing"]
+      "options": [
+        { "id": "N/A", "label": "N/A" },
+        { "id": "RG999 - RG999 Company", "label": "RG999 - RG999 Company" },
+        { "id": "Z001 - company Z001 for cache-testing", "label": "Z001 - company Z001 for cache-testing" }
+      ]
     },
     "validation": {
       "required": false,
@@ -1133,7 +1140,12 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["Regular", "Supplemental", "Cumulative", "Vacation"]
+      "options": [
+        { "id": "Regular", "label": "Regular" },
+        { "id": "Supplemental", "label": "Supplemental" },
+        { "id": "Cumulative", "label": "Cumulative" },
+        { "id": "Vacation", "label": "Vacation" }
+      ]
     },
     "validation": {
       "required": false,
@@ -1152,7 +1164,10 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["0 - Do Not Perform Gross-Up", "1 - Perform Gross-Up"]
+      "options": [
+        { "id": "0 - Do Not Perform Gross-Up", "label": "0 - Do Not Perform Gross-Up" },
+        { "id": "1 - Perform Gross-Up", "label": "1 - Perform Gross-Up" }
+      ]
     },
     "validation": {
       "required": false,
@@ -1171,7 +1186,10 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["0 - Not Eligible", "1 - Eligible"]
+      "options": [
+        { "id": "0 - Not Eligible", "label": "0 - Not Eligible" },
+        { "id": "1 - Eligible", "label": "1 - Eligible" }
+      ]
     },
     "validation": {
       "required": false,
@@ -1190,7 +1208,10 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["0 - No", "1 - Yes"]
+      "options": [
+        { "id": "0 - No", "label": "0 - No" },
+        { "id": "1 - Yes", "label": "1 - Yes" }
+      ]
     },
     "validation": {
       "required": false,
@@ -1210,9 +1231,9 @@
     },
     "fieldinfo": {
       "options": [
-        "0 - Do not Process Garnishments",
-        "1 - Do Garnishments and Tax Calculation",
-        "2 - Do Garnishments with Input Calculation"
+        { "id": "0 - Do not Process Garnishments", "label": "0 - Do not Process Garnishments" },
+        { "id": "1 - Do Garnishments and Tax Calculation", "label": "1 - Do Garnishments and Tax Calculation" },
+        { "id": "2 - Do Garnishments with Input Calculation", "label": "2 - Do Garnishments with Input Calculation" }
       ]
     },
     "validation": {
@@ -1258,7 +1279,6 @@
     },
     "validation": {
       "required": true,
-
       "type": "string"
     }
   },
@@ -1275,12 +1295,12 @@
     },
     "fieldinfo": {
       "options": [
-        "0 - Taxes Only",
-        "1 - Wage Assessment And Taxes",
-        "2 - Wage Assessment Only",
-        "3 - Non Negative Wage And Tax",
-        "4 - Non Neg Wage and Zero Tax",
-        "5 - Non Negative Tax Calc"
+        { "id": "0 - Taxes Only", "label": "0 - Taxes Only" },
+        { "id": "1 - Wage Assessment And Taxes", "label": "1 - Wage Assessment And Taxes" },
+        { "id": "2 - Wage Assessment Only", "label": "2 - Wage Assessment Only" },
+        { "id": "3 - Non Negative Wage And Tax", "label": "3 - Non Negative Wage And Tax" },
+        { "id": "4 - Non Neg Wage and Zero Tax", "label": "4 - Non Neg Wage and Zero Tax" },
+        { "id": "5 - Non Negative Tax Calc", "label": "5 - Non Negative Tax Calc" }
       ]
     },
     "validation": {
@@ -1301,10 +1321,10 @@
     },
     "fieldinfo": {
       "options": [
-        "0 - Assess Earnings And Contributions",
-        "1 - Assess Earnings Only",
-        "2 - Assess Contributions Only",
-        "3 - Do not Assess Earnings or Contributions"
+        { "id": "0 - Assess Earnings And Contributions", "label": "0 - Assess Earnings And Contributions" },
+        { "id": "1 - Assess Earnings Only", "label": "1 - Assess Earnings Only" },
+        { "id": "2 - Assess Contributions Only", "label": "2 - Assess Contributions Only" },
+        { "id": "3 - Do not Assess Earnings or Contributions", "label": "3 - Do not Assess Earnings or Contributions" }
       ]
     },
     "validation": {
@@ -1325,11 +1345,11 @@
     },
     "fieldinfo": {
       "options": [
-        "0 - N/A",
-        "1 - PA local House Bill 172 alternate recip",
-        "2 - PA (outside PA)",
-        "3 - Military Spouse (exempt tax)",
-        "4 - Military Spouse (exempt tax/wage)"
+        { "id": "0 - N/A", "label": "0 - N/A" },
+        { "id": "1 - PA local House Bill 172 alternate recip", "label": "1 - PA local House Bill 172 alternate recip" },
+        { "id": "2 - PA (outside PA)", "label": "2 - PA (outside PA)" },
+        { "id": "3 - Military Spouse (exempt tax)", "label": "3 - Military Spouse (exempt tax)" },
+        { "id": "4 - Military Spouse (exempt tax/wage)", "label": "4 - Military Spouse (exempt tax/wage)" }
       ]
     },
     "validation": {
@@ -1350,14 +1370,20 @@
     },
     "fieldinfo": {
       "options": [
-        "0 - Active Regular Employee",
-        "1 - Mobile Workforce Employee",
-        "2 - Terminated Employee",
-        "4 - Deceased Employee in the Private Sector",
-        "5 - Deceased Railroad Employee (non ICC-eligible)",
-        "6 - Deceased Employee in the Public Sector",
-        "7 - Active Railroad Employee (ICC-eligible)",
-        "8 - Deceased Railroad Employee (ICC-eligible)"
+        { "id": "0 - Active Regular Employee", "label": "0 - Active Regular Employee" },
+        { "id": "1 - Mobile Workforce Employee", "label": "1 - Mobile Workforce Employee" },
+        { "id": "2 - Terminated Employee", "label": "2 - Terminated Employee" },
+        { "id": "4 - Deceased Employee in the Private Sector", "label": "4 - Deceased Employee in the Private Sector" },
+        {
+          "id": "5 - Deceased Railroad Employee (non ICC-eligible)",
+          "label": "5 - Deceased Railroad Employee (non ICC-eligible)"
+        },
+        { "id": "6 - Deceased Employee in the Public Sector", "label": "6 - Deceased Employee in the Public Sector" },
+        { "id": "7 - Active Railroad Employee (ICC-eligible)", "label": "7 - Active Railroad Employee (ICC-eligible)" },
+        {
+          "id": "8 - Deceased Railroad Employee (ICC-eligible)",
+          "label": "8 - Deceased Railroad Employee (ICC-eligible)"
+        }
       ]
     },
     "validation": {
@@ -1377,7 +1403,11 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["0 - Use Data Set Option", "1 - Nonresident Tax Record wins tie", "2 - Resident Tax Records win tie"]
+      "options": [
+        { "id": "0 - Use Data Set Option", "label": "0 - Use Data Set Option" },
+        { "id": "1 - Nonresident Tax Record wins tie", "label": "1 - Nonresident Tax Record wins tie" },
+        { "id": "2 - Resident Tax Records win tie", "label": "2 - Resident Tax Records win tie" }
+      ]
     },
     "validation": {
       "required": false,
@@ -1396,7 +1426,13 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["0 - Common Law", "1 - Independent Contractor", "2 - FICA/FUTA", "3 - FICA Only", "4 - Self-employed"]
+      "options": [
+        { "id": "0 - Common Law", "label": "0 - Common Law" },
+        { "id": "1 - Independent Contractor", "label": "1 - Independent Contractor" },
+        { "id": "2 - FICA/FUTA", "label": "2 - FICA/FUTA" },
+        { "id": "3 - FICA Only", "label": "3 - FICA Only" },
+        { "id": "4 - Self-employed", "label": "4 - Self-employed" }
+      ]
     },
     "validation": {
       "required": false,
@@ -1415,1131 +1451,13 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["0 - No", "1 - Yes"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "residenceCode",
-    "placeholder": "Select Resident Code",
-    "fieldtype": "select",
-    "label": "Resident Code",
-    "value": "NONE",
-    "errmsg": "Resident Code is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
       "options": [
-        "0 - Resident",
-        "1 - Nonresident",
-        "2 - Sourced Location",
-        "3 - Live/Work",
-        "4 - Res 1/1",
-        "5 - Work 1/1",
-        "6 - Live/Work 1/1"
+        { "id": "0 - No", "label": "0 - No" },
+        { "id": "1 - Yes", "label": "1 - Yes" }
       ]
     },
     "validation": {
       "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "roundingIndicator",
-    "placeholder": "Select Rounding Indicator",
-    "fieldtype": "select",
-    "label": "Rounding Indicator",
-    "value": "NONE",
-    "errmsg": "Rounding Indicator is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - Default", "1 - Cents", "2 - Dollars", "3 - Down to Dollars"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "withholdingForm",
-    "placeholder": "Select Withholding Form",
-    "fieldtype": "select",
-    "label": "Withholding Form",
-    "value": "NONE",
-    "errmsg": "Withholding Form is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0,0 - 2019 or earlier Form W-4",
-        "1,1 - 2020 Form W-4, Multiple Jobs not checked",
-        "1,2 - 2020 Form W-4, Multiple Jobs checked"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "withholdingForm",
-    "placeholder": "Select Withholding Form",
-    "fieldtype": "select",
-    "label": "Withholding Form",
-    "value": "NONE",
-    "errmsg": "Withholding Form is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0,0 - 2019 or earlier Form W-4",
-        "1,1 - 2020 Form W-4, Multiple Jobs not checked",
-        "1,2 - 2020 Form W-4, Multiple Jobs checked"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "taxExempt",
-    "placeholder": "Select Tax Exempt",
-    "fieldtype": "select",
-    "label": "Tax Exempt",
-    "value": "NONE",
-    "errmsg": "Tax Exempt is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - Non Exempt", "1 - Exempt Taxes Only", "2 - Exempt Wages &amp; Taxes"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "selfAdjust",
-    "placeholder": "Select Self Adjust",
-    "fieldtype": "select",
-    "label": "Self Adjust",
-    "value": "NONE",
-    "errmsg": "Self Adjust is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0 - Use Formula Default",
-        "1 - Self Adjust for quarterly formula",
-        "7 - Do not self adjust, ignore YTD tax, ignore YTD wage",
-        "8 - Do not self adjust, ignore year-to-date tax",
-        "9 - Do Not Self Adjust"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "maritalStatus",
-    "placeholder": "Select Marital Status",
-    "fieldtype": "select",
-    "label": "Marital Status",
-    "value": "NONE",
-    "errmsg": "Marital Status is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0 - None",
-        "1 - Single",
-        "2 - Married",
-        "3 - Married, claim self, file separate",
-        "4 - Married, both working",
-        "5 - Married, one working",
-        "6 - Head of household",
-        "7 - Married, multiple employers",
-        "8 - Widow or widower",
-        "9 - Married, not living with spouse",
-        "10 - Married, claim all, file joint",
-        "11 - Married, claim half, file joint",
-        "12 - Married, claim all, file separate",
-        "13 - Married, claim none, file joint",
-        "14 - Married, living with spouse",
-        "15 - Married, single tax rate",
-        "16 - Civil Union",
-        "17 - Civil Union, single tax rate",
-        "18 - Married, spouse is a nonresident alien",
-        "19 - Married, 19",
-        "20 - Married, 20",
-        "21 - Married, 21",
-        "22 - Married, 22",
-        "23 - Married, 23",
-        "24 - Married, 24",
-        "25 - Married, 25"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "eicStatus",
-    "placeholder": "Select EIC Status",
-    "fieldtype": "select",
-    "label": "EIC Status",
-    "value": "NONE",
-    "errmsg": "EIC Status is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0 - None",
-        "1 - Single or Married, no certificate (W5)",
-        "2 - Single, one certificate (W5)",
-        "3 - Married, both filing certificate (W5)",
-        "4 - Married, one certificate (W5)"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "electedstateIndicator",
-    "placeholder": "Select Elected State Indicator",
-    "fieldtype": "select",
-    "label": "Elected State Indicator",
-    "value": "NONE",
-    "errmsg": "Elected State Indicator is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - No", "1 - Yes"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "certificateCode",
-    "placeholder": "Select Certificate Code",
-    "fieldtype": "select",
-    "label": "Certificate Code",
-    "value": "NONE",
-    "errmsg": "Certificate Code is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0 - No Nonresident Certificate",
-        "1 - Nonresident Certificate Filed",
-        "2 - Advanced Local Courtesy Withholding",
-        "3 - State Level Courtesy Withholding",
-        "4 - Withholding Affidavit (Res. Certificate)"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "additionalTax",
-    "placeholder": "Select Additional Tax",
-    "fieldtype": "select",
-    "label": "Additional Tax",
-    "value": "NONE",
-    "errmsg": "Additional Tax is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0 - None",
-        "1 - Substitute flat amount",
-        "2 - Add flat amount",
-        "3 - Substitute percentage",
-        "4 - Add percentage",
-        "5 - Substitute percentage and flat amount",
-        "6 - Add Percent to Calculated Tax",
-        "7 - Substitute percentage of Calculated Tax",
-        "8 - Substitute voluntary tax",
-        "9 - Substitute lump sum tax",
-        "10 - Substitute percentage mandatory supplemental",
-        "11 - Substitute flat amount (exceed)",
-        "12 - Add flat amount (exceed)",
-        "13 - Substitute percentage (exceed)",
-        "14 - Add percentage (exceed)",
-        "15 - Substitute percentage and flat amount (exceed)",
-        "16 - Add Percent to Calculated Tax (exceed)",
-        "17 - Substitute percentage of Calculated Tax (exceed)",
-        "18 - Add Virginia Credit",
-        "19 - Add voluntary tax state",
-        "22 - Add flat amount, allowing negatives"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "supplementalCode",
-    "placeholder": "Select Supplemental Code",
-    "fieldtype": "select",
-    "label": "Supplemental Code",
-    "value": "NONE",
-    "errmsg": "Supplemental Code is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0 - Regular",
-        "1 - Flat rate",
-        "2 - Separate aggregation",
-        "3 - Rate table",
-        "4 - Cumulative",
-        "5 - Aggregation with pay periods",
-        "6 - Wage-associated",
-        "7 - Concurrent",
-        "8 - Regular, no exemptions",
-        "9 - System selected",
-        "10 - Commission",
-        "11 - Christmas bonus"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "filingStatus",
-    "placeholder": "Select Filing Status",
-    "fieldtype": "select",
-    "label": "Filing Status",
-    "value": "NONE",
-    "errmsg": "Filing Status is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "1 - Single",
-        "3 - Married filing separate",
-        "4 - Married filing jointly",
-        "6 - Unmarried, head of household"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "secondFamily",
-    "placeholder": "Select Second Family",
-    "fieldtype": "select",
-    "label": "Second Family",
-    "value": "NONE",
-    "errmsg": "Second Family is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - No", "1 - Yes"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "headofFamily",
-    "placeholder": "Select Head Of Family",
-    "fieldtype": "select",
-    "label": "Head Of Family",
-    "value": "NONE",
-    "errmsg": "Head Of Family is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - No", "1 - Yes"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "garnishmentDuration",
-    "placeholder": "Select Garnishment Duration",
-    "fieldtype": "select",
-    "label": "Garnishment Duration",
-    "value": "NONE",
-    "errmsg": "Garnishment Duration is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - Continuing", "1 - One Time", "2 - Specific End Date"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "statementofExemptions",
-    "placeholder": "Select Statement of Exemptions",
-    "fieldtype": "select",
-    "label": "Statement of Exemptions",
-    "value": "NONE",
-    "errmsg": "Statement of Exemptions is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - Not Filed", "1 - Filed"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "isDelinquent",
-    "placeholder": "Select Is Delinquent",
-    "fieldtype": "select",
-    "label": "Is Delinquent",
-    "value": "NONE",
-    "errmsg": "Is Delinquent is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - No", "1 - Yes"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "typeofDebt",
-    "placeholder": "Select Type Of Debt",
-    "fieldtype": "select",
-    "label": "Type Of Debt",
-    "value": "NONE",
-    "errmsg": "Type Of Debt is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0 - N/A",
-        "1 - Loan Contract",
-        "2 - Hospital",
-        "3 - Consumer Credit",
-        "4 - Civil Judgement",
-        "5 - Public Assistance Fund",
-        "6 - Debt To Creditor-Landlord",
-        "7 - Residential Lease",
-        "8 - Judgement Garnishment for Support",
-        "9 - Wage Assignment for Child Support",
-        "10 - Fines/Other Court Costs",
-        "11 - Order Issued by CSE",
-        "12 - Order Issued by Secretary"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "vocation",
-    "placeholder": "Select Vocation",
-    "fieldtype": "select",
-    "label": "Vocation",
-    "value": "NONE",
-    "errmsg": "Vocation is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0 - N/A",
-        "1 - Sailor",
-        "2 - Laborer",
-        "3 - Mechanic",
-        "4 - Municipal Employee",
-        "5 - State Employee",
-        "6 - WI State Employee"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "consent",
-    "placeholder": "Select Consent",
-    "fieldtype": "select",
-    "label": "Consent",
-    "value": "NONE",
-    "errmsg": "Consent is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - No", "1 - Yes", "3 - Hardship"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "orderedamountFlag",
-    "placeholder": "Select Ordered Amount Flag",
-    "fieldtype": "select",
-    "label": "Ordered Amount Flag",
-    "value": "NONE",
-    "errmsg": "Ordered Amount Flag is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - System Selected", "1 - Total Ordered Amount", "2 - Total Pay Period"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "roundingIndicator",
-    "placeholder": "Select Rounding Indicator",
-    "fieldtype": "select",
-    "label": "Rounding Indicator",
-    "value": "NONE",
-    "errmsg": "Rounding Indicator is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - System Default", "1 - Round To Cents", "2 - Round To Dollars"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "limitforchildSupport",
-    "placeholder": "Select Limit for Child Support",
-    "fieldtype": "select",
-    "label": "Limit for Child Support",
-    "value": "NONE",
-    "errmsg": "Limit for Child Support is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - Use State Limit", "1 - Use Federal Limit"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "remainderofdisposableEarnings",
-    "placeholder": "Select Remainder of Disposable Earnings",
-    "fieldtype": "select",
-    "label": "Remainder of Disposable Earnings",
-    "value": "NONE",
-    "errmsg": "Remainder of Disposable Earnings is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - normal", "1 - 100%"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "doesthisgarnishmentuseatimereferenceCalculation?",
-    "placeholder": "Select Does this garnishment use a time reference calculation?",
-    "fieldtype": "select",
-    "label": "Does this garnishment use a time reference calculation?",
-    "value": "NONE",
-    "errmsg": "Does this garnishment use a time reference calculation? is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - No Lump Sum Calculation", "1 - Yes Lump Sum Calculation"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "garnishmentlimitInd",
-    "placeholder": "Select Garnishment Limit Ind",
-    "fieldtype": "select",
-    "label": "Garnishment Limit Ind",
-    "value": "NONE",
-    "errmsg": "Garnishment Limit Ind is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - YTD", "1 - QTD", "2 - MTD", "3 - PPTD"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "UsealternateLimit",
-    "placeholder": "Select Use Alternate Limit",
-    "fieldtype": "select",
-    "label": "Use Alternate Limit",
-    "value": "NONE",
-    "errmsg": "Use Alternate Limit is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - Regular % Limit", "1 - Alternate % Limit"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "garnishmentType",
-    "placeholder": "Select Garnishment Type",
-    "fieldtype": "select",
-    "label": "Garnishment Type",
-    "value": "NONE",
-    "errmsg": "Garnishment Type is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - Stacking /Default", "1 - Divide Evenly", "2 - Pro-Rate"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "usestateofIssue",
-    "placeholder": "Select Use State of Issue",
-    "fieldtype": "select",
-    "label": "Use State of Issue",
-    "value": "NONE",
-    "errmsg": "Use State of Issue is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - No", "1 - Yes"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "firstpayCode",
-    "placeholder": "Select First Pay Code",
-    "fieldtype": "select",
-    "label": "First Pay Code",
-    "value": "NONE",
-    "errmsg": "First Pay Code is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["0 - First Pay", "1 - Not First Pay"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "calculationMethod",
-    "placeholder": "Select Calculation Method",
-    "fieldtype": "select",
-    "label": "Calculation Method",
-    "value": "NONE",
-    "errmsg": "Calculation Method is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "00 Tax Rate Only",
-        "01 Tax Rate, Max Wage",
-        "02 Tax Rate, Min Wage",
-        "03 Tax Rate, Min Wage, Max Wage",
-        "04 Tax Rate, Max Tax",
-        "05 Tax Rate, Min Wage, Max Tax",
-        "06 Flat Amount Only",
-        "07 Flat Amount, Max Wage",
-        "08 Flat Amount, Min Wage",
-        "09 Flat Amount, Min Wage, Max Wage",
-        "10 Flat Amount, Max Tax",
-        "11 Flat Amount, Tax Rate",
-        "12 Tax Rate For Hours Worked",
-        "13 Tax Rate, Max Annualized Wage",
-        "14 Tax Rate, Min YTD Wage",
-        "15 Tax Rate, Min YTD Wage, Max YTD Wage, Max Tax",
-        "16 Flat Amt, Max YTD Wage",
-        "17 Flat Amt, Min YTD Wage",
-        "18 Flat Amt, Min YTD Wage, Max YTD Wage",
-        "19 Flat Amt, Min YTD Wage, Max Tax",
-        "20 Tax Rate, Min YTD Wage, Max Tax"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "roundingMethod",
-    "placeholder": "Select Rounding Method",
-    "fieldtype": "select",
-    "label": "Rounding Method",
-    "value": "NONE",
-    "errmsg": "Rounding Method is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "Round To Cents",
-        "Round To Dollars",
-        "Either/Cents",
-        "Either/Dollars",
-        "Round Down To Dollars",
-        "Authority/Round Down To Dollars"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "state",
-    "placeholder": "Select State",
-    "fieldtype": "select",
-    "label": "State",
-    "value": "NONE",
-    "errmsg": "State is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "Alabama",
-        "Alaska",
-        "Arizona",
-        "Arkansas",
-        "California",
-        "Colorado",
-        "Connecticut",
-        "Delaware",
-        "Florida",
-        "GA",
-        "Hawaii",
-        "Idaho",
-        "Illinois",
-        "Indiana",
-        "Iowa",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maine",
-        "Maryland",
-        "Massachusetts",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Montana",
-        "Nebraska",
-        "Nevada",
-        "New Hampshire",
-        "New Jersey",
-        "New Mexico",
-        "New York",
-        "North Carolina",
-        "North Dakota",
-        "Ohio",
-        "Oklahoma",
-        "Oregon",
-        "Pennsylvania",
-        "Rhode Island",
-        "South Carolina",
-        "South Dakota",
-        "Tennessee",
-        "Texas",
-        "Utah",
-        "Vermont",
-        "Virginia",
-        "Washington",
-        "West Virginia",
-        "Wisconsin",
-        "Wyoming"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "aggregationStatus",
-    "placeholder": "Select Aggregation Status",
-    "fieldtype": "select",
-    "label": "Aggregation Status",
-    "value": "NONE",
-    "errmsg": "Aggregation Status is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "Aggregate to Highest Maximum",
-        "Aggregate to Lowest Maximum",
-        "Do Not Aggregate Plans",
-        "Use Authority Default Aggregation Rule "
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "dateCode",
-    "placeholder": "Select Date Code",
-    "fieldtype": "select",
-    "label": "Date Code",
-    "value": "NONE",
-    "errmsg": "Date Code is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["Not Applicable", "Use if Prior To Order"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "processCode",
-    "placeholder": "Select Process Code",
-    "fieldtype": "select",
-    "label": "Process Code",
-    "value": "NONE",
-    "errmsg": "Process Code is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "Disposable",
-        "Not Disposable",
-        "To Max. Amount",
-        "To Max. Percent",
-        "Over Max. Amount",
-        "Over Max. Percent",
-        "Between Min. Amount &amp; Max. Amount",
-        "Between Min. Percent &amp; Max. Percent",
-        "To Min. Amount",
-        "To Min. Percent",
-        "Greater of Max. Amount OR API",
-        "Greater of Max. Percent OR API",
-        "Lesser of Max. Amount OR API",
-        "Lesser of Max. Percent OR API"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "paymentcodesthatAre",
-    "placeholder": "Select Payment Codes that are",
-    "fieldtype": "select",
-    "label": "Payment Codes that are",
-    "value": "NONE",
-    "errmsg": "Payment Codes that are is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["Both:Mapped and Not Mapped", "Mapped", "Not Mapped"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "planearningTypes",
-    "placeholder": "Select Plan Earning Types",
-    "fieldtype": "select",
-    "label": "Plan Earning Types",
-    "value": "NONE",
-    "errmsg": "Plan Earning Types is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": ["ALL", "Earning", "Credit", "Deduction", "Plan"]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "messageFilter",
-    "placeholder": "Select Message Filter",
-    "fieldtype": "select",
-    "label": "Message Filter",
-    "value": "NONE",
-    "errmsg": "Message Filter is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "All Messages",
-        "0000 - 0999 - Informational",
-        "1000 - 1999 - Assumptions",
-        "2000 - 2999 - Legalities",
-        "3000 - 4999 - Failures",
-        "5000 - 9999 - Fatals"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "gfo_inputsectionMethod",
-    "placeholder": "Input Section Method",
-    "fieldtype": "select",
-    "label": "Input Section Method",
-    "value": "NONE",
-    "errmsg": "Method is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0- Use Flat Amount",
-        "1- Use Disposable Earnings Amount",
-        "2- Use Disposable Earnings Amount Reduced by Higher Priority Garnishment",
-        "3- Use Gross Wages API Amount",
-        "4- Use Gross Wages API Amount Reduced by Higher Priority Garnishments",
-        "5- Use Net Wages API Amount",
-        "6- Use Net Wages API Amount Reduced by Higher Priority Garnishments"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "gfo_exemptionsectionMethod",
-    "placeholder": "Exemption Section Method",
-    "fieldtype": "select",
-    "label": "Exemption Section Method",
-    "value": "NONE",
-    "errmsg": "Method is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "0- No Exemptions",
-        "1- Subtract Flat Amount",
-        "2- Subtract Exemption Amount",
-        "3- Subtract Exemption Dependent Amount * Number of Dependents",
-        "4- Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependents",
-        "5- Subtract Exemption Dependent Amount * Number of Exemptions",
-        "6- Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "gfo_calculationsectionMethod",
-    "placeholder": "Calculation Section Method",
-    "fieldtype": "select",
-    "label": "Calculation Section Method",
-    "value": "NONE",
-    "errmsg": "Method is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        "1- Take Calculation Percent",
-        "2- Take Greater of Calculation Amount or Calculation Percent",
-        "3- Take Lesser of Calculation Amount or Calculation Percent",
-        "4- Take Calculation Percent to Calculation Limit",
-        "5- Take Greater of Calculation Amount or Calculation Percent to Calculation Limit",
-        "6- Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit",
-        "7- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount",
-        "8- Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount",
-        "9- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit",
-        "10- Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit"
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "gfo_eductionsectionMethod",
-    "placeholder": "Deduction Section Method",
-    "fieldtype": "select",
-    "label": "Deduction Section Method",
-    "value": "NONE",
-    "errmsg": "Method is required",
-    "dependentFields": ["county"],
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "options": [
-        { "id": "0", "lable": "0- No Deductions" },
-        { "id": "1", "lable": "1- Subtract Deduction Flat Amount" },
-        { "id": "2", "lable": "2- Subtract Deduction Amount" },
-        { "id": "3", "lable": "3- Subtract Deduction Dependent Amount * Number of Dependents" },
-        { "id": "4", "lable": "4- Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents" }
-      ]
-    },
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "id": "county",
-    "placeholder": "Select County",
-    "fieldtype": "select",
-    "label": "County",
-    "value": "NONE",
-    "errmsg": "County is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
-    "fieldinfo": {
-      "typeahead": false,
-      "isasync": true,
-      "options": []
-    },
-    "validation": {
-      "required": true,
       "type": "string"
     }
   }

@@ -96,7 +96,7 @@
     "hasView": false,
     "hasRecentUsage": false,
 
-    "formflds": " ",
+    "formflds": "",
 
     "fltrflds": [
       { "id": "authorityCode", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },

@@ -23,35 +23,35 @@
     "noResultsFoundTxt": "No record retrieved for your query",
     "recordEdit": false,
     "recordDelete": false,
-    "columns":[
-        {
-            "text": "Authority Code",
-            "datafield": "authCode",
-            "cellsalign": "left",
-            "align": "left",
-            "sortable": true,
-            "rendererInput": "",
-            "rendererStaticInput": ""
-        },
-        {
-            "text": "Tax Type",
-            "datafield": "taxType",
-            "cellsalign": "left",
-            "align": "left",
-            "sortable": true,
-            "rendererInput": "",
-            "rendererStaticInput": ""
-        },
-        {
-          "text": "Formula",
-          "datafield": "formula",
-          "cellsalign": "left",
-          "align": "left",
-          "sortable": true,
-          "rendererInput": "",
-          "rendererStaticInput": ""
-       },
-       {
+    "columns": [
+      {
+        "text": "Authority Code",
+        "datafield": "authCode",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax Type",
+        "datafield": "taxType",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Formula",
+        "datafield": "formula",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
         "text": "Start Date",
         "datafield": "startDate",
         "cellsalign": "left",
@@ -59,36 +59,36 @@
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
-     },
-       {
+      },
+      {
         "text": "End Date",
-        "datafield":"endDate",
+        "datafield": "endDate",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
-     },
-     {
-      "text": "Regular Method",
-      "datafield": "regMethValid",
-      "cellsalign": "left",
-      "align": "left",
-      "sortable": true,
-      "rendererInput": "",
-      "rendererStaticInput": ""
-   }
-    ], 
+      },
+      {
+        "text": "Regular Method",
+        "datafield": "regMethValid",
+        "cellsalign": "left",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
 
-    	"dataFields": [
-            {"name": "authCode","type": "string"},
-            {"name": "taxType","type": "string"},
-            {"name": "formula","type": "string"},
-            {"name": "startDate","type": "string"},
-            {"name": "endDate","type": "string"},
-            {"name": "regMethValid","type": "string"}
-            ]
-	},
+    "dataFields": [
+      { "name": "authCode", "type": "string" },
+      { "name": "taxType", "type": "string" },
+      { "name": "formula", "type": "string" },
+      { "name": "startDate", "type": "string" },
+      { "name": "endDate", "type": "string" },
+      { "name": "regMethValid", "type": "string" }
+    ]
+  },
 
   "formdef": {
     "title": "Supplemental Methods",
@@ -100,9 +100,7 @@
     "hasViewPDF": false,
     "hasView": false,
     "hasRecentUsage": false,
-
-    "formflds": " ",
-
+    "formflds": "",
     "fltrflds": [
       {
         "id": "taxCode",

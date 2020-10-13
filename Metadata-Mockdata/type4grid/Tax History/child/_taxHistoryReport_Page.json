@@ -3,7 +3,7 @@
     "pgid": "taxHistoryReport",
     "pgtitle": "Tax History Report",
     "pgsubtitle": "",
-    "caption": "Tax History Report of ${authCode} (${county})",
+    "caption": "Tax History Report of ${bsiauth} (${name})",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "",
@@ -12,6 +12,16 @@
     "helpLblTxt": "",
     "helpLink": "",
     "parentConfig": "taxHistory",
+    "parentFields": [
+      {
+        "id": "bsiauth",
+        "label": "BSIAUTH"
+      },
+      {
+        "id": "name",
+        "label": "Authority Name"
+      }
+    ],
     "childConfig": ""
   },
   "griddef": {
@@ -26,13 +36,13 @@
     "columns": [
       {
         "text": "Authority Code / Name",
-        "datafield": "authCode",
+        "datafield": "bsiAuth",
         "cellsalign": "left",
         "width": "15%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "baiAuthAuthNamerenderer"
       },
       {
         "text": "Tax Type / Tax Name",
@@ -42,7 +52,7 @@
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "taxTypeCodeNamerenderer"
       },
       {
         "text": "Formula / Name",
@@ -52,11 +62,11 @@
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "formulaNamerenderer"
       },
       {
         "text": "Start Date",
-        "datafield": "startDate",
+        "datafield": "startDateDspl",
         "cellsalign": "left",
         "width": "14%",
         "align": "left",
@@ -86,7 +96,7 @@
       },
       {
         "text": "End Date",
-        "datafield": "endDate",
+        "datafield": "rescindDateDspl",
         "cellsalign": "left",
         "width": "14%",
         "align": "left",
@@ -97,15 +107,31 @@
     ],
     "dataFields": [
       {
-        "name": "authCode",
-        "type": "string"
+        "name": "bsiAuth",
+        "type": "string",
+        "map": "btxrate>btxtaxc>btxauth>bsiauth"
+      },
+      {
+        "name": "authName",
+        "type": "string",
+        "map": "btxrate>btxtaxc>btxauth>name"
       },
       {
         "name": "taxType",
-        "type": "string"
+        "type": "string",
+        "map": "btxrate>btxtaxt>taxtype"
+      },
+      {
+        "name": "taxTypeName",
+        "type": "string",
+        "map": "btxrate>btxtaxt>taxname"
       },
       {
         "name": "formula",
+        "type": "string"
+      },
+      {
+        "name": "formulaTitle",
         "type": "string"
       },
       {
@@ -121,7 +147,7 @@
         "type": "string"
       },
       {
-        "name": "endDate",
+        "name": "rescindDateDspl",
         "type": "string"
       }
     ]
@@ -134,7 +160,7 @@
     "pgid": "taxHistoryReport",
     "pgtitle": "",
     "pgsubtitle": "",
-    "caption": "Garnishment History Report of ${authCode} (${county})",
+    "caption": "Garnishment History Report of ${bsiauth} (${name})",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "",
@@ -157,13 +183,13 @@
     "columns": [
       {
         "text": "Authority Code / Name",
-        "datafield": "authorityCode",
+        "datafield": "bsiAuth",
         "cellsalign": "left",
         "width": "15%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "baiAuthAuthNamerenderer"
       },
       {
         "text": "Tax Type / Tax Name",
@@ -173,7 +199,7 @@
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "taxTypeCodeNamerenderer"
       },
       {
         "text": "Formula / Name",
@@ -183,11 +209,11 @@
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "formulaNamerenderer"
       },
       {
         "text": "Start Date",
-        "datafield": "startDate",
+        "datafield": "startDateDspl",
         "cellsalign": "left",
         "width": "14%",
         "align": "left",
@@ -217,7 +243,7 @@
       },
       {
         "text": "End Date",
-        "datafield": "endDate",
+        "datafield": "rescindDateDspl",
         "cellsalign": "left",
         "width": "14%",
         "align": "left",
@@ -228,19 +254,35 @@
     ],
     "dataFields": [
       {
-        "name": "authorityCode",
-        "type": "string"
+        "name": "bsiAuth",
+        "type": "string",
+        "map": "btxrate>btxtaxc>btxauth>bsiauth"
+      },
+      {
+        "name": "authName",
+        "type": "string",
+        "map": "btxrate>btxtaxc>btxauth>name"
       },
       {
         "name": "taxType",
-        "type": "string"
+        "type": "string",
+        "map": "btxrate>btxtaxt>taxtype"
+      },
+      {
+        "name": "taxTypeName",
+        "type": "string",
+        "map": "btxrate>btxtaxt>taxname"
       },
       {
         "name": "formula",
         "type": "string"
       },
       {
-        "name": "startDate",
+        "name": "formulaTitle",
+        "type": "string"
+      },
+      {
+        "name": "startDateDspl",
         "type": "string"
       },
       {
@@ -252,7 +294,7 @@
         "type": "string"
       },
       {
-        "name": "endDate",
+        "name": "rescindDateDspl",
         "type": "string"
       }
     ]

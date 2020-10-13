@@ -1,9 +1,38 @@
 [
-    "Taxable",
-    "Non-Taxable",
-    "Limit-YTD",
-    "Limit-QTD",
-    "Limit-MTD",
-    "Taxable/Exclude"
+    {
+        "id": "0",
+        "label": "Taxable",
+        "disable": ["eemax"],
+        "valuesToUpdate": {
+          "eemax": "0.00"
+        }
+      },
+      {
+        "id": "999",
+        "label": "Non-Taxable",
+        "disable": ["eemax"],
+        "valuesToUpdate": {
+          "eemax": 99999999999.99
+        }
+      },
+      { "id": "100", "label": "Limit / YTD", "enable": ["eemax"] },
+      { "id": "101", "label": "Limit / QTD", "enable": ["eemax"] },
+      { "id": "102", "label": "Limit / MTD", "enable": ["eemax"] },
+      {
+        "id": "200",
+        "label": "Taxable/Exclude",
+        "disable": ["eemax"],
+        "valuesToUpdate": {
+          "eemax": 99999999998.99
+        }
+      },
+      {
+        "id": "995",
+        "label": "Imputed",
+        "disable": ["eemax"],
+        "valuesToUpdate": {
+          "eemax": 99999999995.99
+        }
+      }
 ]
    

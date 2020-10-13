@@ -215,7 +215,7 @@
   {
     "id": "employerTaxability",
     "show": {
-      "taxability": ["", "0", "999", "100", "101", "102", "995"],
+      "taxability": ["", "0", "999", "100", "101", "102", "995", "105", "104"],
       "payType": ["P"]
     },
     "placeholder": "Employer Taxability",

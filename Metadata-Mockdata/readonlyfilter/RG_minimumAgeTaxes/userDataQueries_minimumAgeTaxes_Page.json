@@ -95,7 +95,7 @@
 		"hasView": false,
         "hasRecentUsage": false,
         
-		"formflds": " ",
+		"formflds": "",
 
     "fltrflds": [
       { "id": "startDate", "order":1, "isReadOnlyOnEdit":true, "isReadOnlyOnNew": false }

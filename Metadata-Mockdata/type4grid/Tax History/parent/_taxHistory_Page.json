@@ -25,7 +25,7 @@
     "columns": [
       {
         "text": "BSIAUTH",
-        "datafield": "authCode",
+        "datafield": "bsiauth",
         "cellsalign": "left",
         "width": "50%",
         "align": "left",
@@ -35,7 +35,7 @@
       },
       {
         "text": "Authority Name",
-        "datafield": "county",
+        "datafield": "name",
         "cellsalign": "left",
         "width": "45%",
         "align": "left",
@@ -46,11 +46,11 @@
     ],
     "dataFields": [
       {
-        "name": "authCode",
+        "name": "bsiauth",
         "type": "string"
       },
       {
-        "name": "county",
+        "name": "name",
         "type": "string"
       }
     ]

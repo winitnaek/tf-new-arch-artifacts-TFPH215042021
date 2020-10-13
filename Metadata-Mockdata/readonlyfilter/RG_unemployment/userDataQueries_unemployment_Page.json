@@ -4,7 +4,7 @@
     "pgtitle": "Unemployment",
     "pgsubtitle": "",
     "flowtype": "flowtype1",
-    "hasAddNew": true,
+    "hasAddNew": false,
     "addNewLabel": "",
     "actiondel": false,
     "helpAvailable": true,
