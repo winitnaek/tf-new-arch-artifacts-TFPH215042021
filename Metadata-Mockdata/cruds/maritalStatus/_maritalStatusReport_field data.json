@@ -1,7 +1,7 @@
 [
   {
-    "name": "effDate",
-    "id": "effDate",
+    "name": "startDate",
+    "id": "startDate",
     "fieldHeader": "Select Report",
     "label": "Effective Date",
     "placeholder": "",
@@ -39,7 +39,7 @@
       "required": false,
       "type": "boolean"
     },
-    "disable": ["effDate"]
+    "disable": ["startDate"]
   }
 
 ]

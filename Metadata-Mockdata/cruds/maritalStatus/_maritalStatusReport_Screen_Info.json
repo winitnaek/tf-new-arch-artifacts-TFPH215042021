@@ -4,6 +4,6 @@
   "desc": "Marital Status Report",
   "id": "maritalStatusReport",
   "type": "page",
-  "link": true,
+  "link": false,
   "section":"Tax Details"
 }
