@@ -1460,5 +1460,1279 @@
       "required": false,
       "type": "string"
     }
+  },
+  {
+    "id": "residenceCode",
+    "placeholder": "Select Resident Code",
+    "fieldtype": "select",
+    "label": "Resident Code",
+    "value": "NONE",
+    "errmsg": "Resident Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Resident", "label": "0 - Resident" },
+        { "id": "1 - Nonresident", "label": "1 - Nonresident" },
+        { "id": "2 - Sourced Location", "label": "2 - Sourced Location" },
+        { "id": "3 - Live/Work", "label": "3 - Live/Work" },
+        { "id": "4 - Res 1/1", "label": "4 - Res 1/1" },
+        { "id": "5 - Work 1/1", "label": "5 - Work 1/1" },
+        { "id": "6 - Live/Work 1/1", "label": "6 - Live/Work 1/1" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "roundingIndicator",
+    "placeholder": "Select Rounding Indicator",
+    "fieldtype": "select",
+    "label": "Rounding Indicator",
+    "value": "NONE",
+    "errmsg": "Rounding Indicator is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Default", "label": "0 - Default" },
+        { "id": "1 - Cents", "label": "1 - Cents" },
+        { "id": "2 - Dollars", "label": "2 - Dollars" },
+        { "id": "3 - Down to Dollars", "label": "3 - Down to Dollars" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "roundingIndicator",
+    "placeholder": "Select Rounding Indicator",
+    "fieldtype": "select",
+    "label": "Rounding Indicator",
+    "value": "NONE",
+    "errmsg": "Rounding Indicator is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Default", "label": "0 - Default" },
+        { "id": "1 - Cents", "label": "1 - Cents" },
+        { "id": "2 - Dollars", "label": "2 - Dollars" },
+        { "id": "3 - Down to Dollars", "label": "3 - Down to Dollars" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "withholdingForm",
+    "placeholder": "Select Withholding Form",
+    "fieldtype": "select",
+    "label": "Withholding Form",
+    "value": "NONE",
+    "errmsg": "Withholding Form is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0,0 - 2019 or earlier Form W-4", "label": "0,0 - 2019 or earlier Form W-4" },
+        {
+          "id": "1,1 - 2020 Form W-4, Multiple Jobs not checked",
+          "label": "1,1 - 2020 Form W-4, Multiple Jobs not checked"
+        },
+        { "id": "1,2 - 2020 Form W-4, Multiple Jobs checked", "label": "1,2 - 2020 Form W-4, Multiple Jobs checked" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "taxExempt",
+    "placeholder": "Select Tax Exempt",
+    "fieldtype": "select",
+    "label": "Tax Exempt",
+    "value": "NONE",
+    "errmsg": "Tax Exempt is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Non Exempt", "label": "0 - Non Exempt" },
+        { "id": "1 - Exempt Taxes Only", "label": "1 - Exempt Taxes Only" },
+        { "id": "2 - Exempt Wages &amp; Taxes", "label": "2 - Exempt Wages &amp; Taxes" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "selfAdjust",
+    "placeholder": "Select Self Adjust",
+    "fieldtype": "select",
+    "label": "Self Adjust",
+    "value": "NONE",
+    "errmsg": "Self Adjust is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Use Formula Default", "label": "0 - Use Formula Default" },
+        { "id": "1 - Self Adjust for quarterly formula", "label": "1 - Self Adjust for quarterly formula" },
+        {
+          "id": "7 - Do not self adjust, ignore YTD tax, ignore YTD wage",
+          "label": "7 - Do not self adjust, ignore YTD tax, ignore YTD wage"
+        },
+        {
+          "id": "8 - Do not self adjust, ignore year-to-date tax",
+          "label": "8 - Do not self adjust, ignore year-to-date tax"
+        },
+        { "id": "9 - Do Not Self Adjust", "label": "9 - Do Not Self Adjust" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "maritalStatus",
+    "placeholder": "Select Marital Status",
+    "fieldtype": "select",
+    "label": "Marital Status",
+    "value": "NONE",
+    "errmsg": "Marital Status is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - None", "label": "0 - None" },
+        { "id": "1 - Single", "label": "1 - Single" },
+        { "id": "2 - Married", "label": "2 - Married" },
+        { "id": "3 - Married, claim self, file separate", "label": "3 - Married, claim self, file separate" },
+        { "id": "4 - Married, both working", "label": "4 - Married, both working" },
+        { "id": "5 - Married, one working", "label": "5 - Married, one working" },
+        { "id": "6 - Head of household", "label": "6 - Head of household" },
+        { "id": "7 - Married, multiple employers", "label": "7 - Married, multiple employers" },
+        { "id": "8 - Widow or widower", "label": "8 - Widow or widower" },
+        { "id": "9 - Married, not living with spouse", "label": "9 - Married, not living with spouse" },
+        { "id": "10 - Married, claim all, file joint", "label": "10 - Married, claim all, file joint" },
+        { "id": "11 - Married, claim half, file joint", "label": "11 - Married, claim half, file joint" },
+        { "id": "12 - Married, claim all, file separate", "label": "12 - Married, claim all, file separate" },
+        { "id": "13 - Married, claim none, file joint", "label": "13 - Married, claim none, file joint" },
+        { "id": "14 - Married, living with spouse", "label": "14 - Married, living with spouse" },
+        { "id": "15 - Married, single tax rate", "label": "15 - Married, single tax rate" },
+        { "id": "16 - Civil Union", "label": "16 - Civil Union" },
+        { "id": "17 - Civil Union, single tax rate", "label": "17 - Civil Union, single tax rate" },
+        { "id": "18 - Married, spouse is a nonresident alien", "label": "18 - Married, spouse is a nonresident alien" },
+        { "id": "19 - Married, 19", "label": "19 - Married, 19" },
+        { "id": "20 - Married, 20", "label": "20 - Married, 20" },
+        { "id": "21 - Married, 21", "label": "21 - Married, 21" },
+        { "id": "22 - Married, 22", "label": "22 - Married, 22" },
+        { "id": "23 - Married, 23", "label": "23 - Married, 23" },
+        { "id": "24 - Married, 24", "label": "24 - Married, 24" },
+        { "id": "25 - Married, 25", "label": "25 - Married, 25" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "eicStatus",
+    "placeholder": "Select EIC Status",
+    "fieldtype": "select",
+    "label": "EIC Status",
+    "value": "NONE",
+    "errmsg": "EIC Status is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - None", "label": "0 - None" },
+        { "id": "1 - Single or Married, no certificate (W5)", "label": "1 - Single or Married, no certificate (W5)" },
+        { "id": "2 - Single, one certificate (W5)", "label": "2 - Single, one certificate (W5)" },
+        { "id": "3 - Married, both filing certificate (W5)", "label": "3 - Married, both filing certificate (W5)" },
+        { "id": "4 - Married, one certificate (W5)", "label": "4 - Married, one certificate (W5)" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "electedstateIndicator",
+    "placeholder": "Select Elected State Indicator",
+    "fieldtype": "select",
+    "label": "Elected State Indicator",
+    "value": "NONE",
+    "errmsg": "Elected State Indicator is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - No", "label": "0 - No" },
+        { "id": "1 - Yes", "label": "1 - Yes" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "certificateCode",
+    "placeholder": "Select Certificate Code",
+    "fieldtype": "select",
+    "label": "Certificate Code",
+    "value": "NONE",
+    "errmsg": "Certificate Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - No Nonresident Certificate", "label": "0 - No Nonresident Certificate" },
+        { "id": "1 - Nonresident Certificate Filed", "label": "1 - Nonresident Certificate Filed" },
+        { "id": "2 - Advanced Local Courtesy Withholding", "label": "2 - Advanced Local Courtesy Withholding" },
+        { "id": "3 - State Level Courtesy Withholding", "label": "3 - State Level Courtesy Withholding" },
+        {
+          "id": "4 - Withholding Affidavit (Res. Certificate)",
+          "label": "4 - Withholding Affidavit (Res. Certificate)"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "additionalTax",
+    "placeholder": "Select Additional Tax",
+    "fieldtype": "select",
+    "label": "Additional Tax",
+    "value": "NONE",
+    "errmsg": "Additional Tax is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - None", "label": "0 - None" },
+        { "id": "1 - Substitute flat amount", "label": "1 - Substitute flat amount" },
+        { "id": "2 - Add flat amount", "label": "2 - Add flat amount" },
+        { "id": "3 - Substitute percentage", "label": "3 - Substitute percentage" },
+        { "id": "4 - Add percentage", "label": "4 - Add percentage" },
+        { "id": "5 - Substitute percentage and flat amount", "label": "5 - Substitute percentage and flat amount" },
+        { "id": "6 - Add Percent to Calculated Tax", "label": "6 - Add Percent to Calculated Tax" },
+        { "id": "7 - Substitute percentage of Calculated Tax", "label": "7 - Substitute percentage of Calculated Tax" },
+        { "id": "8 - Substitute voluntary tax", "label": "8 - Substitute voluntary tax" },
+        { "id": "9 - Substitute lump sum tax", "label": "9 - Substitute lump sum tax" },
+        {
+          "id": "10 - Substitute percentage mandatory supplemental",
+          "label": "10 - Substitute percentage mandatory supplemental"
+        },
+        { "id": "11 - Substitute flat amount (exceed)", "label": "11 - Substitute flat amount (exceed)" },
+        { "id": "12 - Add flat amount (exceed)", "label": "12 - Add flat amount (exceed)" },
+        { "id": "13 - Substitute percentage (exceed)", "label": "13 - Substitute percentage (exceed)" },
+        { "id": "14 - Add percentage (exceed)", "label": "14 - Add percentage (exceed)" },
+        {
+          "id": "15 - Substitute percentage and flat amount (exceed)",
+          "label": "15 - Substitute percentage and flat amount (exceed)"
+        },
+        { "id": "16 - Add Percent to Calculated Tax (exceed)", "label": "16 - Add Percent to Calculated Tax (exceed)" },
+        {
+          "id": "17 - Substitute percentage of Calculated Tax (exceed)",
+          "label": "17 - Substitute percentage of Calculated Tax (exceed)"
+        },
+        { "id": "18 - Add Virginia Credit", "label": "18 - Add Virginia Credit" },
+        { "id": "19 - Add voluntary tax state", "label": "19 - Add voluntary tax state" },
+        { "id": "22 - Add flat amount, allowing negatives", "label": "22 - Add flat amount, allowing negatives" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "supplementalCode",
+    "placeholder": "Select Supplemental Code",
+    "fieldtype": "select",
+    "label": "Supplemental Code",
+    "value": "NONE",
+    "errmsg": "Supplemental Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Regular", "label": "0 - Regular" },
+        { "id": "1 - Flat rate", "label": "1 - Flat rate" },
+        { "id": "2 - Separate aggregation", "label": "2 - Separate aggregation" },
+        { "id": "3 - Rate table", "label": "3 - Rate table" },
+        { "id": "4 - Cumulative", "label": "4 - Cumulative" },
+        { "id": "5 - Aggregation with pay periods", "label": "5 - Aggregation with pay periods" },
+        { "id": "6 - Wage-associated", "label": "6 - Wage-associated" },
+        { "id": "7 - Concurrent", "label": "7 - Concurrent" },
+        { "id": "8 - Regular, no exemptions", "label": "8 - Regular, no exemptions" },
+        { "id": "9 - System selected", "label": "9 - System selected" },
+        { "id": "10 - Commission", "label": "10 - Commission" },
+        { "id": "11 - Christmas bonus", "label": "11 - Christmas bonus" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "filingStatus",
+    "placeholder": "Select Filing Status",
+    "fieldtype": "select",
+    "label": "Filing Status",
+    "value": "NONE",
+    "errmsg": "Filing Status is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "1 - Single", "label": "1 - Single" },
+        { "id": "3 - Married filing separate", "label": "3 - Married filing separate" },
+        { "id": "4 - Married filing jointly", "label": "4 - Married filing jointly" },
+        { "id": "6 - Unmarried, head of household", "label": "6 - Unmarried, head of household" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "secondFamily",
+    "placeholder": "Select Second Family",
+    "fieldtype": "select",
+    "label": "Second Family",
+    "value": "NONE",
+    "errmsg": "Second Family is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - No", "label": "0 - No" },
+        { "id": "1 - Yes", "label": "1 - Yes" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "headofFamily",
+    "placeholder": "Select Head Of Family",
+    "fieldtype": "select",
+    "label": "Head Of Family",
+    "value": "NONE",
+    "errmsg": "Head Of Family is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - No", "label": "0 - No" },
+        { "id": "1 - Yes", "label": "1 - Yes" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "garnishmentDuration",
+    "placeholder": "Select Garnishment Duration",
+    "fieldtype": "select",
+    "label": "Garnishment Duration",
+    "value": "NONE",
+    "errmsg": "Garnishment Duration is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Continuing", "label": "0 - Continuing" },
+        { "id": "1 - One Time", "label": "1 - One Time" },
+        { "id": "2 - Specific End Date", "label": "2 - Specific End Date" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "statementofExemptions",
+    "placeholder": "Select Statement of Exemptions",
+    "fieldtype": "select",
+    "label": "Statement of Exemptions",
+    "value": "NONE",
+    "errmsg": "Statement of Exemptions is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Not Filed", "label": "0 - Not Filed" },
+        { "id": "1 - Filed", "label": "1 - Filed" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "isDelinquent",
+    "placeholder": "Select Is Delinquent",
+    "fieldtype": "select",
+    "label": "Is Delinquent",
+    "value": "NONE",
+    "errmsg": "Is Delinquent is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - No", "label": "0 - No" },
+        { "id": "1 - Yes", "label": "1 - Yes" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "typeofDebt",
+    "placeholder": "Select Type Of Debt",
+    "fieldtype": "select",
+    "label": "Type Of Debt",
+    "value": "NONE",
+    "errmsg": "Type Of Debt is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - N/A", "label": "0 - N/A" },
+        { "id": "1 - Loan Contract", "label": "1 - Loan Contract" },
+        { "id": "2 - Hospital", "label": "2 - Hospital" },
+        { "id": "3 - Consumer Credit", "label": "3 - Consumer Credit" },
+        { "id": "4 - Civil Judgement", "label": "4 - Civil Judgement" },
+        { "id": "5 - Public Assistance Fund", "label": "5 - Public Assistance Fund" },
+        { "id": "6 - Debt To Creditor-Landlord", "label": "6 - Debt To Creditor-Landlord" },
+        { "id": "7 - Residential Lease", "label": "7 - Residential Lease" },
+        { "id": "8 - Judgement Garnishment for Support", "label": "8 - Judgement Garnishment for Support" },
+        { "id": "9 - Wage Assignment for Child Support", "label": "9 - Wage Assignment for Child Support" },
+        { "id": "10 - Fines/Other Court Costs", "label": "10 - Fines/Other Court Costs" },
+        { "id": "11 - Order Issued by CSE", "label": "11 - Order Issued by CSE" },
+        { "id": "12 - Order Issued by Secretary", "label": "12 - Order Issued by Secretary" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "vocation",
+    "placeholder": "Select Vocation",
+    "fieldtype": "select",
+    "label": "Vocation",
+    "value": "NONE",
+    "errmsg": "Vocation is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - N/A", "label": "0 - N/A" },
+        { "id": "1 - Sailor", "label": "1 - Sailor" },
+        { "id": "2 - Laborer", "label": "2 - Laborer" },
+        { "id": "3 - Mechanic", "label": "3 - Mechanic" },
+        { "id": "4 - Municipal Employee", "label": "4 - Municipal Employee" },
+        { "id": "5 - State Employee", "label": "5 - State Employee" },
+        { "id": "6 - WI State Employee", "label": "6 - WI State Employee" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "consent",
+    "placeholder": "Select Consent",
+    "fieldtype": "select",
+    "label": "Consent",
+    "value": "NONE",
+    "errmsg": "Consent is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - No", "label": "0 - No" },
+        { "id": "1 - Yes", "label": "1 - Yes" },
+        { "id": "3 - Hardship", "label": "3 - Hardship" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "orderedamountFlag",
+    "placeholder": "Select Ordered Amount Flag",
+    "fieldtype": "select",
+    "label": "Ordered Amount Flag",
+    "value": "NONE",
+    "errmsg": "Ordered Amount Flag is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - System Selected", "label": "0 - System Selected" },
+        { "id": "1 - Total Ordered Amount", "label": "1 - Total Ordered Amount" },
+        { "id": "2 - Total Pay Period", "label": "2 - Total Pay Period" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "roundingIndicator",
+    "placeholder": "Select Rounding Indicator",
+    "fieldtype": "select",
+    "label": "Rounding Indicator",
+    "value": "NONE",
+    "errmsg": "Rounding Indicator is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - System Default", "label": "0 - System Default" },
+        { "id": "1 - Round To Cents", "label": "1 - Round To Cents" },
+        { "id": "2 - Round To Dollars", "label": "2 - Round To Dollars" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "limitforchildSupport",
+    "placeholder": "Select Limit for Child Support",
+    "fieldtype": "select",
+    "label": "Limit for Child Support",
+    "value": "NONE",
+    "errmsg": "Limit for Child Support is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Use State Limit", "label": "0 - Use State Limit" },
+        { "id": "1 - Use Federal Limit", "label": "1 - Use Federal Limit" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "remainderofdisposableEarnings",
+    "placeholder": "Select Remainder of Disposable Earnings",
+    "fieldtype": "select",
+    "label": "Remainder of Disposable Earnings",
+    "value": "NONE",
+    "errmsg": "Remainder of Disposable Earnings is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - normal", "label": "0 - normal" },
+        { "id": "1 - 100%", "label": "1 - 100%" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "doesthisgarnishmentuseatimereferenceCalculation?",
+    "placeholder": "Select Does this garnishment use a time reference calculation?",
+    "fieldtype": "select",
+    "label": "Does this garnishment use a time reference calculation?",
+    "value": "NONE",
+    "errmsg": "Does this garnishment use a time reference calculation? is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - No Lump Sum Calculation", "label": "0 - No Lump Sum Calculation" },
+        { "id": "1 - Yes Lump Sum Calculation", "label": "1 - Yes Lump Sum Calculation" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "garnishmentlimitInd",
+    "placeholder": "Select Garnishment Limit Ind",
+    "fieldtype": "select",
+    "label": "Garnishment Limit Ind",
+    "value": "NONE",
+    "errmsg": "Garnishment Limit Ind is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - YTD", "label": "0 - YTD" },
+        { "id": "1 - QTD", "label": "1 - QTD" },
+        { "id": "2 - MTD", "label": "2 - MTD" },
+        { "id": "3 - PPTD", "label": "3 - PPTD" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "UsealternateLimit",
+    "placeholder": "Select Use Alternate Limit",
+    "fieldtype": "select",
+    "label": "Use Alternate Limit",
+    "value": "NONE",
+    "errmsg": "Use Alternate Limit is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Regular % Limit", "label": "0 - Regular % Limit" },
+        { "id": "1 - Alternate % Limit", "label": "1 - Alternate % Limit" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "garnishmentType",
+    "placeholder": "Select Garnishment Type",
+    "fieldtype": "select",
+    "label": "Garnishment Type",
+    "value": "NONE",
+    "errmsg": "Garnishment Type is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - Stacking /Default", "label": "0 - Stacking /Default" },
+        { "id": "1 - Divide Evenly", "label": "1 - Divide Evenly" },
+        { "id": "2 - Pro-Rate", "label": "2 - Pro-Rate" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "usestateofIssue",
+    "placeholder": "Select Use State of Issue",
+    "fieldtype": "select",
+    "label": "Use State of Issue",
+    "value": "NONE",
+    "errmsg": "Use State of Issue is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - No", "label": "0 - No" },
+        { "id": "1 - Yes", "label": "1 - Yes" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "firstpayCode",
+    "placeholder": "Select First Pay Code",
+    "fieldtype": "select",
+    "label": "First Pay Code",
+    "value": "NONE",
+    "errmsg": "First Pay Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0 - First Pay", "label": "0 - First Pay" },
+        { "id": "1 - Not First Pay", "label": "1 - Not First Pay" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "calculationMethod",
+    "placeholder": "Select Calculation Method",
+    "fieldtype": "select",
+    "label": "Calculation Method",
+    "value": "NONE",
+    "errmsg": "Calculation Method is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "00 Tax Rate Only", "label": "00 Tax Rate Only" },
+        { "id": "01 Tax Rate, Max Wage", "label": "01 Tax Rate, Max Wage" },
+        { "id": "02 Tax Rate, Min Wage", "label": "02 Tax Rate, Min Wage" },
+        { "id": "03 Tax Rate, Min Wage, Max Wage", "label": "03 Tax Rate, Min Wage, Max Wage" },
+        { "id": "04 Tax Rate, Max Tax", "label": "04 Tax Rate, Max Tax" },
+        { "id": "05 Tax Rate, Min Wage, Max Tax", "label": "05 Tax Rate, Min Wage, Max Tax" },
+        { "id": "06 Flat Amount Only", "label": "06 Flat Amount Only" },
+        { "id": "07 Flat Amount, Max Wage", "label": "07 Flat Amount, Max Wage" },
+        { "id": "08 Flat Amount, Min Wage", "label": "08 Flat Amount, Min Wage" },
+        { "id": "09 Flat Amount, Min Wage, Max Wage", "label": "09 Flat Amount, Min Wage, Max Wage" },
+        { "id": "10 Flat Amount, Max Tax", "label": "10 Flat Amount, Max Tax" },
+        { "id": "11 Flat Amount, Tax Rate", "label": "11 Flat Amount, Tax Rate" },
+        { "id": "12 Tax Rate For Hours Worked", "label": "12 Tax Rate For Hours Worked" },
+        { "id": "13 Tax Rate, Max Annualized Wage", "label": "13 Tax Rate, Max Annualized Wage" },
+        { "id": "14 Tax Rate, Min YTD Wage", "label": "14 Tax Rate, Min YTD Wage" },
+        {
+          "id": "15 Tax Rate, Min YTD Wage, Max YTD Wage, Max Tax",
+          "label": "15 Tax Rate, Min YTD Wage, Max YTD Wage, Max Tax"
+        },
+        { "id": "16 Flat Amt, Max YTD Wage", "label": "16 Flat Amt, Max YTD Wage" },
+        { "id": "17 Flat Amt, Min YTD Wage", "label": "17 Flat Amt, Min YTD Wage" },
+        { "id": "18 Flat Amt, Min YTD Wage, Max YTD Wage", "label": "18 Flat Amt, Min YTD Wage, Max YTD Wage" },
+        { "id": "19 Flat Amt, Min YTD Wage, Max Tax", "label": "19 Flat Amt, Min YTD Wage, Max Tax" },
+        { "id": "20 Tax Rate, Min YTD Wage, Max Tax", "label": "20 Tax Rate, Min YTD Wage, Max Tax" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "roundingMethod",
+    "placeholder": "Select Rounding Method",
+    "fieldtype": "select",
+    "label": "Rounding Method",
+    "value": "NONE",
+    "errmsg": "Rounding Method is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "Round To Cents", "label": "Round To Cents" },
+        { "id": "Round To Dollars", "label": "Round To Dollars" },
+        { "id": "Either/Cents", "label": "Either/Cents" },
+        { "id": "Either/Dollars", "label": "Either/Dollars" },
+        { "id": "Round Down To Dollars", "label": "Round Down To Dollars" },
+        { "id": "Authority/Round Down To Dollars", "label": "Authority/Round Down To Dollars" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "state",
+    "placeholder": "Select State",
+    "fieldtype": "select",
+    "label": "State",
+    "value": "NONE",
+    "errmsg": "State is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "Alabama", "label": "Alabama" },
+        { "id": "Alaska", "label": "Alaska" },
+        { "id": "Arizona", "label": "Arizona" },
+        { "id": "Arkansas", "label": "Arkansas" },
+        { "id": "California", "label": "California" },
+        { "id": "Colorado", "label": "Colorado" },
+        { "id": "Connecticut", "label": "Connecticut" },
+        { "id": "Delaware", "label": "Delaware" },
+        { "id": "Florida", "label": "Florida" },
+        { "id": "GA", "label": "GA" },
+        { "id": "Hawaii", "label": "Hawaii" },
+        { "id": "Idaho", "label": "Idaho" },
+        { "id": "Illinois", "label": "Illinois" },
+        { "id": "Indiana", "label": "Indiana" },
+        { "id": "Iowa", "label": "Iowa" },
+        { "id": "Kansas", "label": "Kansas" },
+        { "id": "Kentucky", "label": "Kentucky" },
+        { "id": "Louisiana", "label": "Louisiana" },
+        { "id": "Maine", "label": "Maine" },
+        { "id": "Maryland", "label": "Maryland" },
+        { "id": "Massachusetts", "label": "Massachusetts" },
+        { "id": "Michigan", "label": "Michigan" },
+        { "id": "Minnesota", "label": "Minnesota" },
+        { "id": "Mississippi", "label": "Mississippi" },
+        { "id": "Missouri", "label": "Missouri" },
+        { "id": "Montana", "label": "Montana" },
+        { "id": "Nebraska", "label": "Nebraska" },
+        { "id": "Nevada", "label": "Nevada" },
+        { "id": "New Hampshire", "label": "New Hampshire" },
+        { "id": "New Jersey", "label": "New Jersey" },
+        { "id": "New Mexico", "label": "New Mexico" },
+        { "id": "New York", "label": "New York" },
+        { "id": "North Carolina", "label": "North Carolina" },
+        { "id": "North Dakota", "label": "North Dakota" },
+        { "id": "Ohio", "label": "Ohio" },
+        { "id": "Oklahoma", "label": "Oklahoma" },
+        { "id": "Oregon", "label": "Oregon" },
+        { "id": "Pennsylvania", "label": "Pennsylvania" },
+        { "id": "Rhode Island", "label": "Rhode Island" },
+        { "id": "South Carolina", "label": "South Carolina" },
+        { "id": "South Dakota", "label": "South Dakota" },
+        { "id": "Tennessee", "label": "Tennessee" },
+        { "id": "Texas", "label": "Texas" },
+        { "id": "Utah", "label": "Utah" },
+        { "id": "Vermont", "label": "Vermont" },
+        { "id": "Virginia", "label": "Virginia" },
+        { "id": "Washington", "label": "Washington" },
+        { "id": "West Virginia", "label": "West Virginia" },
+        { "id": "Wisconsin", "label": "Wisconsin" },
+        { "id": "Wyoming", "label": "Wyoming" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "aggregationStatus",
+    "placeholder": "Select Aggregation Status",
+    "fieldtype": "select",
+    "label": "Aggregation Status",
+    "value": "NONE",
+    "errmsg": "Aggregation Status is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "Aggregate to Highest Maximum", "label": "Aggregate to Highest Maximum" },
+        { "id": "Aggregate to Lowest Maximum", "label": "Aggregate to Lowest Maximum" },
+        { "id": "Do Not Aggregate Plans", "label": "Do Not Aggregate Plans" },
+        { "id": "Use Authority Default Aggregation Rule ", "label": "Use Authority Default Aggregation Rule " }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "dateCode",
+    "placeholder": "Select Date Code",
+    "fieldtype": "select",
+    "label": "Date Code",
+    "value": "NONE",
+    "errmsg": "Date Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "Not Applicable", "label": "Not Applicable" },
+        { "id": "Use if Prior To Order", "label": "Use if Prior To Order" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "processCode",
+    "placeholder": "Select Process Code",
+    "fieldtype": "select",
+    "label": "Process Code",
+    "value": "NONE",
+    "errmsg": "Process Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "Disposable", "label": "Disposable" },
+        { "id": "Not Disposable", "label": "Not Disposable" },
+        { "id": "To Max. Amount", "label": "To Max. Amount" },
+        { "id": "To Max. Percent", "label": "To Max. Percent" },
+        { "id": "Over Max. Amount", "label": "Over Max. Amount" },
+        { "id": "Over Max. Percent", "label": "Over Max. Percent" },
+        { "id": "Between Min. Amount &amp; Max. Amount", "label": "Between Min. Amount &amp; Max. Amount" },
+        { "id": "Between Min. Percent &amp; Max. Percent", "label": "Between Min. Percent &amp; Max. Percent" },
+        { "id": "To Min. Amount", "label": "To Min. Amount" },
+        { "id": "To Min. Percent", "label": "To Min. Percent" },
+        { "id": "Greater of Max. Amount OR API", "label": "Greater of Max. Amount OR API" },
+        { "id": "Greater of Max. Percent OR API", "label": "Greater of Max. Percent OR API" },
+        { "id": "Lesser of Max. Amount OR API", "label": "Lesser of Max. Amount OR API" },
+        { "id": "Lesser of Max. Percent OR API", "label": "Lesser of Max. Percent OR API" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "paymentcodesthatAre",
+    "placeholder": "Select Payment Codes that are",
+    "fieldtype": "select",
+    "label": "Payment Codes that are",
+    "value": "NONE",
+    "errmsg": "Payment Codes that are is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "Both:Mapped and Not Mapped", "label": "Both:Mapped and Not Mapped" },
+        { "id": "Mapped", "label": "Mapped" },
+        { "id": "Not Mapped", "label": "Not Mapped" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "planearningTypes",
+    "placeholder": "Select Plan Earning Types",
+    "fieldtype": "select",
+    "label": "Plan Earning Types",
+    "value": "NONE",
+    "errmsg": "Plan Earning Types is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "ALL", "label": "ALL" },
+        { "id": "Earning", "label": "Earning" },
+        { "id": "Credit", "label": "Credit" },
+        { "id": "Deduction", "label": "Deduction" },
+        { "id": "Plan", "label": "Plan" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "messageFilter",
+    "placeholder": "Select Message Filter",
+    "fieldtype": "select",
+    "label": "Message Filter",
+    "value": "NONE",
+    "errmsg": "Message Filter is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "All Messages", "label": "All Messages" },
+        { "id": "0000 - 0999 - Informational", "label": "0000 - 0999 - Informational" },
+        { "id": "1000 - 1999 - Assumptions", "label": "1000 - 1999 - Assumptions" },
+        { "id": "2000 - 2999 - Legalities", "label": "2000 - 2999 - Legalities" },
+        { "id": "3000 - 4999 - Failures", "label": "3000 - 4999 - Failures" },
+        { "id": "5000 - 9999 - Fatals", "label": "5000 - 9999 - Fatals" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "gfo_inputsectionMethod",
+    "placeholder": "Input Section Method",
+    "fieldtype": "select",
+    "label": "Input Section Method",
+    "value": "NONE",
+    "errmsg": "Method is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0- Use Flat Amount", "label": "0- Use Flat Amount" },
+        { "id": "1- Use Disposable Earnings Amount", "label": "1- Use Disposable Earnings Amount" },
+        {
+          "id": "2- Use Disposable Earnings Amount Reduced by Higher Priority Garnishment",
+          "label": "2- Use Disposable Earnings Amount Reduced by Higher Priority Garnishment"
+        },
+        { "id": "3- Use Gross Wages API Amount", "label": "3- Use Gross Wages API Amount" },
+        {
+          "id": "4- Use Gross Wages API Amount Reduced by Higher Priority Garnishments",
+          "label": "4- Use Gross Wages API Amount Reduced by Higher Priority Garnishments"
+        },
+        { "id": "5- Use Net Wages API Amount", "label": "5- Use Net Wages API Amount" },
+        {
+          "id": "6- Use Net Wages API Amount Reduced by Higher Priority Garnishments",
+          "label": "6- Use Net Wages API Amount Reduced by Higher Priority Garnishments"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "gfo_exemptionsectionMethod",
+    "placeholder": "Exemption Section Method",
+    "fieldtype": "select",
+    "label": "Exemption Section Method",
+    "value": "NONE",
+    "errmsg": "Method is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0- No Exemptions", "label": "0- No Exemptions" },
+        { "id": "1- Subtract Flat Amount", "label": "1- Subtract Flat Amount" },
+        { "id": "2- Subtract Exemption Amount", "label": "2- Subtract Exemption Amount" },
+        {
+          "id": "3- Subtract Exemption Dependent Amount * Number of Dependents",
+          "label": "3- Subtract Exemption Dependent Amount * Number of Dependents"
+        },
+        {
+          "id": "4- Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependents",
+          "label": "4- Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependents"
+        },
+        {
+          "id": "5- Subtract Exemption Dependent Amount * Number of Exemptions",
+          "label": "5- Subtract Exemption Dependent Amount * Number of Exemptions"
+        },
+        {
+          "id": "6- Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions",
+          "label": "6- Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "gfo_calculationsectionMethod",
+    "placeholder": "Calculation Section Method",
+    "fieldtype": "select",
+    "label": "Calculation Section Method",
+    "value": "NONE",
+    "errmsg": "Method is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "1- Take Calculation Percent", "label": "1- Take Calculation Percent" },
+        {
+          "id": "2- Take Greater of Calculation Amount or Calculation Percent",
+          "label": "2- Take Greater of Calculation Amount or Calculation Percent"
+        },
+        {
+          "id": "3- Take Lesser of Calculation Amount or Calculation Percent",
+          "label": "3- Take Lesser of Calculation Amount or Calculation Percent"
+        },
+        {
+          "id": "4- Take Calculation Percent to Calculation Limit",
+          "label": "4- Take Calculation Percent to Calculation Limit"
+        },
+        {
+          "id": "5- Take Greater of Calculation Amount or Calculation Percent to Calculation Limit",
+          "label": "5- Take Greater of Calculation Amount or Calculation Percent to Calculation Limit"
+        },
+        {
+          "id": "6- Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit",
+          "label": "6- Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit"
+        },
+        {
+          "id": "7- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount",
+          "label": "7- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount"
+        },
+        {
+          "id": "8- Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount",
+          "label": "8- Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount"
+        },
+        {
+          "id": "9- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit",
+          "label": "9- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit"
+        },
+        {
+          "id": "10- Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit",
+          "label": "10- Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "gfo_eductionsectionMethod",
+    "placeholder": "Deduction Section Method",
+    "fieldtype": "select",
+    "label": "Deduction Section Method",
+    "value": "NONE",
+    "errmsg": "Method is required",
+    "dependentFields": ["county"],
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "0- No Deductions" },
+        { "id": "1", "label": "1- Subtract Deduction Flat Amount" },
+        { "id": "2", "label": "2- Subtract Deduction Amount" },
+        { "id": "3", "label": "3- Subtract Deduction Dependent Amount * Number of Dependents" },
+        { "id": "4", "label": "4- Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents" }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "county",
+    "placeholder": "Select County",
+    "fieldtype": "select",
+    "label": "County",
+    "value": "NONE",
+    "errmsg": "County is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": true,
+      "options": []
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
   }
 ]
