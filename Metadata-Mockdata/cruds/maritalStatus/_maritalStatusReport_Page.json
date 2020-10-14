@@ -1,7 +1,9 @@
 {
   "pgdef": {
     "pgid": "maritalStatusReport",
-    "pgtitle": "Marital Status Report"
+    "pgtitle": "Marital Status Report",
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/maritalStatusReport"
   },
   "formdef": {
     "hideReset": true,
