@@ -3,7 +3,6 @@
     "pgid": "taxHistoryReport",
     "pgtitle": "Tax History Report",
     "pgsubtitle": "",
-    "caption": "Tax History Report of ${bsiauth} (${name})",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "",
@@ -12,16 +11,6 @@
     "helpLblTxt": "",
     "helpLink": "",
     "parentConfig": "taxHistory",
-    "parentFields": [
-      {
-        "id": "bsiauth",
-        "label": "BSIAUTH"
-      },
-      {
-        "id": "name",
-        "label": "Authority Name"
-      }
-    ],
     "childConfig": ""
   },
   "griddef": {
@@ -158,9 +147,8 @@
 {
   "pgdef": {
     "pgid": "taxHistoryReport",
-    "pgtitle": "",
+    "pgtitle": "Garnishment History Report",
     "pgsubtitle": "",
-    "caption": "Garnishment History Report of ${bsiauth} (${name})",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "",
@@ -168,12 +156,12 @@
     "helpAvailable": false,
     "helpLblTxt": "",
     "helpLink": "",
-    "parentConfig": "",
+    "parentConfig": "taxHistory",
     "childConfig": ""
   },
   "griddef": {
     "gridtype": "type2",
-    "isfilter": false,
+    "isfilter": true,
     "isfilterform": false,
     "datatype": "json",
     "contenttype": "application/json",

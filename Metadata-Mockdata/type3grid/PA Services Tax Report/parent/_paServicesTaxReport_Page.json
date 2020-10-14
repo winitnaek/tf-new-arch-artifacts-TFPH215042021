@@ -15,8 +15,9 @@
   },
   "griddef": {
     "gridtype": "type2",
+    "isfilter": false,
     "isDateFilter": true,
-    "isfilterform": true,
+    "isfilterform": false,
     "datatype": "json",
     "contenttype": "application/json",
     "noResultsFoundTxt": "No Data Found : ",
@@ -52,6 +53,17 @@
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
+      },
+      {
+        "text": "Effective Date",
+        "datafield": "startdate",
+        "cellsalign": "left",
+        "width": "0%",
+        "hidden": true,
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
       }
     ],
     "dataFields": [
@@ -81,6 +93,7 @@
     "formflds": [
       {
         "id": "bsiauth",
+        "label": "Authority Code",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false

@@ -11,16 +11,6 @@
       "helpLblTxt":"Click here for more info!",
       "helpLink":"/customTaxCodes",
       "parentConfig":"customFormulas",
-      "parentFields": [
-         {
-           "id": "taxCode",
-           "label": "Custom Tax Code"
-         },
-         {
-           "id": "name",
-           "label": "Custom Tax Name"
-         }
-       ],
       "childConfig":""
    },
    "griddef":{

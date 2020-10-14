@@ -11,24 +11,6 @@
     "helpLblTxt": "",
     "helpLink": "",
     "parentConfig": "paServicesTaxReport",
-    "parentFields": [
-      {
-        "id": "startdate",
-        "label": "Effective Date"
-      },
-      {
-        "id": "bsiauth",
-        "label": "Authority Code"
-      },
-      {
-        "id": "authtitle",
-        "label": "Title"
-      },
-      {
-        "id": "countyid",
-        "label": "County Names"
-      }
-    ],
     "childConfig": ""
   },
   "griddef": {
