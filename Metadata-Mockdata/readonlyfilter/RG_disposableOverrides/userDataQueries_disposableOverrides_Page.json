@@ -214,6 +214,7 @@
 
   "formdef": {
     "title": "Disposable Overrides",
+    "note": "* No entry will imply ALL selection.",
     "subtitle": "Note: Required fields are marked with an asterisk (*)",
     "hasSave": false,
     "hasDelete": false,
