@@ -184,13 +184,13 @@
 
     "fltrflds": [
       {
-        "id": "authorityCode",
+        "id": "authorityCodegp",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "taxType",
+        "id": "taxTypeALL",
         "order": 2,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
