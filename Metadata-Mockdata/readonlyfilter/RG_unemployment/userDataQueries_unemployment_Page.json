@@ -68,7 +68,7 @@
 
 
     "fltrflds": [
-        { "id": "authorityCode", "order":1, "isReadOnlyOnEdit":true, "isReadOnlyOnNew": false },
+        { "id": "authorityCodeNoall", "order":1, "isReadOnlyOnEdit":true, "isReadOnlyOnNew": false },
         { "id": "userTaxCode", "order":2, "isReadOnlyOnEdit":true,"isReadOnlyOnNew":false },
         { "id": "startDate", "order":3, "isReadOnlyOnEdit":false,"isReadOnlyOnNew":false }
       ]
