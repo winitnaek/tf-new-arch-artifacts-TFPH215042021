@@ -154,6 +154,7 @@
   "formdef": {
     "title": "Custom Taxability For Authority",
     "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note":"* No entry will imply ALL selection.",
     "hasSave": false,
     "hasDelete": false,
     "hasSaveAs": false,
