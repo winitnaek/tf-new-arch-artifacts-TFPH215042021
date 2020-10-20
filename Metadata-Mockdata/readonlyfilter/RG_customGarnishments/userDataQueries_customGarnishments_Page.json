@@ -53,7 +53,8 @@
 	},
   
   "formdef":  {
-		"title":"Custom Garnishments",
+    "title":"Custom Garnishments",
+    "note":"* No entry will imply ALL selection.",
         "subtitle":"Note: Required fields are marked with an asterisk (*)",
 		"hasSave":false,
 		"hasDelete":false,
