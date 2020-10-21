@@ -165,7 +165,7 @@
     "formflds": "",
     "fltrflds": [
       { "id": "authorityCode", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
-      { "id": "taxType", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "taxTypeALL", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
       { "id": "typeOfData", "order": 3, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
       { "id": "startDate", "order": 4, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false }
     ]
