@@ -100,7 +100,7 @@
 
     "fltrflds": [
       { "id": "authorityCodegp", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
-      { "id": "taxType", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
+      { "id": "taxTypeALL", "order": 2, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
       { "id": "startDate", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false }
     ]
   }
