@@ -148,6 +148,7 @@
    "formdef":{
       "title":"Experience Rates",
       "subtitle":"Select Report",
+      "note": "* No entry will imply ALL selection.",
       "hasSave":false,
       "hasDelete":false,
       "hasSaveAs":false,

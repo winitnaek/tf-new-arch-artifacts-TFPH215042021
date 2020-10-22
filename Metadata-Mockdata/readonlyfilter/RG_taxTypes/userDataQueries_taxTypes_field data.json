@@ -1,6 +1,6 @@
 [
 {
-      "id":"taxType",
+      "id":"taxTypes",
       "placeholder":"Enter Tax Type",
       "fieldtype":"select",
       "label":"Tax Type",

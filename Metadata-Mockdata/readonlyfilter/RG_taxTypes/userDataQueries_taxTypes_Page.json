@@ -150,7 +150,7 @@
 
     "fltrflds": [
       {
-        "id": "taxType",
+        "id": "taxTypes",
         "order": 1,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false

@@ -104,7 +104,7 @@
 
     "fltrflds": [
       {
-        "id": "authorityCode",
+        "id": "authorityCodegp",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false

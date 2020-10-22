@@ -455,7 +455,7 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "taxType",
+        "id": "taxTypeALL",
         "order": 2,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false

@@ -5,7 +5,7 @@
     "fieldtype": "select",
     "label": "Tax Name",
     "value": "",
-    "errmsg": " ",
+    "errmsg": "Tax Name is required.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25

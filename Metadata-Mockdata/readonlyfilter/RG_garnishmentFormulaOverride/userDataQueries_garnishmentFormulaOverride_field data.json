@@ -5,7 +5,7 @@
     "fieldtype": "select",
     "label": "Group Name",
     "value": "",
-    "errmsg": " ",
+    "errmsg": "Group Name is required.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25

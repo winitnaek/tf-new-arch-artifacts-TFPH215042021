@@ -27,7 +27,7 @@
 
         {
             "text": "Tax Type",
-            "datafield": "taxType",
+            "datafield": "taxTypeALL",
             "cellsalign": "left",
             "width": "5%",
             "align": "left",

@@ -99,8 +99,8 @@
     "formflds": "",
 
     "fltrflds": [
-      { "id": "authorityCode", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
-      { "id": "taxType", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "authorityCodegp", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "garnishParamTaxType", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
       { "id": "startDate", "order": 3, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false }
     ]
   }

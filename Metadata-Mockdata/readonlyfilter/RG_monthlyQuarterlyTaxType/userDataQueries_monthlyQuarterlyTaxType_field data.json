@@ -1,6 +1,6 @@
 [
 {
-      "id":"authorityCode",
+      "id":"authorityCodegp",
       "placeholder":"Enter Authority Code",
       "fieldtype":"select",
       "label":"Authority Code",
@@ -19,7 +19,7 @@
          "multiselect":false
       },
       "validation":{
-         "required":true,
+         "required":false,
          "type":"string"
       }
    }

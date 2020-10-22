@@ -1,6 +1,6 @@
 [
    {
-      "id":"taxCode",
+      "id":"taxability",
       "placeholder":"Enter Tax Code",
       "fieldtype":"select",
       "label":"Tax Code",

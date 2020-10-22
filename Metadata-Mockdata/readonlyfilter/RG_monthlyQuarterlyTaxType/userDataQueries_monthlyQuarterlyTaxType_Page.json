@@ -110,6 +110,7 @@
   "formdef": {
     "title": "Monthly/Quarterly Tax Type",
     "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "note":"* No entry will imply ALL selection.",
     "hasSave": false,
     "hasDelete": false,
     "hasSaveAs": false,
@@ -118,7 +119,7 @@
     "hasRecentUsage": false,
 
     "formflds": [
-      { "id": "authorityCode", "order": 1, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
+      { "id": "authorityCodegp", "order": 1, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
       { "id": "taxType", "order": 2, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },
       { "id": "formulaNumber", "order": 3, "isReadOnlyOnEdit": false, "isReadOnlyOnNew": false },
       { "id": "startDate", "order": 4, "isReadOnlyOnEdit": true, "isReadOnlyOnNew": false },

@@ -24,7 +24,7 @@
       }
    },
    {
-      "id":"taxType",
+      "id":"taxTypeALL",
       "placeholder":"Enter Tax Type",
       "fieldtype":"select",
       "label":"Tax Type",
