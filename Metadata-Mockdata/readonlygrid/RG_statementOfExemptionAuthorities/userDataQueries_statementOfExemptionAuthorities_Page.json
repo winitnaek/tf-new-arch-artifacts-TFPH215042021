@@ -1,7 +1,7 @@
 {
     "pgdef": {
     "pgid":  "statementOfExemptionAuthorities",
-    "pgtitle": "Statement of Exemption Authorities",
+    "pgtitle": "Statement Of Exemption Authorities",
     "pgsubtitle":"",
     "flowtype": "flowtype1",
     "hasAddNew": false,
@@ -75,7 +75,7 @@
 	},
   
   "formdef":  {
-		"title":"Statement of Exemption Authorities",
+		"title":"Statement Of Exemption Authorities",
         "subtitle":"Note: Required fields are marked with an asterisk (*)",
 		"hasSave":false,
 		"hasDelete":false,
