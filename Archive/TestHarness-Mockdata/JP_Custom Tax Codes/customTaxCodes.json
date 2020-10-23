@@ -1,32 +1,32 @@
 {
-  pgdef: {
-    pgid: "customTaxCodes",
-    pgtitle: "Custom Tax Codes",
-    pgsubtitle: "",
-    flowtype: "flowtype1",
-    hasAddNew: true,
-    addNewLabel: "Click here to add new Custom Tax Code.",
-    actiondel: false,
-    helpAvailable: true,
-    helpLblTxt: "Click here for more info!",
-    helpLink: "/customTaxCodes",
-    parentConfig: "",
-    childConfig: ""
+  "pgdef": {
+    "pgid": "customTaxCodes",
+    "pgtitle": "Custom Tax Codes",
+    "pgsubtitle": "",
+    "flowtype": "flowtype1",
+    "hasAddNew": true,
+    "addNewLabel": "Click here to add new Custom Tax Code.",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/customTaxCodes",
+    "parentConfig": "",
+    "childConfig": ""
   },
-  griddef: {
-    gridtype: "type1",
-    isfilter: false,
-    isfilterform: false,
-    datatype: "json",
-    contenttype: "application/json",
-    noResultsFoundTxt: "No Data Found",
-    recordEdit: true,
-    recordDelete: true,
-    columns: [
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": false,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No Data Found",
+    "recordEdit": true,
+    "recordDelete": true,
+    "columns": [
       {
-        text: "Custom Tax Code",
-        datafield: "taxCode",
-        cellsalign: "center",
+        "text": "Custom Tax Code",
+        "datafield": "taxCode",
+        "cellsalign": "center",
         "width": "50%",
         "align": "left",
         "sortable": true,
@@ -34,29 +34,29 @@
         "rendererStaticInput": ""
       },
       {
-        text: "Custom Tax Name",
-        datafield: "name",
-        cellsalign: "center",
+        "text": "Custom Tax Name",
+        "datafield": "name",
+        "cellsalign": "center",
         "width": "50%",
         "align": "left",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": "" 
+        "rendererStaticInput": ""
       }
     ],
-    dataFields: [
-      { name: "customTaxCode", type: "string" },
-      { name: "customTaxName", type: "string" }
+    "dataFields": [
+      { "name": "customTaxCode", "type": "string" },
+      { "name": "customTaxName", "type": "string" }
     ]
   },
-  formdef: {
-    title: "Custom Tax Codes",
-    subtitle: "Note: Required fields are marked with an asterisk (*)",
-    hasSave: true,
-    hasDelete: false,
-    hasSaveAs: false,
-    hasViewPDF: false,
-    hasView: false,
-    hasRecentUsage: true,
+  "formdef": {
+    "title": "Custom Tax Codes",
+    "subtitle": "Note: Required fields are marked with an asterisk (*)",
+    "hasSave": true,
+    "hasDelete": false,
+    "hasSaveAs": false,
+    "hasViewPDF": false,
+    "hasView": false,
+    "hasRecentUsage": true
   }
 }

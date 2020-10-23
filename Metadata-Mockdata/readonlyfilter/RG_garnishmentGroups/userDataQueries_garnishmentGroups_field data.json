@@ -1,6 +1,6 @@
 [
   {
-    "id": "groupCode",
+    "id": "garnishmentGroup",
     "placeholder": "Enter Group Code",
     "fieldtype": "select",
     "label": "Group Code",

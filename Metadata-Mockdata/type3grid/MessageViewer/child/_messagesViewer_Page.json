@@ -23,7 +23,7 @@
   },
   "griddef": {
     "gridtype": "type2",
-    "hasFilter": true,
+    "hasFilter": false,
     "isfilter": true,
     "isfilterform": true,
     "datatype": "json",
@@ -34,7 +34,7 @@
     "columns": [
       {
         "text": "Message Number",
-        "datafield": "messageNumber",
+        "datafield": "msgnum",
         "cellsalign": "left",
         "width": "25%",
         "align": "left",
@@ -44,7 +44,7 @@
       },
       {
         "text": "Employee Code",
-        "datafield": "employeeCode",
+        "datafield": "empcode",
         "cellsalign": "left",
         "width": "15%",
         "align": "left",
@@ -54,7 +54,7 @@
       },
       {
         "text": "Employee Name",
-        "datafield": "employeeName",
+        "datafield": "empname",
         "cellsalign": "left",
         "width": "15%",
         "align": "left",
@@ -64,7 +64,7 @@
       },
       {
         "text": "Company",
-        "datafield": "company",
+        "datafield": "companycode",
         "cellsalign": "left",
         "width": "15%",
         "align": "left",
@@ -74,7 +74,7 @@
       },
       {
         "text": "Employee Group",
-        "datafield": "employeeGroup",
+        "datafield": "groupcode",
         "cellsalign": "left",
         "width": "15%",
         "align": "left",
@@ -84,7 +84,7 @@
       },
       {
         "text": "Message Text",
-        "datafield": "messageText",
+        "datafield": "xmessage",
         "cellsalign": "left",
         "width": "25%",
         "align": "left",
@@ -95,27 +95,27 @@
     ],
     "dataFields": [
       {
-        "name": "messageNumber",
+        "name": "msgnum",
         "type": "string"
       },
       {
-        "name": "employeeCode",
+        "name": "empcode",
         "type": "string"
       },
       {
-        "name": "employeeName",
+        "name": "empname",
         "type": "string"
       },
       {
-        "name": "company",
+        "name": "companycode",
         "type": "string"
       },
       {
-        "name": "employeeGroup",
+        "name": "groupcode",
         "type": "string"
       },
       {
-        "name": "messageText",
+        "name": "xmessage",
         "type": "string"
       }
     ]
@@ -131,37 +131,37 @@
     "hasRecentUsage": false,
     "formflds": [
       {
-        "id": "messageNumber",
+        "id": "msgnum",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "employeeCode",
+        "id": "empcode",
         "order": 2,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "employeeName",
+        "id": "empname",
         "order": 3,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "company",
+        "id": "companycode",
         "order": 4,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "employeeGroup",
+        "id": "groupcode",
         "order": 5,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "messageText",
+        "id": "xmessage",
         "order": 6,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false

@@ -1,6 +1,6 @@
 [
   {
-    "id": "authorityCode",
+    "id": "authorityCodegp",
     "placeholder": "Enter Authority Code",
     "fieldtype": "select",
     "label": "Authority Code",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "id": "taxType",
+    "id": "garnishParamTaxType",
     "placeholder": "Enter Tax Type",
     "fieldtype": "select",
     "label": "Tax Type",

@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "messageViewer",
     "pgtitle": "Message Viewer",
-    "pgsubtitle": "",
+    "pgsubtitle": "Click the magnifying glass in the view column on the appropriate row to view its messages:",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "hasDeleteAll": true,
@@ -32,7 +32,7 @@
     "columns": [
       {
         "text": "Run Name",
-        "datafield": "runName",
+        "datafield": "runname",
         "cellsalign": "left",
         "width": "25%",
         "align": "left",
@@ -42,7 +42,7 @@
       },
       {
         "text": "Run Date",
-        "datafield": "runDate",
+        "datafield": "rundate",
         "cellsalign": "left",
         "width": "25%",
         "align": "left",
@@ -52,7 +52,7 @@
       },
       {
         "text": "Run Time",
-        "datafield": "runTime",
+        "datafield": "runtime",
         "cellsalign": "left",
         "width": "25%",
         "align": "left",
@@ -69,23 +69,38 @@
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
+      },
+      {
+        "text": "Run Id",
+        "datafield": "runid",
+        "cellsalign": "left",
+        "width": "25%",
+        "align": "left",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
       }
     ],
     "dataFields": [
       {
-        "name": "runName",
+        "name": "runname",
         "type": "string"
       },
       {
-        "name": "runDate",
+        "name": "rundate",
         "type": "string"
       },
       {
-        "name": "runTime",
+        "name": "runtime",
         "type": "string"
       },
       {
         "name": "product",
+        "type": "string"
+      },
+      {
+        "name": "runid",
         "type": "string"
       }
     ]
@@ -107,13 +122,13 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "runDate",
+        "id": "rundate",
         "order": 2,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "runTime",
+        "id": "runtime",
         "order": 3,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false

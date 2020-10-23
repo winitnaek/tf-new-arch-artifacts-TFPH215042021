@@ -4,7 +4,7 @@
     "placeholder": "",
     "fieldtype": "date",
     "label": "Start Date",
-    "value": "new Date()",
+    "value": "",
     "errmsg": "",
     "fieldlength": {
       "minlength": 1,
