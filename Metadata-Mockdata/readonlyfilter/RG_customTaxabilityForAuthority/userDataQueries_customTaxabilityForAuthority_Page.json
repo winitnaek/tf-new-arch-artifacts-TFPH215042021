@@ -1,7 +1,7 @@
 {
   "pgdef": {
     "pgid": "customTaxabilityForAuthority",
-    "pgtitle": "Custom Taxability for Authority",
+    "pgtitle": "Custom Taxability For Authority",
     "pgsubtitle": "",
     "flowtype": "flowtype1",
     "hasAddNew": false,
