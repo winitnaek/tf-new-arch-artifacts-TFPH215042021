@@ -11,10 +11,10 @@
     "fein": "999888999",
     "localCourtesyWithholding": "On"
   },
-  
-	"companyCode": "dr_comp",
-	"companyName": "DR Company",
-	"fein": "101202303",
-	"localCourtesyWithholding" : "On"
+  {
+    "companyCode": "dr_comp",
+    "companyName": "DR Company",
+    "fein": "101202303",
+    "localCourtesyWithholding": "On"
   }
 ]
