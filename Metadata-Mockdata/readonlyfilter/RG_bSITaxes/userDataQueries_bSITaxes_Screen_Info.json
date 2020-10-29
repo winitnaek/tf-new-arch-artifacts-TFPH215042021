@@ -1,8 +1,9 @@
 {
-   "value":"UQ",
-   "label":"BSI Taxes",
-   "desc":"BSI Taxes",
-   "id":"bSITaxes",
-   "type":"comp",
-   "link":false
+  "section": "User Data Queries",
+  "value": "UQ",
+  "label": "BSI Taxes",
+  "desc": "BSI Taxes",
+  "id": "bSITaxes",
+  "type": "comp",
+  "link": false
 }

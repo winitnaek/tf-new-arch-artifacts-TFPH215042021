@@ -1,5 +1,5 @@
 {
-   "value":"UQ",
+   "section": "User Data Queries","value":"UQ",
    "label":"Tax Types",
    "desc":"Tax Types",
    "id":"taxTypes",

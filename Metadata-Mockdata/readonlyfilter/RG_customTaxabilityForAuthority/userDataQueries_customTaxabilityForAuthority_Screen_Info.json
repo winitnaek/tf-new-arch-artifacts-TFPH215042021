@@ -1,5 +1,5 @@
 {
-   "value":"UQ",
+   "section": "User Data Queries","value":"UQ",
    "label":"Custom Taxability For Authority",
    "desc":"Custom Taxability For Authority",
    "id":"customTaxabilityForAuthority",

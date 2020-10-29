@@ -1,5 +1,5 @@
 {
-   "value":"UQ",
+   "section": "User Data Queries","value":"UQ",
    "label":"Valid Tax Formulas",
    "desc":"Valid Tax Formulas",
    "id":"validTaxFormulas",

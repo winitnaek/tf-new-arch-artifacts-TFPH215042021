@@ -1,5 +1,5 @@
 {
-   "value":"UQ",
+   "section": "User Data Queries","value":"UQ",
    "label":"Resident / Work Validation",
    "desc":"Resident / Work Validation",
    "id":"residentWorkValidation",

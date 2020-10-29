@@ -1,5 +1,5 @@
 {
-   "value":"UQ",
+   "section": "User Data Queries","value":"UQ",
    "label":"Ordered-Percent Garnishments",
    "desc":"Ordered-Percent Garnishments",
    "id":"orderedPercentGarnishments",

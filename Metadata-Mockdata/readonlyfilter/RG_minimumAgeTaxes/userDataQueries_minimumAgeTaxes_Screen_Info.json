@@ -1,5 +1,5 @@
 {
-   "value":"UQ",
+   "section": "User Data Queries","value":"UQ",
    "label":"Minimum Age Taxes",
    "desc":"Minimum Age Taxes",
    "id":"minimumAgeTaxes",

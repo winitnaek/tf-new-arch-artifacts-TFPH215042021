@@ -1,5 +1,5 @@
 {
-   "value":"UQ",
+   "section": "User Data Queries","value":"UQ",
    "label":"Wage Limits By Authority And Tax Type",
    "desc":"Wage Limits By Authority And Tax Type",
    "id":"wageLimitsByAuthorityAndTaxType",

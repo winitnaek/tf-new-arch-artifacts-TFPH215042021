@@ -1,8 +1,9 @@
 {
-   "value":"UQ",
-   "label":"Garnishment Requiring Filing Status",
-   "desc":"Garnishment Requiring Filing Status",
-   "id":"garnishmentRequiringFilingStatus",
-   "type":"comp",
-   "link":false
+  "section": "User Data Queries",
+  "value": "UQ",
+  "label": "Garnishment Requiring Filing Status",
+  "desc": "Garnishment Requiring Filing Status",
+  "id": "garnishmentRequiringFilingStatus",
+  "type": "comp",
+  "link": false
 }

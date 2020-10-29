@@ -1,8 +1,9 @@
 {
-   "value":"UQ",
-   "label":"Companies",
-   "desc":"Companies",
-   "id":"companies",
-   "type":"comp",
-   "link":false
+  "section": "User Data Queries",
+  "value": "UQ",
+  "label": "Companies",
+  "desc": "Companies",
+  "id": "companies",
+  "type": "comp",
+  "link": false
 }
