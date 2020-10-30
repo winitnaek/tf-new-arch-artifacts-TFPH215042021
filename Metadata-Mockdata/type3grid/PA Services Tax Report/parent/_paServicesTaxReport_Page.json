@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "paServicesTaxReport",
     "pgtitle": "PA Services Tax Report",
-    "pgsubtitle": "",
+    "pgsubtitle": "Click on the Authority Code to view the Report:",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "",
