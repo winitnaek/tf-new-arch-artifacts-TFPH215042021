@@ -4,5 +4,5 @@
    "desc":"GeneralConfiguration",
    "id":"generalConfiguration",
    "type":"coniguration",
-   "link":true
+   "link":false
 }

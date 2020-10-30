@@ -1,7 +1,7 @@
 {
     "pgdef": {
         "pgid": "customOverridesForAuthority",
-        "pgtitle": "Custom Overrides for Authority",
+        "pgtitle": "Custom Overrides For Authority",
 		"pgsubtitle":"",
 		"flowtype": "flowtype1",
 		"hasAddNew": false,
