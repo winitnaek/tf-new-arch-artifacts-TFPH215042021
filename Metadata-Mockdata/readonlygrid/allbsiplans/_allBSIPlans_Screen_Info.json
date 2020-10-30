@@ -5,5 +5,5 @@
    "desc":"All BSI Plans",
    "id":"allBSIPlans",
    "type":"comp",
-   "link":false
+   "link":true
 }

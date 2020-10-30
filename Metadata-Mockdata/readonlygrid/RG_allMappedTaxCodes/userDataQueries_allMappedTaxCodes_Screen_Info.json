@@ -5,5 +5,5 @@
    "desc":"All Mapped Tax Codes",
    "id":"allMappedTaxCodes",
    "type":"comp",
-   "link":false
+   "link":true
 }

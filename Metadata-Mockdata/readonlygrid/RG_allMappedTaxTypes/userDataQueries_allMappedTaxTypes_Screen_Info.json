@@ -5,5 +5,5 @@
   "desc": "All Mapped Tax Types",
   "id": "allMappedTaxTypes",
   "type": "comp",
-  "link": false
+  "link": true
 }

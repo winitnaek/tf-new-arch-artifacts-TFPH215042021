@@ -5,5 +5,5 @@
   "desc": "Statement Of Exemption Authorities",
   "id": "statementOfExemptionAuthorities",
   "type": "comp",
-  "link": false
+  "link": true
 }

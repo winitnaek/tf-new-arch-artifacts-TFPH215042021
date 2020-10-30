@@ -5,5 +5,5 @@
   "desc": "Populated V3 States",
   "id": "populatedV3States",
   "type": "comp",
-  "link": false
+  "link": true
 }

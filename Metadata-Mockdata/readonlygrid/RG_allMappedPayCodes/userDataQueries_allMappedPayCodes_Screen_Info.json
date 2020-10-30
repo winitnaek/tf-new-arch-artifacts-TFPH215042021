@@ -5,5 +5,5 @@
    "desc":"All Mapped Pay Codes",
    "id":"allMappedPayCodes",
    "type":"comp",
-   "link":false
+   "link":true
 }
