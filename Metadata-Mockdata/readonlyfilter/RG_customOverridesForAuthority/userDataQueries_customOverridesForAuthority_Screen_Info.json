@@ -4,5 +4,5 @@
    "desc":"Custom Overrides For Authority",
    "id":"customOverridesForAuthority",
    "type":"comp",
-   "link":false
+   "link":true
 }

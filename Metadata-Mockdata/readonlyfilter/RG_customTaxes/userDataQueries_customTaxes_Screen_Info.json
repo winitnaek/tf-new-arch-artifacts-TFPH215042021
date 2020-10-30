@@ -5,5 +5,5 @@
   "desc": "Custom Taxes",
   "id": "customTaxes",
   "type": "comp",
-  "link": false
+  "link": true
 }

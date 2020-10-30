@@ -4,5 +4,5 @@
    "desc":"Wage Limits By Authority And Tax Type",
    "id":"wageLimitsByAuthorityAndTaxType",
    "type":"comp",
-   "link":false
+   "link":true
 }

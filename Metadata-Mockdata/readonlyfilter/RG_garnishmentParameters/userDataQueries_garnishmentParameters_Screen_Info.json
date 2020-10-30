@@ -4,5 +4,5 @@
    "desc":"Garnishment Parameters",
    "id":"garnishmentParameters",
    "type":"comp",
-   "link":false
+   "link":true
 }

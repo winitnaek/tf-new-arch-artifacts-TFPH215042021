@@ -5,5 +5,5 @@
   "desc": "BSI Taxes",
   "id": "bSITaxes",
   "type": "comp",
-  "link": false
+  "link": true
 }

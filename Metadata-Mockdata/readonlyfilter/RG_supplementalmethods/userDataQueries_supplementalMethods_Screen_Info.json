@@ -5,5 +5,5 @@
   "desc": "Resident / Work Supplemental Methods",
   "id": "supplementalMethods",
   "type": "comp",
-  "link": false
+  "link": true
 }

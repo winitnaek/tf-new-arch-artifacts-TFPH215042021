@@ -5,5 +5,5 @@
   "desc": "MonthlyQuarterly Tax Type",
   "id": "monthlyQuarterlyTaxType",
   "type": "comp",
-  "link": false
+  "link": true
 }

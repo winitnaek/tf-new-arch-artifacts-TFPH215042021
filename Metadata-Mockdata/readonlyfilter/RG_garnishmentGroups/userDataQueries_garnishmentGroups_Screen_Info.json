@@ -4,5 +4,5 @@
    "desc":"Garnishment Groups",
    "id":"garnishmentGroups",
    "type":"comp",
-   "link":false
+   "link":true
 }

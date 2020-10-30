@@ -4,5 +4,5 @@
    "desc":"Tax Types",
    "id":"taxTypes",
    "type":"comp",
-   "link":false
+   "link":true
 }

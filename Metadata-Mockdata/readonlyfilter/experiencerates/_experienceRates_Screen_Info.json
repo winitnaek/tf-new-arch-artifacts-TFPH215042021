@@ -4,6 +4,6 @@
   "desc": "Experience Rates",
   "id": "experienceRates",
   "type": "comp",
-  "link": false,
+  "link": true,
   "section": "User Data Queries"
 }

@@ -4,5 +4,5 @@
    "desc":"Tax Authorities",
    "id":"taxAuthorities",
    "type":"comp",
-   "link":false
+   "link":true
 }

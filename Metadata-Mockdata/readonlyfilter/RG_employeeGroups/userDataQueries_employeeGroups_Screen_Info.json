@@ -4,5 +4,5 @@
    "desc":"Employee Groups",
    "id":"employeeGroups",
    "type":"comp",
-   "link":false
+   "link":true
 }

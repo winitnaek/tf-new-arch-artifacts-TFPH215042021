@@ -5,5 +5,5 @@
   "desc": "Companies",
   "id": "companies",
   "type": "comp",
-  "link": false
+  "link": true
 }

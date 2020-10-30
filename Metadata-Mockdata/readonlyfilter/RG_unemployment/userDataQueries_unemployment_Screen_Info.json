@@ -4,5 +4,5 @@
    "desc":"Unemployment",
    "id":"unemployment",
    "type":"comp",
-   "link":false
+   "link":true
 }

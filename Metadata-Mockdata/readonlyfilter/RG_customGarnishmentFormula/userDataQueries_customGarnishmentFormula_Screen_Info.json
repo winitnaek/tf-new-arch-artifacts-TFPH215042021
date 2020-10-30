@@ -5,5 +5,5 @@
   "desc": "Custom Garnishment Formula",
   "id": "customGarnishmentFormula",
   "type": "comp",
-  "link": false
+  "link": true
 }

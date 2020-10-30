@@ -5,5 +5,5 @@
   "desc": "Disposable Overrides",
   "id": "disposableOverrides",
   "type": "comp",
-  "link": false
+  "link": true
 }
