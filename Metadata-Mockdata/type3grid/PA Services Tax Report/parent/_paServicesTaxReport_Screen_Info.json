@@ -4,6 +4,6 @@
   "desc": "PA Services Tax Report",
   "id": "paServicesTaxReport",
   "type": "comp",
-  "link": false,
+  "link": true,
   "section": "Tax Details"
 }
