@@ -1,7 +1,7 @@
 {
    "section": "User Data Queries","value":"UQ",
-   "label":"Taxability for Authority",
-   "desc":"Taxability for Authority",
+   "label":"Taxability For Authority",
+   "desc":"Taxability For Authority",
    "id":"taxabilityForAuthority",
    "type":"comp",
    "link":true
