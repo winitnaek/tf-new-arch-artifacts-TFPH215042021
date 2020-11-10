@@ -2,7 +2,7 @@
    "value":"CF",
    "label":"What-If Test",
    "desc":"What-If Test",
-   "id":"what-ifTest",
+   "id":"whatifEmp",
    "type":"comp",
-   "link":false
+   "link":true
 }
