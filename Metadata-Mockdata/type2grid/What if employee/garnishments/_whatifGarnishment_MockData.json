@@ -1,0 +1,12 @@
+[
+  {
+    "taxCode": "BSI00010000",
+    "authorityName": "ALABAMA",
+    "taxTypeUserTaxType": "BSI510",
+    "taxName": "CURRENT SUPPORT ARREARS",
+    "formula#": 1,
+    "formula": "CURRENT SUPPORT ARREARS",
+    "caseId": "jdshs",
+    "docketNumber": "test"
+  }
+]

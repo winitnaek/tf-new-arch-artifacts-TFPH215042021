@@ -1,0 +1,144 @@
+{
+   "pgdef":{
+      "pgid":"whatifGarnishment",
+      "pgtitle":"What-If Test Garnishment",
+      "pgsubtitle":"",
+      "flowtype":"flowtype2",
+      "hasAddNew":true,
+      "addNewLabel":"Click here to add new garnishment Tax.",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/whatifGarnishment",
+      "parentConfig":"whatifEmp",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"type1",
+      "isfilter":true,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":true,
+      "recordDelete":false,
+      "hasButtonBar":true,
+      "columns":[
+         {
+            "text":"Tax Code",
+            "datafield":"taxCode",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Authority Name",
+            "datafield":"authorityName",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Tax Type/User Tax Type",
+            "datafield":"taxTypeUserTaxType",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Tax Name",
+            "datafield":"taxName",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Formula #",
+            "datafield":"formula#",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Formula",
+            "datafield":"formula",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Case ID",
+            "datafield":"caseId",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Docket Number",
+            "datafield":"docketNumber",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         }
+      ],
+      "dataFields":[
+         {
+            "name":"taxCode",
+            "type":"string"
+         },
+         {
+            "name":"authorityName",
+            "type":"string"
+         },
+         {
+            "name":"taxTypeUserTaxType",
+            "type":"string"
+         },
+         {
+            "name":"taxName",
+            "type":"string"
+         },
+         {
+            "name":"formula#",
+            "type":"string"
+         },
+         {
+            "name":"formula",
+            "type":"string"
+         },
+         {
+            "name":"caseId",
+            "type":"string"
+         },
+         {
+            "name":"docketNumber",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef":""
+}
