@@ -13,6 +13,7 @@
       "fieldinfo":{
          "typeahead":true,
          "isasync":true,
+         "minLength":1,
          "options":[
 
          ],
@@ -37,6 +38,7 @@
       "fieldinfo":{
          "typeahead":true,
          "isasync":true,
+         "minLength":1,
          "options":[
 
          ],
@@ -84,6 +86,7 @@
       "fieldinfo":{
          "typeahead":true,
          "isasync":true,
+         "minLength":1,
          "options":[
 
          ],
