@@ -1,0 +1,153 @@
+[
+	
+	{
+		"name":"description",
+		"id":"description",
+		"placefolder":"Enter Description",
+		"fieldtype":"text",
+		"fieldlength":{
+		
+		},
+		"fieldinfo":{
+		
+		},
+		"validationType":"string",
+		"label":"Description",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type": "text",
+			"subtype":[
+				{
+				"type":"lowercase",
+				"message":""
+				}
+			],
+		"constraint":[
+			{
+				"type":"min",
+				"input":1,
+				"message":"min 1 characters"
+			},
+			{
+				"type":"max",
+				"input":256,
+				"message":"max 256 characters"
+			}
+		 ]	
+		} 
+	},	
+	{
+		"name":"type",
+		"id":"type",
+		"placefolder":"",
+		"fieldtype":"text",
+		"fieldlength":{
+		
+		},
+		"fieldinfo":{
+		
+		},
+		"validationType":"string",
+		"label":"Type",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type": "text",
+			"subtype":[
+				{
+				"type":"lowercase",
+				"message":""
+				}
+			],	
+		"constraint":[
+			{
+				"type":"min",
+				"input":1,
+				"message":"min 1 characters"
+			},
+			{
+				"type":"max",
+				"input":256,
+				"message":"max 256 characters"
+			}
+		   ]
+        }		
+	},
+
+	{
+		"name":"code",
+		"id":"code",
+		"placefolder":"",
+		"fieldtype":"text",
+		"fieldlength":{
+		
+		},
+		"fieldinfo":{
+		
+		},
+		"validationType":"string",
+		"label":"Code",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type": "text",
+			"subtype":[
+				{
+				"type":"lowercase",
+				"message":""
+				}
+			],	
+		"constraint":[
+			{
+				"type":"min",
+				"input":1,
+				"message":"min 1 character"
+			},
+			{
+				"type":"max",
+				"input":256,
+				"message":"max 256 characters"
+			}
+		]	
+	  }	
+	},	
+	{
+		"name":"currentContribution",
+		"id":"currentContribution",
+		"placeholder":"Enter Current Contribution",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			
+		},
+		"validationType":"string",
+		"label":"Current Contribution",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 character"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	}
+	
+]

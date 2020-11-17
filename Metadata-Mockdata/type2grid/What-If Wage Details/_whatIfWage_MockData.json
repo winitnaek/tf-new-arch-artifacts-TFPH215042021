@@ -1,0 +1,27 @@
+[
+  {
+    "description": "AMOUNT LEGALLY OWED EMPLOYER/EMPLOYER",
+    "type": "Deduction",
+    "code": "D (D007) - ASDSADAD"
+  },
+  {
+	"description": "BALLOT ISSUE COMMITTEE",
+	"type":"Deduction",
+	"code":"D (D013) - BSID013"
+  },
+  {
+	"description": "Win IT Inc",
+	"type": "Earnings",
+	"code": "E - MYCOMP"
+  },
+  {
+	"description": "TIP CREDIT",
+	"type": "Credit",
+	"code": "C (C001) - TESTPC101"
+  },
+  {
+    "description": "AUTOMOBILE INSURANCE",
+	"type": "Deduction",
+	"code": "D (D012) - BSID012"
+  }	
+]

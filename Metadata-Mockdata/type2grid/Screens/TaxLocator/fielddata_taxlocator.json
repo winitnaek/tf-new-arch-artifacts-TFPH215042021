@@ -1,0 +1,675 @@
+[
+	{
+		"name":"checkDate",
+		"id":"checkDate",
+		"placeholder":"Enter Check Date",
+		"fieldtype":"date",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+
+		},
+		"validationType":"string",
+		"label":"Check Date",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"uppercase",
+					"message":"Worksite needs to be in uppercase."
+				}
+			],
+			"constraint":[
+				{
+					"type":"max",
+					"input":8,
+					"message":"max 8 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"employeeCode",
+		"id":"employeeCode",
+		"placeholder":"Enter Employee Code",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Employee Code",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":25,
+					"message":"max 25 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"employeeName",
+		"id":"employeeName",
+		"placeholder":"Enter Employee Name",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Employee Name",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		  
+		}	
+		  
+	},
+		
+			{
+				"name":"employeeClass",
+				"id":"employeeClass",
+				"placeholder":"Select Employee Class",
+				"fieldtype":"select",
+				"fieldlength":{
+				
+				},
+				"fieldinfo":{
+				"options":[
+					"0 - Regular Employee",
+					"1 - Deferred Income Recipient"
+					]
+				},
+				"validationType":"string",
+				"label":"Employee Class",
+				"value":"0 - Regular Employee",
+				"validation":{
+					"required":false,
+					"message":""
+					
+				}
+			  
+				
+			},
+			
+			{
+				"name":"eicCode",
+				"id":"eicCode",
+				"placeholder":"Select EIC Code",
+				"fieldtype":"select",
+				"fieldlength":{
+				
+				},
+				"fieldinfo":{
+				"options": [
+				"0 - Not Applicable",
+				"1 - Single, one certificate",
+				"2 - Married, both filing certificate",
+				"3 - Married, one filing certificate"
+					]
+				},
+				"validationType":"string",
+				"label": "EIC Code",
+				"value": "0 - Not Applicable",
+				"validation":{
+					
+					"required":false,
+					"message":""
+					
+				}
+			},
+			
+			{
+				"name":"taxFilter",
+				"id":"taxFilter",
+				"placeholder":"Select Tax Filter",
+				"fieldtype":"select",
+				"fieldlength":{
+				
+				},
+				"fieldinfo":{
+					"options":
+					[
+					"0 - Federal, State and Locals",
+					"1 - State and Locals",
+					"2 - Locals only",
+					"3 - Federal only",
+					"4 - Federal and States only"
+					]
+				},
+				"validationType":"string",
+				"label":"Tax Filter",
+				"value":"0 - Federal, State and Locals",
+				"validation":{
+				
+					"required":false,
+					"message":""
+					
+				}
+			},
+
+			{
+				"name":"privateSectorRetirementPlanIndicator",
+				"id":"privateSectorRetirementPlanIndicator",
+				"placeholder":"Select Private Sector Retirement Plan Indicator",
+				"fieldtype":"select",
+				"fieldlength":{
+				
+				},
+				"fieldinfo":{
+					"options":
+					[
+					"0 - No PS Member",
+					"1 - Member PS retirement where not further defined",
+					"2 - Member PS retirement state-specific",
+					"3 - No PS Member, suppress Federal SS",
+					"4 - No PS Member, suppress Medicare",
+					"5 - No PS Member, suppress Federal SS/Medicare",
+					"6 - Member PS Retirement PERA",
+					"7 - Member PS Retirement SS",
+					"8 - Member PS Retirement Med",
+					"9 - Member PERA SS taxable",
+					"10 - Member PERA SS non-taxable",
+					"11 - Federal SS/Medicare + PERA SS taxable",
+					"12 - Federal SS/Medicare + PERA SS non-taxable",
+					"13 - Federal SS + PERA SS taxable",
+					"14 - Federal SS + PERA SS non-taxable",
+					"15 - Federal Medicare + PERA SS taxable",
+					"16 - Federal Medicare + PERA SS non-taxable"
+					]
+				},
+				"validationType":"string",
+				"label":"Private Sector Retirement Plan Indicator",
+				"value":"0 - No PS Member",
+				"validation":{
+					
+					"required":false,
+					"message":""
+					
+				}
+			},
+			
+			{
+				"name":"hireDate",
+				"id":"hireDate",
+				"placeholder":"Enter Hire Date",
+				"fieldtype":"date",
+				"fieldlength":{
+				
+				},
+				"fieldinfo":{
+				
+				},
+				"validationType":"string",
+				"label":"Hire Date",
+				"value":"",
+				"validation":{
+				"required":true,
+				"type":"text",
+				"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":8,
+					"message":"max 8 characters"
+				}
+			]
+		   }
+		},
+			{
+				"name":"dataVersion",
+				"id":"dataVersion",
+				"placeholder":"Select Data Version",
+				"fieldtype":"select",
+				"fieldlength": {
+				
+				},
+				"fieldinfo": {
+					"options":
+					[
+					"0 - Default",
+					"1 - Use Version 1"
+					]
+			    },
+				"validationType":"string",
+				"label": "Data Version",
+				"value": "0-Default",
+				"validation": {
+					
+					"required":false,
+					"message":""
+					
+				}
+			},
+
+			{
+				"name":"selectedState",
+				"id":"selectedState",
+				"placeHolder":"Selected State",
+				"fieldtype":"select",
+				"fieldlength": {
+				
+				},
+				"fieldinfo": {
+					"options":
+					[
+					"- <None>",
+					"AK - ALASKA",
+					"AL - ALABAMA",
+					"AR - ARKANSAS",
+					"AS - AMERICAN SAMOA",
+					"AZ - ARIZONA",
+					"CA - CALIFORNIA",
+					"CO - COLORADO",
+					"CT - CONNECTICUT",
+					"DC - DISTRICT OF COLUMBIA",
+					"DE - DELAWARE",
+					"FL - FLORIDA",
+					"GA - GEORGIA",
+					"GU - GUAM",
+					"HI - HAWAII",
+					"IA - IOWA",
+					"ID - IDAHO",
+					"IL - ILLINOIS",
+					"IN - INDIANA",
+					"KS - KANSAS",
+					"KY - KENTUCKY",
+					"LA - LOUISIANA",
+					"MA - MASSACHUSETTS",
+					"MD - MARYLAND",
+					"ME - MAINE",
+					"MI - MICHIGAN",
+					"MN - MINNESOTA",
+					"MO - MISSOURI",
+					"MP - NORTHERN MARIANA ISLANDS",
+					"MS - MISSISSIPPI",
+					"MT - MONTANA",
+					"NC - NORTH CAROLINA",
+					"ND - NORTH DAKOTA",
+					"NE - NEBRASKA",
+					"NH - NEW HAMPSHIRE",
+					"NJ - NEW JERSEY",
+					"NM - NEW MEXICO",
+					"NV - NEVADA",
+					"NY - NEW YORK",
+					"OH - OHIO",
+					"OK - OKLAHOMA",
+					"OR - OREGON",
+					"PA - PENNSYLVANIA",
+					"PR - PUERTO RICO",
+					"RI - RHODE ISLAND",
+					"SC - SOUTH CAROLINA",
+					"SD - SOUTH DAKOTA",
+					"TN - TENNESSEE",
+					"TX - TEXAS",
+					"UT - UTAH",
+					"VA - VIRGINIA",
+					"VI - U.S. VIRGIN ISLANDS",
+					"VT - VERMONT",
+					"WA - WASHINGTON",
+					"WI - WISCONSIN",
+					"WV - WEST VIRGINIA",
+					"WY - WYOMING"
+					]
+				},
+				"validationType":"string",
+				"label": "Selected State",
+				"value": "- <None>",
+				"validation": {
+					
+					"required":false,
+					"message":""
+					
+				}
+			},
+
+			{
+				"name":"selectedStateIndicator",
+				"id":"selectedStateIndicator",
+				"placeholder":"Selected State Indicator",
+				"fieldtype": "select",
+				"fieldlength": {
+				
+				},
+				"fieldinfo": {
+					"options":
+					[
+					"0 - Return UI in all states",
+					"1 - Return UI for work state if selected",
+					"2 - Return UI for live state",
+					"3 - Return UI for selected state (either live or work",
+					"4 - Return UI for first of: unique work, select",
+					"5 - Return UI for selected state, regardless of live/work"
+					]
+				},
+				"validationType":"string",
+				"label": "Selected State Indicator",
+				"value": "Return UI for all states",
+				"validation": {
+					
+					"required":false,
+					"message":""
+					
+				}
+			},
+
+			{
+				"name":"fedWthForEeLive/WorkInSameTerritory",
+				"id":"fedWthForEeLive/WorkInSameTerritory",
+				"placeholder":"Select FED WTH for EE live/work in same Territory",
+				"fieldtype":"select",
+				"fieldlength":{
+				
+				},
+				"fieldinfo": {
+					"options":
+					[
+					"0 - No FED Withholding returns",
+					"1 - Return Federal Withholding"
+					]
+				},
+				"validationType":"string",
+				"label":"Select FED WTH for EE live/work in same Territory",
+				"value": "0 - No FED Withholding returns",
+				"validation": {
+					
+					"required":false,
+					"message":""
+					
+				}	
+			},
+
+			{
+				"name":"companyCode",
+				"id":"companyCode",
+				"placeholder":"Select Company Code",
+				"fieldtype":"select",
+				"fieldlength":{
+				
+				},
+				"fieldinfo": {
+					"options":
+					[
+					"1 - Test Company Drop Down"
+					
+					]
+				},
+				"validationType":"string",
+				"label": "Company code",
+				"value": "",
+				"validation": {
+					
+					"required":false,
+					"message":""
+					
+				}
+			
+			},
+			
+			{
+				"name": "paidBy",
+				"id":"paidBy",
+				"placeholder":"Select Paid By",
+				"fieldtype":"select",
+				"fieldlength": {
+				
+				},
+				"fieldinfo": {
+					"options":
+					[
+					"0 - Employer and Employee",
+					"1 - Employee Only",
+					"2 - Employer Only"
+					]
+				},
+				"validationType":"string",
+				"label":"Paid By",
+				"value":"0-Employer and Employee",
+				"validation": {
+					
+					"required":false,
+					"message":""
+					
+				}
+			},
+
+			{
+				"name":"railRoadCode",
+				"id":"railRoadCode",
+				"placeholder":"Select Rail Road Code",
+				"fieldtype":"select",
+				"fieldlength":{
+				
+				},
+				"fieldinfo":{
+					"options":
+					[
+					"0 - Not RailRoad Employee",
+					"1 - Tier 1 RailRoad Retirement (non-ICC eligible)",
+					"2 - Tier 2 RailRoad Retirement (non-ICC eligible)",
+					"3 - Tier 1 and 2 RailRoad Retirement (non-ICC eligible)",
+					"4 - Tier 1 RailRoad Retirement (ICC-eligible)",
+					"5 - Tier 2 RailRoad Retirement (ICC-eligible)",
+					"6 - Tier 1 and 2 RailRoad Retirement (ICC-eligible)"
+					]
+				},
+				"validationType":"string",
+				"label":"Rail Road Code",
+				"value":"0 - Not RailRoad Employee",
+				"validation": {
+				 
+				 "required":false,
+				 "message":""
+				 
+			  }	 
+			},
+
+			{
+				"name": "grossAmount",
+				"id":"grossAmount",
+				"placeholder":"Enter Gross Amount",
+				"fieldtype":"text",
+				"fieldlength": {
+		
+				},
+				"fieldinfo": {
+				
+				},
+				"validationType":"string",
+				"label":"Gross Amount",
+				"value":"",
+				"validation":{
+				"required":false,
+				"type":"text",
+				"subtype":[
+					{
+					"type":"lowercase",
+					"message":""
+					}
+				],
+				"constraint":[
+					{
+					"type":"min",
+					"input":1,
+					"message":"min 1 character"
+					},
+					{
+					"type":"max",
+					"input": 14,
+					"message":"max 14 characters"
+					}		
+				]
+			  }	
+			  
+			  
+			},
+			
+			{
+				"name":"returnAllStates",
+				"id":"returnAllStates",
+				"placeholder":"Select Return All States",
+				"fieldlength": {
+				
+				},
+				"fieldinfo": {
+					"options":
+					[
+					"0 - Normal",
+					"1 - Return States for Placeholder"
+					]
+				},
+				"validationType":"string",
+				"label":"Return All States",
+				"value":"0 - Normal",
+				"validation": {
+					
+					"required":false,
+					"message":""
+					
+				}
+			},
+			
+			{
+				"name":"residentCountry",
+				"id":"residentCountry",
+				"placeholder":"Select Resident Country",
+				"fieldlength":{
+				
+				},
+				"fieldinfo": {
+					"options":
+						[
+						"USA",
+						"CANADA",
+						"MEXICO",
+						"S.KOREA",
+						"INDIA",
+						"ALL OTHERS"
+						]
+				},
+				"validationType":"string",
+				"label":"Resident Country",
+				"value":"USA",
+				"validation":{
+					
+					"required":false,
+					"message":""
+					
+				}
+			},
+
+			{
+				"name":"employmentType",
+				"id":"employmentType",
+				"placeholder":"Select Employee Type",
+				"fieldlength": {
+				
+				},
+				"fieldinfo": {
+					"options":
+						[
+						"0 - Active Employee",
+						"1 - Deceased Employee"
+						]
+				},
+				"validationType":"string",
+				"label":"Employment Type",
+				"value":"0 - Active Employee",
+				"validation": {
+					
+					"required":false,
+					"message":""
+					
+				}	
+			},
+			{
+				"name":"dateOfDeath",
+				"id":"dateOfDeath",
+				"placeholder":"Enter Date of Death",
+				"fieldtype":"date",
+				"fieldlength":{
+
+				},
+				"fieldinfo":{
+
+				},
+				"validationType":"string",
+				"label":"Date of Death",
+				"value":"",
+				"validation":{
+					"required":false,
+					"type":"text",
+					"subtype":[
+					{
+					"type":"uppercase",
+					"message":"Worksite needs to be in uppercase."
+					}
+			],
+			"constraint":[
+				{
+					"type":"max",
+					"input":8,
+					"message":"max 8 characters"
+				}
+			]
+		}
+	}
+				
+		
+]
