@@ -1,0 +1,18 @@
+[
+  {
+    "taxCode": "4SPACES",
+    "authorityName": "FEDERAL",
+    "taxTypeUserTaxType": "0 0 1",
+    "taxName": "WITHHOLDING TAX",
+    "formula#": 3,
+    "formula": "APPORTIONMENT FORMULA"
+  },
+  {
+    "taxCode": "5SPACES",
+    "authorityName": "FEDERAL",
+    "taxTypeUserTaxType": "123",
+    "taxName": "WITHHOLDING TAX",
+    "formula#": 4,
+    "formula": "APPORTIONMENT FORMULA"
+  }
+]

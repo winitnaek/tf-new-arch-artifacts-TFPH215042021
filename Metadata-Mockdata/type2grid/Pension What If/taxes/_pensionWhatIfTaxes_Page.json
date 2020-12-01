@@ -1,0 +1,116 @@
+{
+   "pgdef":{
+      "pgid":"pensionWhatIfTaxes",
+      "pgtitle":"Pension What-If Test",
+      "pgsubtitle":"",
+      "flowtype":"flowtype2",
+      "hasAddNew":true,
+      "addNewLabel":"Click here to add new Tax.",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/whatifTaxes",
+      "parentConfig":"pensionWhatIfTest",
+      "childConfig": ""
+   },
+   "griddef":{
+      "gridtype":"type1",
+      "isfilter":true,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":true,
+      "recordDelete":false,
+      "hasButtonBar":true,
+      "columns":[
+         {
+            "text":"Tax Code",
+            "datafield":"taxCode",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Authority Name",
+            "datafield":"authorityName",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Tax Type/User Tax Type",
+            "datafield":"taxTypeUserTaxType",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Tax Name",
+            "datafield":"taxName",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Formula #",
+            "datafield":"formula#",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Formula",
+            "datafield":"formula",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         }
+      ],
+      "dataFields":[
+         {
+            "name":"taxCode",
+            "type":"string"
+         },
+         {
+            "name":"authorityName",
+            "type":"string"
+         },
+         {
+            "name":"taxTypeUserTaxType",
+            "type":"string"
+         },
+         {
+            "name":"taxName",
+            "type":"string"
+         },
+         {
+            "name":"formula#",
+            "type":"string"
+         },
+         {
+            "name":"formula",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef":""
+}

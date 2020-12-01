@@ -1,0 +1,2388 @@
+[
+		{
+		"name":"authority",
+		"id":"authority",
+		"placeholder":"Enter Authority",
+		"fieldtype":"select",
+		"fieldHeader": "Taxes",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+				"typeahead":true
+		},
+		"validationType":"string",
+		"label":"Authority",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":25,
+					"message":"max 25 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"taxTypeUserTaxType",
+		"id":"taxTypeUserTaxType",
+		"placeholder":"Enter Tax Type",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Tax Type/User Tax Type",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"formula",
+		"id":"formula",
+		"placeholder":"Enter Formula",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Formula",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"residentCode",
+		"id":"residentCode",
+		"placeholder":"Enter Resident Code",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Resident Code",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"roundingIndicator",
+		"id":"roundingIndicator",
+		"placeholder":"Enter Rounding Indicator",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Rounding Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"withholdingForm",
+		"id":"withholdingForm",
+		"placeholder":"Enter Withholding Form",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+	},
+		"validationType":"string",
+		"label":"Withholding Form",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"payPeriodWage",
+		"id":"payPeriodWage",
+		"placeholder":"Enter Pay Period Wage",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Pay Period Wage",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"yearToDateWage",
+		"id":"yearToDateWage",
+		"placeholder":"Enter Year To Date Wage",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Year To Date Wage",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"yearToDateTax",
+		"id":"yearToDateTax",
+		"placeholder":"Enter Year To Date Tax",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Year To Date Tax",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"yearToDatePws",
+		"id":"yearToDatePws",
+		"placeholder":"Enter Year To Date PWS",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Year To Date PWS",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"yearToDateOptPws",
+		"id":"yearToDateOptPws",
+		"placeholder":"Enter Year To Date OPT PWS",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Year To Date OPT PWS",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"riskClassificationCode",
+		"id":"riskClassificationCode",
+		"placeholder":"Enter Risk Classification Code",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Risk Classification Code",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":10,
+					"message":"max 10 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"experienceRate",
+		"id":"experienceRate",
+		"placeholder":"Enter Experience Rate",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Experience Rate",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":11,
+					"message":"max 11 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"maximumWageOverride",
+		"id":"maximumWageOverride",
+		"placeholder":"Enter Maximum Wage Override",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Maximum Wage Override",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"hoursWorked",
+		"id":"hoursWorked",
+		"placeholder":"Enter Hours Worked",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Hours Worked",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":9,
+					"message":"max 9 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"additionalExemptionAmount",
+		"id":"additionalExemptionAmount",
+		"placeholder":"Additional Exemptional Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Additional Exemption Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":12,
+					"message":"max 12 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"taxCreditAmount",
+		"id":"taxCreditAmount",
+		"placeholder":"Enter Tax Credit Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Tax Credit Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"actualYearToDateWages",
+		"id":"actualYearToDateWages",
+		"placeholder":"Enter Actual Year To Date Wages",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Actual Year To Date Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"ytdSubjectWages",
+		"id":"ytdSubjectWages",
+		"placeholder":"Enter YTD Subject Wages",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"YTD Subject Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"ytdExemptWages",
+		"id":"ytdExemptWages",
+		"placeholder":"Enter YTD Exempt Wages",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"YTD Exempt Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	
+	{
+		"name":"selfAdjust",
+		"id":"selfAdjust",
+		"placeholder":"Enter Self Adjust",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Self Adjust",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"maritalStatus",
+		"id":"maritalStatus",
+		"placeholder":"Enter Marital Status",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Marital Status",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"eicStatus",
+		"id":"eicStatus",
+		"placeholder":"Enter EIC Status",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"EIC Status",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+		{
+		"name":"exemptions",
+		"id":"exemptions",
+		"placeholder":"Enter Exemptions",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Exemptions",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":4,
+					"message":"max 4 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"personalExemptions",
+		"id":"personalExemptions",
+		"placeholder":"Enter Personal Exemptions",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Personal Exemptions",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":4,
+					"message":"max 4 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"dependentExemptions",
+		"id":"dependentExemptions",
+		"placeholder":"Enter Dependent Exemptions",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Dependent Exemptions",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":4,
+					"message":"max 4 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"exemptionAmount",
+		"id":"exemptionAmount",
+		"placeholder":"Enter Exemptions Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Exemptions Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"numberOfAdditionalExemptions",
+		"id":"numberOfAdditionalExemptions",
+		"placeholder":"Enter Number of Additional Exemptions",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Number of Additional Exemptions",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":4,
+					"message":"max 4 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"calculatedTax",
+		"id":"calculatedTax",
+		"placeholder":"Enter Calculated Tax",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Calculated Tax",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+		{
+		"name":"electedStateIndicator",
+		"id":"electedStateIndicator",
+		"placeholder":"Select Elected State Indicator",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Elected State Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":25,
+					"message":"max 25 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"taxEffectiveDate",
+		"id":"taxEffectiveDate",
+		"placeholder":"Enter Tax Effective Date",
+		"fieldtype":"date",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+
+		},
+		"validationType":"string",
+		"label":"Tax Effective Date",
+		"value":"",
+		"validation":{
+			"required":true,
+			"type":"text",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":8,
+					"message":"max 8 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"estimatedQuarterlyGrossWages",
+		"id":"estimatedQuarterlyGrossWages",
+		"placeholder":"Enter Estimated Quarterly Gross Wages",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Estimated Quarterly Gross Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"additionalNonwageIncome",
+		"id":"additionalNonwageIncome",
+		"placeholder":"Enter Additional Nonwage Income",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Additional Nonwage Income",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"employersAnnualGrossPayroll",
+		"id":"employersAnnualGrossPayroll",
+		"placeholder":"Enter Employers Annual Gross Payroll",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Employers Annual Gross Payroll",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"payPeriodToDate",
+		"id":"payPeriodToDate",
+		"placeholder":"Enter Pay Period To Date",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Pay Period To Date",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":4,
+					"message":"max 4 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"monthToDate",
+		"id":"monthToDate",
+		"placeholder":"Enter Month To Date",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Month To Date",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":4,
+					"message":"max 4 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"quarterToDate",
+		"id":"quarterToDate",
+		"placeholder":"Enter Quarter To Date",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Quarter To Date",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":4,
+					"message":"max 4 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"yearToDate",
+		"id":"yearToDate",
+		"placeholder":"Enter Year To Date",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Year To Date",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":4,
+					"message":"max 4 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"participateInReciprocalCalculation",
+		"id":"participateInReciprocalCalculation",
+		"placeholder":"Enter Participate In Reciprocal Calculation",
+		"fieldtype":"text",
+		"fieldHeader": "Reciprocal",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Participate In Reciprocal Calculation",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":1,
+					"message":"max 1 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"certificateCode",
+		"id":"certificateCode",
+		"placeholder":"Select Certificate Code",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Certificate Code",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"useReciprocalFormula",
+		"id":"useReciprocalFormula",
+		"placeholder":"Use Reciprocal Formula",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Use Reciprocal Formula",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":1,
+					"message":"max 1 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"percentageWorked",
+		"id":"percentageWorked",
+		"placeholder":"Enter Percentage Worked",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Percentage Worked",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":11,
+					"message":"max 11 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"reciprocalTaxCreditAmount",
+		"id":"reciprocalTaxCreditAmount",
+		"placeholder":"Enter Reciprocal Tax Credit Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Reciprocal Tax Credit Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},	
+	{
+		"name":"nexusIndicator",
+		"id":"nexusIndicator",
+		"placeholder":"Enter Nexus Indicator",
+		"fieldtype":"select",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Nexis Indicator",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},	
+	{
+		"name":"additionalTax",
+		"id":"additionalTax",
+		"placeholder":"Enter Additional Tax",
+		"fieldtype":"select",
+		"fieldHeader": "Voluntary",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"AdditionalTax",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"additionalAmount",
+		"id":"additionalAmount",
+		"placeholder":"Enter Additional Amount",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Additional Amount",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"additionalTaxRate",
+		"id":"additionalTaxRate",
+		"placeholder":"Enter Additional Tax Rate",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Additional Tax Rate",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":11,
+					"message":"max 11 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"supplementalCode",
+		"id":"supplementalCode",
+		"placeholder":"Enter Supplemental Code",
+		"fieldtype":"select",
+		"fieldHeader": "Supplemental",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+		"test dropdown"
+		]
+		},
+		"validationType":"string",
+		"label":"Supplemental Code",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":50,
+					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"baseWages",
+		"id":"baseWages",
+		"placeholder":"Enter Base Wages",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Base Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"yearToDateSupplemental",
+		"id":"yearToDateSupplemental",
+		"placeholder":"Enter Year To Date Supplemental",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Year To Date Supplemental",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"priorCommissions",
+		"id":"priorCommissions",
+		"placeholder":"Enter Prior Commissions",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Prior Commissions",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"payPeriodToDateTax",
+		"id":"payPeriodToDateTax",
+		"placeholder":"Enter Pay Period To Date Tax",
+		"fieldtype":"text",
+		"fieldHeader": "Pay Period",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Pay Period To Date Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"payPeriodToDateWages",
+		"id":"payPeriodToDateWages",
+		"placeholder":"Enter Pay Period To Date Wages",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Pay Period To Date Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"monthToDateWages",
+		"id":"monthToDateWages",
+		"placeholder":"Enter Month To Date Wages",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Month To Date Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"monthToDateTax",
+		"id":"monthToDateTax",
+		"placeholder":"Enter Month To Date Tax",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Month To Date Tax",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+	{
+		"name":"quarterToDateWages",
+		"id":"quarterToDateWages",
+		"placeholder":"Enter Quarter To Date Wages",
+		"fieldtype":"text",
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"options":[
+				"Aggregate to Highest Maximum"
+			]
+		},
+		"validationType":"string",
+		"label":"Quarter To Date Wages",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
+				}
+			],
+			"constraint":[
+				{
+					"type":"min",
+					"input":1,
+					"message":"min 1 characters"
+				},
+				{
+					"type":"max",
+					"input":14,
+					"message":"max 14 characters"
+				}
+			]
+		}
+	},
+{
+	"name":"quarterToDateTax",
+	"id":"quarterToDateTax",
+	"placeholder":"Click heree to add new Quarter to Date Tax",
+	"fieldtype":"text",
+	"fieldlength":{
+
+	},
+	"fieldinfo":{
+		"options":[
+			"Aggregate to Highest Maximum"
+		]
+	},
+	"validationType":"string",
+	"label":"Quarter To Date Tax",
+	"value":"",
+	"validation":{
+		"required":false,
+		"type":"string",
+		"subtype":[
+			{
+				"type":"lowercase",
+				"message":""
+			}
+		],
+		"constraint":[
+			{
+				"type":"min",
+				"input":1,
+				"message":"min 1 characters"
+			},
+			{
+				"type":"max",
+				"input":25,
+				"message":"max 25 characters"
+			}
+		]
+	}
+}	,
+{
+	"name":"taxableEarnings",
+	"id":"taxableEarnings",
+	"placeholder":"Taxable Earnings",
+	"fieldtype":"text",
+	"fieldHeader": "Wage Details",
+	"dataDependent": true,
+	"fieldlength":{
+
+	},
+	"fieldinfo":{
+		"options":[
+			"Aggregate to Highest Maximum"
+		]
+	},
+	"validationType":"string",
+	"label":"Taxable Earnings",
+	"value":"0.00",
+	"validation":{
+		"required":false,
+		"type":"string",
+		"subtype":[
+			{
+				"type":"lowercase",
+				"message":""
+			}
+		],
+		"constraint":[
+			{
+				"type":"min",
+				"input":1,
+				"message":"min 1 characters"
+			},
+			{
+				"type":"max",
+				"input":14,
+				"message":"max 14 characters"
+			}
+		]
+	}
+},
+{
+	"name":"taxableemployerContri",
+	"id":"taxableemployerContri",
+	"placeholder":"Taxable Employer Contribution",
+	"fieldtype":"text",
+	"dataDependent": true,
+	"fieldlength":{
+
+	},
+	"fieldinfo":{
+		"options":[
+			"Aggregate to Highest Maximum"
+		]
+	},
+	"validationType":"string",
+	"label":"Taxable Employer Contribution",
+	"value":"0.00",
+	"validation":{
+		"required":false,
+		"type":"string",
+		"subtype":[
+			{
+				"type":"lowercase",
+				"message":""
+			}
+		],
+		"constraint":[
+			{
+				"type":"min",
+				"input":1,
+				"message":"min 1 characters"
+			},
+			{
+				"type":"max",
+				"input":14,
+				"message":"max 14 characters"
+			}
+		]
+	}
+},
+{
+	"name":"nontaxableEmployee",
+	"id":"nontaxableEmployee",
+	"placeholder":"Non Taxable Employee Contribution",
+	"fieldtype":"text",
+	"dataDependent": true,
+	"fieldlength":{
+
+	},
+	"fieldinfo":{
+		"options":[
+			"Aggregate to Highest Maximum"
+		]
+	},
+	"validationType":"string",
+	"label":"Non Taxable Employee Contribution",
+	"value":"0.00",
+	"validation":{
+		"required":false,
+		"type":"string",
+		"subtype":[
+			{
+				"type":"lowercase",
+				"message":""
+			}
+		],
+		"constraint":[
+			{
+				"type":"min",
+				"input":1,
+				"message":"min 1 characters"
+			},
+			{
+				"type":"max",
+				"input":14,
+				"message":"max 14 characters"
+			}
+		]
+	}
+},
+{
+	"name":"alternateLimit",
+	"id":"alternateLimit",
+	"placeholder":"Alternate Limit",
+	"fieldtype":"text",
+	"dataDependent": true,
+	"fieldlength":{
+
+	},
+	"fieldinfo":{
+		"options":[
+			"Aggregate to Highest Maximum"
+		]
+	},
+	"validationType":"string",
+	"label":"Alternate Limit",
+	"value":"0.00",
+	"validation":{
+		"required":false,
+		"type":"string",
+		"subtype":[
+			{
+				"type":"lowercase",
+				"message":""
+			}
+		],
+		"constraint":[
+			{
+				"type":"min",
+				"input":1,
+				"message":"min 1 characters"
+			},
+			{
+				"type":"max",
+				"input":14,
+				"message":"max 14 characters"
+			}
+		]
+	}
+}
+]
