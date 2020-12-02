@@ -564,45 +564,37 @@
 		  "type": "string"
 		}
 	  },
-	{
-		"name":"contributionAllocation",
-		"id":"contributionAllocation",
-		"placeholder":"Enter Contribution Allocation",
-		"fieldtype":"select",
-		"fieldlength":{
-
+		{
+		"id": "contributionAllocation",
+		"placeholder": "Select Contribution Allocation",
+		"fieldtype": "select",
+		"label": "Contribution Allocation",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "id": 0,
+			  "label": "0 - Do not Override"
+			},
+			{
+			  "id": 1,
+			  "label": "1 - Override"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Contribution Allocation",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
+	  },
 	{
 		"name":"residentState",
 		"id":"residentState",
@@ -721,6 +713,41 @@
 		}
 	},	
 	{
+		"id": "garnishment",
+		"placeholder": "Select Garnishment",
+		"fieldtype": "select",
+		"label": "Garnishment",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
+		},
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "id": 0,
+			  "label": "0 - Do not Process Garnishments"
+			},
+			{
+			  "id": 1,
+			  "label": "1 - Do Garnishments and Tax Calculation"
+			},
+			{
+				"id": 2,
+				"label": "2 - Do Garnishments with Input Calculation"
+			}
+		  ],
+		  "multiselect": false
+		},
+		"validation": {
+		  "required": false,
+		  "type": "string"
+		}
+	  },
+	{
 		"name":"garnishmentGroup",
 		"id":"garnishmentGroup",
 		"placeholder":"Enter Garnishment Group",
@@ -799,83 +826,91 @@
 		}
 	},
 	{
-		"name":"calculationType",
-		"id":"calculationType",
-		"placeholder":"Enter Calculation Type",
-		"fieldtype":"select",
-		"fieldlength":{
-
+		"id": "calculationType",
+		"placeholder": "Select Calculation Type",
+		"fieldtype": "select",
+		"label": "Calculation Type",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "id": 0,
+			  "label": "0 - Taxes Only"
+			},
+			{
+			  "id": 1,
+			  "label": "1 - Wage Assessment And Taxes"
+			},
+			{
+				"id": 2,
+				"label": "2 - Wage Assessment Only"
+			},
+			{
+				"id": 3,
+				"label": "3 - Non Negative Wage And Tax"
+			},
+			{
+				"id": 4,
+				"label": "4 - Non Neg Wage and Zero Tax"
+			},
+			{
+				"id": 5,
+				"label": "5 - Non Negative Tax Calc"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Calculation Type",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
-	{
-		"name":"wageProcessCode",
-		"id":"wageProcessCode",
-		"placeholder":"Enter Wage Process Code",
-		"fieldtype":"select",
-		"fieldlength":{
-
+	  },
+	  {
+		"id": "wageProcessCode",
+		"placeholder": "Select Wage Process Code",
+		"fieldtype": "select",
+		"label": "Wage Process Code",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "id": 0,
+			  "label": "0 - Assess Earnings And Contributions"
+			},
+			{
+			  "id": 1,
+			  "label": "1 - Assess Earnings Only"
+			},
+			{
+				"id": 2,
+				"label": "2 - Assess Contributions Only"
+			},
+			{
+				"id": 3,
+				"label": "3 - Do not Assess Earnings or Contributions"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Wage Process Code",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
+	  },
 	{
 		"name":"est.SpousalIncome",
 		"id":"est.SpousalIncome",
@@ -916,83 +951,103 @@
 		}
 	},
 	{
-		"name":"employeeType",
-		"id":"employeeType",
-		"placeholder":"Enter Employee Type",
-		"fieldtype":"select",
-		"fieldlength":{
-
+		"id": "employeeType",
+		"placeholder": "Select Employee Type",
+		"fieldtype": "select",
+		"label": "Employee Type",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "id": 0,
+			  "label": "0 - N/A"
+			},
+			{
+			  "id": 1,
+			  "label": "1 - PA local House Bill 172 alternate recip"
+			},
+			{
+			  "id": 2,
+			  "label": "2 - PA (outside PA)"
+			},
+			{
+			  "id": 3,
+			  "label": "3 - Military Spouse (exempt tax)"
+			},
+			{
+			  "id": 4,
+			  "label": "4 - Military Spouse (exempt tax/wage)"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Employee Type",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
+	  },
 	{
-		"name":"employmentType",
-		"id":"employmentType",
-		"placeholder":"Enter Employment Type",
-		"fieldtype":"select",
-		"fieldlength":{
-
+		"id": "employmentType",
+		"placeholder": "Select Employment Type",
+		"fieldtype": "select",
+		"label": "Employment Type",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "id": 0,
+			  "label": "0 - Active Regular Employee"
+			},
+			{
+			  "id": 1,
+			  "label": "1 - Mobile Workforce Employee"
+			},
+			{
+			  "id": 2,
+			  "label": "2 - Terminated Employee</option>"
+			},
+			{
+			  "id": 4,
+			  "label": "4 - Deceased Employee in the Private Sector"
+			},
+			{
+			  "id": 5,
+			  "label": "5 - Deceased Railroad Employee (non ICC-eligible)"
+			},
+			{
+			  "id": 6,
+			  "label": "6 - Deceased Employee in the Public Sector"
+			},
+			{
+			  "id": 7,
+			  "label": "7 - Active Railroad Employee (ICC-eligible)"
+			},
+			{
+			  "id": 8,
+			  "label": "8 - Deceased Railroad Employee (ICC-eligible)"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Employment Type",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
+	  },
 	{
 		"name":"terminationDate",
 		"id":"terminationDate",
@@ -1030,6 +1085,33 @@
 			]
 		}
 	},
+	{
+		"id": "bselectedbirthdate",
+		"placeholder": "Select Birth Date",
+		"fieldtype": "checkbox",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
+		},
+	   "fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "label": "Enter Birth Date",
+			  "id": "bselectedbirthdate"
+			}
+		  ],
+		  "multiselect": false
+		},
+		"validation": {
+		  "required": false,
+		  "type": "string"
+		},
+		"disable": ["birthDate"]
+	  },
 	{
 		"name":"birthDate",
 		"id":"birthDate",
@@ -1105,44 +1187,40 @@
 		}
 	},
 	{
-		"name":"calculatedLocalTaxIn",
-		"id":"calculatedLocalTaxIn",
-		"placeholder":"Select Calculated Local Tax In",
-		"fieldtype":"select",
-		"fieldlength":{
-
+		"id": "calculatedLocalTaxIn",
+		"placeholder": "Select Calculated Local Tax In",
+		"fieldtype": "select",
+		"label": "Calculated Local Tax In",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+					{
+						"id": 0,
+						"label": "0 - Use Data Set Option"
+					},
+					{
+						"id": 1,
+						"label": "1 - Nonresident Tax Record wins tie"
+					},
+					{
+						"id": 2,
+						"label": "2 - Resident Tax Records win tie"
+					}
+					],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Calculated Local Tax In",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
+	  },
 	{
 		"name":"formulaEffectiveDate",
 		"id":"formulaEffectiveDate",
@@ -1181,83 +1259,79 @@
 		}
 	},
 	{
-		"name":"statutoryEeIndicator",
-		"id":"statutoryEeIndicator",
-		"placeholder":"Select Statutory EE Indicator",
-		"fieldtype":"select",
-		"fieldlength":{
-
+		"id": "statutoryEeIndicator",
+		"placeholder": "Select Statutory EE Indicator",
+		"fieldtype": "select",
+		"label": "Statutory EE Indicator",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+					{
+						"id": 0,
+						"label": "0 - Common Law"
+					},
+					{
+						"id": 1,
+						"label": "1 - Independent Contractor"
+					},
+					{
+						"id": 2,
+						"label": "2 - FICA/FUTA"
+					},
+					{
+						"id": 3,
+						"label": "3 - FICA Only"
+					},
+					{
+						"id": 4,
+						"label": "4 - Self-employed"
+					}
+					],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Statutory EE Indicator",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
-	{
-		"name":"foreignEarnedIncome",
-		"id":"foreignEarnedIncome",
-		"placeholder":"Select Foreign Earned Income",
-		"fieldtype":"select",
-		"fieldlength":{
+	  },
 
+	  {
+		"id": "foreignEarnedIncome",
+		"placeholder": "Select Foreign Earned Income",
+		"fieldtype": "select",
+		"label": "Foreign Earned Income",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+					{
+						"id": 0,
+						"label": "0 - No"
+					},
+					{
+						"id": 1,
+						"label": "1 - Yes"
+					}],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Foreign Earned Income",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
+	  },
 	{
 		"name":"exemptMilitaryLocation",
 		"id":"exemptMilitaryLocation",
