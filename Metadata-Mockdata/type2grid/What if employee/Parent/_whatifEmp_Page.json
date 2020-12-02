@@ -26,7 +26,7 @@
       "columns":[
          {
             "text":"Employee Code",
-            "datafield":"employeeCode",
+            "datafield":"empCode",
             "cellsalign":"left",
             "align":"left",
             "sortable":true,
@@ -35,7 +35,7 @@
          },
          {
             "text":"Employee Name",
-            "datafield":"employeeName",
+            "datafield":"empName",
             "cellsalign":"left",
             "align":"left",
             "sortable":true,
@@ -54,11 +54,11 @@
       ],
       "dataFields":[
          {
-            "name":"employeeCode",
+            "name":"empCode",
             "type":"string"
          },
          {
-            "name":"employeeName",
+            "name":"empName",
             "type":"string"
          },
          {

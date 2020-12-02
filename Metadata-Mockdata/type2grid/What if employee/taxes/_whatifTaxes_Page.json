@@ -26,9 +26,9 @@
       "columns":[
          {
             "text":"Tax Code",
-            "datafield":"taxCode",
+            "datafield":"usrauthcd",
             "cellsalign":"left",
-            "width":"16.66%",
+            "width":"14%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -36,9 +36,9 @@
          },
          {
             "text":"Authority Name",
-            "datafield":"authorityName",
+            "datafield":"name",
             "cellsalign":"left",
-            "width":"16.66%",
+            "width":"15%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -46,9 +46,9 @@
          },
          {
             "text":"Tax Type/User Tax Type",
-            "datafield":"taxTypeUserTaxType",
+            "datafield":"taxtype",
             "cellsalign":"left",
-            "width":"16.66%",
+            "width":"15%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -56,9 +56,9 @@
          },
          {
             "text":"Tax Name",
-            "datafield":"taxName",
+            "datafield":"taxname",
             "cellsalign":"left",
-            "width":"16.66%",
+            "width":"20%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -66,9 +66,9 @@
          },
          {
             "text":"Formula #",
-            "datafield":"formula#",
+            "datafield":"formula",
             "cellsalign":"left",
-            "width":"16.66%",
+            "width":"10%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -76,9 +76,9 @@
          },
          {
             "text":"Formula",
-            "datafield":"formula",
+            "datafield":"title",
             "cellsalign":"left",
-            "width":"16.66%",
+            "width":"22%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -87,28 +87,34 @@
       ],
       "dataFields":[
          {
-            "name":"taxCode",
-            "type":"string"
+            "name":"usrauthcd",
+            "type":"string",
+            "map": "btxttax>usrauthcd"
          },
          {
-            "name":"authorityName",
-            "type":"string"
+            "name":"name",
+            "type":"string",
+            "map": "btxttax>btxtaxc>name"
          },
          {
-            "name":"taxTypeUserTaxType",
-            "type":"string"
+            "name":"taxtype",
+            "type":"string",
+            "map":"btxtaxt>taxtype"
          },
          {
-            "name":"taxName",
-            "type":"string"
-         },
-         {
-            "name":"formula#",
-            "type":"string"
+            "name":"taxname",
+            "type":"string",
+            "map":"btxtaxt>taxname"
          },
          {
             "name":"formula",
-            "type":"string"
+            "type":"string",
+            "map":"btxttax>formula"
+         },
+         {
+            "name":"title",
+            "type":"string",
+            "map":"btxform>title"
          }
       ]
    },
