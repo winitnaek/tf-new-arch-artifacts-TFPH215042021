@@ -189,9 +189,48 @@
 		}
 	},
 	{
-		"name":"paymentType",
-		"id":"paymentType",
-		"placeholder":"Enter Payment Type",
+		"id": "paymentType",
+		"placeholder": "Select Payment Type",
+		"fieldtype": "select",
+		"label": "Payment Type",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
+		},
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "id": 0,
+			  "label": "0 - Regular"
+			},
+			{
+			  "id": 1,
+			  "label": "1 - Supplemental"
+			},
+			{
+			  "id": 2,
+			  "label": "2 - Cumulative"
+			},
+			{
+			  "id": 3,
+			  "label": "3 - Vacation"
+			}
+		  ],
+		  "multiselect": false
+		},
+		"validation": {
+		  "required": false,
+		  "type": "string"
+		}
+	  },
+	  {
+		"name":"payFrequency",
+		"id":"payFrequency",
+		"placeholder":"Enter Pay Frequency",
 		"fieldtype":"select",
 		"fieldlength":{
 
@@ -201,7 +240,7 @@
 
 		},
 		"validationType":"string",
-		"label":"Payment Type",
+		"label":"Pay Frequency",
 		"value":"",
 		"validation":{
 			"required":false,
@@ -222,45 +261,6 @@
 					"type":"max",
 					"input":50,
 					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"paymentType",
-		"id":"paymentType",
-		"placeholder":"Enter Payment Type",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Payment Type",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":3,
-					"message":"max 3 characters"
 				}
 			]
 		}
@@ -422,44 +422,44 @@
 		}
 	},
 	{
-		"name":"grossUpIndicator",
-		"id":"grossUpIndicator",
-		"placeholder":"Enter Gross up Indicator",
-		"fieldtype":"select",
-		"fieldlength":{
-
+		"id": "grossUpIndicator",
+		"placeholder": "Select Gross UP Indicator",
+		"fieldtype": "select",
+		"label": "Gross up Indicator",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "id": 0,
+			  "label": "0 - Do Not Perform Gross-Up"
+			},
+			{
+			  "id": 1,
+			  "label": "1 - Perform Gross-Up"
+			},
+			{
+			  "id": 2,
+			  "label": "2 - Garnishment Gross-Up"
+			},
+			{
+			  "id": 3,
+			  "label": "3 - For Future Use"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Gross up Indicator",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
+	  },
 	{
 		"name":"netWages",
 		"id":"netWages",
@@ -539,44 +539,31 @@
 		}
 	},
 	{
-		"name":"reciprocalCalculation",
-		"id":"reciprocalCalculation",
-		"placeholder":"Enter Reciprocal Calculation",
-		"fieldtype":"text",
-		"fieldlength":{
-
+		"id": "reciprocalCalculation",
+		"placeholder": "Reciprocal Calculation",
+		"fieldtype": "checkbox",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
+	   "fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "label": "Reciprocal Calculation",
+			  "id": "reciprocalCalculation"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Reciprocal Calculation",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":1,
-					"message":"max 1 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "string"
 		}
-	},
+	  },
 	{
 		"name":"contributionAllocation",
 		"id":"contributionAllocation",

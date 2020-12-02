@@ -1,21 +1,21 @@
 {
    "pgdef":{
-      "pgid":"whatifLocations",
-      "pgtitle":"Manage Locations",
-      "pgsubtitle":"",
+      "pgid":"taxLocator",
+      "pgtitle":"TaxLocator",
+      "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
       "flowtype":"flowtype2",
       "hasAddNew":true,
-      "addNewLabel":"Click here to add new Location.",
+      "addNewLabel":"Click here to add new Employee.",
       "actiondel":false,
       "helpAvailable":true,
       "helpLblTxt":"Click here for more info!",
-      "helpLink":"/whatifLocations",
-      "parentConfig":"whatifEmp",
-      "childConfig":""
+      "helpLink":"/what-ifTest",
+      "parentConfig":"",
+      "childConfig":[{ "pgid": "whatifLocations", "columnHeader": "Manage Locations" }]
    },
    "griddef":{
-      "gridtype":"type1",
-      "isfilter":true,
+      "gridtype":"type2",
+      "isfilter":false,
       "isfilterform":false,
       "datatype":"json",
       "contenttype":"application/json",
@@ -24,8 +24,8 @@
       "recordDelete":false,
       "columns":[
          {
-            "text":"LiveWork",
-            "datafield":"liveWork",
+            "text":"Employee Code",
+            "datafield":"employeeCode",
             "cellsalign":"left",
             "width":"33%",
             "align":"left",
@@ -34,8 +34,8 @@
             "rendererStaticInput":""
          },
          {
-            "text":"City",
-            "datafield":"city",
+            "text":"Employee Name",
+            "datafield":"employeeName",
             "cellsalign":"left",
             "width":"34%",
             "align":"left",
@@ -44,57 +44,29 @@
             "rendererStaticInput":""
          },
          {
-            "text":"County",
-            "datafield":"county",
+            "text":"Check Date",
+            "datafield":"checkDate",
             "cellsalign":"left",
             "width":"33%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
-         },
-		 {
-			"text":"State",
-			"datafield":"state",
-			"cellsalign":"left",
-			"width":"33%",
-			"align":"left",
-			"sortable":true,
-			"rendererInput":"",
-			"rendererStaticInput":""
-		 },
-		 {
-			"text":"Zip Code",
-			"datafield":"zipCode",
-			"cellsalign":"left",
-			"width":"33%",
-			"align":"left",
-			"sortable":true,
-			"rendererInput":"",
-			"rendererStaticInput":""
-		}	
+         }
       ],
       "dataFields":[
          {
-            "name":"liveWork",
+            "name":"employeeCode",
             "type":"string"
          },
          {
-            "name":"city",
+            "name":"employeeName",
             "type":"string"
          },
          {
-            "name":"county",
+            "name":"checkDate",
             "type":"string"
-         },
-		 {
-			"name":"state",
-			"type":"string"
-		 },
-		 {
-			"name":"zipCode",
-			"type":"string"
-		}	
+         }
       ]
    },
    "formdef":""
