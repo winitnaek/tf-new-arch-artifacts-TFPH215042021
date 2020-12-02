@@ -39,6 +39,7 @@
          "options":[
 
          ],
+         "minLength":1,
          "multiselect":false
       },
       "validation":{
@@ -63,6 +64,7 @@
          "options":[
 
          ],
+         "minLength":1,
          "multiselect":false
       },
       "validation":{
@@ -88,6 +90,7 @@
          "options":[
 
          ],
+         "minLength":1,
          "multiselect":false
       },
       "validation":{

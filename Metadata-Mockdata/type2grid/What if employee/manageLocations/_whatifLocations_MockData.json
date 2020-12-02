@@ -1,0 +1,16 @@
+[
+  {
+    "liveWork": "Live",
+    "city": "Atlanta",
+    "county": "Fulton",
+	"state": "GA-Georgia",
+	"zip": "30033"
+  },
+   {
+    "liveWork": "Work",
+    "city": "Roswell",
+    "county": "Fulton",
+	"state": "GA-Georgia",
+	"zip": "30045"
+  }
+]
