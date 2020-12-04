@@ -27,7 +27,7 @@
             "text":"Deduction/Benefit Plan Code",
             "datafield":"deductionBenefitPlanCode",
             "cellsalign":"left",
-            "width":"20%",
+            "width":"auto",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -37,7 +37,7 @@
             "text":"Deduction/Benefit Plan Description",
             "datafield":"remncdnpayment",
             "cellsalign":"left",
-            "width":"20%",
+            "width":"auto",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -47,7 +47,7 @@
             "text":"Amount",
             "datafield":"wamount",
             "cellsalign":"left",
-            "width":"10%",
+            "width":"auto",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -57,7 +57,7 @@
             "text":"GP Indicator",
             "datafield":"gwPriorityString",
             "cellsalign":"left",
-            "width":"20%",
+            "width":"auto",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -99,6 +99,10 @@
          },
          {
             "name":"gwPriorityString",
+            "type":"string"
+         },
+         {
+            "name":"chkdt",
             "type":"string"
          }
       ]
