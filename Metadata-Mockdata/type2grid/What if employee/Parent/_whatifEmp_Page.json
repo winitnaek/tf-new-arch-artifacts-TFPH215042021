@@ -67,5 +67,66 @@
          }
       ]
    },
-   "formdef":""
+   "formdef":{
+      "title":"Custom Payments",
+      "subtitle":"Note: Required fields are marked with an asterisk (*)",
+      "hasSave":true,
+      "hasDelete":true,
+      "hasSaveAs":false,
+      "hasViewPDF":false,
+      "hasView":false,
+      "hasRecentUsage":false,
+      "formflds":[
+         
+         {
+            "id":"checkDate",
+            "order":1,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"employeeCode",
+            "order":2,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"employeeName",
+            "order":3,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"contributionAllocation",
+            "order":4,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"garnishmentGroup",
+            "order":5,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"principalStateOfEmployment",
+            "order":6,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"terminationDate",
+            "order":7,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"dateOfDeath",
+            "order":8,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":true
+         }
+      ],
+      "fltrflds":""
+   }
 }

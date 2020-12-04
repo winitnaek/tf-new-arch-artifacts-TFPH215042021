@@ -1,1300 +1,1093 @@
 [
-	{
-		"name":"checkDate",
-		"id":"checkDate",
-		"placeholder":"Enter Check Date",
-		"fieldtype":"date",
-		"fieldlength":{
+  {
+    "name": "checkDate",
+    "id": "checkDate",
+    "placeholder": "Enter Check Date",
+    "fieldtype": "date",
+    "errmsg": "Check Date is required",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Check Date",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Worksite needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "employeeCode",
+    "placeholder": "Enter Employee Code",
+    "fieldtype": "text",
+    "label": "Employee Code",
+    "value": "",
+    "errmsg": "Employee Code is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "employeeName",
+    "id": "employeeName",
+    "placeholder": "Enter Employee Name",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": ["Aggregate to Highest Maximum"]
+    },
+    "validationType": "string",
+    "label": "Employee Name",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 50,
+          "message": "max 50 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "employeeGroup",
+    "placeholder": "Enter Group",
+    "fieldtype": "select",
+    "label": "Group",
+    "value": "",
+    "errmsg": "Group is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "company",
+    "placeholder": "Enter Company",
+    "fieldtype": "select",
+    "label": "Company",
+    "value": "",
+    "errmsg": "Company is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": true,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "paymentType",
+    "placeholder": "Select Payment Type",
+    "fieldtype": "select",
+    "label": "Payment Type",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Regular"
+        },
+        {
+          "id": 1,
+          "label": "1 - Supplemental"
+        },
+        {
+          "id": 2,
+          "label": "2 - Cumulative"
+        },
+        {
+          "id": 3,
+          "label": "3 - Vacation"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "payFrequency",
+    "placeholder": "Enter Pay Frequency",
+    "fieldtype": "text",
+    "label": "Pay Frequency",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacationHours",
+    "placeholder": "Enter Vacation Hours",
+    "fieldtype": "text",
+    "label": "Vacation Hours",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "prorationFrequency",
+    "placeholder": "Enter the Proration Frequency",
+    "fieldtype": "text",
+    "label": "Proration Frequency",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "number"
+    }
+  },
+  {
+    "id": "ytdPayPeriod",
+    "placeholder": "Enter YTD Pay Period",
+    "fieldtype": "text",
+    "label": "YTD Pay Period",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "number"
+    }
+  },
+  {
+    "id": "payPeriodHours",
+    "placeholder": "Enter Pay Period Hours",
+    "fieldtype": "text",
+    "label": "Pay Period Hours",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "grossUpIndicator",
+    "placeholder": "Select Gross UP Indicator",
+    "fieldtype": "select",
+    "label": "Gross up Indicator",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Do Not Perform Gross-Up"
+        },
+        {
+          "id": 1,
+          "label": "1 - Perform Gross-Up"
+        },
+        {
+          "id": 2,
+          "label": "2 - Garnishment Gross-Up"
+        },
+        {
+          "id": 3,
+          "label": "3 - For Future Use"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "netWages",
+    "placeholder": "Enter Net Wages",
+    "fieldtype": "text",
+    "label": "Net Wages",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "estAnnualGrossAmount",
+    "placeholder": "Enter Est. Annual Gross Amount",
+    "fieldtype": "text",
+    "label": "Est. Annual Gross Amount",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "reciprocalCalculation",
+    "placeholder": "Reciprocal Calculation",
+    "fieldtype": "checkbox",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Reciprocal Calculation",
+          "id": "reciprocalCalculation"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "contributionAllocation",
+    "placeholder": "Select Contribution Allocation",
+    "fieldtype": "select",
+    "label": "Contribution Allocation",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Do not Override"
+        },
+        {
+          "id": 1,
+          "label": "1 - Override"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "residentState",
+    "placeholder": "Enter Resident State",
+    "fieldtype": "text",
+    "label": "Resident State",
+    "fieldHeader": "",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "id": "grossWages",
+    "placeholder": "Enter Gross Wages",
+    "fieldtype": "text",
+    "label": "Gross Wages",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "averageWeeklyGross",
+    "placeholder": "Enter Average Weekly Gross",
+    "fieldtype": "text",
+    "label": "Average Weekly Gross",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "garnishment",
+    "placeholder": "Select Garnishment",
+    "fieldtype": "select",
+    "label": "Garnishment",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Do not Process Garnishments"
+        },
+        {
+          "id": 1,
+          "label": "1 - Do Garnishments and Tax Calculation"
+        },
+        {
+          "id": 2,
+          "label": "2 - Do Garnishments with Input Calculation"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "garnishmentGroup",
+    "id": "garnishmentGroup",
+    "placeholder": "Enter Garnishment Group",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": ["test dropdown"]
+    },
+    "validationType": "string",
+    "label": "Garnishment Group",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 50,
+          "message": "max 50 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "principalStateOfEmployment",
+    "id": "principalStateOfEmployment",
+    "placeholder": "Enter Principal State of Employment",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": ["Aggregate to Highest Maximum"]
+    },
+    "validationType": "string",
+    "label": "Principal State Of Employment",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "calculationType",
+    "placeholder": "Select Calculation Type",
+    "fieldtype": "select",
+    "label": "Calculation Type",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Taxes Only"
+        },
+        {
+          "id": 1,
+          "label": "1 - Wage Assessment And Taxes"
+        },
+        {
+          "id": 2,
+          "label": "2 - Wage Assessment Only"
+        },
+        {
+          "id": 3,
+          "label": "3 - Non Negative Wage And Tax"
+        },
+        {
+          "id": 4,
+          "label": "4 - Non Neg Wage and Zero Tax"
+        },
+        {
+          "id": 5,
+          "label": "5 - Non Negative Tax Calc"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "wageProcessCode",
+    "placeholder": "Select Wage Process Code",
+    "fieldtype": "select",
+    "label": "Wage Process Code",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Assess Earnings And Contributions"
+        },
+        {
+          "id": 1,
+          "label": "1 - Assess Earnings Only"
+        },
+        {
+          "id": 2,
+          "label": "2 - Assess Contributions Only"
+        },
+        {
+          "id": 3,
+          "label": "3 - Do not Assess Earnings or Contributions"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "estSpousalIncome",
+    "placeholder": "Enter Est. Spousal Income",
+    "fieldtype": "text",
+    "label": "Est. Spousal Income",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "employeeType",
+    "placeholder": "Select Employee Type",
+    "fieldtype": "select",
+    "label": "Employee Type",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - N/A"
+        },
+        {
+          "id": 1,
+          "label": "1 - PA local House Bill 172 alternate recip"
+        },
+        {
+          "id": 2,
+          "label": "2 - PA (outside PA)"
+        },
+        {
+          "id": 3,
+          "label": "3 - Military Spouse (exempt tax)"
+        },
+        {
+          "id": 4,
+          "label": "4 - Military Spouse (exempt tax/wage)"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "employmentType",
+    "placeholder": "Select Employment Type",
+    "fieldtype": "select",
+    "label": "Employment Type",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Active Regular Employee"
+        },
+        {
+          "id": 1,
+          "label": "1 - Mobile Workforce Employee"
+        },
+        {
+          "id": 2,
+          "label": "2 - Terminated Employee</option>"
+        },
+        {
+          "id": 4,
+          "label": "4 - Deceased Employee in the Private Sector"
+        },
+        {
+          "id": 5,
+          "label": "5 - Deceased Railroad Employee (non ICC-eligible)"
+        },
+        {
+          "id": 6,
+          "label": "6 - Deceased Employee in the Public Sector"
+        },
+        {
+          "id": 7,
+          "label": "7 - Active Railroad Employee (ICC-eligible)"
+        },
+        {
+          "id": 8,
+          "label": "8 - Deceased Railroad Employee (ICC-eligible)"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "terminationDate",
+    "id": "terminationDate",
+    "placeholder": "Enter Termination Date",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Termination Date",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bselectedbirthdate",
+    "placeholder": "Select Birth Date",
+    "fieldtype": "checkbox",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Enter Birth Date",
+          "id": "bselectedbirthdate"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    },
+    "disable": ["birthDate"]
+  },
+  {
+    "name": "birthDate",
+    "id": "birthDate",
+    "placeholder": "Enter Birth Date",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Birth Date",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "dateOfDeath",
+    "id": "dateOfDeath",
+    "placeholder": "Enter Date of Death",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Date of Death",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "calculatedLocalTaxIn",
+    "placeholder": "Select Calculated Local Tax In",
+    "fieldtype": "select",
+    "label": "Calculated Local Tax In",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Use Data Set Option"
+        },
+        {
+          "id": 1,
+          "label": "1 - Nonresident Tax Record wins tie"
+        },
+        {
+          "id": 2,
+          "label": "2 - Resident Tax Records win tie"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "formulaEffectiveDate",
+    "id": "formulaEffectiveDate",
+    "placeholder": "Enter Formula Effective Date",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Formula Effective Date",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "statutoryEeIndicator",
+    "placeholder": "Select Statutory EE Indicator",
+    "fieldtype": "select",
+    "label": "Statutory EE Indicator",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Common Law"
+        },
+        {
+          "id": 1,
+          "label": "1 - Independent Contractor"
+        },
+        {
+          "id": 2,
+          "label": "2 - FICA/FUTA"
+        },
+        {
+          "id": 3,
+          "label": "3 - FICA Only"
+        },
+        {
+          "id": 4,
+          "label": "4 - Self-employed"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
 
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"Check Date",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"uppercase",
-					"message":"Worksite needs to be in uppercase."
-				}
-			],
-			"constraint":[
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"employeeCode",
-		"id":"employeeCode",
-		"placeholder":"Enter Employee Code",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Employee Code",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"employeeName",
-		"id":"employeeName",
-		"placeholder":"Enter Employee Name",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Employee Name",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-		{
-		"name":"group",
-		"id":"group",
-		"placeholder":"Enter Group",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"typeahead":true,
-		"options":[
-		 
-		]
-		},
-		"validationType":"string",
-		"label":"Group",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"company",
-		"id":"company",
-		"placeholder":"Enter Company",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"With Holding"
-		]
-		},
-		"validationType":"string",
-		"label":"Company",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"id": "paymentType",
-		"placeholder": "Select Payment Type",
-		"fieldtype": "select",
-		"label": "Payment Type",
-		"value": "",
-		"errmsg": " ",
-		"fieldlength": {
-		  "minlength": 1,
-		  "maxlength": 25
-		},
-		"fieldinfo": {
-		  "typeahead": false,
-		  "isasync": false,
-		  "options": [
-			{
-			  "id": 0,
-			  "label": "0 - Regular"
-			},
-			{
-			  "id": 1,
-			  "label": "1 - Supplemental"
-			},
-			{
-			  "id": 2,
-			  "label": "2 - Cumulative"
-			},
-			{
-			  "id": 3,
-			  "label": "3 - Vacation"
-			}
-		  ],
-		  "multiselect": false
-		},
-		"validation": {
-		  "required": false,
-		  "type": "string"
-		}
-	  },
-	  {
-		"name":"payFrequency",
-		"id":"payFrequency",
-		"placeholder":"Enter Pay Frequency",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"typeahead":true
-
-		},
-		"validationType":"string",
-		"label":"Pay Frequency",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"vacationHours",
-		"id":"vacationHours",
-		"placeholder":"Enter Vacation Hours",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Vacation Hours",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"prorationFrequency",
-		"id":"prorationFrequency",
-		"placeholder":"Enter Proration Frequency",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Proration Frequency",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":3,
-					"message":"max 3 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"ytdPayPeriod",
-		"id":"ytdPayPeriod",
-		"placeholder":"Enter YTD Pay Period",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"YTD Pay Period",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":3,
-					"message":"max 3 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"payPeriodHours",
-		"id":"payPeriodHours",
-		"placeholder":"Enter Pay Period Hours",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Pay Period Hours",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"id": "grossUpIndicator",
-		"placeholder": "Select Gross UP Indicator",
-		"fieldtype": "select",
-		"label": "Gross up Indicator",
-		"value": "",
-		"errmsg": " ",
-		"fieldlength": {
-		  "minlength": 1,
-		  "maxlength": 25
-		},
-		"fieldinfo": {
-		  "typeahead": false,
-		  "isasync": false,
-		  "options": [
-			{
-			  "id": 0,
-			  "label": "0 - Do Not Perform Gross-Up"
-			},
-			{
-			  "id": 1,
-			  "label": "1 - Perform Gross-Up"
-			},
-			{
-			  "id": 2,
-			  "label": "2 - Garnishment Gross-Up"
-			},
-			{
-			  "id": 3,
-			  "label": "3 - For Future Use"
-			}
-		  ],
-		  "multiselect": false
-		},
-		"validation": {
-		  "required": false,
-		  "type": "string"
-		}
-	  },
-	{
-		"name":"netWages",
-		"id":"netWages",
-		"placeholder":"Enter Net Wages",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Net Wages",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"est.AnnualGrossAmount",
-		"id":"est.AnnualGrossAmount",
-		"placeholder":"Enter Est. Annual Gross Amount",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Est. Annual Gross Amount",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"id": "reciprocalCalculation",
-		"placeholder": "Reciprocal Calculation",
-		"fieldtype": "checkbox",
-		"value": "",
-		"errmsg": " ",
-		"fieldlength": {
-		  "minlength": 1,
-		  "maxlength": 25
-		},
-	   "fieldinfo": {
-		  "typeahead": false,
-		  "isasync": false,
-		  "options": [
-			{
-			  "label": "Reciprocal Calculation",
-			  "id": "reciprocalCalculation"
-			}
-		  ],
-		  "multiselect": false
-		},
-		"validation": {
-		  "required": false,
-		  "type": "string"
-		}
-	  },
-	{
-		"name":"contributionAllocation",
-		"id":"contributionAllocation",
-		"placeholder":"Enter Contribution Allocation",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Contribution Allocation",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"residentState",
-		"id":"residentState",
-		"placeholder":"Enter Resident State",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Resident State",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"grossWages",
-		"id":"grossWages",
-		"placeholder":"Enter Gross Wages",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Gross Wages",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"averageWeeklyGross",
-		"id":"averageWeeklyGross",
-		"placeholder":"Enter Average Weekly Gross",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Average Weekly Gross",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},	
-	{
-		"name":"garnishmentGroup",
-		"id":"garnishmentGroup",
-		"placeholder":"Enter Garnishment Group",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Garnishment Group",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"principalStateOfEmployment",
-		"id":"principalStateOfEmployment",
-		"placeholder":"Enter Principal State of Employment",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Principal State Of Employment",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"calculationType",
-		"id":"calculationType",
-		"placeholder":"Enter Calculation Type",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Calculation Type",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"wageProcessCode",
-		"id":"wageProcessCode",
-		"placeholder":"Enter Wage Process Code",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Wage Process Code",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"est.SpousalIncome",
-		"id":"est.SpousalIncome",
-		"placeholder":"Enter Est. Spousal Income",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Est. Spousal Income",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"employeeType",
-		"id":"employeeType",
-		"placeholder":"Enter Employee Type",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Employee Type",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"employmentType",
-		"id":"employmentType",
-		"placeholder":"Enter Employment Type",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Employment Type",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"terminationDate",
-		"id":"terminationDate",
-		"placeholder":"Enter Termination Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"Termination Date",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"birthDate",
-		"id":"birthDate",
-		"placeholder":"Enter Birth Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"Birth Date",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"dateOfDeath",
-		"id":"dateOfDeath",
-		"placeholder":"Enter Date of Death",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"Date of Death",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"calculatedLocalTaxIn",
-		"id":"calculatedLocalTaxIn",
-		"placeholder":"Select Calculated Local Tax In",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Calculated Local Tax In",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"formulaEffectiveDate",
-		"id":"formulaEffectiveDate",
-		"placeholder":"Enter Formula Effective Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"Formula Effective Date",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"statutoryEeIndicator",
-		"id":"statutoryEeIndicator",
-		"placeholder":"Select Statutory EE Indicator",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Statutory EE Indicator",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"foreignEarnedIncome",
-		"id":"foreignEarnedIncome",
-		"placeholder":"Select Foreign Earned Income",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Foreign Earned Income",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"exemptMilitaryLocation",
-		"id":"exemptMilitaryLocation",
-		"placeholder":"Select Exempt Military Location",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Exempt Military Location",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	}	
+  {
+    "id": "foreignEarnedIncome",
+    "placeholder": "Select Foreign Earned Income",
+    "fieldtype": "select",
+    "label": "Foreign Earned Income",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "exemptMilitaryLocation",
+    "placeholder": "Exempt Military Location",
+    "fieldtype": "select",
+    "label": "Exempt Military Location",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "minLength": 1,
+      "globalSearch": true,
+      "options": [{
+        "id": "DC",
+        "label": "DC- DISTRICT OF COLUMBIA"
+      }],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
 ]
