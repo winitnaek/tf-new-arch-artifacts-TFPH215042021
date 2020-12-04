@@ -29,7 +29,7 @@
     }
   },
   {
-    "id": "employeeCode",
+    "id": "empCode",
     "placeholder": "Enter Employee Code",
     "fieldtype": "text",
     "label": "Employee Code",
@@ -48,8 +48,8 @@
     }
   },
   {
-    "name": "employeeName",
-    "id": "employeeName",
+    "name": "empName",
+    "id": "empName",
     "placeholder": "Enter Employee Name",
     "fieldtype": "text",
     "fieldlength": {},
@@ -170,7 +170,7 @@
     }
   },
   {
-    "id": "payFrequency",
+    "id": "payFreq",
     "placeholder": "Enter Pay Frequency",
     "fieldtype": "text",
     "label": "Pay Frequency",
@@ -192,7 +192,7 @@
     }
   },
   {
-    "id": "vacationHours",
+    "id": "vacHours",
     "placeholder": "Enter Vacation Hours",
     "fieldtype": "text",
     "label": "Vacation Hours",
@@ -214,7 +214,7 @@
     }
   },
   {
-    "id": "prorationFrequency",
+    "id": "prorationFreq",
     "placeholder": "Enter the Proration Frequency",
     "fieldtype": "text",
     "label": "Proration Frequency",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "id": "grossUpIndicator",
+    "id": "grossUpInd",
     "placeholder": "Select Gross UP Indicator",
     "fieldtype": "select",
     "label": "Gross up Indicator",
@@ -341,7 +341,7 @@
     }
   },
   {
-    "id": "estAnnualGrossAmount",
+    "id": "estAnnualGrossAmt",
     "placeholder": "Enter Est. Annual Gross Amount",
     "fieldtype": "text",
     "label": "Est. Annual Gross Amount",
@@ -363,7 +363,7 @@
     }
   },
   {
-    "id": "reciprocalCalculation",
+    "id": "reciprocalCode",
     "placeholder": "Reciprocal Calculation",
     "fieldtype": "checkbox",
     "value": "",
@@ -389,7 +389,7 @@
     }
   },
   {
-    "id": "contributionAllocation",
+    "id": "contribAlloc",
     "placeholder": "Select Contribution Allocation",
     "fieldtype": "select",
     "label": "Contribution Allocation",
@@ -462,7 +462,7 @@
     }
   },
   {
-    "id": "averageWeeklyGross",
+    "id": "avgWkGross",
     "placeholder": "Enter Average Weekly Gross",
     "fieldtype": "text",
     "label": "Average Weekly Gross",
@@ -554,8 +554,8 @@
     }
   },
   {
-    "name": "principalStateOfEmployment",
-    "id": "principalStateOfEmployment",
+    "name": "principalStateOfEmp",
+    "id": "principalStateOfEmp",
     "placeholder": "Enter Principal State of Employment",
     "fieldtype": "text",
     "fieldlength": {},
@@ -589,7 +589,7 @@
     }
   },
   {
-    "id": "calculationType",
+    "id": "calcType",
     "placeholder": "Select Calculation Type",
     "fieldtype": "select",
     "label": "Calculation Type",
@@ -636,7 +636,7 @@
     }
   },
   {
-    "id": "wageProcessCode",
+    "id": "wageProcCode",
     "placeholder": "Select Wage Process Code",
     "fieldtype": "select",
     "label": "Wage Process Code",
@@ -697,7 +697,7 @@
     }
   },
   {
-    "id": "employeeType",
+    "id": "empType",
     "placeholder": "Select Employee Type",
     "fieldtype": "select",
     "label": "Employee Type",
@@ -740,7 +740,7 @@
     }
   },
   {
-    "id": "employmentType",
+    "id": "emplType",
     "placeholder": "Select Employment Type",
     "fieldtype": "select",
     "label": "Employment Type",
@@ -888,7 +888,7 @@
     }
   },
   {
-    "name": "dateOfDeath",
+    "name": "dateofDeath",
     "id": "dateOfDeath",
     "placeholder": "Enter Date of Death",
     "fieldtype": "date",
@@ -956,8 +956,8 @@
     }
   },
   {
-    "name": "formulaEffectiveDate",
-    "id": "formulaEffectiveDate",
+    "name": "formulaEffectiveDateYYYYMMDD",
+    "id": "formulaEffectiveDateYYYYMMDD",
     "placeholder": "Enter Formula Effective Date",
     "fieldtype": "date",
     "fieldlength": {},
@@ -989,7 +989,7 @@
     }
   },
   {
-    "id": "statutoryEeIndicator",
+    "id": "statEEInd",
     "placeholder": "Select Statutory EE Indicator",
     "fieldtype": "select",
     "label": "Statutory EE Indicator",

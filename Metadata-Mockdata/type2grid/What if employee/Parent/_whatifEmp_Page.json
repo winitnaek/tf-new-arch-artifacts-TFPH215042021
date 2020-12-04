@@ -64,6 +64,122 @@
          {
             "name":"checkDate",
             "type":"string"
+         },
+         {
+            "name":"paymentType",
+            "type":"string"
+         },
+         {
+            "name":"payFreq",
+            "type":"string"
+         },
+         {
+            "name":"vacHours",
+            "type":"string"
+         },
+         {
+            "name":"prorationFreq",
+            "type":"string"
+         },
+         {
+            "name":"ytdPayPeriod",
+            "type":"string"
+         },
+         {
+            "name":"payPeriodHours",
+            "type":"string"
+         },
+         {
+            "name":"grossUpInd",
+            "type":"string"
+         },
+         {
+            "name":"netWages",
+            "type":"string"
+         },
+         {
+            "name":"estAnnualGrossAmt",
+            "type":"string"
+         },
+         {
+            "name":"contribAlloc",
+            "type":"string"
+         },
+         {
+            "name":"residentState",
+            "type":"string"
+         },
+         {
+            "name":"grossWages",
+            "type":"string"
+         },
+         {
+            "name":"avgWkGross",
+            "type":"string"
+         },
+         {
+            "name":"garnishment",
+            "type":"string"
+         },
+         {
+            "name":"garnishmentGroup",
+            "type":"string"
+         },
+         {
+            "name":"principalStateOfEmp",
+            "type":"string"
+         },
+         {
+            "name":"calcType",
+            "type":"string"
+         },
+         {
+            "name":"wageProcCode",
+            "type":"string"
+         },
+         {
+            "name":"estSpousalIncome",
+            "type":"string"
+         },
+         {
+            "name":"empType",
+            "type":"string"
+         },
+         {
+            "name":"emplType",
+            "type":"string"
+         },
+         {
+            "name":"terminationDate",
+            "type":"string"
+         },
+         {
+            "name":"calculatedLocalTaxIn",
+            "type":"string"
+         },
+         {
+            "name":"birthDate",
+            "type":"string"
+         },
+         {
+            "name":"dateofDeath",
+            "type":"string"
+         },
+         {
+            "name":"formulaEffectiveDateYYYYMMDD",
+            "type":"string"
+         },
+         {
+            "name":"statEEInd",
+            "type":"string"
+         },
+         {
+            "name":"foreignEarnedIncome",
+            "type":"string"
+         },
+         {
+            "name":"exemptMilitaryLocation",
+            "type":"string"
          }
       ]
    },
@@ -85,13 +201,13 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"employeeCode",
+            "id":"empCode",
             "order":2,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
          },
          {
-            "id":"employeeName",
+            "id":"empName",
             "order":3,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":true
