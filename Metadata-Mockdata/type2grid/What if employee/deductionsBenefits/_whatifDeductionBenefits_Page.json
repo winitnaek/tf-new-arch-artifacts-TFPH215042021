@@ -2,7 +2,7 @@
    "pgdef":{
       "pgid":"whatifDeductionBenefits",
       "pgtitle":"What-If Deduction Benefits Plans",
-      "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
+      "pgsubtitle":"",
       "flowtype":"flowtype2",
       "hasAddNew":true,
       "addNewLabel":"Click here to add new Employee.",
