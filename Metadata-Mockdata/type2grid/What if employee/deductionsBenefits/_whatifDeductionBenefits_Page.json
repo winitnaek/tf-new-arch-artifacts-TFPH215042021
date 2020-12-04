@@ -27,17 +27,17 @@
             "text":"Deduction/Benefit Plan Code",
             "datafield":"deductionBenefitPlanCode",
             "cellsalign":"left",
-            "width":"25%",
+            "width":"20%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
-            "rendererStaticInput":""
+            "rendererStaticInput":"deductionBenefitPlanCodeRenderer"
          },
          {
             "text":"Deduction/Benefit Plan Description",
-            "datafield":"deductionBenefitPlanDescription",
+            "datafield":"remncdnpayment",
             "cellsalign":"left",
-            "width":"25%",
+            "width":"20%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -45,9 +45,9 @@
          },
          {
             "text":"Amount",
-            "datafield":"amount",
+            "datafield":"wamount",
             "cellsalign":"left",
-            "width":"25%",
+            "width":"10%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -55,13 +55,13 @@
          },
          {
             "text":"GP Indicator",
-            "datafield":"gpIndicator",
+            "datafield":"gwPriorityString",
             "cellsalign":"left",
-            "width":"25%",
+            "width":"20%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
-            "rendererStaticInput":""
+            "rendererStaticInput":"gwPriorityRenderer"
          }
                ],
       "dataFields":[
@@ -70,15 +70,35 @@
             "type":"string"
          },
          {
-            "name":"deductionBenefitPlanDescription",
+            "name":"remncdnpayment",
             "type":"string"
          },
          {
-            "name":"amount",
+            "name":"wamount",
             "type":"string"
          },
          {
-            "name":"gpIndicator",
+            "name":"gwPriorityString",
+            "type":"string"
+         },
+         {
+            "name":"paytype",
+            "type":"string"
+         },
+         {
+            "name":"paycode",
+            "type":"string"
+         },
+         {
+            "name":"gwPriority",
+            "type":"string"
+         },
+         {
+            "name":"remncd",
+            "type":"string"
+         },
+         {
+            "name":"gwPriorityString",
             "type":"string"
          }
       ]
