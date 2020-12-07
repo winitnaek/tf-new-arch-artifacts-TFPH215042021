@@ -108,6 +108,7 @@
           "id": "includeAllDates"
         }
       ],
+      "minLength":1,
       "multiselect": false
     },
     "validation": {
