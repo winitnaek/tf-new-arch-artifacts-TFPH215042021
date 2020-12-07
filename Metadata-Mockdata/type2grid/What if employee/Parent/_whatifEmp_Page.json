@@ -50,7 +50,29 @@
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
-         }
+         },
+         {
+            "text": "Run Id",
+            "datafield": "regPen",
+            "cellsalign": "left",
+            "width": "25%",
+            "align": "left",
+            "sortable": true,
+            "hidden": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+          },
+          {
+            "text": "Run Id",
+            "datafield": "taxN",
+            "cellsalign": "left",
+            "width": "25%",
+            "align": "left",
+            "sortable": true,
+            "hidden": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
+          }
       ],
       "dataFields":[
          {
@@ -63,6 +85,14 @@
          },
          {
             "name":"checkDate",
+            "type":"string"
+         },
+         {
+            "name":"regPen",
+            "type":"string"
+         },
+         {
+            "name":"taxN",
             "type":"string"
          }
       ]

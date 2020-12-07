@@ -14,6 +14,12 @@
     "parentConfig": "",
     "childConfig": [{ "pgid": "pensionWhatIfTaxes", "columnHeader": "Taxes" }]
   },
+  "confirmdef": {
+    "cheader": "",
+    "cbody": "Are you sure you want to delete all records?",
+    "okbtnlbl": "Ok",
+    "cancelbtnlbl": "Cancel"
+  },
   "griddef": {
     "gridtype": "type1",
     "isfilter": false,
@@ -26,7 +32,7 @@
     "columns": [
       {
         "text": "Recipient Code",
-        "datafield": "recipientCode",
+        "datafield": "empCode",
         "cellsalign": "left",
         "width": "34%",
         "align": "left",
@@ -36,7 +42,7 @@
       },
       {
         "text": "Recipient Name",
-        "datafield": "recipientName",
+        "datafield": "empName",
         "cellsalign": "left",
         "width": "33%",
         "align": "left",
@@ -57,11 +63,11 @@
     ],
     "dataFields": [
       {
-        "name": "recipientCode",
+        "name": "empCode",
         "type": "string"
       },
       {
-        "name": "recipientName",
+        "name": "empName",
         "type": "string"
       },
       {
