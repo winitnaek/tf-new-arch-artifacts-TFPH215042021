@@ -564,6 +564,7 @@
 				"name":"returnAllStates",
 				"id":"returnAllStates",
 				"placeholder":"Select Return All States",
+				"fieldtype":"select",
 				"fieldlength": {
 				
 				},
@@ -589,6 +590,7 @@
 				"name":"residentCountry",
 				"id":"residentCountry",
 				"placeholder":"Select Resident Country",
+				"fieldtype":"select",
 				"fieldlength":{
 				
 				},
@@ -618,6 +620,7 @@
 				"name":"employmentType",
 				"id":"employmentType",
 				"placeholder":"Select Employee Type",
+				"fieldtype":"select",
 				"fieldlength": {
 				
 				},

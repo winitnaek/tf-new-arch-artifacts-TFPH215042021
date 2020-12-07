@@ -1,122 +1,187 @@
 {
-   "pgdef":{
-      "pgid":"whatifTaxes",
-      "pgtitle":"What-If Test Taxes",
-      "pgsubtitle":"",
-      "flowtype":"flowtype2",
-      "hasAddNew":true,
-      "addNewLabel":"Click here to add new Tax.",
-      "actiondel":false,
-      "helpAvailable":true,
-      "helpLblTxt":"Click here for more info!",
-      "helpLink":"/whatifTaxes",
-      "parentConfig":"whatifEmp",
-      "childConfig":""
-   },
-   "griddef":{
-      "gridtype":"type1",
-      "isfilter":true,
-      "isfilterform":false,
-      "datatype":"json",
-      "contenttype":"application/json",
-      "noResultsFoundTxt":"No Data Found : ",
-      "recordEdit":true,
-      "recordDelete":false,
-      "hasButtonBar":true,
-      "columns":[
-         {
-            "text":"Tax Code",
-            "datafield":"usrauthcd",
-            "cellsalign":"left",
-            "width":"14%",
-            "align":"left",
-            "sortable":true,
-            "rendererInput":"",
-            "rendererStaticInput":""
-         },
-         {
-            "text":"Authority Name",
-            "datafield":"name",
-            "cellsalign":"left",
-            "width":"15%",
-            "align":"left",
-            "sortable":true,
-            "rendererInput":"",
-            "rendererStaticInput":""
-         },
-         {
-            "text":"Tax Type/User Tax Type",
-            "datafield":"taxtype",
-            "cellsalign":"left",
-            "width":"15%",
-            "align":"left",
-            "sortable":true,
-            "rendererInput":"",
-            "rendererStaticInput":""
-         },
-         {
-            "text":"Tax Name",
-            "datafield":"taxname",
-            "cellsalign":"left",
-            "width":"20%",
-            "align":"left",
-            "sortable":true,
-            "rendererInput":"",
-            "rendererStaticInput":""
-         },
-         {
-            "text":"Formula #",
-            "datafield":"formula",
-            "cellsalign":"left",
-            "width":"10%",
-            "align":"left",
-            "sortable":true,
-            "rendererInput":"",
-            "rendererStaticInput":""
-         },
-         {
-            "text":"Formula",
-            "datafield":"title",
-            "cellsalign":"left",
-            "width":"22%",
-            "align":"left",
-            "sortable":true,
-            "rendererInput":"",
-            "rendererStaticInput":""
-         }
-      ],
-      "dataFields":[
-         {
-            "name":"usrauthcd",
-            "type":"string",
-            "map": "btxttax>usrauthcd"
-         },
-         {
-            "name":"name",
-            "type":"string",
-            "map": "btxttax>btxtaxc>name"
-         },
-         {
-            "name":"taxtype",
-            "type":"string",
-            "map":"btxtaxt>taxtype"
-         },
-         {
-            "name":"taxname",
-            "type":"string",
-            "map":"btxtaxt>taxname"
-         },
-         {
-            "name":"formula",
-            "type":"string",
-            "map":"btxttax>formula"
-         },
-         {
-            "name":"title",
-            "type":"string",
-            "map":"btxform>title"
-         }
-      ]
-   },
-   "formdef":""
+  "pgdef": {
+    "pgid": "whatifTaxes",
+    "pgtitle": "What-If Test Taxes",
+    "pgsubtitle": "",
+    "flowtype": "flowtype2",
+    "hasAddNew": true,
+    "addNewLabel": "Click here to add new Tax.",
+    "actiondel": false,
+    "helpAvailable": true,
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/whatifTaxes",
+    "parentConfig": "whatifEmp",
+    "needChildData": true,
+    "childConfig": [{ "pgid": "wageDetails", "columnHeader": "Wage Details", "checkForData": true }]
+  },
+  "griddef": {
+    "gridtype": "type1",
+    "isfilter": true,
+    "isfilterform": false,
+    "datatype": "json",
+    "contenttype": "application/json",
+    "noResultsFoundTxt": "No Data Found : ",
+    "recordEdit": true,
+    "recordDelete": false,
+    "hasButtonBar": true,
+    "columns": [
+      {
+        "text": "Tax Code",
+        "datafield": "usrauthcd",
+        "cellsalign": "left",
+        "width": "14%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Authority Name",
+        "datafield": "name",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax Type/User Tax Type",
+        "datafield": "taxtype",
+        "cellsalign": "left",
+        "width": "15%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax Name",
+        "datafield": "taxname",
+        "cellsalign": "left",
+        "width": "20%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Formula #",
+        "datafield": "formula",
+        "cellsalign": "left",
+        "width": "10%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Formula",
+        "datafield": "title",
+        "cellsalign": "left",
+        "width": "22%",
+        "align": "left",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Check Date",
+        "datafield": "checkDate",
+        "cellsalign": "left",
+        "width": "22%",
+        "align": "left",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Tax",
+        "datafield": "taxN",
+        "cellsalign": "left",
+        "width": "22%",
+        "align": "left",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Reg Pen",
+        "datafield": "regPen",
+        "cellsalign": "left",
+        "width": "22%",
+        "align": "left",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Emp Code",
+        "datafield": "empCode",
+        "cellsalign": "left",
+        "width": "22%",
+        "align": "left",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      }
+    ],
+    "dataFields": [
+      {
+        "name": "usrauthcd",
+        "type": "string",
+        "map": "btxttax>usrauthcd"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "map": "btxttax>btxtaxc>name"
+      },
+      {
+        "name": "taxtype",
+        "type": "string",
+        "map": "btxtaxt>taxtype"
+      },
+      {
+        "name": "taxname",
+        "type": "string",
+        "map": "btxtaxt>taxname"
+      },
+      {
+        "name": "formula",
+        "type": "string",
+        "map": "btxttax>formula"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "map": "btxform>title"
+      },
+      {
+        "name": "checkDate",
+        "type": "string",
+        "map": "btxttax>id>chkdt"
+      },
+      {
+        "name": "taxN",
+        "type": "string",
+        "map": "btxttax>id>taxn"
+      },
+      {
+        "name": "regPen",
+        "type": "string",
+        "map": "btxttax>id>regpen"
+      },
+      {
+        "name": "empCode",
+        "type": "string",
+        "map": "btxttax>id>empcode"
+      }
+    ]
+  },
+  "formdef": ""
 }

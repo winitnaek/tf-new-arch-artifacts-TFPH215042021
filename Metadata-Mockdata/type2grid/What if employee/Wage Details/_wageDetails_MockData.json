@@ -1,0 +1,13 @@
+[
+  {
+    "id": "AUTOINS",
+    "label": "AUTOMOBILE INSURANCE",
+    "payType": "Deduction",
+    "taxName": "CURRENT SUPPORT ARREARS",
+    "formula#": 1,
+    "formula": "CURRENT SUPPORT ARREARS",
+    "caseId": "jdshs",
+    "docketNumber": "test",
+    "wageCodedesc": "AUTOMOBILE INSURANCE"
+  }
+]

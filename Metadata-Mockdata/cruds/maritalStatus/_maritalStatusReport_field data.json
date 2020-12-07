@@ -8,10 +8,16 @@
     "fieldtype": "date",
     "fieldlength": {},
     "fieldinfo": {},
-    "value": "new Date()",
+    "value": "",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "date",
+      "constraint": [
+        {
+          "type": "currentDate",
+          "message": "Current Date validation message"
+        }
+      ]
     }
   }, {
     "id": "allDates",

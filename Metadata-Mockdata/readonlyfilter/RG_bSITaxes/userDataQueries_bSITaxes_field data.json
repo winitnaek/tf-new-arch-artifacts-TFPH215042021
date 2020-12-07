@@ -58,7 +58,13 @@
     "fieldinfo": {
       "typeahead": false,
       "isasync": false,
-      "options": [{"id":"0", "label":"Common Law"}, {"id":"1", "label":"Independent Contractor"},{"id":"2", "label": "FICA/FUTA"},{"id":"3", "label":"FICA"},{"id":"4", "label":"Self-Employed"}],
+      "options": [
+        { "id": "0", "label": "Common Law" },
+        { "id": "1", "label": "Independent Contractor" },
+        { "id": "2", "label": "FICA/FUTA" },
+        { "id": "3", "label": "FICA" },
+        { "id": "4", "label": "Self-Employed" }
+      ],
       "multiselect": false
     },
     "validation": {
@@ -71,7 +77,7 @@
     "placeholder": "Enter a Start Date",
     "fieldtype": "date",
     "label": "Start Date",
-    "value": "new Date()",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -85,7 +91,13 @@
     },
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "date",
+      "constraint": [
+        {
+          "type": "currentDate",
+          "message": "Current Date validation message"
+        }
+      ]
     }
   }
 ]

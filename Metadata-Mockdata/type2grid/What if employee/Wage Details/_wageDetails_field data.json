@@ -1,0 +1,438 @@
+[
+	{
+	  "id": "wageCodedesc",
+	  "placeholder": "Enter Authority Code",
+	  "fieldtype": "select",
+	  "label": "Wage Code Description",
+	  "value": "",
+	  "errmsg": " ",
+	  "dynamicFormKey": "payType",
+	  "hasSkipFields":true,
+	  "fieldlength": {
+		"minlength": 1,
+		"maxlength": 25
+	  },
+	  "fieldinfo": {
+		"typeahead": true,
+		"isasync": true,
+		"minlength": 1,
+		"options": [],
+		"multiselect": false
+	  },
+	  "validation": {
+		"required": false,
+		"type": "string"
+	  }
+	},
+	{
+		"skipFields": true,
+		"D": 
+			[{
+				"id": "currentContribution",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "Current Contribution",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			}],
+		"E": 
+			[
+		{
+			"id": "currentEarning",
+			"placeholder": "Enter Current Earning",
+			"fieldtype": "text",
+			"label": "Current Earning",
+			"value": "",
+			"errmsg": " ",
+			"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+			},
+			"fieldinfo": {
+			"typeahead": false,
+			"isasync": false,
+			"options": [],
+			"multiselect": false
+			},
+			"validation": {
+			"required": false,
+			"type": "string"
+			}
+		}
+			],
+		"P": 
+			[{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "Current Contribution",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "exemptionStatus",
+				"placeholder": "Enter Catch-up Eligible",
+				"fieldtype": "select",
+				"label": "Catch-up Eligible",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				"minlength": 1,
+				"maxlength": 25
+				},
+				"fieldinfo": {
+				"typeahead": false,
+				"isasync": false,
+				"options": [
+					{ "id": "0", "label": "Common Law" },
+					{ "id": "1", "label": "Independent Contractor" },
+					{ "id": "2", "label": "FICA/FUTA" },
+					{ "id": "3", "label": "FICA" },
+					{ "id": "4", "label": "Self-Employed" }
+				],
+				"multiselect": false
+				},
+				"validation": {
+				"required": false,
+				"type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "Current Match",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "MTD Contribution",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "MTD Match",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "QTD Contribution",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "QTD Match",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "YTD Contribution",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "YTD Match",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "startDate",
+				"placeholder": "Enter a Start Date",
+				"fieldtype": "date",
+				"label": "Start Date",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				"minlength": 1,
+				"maxlength": 25
+				},
+				"fieldinfo": {
+				"typeahead": false,
+				"isasync": false,
+				"options": [],
+				"multiselect": false
+				},
+				"validation": {
+				"required": false,
+				"type": "date",
+				"constraint": [
+					{
+					"type": "currentDate",
+					"message": "Current Date validation message"
+					}
+				]
+				}
+			},
+			{
+				"id": "exemptionStatus",
+				"placeholder": "Enter Exemption Status",
+				"fieldtype": "select",
+				"label": "Employee Indicator",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				"minlength": 1,
+				"maxlength": 25
+				},
+				"fieldinfo": {
+				"typeahead": false,
+				"isasync": false,
+				"options": [
+					{ "id": "0", "label": "Common Law" },
+					{ "id": "1", "label": "Independent Contractor" },
+					{ "id": "2", "label": "FICA/FUTA" },
+					{ "id": "3", "label": "FICA" },
+					{ "id": "4", "label": "Self-Employed" }
+				],
+				"multiselect": false
+				},
+				"validation": {
+				"required": false,
+				"type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "Employee Limit",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			},
+			{
+				"id": "exemptionStatus",
+				"placeholder": "Enter Exemption Status",
+				"fieldtype": "select",
+				"label": "Employer Indicator",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				"minlength": 1,
+				"maxlength": 25
+				},
+				"fieldinfo": {
+				"typeahead": false,
+				"isasync": false,
+				"options": [
+					{ "id": "0", "label": "Common Law" },
+					{ "id": "1", "label": "Independent Contractor" },
+					{ "id": "2", "label": "FICA/FUTA" },
+					{ "id": "3", "label": "FICA" },
+					{ "id": "4", "label": "Self-Employed" }
+				],
+				"multiselect": false
+				},
+				"validation": {
+				"required": false,
+				"type": "string"
+				}
+			},
+			{
+				"id": "taxTypeALL",
+				"placeholder": "Enter Current Contribution",
+				"fieldtype": "select",
+				"label": "Employer Limit",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
+				},
+				"fieldinfo": {
+				  "typeahead": true,
+				  "isasync": true,
+				  "options": [],
+				  "multiselect": false
+				},
+				"validation": {
+				  "required": false,
+				  "type": "string"
+				}
+			}
+		],
+		"Credit": 
+		[{
+			"id": "currentCredit",
+			"placeholder": "Enter Current Credit",
+			"fieldtype": "select",
+			"label": "Current Credit",
+			"value": "",
+			"errmsg": " ",
+			"fieldlength": {
+			  "minlength": 1,
+			  "maxlength": 25
+			},
+			"fieldinfo": {
+			  "typeahead": true,
+			  "isasync": true,
+			  "options": [],
+			  "multiselect": false
+			},
+			"validation": {
+			  "required": false,
+			  "type": "string"
+			}
+		}]
+		}
+
+
+  ]
+  
