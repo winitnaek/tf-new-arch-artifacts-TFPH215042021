@@ -62,28 +62,12 @@
     "validation": {
       "required": false,
       "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "subtype": [],
+      "constraint": []
     }
   },
   {
-    "id": "employeeGroup",
+    "id": "empGroup",
     "placeholder": "Enter Group",
     "fieldtype": "select",
     "label": "Group",
@@ -97,7 +81,7 @@
       "typeahead": true,
       "isasync": true,
       "minLength": 1,
-      "globalSearch": true,
+      "globalSearch": false,
       "options": [],
       "multiselect": false
     },
@@ -107,7 +91,7 @@
     }
   },
   {
-    "id": "company",
+    "id": "companyCode",
     "placeholder": "Enter Company",
     "fieldtype": "select",
     "label": "Company",
@@ -121,7 +105,7 @@
       "typeahead": true,
       "isasync": true,
       "minLength": 1,
-      "globalSearch": true,
+      "globalSearch": false,
       "options": [],
       "multiselect": false
     },
