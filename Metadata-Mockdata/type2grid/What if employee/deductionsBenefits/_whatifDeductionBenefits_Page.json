@@ -104,6 +104,34 @@
          {
             "name":"chkdt",
             "type":"string"
+         },
+         {
+            "name":"usrauth",
+            "type":"string"
+         },
+         {
+            "name":"wseqn",
+            "type":"string"
+         },
+         {
+            "name":"docket",
+            "type":"string"
+         },
+         {
+            "name":"empcode",
+            "type":"string"
+         },
+         {
+            "name":"usrtxtyp",
+            "type":"string"
+         },
+         {
+            "name":"gform",
+            "type":"string"
+         },
+         {
+            "name":"caseid",
+            "type":"string"
          }
       ]
    },
