@@ -62,28 +62,12 @@
     "validation": {
       "required": false,
       "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "subtype": [],
+      "constraint": []
     }
   },
   {
-    "id": "employeeGroup",
+    "id": "empGroup",
     "placeholder": "Enter Group",
     "fieldtype": "select",
     "label": "Group",
@@ -97,7 +81,7 @@
       "typeahead": true,
       "isasync": true,
       "minLength": 1,
-      "globalSearch": true,
+      "globalSearch": false,
       "options": [],
       "multiselect": false
     },
@@ -107,7 +91,7 @@
     }
   },
   {
-    "id": "company",
+    "id": "companyCode",
     "placeholder": "Enter Company",
     "fieldtype": "select",
     "label": "Company",
@@ -121,7 +105,7 @@
       "typeahead": true,
       "isasync": true,
       "minLength": 1,
-      "globalSearch": true,
+      "globalSearch": false,
       "options": [],
       "multiselect": false
     },
@@ -422,21 +406,25 @@
   {
     "id": "residentState",
     "placeholder": "Enter Resident State",
-    "fieldtype": "text",
+    "fieldtype": "select",
     "label": "Resident State",
-    "fieldHeader": "",
     "value": "",
     "errmsg": "",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": false,
+      "options": [],
+      "multiselect": false
+    },
     "validation": {
-      "required": true,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "required": false,
+      "type": "string"
     }
   },
   {
@@ -519,73 +507,51 @@
     }
   },
   {
-    "name": "garnishmentGroup",
     "id": "garnishmentGroup",
     "placeholder": "Enter Garnishment Group",
     "fieldtype": "select",
-    "fieldlength": {},
-    "fieldinfo": {
-      "options": ["test dropdown"]
-    },
-    "validationType": "string",
     "label": "Garnishment Group",
     "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": false,
+      "options": [],
+      "multiselect": false
+    },
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
-    "name": "principalStateOfEmp",
     "id": "principalStateOfEmp",
     "placeholder": "Enter Principal State of Employment",
-    "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
-    },
-    "validationType": "string",
-    "label": "Principal State Of Employment",
+    "fieldtype": "select",
+    "label": "Principal State of Employment",
     "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": false,
+      "options": [],
+      "multiselect": false
+    },
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -805,7 +771,7 @@
     "label": "Termination Date",
     "value": "",
     "validation": {
-      "required": true,
+      "required": false,
       "type": "text",
       "subtype": [
         {
@@ -1075,14 +1041,11 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
+      "typeahead": true,
+      "isasync": true,
       "minLength": 1,
-      "globalSearch": true,
-      "options": [{
-        "id": "DC",
-        "label": "DC- DISTRICT OF COLUMBIA"
-      }],
+      "globalSearch": false,
+      "options": [],
       "multiselect": false
     },
     "validation": {

@@ -206,7 +206,16 @@
          {
             "name":"exemptMilitaryLocation",
             "type":"string"
+         },
+         {
+            "name":"empGroup",
+            "type":"string"
+         },
+         {
+            "name":"companyCode",
+            "type":"string"
          }
+         
       ]
    },
    "formdef":{
