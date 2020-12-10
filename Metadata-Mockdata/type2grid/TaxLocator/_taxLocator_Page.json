@@ -29,7 +29,6 @@
       "noResultsFoundTxt":"No Data Found : ",
       "recordEdit":true,
       "recordDelete":false,
-      "hasButtonBar":true,
       "columns":[
          {
             "text":"Employee Code",
@@ -65,15 +64,18 @@
       "dataFields":[
          {
             "name":"employeeCode",
-            "type":"string"
+            "type":"string",
+            "map": "btxlemp>id>employee"
          },
          {
             "name":"employeeName",
-            "type":"string"
+            "type":"string",
+            "map": "btxlemp>id>employee"
          },
          {
             "name":"checkDate",
-            "type":"string"
+            "type":"string",
+            "map": "btxlemp>id>checkdate"
          }
       ]
    },
@@ -94,8 +96,8 @@
         },
         {
           "id": "hireDate",
-          "isReadOnlyOnEdit": true,
-          "isReadOnlyOnNew": true
+          "isReadOnlyOnEdit": false,
+          "isReadOnlyOnNew": false
         },
         {
           "id": "checkDate",

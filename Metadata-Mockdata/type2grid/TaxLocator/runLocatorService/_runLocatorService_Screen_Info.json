@@ -1,0 +1,8 @@
+{
+   "value":"CF",
+   "label":"TaxLocator",
+   "desc":"TaxLocator",
+   "id":"runLocatorService",
+   "type":"comp",
+   "link":false
+}

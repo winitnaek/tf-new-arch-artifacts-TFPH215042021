@@ -1,0 +1,91 @@
+{
+   "pgdef":{
+      "pgid":"addressFromWorksite",
+      "pgtitle":"TaxLocator",
+      "pgsubtitle":"",
+      "flowtype":"flowtype1",
+      "hasAddNew":false,
+      "addNewLabel":"",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/allBSIPlans",
+      "parentConfig":"",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"ro",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":false,
+      "recordDelete":false,
+      "columns":[
+         {
+            "text":"Select Worksites",
+            "datafield":"locationTaxes",
+            "cellsalign":"left",
+            "width":"30%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Location",
+            "datafield":"title",
+            "cellsalign":"left",
+            "align":"left"
+         },
+         {
+            "text":"City",
+            "datafield":"taxName",
+            "cellsalign":"left",
+            "align":"left"
+         },
+         {
+            "text":"State",
+            "datafield":"formula",
+            "cellsalign":"left",
+            "align":"left"
+         },
+         {
+            "text":"Zip",
+            "datafield":"resNRes",
+            "cellsalign":"center",
+            "align":"center"
+         }
+         
+      ],
+      "dataFields":[
+         {
+            "name":"locationTaxes",
+            "type":"string",
+            "map": "locationTaxes>taxCode"
+         },
+         {
+            "name":"title",
+            "type":"string",
+            "map": "locationTaxes>title"
+         },
+         {
+            "name":"taxName",
+            "type":"string",
+            "map": "locationTaxes>taxName"
+         },
+         {
+            "name":"formula",
+            "type":"string",
+            "map": "locationTaxes>formula"
+         },
+         {
+            "name":"resNRes",
+            "type":"string",
+            "map": "locationTaxes>resNRes"
+         }
+      ]
+   },
+   "formdef":""
+}

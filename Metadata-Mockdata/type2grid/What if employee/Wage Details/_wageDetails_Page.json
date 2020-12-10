@@ -52,6 +52,182 @@
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
+         },
+         {
+            "text":"currentContribution",
+            "datafield":"currentContribution",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Code",
+            "datafield":"currentEarning",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Code",
+            "datafield":"initiationDate",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"catchupEI",
+            "datafield":"catchupEI",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"currentMatch",
+            "datafield":"currentMatch",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"mtdcnt",
+            "datafield":"mtdcnt",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"mtdmch",
+            "datafield":"mtdmch",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"mtdmch",
+            "datafield":"qtdcnt",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"qtdmch",
+            "datafield":"qtdmch",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"ytdcnt",
+            "datafield":"ytdcnt",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"ytdmch",
+            "datafield":"ytdmch",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"employeeIndicator",
+            "datafield":"employeeIndicator",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"eelim",
+            "datafield":"eelim",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"employerIndicator",
+            "datafield":"employerIndicator",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"erlim",
+            "datafield":"erlim",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"currentCredit",
+            "datafield":"currentCredit",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
          }
       ],
       "dataFields":[
@@ -69,6 +245,86 @@
             "name":"code",
             "type":"string",
             "map": "bwamap>id>usercode"
+         },
+         {
+            "name":"currentContribution",
+            "type":"string",
+            "map": "btxtwge>curcnt"
+         },
+         {
+            "name":"currentEarning",
+            "type":"string",
+            "map": "btxtwge>curern"
+         },
+         {
+            "name":"initiationDate",
+            "type":"date",
+            "map": "btxtwge>initdt"
+         },
+         {
+            "name":"catchupEI",
+            "type":"string",
+            "map": "btxtwge>catchupEI"
+         },
+         {
+            "name":"currentMatch",
+            "type":"string",
+            "map": "btxtwge>curmch"
+         },
+         {
+            "name":"mtdcnt",
+            "type":"string",
+            "map": "btxtwge>mtdcnt"
+         },
+         {
+            "name":"mtdmch",
+            "type":"string",
+            "map": "btxtwge>mtdmch"
+         },
+         {
+            "name":"qtdcnt",
+            "type":"string",
+            "map": "btxtwge>qtdcnt"
+         },
+         {
+            "name":"qtdmch",
+            "type":"string",
+            "map": "btxtwge>qtdmch"
+         },
+         {
+            "name":"ytdcnt",
+            "type":"string",
+            "map": "btxtwge>ytdcnt"
+         },
+         {
+            "name":"ytdmch",
+            "type":"string",
+            "map": "btxtwge>ytdmch"
+         },
+         {
+            "name":"employeeIndicator",
+            "type":"string",
+            "map": "btxtwge>eeind"
+         },
+         {
+            "name":"eelim",
+            "type":"string",
+            "map": "btxtwge>eelim"
+         },
+         {
+            "name":"employerIndicator",
+            "type":"string",
+            "map": "btxtwge>erind"
+         },
+         {
+            "name":"erlim",
+            "type":"string",
+            "map": "btxtwge>erlim"
+         },
+         {
+            "name":"currentCredit",
+            "type":"string",
+            "map": "btxtwge>curcrdt"
          }
       ]
    },

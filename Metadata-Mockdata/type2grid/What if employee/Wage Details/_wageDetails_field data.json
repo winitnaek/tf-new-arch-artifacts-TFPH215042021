@@ -30,23 +30,29 @@
 			[{
 				"id": "currentContribution",
 				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"fieldtype": "text",
 				"label": "Current Contribution",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
 				"validation": {
 				  "required": false,
-				  "type": "string"
+				  "type": "string",
+				  "subtype":[
+					{
+					   "type":"string",
+					   "message":"Please enter valid number"
+					}
+				 ]
 				}
 			}],
 		"E": 
@@ -56,7 +62,7 @@
 			"placeholder": "Enter Current Earning",
 			"fieldtype": "text",
 			"label": "Current Earning",
-			"value": "",
+			"value": "0.00",
 			"errmsg": " ",
 			"fieldlength": {
 			"minlength": 1,
@@ -76,29 +82,35 @@
 			],
 		"P": 
 			[{
-				"id": "taxTypeALL",
+				"id": "currentContribution",
 				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"fieldtype": "text",
 				"label": "Current Contribution",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
 				"validation": {
 				  "required": false,
-				  "type": "string"
+				  "type": "string",
+				  "subtype":[
+					{
+					   "type":"string",
+					   "message":"Please enter valid number"
+					}
+				 ]
 				}
 			},
 			{
-				"id": "exemptionStatus",
+				"id": "catchupEI",
 				"placeholder": "Enter Catch-up Eligible",
 				"fieldtype": "select",
 				"label": "Catch-up Eligible",
@@ -112,11 +124,8 @@
 				"typeahead": false,
 				"isasync": false,
 				"options": [
-					{ "id": "0", "label": "Common Law" },
-					{ "id": "1", "label": "Independent Contractor" },
-					{ "id": "2", "label": "FICA/FUTA" },
-					{ "id": "3", "label": "FICA" },
-					{ "id": "4", "label": "Self-Employed" }
+					{ "id": "0", "label": "Use plan default maximum limit" },
+					{ "id": "1", "label": "Use plan default maximum limit plus additional catch-up contribution amount" } 
 				],
 				"multiselect": false
 				},
@@ -126,107 +135,131 @@
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "currentMatch",
+				"placeholder": "Enter Current Match",
+				"fieldtype": "text",
 				"label": "Current Match",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
 				"validation": {
 				  "required": false,
-				  "type": "string"
+				  "type": "string",
+				  "subtype":[
+					{
+					   "type":"string",
+					   "message":"Please enter valid number"
+					}
+				 ]
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "mtdcnt",
+				"placeholder": "Enter MTD Contribution",
+				"fieldtype": "text",
 				"label": "MTD Contribution",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
 				"validation": {
 				  "required": false,
-				  "type": "string"
+				  "type": "string",
+				  "subtype":[
+					{
+					   "type":"string",
+					   "message":"Please enter valid number"
+					}
+				 ]
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "mtdmch",
+				"placeholder": "Enter MTD Match",
+				"fieldtype": "text",
 				"label": "MTD Match",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
 				"validation": {
 				  "required": false,
-				  "type": "string"
+				  "type": "string",
+				  "subtype":[
+					{
+					   "type":"string",
+					   "message":"Please enter valid number"
+					}
+				 ]
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "qtdcnt",
+				"placeholder": "Enter QTD Contribution",
+				"fieldtype": "text",
 				"label": "QTD Contribution",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
 				"validation": {
 				  "required": false,
-				  "type": "string"
+				  "type": "string",
+				  "subtype":[
+					{
+					   "type":"string",
+					   "message":"Please enter valid number"
+					}
+				 ]
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "qtdmch",
+				"placeholder": "Enter QTD Match",
+				"fieldtype": "text",
 				"label": "QTD Match",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
@@ -236,19 +269,19 @@
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "ytdcnt",
+				"placeholder": "Enter YTD Contribution",
+				"fieldtype": "text",
 				"label": "YTD Contribution",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
@@ -258,19 +291,19 @@
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "ytdmch",
+				"placeholder": "Enter YTD Match",
+				"fieldtype": "text",
 				"label": "YTD Match",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
@@ -280,10 +313,10 @@
 				}
 			},
 			{
-				"id": "startDate",
-				"placeholder": "Enter a Start Date",
+				"id": "initiationDate",
+				"placeholder": "Enter a Initiation Date",
 				"fieldtype": "date",
-				"label": "Start Date",
+				"label": "Initiation Date",
 				"value": "",
 				"errmsg": " ",
 				"fieldlength": {
@@ -308,8 +341,8 @@
 				}
 			},
 			{
-				"id": "exemptionStatus",
-				"placeholder": "Enter Exemption Status",
+				"id": "employeeIndicator",
+				"placeholder": "Enter Employee Indicator",
 				"fieldtype": "select",
 				"label": "Employee Indicator",
 				"value": "",
@@ -322,11 +355,23 @@
 				"typeahead": false,
 				"isasync": false,
 				"options": [
-					{ "id": "0", "label": "Common Law" },
-					{ "id": "1", "label": "Independent Contractor" },
-					{ "id": "2", "label": "FICA/FUTA" },
-					{ "id": "3", "label": "FICA" },
-					{ "id": "4", "label": "Self-Employed" }
+					{ "id": "0", "label": "0 - Do Not Use Override" },
+					{ "id": "1", "label": "1 - Use Max. Override" },
+					{ "id": "2", "label": "2 - Use Override Only If PlanMax is Not Zero" },
+					{ "id": "3", "label": "3 - Use Override Only If PlanMax is Not Nines" },
+					{ "id": "4", "label": "4 - Use Override Only If PlanMax has Value" },
+					{ "id": "5", "label": "5 - Use Max. Override E" },
+					{ "id": "6", "label": "6 - Use Over EMax Non Zero" },
+					{ "id": "7", "label": "7 - Use Over EMax No Nines" },
+					{ "id": "8", "label": "8 - Use Over EMax Has Values" },
+					{ "id": "9", "label": "9 - Use Taxable Exclude" },
+					{ "id": "10", "label": "10 - Use Override as limit for Roth" },
+					{ "id": "11", "label": "11 - Use Max. Override to make plan taxable under the limit" },
+					{ "id": "12", "label": "12 - Use Max. Override to make plan taxable under limit, only if planmax is not zero" },
+					{ "id": "13", "label": "13 - Use Max. Override to make plan taxable under limit, only if planmax is not nines" },
+					{ "id": "14", "label": "14 - Use Max. Override to make plan taxable under limit, only if planmax has value" },
+					{ "id": "15", "label": "15 - Use Override as taxable-with limit for Roth" }
+				
 				],
 				"multiselect": false
 				},
@@ -336,19 +381,19 @@
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "eelim",
+				"placeholder": "Employee Limit",
+				"fieldtype": "text",
 				"label": "Employee Limit",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
@@ -358,7 +403,7 @@
 				}
 			},
 			{
-				"id": "exemptionStatus",
+				"id": "employerIndicator",
 				"placeholder": "Enter Exemption Status",
 				"fieldtype": "select",
 				"label": "Employer Indicator",
@@ -372,11 +417,23 @@
 				"typeahead": false,
 				"isasync": false,
 				"options": [
-					{ "id": "0", "label": "Common Law" },
-					{ "id": "1", "label": "Independent Contractor" },
-					{ "id": "2", "label": "FICA/FUTA" },
-					{ "id": "3", "label": "FICA" },
-					{ "id": "4", "label": "Self-Employed" }
+					{ "id": "0", "label": "0 - Do Not Use Override" },
+					{ "id": "1", "label": "1 - Use Max. Override" },
+					{ "id": "2", "label": "2 - Use Override Only If PlanMax is Not Zero" },
+					{ "id": "3", "label": "3 - Use Override Only If PlanMax is Not Nines" },
+					{ "id": "4", "label": "4 - Use Override Only If PlanMax has Value" },
+					{ "id": "5", "label": "5 - Use Max. Override E" },
+					{ "id": "6", "label": "6 - Use Over EMax Non Zero" },
+					{ "id": "7", "label": "7 - Use Over EMax No Nines" },
+					{ "id": "8", "label": "8 - Use Over EMax Has Values" },
+					{ "id": "9", "label": "9 - Use Taxable Exclude" },
+					{ "id": "10", "label": "10 - Use Override as limit for Roth" },
+					{ "id": "11", "label": "11 - Use Max. Override to make plan taxable under the limit" },
+					{ "id": "12", "label": "12 - Use Max. Override to make plan taxable under limit, only if planmax is not zero" },
+					{ "id": "13", "label": "13 - Use Max. Override to make plan taxable under limit, only if planmax is not nines" },
+					{ "id": "14", "label": "14 - Use Max. Override to make plan taxable under limit, only if planmax has value" },
+					{ "id": "15", "label": "15 - Use Override as taxable-with limit for Roth" }
+				
 				],
 				"multiselect": false
 				},
@@ -386,19 +443,19 @@
 				}
 			},
 			{
-				"id": "taxTypeALL",
-				"placeholder": "Enter Current Contribution",
-				"fieldtype": "select",
+				"id": "erlim",
+				"placeholder": "Enter Employer Limit",
+				"fieldtype": "text",
 				"label": "Employer Limit",
-				"value": "",
+				"value": "0.00",
 				"errmsg": " ",
 				"fieldlength": {
 				  "minlength": 1,
 				  "maxlength": 25
 				},
 				"fieldinfo": {
-				  "typeahead": true,
-				  "isasync": true,
+				  "typeahead": false,
+				  "isasync": false,
 				  "options": [],
 				  "multiselect": false
 				},
@@ -408,27 +465,33 @@
 				}
 			}
 		],
-		"Credit": 
+		"C": 
 		[{
 			"id": "currentCredit",
 			"placeholder": "Enter Current Credit",
-			"fieldtype": "select",
+			"fieldtype": "text",
 			"label": "Current Credit",
-			"value": "",
+			"value": "0.00",
 			"errmsg": " ",
 			"fieldlength": {
 			  "minlength": 1,
 			  "maxlength": 25
 			},
 			"fieldinfo": {
-			  "typeahead": true,
-			  "isasync": true,
+			  "typeahead": false,
+			  "isasync": false,
 			  "options": [],
 			  "multiselect": false
 			},
 			"validation": {
 			  "required": false,
-			  "type": "string"
+			  "type": "string",
+			  "subtype":[
+				{
+				   "type":"string",
+				   "message":"Please enter valid number"
+				}
+			 ]
 			}
 		}]
 		}

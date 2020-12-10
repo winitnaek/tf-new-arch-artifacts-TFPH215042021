@@ -205,28 +205,28 @@
 				"fieldinfo":{
 					"options":
 					[
-					"0 - No PS Member",
-					"1 - Member PS retirement where not further defined",
-					"2 - Member PS retirement state-specific",
-					"3 - No PS Member, suppress Federal SS",
-					"4 - No PS Member, suppress Medicare",
-					"5 - No PS Member, suppress Federal SS/Medicare",
-					"6 - Member PS Retirement PERA",
-					"7 - Member PS Retirement SS",
-					"8 - Member PS Retirement Med",
-					"9 - Member PERA SS taxable",
-					"10 - Member PERA SS non-taxable",
-					"11 - Federal SS/Medicare + PERA SS taxable",
-					"12 - Federal SS/Medicare + PERA SS non-taxable",
-					"13 - Federal SS + PERA SS taxable",
-					"14 - Federal SS + PERA SS non-taxable",
-					"15 - Federal Medicare + PERA SS taxable",
-					"16 - Federal Medicare + PERA SS non-taxable"
+				    { "id": "0" , "label":  "No PS Member",  "disable": ["hireDate"] },
+				    { "id": "1 ", "label":  "Member PS retirement where not further defined", "enable": ["hireDate"] },
+				    { "id": "2" , "label":  "Member PS retirement state-specific", "enable": ["hireDate"] },
+				    { "id": "3" , "label":  "No PS Member, suppress Federal SS", "enable": ["hireDate"] },
+				    { "id": "4" , "label":  "No PS Member, suppress Medicare", "enable": ["hireDate"] },
+				    { "id": "5" , "label":  "No PS Member, suppress Federal SS/Medicare", "enable": ["hireDate"] },
+				    { "id": "6" , "label":  "Member PS Retirement PERA", "enable": ["hireDate"] },
+				    { "id": "7" , "label":  "Member PS Retirement SS", "enable": ["hireDate"] },
+				    { "id": "8" , "label":  "Member PS Retirement Med", "enable": ["hireDate"] },
+				    { "id": "9" , "label":  "Member PERA SS taxable", "enable": ["hireDate"] },
+					{ "id": "10" , "label":  "Member PERA SS non-taxable", "enable": ["hireDate"] },
+					{ "id": "11", "label":  "Federal SS/Medicare + PERA SS taxable", "enable": ["hireDate"] },
+					{ "id": "12" , "label":  "Federal SS/Medicare + PERA SS non-taxable", "enable": ["hireDate"] },
+					{ "id": "13", "label":  "Federal SS + PERA SS taxable", "enable": ["hireDate"] },
+					{ "id": "14" , "label":  "Federal SS + PERA SS non-taxable", "enable": ["hireDate"] },
+					{ "id": "15", "label":  "Federal Medicare + PERA SS taxable", "enable": ["hireDate"] },
+					{ "id": "16", "label":  "Federal Medicare + PERA SS non-taxable", "enable": ["hireDate"] }
 					]
 				},
 				"validationType":"string",
 				"label":"Private Sector Retirement Plan Indicator",
-				"value":"0 - No PS Member",
+				"value":"",
 				"validation":{
 					
 					"required":false,
@@ -236,42 +236,33 @@
 			},
 			
 			{
-				"name":"hireDate",
-				"id":"hireDate",
-				"placeholder":"Enter Hire Date",
-				"fieldtype":"date",
-				"fieldlength":{
-				
+				"id": "hireDate",
+				"placeholder": "Enter a Hire Date",
+				"fieldtype": "date",
+				"label": "Hire Date",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
 				},
-				"fieldinfo":{
-				
+				"fieldinfo": {
+				  "typeahead": false,
+				  "isasync": false,
+				  "options": [],
+				  "multiselect": false
 				},
-				"validationType":"string",
-				"label":"Hire Date",
-				"value":"",
-				"validation":{
-				"required":true,
-				"type":"text",
-				"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
+				"validation": {
+				  "required": false,
+				  "type": "date",
+				  "constraint": [
+					{
+					  "type": "currentDate",
+					  "message": "Current Date validation message"
+					}
+				  ]
 				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		   }
-		},
+			  },
 			{
 				"name":"dataVersion",
 				"id":"dataVersion",
@@ -627,13 +618,13 @@
 				"fieldinfo": {
 					"options":
 						[
-						"0 - Active Employee",
-						"1 - Deceased Employee"
+						{ "id": "0", "label": "Active Employee", "disable": ["dateOfDeath"] },
+						{ "id": "1", "label": "Deceased Employee", "enable": ["dateOfDeath"] }
 						]
 				},
 				"validationType":"string",
 				"label":"Employment Type",
-				"value":"0 - Active Employee",
+				"value":"",
 				"validation": {
 					
 					"required":false,

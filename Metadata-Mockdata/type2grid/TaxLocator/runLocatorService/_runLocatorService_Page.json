@@ -1,0 +1,97 @@
+{
+   "pgdef":{
+      "pgid":"runLocatorService",
+      "pgtitle":"TaxLocator",
+      "pgsubtitle":"",
+      "flowtype":"flowtype1",
+      "hasAddNew":false,
+      "addNewLabel":"",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/allBSIPlans",
+      "parentConfig":"",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"ro",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":false,
+      "recordDelete":false,
+      "columns":[
+         {
+            "text":"Authority",
+            "datafield":"taxCode",
+            "cellsalign":"left",
+            "width":"30%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Title",
+            "datafield":"title",
+            "cellsalign":"left",
+            "align":"left"
+         },
+         {
+            "text":"Tax Name",
+            "datafield":"taxName",
+            "cellsalign":"left",
+            "align":"left"
+         },
+         {
+            "text":"Frml #",
+            "datafield":"formula",
+            "cellsalign":"left",
+            "align":"left"
+         },
+         {
+            "text":"Res/Nres",
+            "datafield":"resNRes",
+            "cellsalign":"center",
+            "align":"center"
+         },
+         {
+            "text":"Tax Type Classification Code",
+            "datafield":"taxTypeClassificationCode",
+            "cellsalign":"center",
+            "align":"center"
+         }
+
+         
+      ],
+      "dataFields":[
+         {
+            "name":"taxCode",
+            "type":"string"
+         },
+         {
+            "name":"title",
+            "type":"string"
+         },
+         {
+            "name":"taxName",
+            "type":"string"
+         },
+         {
+            "name":"formula",
+            "type":"string"
+         },
+         {
+            "name":"resNRes",
+            "type":"string"
+         },
+         {
+            "name":"taxTypeClassificationCode",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef":""
+}
