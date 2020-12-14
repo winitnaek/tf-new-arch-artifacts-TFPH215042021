@@ -1,2106 +1,1422 @@
 [
-		{
-		"name":"authority",
-		"id":"authority",
-		"placeholder":"Enter Authority",
-		"fieldtype":"select",
-		"fieldlength":{
+  {
+    "id": "usrauth",
+    "placeholder": "Select Authority",
+    "fieldtype": "select",
+    "label": "Authority",
+    "value": "",
+    "errmsg": "Authority is required.",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
 
-		},
-		"fieldinfo":{
-				"typeahead":true
-		},
-		"validationType":"string",
-		"label":"Authority",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"taxTypeUserTaxType",
-		"id":"taxTypeUserTaxType",
-		"placeholder":"Enter Tax Type",
-		"fieldtype":"select",
-		"fieldlength":{
+  {
+    "id": "usrtxtyp",
+    "placeholder": "User Tax Type",
+    "fieldtype": "select",
+    "label": "TaxType / User Tax Type",
+    "value": "",
+    "errmsg": "User Tax Type is required.",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  {
+    "id": "gform",
+    "placeholder": "Formula",
+    "fieldtype": "select",
+    "label": "Formula",
+    "value": "",
+    "errmsg": "Formula is required.",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  {
+    "id": "caseid",
+    "placeholder": "Enter Case ID",
+    "fieldtype": "text",
+    "label": "Case ID",
+    "value": "",
+    "errmsg": "Case ID is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Street Name needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 5,
+          "message": "min 5 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "docket",
+    "id": "docket",
+    "placeholder": "Enter Docket Number",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Docket Number",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "fstats",
+    "id": "fstats",
+    "placeholder": "Select Filing Status",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "1 - Single"
+        },
+        {
+          "id": 1,
+          "label": "3 - Married filing separate"
+        },
+        {
+          "id": 2,
+          "label": "4 - Married filing jointly"
+        },
+        {
+          "id": 3,
+          "label": "6 - Unmarried"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Filing Status",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "id": "nexem",
+    "placeholder": "Enter Number Of Exemptions",
+    "fieldtype": "text",
+    "label": "Number Of Exemptions",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "addded",
+    "placeholder": "Enter Additional Standard Deduction",
+    "fieldtype": "text",
+    "label": "Additional Standard Deduction",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "name": "family2",
+    "id": "family2",
+    "placeholder": "Select Second Family",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Second Family",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "familyh",
+    "id": "familyh",
+    "placeholder": "Select Head Of Family",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Head Of Family",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "id": "ndeps",
+    "placeholder": "Enter Number Of Dependents",
+    "fieldtype": "text",
+    "label": "Number Of Dependents",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ndepchld",
+    "placeholder": "Enter Number Of Dependent Children",
+    "fieldtype": "text",
+    "label": "Number Of Dependent Children",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },  
+  {
+    "name": "gduratn",
+    "id": "gduratn",
+    "placeholder": "Select Garnishment Duration",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Continuing"
+        },
+        {
+          "id": 1,
+          "label": "1 - One Time"
+        },
+        {
+          "id": 2,
+          "label": "2 - Specific End Date"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Garnishment Duration",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "id": "calcamnt",
+    "placeholder": "Enter Calculated Amount",
+    "fieldtype": "text",
+    "label": "Calculated Amount",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pymtnmbr",
+    "placeholder": "Enter Payment Number",
+    "fieldtype": "text",
+    "label": "Payment Number",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "name": "hassoe",
+    "id": "hassoe",
+    "placeholder": "Select Statement Of Exemptions",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Not Filed"
+        },
+        {
+          "id": 1,
+          "label": "1 - Filed"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Statement Of Exemptions",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "id": "priovrd",
+    "placeholder": "Enter Override System Priority",
+    "fieldtype": "text",
+    "label": "Override System Priority",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "name": "delinq",
+    "id": "delinq",
+    "placeholder": "Is Delinquent",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Is Delinquent",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "grcvddt",
+    "id": "grcvddt",
+    "placeholder": "Garnishment Received Date",
+    "fieldtype": "date",
+    "errmsg": "Garnishment Received Date is required",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Garnishment Received Date",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Worksite needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "gstrtdt",
+    "id": "gstrtdt",
+    "placeholder": "Garnishment Start Date",
+    "fieldtype": "date",
+    "errmsg": "Garnishment Start Date is required",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Garnishment Start Date",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Worksite needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "genddt",
+    "id": "genddt",
+    "placeholder": "Garnishment End Date",
+    "fieldtype": "date",
+    "errmsg": "Garnishment End Date is required",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Garnishment End Date",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": "Worksite needs to be in uppercase."
+        }
+      ],
+      "constraint": [
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+    {
+    "name": "typeOfDebt",
+    "id": "typeOfDebt",
+    "placeholder": "Select Type Of Debt",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - N/A"
+        },
+        {
+          "id": 1,
+          "label": "1 - Loan Contract"
+        },
+        {
+          "id": 2,
+          "label": "2 - Hospital"
+        },
+        {
+          "id": 3,
+          "label": "3 - Consumer Credit"
+        },
+        {
+          "id": 4,
+          "label": "4 - Civil Judgement"
+        },
+        {
+          "id": 5,
+          "label": "5 - Public Assistance Fund"
+        },
+        {
+          "id": 6,
+          "label": "6 - Debt To Creditor-Landlord"
+        },
+        {
+          "id": 7,
+          "label": "7 - Residential Lease"
+        },
+        {
+          "id": 8,
+          "label": "8 - Judgement Garnishment for Support"
+        },
+        {
+          "id": 9,
+          "label": "9 - Wage Assignment for Child Support"
+        },
+        {
+          "id": 10,
+          "label": "10 - Fines/Other Court Costs"
+        },
+        {
+          "id": 11,
+          "label": "11 - Order Issued by CSE"
+        },
+        {
+          "id": 12,
+          "label": "12 - Order Issued by Secretary"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Type Of Debt",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "vocation",
+    "id": "vocation",
+    "placeholder": "Select vocation",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - N/A"
+        },
+        {
+          "id": 1,
+          "label": "1 - Sailor"
+        },
+        {
+          "id": 2,
+          "label": "2 - Laborer"
+        },
+        {
+          "id": 3,
+          "label": "3 - Mechanic"
+        },
+        {
+          "id": 4,
+          "label": "4 - Municipal Employee"
+        },
+        {
+          "id": 5,
+          "label": "5 - State Employee"
+        },
+        {
+          "id": 6,
+          "label": "6 - WI State Employee"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Vocation",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "consent",
+    "id": "consent",
+    "placeholder": "Select Consent",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes"
+        },
+        {
+          "id": 2,
+          "label": "2 - Hardship"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Consent",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "ordamtflg",
+    "id": "ordamtflg",
+    "placeholder": "Select Ordered Amount Flag",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - System Selected"
+        },
+        {
+          "id": 1,
+          "label": "1 - Total Ordered Amount"
+        },
+        {
+          "id": 2,
+          "label": "2 - Total Pay Period"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Ordered Amount flag",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "rndind",
+    "id": "rndind",
+    "placeholder": "Select Rounding Indicator",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - System Default"
+        },
+        {
+          "id": 1,
+          "label": "1 - Round To Cents"
+        },
+        {
+          "id": 2,
+          "label": "2 - Round To Dollars"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Rounding Indicator",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "usefedlmt",
+    "id": "usefedlmt",
+    "placeholder": "Select Limit For Child Support",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Use State Limit"
+        },
+        {
+          "id": 1,
+          "label": "1 - Use Federal Limit"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Limit For Child Support",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "text",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "id": "prioramt",
+    "placeholder": "Prior Amount",
+    "fieldtype": "text",
+    "label": "Prior Amount",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pctwthd",
+    "placeholder": "Percent To Withhold",
+    "fieldtype": "text",
+    "label": "Percent To Withhold",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ordamt",
+    "placeholder": "Ordered Dollar Amount",
+    "fieldtype": "text",
+    "label": "Ordered Dollar Amount",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ordpctg",
+    "placeholder": "Ordered Percentage",
+    "fieldtype": "text",
+    "label": "Ordered Percentage",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "garnexem",
+    "placeholder": "Garnishment Exemption",
+    "fieldtype": "text",
+    "label": "Garnishment Exemption",
+    "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "name": "monthToDateWages",
+    "id": "monthToDateWages",
+    "placeholder": "Enter Month To Date Wages",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Month To Date Wages",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "annualWages",
+    "id": "annualWages",
+    "placeholder": "Enter Annual Wages",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Annual Wages",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "disposableEarnings",
+    "id": "disposableEarnings",
+    "placeholder": "Enter Disposable Earnings",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Disposable Earnings",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "garnishmentGross",
+    "id": "garnishmentGross",
+    "placeholder": "Enter Garnishment Gross",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Garnishment Gross",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "reducingDeductions",
+    "id": "reducingDeductions",
+    "placeholder": "Enter Reducing Deductions",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Reducing Deductions",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "localHourlyMinimumWage",
+    "id": "localHourlyMinimumWage",
+    "placeholder": "Enter Local Hourly Minimum Wage",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Local Hourly Minimum Wage",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "remainderOfDisposableEarnings",
+    "id": "reminderOfDisposableEarnings",
+    "placeholder": "Select Reminder Of Disposable Earnings",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - normal"
+        },
+        {
+          "id": 1,
+          "label": "1 - 100%"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Reminder Of Disposable Earnings",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "doesThisGarnishmentUseATimeReferenceCalulation?",
+    "id": "doesThisGarnishmentUseATimeReferenceCalulation",
+    "placeholder": "Select Does This Garnishment Use A Time Reference Calulation",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No Lump Sum Calculation"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes Lump Sum Calculation"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Does This Garnishment Use A Time Reference Calulation",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "numberOfPeriodsForPayment",
+    "id": "numberOfPeriodsForPayment",
+    "placeholder": "Enter Number Of Periods For Payment",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Number Of Periods For Payments",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "mtdGarnishment",
+    "id": "mtdGarnishment",
+    "placeholder": "Enter MTD Garnishment",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "MTD Garnishment",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "mtdDisposableEarnings",
+    "id": "mtdDisposableEarnings",
+    "placeholder": "Enter MTD Disposable Earnings",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "MTD Disposable Earnings",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "ytdGarnishment",
+    "id": "ytdGarnishment",
+    "placeholder": "Enter YTD Garnishment",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "YTD Garnishment",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "ytdDisposableEarnings",
+    "id": "ytdDisposableEarnings",
+    "placeholder": "Enter YTD Disposable Earnings",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "YTD Disposable Earnings",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "qtdGarnishment",
+    "id": "qtdGarnishment",
+    "placeholder": "Enter QTD Garnishment",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "QTD Garnishment",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "pptdGarnishment",
+    "id": "pptdGarnishment",
+    "placeholder": "Enter PPTD Garnishment",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "PPTD Garnishment",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "garnishmentCap",
+    "id": "GarnishmentCap",
+    "placeholder": "Enter Garnishment Cap",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Garnishment Cap",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "garnishmentLimitInd",
+    "id": "garnishmentLimitInd",
+    "placeholder": "Select Garnishment Limit Ind",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - YTD"
+        },
+        {
+          "id": 1,
+          "label": "1 - QTD"
+        },
+        {
+          "id": 2,
+          "label": "2 - MTD"
+        }
+        ,
+        {
+          "id": 3,
+          "label": "3 - PPTD"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Garnishment Limit IND",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "useAlternateLimit",
+    "id": "useAlternateLimit",
+    "placeholder": "Select Alternate Limit",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Regular % Limit"
+        },
+        {
+          "id": 1,
+          "label": "1 - Alternate % Limit"
+        }
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Use Alternate Limit",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "garnishmentType",
+    "id": "garnishmentType",
+    "placeholder": "Select Garnishment Type",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Stacking /Default"
+        },
+        {
+          "id": 1,
+          "label": "1 - Divide Evenly"
+        },
+        {
+          "id": 2,
+          "label": "2 - Pro-Rate"
+        }
 
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Tax Type/User Tax Type",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"formula",
-		"id":"formula",
-		"placeholder":"Enter Formula",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Formula",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"caseId",
-		"id":"caseId",
-		"placeholder":"Enter Case ID",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Case ID",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"docketNumber",
-		"id":"docketNumber",
-		"placeholder":"Enter Docket Number",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Docket Number",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"filingStatus",
-		"id":"filingStatus",
-		"placeholder":"Select Filing Status",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Filing Status",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"numberOfExemptions",
-		"id":"numberOfExemptions",
-		"placeholder":"Enter Number Of Exemptions",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Number Of Exemptions",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":4,
-					"message":"max 4 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"additionalStandardDeduction",
-		"id":"additionalStandardDeduction",
-		"placeholder":"Enter Additional Standard Deduction",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Additional Standard Deduction",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":4,
-					"message":"max 4 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"secondFamily",
-		"id":"secondFamily",
-		"placeholder":"Select Second Family",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Second Family",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":10,
-					"message":"max 10 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"headOfFamily",
-		"id":"headOfFamily",
-		"placeholder":"Select Head Of Family",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Head Of Family",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"numberOfDependents",
-		"id":"numberOfDependents",
-		"placeholder":"Enter Number Of Dependents",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Number Of Dependents",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":4,
-					"message":"max 4 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"numberOfDependentChildren",
-		"id":"numberOfDependentChildren",
-		"placeholder":"Enter Number Of Dependent Children",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Number Of Dependent Children",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":4,
-					"message":"max 4 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentDuration",
-		"id":"garnishmentDuration",
-		"placeholder":"Select Garnishment Duration",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Garnishment Duration",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"calculatedAmount",
-		"id":"calculatedAmount",
-		"placeholder":"Enter Calculated Amount",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Calculated Amount",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"paymentNumber",
-		"id":"paymentNumber",
-		"placeholder":"Enter Payment Number",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Payment Number",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":4,
-					"message":"max 4 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"statementOfExemptions",
-		"id":"statementOfExemptions",
-		"placeholder":"Select Statement Of Exemptions",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Statement Of Exemptions",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"overrideSystemPriority",
-		"id":"overrideSystemPriority",
-		"placeholder":"Enter Override System Priority",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Override System Priority",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":2,
-					"message":"max 2 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"isDelinquent",
-		"id":"isDelinquent",
-		"placeholder":"Select Is Delinquent",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Is Delinquent",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentReceivedDate",
-		"id":"garnishmentReceivedDate",
-		"placeholder":"Enter Garnishment Received Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Garnishment Received Date",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentStartDate",
-		"id":"garnishmentStartDate",
-		"placeholder":"Enter Garnishment Start Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Garnishment Start Date",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentEndDate",
-		"id":"garnishmentEndDate",
-		"placeholder":"Enter Garnishment End Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Garnishment End Date",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"typeOfDebt",
-		"id":"typeOfDebt",
-		"placeholder":"Select Type Of Debt",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Type Of Debt",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"vocation",
-		"id":"vocation",
-		"placeholder":"Select vocation",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Vocation",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"consent",
-		"id":"consent",
-		"placeholder":"Select Consent",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Consent",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"orderedAmountFlag",
-		"id":"orderedAmountFlag",
-		"placeholder":"Select Ordered Amount Flag",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Ordered Amount flag",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"roundingIndicator",
-		"id":"roundingIndicator",
-		"placeholder":"Select Rounding Indicator",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Rounding Indicator",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"limitForChildSupport",
-		"id":"limitForChildSupport",
-		"placeholder":"Select Limit For Child Support",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-	},
-		"validationType":"string",
-		"label":"Limit For Child Support",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"priorAmount",
-		"id":"priorAmount",
-		"placeholder":"Enter Prior Amount",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Prior Amount",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"percentToWithhold",
-		"id":"percentToWithhold",
-		"placeholder":"Enter Percent To Withhold",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Percent To Withhold",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":11,
-					"message":"max 11 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"orderedDollarAmount",
-		"id":"orderedDollarAmount",
-		"placeholder":"Enter Ordered Dollar Amount",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Ordered Dollar Amount",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"orderedPercentage",
-		"id":"orderedPecentage",
-		"placeholder":"Enter Ordered Percentage",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Ordered Percentage",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":11,
-					"message":"max 11 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentExemption",
-		"id":"garnishmentExemption",
-		"placeholder":"Enter Garnishment Exemption",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Garnishment Exemption",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"monthToDateWages",
-		"id":"monthToDateWages",
-		"placeholder":"Enter Month To Date Wages",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Month To Date Wages",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"annualWages",
-		"id":"annualWages",
-		"placeholder":"Enter Annual Wages",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Annual Wages",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"disposableEarnings",
-		"id":"disposableEarnings",
-		"placeholder":"Enter Disposable Earnings",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Disposable Earnings",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentGross",
-		"id":"garnishmentGross",
-		"placeholder":"Enter Garnishment Gross",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Garnishment Gross",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"reducingDeductions",
-		"id":"reducingDeductions",
-		"placeholder":"Enter Reducing Deductions",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Reducing Deductions",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"localHourlyMinimumWage",
-		"id":"localHourlyMinimumWage",
-		"placeholder":"Enter Local Hourly Minimum Wage",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Local Hourly Minimum Wage",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},	
-	{
-		"name":"remainderOfDisposableEarnings",
-		"id":"reminderOfDisposableEarnings",
-		"placeholder":"Select Reminder Of Disposable Earnings",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Reminder Of Disposable Earnings",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"doesThisGarnishmentUseATimeReferenceCalulation?",
-		"id":"doesThisGarnishmentUseATimeReferenceCalulation",
-		"placeholder":"Select Does This Garnishment Use A Time Reference Calulation",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Does This Garnishment Use A Time Reference Calulation",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-		{
-		"name":"numberOfPeriodsForPayment",
-		"id":"numberOfPeriodsForPayment",
-		"placeholder":"Enter Number Of Periods For Payment",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Number Of Periods For Payments",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":4,
-					"message":"max 4 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"mtdGarnishment",
-		"id":"mtdGarnishment",
-		"placeholder":"Enter MTD Garnishment",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"MTD Garnishment",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"mtdDisposableEarnings",
-		"id":"mtdDisposableEarnings",
-		"placeholder":"Enter MTD Disposable Earnings",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"MTD Disposable Earnings",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"ytdGarnishment",
-		"id":"ytdGarnishment",
-		"placeholder":"Enter YTD Garnishment",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"YTD Garnishment",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"ytdDisposableEarnings",
-		"id":"ytdDisposableEarnings",
-		"placeholder":"Enter YTD Disposable Earnings",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"YTD Disposable Earnings",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"qtdGarnishment",
-		"id":"qtdGarnishment",
-		"placeholder":"Enter QTD Garnishment",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"QTD Garnishment",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"pptdGarnishment",
-		"id":"pptdGarnishment",
-		"placeholder":"Enter PPTD Garnishment",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"PPTD Garnishment",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentCap",
-		"id":"GarnishmentCap",
-		"placeholder":"Enter Garnishment Cap",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Garnishment Cap",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":14,
-					"message":"max 14 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentLimitInd",
-		"id":"garnishmentLimitInd",
-		"placeholder":"Select Garnishment Limit Ind",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Garnishment Limit IND",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-		{
-		"name":"useAlternateLimit",
-		"id":"useAlternateLimit",
-		"placeholder":"Select Alternate Limit",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Use Alternate Limit",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"garnishmentType",
-		"id":"garnishmentType",
-		"placeholder":"Select Garnishment Type",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Garnishment Type",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"useStateOfIssue",
-		"id":"useStateOfIssue",
-		"placeholder":"Select State of Issue",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"Use State of Issue",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-		{
-		"name":"localProtectedHours",
-		"id":"localProtectedHours",
-		"placeholder":"Enter Local Protected Hours",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Local Protected Hours",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":9,
-					"message":"max 9 characters"
-				}
-			]
-		}
-	},	
-	{
-		"name":"firstPayCode",
-		"id":"firstPayCode",
-		"placeholder":"Select First Pay Code",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"options":[
-		"test dropdown"
-		]
-		},
-		"validationType":"string",
-		"label":"First Pay Code",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	}
+      ],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Garnishment Type",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "useStateOfIssue",
+    "id": "useStateOfIssue",
+    "placeholder": "Select State of Issue",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {      
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes"
+        }],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "Use State of Issue",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "localProtectedHours",
+    "id": "localProtectedHours",
+    "placeholder": "Enter Local Protected Hours",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Local Protected Hours",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  },
+  {
+    "name": "firstPayCode",
+    "id": "firstPayCode",
+    "placeholder": "Select First Pay Code",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - First Pay"
+        },
+        {
+          "id": 1,
+          "label": "1 - Not First Pay"
+        }],
+      "multiselect": false
+    },
+    "validationType": "string",
+    "label": "First Pay Code",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [],
+      "constraint": []
+    }
+  }
 ]
