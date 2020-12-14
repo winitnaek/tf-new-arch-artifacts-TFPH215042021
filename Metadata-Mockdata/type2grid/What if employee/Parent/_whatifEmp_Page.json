@@ -223,8 +223,8 @@
       "subtitle":"Note: Required fields are marked with an asterisk (*)",
       "hasSave":true,
       "hasDelete":true,
-      "hasSaveAs":false,
-      "hasViewPDF":false,
+      "hasSaveAs":true,
+      "hasViewPDF":true,
       "hasView":false,
       "hasRecentUsage":false,
       "formflds":[
