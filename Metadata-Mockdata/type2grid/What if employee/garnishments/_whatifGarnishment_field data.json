@@ -87,24 +87,8 @@
     "validation": {
       "required": true,
       "type": "string",
-      "subtype": [
-        {
-          "type": "uppercase",
-          "message": "Street Name needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
-      ]
+      "subtype": [],
+      "constraint": []
     }
   },
   {

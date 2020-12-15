@@ -30,11 +30,11 @@
   },
   {
     "id": "empCode",
-    "placeholder": "Enter Employee Code",
+    "placeholder": "Enter Custom Payment Code",
     "fieldtype": "text",
     "label": "Employee Code",
     "value": "",
-    "errmsg": "Employee Code is required",
+    "errmsg": "Enter Employee Code is required",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -116,41 +116,35 @@
   },
   {
     "id": "paymentType",
-    "placeholder": "Select Payment Type",
     "fieldtype": "select",
     "label": "Payment Type",
-    "value": "",
-    "errmsg": " ",
+    "value": "0",
     "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
     },
     "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - Regular"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Supplemental"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Cumulative"
         },
         {
-          "id": 3,
+          "id": "3",
           "label": "3 - Vacation"
         }
-      ],
-      "multiselect": false
+      ]
     },
+    "validationType":"string",
     "validation": {
       "required": false,
-      "type": "string"
+      "message":""
     }
   },
   {
@@ -158,7 +152,7 @@
     "placeholder": "Enter Pay Frequency",
     "fieldtype": "text",
     "label": "Pay Frequency",
-    "value": "",
+    "value": "52",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -180,7 +174,7 @@
     "placeholder": "Enter Vacation Hours",
     "fieldtype": "text",
     "label": "Vacation Hours",
-    "value": "",
+    "value": "0.0",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -202,7 +196,7 @@
     "placeholder": "Enter the Proration Frequency",
     "fieldtype": "text",
     "label": "Proration Frequency",
-    "value": "",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {
       "minlength": 1,
@@ -224,7 +218,7 @@
     "placeholder": "Enter YTD Pay Period",
     "fieldtype": "text",
     "label": "YTD Pay Period",
-    "value": "",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {
       "minlength": 1,
@@ -246,7 +240,7 @@
     "placeholder": "Enter Pay Period Hours",
     "fieldtype": "text",
     "label": "Pay Period Hours",
-    "value": "",
+    "value": "0.000",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -268,7 +262,7 @@
     "placeholder": "Select Gross UP Indicator",
     "fieldtype": "select",
     "label": "Gross up Indicator",
-    "value": "",
+    "value": "0",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -307,7 +301,7 @@
     "placeholder": "Enter Net Wages",
     "fieldtype": "text",
     "label": "Net Wages",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -329,7 +323,7 @@
     "placeholder": "Enter Est. Annual Gross Amount",
     "fieldtype": "text",
     "label": "Est. Annual Gross Amount",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -377,30 +371,25 @@
     "placeholder": "Select Contribution Allocation",
     "fieldtype": "select",
     "label": "Contribution Allocation",
-    "value": "",
-    "errmsg": " ",
+    "value": "0",
     "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
     },
     "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - Do not Override"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Override"
         }
-      ],
-      "multiselect": false
+      ]
     },
+    "validationType":"string",
     "validation": {
       "required": false,
-      "type": "string"
+      "message":""
     }
   },
   {
@@ -432,7 +421,7 @@
     "placeholder": "Enter Gross Wages",
     "fieldtype": "text",
     "label": "Gross Wages",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -454,7 +443,7 @@
     "placeholder": "Enter Average Weekly Gross",
     "fieldtype": "text",
     "label": "Average Weekly Gross",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -476,8 +465,8 @@
     "placeholder": "Select Garnishment",
     "fieldtype": "select",
     "label": "Garnishment",
-    "value": "",
-    "errmsg": " ",
+    "value": "0",
+    "errmsg": "",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -559,7 +548,7 @@
     "placeholder": "Select Calculation Type",
     "fieldtype": "select",
     "label": "Calculation Type",
-    "value": "",
+    "value": "0",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -606,8 +595,8 @@
     "placeholder": "Select Wage Process Code",
     "fieldtype": "select",
     "label": "Wage Process Code",
-    "value": "",
-    "errmsg": " ",
+    "value": "0",
+    "errmsg": "",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -645,7 +634,7 @@
     "placeholder": "Enter Est. Spousal Income",
     "fieldtype": "text",
     "label": "Est. Spousal Income",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -667,7 +656,7 @@
     "placeholder": "Select Employee Type",
     "fieldtype": "select",
     "label": "Employee Type",
-    "value": "",
+    "value": "0",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -710,7 +699,7 @@
     "placeholder": "Select Employment Type",
     "fieldtype": "select",
     "label": "Employment Type",
-    "value": "",
+    "value": "0",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -891,7 +880,7 @@
     "placeholder": "Select Calculated Local Tax In",
     "fieldtype": "select",
     "label": "Calculated Local Tax In",
-    "value": "",
+    "value": "0",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -959,7 +948,7 @@
     "placeholder": "Select Statutory EE Indicator",
     "fieldtype": "select",
     "label": "Statutory EE Indicator",
-    "value": "",
+    "value": "0",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -997,13 +986,12 @@
       "type": "string"
     }
   },
-
   {
     "id": "foreignEarnedIncome",
     "placeholder": "Select Foreign Earned Income",
     "fieldtype": "select",
     "label": "Foreign Earned Income",
-    "value": "",
+    "value": "0",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,

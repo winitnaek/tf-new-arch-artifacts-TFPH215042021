@@ -165,7 +165,8 @@
          },
          {
             "name":"fstats",
-            "type":"string"
+            "type":"string",
+            "map":"btxtgrn>fstats"
          },
          {
             "name":"ndeps",
@@ -371,21 +372,125 @@
             "name":"firstPayCode",
             "type":"string",
             "map":"btxtgrn>firstPayCode"
+         },
+         {
+            "name":"exmptamt",
+            "type":"string",
+            "map":"btxtgrn>exmptamt"
+         },
+         {
+            "name":"addexamt",
+            "type":"string",
+            "map":"btxtgrn>addexamt"
+         },
+         {
+            "name":"drsvd0",
+            "type":"string",
+            "map":"btxtgrn>drsvd0"
+         },
+         {
+            "name":"drsvd1",
+            "type":"string",
+            "map":"btxtgrn>drsvd1"
+         },
+         {
+            "name":"hrsvd0",
+            "type":"string",
+            "map":"btxtgrn>hrsvd0"
+         },
+         {
+            "name":"thd",
+            "type":"string",
+            "map":"btxtgrn>thd"
+         },
+         {
+            "name":"ohi",
+            "type":"string",
+            "map":"btxtgrn>ohi"
+         },
+         {
+            "name":"gstats",
+            "type":"string",
+            "map":"btxtgrn>gstats"
+         },
+         {
+            "name":"family2",
+            "type":"string",
+            "map":"btxtgrn>family2"
+         },
+         {
+            "name":"vocation",
+            "type":"string",
+            "map":"btxtgrn>vocation"
+         },
+         {
+            "name":"consent",
+            "type":"string",
+            "map":"btxtgrn>consent"
+         },
+         {
+            "name":"typedebt",
+            "type":"string",
+            "map":"btxtgrn>typedebt"
+         },
+         {
+            "name":"taxtype",
+            "type":"string",
+            "map":"btxtgrn>taxtype"
+         },
+         {
+            "name":"taxLeftOver",
+            "type":"string",
+            "map":"btxtgrn>taxLeftOver"
+         },
+         {
+            "name":"calculatedAmount",
+            "type":"string"
          }
-         
          
       ]
    },
    "formdef":{
-      "title":"What-If Test Garnishment",
-      "subtitle":"",
-      "hasSave":true,
-      "hasDelete":true,
-      "hasSaveAs":true,
-      "hasViewPDF":true,
-      "hasView":false,
-      "hasRecentUsage":false,
-      "formflds":[],
-      "fltrflds":""
-      }
+     "title": "What-If Test Garnishment",
+     "subtitle": "",
+     "hasSave": true,
+     "hasDelete": true,
+     "hasSaveAs": true,
+     "hasViewPDF": true,
+     "hasView": false,
+     "hasRecentUsage": false,
+     "formflds": [
+       {
+         "id": "usrauth",
+         "order": 1,
+         "isReadOnlyOnEdit": true,
+         "isReadOnlyOnNew": false
+       },
+       {
+         "id": "usrtxtyp",
+         "order": 2,
+         "isReadOnlyOnEdit": true,
+         "isReadOnlyOnNew": false
+       },
+       {
+         "id": "gform",
+         "order": 3,
+         "isReadOnlyOnEdit": true,
+         "isReadOnlyOnNew": false
+       },
+       {
+         "id": "caseid",
+         "order": 4,
+         "isReadOnlyOnEdit": true,
+         "isReadOnlyOnNew": false
+       },
+       {
+         "id": "docket",
+         "order": 5,
+         "isReadOnlyOnEdit": true,
+         "isReadOnlyOnNew": false
+       }
+     ],
+     "fltrflds": ""
+   }
 }
