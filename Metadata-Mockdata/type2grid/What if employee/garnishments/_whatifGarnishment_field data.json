@@ -936,110 +936,140 @@
     }
   },
   {
-    "name": "monthToDateWages",
-    "id": "monthToDateWages",
-    "placeholder": "Enter Month To Date Wages",
+    "id": "mtdwage",
+    "placeholder": "Month To Date Wages",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
-    "label": "Month To Date Wages",
+    "label": "Enter Month To Date Wages",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "annualWages",
-    "id": "annualWages",
-    "placeholder": "Enter Annual Wages",
+    "id": "annsal",
+    "placeholder": "Annual Wages",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "Annual Wages",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "disposableEarnings",
-    "id": "disposableEarnings",
+    "id": "dispern",
     "placeholder": "Enter Disposable Earnings",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "Disposable Earnings",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "garnishmentGross",
-    "id": "garnishmentGross",
+    "id": "garnGross",
     "placeholder": "Enter Garnishment Gross",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "Garnishment Gross",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "reducingDeductions",
-    "id": "reducingDeductions",
+    "id": "reducingD",
     "placeholder": "Enter Reducing Deductions",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "Reducing Deductions",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "localHourlyMinimumWage",
-    "id": "localHourlyMinimumWage",
+    "id": "lHourlyMin",
     "placeholder": "Enter Local Hourly Minimum Wage",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "Local Hourly Minimum Wage",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "remainderOfDisposableEarnings",
-    "id": "reminderOfDisposableEarnings",
+    "name": "remainderOfDisposable",
+    "id": "remainderOfDisposable",
     "placeholder": "Select Reminder Of Disposable Earnings",
     "fieldtype": "select",
     "fieldlength": {},
@@ -1069,8 +1099,8 @@
     }
   },
   {
-    "name": "doesThisGarnishmentUseATimeReferenceCalulation?",
-    "id": "doesThisGarnishmentUseATimeReferenceCalulation",
+    "name": "lumpsum?",
+    "id": "lumpsum",
     "placeholder": "Select Does This Garnishment Use A Time Reference Calulation",
     "fieldtype": "select",
     "fieldlength": {},
@@ -1100,144 +1130,184 @@
     }
   },
   {
-    "name": "numberOfPeriodsForPayment",
-    "id": "numberOfPeriodsForPayment",
-    "placeholder": "Enter Number Of Periods For Payment",
+    "id": "nperdspmt",
+    "placeholder": "Number Of Periods For Payment",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
-    "label": "Number Of Periods For Payments",
+    "label": "Number Of Periods For Payment",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "mtdGarnishment",
-    "id": "mtdGarnishment",
+    "id": "mtdgarn",
     "placeholder": "Enter MTD Garnishment",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "MTD Garnishment",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "mtdDisposableEarnings",
-    "id": "mtdDisposableEarnings",
+    "id": "mtddispe",
     "placeholder": "Enter MTD Disposable Earnings",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "MTD Disposable Earnings",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "ytdGarnishment",
-    "id": "ytdGarnishment",
-    "placeholder": "Enter YTD Garnishment",
+    "id": "ytdgarn",
+    "placeholder": "YTD Garnishment",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "YTD Garnishment",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "ytdDisposableEarnings",
-    "id": "ytdDisposableEarnings",
-    "placeholder": "Enter YTD Disposable Earnings",
+    "id": "ytddispe",
+    "placeholder": "YTD Disposable Earnings",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "YTD Disposable Earnings",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "qtdGarnishment",
-    "id": "qtdGarnishment",
-    "placeholder": "Enter QTD Garnishment",
+    "id": "qtdgarn",
+    "placeholder": "QTD Garnishment",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "QTD Garnishment",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "pptdGarnishment",
-    "id": "pptdGarnishment",
-    "placeholder": "Enter PPTD Garnishment",
+    "id": "pptdgarn",
+    "placeholder": "PPTD Garnishment",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "PPTD Garnishment",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "garnishmentCap",
-    "id": "GarnishmentCap",
-    "placeholder": "Enter Garnishment Cap",
+    "id": "garncap",
+    "placeholder": "Garnishment Cap",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "Garnishment Cap",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
-    "name": "garnishmentLimitInd",
-    "id": "garnishmentLimitInd",
+    "name": "grnlmtind",
+    "id": "grnlmtind",
     "placeholder": "Select Garnishment Limit Ind",
     "fieldtype": "select",
     "fieldlength": {},
@@ -1307,8 +1377,8 @@
     }
   },
   {
-    "name": "garnishmentType",
-    "id": "garnishmentType",
+    "name": "garnType",
+    "id": "garnType",
     "placeholder": "Select Garnishment Type",
     "fieldtype": "select",
     "fieldlength": {},
@@ -1343,8 +1413,8 @@
     }
   },
   {
-    "name": "useStateOfIssue",
-    "id": "useStateOfIssue",
+    "name": "useSoIssue",
+    "id": "useSoIssue",
     "placeholder": "Select State of Issue",
     "fieldtype": "select",
     "fieldlength": {},
@@ -1373,20 +1443,25 @@
     }
   },
   {
-    "name": "localProtectedHours",
-    "id": "localProtectedHours",
-    "placeholder": "Enter Local Protected Hours",
+    "id": "lprotHours",
+    "placeholder": "Local Protected Hours",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
     "label": "Local Protected Hours",
     "value": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
     }
   },
   {
