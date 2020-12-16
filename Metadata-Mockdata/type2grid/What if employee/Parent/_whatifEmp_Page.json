@@ -214,6 +214,10 @@
          {
             "name":"companyCode",
             "type":"string"
+         },
+         {
+            "name":"paymentType",
+            "type":"string"
          }
          
       ]
