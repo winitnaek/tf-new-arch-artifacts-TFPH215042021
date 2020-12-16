@@ -11,7 +11,12 @@
       "helpLblTxt":"Click here for more info!",
       "helpLink":"/paymentOverrides",
       "parentConfig":"",
-      "childConfig": [{"pgid":"paymentOverride", "columnHeader": "View"}]
+      "childConfig": [{"pgid":"paymentOverride", "columnHeader": "View"}],
+      "metaInfo":{
+         "cheader":"Warning",
+         "cbody": "This tool allows the customer to enter information that will be processed by BSI TaxFactory. BSI excludes responsibility for any outcome resulting from customer - entered information.",
+         "okbtnlbl": "Ok"
+     }
    },
    "griddef":{
       "gridtype":"type2",
