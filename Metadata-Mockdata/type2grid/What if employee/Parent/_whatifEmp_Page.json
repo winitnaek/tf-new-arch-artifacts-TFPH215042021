@@ -236,7 +236,7 @@
          {
             "id":"checkDate",
             "order":1,
-            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
          },
          {
