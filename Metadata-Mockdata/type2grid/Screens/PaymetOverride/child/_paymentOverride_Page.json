@@ -2,7 +2,7 @@
 	"pgdef":{
 		"pgid":"paymentOverride",
 		"pgtitle":"Payment Overrides",
-		"pgsubtitle":"The Following formulas are definded for : ",
+		"pgsubtitle":"",
 		"flowtype":"flowtype2",
 		"hasAddNew":true,
 		"addNewLabel":"Click here to add new Custom Payment Override.",
@@ -25,11 +25,12 @@
 		"columns":[
 			{
 				"text":"Authority",
-				"datafield":"authority",
+				"datafield":"authTaxCode",
 				"cellsalign":"left",
 				"align":"left",
 				"sortable":true,
-				"width":"11%"
+				"width":"11%",
+				"rendererStaticInput": "authCodeauthNamerenderer"
 			},
 			{
 				"text":"Tax Type",
@@ -37,23 +38,26 @@
 				"cellsalign":"left",
 				"align":"left",
 				"sortable":true,
-				"width":"11%"
+				"width":"11%",
+				"rendererStaticInput": "taxTypeCodeNamerenderer"
 			},
 			{
 				"text":"Payment",
-				"datafield":"payment",
+				"datafield":"planId",
 				"cellsalign":"",
 				"align":"left",
 				"sortable":true,
-				"width":"11%"
+				"width":"11%",
+				"rendererStaticInput": "planIdNamerenderer"
 			},
 			{
 				"text":"Type",
-				"datafield":"type",
+				"datafield":"payType",
 				"cellsalign":"left",
 				"align":"left",
 				"sortable":true,
-				"width":"11%"
+				"width":"11%",
+				"rendererStaticInput": "payTypeNamerenderer"
 			},
 			{
 				"text":"Start Date",
@@ -81,7 +85,7 @@
 			},
 			{
 				"text":"EE Max",
-				"datafield":"eeMax",
+				"datafield":"eeMaxAmount",
 				"cellsalign":"left",
 				"align":"left",
 				"sortable":true,
@@ -93,16 +97,37 @@
 				"cellsalign":"left",
 				"align":"left",
 				"sortable":true,
-				"width":"11%"
+				"width":"11%",
+				"rendererStaticInput": "aggStatusNamerenderer"
 			}
 		],
 		"dataFields":[
 			{
-				"name":"authority",
+				"name":"authTaxCode",
+				"type":"string"
+			},
+			{
+				"name":"authName",
 				"type":"string"
 			},
 			{
 				"name":"taxType",
+				"type":"string"
+			},
+			{
+				"name":"taxName",
+				"type":"string"
+			},
+			{
+				"name":"planId",
+				"type":"string"
+			},
+			{
+				"name":"planName",
+				"type":"string"
+			},
+			{
+				"name":"payType",
 				"type":"string"
 			},
 			{
@@ -126,7 +151,7 @@
 				"type":"string"
 			},
 			{
-				"name":"eeMax",
+				"name":"eeMaxAmount",
 				"type":"string"
 			},	
 			{
@@ -146,32 +171,32 @@
 		"hasRecentUsage":false,
 		"formflds":[
 			{
-				"id":"authority",
+				"id":"startDate",
 				"order":1,
 				"isReadOnlyOnEdit":true,
 				"isReadOnlyOnNew":false
 			},
 			{
-				"id":"taxType",
+				"id":"authTaxCode",
 				"order":2,
 				"isReadOnlyOnEdit":true,
 				"isReadOnlyOnNew":false
 			},
 			{
-				"id":"payment",
+				"id":"taxType",
 				"order":3,
-				"isReadOnlyOnEdit":false,
+				"isReadOnlyOnEdit":true,
+				"isReadOnlyOnNew":false
+			},
+			{
+				"id":"planId",
+				"order":4,
+				"isReadOnlyOnEdit":true,
 				"isReadOnlyOnNew":false
 			},
 			{
 				"id":"type",
 				"order":4,
-				"isReadOnlyOnEdit":false,
-				"isReadOnlyOnNew":false
-			},
-			{
-				"id":"startDate",
-				"order":5,
 				"isReadOnlyOnEdit":false,
 				"isReadOnlyOnNew":false
 			},

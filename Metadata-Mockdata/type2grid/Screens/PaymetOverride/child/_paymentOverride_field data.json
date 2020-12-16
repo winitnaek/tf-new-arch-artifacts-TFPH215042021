@@ -1,74 +1,48 @@
 [
 	{
-		"name":"startDate",
-		"id":"startDate",
-		"placeholder":"Enter Start Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"Start Date",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"uppercase",
-					"message":"Worksite needs to be in uppercase."
-				}
-			],
-			"constraint":[
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
+		"name": "startDate",
+		"id": "startDate",
+		"label": "Start Date",
+		"placeholder": "",
+		"fieldtype": "date",
+		"fieldlength": {},
+		"fieldinfo": {},
+		"value": "",
+		"validation": {
+		  "required": false,
+		  "type": "date",
+		  "constraint": [
+			{
+			  "type": "currentDate",
+			  "message": "Current Date validation message"
+			}
+		  ]
 		}
-	},
-	{
-		"name":"authority",
-		"id":"authority",
-		"placeholder":"Enter Authority",
-		"fieldtype":"select",
-		"fieldlength":{
-
+	  },
+	  {
+		"id": "authTaxCode",
+		"placeholder": "Enter Authority",
+		"fieldtype": "select",
+		"label": "Authority",
+		"value": "",
+		"errmsg": "Authority is required",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-		"typeahead":true,
-		"isasync": true
+		"fieldinfo": {
+		  "typeahead": true,
+		  "isasync": true,
+		  "minLength": 1,
+		  "globalSearch": false,
+		  "options": [],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Authority",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
+		"validation": {
+		  "required": true,
+		  "type": "string"
 		}
-	},
+	  },
 	{
 		"name":"taxType",
 		"id":"taxType",
@@ -109,8 +83,8 @@
 		}
 	},
 	{
-		"name":"payment",
-		"id":"payment",
+		"name":"planId",
+		"id":"planId",
 		"placeholder":"Enter Payment",
 		"fieldtype":"select",
 		"fieldlength":{
@@ -131,18 +105,6 @@
 				{
 					"type":"lowercase",
 					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
 				}
 			]
 		}
@@ -194,8 +156,23 @@
 		},
 		"fieldinfo":{
 		   "options":[
-			  "Aggregate to Highest Maximum"		
-		   ]
+			{
+			  "id": "Y",
+			  "label": "Aggregate to Highest Maximum"
+			},
+			{
+			  "id": "L",
+			  "label": "Aggregate to Lowest Maximum"
+			},
+			{
+			  "id": "N",
+			  "label": "Do Not Aggregate Plans"
+			},
+			{
+			  "id": "X",
+			  "label": "Use Authority Default Aggregation Rule"
+			}
+		  ]
 		},
 		"validationType":"string",
 		"label":"Aggregation Status",

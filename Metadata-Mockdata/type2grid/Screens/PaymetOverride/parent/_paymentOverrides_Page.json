@@ -25,7 +25,7 @@
       "columns":[
          {
             "text":"Group Code",
-            "datafield":"groupCode",
+            "datafield":"id",
             "cellsalign":"left",
             "width":"50%",
             "align":"left",
@@ -37,7 +37,7 @@
             "text":"Group Name",
             "datafield":"groupName",
             "cellsalign":"left",
-            "width":"50%",
+            "width":"45%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -46,7 +46,7 @@
       ],
       "dataFields":[
          {
-            "name":"groupCode",
+            "name":"id",
             "type":"string"
          },
          {
