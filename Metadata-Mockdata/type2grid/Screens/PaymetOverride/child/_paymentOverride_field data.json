@@ -1,400 +1,280 @@
 [
-	{
-		"name": "startDate",
-		"id": "startDate",
-		"label": "Start Date",
-		"placeholder": "",
-		"fieldtype": "date",
-		"fieldlength": {},
-		"fieldinfo": {},
-		"value": "",
-		"validation": {
-		  "required": false,
-		  "type": "date",
-		  "constraint": [
-			{
-			  "type": "currentDate",
-			  "message": "Current Date validation message"
-			}
-		  ]
-		}
-	  },
-	  {
-		"id": "authTaxCode",
-		"placeholder": "Enter Authority",
-		"fieldtype": "select",
-		"label": "Authority",
-		"value": "",
-		"errmsg": "Authority is required",
-		"fieldlength": {
-		  "minlength": 1,
-		  "maxlength": 25
-		},
-		"fieldinfo": {
-		  "typeahead": true,
-		  "isasync": true,
-		  "minLength": 1,
-		  "globalSearch": false,
-		  "options": [],
-		  "multiselect": false
-		},
-		"validation": {
-		  "required": true,
-		  "type": "string"
-		}
-	  },
-	{
-		"name":"taxType",
-		"id":"taxType",
-		"placeholder":"Enter Tax Type",
-		"fieldtype":"select",
-		"fieldlength":{
+  {
+    "name": "startDate",
+    "id": "startDate",
+    "label": "Start Date",
+    "placeholder": "",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "date",
+      "constraint": [
+        {
+          "type": "currentDate",
+          "message": "Current Date validation message"
+        }
+      ]
+    }
+  },
+  {
+    "id": "authTaxCode",
+    "placeholder": "Enter Authority",
+    "fieldtype": "select",
+    "label": "Authority",
+    "value": "",
+    "errmsg": "Authority is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "globalSearch": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  {
+    "name": "taxType",
+    "id": "taxType",
+    "placeholder": "Enter Tax Type",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true
+    },
+    "validationType": "string",
+    "label": "Tax Type",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 50,
+          "message": "max 50 characters"
+        }
+      ]
+    }
+  },
+  {
+    "id": "planId",
+    "placeholder": "Enter Payment",
+    "fieldtype": "select",
+    "label": "Payment",
+    "value": "",
+    "errmsg": " ",
+    "dynamicFormKey": "payType",
+    "hasSkipFields": true,
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minlength": 1,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "endDate",
+    "id": "endDate",
+    "placeholder": "Enter End Date",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "End Date",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "aggStatus",
+    "id": "aggStatus",
+    "placeholder": "Select Aggregation Status",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        {
+          "id": "Y",
+          "label": "Aggregate to Highest Maximum"
+        },
+        {
+          "id": "L",
+          "label": "Aggregate to Lowest Maximum"
+        },
+        {
+          "id": "N",
+          "label": "Do Not Aggregate Plans"
+        },
+        {
+          "id": "X",
+          "label": "Use Authority Default Aggregation Rule"
+        }
+      ]
+    },
+    "validationType": "string",
+    "label": "Aggregation Status",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 5,
+          "message": "min 5 characters"
+        },
+        {
+          "type": "max",
+          "input": 50,
+          "message": "max 50 characters"
+        }
+      ]
+    }
+  },
 
-		},
-		"fieldinfo":{
-		"typeahead":true,
-		"isasync": true
-
-		},
-		"validationType":"string",
-		"label":"Tax Type",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"planId",
-		"id":"planId",
-		"placeholder":"Enter Payment",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"typeahead":true,
-		"isasync": true
-
-		},
-		"validationType":"string",
-		"label":"Payment",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			]
-		}
-	},
-		{
-		"name":"endDate",
-		"id":"endDate",
-		"placeholder":"Enter End Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"End Date",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"aggregationStatus",
-		"id":"aggregationStatus",
-		"placeholder":"Select Aggregation Status",
-		"fieldtype":"select",
-		"fieldlength":{
-  
-		},
-		"fieldinfo":{
-		   "options":[
-			{
-			  "id": "Y",
-			  "label": "Aggregate to Highest Maximum"
-			},
-			{
-			  "id": "L",
-			  "label": "Aggregate to Lowest Maximum"
-			},
-			{
-			  "id": "N",
-			  "label": "Do Not Aggregate Plans"
-			},
-			{
-			  "id": "X",
-			  "label": "Use Authority Default Aggregation Rule"
-			}
-		  ]
-		},
-		"validationType":"string",
-		"label":"Aggregation Status",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"useEmployeeMaximum",
-		"id":"useEmployeeMaximum",
-		"placeholder":"",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Use Employee Maximum",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":1,
-					"message":"max 25 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"taxability",
-		"id":"taxability",
-		"placeholder":"Select Taxability",
-		"fieldtype":"select",
-		"fieldlength":{
-  
-		},
-		"fieldinfo":{
-			"options":[
-			   "Taxable"	
-		   ]
-		},
-		"validationType":"string",
-		"label":"Taxability",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-	},
-	{
-		"name":"maximumLimit",
-		"id":"maximumLimit",
-		"placeholder":"Select Maximum Limit",
-		"fieldtype":"text",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
-		},
-		"validationType":"string",
-		"label":"Maximum Limit",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				},
-				{
-					"name":"useEmployerMaximum",
-					"id":"useEmployerMaximum",
-					"placeholder":"",
-					"fieldtype":"text",
-					"fieldlength":{
-			
-					},
-					"fieldinfo":{
-						"options":[
-							"Aggregate to Highest Maximum"
-						]
-					},
-					"validationType":"string",
-					"label":"Use Employer Maximum",
-					"value":"",
-					"validation":{
-						"required":false,
-						"type":"string",
-						"subtype":[
-							{
-								"type":"lowercase",
-								"message":""
-							}
-						],
-						"constraint":[
-							{
-								"type":"min",
-								"input":1,
-								"message":"min 5 characters"
-							},
-							{
-								"type":"max",
-								"input":1,
-								"message":"max 25 characters"
-							}
-						]
-					}
-				},
-				{
-					"name":"taxability",
-					"id":"taxability",
-					"placeholder":"Select Taxability",
-					"fieldtype":"select",
-					"fieldlength":{
-			  
-					},
-					"fieldinfo":{
-						"options":[
-						   "Taxable"
-					   ]
-					},
-					"validationType":"string",
-					"label":"Taxability",
-					"value":"",
-					"validation":{
-						"required":false,
-						"type":"string",
-						"subtype":[
-							{
-								"type":"lowercase",
-								"message":""
-							}
-						],
-						"constraint":[
-							{
-								"type":"min",
-								"input":5,
-								"message":"min 5 characters"
-							},
-							{
-								"type":"max",
-								"input":50,
-								"message":"max 50 characters"
-							}
-						]
-					}
-				}
-			]
-		}
-	}
+  {
+    "skipFields": true,
+    "C": [
+      {
+        "id": "currentCredit",
+        "placeholder": "Enter Current Credit",
+        "fieldtype": "text",
+        "label": "Current Credit",
+        "value": "0.00",
+        "errmsg": " ",
+        "fieldlength": {
+          "minlength": 1,
+          "maxlength": 25
+        },
+        "fieldinfo": {
+          "typeahead": false,
+          "isasync": false,
+          "options": [],
+          "multiselect": false
+        },
+        "validation": {
+          "required": false,
+          "type": "string",
+          "subtype": [
+            {
+              "type": "string",
+              "message": "Please enter valid number"
+            }
+          ]
+        }
+      }
+    ],
+    "D": [
+      {
+        "id": "currentContribution",
+        "placeholder": "Enter Current Contribution",
+        "fieldtype": "text",
+        "label": "Current Contribution",
+        "value": "0.00",
+        "errmsg": " ",
+        "fieldlength": {
+          "minlength": 1,
+          "maxlength": 25
+        },
+        "fieldinfo": {
+          "typeahead": false,
+          "isasync": false,
+          "options": [],
+          "multiselect": false
+        },
+        "validation": {
+          "required": false,
+          "type": "string",
+          "subtype": [
+            {
+              "type": "string",
+              "message": "Please enter valid number"
+            }
+          ]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "currentEarning",
+        "placeholder": "Enter Current Earning",
+        "fieldtype": "text",
+        "label": "Current Earning",
+        "value": "0.00",
+        "errmsg": " ",
+        "fieldlength": {
+          "minlength": 1,
+          "maxlength": 25
+        },
+        "fieldinfo": {
+          "typeahead": false,
+          "isasync": false,
+          "options": [],
+          "multiselect": false
+        },
+        "validation": {
+          "required": false,
+          "type": "string"
+        }
+      }
+    ]
+  }
 ]
-
-
