@@ -336,6 +336,14 @@
           "valuesToUpdate": {
             "eeMaxAmount": 99999999995.99
           }
+        },
+        {
+          "id": "8",
+          "label": "Imputed",
+          "disable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+            "eeMaxAmount": 99999999995.99
+          }
         }
       ],
       "multiselect": false
