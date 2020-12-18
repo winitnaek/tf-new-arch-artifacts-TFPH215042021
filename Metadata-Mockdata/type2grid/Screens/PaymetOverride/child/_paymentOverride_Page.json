@@ -157,6 +157,22 @@
 			{
 				"name":"aggStatus",
 				"type":"string"
+			},
+			{
+				"name":"useEEMax",
+				"type":"string"
+			},
+			{
+				"name":"useERMax",
+				"type":"string"
+			},
+			{
+				"name":"erTaxability",
+				"type":"string"
+			},
+			{
+				"name":"groupCode",
+				"type":"string"
 			}
 		]
 	},

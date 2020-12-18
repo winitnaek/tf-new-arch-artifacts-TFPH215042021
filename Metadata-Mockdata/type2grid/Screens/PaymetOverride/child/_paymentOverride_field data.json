@@ -64,18 +64,6 @@
           "type": "lowercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
       ]
     }
   },
@@ -174,18 +162,6 @@
           "type": "lowercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
       ]
     }
   },
@@ -276,5 +252,172 @@
         }
       }
     ]
+  },
+  {
+    "id": "useEEMax",
+    "placeholder": "Use Employee Maximum",
+    "fieldtype": "checkbox",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Use Employee Maximum",
+          "id": "useEEMax"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "taxability",
+    "placeholder": "Select a type",
+    "fieldtype": "select",
+    "label": "Taxability",
+    "value": "",
+    "errmsg": "PayType is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": "0",
+          "label": "Taxable",
+          "disable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+            "eeMaxAmount": "0.00"
+          }
+        },
+        {
+          "id": "1",
+          "label": "Non-Taxable",
+          "disable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+            "eeMaxAmount": 99999999999.99
+          }
+        },
+        { "id": "2", "label": "Limit / YTD", "enable": ["eeMaxAmount"] },
+        { "id": "3", "label": "Limit / QTD", "enable": ["eeMaxAmount"] },
+        { "id": "4", "label": "Limit / MTD", "enable": ["eeMaxAmount"] },
+        {
+          "id": "7",
+          "label": "Taxable/Exclude",
+          "disable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+            "eeMaxAmount": 99999999998.99
+          }
+        },
+        {
+          "id": "5",
+          "label": "Taxable with YTD Limit",
+          "disable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+            "eeMaxAmount": 99999999995.99
+          }
+        },
+        {
+          "id": "6",
+          "label": "Nontaxable with YTD Limit",
+          "disable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+            "eeMaxAmount": 99999999995.99
+          }
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "eeMaxAmount",
+    "placeholder": "Enter Maximum Limit Here",
+    "fieldtype": "text",
+    "label": "Maximum Limit",
+    "value": "",
+    "errmsg": "Custom Payment Name is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "useERMax",
+    "placeholder": "Use Employer Maximum",
+    "fieldtype": "checkbox",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Use Employer Maximum",
+          "id": "useERMax"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "erTaxability",
+    "placeholder": "Employer Taxability",
+    "fieldtype": "select",
+    "label": "Taxability",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+
+      "options": [
+        { "id": "0", "label": "Taxable" },
+        { "id": "1", "label": "Non-Taxable" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
   }
 ]

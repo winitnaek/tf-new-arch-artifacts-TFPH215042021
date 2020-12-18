@@ -1,31 +1,14 @@
 [
   {
-    "name": "checkDate",
     "id": "checkDate",
-    "placeholder": "Enter Check Date",
+    "placeholder": "",
     "fieldtype": "date",
-    "errmsg": "Check Date is required",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
-    "label": "Check Date",
+    "label": "From:",
     "value": "",
+    "errmsg": "From Date is required",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "uppercase",
-          "message": "Worksite needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
-      ]
+      "type": "date"
     }
   },
   {
@@ -39,12 +22,9 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "string"
     }
   },
   {
@@ -52,16 +32,12 @@
     "id": "empName",
     "placeholder": "Enter Employee Name",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
+    "errmsg": "Enter Name is required",
     "label": "Employee Name",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [],
-      "constraint": []
+      "type": "string"
     }
   },
   {
@@ -78,10 +54,7 @@
     "fieldinfo": {
       "typeahead": true,
       "isasync": true,
-      "minLength": 1,
-      "globalSearch": false,
-      "options": [],
-      "multiselect": false
+      "minLength": 1
     },
     "validation": {
       "required": false,
@@ -102,10 +75,7 @@
     "fieldinfo": {
       "typeahead": true,
       "isasync": true,
-      "minLength": 1,
-      "globalSearch": false,
-      "options": [],
-      "multiselect": false
+      "minLength": 1
     },
     "validation": {
       "required": false,
@@ -161,7 +131,6 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": false,
       "type": "number",
@@ -183,7 +152,6 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": false,
       "type": "number",
@@ -249,7 +217,6 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": false,
       "type": "number",
@@ -310,7 +277,6 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": false,
       "type": "number",
@@ -332,7 +298,6 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": false,
       "type": "number",
@@ -376,8 +341,7 @@
     "fieldtype": "select",
     "label": "Contribution Allocation",
     "value": "0",
-    "fieldlength": {
-    },
+    "fieldlength": {},
     "fieldinfo": {
       "options": [
         {
@@ -390,10 +354,10 @@
         }
       ]
     },
-    "validationType":"string",
+    "validationType": "string",
     "validation": {
       "required": false,
-      "message":""
+      "message": ""
     }
   },
   {
@@ -430,7 +394,6 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": false,
       "type": "number",
@@ -452,7 +415,6 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": false,
       "type": "number",
@@ -643,7 +605,6 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
     "validation": {
       "required": false,
       "type": "number",
@@ -759,7 +720,6 @@
     "placeholder": "Enter Termination Date",
     "fieldtype": "date",
     "fieldlength": {},
-    "fieldinfo": {},
     "validationType": "string",
     "label": "Termination Date",
     "value": "",
@@ -818,32 +778,12 @@
     "id": "birthDate",
     "placeholder": "Enter Birth Date",
     "fieldtype": "date",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
+    "errmsg": "Birth Date is required",
     "label": "Birth Date",
     "value": "",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
-      ]
+      "type": "date"
     }
   },
   {
@@ -851,32 +791,12 @@
     "id": "dateOfDeath",
     "placeholder": "Enter Date of Death",
     "fieldtype": "date",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "validationType": "string",
+    "errmsg": "From Date is required",
     "label": "Date of Death",
     "value": "",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
-      ]
+      "type": "date"
     }
   },
   {
@@ -920,7 +840,6 @@
     "placeholder": "Enter Formula Effective Date",
     "fieldtype": "date",
     "fieldlength": {},
-    "fieldinfo": {},
     "validationType": "string",
     "label": "Formula Effective Date",
     "value": "",
