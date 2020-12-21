@@ -22,10 +22,11 @@
       "noResultsFoundTxt":"No Data Found : ",
       "recordEdit":true,
       "recordDelete":false,
+      "hasButtonBar":true,
       "columns":[
          {
            "text": "Street Name",
-            "datafield": "streetName",
+            "datafield": "streetNameDspl",
             "cellsalign": "left",
             "width": "10%",
             "align": "left",
@@ -35,7 +36,7 @@
          },
          {
            "text": "Starting Number",
-           "datafield": "startingNumber",
+           "datafield": "fadd",
             "cellsalign": "left",
             "width": "10%",
             "align": "left",
@@ -45,7 +46,7 @@
          },
          {
            "text": "Ending Number",
-           "datafield": "endingNumber",
+           "datafield": "tadd",
             "cellsalign": "left",
             "width": "10%",
             "align": "left",
@@ -61,7 +62,7 @@
             "align": "left",
             "sortable": true,
             "rendererInput":"",
-            "rendererStaticInput":""
+            "rendererStaticInput":"parityNameRenderer"
          },
          {
            "text": "State",
@@ -75,7 +76,7 @@
          },
          {
            "text": "Postal Code",
-           "datafield": "postalCode",
+           "datafield": "fzip",
             "cellsalign": "left",
             "width": "10%",
             "align": "left",
@@ -86,7 +87,7 @@
         
          {
            "text": "County",
-           "datafield": "county",
+           "datafield": "countyName",
             "cellsalign": "left",
             "width": "10%",
             "align": "left",
@@ -96,23 +97,23 @@
          },
          {
            "text": "Place Code",
-           "datafield": "placeCode",
+           "datafield": "placeName",
             "cellsalign": "left",
             "width": "10%",
             "align": "left",
             "sortable": true,
             "rendererInput":"",
-            "rendererStaticInput":""
+            "rendererStaticInput":"placeCodeNameRenderer"
          },
          {
            "text": "School District",
-           "datafield": "schoolDistrict",
+           "datafield": "sdName",
             "cellsalign": "left",
             "width": "10%",
             "align": "left",
             "sortable": true,
             "rendererInput":"",
-            "rendererStaticInput":""
+            "rendererStaticInput":"schoolDistrictNameRenderer"
          },
          {
            "text": "School District Tax Code",
@@ -126,46 +127,97 @@
          }
       ],
       "dataFields":[
-         {
-            "name":"streetName",
-            "type":"string"
-         },
-         {
-            "name":"startingNumber",
-            "type":"string"
-         },
         {
-            "name":"endingNumber",
-            "type":"string"
-         },
-         {
-            "name":"parity",
-            "type":"string"
-         },
-         {
-            "name":"state",
-            "type":"string"
-         },
-         {
-            "name": "postalCode",
-            "type": "string"
-          },
-          {
-            "name": "county",
-            "type": "string"
-          },
-          {
-            "name": "placeCode",
-            "type": "string"
-          },
-          {
-            "name": "schoolDistrict",
-            "type": "string"
-          },
-          {
-            "name": "schoolDistrictTaxCode",
-            "type": "string"
-          }
+          "name": "snt",
+          "type": "string"
+        },
+        {
+          "name": "fname",
+          "type": "string",
+          "map": "btxadovr>fname"
+        },
+        {
+          "name": "streetNameDspl",
+          "type": "string",
+          "map": "btxadovr>streetNameDspl"
+        },
+        {
+          "name": "ftype",
+          "type": "string",
+          "map": "btxadovr>ftype"
+        },
+        {
+          "name": "fadd",
+          "type": "string",
+          "map": "btxadovr>fadd"
+        },
+        {
+          "name": "tadd",
+          "type": "string",
+          "map": "btxadovr>tadd"
+        },
+        {
+          "name": "parity",
+          "type": "string",
+          "map": "btxadovr>parity"
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "map": "btxadovr>state"
+        },
+        {
+          "name": "fzip",
+          "type": "string",
+          "map": "btxadovr>fzip"
+        },
+        {
+          "name": "countyName",
+          "type": "string"
+        },
+        {
+          "name": "placeName",
+          "type": "string"
+        },
+        {
+          "name": "classCode",
+          "type": "string"
+        },
+        {
+          "name": "placecode",
+          "type": "string"
+        },
+        {
+          "name": "sdName",
+          "type": "string"
+        },
+        {
+          "name": "sdCounty",
+          "type": "string"
+        },
+        {
+          "name": "sdcode",
+          "type": "string"
+        },
+        {
+          "name": "addDate",
+          "type": "string"
+        },
+        {
+          "name": "fpre",
+          "type": "string",
+          "map": "btxadovr>fpre"
+        },
+        {
+          "name": "fpost",
+          "type": "string",
+          "map": "btxadovr>fpost"
+        },
+        {
+          "name": "bsiseqn",
+          "type": "string",
+          "map": "btxadovr>id>bsiseqn"
+        }
       ]
    },
    "formdef":{
@@ -176,7 +228,7 @@
       "hasSaveAs":false,
       "hasViewPDF":false,
       "hasView":false,
-      "hasRecentUsage":true,
+      "hasRecentUsage":false,
       "formflds":[
          {
             "id":"streetNumberType",
@@ -279,6 +331,12 @@
         "order": 17,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
+      },
+      {
+        "id": "addDate",
+        "order": 18,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": true
       }
       ],
       "fltrflds":""

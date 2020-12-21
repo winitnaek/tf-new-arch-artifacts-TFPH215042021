@@ -1,0 +1,8 @@
+{
+   "value":"CF",
+   "label":"Redundant Overrides",
+   "desc":"Redundant Overrides",
+   "id":"findRedundantOverrides",
+   "type":"comp",
+   "link":false
+}

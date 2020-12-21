@@ -770,8 +770,7 @@
     "validation": {
       "required": false,
       "type": "string"
-    },
-    "disable": ["birthDate"]
+    }
   },
   {
     "name": "birthDate",
@@ -782,7 +781,7 @@
     "label": "Birth Date",
     "value": "",
     "validation": {
-      "required": true,
+      "required": false,
       "type": "date"
     }
   },
@@ -795,7 +794,7 @@
     "label": "Date of Death",
     "value": "",
     "validation": {
-      "required": true,
+      "required": false,
       "type": "date"
     }
   },

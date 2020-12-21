@@ -1,16 +1,17 @@
 [
   {
-    "id": "streetNumberType",
-    "placeholder": "Enter Street NumberType",
+    "id": "snt",
     "fieldtype": "select",
     "label": "Street Number Type",
-    "value": "",
-    "errmsg": "",
+    "value": "0",
+    "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
     },
     "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
       "options": [
         { "id": 0, "label": "Numeric" },
         { "id": 1, "label": "Alpha Numeric" },
@@ -18,23 +19,16 @@
       ]
     },
     "validation": {
-      "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": []
+      "required": true,
+      "type": "string"
     }
   },
-
   {
-    "id": "prefixDirection",
-    "placeholder": "Enter Direction",
+    "id": "ftype",
+    "placeholder": "Select Direction",
     "fieldtype": "select",
     "label": "Prefix Direction",
+    "description": "Example: N",
     "value": "",
     "errmsg": "",
     "fieldlength": {
@@ -56,21 +50,15 @@
     },
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": []
+      "type": "string"
     }
   },
   {
-    "id": "streetName",
+    "id": "fname",
     "placeholder": "Enter Street Name",
     "fieldtype": "text",
     "label": "Street Name",
+    "description": "Example: Peachtree Industrial",
     "value": "",
     "errmsg": "Street Name is required",
     "fieldlength": {
@@ -86,23 +74,11 @@
           "type": "uppercase",
           "message": "Street Name needs to be in uppercase."
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
   {
-    "id": "streetType",
+    "id": "ftype",
     "placeholder": "Enter Direction",
     "fieldtype": "select",
     "label": "Street Type",
@@ -113,24 +89,221 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["BLVD", "CMNS", "CTR", "CTS", "CURV", "pkwy", "TPKE", "XING"]
+      "options": [
+        { "id": ".", "label": "." },
+        { "id": "ALY", "label": "ALY" },
+        { "id": "ANX", "label": "ANX" },
+        { "id": "ARC", "label": "ARC" },
+        { "id": "AVE", "label": "AVE" },
+        { "id": "BCH", "label": "BCH" },
+        { "id": "BG", "label": "BG" },
+        { "id": "BGS", "label": "BGS" },
+        { "id": "BLF", "label": "BLF" },
+        { "id": "BLFS", "label": "BLFS" },
+        { "id": "BLVD", "label": "BLVD" },
+        { "id": "BND", "label": "BND" },
+        { "id": "BR", "label": "BR" },
+        { "id": "BRG", "label": "BRG" },
+        { "id": "BRK", "label": "BRK" },
+        { "id": "BRKS", "label": "BRKS" },
+        { "id": "BTM", "label": "BTM" },
+        { "id": "BYP", "label": "BYP" },
+        { "id": "BYU", "label": "BYU" },
+        { "id": "CIR", "label": "CIR" },
+        { "id": "CLB", "label": "CLB" },
+        { "id": "CLF", "label": "CLF" },
+        { "id": "CLFS", "label": "CLFS" },
+        { "id": "CMN", "label": "CMN" },
+        { "id": "CMNS", "label": "CMNS" },
+        { "id": "COR", "label": "COR" },
+        { "id": "CORS", "label": "CORS" },
+        { "id": "CP", "label": "CP" },
+        { "id": "CPE", "label": "CPE" },
+        { "id": "CRES", "label": "CRES" },
+        { "id": "CRK", "label": "CRK" },
+        { "id": "CRSE", "label": "CRSE" },
+        { "id": "CRST", "label": "CRST" },
+        { "id": "CSWY", "label": "CSWY" },
+        { "id": "CT", "label": "CT" },
+        { "id": "CTR", "label": "CTR" },
+        { "id": "CTRS", "label": "CTRS" },
+        { "id": "CTS", "label": "CTS" },
+        { "id": "CURV", "label": "CURV" },
+        { "id": "CV", "label": "CV" },
+        { "id": "CVS", "label": "CVS" },
+        { "id": "CYN", "label": "CYN" },
+        { "id": "DL", "label": "DL" },
+        { "id": "DM", "label": "DM" },
+        { "id": "DR", "label": "DR" },
+        { "id": "DRS", "label": "DRS" },
+        { "id": "DV", "label": "DV" },
+        { "id": "EST", "label": "EST" },
+        { "id": "ESTS", "label": "ESTS" },
+        { "id": "EXPY", "label": "EXPY" },
+        { "id": "EXT", "label": "EXT" },
+        { "id": "EXTS", "label": "EXTS" },
+        { "id": "FALL", "label": "FALL" },
+        { "id": "FLD", "label": "FLD" },
+        { "id": "FLDS", "label": "FLDS" },
+        { "id": "FLS", "label": "FLS" },
+        { "id": "FLT", "label": "FLT" },
+        { "id": "FLTS", "label": "FLTS" },
+        { "id": "FRD", "label": "FRD" },
+        { "id": "FRDS", "label": "FRDS" },
+        { "id": "FRG", "label": "FRG" },
+        { "id": "FRGS", "label": "FRGS" },
+        { "id": "FRK", "label": "FRK" },
+        { "id": "FRKS", "label": "FRKS" },
+        { "id": "FRST", "label": "FRST" },
+        { "id": "FRY", "label": "FRY" },
+        { "id": "FT", "label": "FT" },
+        { "id": "FWY", "label": "FWY" },
+        { "id": "GDN", "label": "GDN" },
+        { "id": "GDNS", "label": "GDNS" },
+        { "id": "GLN", "label": "GLN" },
+        { "id": "GLNS", "label": "GLNS" },
+        { "id": "GRN", "label": "GRN" },
+        { "id": "GRNS", "label": "GRNS" },
+        { "id": "GRV", "label": "GRV" },
+        { "id": "GRVS", "label": "GRVS" },
+        { "id": "GTWY", "label": "GTWY" },
+        { "id": "HBR", "label": "HBR" },
+        { "id": "HBRS", "label": "HBRS" },
+        { "id": "HL", "label": "HL" },
+        { "id": "HLS", "label": "HLS" },
+        { "id": "HOLW", "label": "HOLW" },
+        { "id": "HTS", "label": "HTS" },
+        { "id": "HVN", "label": "HVN" },
+        { "id": "HWY", "label": "HWY" },
+        { "id": "INLT", "label": "INLT" },
+        { "id": "IS", "label": "IS" },
+        { "id": "ISLE", "label": "ISLE" },
+        { "id": "ISS", "label": "ISS" },
+        { "id": "JCT", "label": "JCT" },
+        { "id": "JCTS", "label": "JCTS" },
+        { "id": "KNL", "label": "KNL" },
+        { "id": "KNLS", "label": "KNLS" },
+        { "id": "KY", "label": "KY" },
+        { "id": "KYS", "label": "KYS" },
+        { "id": "LAND", "label": "LAND" },
+        { "id": "LCK", "label": "LCK" },
+        { "id": "LCKS", "label": "LCKS" },
+        { "id": "LDG", "label": "LDG" },
+        { "id": "LF", "label": "LF" },
+        { "id": "LGT", "label": "LGT" },
+        { "id": "LGTS", "label": "LGTS" },
+        { "id": "LK", "label": "LK" },
+        { "id": "LKS", "label": "LKS" },
+        { "id": "LN", "label": "LN" },
+        { "id": "LNDG", "label": "LNDG" },
+        { "id": "LOOP", "label": "LOOP" },
+        { "id": "MALL", "label": "MALL" },
+        { "id": "MDW", "label": "MDW" },
+        { "id": "MDWS", "label": "MDWS" },
+        { "id": "MEWS", "label": "MEWS" },
+        { "id": "ML", "label": "ML" },
+        { "id": "MLS", "label": "MLS" },
+        { "id": "MNR", "label": "MNR" },
+        { "id": "MNRS", "label": "MNRS" },
+        { "id": "MSN", "label": "MSN" },
+        { "id": "MT", "label": "MT" },
+        { "id": "MTN", "label": "MTN" },
+        { "id": "MTNS", "label": "MTNS" },
+        { "id": "MTWY", "label": "MTWY" },
+        { "id": "NCK", "label": "NCK" },
+        { "id": "OPAS", "label": "OPAS" },
+        { "id": "ORCH", "label": "ORCH" },
+        { "id": "ORS", "label": "ORS" },
+        { "id": "OVAL", "label": "OVAL" },
+        { "id": "PARK", "label": "PARK" },
+        { "id": "PASS", "label": "PASS" },
+        { "id": "PATH", "label": "PATH" },
+        { "id": "PIKE", "label": "PIKE" },
+        { "id": "PKWY", "label": "PKWY" },
+        { "id": "PL", "label": "PL" },
+        { "id": "PLN", "label": "PLN" },
+        { "id": "PLNS", "label": "PLNS" },
+        { "id": "PLZ", "label": "PLZ" },
+        { "id": "PNE   ", "label": "PNE   " },
+        { "id": "PNES", "label": "PNES" },
+        { "id": "PR", "label": "PR" },
+        { "id": "PRT", "label": "PRT" },
+        { "id": "PRTS", "label": "PRTS" },
+        { "id": "PSGE", "label": "PSGE" },
+        { "id": "PT", "label": "PT" },
+        { "id": "PTS", "label": "PTS" },
+        { "id": "RADL", "label": "RADL" },
+        { "id": "RAMP", "label": "RAMP" },
+        { "id": "RD", "label": "RD" },
+        { "id": "RDG", "label": "RDG" },
+        { "id": "RDGS", "label": "RDGS" },
+        { "id": "RDS", "label": "RDS" },
+        { "id": "RIV", "label": "RIV" },
+        { "id": "RNCH", "label": "RNCH" },
+        { "id": "ROW", "label": "ROW" },
+        { "id": "RPD", "label": "RPD" },
+        { "id": "RPDS", "label": "RPDS" },
+        { "id": "RST", "label": "RST" },
+        { "id": "RTE", "label": "RTE" },
+        { "id": "RUE", "label": "RUE" },
+        { "id": "RUN", "label": "RUN" },
+        { "id": "SHL", "label": "SHL" },
+        { "id": "SHLS", "label": "SHLS" },
+        { "id": "SHR", "label": "SHR" },
+        { "id": "SHRS", "label": "SHRS" },
+        { "id": "SKWY", "label": "SKWY" },
+        { "id": "SMT", "label": "SMT" },
+        { "id": "SPG", "label": "SPG" },
+        { "id": "SPGS", "label": "SPGS" },
+        { "id": "SPUR", "label": "SPUR" },
+        { "id": "SQ", "label": "SQ" },
+        { "id": "SQS", "label": "SQS" },
+        { "id": "ST", "label": "ST" },
+        { "id": "STA", "label": "STA" },
+        { "id": "STRA", "label": "STRA" },
+        { "id": "STRM", "label": "STRM" },
+        { "id": "STS", "label": "STS" },
+        { "id": "TER", "label": "TER" },
+        { "id": "TPKE", "label": "TPKE" },
+        { "id": "TRAK", "label": "TRAK" },
+        { "id": "TRCE", "label": "TRCE" },
+        { "id": "TRFY", "label": "TRFY" },
+        { "id": "TRL", "label": "TRL" },
+        { "id": "TRLS", "label": "TRLS" },
+        { "id": "TRWY", "label": "TRWY" },
+        { "id": "TUNL", "label": "TUNL" },
+        { "id": "UN", "label": "UN" },
+        { "id": "UNS", "label": "UNS" },
+        { "id": "UPAS", "label": "UPAS" },
+        { "id": "VIA", "label": "VIA" },
+        { "id": "VIS", "label": "VIS" },
+        { "id": "VL", "label": "VL" },
+        { "id": "VLG", "label": "VLG" },
+        { "id": "VLGS", "label": "VLGS" },
+        { "id": "VLY", "label": "VLY" },
+        { "id": "VLYS", "label": "VLYS" },
+        { "id": "VW", "label": "VW" },
+        { "id": "VWS", "label": "VWS" },
+        { "id": "WALK", "label": "WALK" },
+        { "id": "WALL", "label": "WALL" },
+        { "id": "WAY", "label": "WAY" },
+        { "id": "WAYS", "label": "WAYS" },
+        { "id": "WL", "label": "WL" },
+        { "id": "WLS", "label": "WLS" },
+        { "id": "XING", "label": "XING" },
+        { "id": "XRD", "label": "XRD" }
+      ]
     },
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": []
+      "type": "string"
     }
   },
   {
-    "id": "postDirection",
+    "id": "fpost",
     "placeholder": "Enter Direction",
     "fieldtype": "select",
+    "description":"Example: SW",
     "label": "Post Direction",
     "value": "",
     "errmsg": "",
@@ -139,23 +312,26 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": ["N", "S", "E", "W", "NE", "NW", "SE", "SW"]
+      "options": [
+        { "id": ".", "label": "." },
+        { "id": "N", "label": "N" },
+        { "id": "S", "label": "S" },
+        { "id": "E", "label": "E" },
+        { "id": "W", "label": "W" },
+        { "id": "NE", "label": "NE" },
+        { "id": "NW", "label": "NW" },
+        { "id": "SE", "label": "SE" },
+        { "id": "SW", "label": "SW" }
+      ]
     },
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": []
+      "type": "string"
     }
   },
   {
-    "id": "startingNumber",
-    "placeholder": "Enter the starting Number Here",
+    "id": "fadd",
+    "placeholder": "Enter the starting Number",
     "fieldtype": "text",
     "label": "Starting Number",
     "value": "",
@@ -173,8 +349,7 @@
           "type": "positive",
           "message": "Starting Number cannot be negative"
         }
-      ],
-      "constraint": []
+      ]
     }
   },
   {
@@ -197,24 +372,12 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
   {
-    "id": "endingNumber",
-    "placeholder": "Enter the ending Number Here",
+    "id": "tadd",
+    "placeholder": "Enter the Ending Number",
     "fieldtype": "text",
     "label": "Ending Number",
     "value": "",
@@ -231,13 +394,6 @@
         {
           "type": "positive",
           "message": "Ending Number cannot be negative"
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 0,
-          "message": "Maximum Limit can not be < 0"
         }
       ]
     }
@@ -262,24 +418,12 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
   {
-    "id": "postalCode",
-    "placeholder": "Enter the Postal Code Here",
+    "id": "fzip",
+    "placeholder": "Enter the Postal Code",
     "fieldtype": "text",
     "label": "Postal Code",
     "value": "",
@@ -297,8 +441,7 @@
           "type": "positive",
           "message": "Ending Number cannot be negative"
         }
-      ],
-      "constraint": []
+      ]
     }
   },
   {
@@ -306,26 +449,23 @@
     "placeholder": "Enter Parity",
     "fieldtype": "select",
     "label": "Parity",
-    "value": "",
-    "errmsg": "",
+    "value": "B",
+    "errmsg": "Parity is required.",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["BOTH", "ODD", "EVEN"]
+      "options": [
+        { "id": "B", "label": "BOTH" },
+        { "id": "O", "label": "ODD" },
+        { "id": "E", "label": "EVEN" }
+      ]
     },
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": []
+      "type": "string"
     }
   },
   {
-    "id": "secondaryUnit",
+    "id": "sunit",
     "placeholder": "Enter the Secondary Unit",
     "fieldtype": "text",
     "label": "Secondary Unit",
@@ -344,112 +484,61 @@
           "type": "uppercase",
           "message": "Street Name needs to be in uppercase."
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
   {
-    "id": "Show Message",
-    "placeholder": "",
-    "fieldtype": "text",
-    "label": "Show Message",
+    "id": "showmsg",
+    "fieldtype": "checkbox",
     "value": "",
-    "errmsg": "",
-    "fieldlength": {},
-    "fieldinfo": {},
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Show Message",
+          "id": "showmsg"
+        }
+      ]
+    },
     "validation": {
       "required": false,
-      "type": "check Box",
-      "subtype": [
-        {
-          "type": "check Box",
-          "message": ""
-        }
-      ],
-      "constraint": []
+      "type": "string"
     }
   },
-
   {
-    "id": "stateAbbreviation",
+    "id": "state",
     "placeholder": "Enter State Abbreviation",
     "fieldtype": "select",
     "label": "State Abbreviation",
     "value": "",
-    "errmsg": "",
+    "errmsg": "State Abbreviation is required.",
     "fieldlength": {},
     "fieldinfo": {
       "options": [
-        "Al",
-        "AK",
-        "AS",
-        "AZ",
-        "AR",
-        "CA",
-        "CO",
-        "CT",
-        "DE",
-        "DC",
-        "FM",
-        "Fl",
-        "GA",
-        "GU",
-        "HI",
-        "ID",
-        "Il",
-        "IN",
-        "IA",
-        "KS",
-        "KY",
-        "LA",
-        "ME",
-        "MH",
-        "MD",
-        "MA",
-        "MI",
-        "MN",
-        "MS",
-        "MO",
-        "MT",
-        "NE",
-        "NV",
-        "NH",
-        "NJ",
-        "NM",
-        "NY",
-        "NC",
-        "ND",
-        "MP",
-        "OH",
-        "OK",
-        "OR",
-        "PW",
-        "PA",
-        "PR",
-        "RI",
-        "SC",
-        "SD",
-        "TN",
-        "TX",
-        "UT",
-        "VT",
-        "VI",
-        "VA",
-        "WA",
-        "WV",
-        "WI",
-        "WY"
+        { "id": "AL", "label": "AL" },
+        { "id": "AR", "label": "AR" },
+        { "id": "CA", "label": "CA" },
+        { "id": "CO", "label": "CO" },
+        { "id": "DE", "label": "DE" },
+        { "id": "IN", "label": "IN" },
+        { "id": "KY", "label": "KY" },
+        { "id": "MD", "label": "MD" },
+        { "id": "MI", "label": "MI" },
+        { "id": "MO", "label": "MO" },
+        { "id": "NJ", "label": "NJ" },
+        { "id": "NY", "label": "NY" },
+        { "id": "OH", "label": "OH" },
+        { "id": "OR", "label": "OR" },
+        { "id": "PA", "label": "PA" },
+        { "id": "TX", "label": "TX" },
+        { "id": "WA", "label": "WA" },
+        { "id": "WV", "label": "WV" }
       ]
     },
     "validation": {
@@ -460,41 +549,28 @@
           "type": "lowercase",
           "message": ""
         }
-      ],
-      "constraint": []
+      ]
     }
   },
   {
-    "id": "county",
+    "id": "countyName",
     "placeholder": "Enter the County",
     "fieldtype": "text",
     "label": "County",
     "value": "",
-    "errmsg": " ",
+    "errmsg": "County is required.",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
     },
     "fieldinfo": {},
     "validation": {
-      "required": false,
+      "required": true,
       "type": "string",
       "subtype": [
         {
           "type": "uppercase",
           "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
         }
       ]
     }
@@ -519,23 +595,11 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
   {
-    "id": "schoolDistrict",
+    "id": "sdName",
     "placeholder": "Enter School District",
     "fieldtype": "text",
     "label": "School District",
@@ -554,19 +618,34 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
+    }
+  },
+  {
+    "id": "addDate",
+    "fieldtype": "date",
+    "label": "Date",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+    "minlength": 1,
+    "maxlength": 25
+    },
+    "fieldinfo": {
+    "typeahead": false,
+    "isasync": false,
+    "options": [],
+    "multiselect": false
+    },
+    "validation": {
+    "required": false,
+    "type": "date",
+    "constraint": [
+      {
+      "type": "currentDate",
+      "message": "Current Date validation message"
+      }
+    ]
     }
   }
 ]
