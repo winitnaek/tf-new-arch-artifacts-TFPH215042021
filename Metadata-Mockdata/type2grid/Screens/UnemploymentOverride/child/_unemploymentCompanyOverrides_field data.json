@@ -1,346 +1,267 @@
 [
 	{
-		"name":"startDate",
-		"id":"startDate",
-		"placeholder":"Enter Start Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"Start Date",
-		"value":"new Date()",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"uppercase",
-					"message":"Worksite needs to be in uppercase."
-				}
-			],
-			"constraint":[
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
+		"name": "startDate",
+		"id": "startDate",
+		"label": "Start Date",
+		"placeholder": "",
+		"fieldtype": "date",
+		"fieldlength": {},
+		"fieldinfo": {},
+		"value": "",
+		"validation": {
+		  "required": false,
+		  "type": "date",
+		  "constraint": [
+			{
+			  "type": "currentDate",
+			  "message": "Current Date validation message"
+			}
+		  ]
 		}
-	},
-{
-      "name":"authority",
-      "id":"authorityCode",
-      "placeholder":"Enter authority Code",
-      "fieldtype":"select",
-      "label":"Authority",
-      "value":"",
-      "errmsg":"Authority cannot be Blank ",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
-      },
-      "fieldinfo":{
-		"typeahead":true,
-		"isasync":true
-
-      },
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"uppercase",
-               "message":""
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":1,
-               "message":"min 1 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-	{
-      "name":"taxType",
-      "id":"taxType",
-      "placeholder":"Enter authority Code",
-      "fieldtype":"select",
-      "label":"Tax Type",
-      "value":"",
-      "errmsg":"Authority cannot be Blank ",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
-      },
-      "fieldinfo":{
-		"typeahead":true,
-		"isasync":true
-
-      },
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"uppercase",
-               "message":""
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":1,
-               "message":"min 1 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-   {
-		"name":"formula",
-		"id":"formula",
-		"placeholder":"Enter Formula",
-		"fieldtype":"select",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-		"typeahead":true,
-		"isasync":true
-
-		},
-		"validationType":"string",
-		"label":"Formula",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
-   },
-	{
-		"name":"endDate",
-		"id":"endDate",
-		"placeholder":"Enter End Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
-		},
-		"fieldinfo":{
-
-		},
-		"validationType":"string",
-		"label":"End Date",
-		"value":"9999-12-31",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
-	},
-	{
-	"name":"account",
-	"id":"account",
-	"placeholder":"Select Account",
-	"fieldtype":"text",
-	"fieldlength":{
-
-	},
-	"fieldinfo":	{
-		"options":[
-			"Aggregate to Highest Maximum"
-		]
-	},
-	"validationType":"string",
-	"label":"Account",
-	"value":"",
-	"validation":{
-		"required":false,
-		"type":"string",
-		"subtype":[
-			{
-				"type":"lowercase",
-				"message":""
-			}
-		],
-		"constraint":[
-			{
-				"type":"min",
-				"input":1,
-				"message":"min 1 characters"
-			},
-			{
-				"type":"max",
-				"input":25,
-				"message":"max 25 characters"
-			}
-		]
-	}
-},
-{
-	"name":"experienceRate",
-	"id":"experienceRate",
-	"placeholder":"Select Experience Rate",
-	"fieldtype":"text",
-	"fieldlength":{
-
-	},
-	"fieldinfo":{
-		"options":[
-			"Aggregate to Highest Maximum"
-		]
-	},
-	"validationType":"string",
-	"label":"Experience Rate",
-	"value":"0.00",
-	"validation":{
-		"required":false,
-		"type":"string",
-		"subtype":[
-			{
-				"type":"lowercase",
-				"message":""
-			}
-		],
-		"constraint":[
-			{
-				"type":"min",
-				"input":1,
-				"message":"min 1 characters"
-			},
-			{
-				"type":"max",
-				"input":11,
-				"message":"max 11 characters"
-			}
-		]
-	}
-},
-{
-	"name":"overrideMaxWage",
-	"id":"overrideMaxWage",
-	"placeholder":"Select Max Wage",
-	"fieldtype":"text",
-	"fieldlength":{
-
-	},
-	"fieldinfo":{
-		"options":[
-			"Aggregate to Highest Maximum"
-		]
-	},
-	"validationType":"string",
-	"label":"Override Max Wage",
-	"value":"0.00",
-	"validation":{
-		"required":false,
-		"type":"string",
-		"subtype":[
-			{
-				"type":"lowercase",
-				"message":""
-			}
-		],
-		"constraint":[
-			{
-				"type":"min",
-				"input":1,
-				"message":"min 1 characters"
-			},
-			{
-				"type":"max",
-				"input":14,
-				"message":"max 14 characters"
-			}
-		]
-	}
-},
-{
-	"name":"bsiWage(BsiMaintainedFormula)",
-	"id":"bsiWage",
-	"placeholder":"Select BSI Wage",
-	"fieldtype":"text",
-	"fieldlength":{
-
-	},
-	"fieldinfo":{
-		"options":[
-			"Aggregate to Highest Maximum"
-		]
-	},
-	"validationType":"string",
-	"label":"BSI Wage (BSI Maintained Formula)",
-	"value":"",
-	"validation":{
-		"required":false,
-		"type":"string",
-		"subtype":[
-			{
-				"type":"lowercase",
-				"message":""
-			}
-		],
-		"constraint":[
-			{
-				"type":"min",
-				"input":1,
-				"message":"min 1 characters"
-			},
-			{
-				"type":"max",
-				"input":25,
-				"message":"max 25 characters"
-			}
-		]
-	}
-}
+	  },
+  {
+    "name": "authority",
+    "id": "taxCode",
+    "placeholder": "Enter authority Code",
+    "fieldtype": "select",
+    "label": "Authority",
+    "value": "",
+    "errmsg": "Authority cannot be Blank ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true
+    },
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "taxType",
+    "id": "taxType",
+    "placeholder": "Enter authority Code",
+    "fieldtype": "select",
+    "label": "Tax Type",
+    "value": "",
+    "errmsg": "Authority cannot be Blank ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true
+    },
+    "validation": {
+      "required": true,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "uppercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "formula",
+    "id": "formula",
+    "placeholder": "Enter Formula",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true
+    },
+    "validationType": "string",
+    "label": "Formula",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 50,
+          "message": "max 50 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "endDate",
+    "id": "endDate",
+    "placeholder": "Enter End Date",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "End Date",
+    "value": "9999-12-31",
+    "validation": {
+      "required": true,
+      "type": "text",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 8,
+          "message": "max 8 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "account",
+    "id": "account",
+    "placeholder": "Select Account",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": ["Aggregate to Highest Maximum"]
+    },
+    "validationType": "string",
+    "label": "Account",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ],
+      "constraint": [
+        {
+          "type": "min",
+          "input": 1,
+          "message": "min 1 characters"
+        },
+        {
+          "type": "max",
+          "input": 25,
+          "message": "max 25 characters"
+        }
+      ]
+    }
+  },
+  {
+    "name": "rate",
+    "id": "rate",
+    "placeholder": "Select Experience Rate",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Experience Rate",
+    "value": "0.00",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "maxWage",
+    "id": "maxWage",
+    "placeholder": "Select Max Wage",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "Override Max Wage",
+    "value": "0.00",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "bsiWage",
+    "id": "bsiWage",
+    "placeholder": "Select BSI Wage",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "BSI Wage (BSI Maintained Formula)",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string",
+      "subtype": [
+        {
+          "type": "lowercase",
+          "message": ""
+        }
+      ]
+    }
+  }
 ]

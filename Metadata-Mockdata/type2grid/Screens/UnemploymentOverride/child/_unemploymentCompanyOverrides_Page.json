@@ -2,7 +2,7 @@
    "pgdef":{
       "pgid":"unemploymentCompanyOverrides",
       "pgtitle":"Unemployment Overrides",
-      "pgsubtitle":"The Following formulas are definded for : ",
+      "pgsubtitle":"",
       "flowtype":"flowtype2",
       "hasAddNew":true,
       "addNewLabel":"Click here to add new Unemployment Override.",
@@ -25,11 +25,12 @@
       "columns":[
          {
             "text":"Authority",
-            "datafield":"authoritycode",
+            "datafield":"taxCode",
             "cellsalign":"left",
             "align":"left",
             "sortable":true,
-            "width":"12%"
+            "width":"12%",
+            "rendererStaticInput":"authCodeauthNamerenderer"
          },
          {
             "text":"Tax Type",
@@ -37,7 +38,8 @@
             "cellsalign":"left",
             "align":"left",
             "sortable":true,
-            "width":"12%"
+            "width":"12%",
+            "rendererStaticInput":"taxTypeCodeNamerenderer"
          },
          {
             "text":"Formula",
@@ -45,7 +47,8 @@
             "cellsalign":"left",
             "align":"left",
             "sortable":true,
-            "width":"12%"
+            "width":"12%",
+            "rendererStaticInput":"formulaNamerenderer"
          },
           {
             "text":"Start Date",
@@ -73,7 +76,7 @@
          },
          {
             "text":"Override Max Wage",
-            "datafield":"overrideMaxWage",
+            "datafield":"maxWage",
             "cellsalign":"left",
             "align":"left",
             "sortable":true,
@@ -94,11 +97,35 @@
             "type":"string"
          },
          {
+            "name":"company",
+            "type":"string"
+         },
+         {
+            "name":"auth",
+            "type":"string"
+         },
+         {
+            "name":"authName",
+            "type":"string"
+         },
+         {
+            "name":"taxCode",
+            "type":"string"
+         },
+         {
             "name":"taxType",
             "type":"string"
          },
          {
+            "name":"taxTypeName",
+            "type":"string"
+         },
+         {
             "name":"formula",
+            "type":"string"
+         },
+         {
+            "name":"formulaTitle",
             "type":"string"
          },
          {
@@ -109,16 +136,20 @@
             "name":"endDate",
             "type":"string"
          },
-           {
+         {
             "name":"rate",
             "type":"string"
          },
          {
-            "name":"overrideMaxWage",
+            "name":"maxWage",
             "type":"string"
          },
          {
             "name":"bsiWage",
+            "type":"string"
+         },
+         {
+            "name":"account",
             "type":"string"
          }
       ]
@@ -134,7 +165,13 @@
       "hasRecentUsage":false,
       "formflds":[
          {
-            "id":"authorityCode",
+            "id":"startDate",
+            "order":4,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"taxCode",
             "order":1,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
@@ -152,12 +189,6 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"startDate",
-            "order":4,
-            "isReadOnlyOnEdit":true,
-            "isReadOnlyOnNew":false
-         },
-         {
             "id":"endDate",
             "order":5,
             "isReadOnlyOnEdit":false,
@@ -170,7 +201,7 @@
             "isReadOnlyOnNew":false
          }, 
          {
-            "id":"OverrideMaxWage",
+            "id":"maxWage",
             "order":7,
             "isReadOnlyOnEdit":false,
             "isReadOnlyOnNew":false
