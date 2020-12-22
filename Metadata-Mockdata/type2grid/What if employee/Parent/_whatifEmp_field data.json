@@ -87,38 +87,34 @@
     "placeholder": "Select Payment Type",
     "fieldtype": "select",
     "label": "Payment Type",
-    "value": "0",
-    "errmsg": " ",
+    "value": "",
     "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
+
     },
     "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - Regular"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Supplemental"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Cumulative"
         },
         {
-          "id": 3,
+          "id": "3",
           "label": "3 - Vacation"
         }
-      ],
-      "multiselect": false
+      ]
     },
+    "validationType":"string",
     "validation": {
       "required": false,
-      "type": "string"
+      "message":""
     }
   },
   {

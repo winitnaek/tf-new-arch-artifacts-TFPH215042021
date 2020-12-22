@@ -1,0 +1,631 @@
+[
+    {
+      "id": "startDate",
+      "placeholder": "Enter a Start Date",
+      "fieldtype": "date",
+      "label": "Start Date",
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "date",
+        "constraint": [
+          {
+            "type": "currentDate",
+            "message": "Current Date validation message"
+          }
+        ]
+      }
+    },
+    {
+      "id":"authority",
+      "placeholder":"Enter Authority",
+      "fieldtype":"select",
+      "label":"Authority",
+      "value":"",
+      "errmsg":"Authority is required",
+      "fieldlength":{
+         "minlength":1,
+         "maxlength":25
+      },
+      "fieldinfo":{
+         "typeahead":true,
+         "isasync":true,
+         "minLength":1,
+         "options":[
+
+         ],
+         "multiselect":false
+      },
+      "validation":{
+         "required":false,
+         "type":"string"
+      }
+   },
+  
+   {
+    "id":"taxType",
+    "placeholder":"Enter Tax Type",
+    "fieldtype":"select",
+    "label":"Tax Type",
+    "value":"",
+    "errmsg":"Tax Type is required",
+    "fieldlength":{
+       "minlength":1,
+       "maxlength":25
+    },
+    "fieldinfo":{
+       "typeahead":true,
+       "isasync":true,
+       "minLength":1,
+       "options":[
+
+       ],
+       "multiselect":false
+    },
+    "validation":{
+       "required":false,
+       "type":"string"
+    }
+ },
+  
+ {
+  "id":"formula",
+  "placeholder":"Enter Formula",
+  "fieldtype":"select",
+  "label":"Formula",
+  "value":"",
+  "errmsg":"Formula is required",
+  "fieldlength":{
+     "minlength":1,
+     "maxlength":25
+  },
+  "fieldinfo":{
+     "typeahead":true,
+     "isasync":true,
+     "minLength":1,
+     "options":[
+
+     ],
+     "multiselect":false
+  },
+  "validation":{
+     "required":false,
+     "type":"string"
+  }
+},
+  
+{
+  "id": "residentType",
+  "placeholder": "Enter Resident Type",
+  "fieldtype": "select",
+  "label": "Resident Type",
+  "value": "",
+  "errmsg": " ",
+  "fieldlength": {
+    "minlength": 1,
+    "maxlength": 25
+  },
+  "fieldinfo": {
+    "typeahead": false,
+    "isasync": false,
+    "options": [
+      { "id": "B", "label": "Both Resident and Nonresident" },
+      { "id": "R", "label": "Resident Only" },
+      { "id": "N", "label": "Nonresident Only" }
+    ],
+    "multiselect": false
+  },
+  "validation": {
+    "required": false,
+    "type": "string"
+  }
+},
+   
+    {
+      "id": "endDate",
+      "placeholder": "End Date",
+      "fieldtype": "date",
+      "label": "End Date",
+      "value": "",
+      "errmsg": "",
+      "fieldlength": {
+        "minlength": 8,
+        "maxlength": 8
+      },
+      "fieldinfo": {
+        
+      },
+      "validation": {
+        "required": true,
+        "type": "date",
+        "subtype": [
+          {
+            "type": "date",
+            "message": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "overrideType",
+      "placeholder": "Enter Override Type",
+      "fieldtype": "select",
+      "label": "Override Type",
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          { "id": "F", "label": "Formula" },
+          { "id": "A", "label": "Adjustment" },
+          { "id": "T", "label": "Additional" },
+          { "id": "R", "label": "Rate Only" }
+        ],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "string"
+      }
+    },
+    {
+      "id": "paymentType",
+      "placeholder": "Enter Payment  Type",
+      "fieldtype": "select",
+      "label": "Payment  Type",
+      "show": {
+        "overrideType": ["F", "R"]
+      },
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          { "id": "0", "label": "Regular" },
+          { "id": "1", "label": "Supplemental" },
+          { "id": "2", "label": "Cumulative" },
+          { "id": "3", "label": "Vacation" }
+        ],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "string"
+      }
+    },
+    {
+      "id": "supplementalFormula",
+      "placeholder": "Use Supplemental Formula",
+      "fieldHeader": "Supplemental",
+      "fieldtype": "checkbox",
+      "show": {
+        "paymentType": ["1"],
+        "overrideType": ["F", "R"]
+      },
+      "label": "",
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 1
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          {
+            "label": "Use Supplemental Formula",
+            "id": "supplementalFormula"
+          }
+        ],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "boolean"
+      }
+    },
+    {
+      "id": "regularFormula",
+      "placeholder": "Use Regular Formula",
+      "fieldHeader": "REGULAR",
+      "fieldtype": "checkbox",
+      "show": {
+        "paymentType": ["0"],
+        "overrideType": ["F", "R"]
+      },
+      "label": "",
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 1
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          {
+            "label": "Use Regular Formula",
+            "id": "regularFormula"
+          }
+        ],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "boolean"
+      }
+    },
+    {
+      "id": "cumulativeFormula",
+      "placeholder": "Use Cumulative Formula",
+      "fieldHeader": "Cumulative",
+      "fieldtype": "checkbox",
+      "show": {
+        "paymentType": ["2"],
+        "overrideType": ["F", "R"]
+      },
+      "label": "",
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 1
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          {
+            "label": "Use Cumulative Formula",
+            "id": "cumulativeFormula"
+          }
+        ],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "boolean"
+      }
+    },
+    {
+      "id": "vacationFormula",
+      "placeholder": "Use Vacation Formula",
+      "fieldHeader": "VACATION",
+      "fieldtype": "checkbox",
+      "show": {
+        "paymentType": ["3"],
+        "overrideType": ["F", "R"]
+      },
+      "label": "",
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 1
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          {
+            "label": "Use Vacation Formula",
+            "id": "vacationFormula"
+          }
+        ],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "boolean"
+      }
+    },
+    {
+      "id": "calculationMethod",
+      "placeholder": "Enter Calculation Method",
+      "fieldtype": "select",
+      "label": "Calculation Method",
+      "show": {
+        "paymentType": ["0", "1", "2", "3"],
+        "overrideType": ["F"]
+      },
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          { "id": "0", "label": "Tax Rate Only" },
+          { "id":  "1", "label": "Tax Rate, Max Wage" },
+{ "id":  "2", "label": "Tax Rate, Min Wage" },
+{ "id":  "3", "label": "Tax Rate, Min Wage, Max Wage" },
+{ "id":  "4", "label": "Tax Rate, Max Tax" },
+{ "id":  "5", "label": "Tax Rate, Min Wage, Max Tax" },
+{ "id":  "6", "label": "Flat Amount Only" },
+{ "id":  "7", "label": "Flat Amount, Max Wage" },
+{ "id":  "8", "label": "Flat Amount, Min Wage" },
+{ "id":  "9", "label": "Flat Amount, Min Wage, Max Wage" },
+{ "id": "10", "label": "Flat Amount, Max Tax" },
+{ "id": "11", "label": "Flat Amount, Tax Rate" },
+{ "id": "12", "label": "Tax Rate For Hours Worked" },
+{ "id": "13", "label": "Tax Rate, Max Annualized Wage" },
+{ "id": "14", "label": "Tax Rate, Min YTD Wage" },
+{ "id": "15", "label": "Tax Rate, Min YTD Wage, Max YTD Wage, Max Tax" },
+{ "id": "16", "label": "Flat Amt, Max YTD Wage" },
+{ "id": "17", "label": "Flat Amt, Min YTD Wage" },
+{ "id": "18", "label": "Flat Amt, Min YTD Wage, Max YTD Wage" },
+{ "id": "19", "label": "Flat Amt, Min YTD Wage, Max Tax" },
+{ "id": "20", "label": "Tax Rate, Min YTD Wage, Max Tax" }
+        ],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "string"
+      }
+    },
+  
+    {
+      "id": "roundingMethod",
+      "placeholder": "Enter Rounding Method",
+      "fieldtype": "select",
+      "label": "Rounding Method",
+      "show": {
+        "paymentType": ["0", "1", "2", "3"],
+        "overrideType": ["F"]
+      },
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          { "id": "0", "label": "Use Authority Default" },
+          { "id": "1", "label": "Round to Cents" },
+          { "id": "2", "label": "Round to Dollars" },
+          { "id": "3", "label": "Round Down to Dollars" }
+        ],
+        "multiselect": false
+      },
+      "validation": {
+        "required": false,
+        "type": "string"
+      }
+    },
+  
+    {
+      "id": "taxRate",
+      "placeholder": "Enter Tax Rate",
+      "fieldtype": "text",
+      "label": "Tax Rate",
+      "show": {
+        "paymentType": ["0", "1", "2", "3"],
+        "overrideType": ["F", "R"]
+      },
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {
+        "minlength": 5,
+        "maxlength": 25
+      },
+  
+      "fieldinfo": {
+        
+      },
+      "validation": {
+        "required": false,
+        "type": "string",
+        "subtype": [
+          {
+            "type": "uppercase",
+            "message": ""
+          }
+        ]
+      }
+    },
+  
+    {
+      "id": "maximumWage",
+      "placeholder": "Payment Type -REGULAR",
+      "fieldtype": "text",
+      "label": "Maximum Wage",
+      "show": {
+        "paymentType": ["0", "1", "2", "3"],
+        "overrideType": ["F"]
+      },
+      "value": "",
+      "errmsg": "",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        
+      },
+      "validation": {
+        "required": false,
+        "type": "string",
+        "subtype": [
+          {
+            "type": "lowercase",
+            "message": ""
+          }
+        ]
+      }
+      },
+      {
+      "id": "minimumWage",
+      "placeholder": "Payment Type- REGULAR",
+      "fieldtype": "text",
+      "label": "Minimum Wage",
+      "show": {
+        "paymentType": ["0", "1", "2", "3"],
+        "overrideType": ["F"]
+      },
+      "value": "",
+      "errmsg": "",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        
+      },
+      "validation": {
+        "required": false,
+        "type": "number",
+        "subtype": [
+          {
+            "type": "number",
+            "message": ""
+          }
+        ]
+      }
+      },
+      {
+          "id": "maximumTax",
+          "placeholder": "Payment Type- REGULAR",
+          "fieldtype": "text",
+          "label": "Maximum Tax",
+          "show": {
+            "paymentType": ["0", "1", "2", "3"],
+            "overrideType": ["F"]
+          },
+          "value": "",
+          "errmsg": "",
+          "fieldlength": {
+            "minlength": 1,
+            "maxlength": 25
+          },
+          "fieldinfo": {
+            
+          },
+          "validation": {
+            "required": false,
+            "type": "string",
+            "subtype": [
+              {
+                "type": "lowercase",
+                "message": ""
+              }
+            ]
+          }
+          },
+   
+  
+    {
+      "id": "flatAmount",
+      "placeholder": "Payment Type -REGULAR",
+      "fieldtype": "text",
+      "label": "Flat Amount",
+      "show": {
+        "paymentType": ["0", "1", "2", "3"],
+        "overrideType": ["F"]
+      },
+      "value": "",
+      "errmsg": "",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        
+      },
+      "validation": {
+        "required": false,
+        "type": "number",
+        "subtype": [
+          {
+            "type": "number",
+            "message": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "flatAmunt",
+      "placeholder": "Flat Amount",
+      "fieldtype": "text",
+      "label": "Flat Amount",
+      "show": {
+        "overrideType": ["A"]
+      },
+      "value": "",
+      "errmsg": "",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        
+      },
+      "validation": {
+        "required": false,
+        "type": "number",
+        "subtype": [
+          {
+            "type": "number",
+            "message": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "rate",
+      "placeholder": "Rate",
+      "fieldtype": "text",
+      "label": "Rate",
+      "show": {
+        "overrideType": ["A"]
+      },
+      "value": "",
+      "errmsg": "",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 25
+      },
+      "fieldinfo": {
+        
+      },
+      "validation": {
+        "required": false,
+        "type": "number",
+        "subtype": [
+          {
+            "type": "number",
+            "message": ""
+          }
+        ]
+      }
+    }
+]

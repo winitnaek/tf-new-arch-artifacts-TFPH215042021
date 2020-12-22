@@ -5,6 +5,7 @@
       "pgsubtitle":"",
       "flowtype":"flowtype1",
       "hasAddNew":false,
+      "hasSave":true,
       "addNewLabel":"",
       "actiondel":false,
       "helpAvailable":true,
@@ -14,7 +15,7 @@
       "childConfig":""
    },
    "griddef":{
-      "gridtype":"ro",
+      "gridtype":"type2",
       "isfilter":false,
       "isfilterform":false,
       "datatype":"json",
@@ -22,38 +23,42 @@
       "noResultsFoundTxt":"No Data Found : ",
       "recordEdit":false,
       "recordDelete":false,
+      "editable": true,
+      "selectionmode": "singlecell",
+      "editmode": "click’",
       "columns":[
          {
             "text":"Select Worksites",
             "datafield":"locationTaxes",
             "cellsalign":"left",
+            "columntype": "checkbox",
             "width":"30%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
-            "rendererStaticInput":""
+            "rendererStaticInput":"",
+            "editable": true
          },
          {
             "text":"Location",
-            "datafield":"title",
+            "datafield":"location",
             "cellsalign":"left",
             "align":"left"
          },
          {
             "text":"City",
-            "datafield":"taxName",
+            "datafield":"city",
             "cellsalign":"left",
             "align":"left"
          },
          {
             "text":"State",
-            "datafield":"formula",
+            "datafield":"state",
             "cellsalign":"left",
             "align":"left"
          },
          {
             "text":"Zip",
-            "datafield":"resNRes",
+            "datafield":"zip",
             "cellsalign":"center",
             "align":"center"
          }
@@ -62,30 +67,34 @@
       "dataFields":[
          {
             "name":"locationTaxes",
-            "type":"string",
-            "map": "locationTaxes>taxCode"
+            "type":"bool"
          },
          {
-            "name":"title",
-            "type":"string",
-            "map": "locationTaxes>title"
+            "name":"location",
+            "type":"string"
          },
          {
-            "name":"taxName",
-            "type":"string",
-            "map": "locationTaxes>taxName"
+            "name":"city",
+            "type":"string"
          },
          {
-            "name":"formula",
-            "type":"string",
-            "map": "locationTaxes>formula"
+            "name":"state",
+            "type":"string"
          },
          {
-            "name":"resNRes",
-            "type":"string",
-            "map": "locationTaxes>resNRes"
+            "name":"zip",
+            "type":"string"
          }
       ]
    },
-   "formdef":""
+   "formdef": {
+      "title": "TaxLocator",
+      "subtitle": "",
+      "hasSave": true,
+      "hasDelete": false,
+      "hasSaveAs": false,
+      "hasViewPDF": false,
+      "hasView": false,
+      "hasRecentUsage": false
+   }
 }
