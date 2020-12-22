@@ -201,7 +201,8 @@
         },
         {
           "name": "addDate",
-          "type": "string"
+          "type": "string",
+          "map": "btxadovr>addDate"
         },
         {
           "name": "fpre",
@@ -217,6 +218,16 @@
           "name": "bsiseqn",
           "type": "string",
           "map": "btxadovr>id>bsiseqn"
+        },
+        {
+          "name": "showmsg",
+          "type": "string",
+          "map": "btxadovr>showmsg"
+        },
+        {
+          "name": "sunit",
+          "type": "string",
+          "map": "btxadovr>sunit"
         }
       ]
    },

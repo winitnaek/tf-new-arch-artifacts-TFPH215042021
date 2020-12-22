@@ -24,29 +24,31 @@
     }
   },
   {
-    "id": "ftype",
-    "placeholder": "Select Direction",
+    "id": "fpre",
+    "placeholder": "Prefix Direction",
     "fieldtype": "select",
     "label": "Prefix Direction",
-    "description": "Example: N",
     "value": "",
-    "errmsg": "",
+    "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
     },
     "fieldinfo": {
-      "options": [
-        { "id": ".", "label": "." },
-        { "id": "N", "label": "N" },
-        { "id": "S", "label": "S" },
-        { "id": "E", "label": "E" },
-        { "id": "W", "label": "W" },
-        { "id": "NE", "label": "NE" },
-        { "id": "NW", "label": "NW" },
-        { "id": "SE", "label": "SE" },
-        { "id": "SW", "label": "SW" }
-      ]
+      "typeahead": false,
+      "isasync": false,
+      "options":[
+          { "id": ".", "label": "." },
+          { "id": "N", "label": "N" },
+          { "id": "S", "label": "S" },
+          { "id": "E", "label": "E" },
+          { "id": "W", "label": "W" },
+          { "id": "NE", "label": "NE" },
+          { "id": "NW", "label": "NW" },
+          { "id": "SE", "label": "SE" },
+          { "id": "SW", "label": "SW" }
+        ],
+        "multiselect": false
     },
     "validation": {
       "required": false,
@@ -619,33 +621,6 @@
           "message": ""
         }
       ]
-    }
-  },
-  {
-    "id": "addDate",
-    "fieldtype": "date",
-    "label": "Date",
-    "value": "",
-    "errmsg": " ",
-    "fieldlength": {
-    "minlength": 1,
-    "maxlength": 25
-    },
-    "fieldinfo": {
-    "typeahead": false,
-    "isasync": false,
-    "options": [],
-    "multiselect": false
-    },
-    "validation": {
-    "required": false,
-    "type": "date",
-    "constraint": [
-      {
-      "type": "currentDate",
-      "message": "Current Date validation message"
-      }
-    ]
     }
   }
 ]
