@@ -1,25 +1,24 @@
 [
   {
     "id": "snt",
+    "placeholder": "Street Number Type",
     "fieldtype": "select",
     "label": "Street Number Type",
-    "value": "0",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
     },
     "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
       "options": [
-        { "id": 0, "label": "Numeric" },
-        { "id": 1, "label": "Alpha Numeric" },
-        { "id": 2, "label": "None" }
+        { "id": "0", "label": "Numeric" },
+        { "id": "1", "label": "Alpha Numeric" },
+        { "id": "2", "label": "None" }
       ]
     },
     "validation": {
-      "required": true,
+      "required": false,
       "type": "string"
     }
   },
@@ -35,8 +34,6 @@
       "maxlength": 25
     },
     "fieldinfo": {
-      "typeahead": false,
-      "isasync": false,
       "options":[
           { "id": ".", "label": "." },
           { "id": "N", "label": "N" },
@@ -47,8 +44,7 @@
           { "id": "NW", "label": "NW" },
           { "id": "SE", "label": "SE" },
           { "id": "SW", "label": "SW" }
-        ],
-        "multiselect": false
+        ]
     },
     "validation": {
       "required": false,
