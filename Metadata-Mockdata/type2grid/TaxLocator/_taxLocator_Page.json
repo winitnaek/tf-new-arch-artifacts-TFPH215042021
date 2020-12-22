@@ -59,6 +59,17 @@
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
+         },
+         {
+            "text":"Company Code",
+            "datafield":"cpycode",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
          }
       ],
       "dataFields":[
@@ -76,6 +87,11 @@
             "name":"checkDate",
             "type":"string",
             "map": "btxlemp>id>checkdate"
+         },
+         {
+            "name": "cpycode",
+            "type": "string",
+            "map": "btxlemp>cpycode"
          }
       ]
    },
@@ -92,13 +108,13 @@
         {
           "id": "employeeName",
           "isReadOnlyOnEdit": true,
-          "isReadOnlyOnNew": true
-        },
-        {
-          "id": "hireDate",
-          "isReadOnlyOnEdit": false,
           "isReadOnlyOnNew": false
         },
+        {
+         "id": "employeeCode",
+         "isReadOnlyOnEdit": true,
+         "isReadOnlyOnNew": false
+       },
         {
           "id": "checkDate",
           "isReadOnlyOnEdit": true,

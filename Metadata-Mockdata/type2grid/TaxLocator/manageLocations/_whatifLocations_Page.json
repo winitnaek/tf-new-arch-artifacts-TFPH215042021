@@ -5,6 +5,7 @@
       "pgsubtitle":"",
       "flowtype":"flowtype2",
       "hasAddNew":true,
+      "hasDeleteAll": true,
       "addNewLabel":"Click here to add new Location.",
       "actiondel":false,
       "helpAvailable":true,
@@ -13,6 +14,12 @@
       "parentConfig":"taxLocator",
       "childConfig":""
    },
+   "confirmdef": {
+      "cheader": "",
+      "cbody": "Are you sure you want to delete all records?",
+      "okbtnlbl": "Ok",
+      "cancelbtnlbl": "Cancel"
+    },
    "griddef":{
       "gridtype":"type1",
       "isfilter":true,
@@ -66,14 +73,69 @@
 		 },
 		 {
 			"text":"Zip Code",
-			"datafield":"zipCode",
+			"datafield":"zip",
 			"cellsalign":"left",
 			"width":"20%",
 			"align":"left",
 			"sortable":true,
 			"rendererInput":"",
 			"rendererStaticInput":""
-		}	
+      },
+      {
+         "text":"Street1",
+         "datafield":"street1",
+         "cellsalign":"left",
+         "width":"33%",
+         "align":"left",
+         "sortable":true,
+         "hidden": true,
+         "rendererInput":"",
+         "rendererStaticInput":""
+      },
+      {
+         "text":"Street2",
+         "datafield":"street2",
+         "cellsalign":"left",
+         "width":"33%",
+         "align":"left",
+         "sortable":true,
+         "hidden": true,
+         "rendererInput":"",
+         "rendererStaticInput":""
+      },
+      {
+         "text":"eicCode",
+         "datafield":"eicCode",
+         "cellsalign":"left",
+         "width":"33%",
+         "align":"left",
+         "sortable":true,
+         "hidden": true,
+         "rendererInput":"",
+         "rendererStaticInput":""
+      },
+      {
+         "text":"primews",
+         "datafield":"primews",
+         "cellsalign":"left",
+         "width":"33%",
+         "align":"left",
+         "sortable":true,
+         "hidden": true,
+         "rendererInput":"",
+         "rendererStaticInput":""
+      },
+      {
+         "text":"locnnumbr",
+         "datafield":"locnnumbr",
+         "cellsalign":"left",
+         "width":"33%",
+         "align":"left",
+         "sortable":true,
+         "hidden": true,
+         "rendererInput":"",
+         "rendererStaticInput":""
+      }	
       ],
       "dataFields":[
          {
@@ -96,11 +158,46 @@
          "map":"btxldetl>stateabb"
 		 },
 		 {
-			"name":"zipCode",
+			"name":"zip",
          "type":"string",
          "map":"btxldetl>zipcode"
-		}	
+      },
+      {
+			"name":"street1",
+         "type":"string",
+         "map":"btxldetl>street1"
+      },
+      {
+			"name":"street2",
+         "type":"string",
+         "map":"btxldetl>street2"
+      },
+      {
+			"name":"eicCode",
+         "type":"string",
+         "map":"btxldetl>eiccode"
+      },
+      {
+			"name":"primews",
+         "type":"string",
+         "map":"btxldetl>primews"
+      },
+      {
+			"name":"locnnumbr",
+         "type":"number",
+         "map":"btxldetl>id>locnnumbr"
+      }
+	
       ]
    },
-   "formdef":""
+   "formdef":{
+      "title": "TaxLocator",
+      "subtitle": "",
+      "hasSave": true,
+      "hasDelete": true,
+      "hasSaveAs": false,
+      "hasViewPDF": false,
+      "hasView": false,
+      "hasRecentUsage": false
+   }
 }

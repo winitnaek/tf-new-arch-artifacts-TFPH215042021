@@ -9,70 +9,69 @@
 		},
 		"fieldinfo":{
 			"options":
-			[
-					"- <None>",
-					"AK - ALASKA",
-					"AL - ALABAMA",
-					"AR - ARKANSAS",
-					"AS - AMERICAN SAMOA",
-					"AZ - ARIZONA",
-					"CA - CALIFORNIA",
-					"CO - COLORADO",
-					"CT - CONNECTICUT",
-					"DC - DISTRICT OF COLUMBIA",
-					"DE - DELAWARE",
-					"FL - FLORIDA",
-					"GA - GEORGIA",
-					"GU - GUAM",
-					"HI - HAWAII",
-					"IA - IOWA",
-					"ID - IDAHO",
-					"IL - ILLINOIS",
-					"IN - INDIANA",
-					"KS - KANSAS",
-					"KY - KENTUCKY",
-					"LA - LOUISIANA",
-					"MA - MASSACHUSETTS",
-					"MD - MARYLAND",
-					"ME - MAINE",
-					"MI - MICHIGAN",
-					"MN - MINNESOTA",
-					"MO - MISSOURI",
-					"MP - NORTHERN MARIANA ISLANDS",
-					"MS - MISSISSIPPI",
-					"MT - MONTANA",
-					"NC - NORTH CAROLINA",
-					"ND - NORTH DAKOTA",
-					"NE - NEBRASKA",
-					"NH - NEW HAMPSHIRE",
-					"NJ - NEW JERSEY",
-					"NM - NEW MEXICO",
-					"NV - NEVADA",
-					"NY - NEW YORK",
-					"OH - OHIO",
-					"OK - OKLAHOMA",
-					"OR - OREGON",
-					"PA - PENNSYLVANIA",
-					"PR - PUERTO RICO",
-					"RI - RHODE ISLAND",
-					"SC - SOUTH CAROLINA",
-					"SD - SOUTH DAKOTA",
-					"TN - TENNESSEE",
-					"TX - TEXAS",
-					"UT - UTAH",
-					"VA - VIRGINIA",
-					"VI - U.S. VIRGIN ISLANDS",
-					"VT - VERMONT",
-					"WA - WASHINGTON",
-					"WI - WISCONSIN",
-					"WV - WEST VIRGINIA",
-					"WY - WYOMING"
-					]		
+					[
+					{ "id": "AK", "label": "ALASKA" },
+					{ "id": "AL", "label": "ALABAMA" },
+					{ "id": "AR", "label": "ARKANSAS" },
+					{ "id": "AS", "label": "AMERICAN SAMOA" },
+					{ "id": "AZ", "label": "ARIZONA" },
+					{ "id": "CA", "label": "CALIFORNIA" },
+					{ "id": "CO", "label": "COLORADO" },
+					{ "id": "CT", "label": "CONNECTICUT" },
+					{ "id": "DC", "label": "DISTRICT OF COLUMBIA" },
+					{ "id": "DE", "label": "DELAWARE" },
+					{ "id": "FL", "label": "FLORIDA" },
+					{ "id": "GA", "label": "GEORGIA" },
+					{ "id": "GU", "label": "GUAM" },
+					{ "id": "HI", "label": "HAWAII" },
+					{ "id": "IA", "label": "IOWA" },
+					{ "id": "ID", "label": "IDAHO" },
+					{ "id": "IL", "label": "ILLINOIS" },
+					{ "id": "IN", "label": "INDIANA" },
+					{ "id": "KS", "label": "KANSAS" },
+					{ "id": "KY", "label": "KENTUCKY" },
+					{ "id": "LA", "label": "LOUISIANA" },
+					{ "id": "MA", "label": "MASSACHUSETTS" },
+					{ "id": "MD", "label": "MARYLAND" },
+					{ "id": "ME", "label": "MAINE" },
+					{ "id": "MI", "label": "MICHIGAN" },
+					{ "id": "MN", "label": "MINNESOTA" },
+					{ "id": "MO", "label": "MISSOURI" },
+					{ "id": "MP", "label": "NORTHERN MARIANA ISLANDS" },
+					{ "id": "MS", "label": "MISSISSIPPI" },
+					{ "id": "MT", "label": "MONTANA" },
+					{ "id": "NC", "label": "NORTH CAROLINA" },
+					{ "id": "ND", "label": "NORTH DAKOTA" },
+					{ "id": "NE", "label": "NEBRASKA" },
+					{ "id": "NH", "label": "NEW HAMPSHIRE" },
+					{ "id": "NJ", "label": "NEW JERSEY" },
+					{ "id": "NM", "label": "NEW MEXICO" },
+					{ "id": "NV", "label": "NEVADA" },
+					{ "id": "NY", "label": "NEW YORK" },
+					{ "id": "OH", "label": "OHIO" },
+					{ "id": "OK", "label": "OKLAHOMA" },
+					{ "id": "OR", "label": "OREGON" },
+					{ "id": "PA", "label": "PENNSYLVANIA" },
+					{ "id": "PR", "label": "PUERTO RICO" },
+					{ "id": "RI", "label": "RHODE ISLAND" },
+					{ "id": "SC", "label": "SOUTH CAROLINA" },
+					{ "id": "SD", "label": "SOUTH DAKOTA" },
+					{ "id": "TN", "label": "TENNESSEE" },
+					{ "id": "TX", "label": "TEXAS" },
+					{ "id": "UT", "label": "UTAH" },
+					{ "id": "VA", "label": "VIRGINIA" },
+					{ "id": "VI", "label": "U.S. VIRGIN ISLANDS" },
+					{ "id": "VT", "label": "VERMONT" },
+					{ "id": "WA", "label": "WASHINGTON" },
+					{ "id": "WI", "label": "WISCONSIN" },
+					{ "id": "WV", "label": "WEST VIRGINIA" },
+					{ "id": "WY", "label": "WYOMING" }
+					]
 
 		},
 		"validationType":"string",
-		"label":"State",
-		"value":"- <None>",
+		"label":"",
+		"value":"",
 		"validation":{
 			"required":false,
 			"type":""
@@ -101,18 +100,6 @@
 					"type":"uppercase",
 					"message":""
 				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
 			]
 		}
 	},
@@ -138,20 +125,7 @@
 					"type":"uppercase",
 					"message":""
 				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
 			]
-		  
 		}	
 		  
 	},
@@ -166,13 +140,16 @@
 				},
 				"fieldinfo":{
 				"options":[
-					"Live",
-					"Work"
+					{ "id": "0", "label": "Live" },
+					{ "id": "1", "label": "Work" },
+					{ "id": "2", "label": "Resident on 1/1" },
+					{ "id": "3", "label": "Work on 1/1" },
+					{ "id": "4", "label": "Remote Employee" }
 					]
 				},
 				"validationType":"string",
 				"label":"Live/Work",
-				"value":"Live",
+				"value":"",
 				"validation":{
 					"required":false,
 					"message":""
@@ -234,20 +211,7 @@
 					"type":"uppercase",
 					"message":""
 				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
 			]
-		  
 		}	
 		  
 	},
@@ -274,19 +238,8 @@
 					"type":"uppercase",
 					"message":""
 				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":100,
-					"message":"max 50 characters"
-				}
 			]
+			
 		  
 		}	
 		  
@@ -313,19 +266,8 @@
 					"type":"uppercase",
 					"message":""
 				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":100,
-					"message":"max 50 characters"
-				}
 			]
+			
 		  
 		}	
 		  
@@ -342,15 +284,15 @@
 				},
 				"fieldinfo":{
 				"options": [
-				"0 - Not Applicable",
-				"1 - Single, one certificate",
-				"2 - Married, both filing certificate",
-				"3 - Married, one filing certificate"
+				{"id": "0", "label": "Not Applicable"},
+				{"id": "1", "label": "Single, one certificate" },
+				{"id": "2", "label": "Married, both filing certificate" },
+				{"id": "3", "label": "Married, one filing certificate" }
 					]
 				},
 				"validationType":"string",
 				"label": "EIC Code",
-				"value": "0 - Not Applicable",
+				"value": "",
 				"validation":{
 					
 					"required":false,

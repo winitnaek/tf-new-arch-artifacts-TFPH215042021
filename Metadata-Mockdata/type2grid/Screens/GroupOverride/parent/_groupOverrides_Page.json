@@ -1,0 +1,58 @@
+{
+	"pgdef": {
+		"pgid": "groupOverrides",
+		"pgtitle": "Group Overrides",
+		"pgsubtitle": "",
+		"flowtype": "flowtype1",
+		"hasAddNew": false,
+		"addNewLabel": "Click here to add new Override or click on existing Override to edit.",
+		"actiondel": false,
+		"helpAvailable": true,
+		"helpLblTxt": "Click here for more info!",
+		"helpLink": "/groupOverride",
+		"parentConfig": "",
+		"childConfig": [{"pgid":"groupOverride", "columnHeader": "View"}]
+	},
+	"griddef": {
+		"gridtype": "type2",
+		"isfilter": false,
+		"isfilterform": false,
+		"datatype": "json",
+		"contenttype": "application/json",
+		"noResultsFoundTxt": "No Data Found",
+		"recordEdit": false,
+		"recordDelete": false,
+		"columns": [
+			{
+				"text": "Group Code",
+				"datafield": "id",
+				"cellsalign": "center",
+				"width": "50%",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+			},
+			{
+				"text": "Group Name",
+				"datafield": "groupName",
+				"width": "50%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
+		],
+		"dataFields": [
+            {
+				"name": "id",
+				"type": "string"
+			},
+			{
+				"name": "groupName",
+				"type": "string"
+            } 
+		]
+	}
+}
