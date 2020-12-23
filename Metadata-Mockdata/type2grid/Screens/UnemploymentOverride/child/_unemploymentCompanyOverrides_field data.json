@@ -1,136 +1,104 @@
 [
-	{
-		"name": "startDate",
-		"id": "startDate",
-		"label": "Start Date",
-		"placeholder": "",
-		"fieldtype": "date",
-		"fieldlength": {},
-		"fieldinfo": {},
-		"value": "",
-		"validation": {
-		  "required": false,
-		  "type": "date",
-		  "constraint": [
-			{
-			  "type": "currentDate",
-			  "message": "Current Date validation message"
-			}
-		  ]
-		}
-	  },
   {
-    "name": "authority",
+    "name": "startDate",
+    "id": "startDate",
+    "label": "Start Date",
+    "placeholder": "",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "date",
+      "constraint": [
+        {
+          "type": "currentDate",
+          "message": "Current Date validation message"
+        }
+      ]
+    }
+  },
+  {
     "id": "taxCode",
-    "placeholder": "Enter authority Code",
+    "placeholder": "Enter Authority",
     "fieldtype": "select",
     "label": "Authority",
     "value": "",
-    "errmsg": "Authority cannot be Blank ",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
+    "errmsg": "Authority is required",
     "fieldinfo": {
       "typeahead": true,
-      "isasync": true
+      "isasync": true,
+      "minLength":1,
+      "labelMapping": true,
+      "globalSearch": false,
+      "fieldDisplayInfo": [
+        {
+          "fieldDescription": "",
+          "field": "label"
+        }
+      ],
+      "resetFields": ["taxTypeUnemp","formulaUnemp"]
     },
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "uppercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
-    "name": "taxType",
-    "id": "taxType",
-    "placeholder": "Enter authority Code",
+    "id": "taxTypeUnemp",
+    "placeholder": "Enter Tax Type",
     "fieldtype": "select",
     "label": "Tax Type",
     "value": "",
-    "errmsg": "Authority cannot be Blank ",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
+    "errmsg": "Tax Type is required",
     "fieldinfo": {
       "typeahead": true,
-      "isasync": true
+      "isasync": true,
+      "minLength":1,
+      "labelMapping": true,
+      "globalSearch": false,
+      "fieldDisplayInfo": [
+        {
+          "fieldDescription": "",
+          "field": "label"
+        }
+      ],
+      "autoSelectFields": [],
+      "dependentFields": ["taxCode"],
+      "resetFields": ["taxTypeUnemp"]
     },
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "uppercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
-    "name": "formula",
-    "id": "formula",
-    "placeholder": "Enter Formula",
+    "id": "formulaUnemp",
+    "placeholder": "Enter formula",
     "fieldtype": "select",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": true,
-      "isasync": true
-    },
-    "validationType": "string",
     "label": "Formula",
     "value": "",
-    "validation": {
-      "required": true,
-      "type": "text",
-      "subtype": [
+    "errmsg": "Formula is required",
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength":1,
+      "labelMapping": true,
+      "globalSearch": false,
+      "fieldDisplayInfo": [
         {
-          "type": "lowercase",
-          "message": ""
+          "fieldDescription": "",
+          "field": "label"
         }
       ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "autoSelectFields": [],
+      "dependentFields": ["taxCode","taxTypeUnemp","startDate"],
+      "resetFields": []
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
     }
   },
   {
@@ -151,18 +119,6 @@
           "type": "lowercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
       ]
     }
   },
@@ -171,10 +127,11 @@
     "id": "account",
     "placeholder": "Select Account",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
     },
+    "fieldinfo": {},
     "validationType": "string",
     "label": "Account",
     "value": "",
@@ -186,18 +143,6 @@
           "type": "lowercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
@@ -207,7 +152,10 @@
     "placeholder": "Select Experience Rate",
     "fieldtype": "text",
     "fieldlength": {},
-    "fieldinfo": {},
+    "fieldinfo": {
+      "minlength": 1,
+      "maxlength": 11
+    },
     "validationType": "string",
     "label": "Experience Rate",
     "value": "0.00",
@@ -228,7 +176,10 @@
     "placeholder": "Select Max Wage",
     "fieldtype": "text",
     "fieldlength": {},
-    "fieldinfo": {},
+    "fieldinfo": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validationType": "string",
     "label": "Override Max Wage",
     "value": "0.00",

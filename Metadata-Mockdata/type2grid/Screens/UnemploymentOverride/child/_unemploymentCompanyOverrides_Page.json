@@ -117,11 +117,19 @@
             "type":"string"
          },
          {
+            "name":"taxTypeUnemp",
+            "type":"string"
+         },
+         {
             "name":"taxTypeName",
             "type":"string"
          },
          {
             "name":"formula",
+            "type":"string"
+         },
+         {
+            "name":"formulaUnemp",
             "type":"string"
          },
          {
@@ -177,13 +185,13 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"taxType",
+            "id":"taxTypeUnemp",
             "order":2,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
          },
          {
-            "id":"formula",
+            "id":"formulaUnemp",
             "order":3,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false

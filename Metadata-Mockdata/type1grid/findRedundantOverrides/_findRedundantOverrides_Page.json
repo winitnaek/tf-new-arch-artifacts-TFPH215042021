@@ -4,7 +4,7 @@
    "pgtitle": "Redundant Overrides",
    "pgsubtitle":"",
    "flowtype":"flowtype1",
-   "hasAddNew":true,
+   "hasAddNew":false,
    "addNewLabel":"Click here to add new Custom Payment.",
    "actiondel":false,
    "helpAvailable":true,
