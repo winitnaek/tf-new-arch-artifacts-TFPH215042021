@@ -7,6 +7,7 @@
 		"hasAddNew": true,
 		"addNewLabel": "Click here to add new Override or click on existing Override to edit.",
 		"actiondel": false,
+		"hasViewPdf": true,
 		"helpAvailable": true,
 		"helpLblTxt": "Click here for more info!",
 		"helpLink": "/groupOverride",
@@ -15,7 +16,7 @@
 	},
 	"griddef": {
 		"gridtype": "type2",
-		"isfilter": false,
+		"isfilter": true,
 		"isfilterform": false,
 		"datatype": "json",
 		"contenttype": "application/json",
@@ -45,7 +46,7 @@
             },
             {
 				"text": "Tax Type",
-				"datafield": "taxType",
+				"datafield": "taxname",
 				"width": "15%",
 				"cellsalign": "center",
 				"align": "center",
@@ -92,6 +93,17 @@
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
+			},
+			{
+				"text": "Type",
+				"datafield": "overtype",
+				"width": "15%",
+				"cellsalign": "center",
+				"align": "center",
+				"sortable": true,
+				"hidden":true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
 			}
 		],
 		"dataFields": [
@@ -101,12 +113,17 @@
 				"map": "btxover>btxtaxc>btxauth>name"
 			},
 			{
+				"name": "overtype",
+				"type": "string",
+				"map": "btxover>overtype"
+			},
+			{
 				"name": "taxCode",
 				"type": "string",
 				"map": "btxover>id>taxcode"
             },
             {
-				"name": "taxType",
+				"name": "taxname",
 				"type": "string",
 				"map": "btxover>btxtaxt>taxname"
             },
@@ -116,8 +133,7 @@
 			},
            {
 				"name": "startDate",
-				"type": "date",
-				"map": "btxover>id>startdate"
+				"type": "date"
 			},
 			{
 				"name": "residency",

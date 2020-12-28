@@ -12,7 +12,8 @@
       "helpLblTxt":"Click here for more info!",
       "helpLink":"/whatifLocations",
       "parentConfig":"taxLocator",
-      "childConfig":""
+      "childConfig":"",
+      "hasCheckbox": true
    },
    "confirmdef": {
       "cheader": "",
