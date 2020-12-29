@@ -30,14 +30,8 @@
       "typeahead": true,
       "isasync": true,
       "minLength":1,
-      "labelMapping": true,
+      "labelMapping": false,
       "globalSearch": false,
-      "fieldDisplayInfo": [
-        {
-          "fieldDescription": "",
-          "field": "label"
-        }
-      ],
       "resetFields": ["taxTypeUnemp","formulaUnemp"]
     },
     "validation": {
@@ -56,17 +50,11 @@
       "typeahead": true,
       "isasync": true,
       "minLength":1,
-      "labelMapping": true,
+      "labelMapping": false,
       "globalSearch": false,
-      "fieldDisplayInfo": [
-        {
-          "fieldDescription": "",
-          "field": "label"
-        }
-      ],
       "autoSelectFields": [],
       "dependentFields": ["taxCode"],
-      "resetFields": ["taxTypeUnemp"]
+      "resetFields": ["formulaUnemp"]
     },
     "validation": {
       "required": true,
@@ -84,16 +72,10 @@
       "typeahead": true,
       "isasync": true,
       "minLength":1,
-      "labelMapping": true,
+      "labelMapping": false,
       "globalSearch": false,
-      "fieldDisplayInfo": [
-        {
-          "fieldDescription": "",
-          "field": "label"
-        }
-      ],
       "autoSelectFields": [],
-      "dependentFields": ["taxCode","taxTypeUnemp","startDate"],
+      "dependentFields": ["taxCode","taxTypeUnemp"],
       "resetFields": []
     },
     "validation": {
@@ -113,13 +95,7 @@
     "value": "9999-12-31",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ]
+      "type": "text"
     }
   },
   {
@@ -137,13 +113,7 @@
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -161,13 +131,7 @@
     "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -206,13 +170,7 @@
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ]
+      "type": "string"
     }
   }
 ]
