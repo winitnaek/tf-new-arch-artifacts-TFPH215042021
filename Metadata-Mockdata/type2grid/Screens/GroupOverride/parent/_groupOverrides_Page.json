@@ -42,6 +42,17 @@
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
+			},
+			{
+				"text": "Tax Code",
+				"datafield": "taxcode",
+				"width": "15%",
+				"cellsalign": "center",
+				"align": "center",
+				"hidden": true,
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
             }
 		],
 		"dataFields": [
@@ -52,7 +63,12 @@
 			{
 				"name": "groupName",
 				"type": "string"
-            } 
+			},
+			{
+				"name": "taxcode",
+				"type": "string",
+				"map": "btxover>id>taxcode"
+            }
 		]
 	}
 }

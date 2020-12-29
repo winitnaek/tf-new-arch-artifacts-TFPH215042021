@@ -80,7 +80,7 @@
  },
   
  {
-  "id":"formula",
+  "id":"formulaGroupOverride",
   "placeholder":"Enter Formula",
   "fieldtype":"select",
   "label":"Formula",
@@ -158,7 +158,7 @@
       }
     },
     {
-      "id": "overrideType",
+      "id": "overtype",
       "placeholder": "Enter Override Type",
       "fieldtype": "select",
       "label": "Override Type",
@@ -190,7 +190,7 @@
       "fieldtype": "select",
       "label": "Payment  Type",
       "show": {
-        "overrideType": ["F", "R"]
+        "overtype": ["F", "R"]
       },
       "value": "",
       "errmsg": " ",
@@ -221,7 +221,7 @@
       "fieldtype": "checkbox",
       "show": {
         "paymentType": ["1"],
-        "overrideType": ["F", "R"]
+        "overtype": ["F", "R"]
       },
       "label": "",
       "value": "",
@@ -253,7 +253,7 @@
       "fieldtype": "checkbox",
       "show": {
         "paymentType": ["0"],
-        "overrideType": ["F", "R"]
+        "overtype": ["F", "R"]
       },
       "label": "",
       "value": "",
@@ -285,7 +285,7 @@
       "fieldtype": "checkbox",
       "show": {
         "paymentType": ["2"],
-        "overrideType": ["F", "R"]
+        "overtype": ["F", "R"]
       },
       "label": "",
       "value": "",
@@ -317,7 +317,7 @@
       "fieldtype": "checkbox",
       "show": {
         "paymentType": ["3"],
-        "overrideType": ["F", "R"]
+        "overtype": ["F", "R"]
       },
       "label": "",
       "value": "",
@@ -349,7 +349,7 @@
       "label": "Calculation Method",
       "show": {
         "paymentType": ["0", "1", "2", "3"],
-        "overrideType": ["F"]
+        "overtype": ["F"]
       },
       "value": "",
       "errmsg": " ",
@@ -398,7 +398,7 @@
       "label": "Rounding Method",
       "show": {
         "paymentType": ["0", "1", "2", "3"],
-        "overrideType": ["F"]
+        "overtype": ["F"]
       },
       "value": "",
       "errmsg": " ",
@@ -430,7 +430,7 @@
       "label": "Tax Rate",
       "show": {
         "paymentType": ["0", "1", "2", "3"],
-        "overrideType": ["F", "R"]
+        "overtype": ["F", "R"]
       },
       "value": "",
       "errmsg": " ",
@@ -461,7 +461,7 @@
       "label": "Maximum Wage",
       "show": {
         "paymentType": ["0", "1", "2", "3"],
-        "overrideType": ["F"]
+        "overtype": ["F"]
       },
       "value": "",
       "errmsg": "",
@@ -490,7 +490,7 @@
       "label": "Minimum Wage",
       "show": {
         "paymentType": ["0", "1", "2", "3"],
-        "overrideType": ["F"]
+        "overtype": ["F"]
       },
       "value": "",
       "errmsg": "",
@@ -519,7 +519,7 @@
           "label": "Maximum Tax",
           "show": {
             "paymentType": ["0", "1", "2", "3"],
-            "overrideType": ["F"]
+            "overtype": ["F"]
           },
           "value": "",
           "errmsg": "",
@@ -550,7 +550,7 @@
       "label": "Flat Amount",
       "show": {
         "paymentType": ["0", "1", "2", "3"],
-        "overrideType": ["F"]
+        "overtype": ["F"]
       },
       "value": "",
       "errmsg": "",
@@ -578,7 +578,7 @@
       "fieldtype": "text",
       "label": "Flat Amount",
       "show": {
-        "overrideType": ["A"]
+        "overtype": ["A"]
       },
       "value": "",
       "errmsg": "",
@@ -606,7 +606,7 @@
       "fieldtype": "text",
       "label": "Rate",
       "show": {
-        "overrideType": ["A"]
+        "overtype": ["A"]
       },
       "value": "",
       "errmsg": "",
