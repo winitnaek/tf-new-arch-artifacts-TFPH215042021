@@ -172,5 +172,21 @@
       "required": false,
       "type": "string"
     }
+  },
+  {
+    "name": "company",
+    "id": "company",
+    "placeholder": "",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "hidden":false,
+    "validationType": "string",
+    "label": "",
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
   }
 ]
