@@ -20,7 +20,7 @@
     }
   },
   {
-    "id": "taxCode",
+    "id": "taxCodeUnEmp",
     "placeholder": "Enter Authority",
     "fieldtype": "select",
     "label": "Authority",
@@ -167,22 +167,6 @@
     "fieldinfo": {},
     "validationType": "string",
     "label": "BSI Wage (BSI Maintained Formula)",
-    "value": "",
-    "validation": {
-      "required": false,
-      "type": "string"
-    }
-  },
-  {
-    "name": "company",
-    "id": "company",
-    "placeholder": "",
-    "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {},
-    "hidden":false,
-    "validationType": "string",
-    "label": "",
     "value": "",
     "validation": {
       "required": false,

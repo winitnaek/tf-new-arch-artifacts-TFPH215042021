@@ -113,6 +113,10 @@
             "type":"string"
          },
          {
+            "name":"taxCodeUnEmp",
+            "type":"string"
+         },
+         {
             "name":"taxType",
             "type":"string"
          },
@@ -219,13 +223,7 @@
             "order":8,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":true
-         },
-         {
-            "id":"company",
-            "order":9,
-            "isReadOnlyOnEdit":false,
-            "isReadOnlyOnNew":false
-         }                   
+         }                 
       ],
       "fltrflds":""
    }
