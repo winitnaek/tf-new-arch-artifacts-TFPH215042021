@@ -25,7 +25,7 @@
       "columns":[
          {
             "text":"Custom Tax Code",
-            "datafield":"customTaxCode",
+            "datafield":"taxCode",
             "cellsalign":"center",
             "width":"47.5%",
             "align":"center",
@@ -36,18 +36,18 @@
          {
             "text":"Custom Tax Name",
             "width":"47.5%",
-            "datafield":"customTaxName",
+            "datafield":"name",
             "cellsalign":"center",
             "align":"center"
          }
       ],
       "dataFields":[
          {
-            "name":"customTaxCode",
+            "name":"taxCode",
             "type":"string"
          },
          {
-            "name":"customTaxName",
+            "name":"name",
             "type":"string"
          }
       ]

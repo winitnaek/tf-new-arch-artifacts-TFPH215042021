@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "customGarnishmentTaxFormulas",
     "pgtitle": "Custom Garnishment Formulas",
-    "pgsubtitle": "The Following formulas are definded for : ",
+    "pgsubtitle": "",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "addNewLabel": "Click here to add new Custom Garnishment Formula or click on existing Custom Garnishment Formula to edit.",
@@ -26,7 +26,7 @@
     "columns": [
       {
         "text": "Custom Garnishment Code",
-        "datafield": "customGarnishmentCode",
+        "datafield": "usrTax",
         "cellsalign": "center",
         "width": "25%",
         "align": "center",
@@ -36,7 +36,7 @@
       },
       {
         "text": "Custom Garnishment Name",
-        "datafield": "customGarnishmentName",
+        "datafield": "garnishmentName",
         "width": "25%",
         "cellsalign": "center",
         "align": "center",
@@ -67,11 +67,11 @@
     ],
     "dataFields": [
       {
-        "name": "customGarnishmentCode",
+        "name": "usrTax",
         "type": "string"
       },
       {
-        "name": "customGarnishmentName",
+        "name": "garnishmentName",
         "type": "string"
       },
       {
@@ -81,7 +81,80 @@
       {
         "name": "endDate",
         "type": "Date"
+      },
+      {
+        "name": "inputMethod",
+        "type": "string"
+      },
+      {
+        "name": "inputFlatAmount",
+        "type": "string"
+      },
+      {
+        "name": "inputPercent",
+        "type": "string"
+      },
+      {
+        "name": "inputPriority",
+        "type": "string"
+      },
+      {
+        "name": "exemptionMethod",
+        "type": "string"
+      },
+      {
+        "name": "exemptionFlatAmount",
+        "type": "string"
+      },
+      {
+        "name": "exemptionAmount",
+        "type": "string"
+      },
+      {
+        "name": "exemptionDependentAmount",
+        "type": "string"
+      },
+      {
+        "name": "stmtOfException",
+        "type": "string"
+      },
+      {
+        "name": "calculationMethod",
+        "type": "string"
+      },
+      {
+        "name": "calculationPercent",
+        "type": "string"
+      },
+      {
+        "name": "calculationAmount",
+        "type": "string"
+      },
+      {
+        "name": "calculationPercent",
+        "type": "string"
+      },
+      {
+        "name": "calculationLimit",
+        "type": "string"
+      },
+      {
+        "name": "deductionMethod",
+        "type": "string"
+      },
+      {
+        "name": "deductionFlatAmount",
+        "type": "string"
+      },
+      {
+        "name": "deductionAmount",
+        "type": "string"
+      },
+      {
+        "name": "deductionDependentAmount",
+        "type": "string"
       }
+      
 
     ]
   },
@@ -99,7 +172,7 @@
 
     "formflds": [
       {
-        "id": "customGarnishmentCode",
+        "id": "customGarnishment",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
@@ -117,31 +190,31 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "method1",
+        "id": "inputMethod",
         "order": 4,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "flatAmount",
+        "id": "inputFlatAmount",
         "order": 5,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "percent",
+        "id": "inputPercent",
         "order": 6,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "priority",
+        "id": "inputPriority",
         "order": 7,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "method2",
+        "id": "exemptionMethod",
         "order": 8,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
@@ -166,13 +239,13 @@
       },
 
       {
-        "id": "statementOfExemptions",
+        "id": "stmtOfException",
         "order": 12,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "method3",
+        "id": "calculationMethod",
         "order": 13,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
@@ -196,7 +269,7 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "method4",
+        "id": "deductionMethod",
         "order": 17,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
