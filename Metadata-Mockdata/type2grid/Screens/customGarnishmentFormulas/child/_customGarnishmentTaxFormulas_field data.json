@@ -1,6 +1,6 @@
 [
   {
-    "id": "customGarnishment",
+    "id": "usrTax",
     "placeholder": "Enter Garnishment Formulas",
     "fieldtype": "select",
     "label": "Custom Garnishment",
