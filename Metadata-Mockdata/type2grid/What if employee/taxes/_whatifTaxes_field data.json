@@ -215,11 +215,12 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "Year To Date Tax",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "string"
@@ -232,14 +233,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "Year To Date PWS",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -249,11 +251,12 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "Year To Date OPT PWS",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "string"
@@ -266,7 +269,8 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":10
     },
     "validationType": "string",
     "label": "Risk Classification Code",
@@ -283,11 +287,12 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "Experience Rate",
-    "value": "",
+    "value": "0.000000000",
     "validation": {
       "required": false,
       "type": "string"
@@ -300,11 +305,12 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "Maximum Wage Override",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "string"
@@ -317,14 +323,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":9
     },
     "validationType": "string",
     "label": "Hours Worked",
-    "value": "",
+    "value": "0.000",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -334,14 +341,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "Additional Exemption Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -351,14 +359,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "Tax Credit Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -368,11 +377,12 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "Actual Year To Date Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "string"
@@ -385,14 +395,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "YTD Subject Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -402,14 +413,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength":1,
+      "maxlength":14
     },
     "validationType": "string",
     "label": "YTD Exempt Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -474,7 +486,7 @@
     },
     "validationType": "string",
     "label": "Self Adjust",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
@@ -490,7 +502,7 @@
       "options": [
         {
           "id": "0",
-          "label": "0 - &lt;None&gt;"
+          "label": "0 - <None>"
         },
         {
           "id": "1",
@@ -596,7 +608,7 @@
     },
     "validationType": "string",
     "label": "Marital Status",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
@@ -605,14 +617,14 @@
   {
     "name": "eicStatus",
     "id": "eicStatus",
-    "placeholder": "Enter EIC Status",
+    "placeholder": "",
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
       "options": [
         {
           "id": 0,
-          "label": "0 - &lt;None&gt;</option"
+          "label": "0 - <None>"
         },
         {
           "id": 1,
@@ -634,7 +646,7 @@
     },
     "validationType": "string",
     "label": "EIC Status",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
@@ -647,14 +659,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 4
     },
     "validationType": "string",
     "label": "Exemptions",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -664,14 +677,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 4
     },
     "validationType": "string",
     "label": "Personal Exemptions",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -681,11 +695,12 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 4
     },
     "validationType": "string",
     "label": "Dependent Exemptions",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
@@ -698,14 +713,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Exemptions Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -715,14 +731,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 4
     },
     "validationType": "string",
     "label": "Number of Additional Exemptions",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -732,11 +749,12 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Calculated Tax",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "string"
@@ -745,7 +763,7 @@
   {
     "name": "electedStateIndicator",
     "id": "electedStateIndicator",
-    "placeholder": "Select Elected State Indicator",
+    "placeholder": "",
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
@@ -762,7 +780,7 @@
     },
     "validationType": "string",
     "label": "Elected State Indicator",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
@@ -790,14 +808,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Estimated Quarterly Gross Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -807,31 +826,33 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Additional Nonwage Income",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
     "name": "employersAnnualGrossPayroll",
     "id": "employersAnnualGrossPayroll",
-    "placeholder": "Enter Employers Annual Gross Payroll",
+    "placeholder": "",
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Employers Annual Gross Payroll",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -841,14 +862,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 4
     },
     "validationType": "string",
     "label": "Pay Period To Date",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -858,14 +880,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 4
     },
     "validationType": "string",
     "label": "Month To Date",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -875,14 +898,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 4
     },
     "validationType": "string",
     "label": "Quarter To Date",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -892,28 +916,32 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 4
     },
     "validationType": "string",
     "label": "Year To Date",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
     "name": "participateInReciprocalCalculation",
     "id": "participateInReciprocalCalculation",
-    "placeholder": "Enter Participate In Reciprocal Calculation",
-    "fieldtype": "text",
+    "placeholder": "",
+    "fieldtype": "checkbox",
     "fieldHeader": "Reciprocal",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "options": [{
+        "label": "Participate In Reciprocal Calculation",
+        "id": "participateInReciprocalCalculation"
+      }] 
     },
     "validationType": "string",
-    "label": "Participate In Reciprocal Calculation",
+    "label": "",
     "value": "",
     "validation": {
       "required": false,
@@ -952,7 +980,7 @@
     },
     "validationType": "string",
     "label": "Certificate Code",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
@@ -961,11 +989,14 @@
   {
     "name": "useReciprocalFormula",
     "id": "useReciprocalFormula",
-    "placeholder": "Use Reciprocal Formula",
-    "fieldtype": "text",
+    "placeholder": "",
+    "fieldtype": "checkbox",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "options": [{
+        "label": "Use Reciprocal Formula",
+        "id": "useReciprocalFormula"
+      }] 
     },
     "validationType": "string",
     "label": "Use Reciprocal Formula",
@@ -978,32 +1009,34 @@
   {
     "name": "percentageWorked",
     "id": "percentageWorked",
-    "placeholder": "Enter Percentage Worked",
+    "placeholder": "",
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Percentage Worked",
-    "value": "",
+    "value": "0.000000000",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
     "name": "reciprocalTaxCreditAmount",
     "id": "reciprocalTaxCreditAmount",
-    "placeholder": "Enter Reciprocal Tax Credit Amount",
+    "placeholder": "",
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Reciprocal Tax Credit Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "string"
@@ -1012,7 +1045,7 @@
   {
     "name": "nexusIndicator",
     "id": "nexusIndicator",
-    "placeholder": "Enter Nexus Indicator",
+    "placeholder": "",
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
@@ -1029,7 +1062,7 @@
     },
     "validationType": "string",
     "label": "Nexis Indicator",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
@@ -1046,7 +1079,7 @@
       "options": [
         {
           "id": 0,
-          "label": "0 - &lt;None&gt;"
+          "label": "0 - <None>"
         },
         {
           "id": 1,
@@ -1132,7 +1165,7 @@
     },
     "validationType": "string",
     "label": "AdditionalTax",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
@@ -1145,11 +1178,12 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Additional Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "string"
@@ -1162,14 +1196,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 11
     },
     "validationType": "string",
     "label": "Additional Tax Rate",
-    "value": "",
+    "value": "0.000000000",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
@@ -1233,67 +1268,70 @@
     },
     "validationType": "string",
     "label": "Supplemental Code",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string"
     }
   },
   {
-    "name": "baseWages",
-    "id": "baseWages",
-    "placeholder": "Enter Base Wages",
+    "name": "basewage",
+    "id": "basewage",
+    "placeholder": "",
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Base Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
     "name": "yearToDateSupplemental",
     "id": "yearToDateSupplemental",
-    "placeholder": "Enter Year To Date Supplemental",
+    "placeholder": "",
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Year To Date Supplemental",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
     "name": "priorCommissions",
     "id": "priorCommissions",
-    "placeholder": "Enter Prior Commissions",
+    "placeholder": "",
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": []
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Prior Commissions",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "number"
     }
   },
   {
     "name": "payPeriodToDateTax",
     "id": "payPeriodToDateTax",
-    "placeholder": "Enter Pay Period To Date Tax",
+    "placeholder": "",
     "fieldtype": "text",
     "fieldHeader": "Pay Period",
     "fieldlength": {},
