@@ -1,213 +1,175 @@
 [
   {
-    "name": "authority",
-    "id": "authority",
+    "id": "taxCodeUnEmp",
     "placeholder": "Enter Authority",
     "fieldtype": "select",
-    "fieldHeader": "Taxes",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": true
-    },
-    "validationType": "string",
     "label": "Authority",
     "value": "",
+    "errmsg": "Authority is required",
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "labelMapping": false,
+      "globalSearch": false,
+      "resetFields": ["taxTypeUnemp", "formulaUnemp"]
+    },
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
-    "name": "taxTypeUserTaxType",
-    "id": "taxTypeUserTaxType",
+    "id": "taxTypeUnemp",
     "placeholder": "Enter Tax Type",
     "fieldtype": "select",
-    "fieldlength": {},
-    "fieldinfo": {
-      "options": ["test dropdown"]
-    },
-    "validationType": "string",
-    "label": "Tax Type/User Tax Type",
+    "label": "Tax Type",
     "value": "",
+    "errmsg": "Tax Type is required",
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "labelMapping": false,
+      "globalSearch": false,
+      "autoSelectFields": [],
+      "dependentFields": ["taxCode"],
+      "resetFields": ["formulaUnemp"]
+    },
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
-    "name": "formula",
-    "id": "formula",
-    "placeholder": "Enter Formula",
+    "id": "formulaUnemp",
+    "placeholder": "Enter formula",
     "fieldtype": "select",
-    "fieldlength": {},
-    "fieldinfo": {
-      "options": ["test dropdown"]
-    },
-    "validationType": "string",
     "label": "Formula",
     "value": "",
+    "errmsg": "Formula is required",
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "labelMapping": false,
+      "globalSearch": false,
+      "autoSelectFields": [],
+      "dependentFields": ["taxCode", "taxTypeUnemp"],
+      "resetFields": []
+    },
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
-    "name": "residentCode",
     "id": "residentCode",
-    "placeholder": "Enter Resident Code",
+    "placeholder": "Select Resident Code",
     "fieldtype": "select",
+    "label": "Resident Code",
+    "value": "0",
+    "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
-    },
-    "validationType": "string",
-    "label": "Resident Code",
-    "value": "",
-    "validation": {
-      "required": false,
-      "type": "string",
-      "subtype": [
+      "options": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
+          "id": 0,
+          "label": "0 - Resident"
         },
         {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
+          "id": 1,
+          "label": "1 - Nonresident"
+        },
+        {
+          "id": 2,
+          "label": "2 - Sourced Location"
+        },
+        {
+          "id": 3,
+          "label": "3 - Live/Work"
+        },
+        {
+          "id": 4,
+          "label": "4 - Res 1/1"
+        },
+        {
+          "id": 5,
+          "label": "5 - Work 1/1"
+        },
+        {
+          "id": 6,
+          "label": "6 - Live/Work 1/1"
         }
       ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
     }
   },
   {
     "name": "roundingIndicator",
     "id": "roundingIndicator",
-    "placeholder": "Enter Rounding Indicator",
+    "placeholder": "Select Rounding Indicator",
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Default"
+        },
+        {
+          "id": 1,
+          "label": "1 - Cents"
+        },
+        {
+          "id": 2,
+          "label": "2 - Dollars"
+        },
+        {
+          "id": 3,
+          "label": "3 - Down to Dollars"
+        }
+      ]
     },
     "validationType": "string",
     "label": "Rounding Indicator",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
     "name": "withholdingForm",
     "id": "withholdingForm",
-    "placeholder": "Enter Withholding Form",
+    "placeholder": "Select Withholding Form",
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": "0,0",
+          "label": "0,0 - 2019 or earlier Form W-4"
+        },
+        {
+          "id": "1,1",
+          "label": "1,1 - 2020 Form W-4, Multiple Jobs not checked"
+        },
+        {
+          "id": "1,2",
+          "label": "1,2 - 2020 Form W-4, Multiple Jobs checked"
+        }
+      ]
     },
     "validationType": "string",
     "label": "Withholding Form",
-    "value": "",
+    "value": "0,0",
     "validation": {
       "required": false,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "text"
     }
   },
   {
@@ -217,32 +179,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Pay Period Wage",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "number"
     }
   },
   {
@@ -252,32 +197,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Year To Date Wage",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "number"
     }
   },
   {
@@ -287,32 +215,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Year To Date Tax",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -322,32 +232,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Year To Date PWS",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -357,32 +249,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Year To Date OPT PWS",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -392,32 +266,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Risk Classification Code",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 10,
-          "message": "max 10 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -427,32 +283,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Experience Rate",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 11,
-          "message": "max 11 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -462,32 +300,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Maximum Wage Override",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -497,32 +317,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Hours Worked",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 9,
-          "message": "max 9 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -532,32 +334,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Additional Exemption Amount",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 12,
-          "message": "max 12 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -567,32 +351,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Tax Credit Amount",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -602,32 +368,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Actual Year To Date Wages",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -637,32 +385,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "YTD Subject Wages",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -672,68 +402,82 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "YTD Exempt Wages",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
+      "type": "string"
+    }
+  },
+  {
+    "id": "taxexpind",
+    "placeholder": "Select Tax Exempt",
+    "fieldtype": "select",
+    "label": "Tax Exempt",
+    "value": "0",
+    "errmsg": "",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
+          "id": 0,
+          "label": "0 - Non Exempt"
         },
         {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "id": 1,
+          "label": "1 - Exempt Taxes Only"
+        },
+        {
+          "id": 2,
+          "label": "2 - Exempt Wages &amp; Taxes"
         }
       ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
     }
   },
 
   {
-    "name": "selfAdjust",
-    "id": "selfAdjust",
-    "placeholder": "Enter Self Adjust",
+    "name": "selfadj",
+    "id": "selfadj",
+    "placeholder": "Select Self Adjust",
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": "0",
+          "label": "0 - Use Formula Default"
+        },
+        {
+          "id": "1",
+          "label": "1 - Self Adjust for quarterly formula"
+        },
+        {
+          "id": "7",
+          "label": "7 - Do not self adjust"
+        },
+        {
+          "id": "8",
+          "label": "8 - Do not self adjust"
+        },
+        {
+          "id": "9",
+          "label": "9 - Do Not Self Adjust"
+        }
+      ]
     },
     "validationType": "string",
     "label": "Self Adjust",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -743,32 +487,119 @@
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": "0",
+          "label": "0 - &lt;None&gt;"
+        },
+        {
+          "id": "1",
+          "label": "1 - Single"
+        },
+        {
+          "id": "2",
+          "label": "2 - Married"
+        },
+        {
+          "id": "3",
+          "label": "3 - Married"
+        },
+        {
+          "id": "4",
+          "label": "4 - Married"
+        },
+        {
+          "id": "5",
+          "label": "5 - Married"
+        },
+        {
+          "id": "6",
+          "label": "6 - Head of household"
+        },
+        {
+          "id": "7",
+          "label": "7 - Married"
+        },
+        {
+          "id": "8",
+          "label": "8 - Widow or widower"
+        },
+        {
+          "id": "9",
+          "label": "9 - Married"
+        },
+        {
+          "id": "10",
+          "label": "10 - Married"
+        },
+        {
+          "id": "11",
+          "label": "11 - Married"
+        },
+        {
+          "id": "12",
+          "label": "12 - Married"
+        },
+        {
+          "id": "13",
+          "label": "13 - Married"
+        },
+        {
+          "id": "14",
+          "label": "14 - Married"
+        },
+        {
+          "id": "15",
+          "label": "15 - Married"
+        },
+        {
+          "id": "16",
+          "label": "16 - Civil Union"
+        },
+        {
+          "id": "17",
+          "label": "17 - Civil Union"
+        },
+        {
+          "id": "18",
+          "label": "18 - Married"
+        },
+        {
+          "id": "19",
+          "label": "19 - Married"
+        },
+        {
+          "id": "20",
+          "label": "20 - Married"
+        },
+        {
+          "id": "21",
+          "label": "21 - Married"
+        },
+        {
+          "id": "22",
+          "label": "22 - Married"
+        },
+        {
+          "id": "23",
+          "label": "23 - Married"
+        },
+        {
+          "id": "24",
+          "label": "24 - Married"
+        },
+        {
+          "id": "25",
+          "label": "25 - Married"
+        }
+      ]
     },
     "validationType": "string",
     "label": "Marital Status",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -778,32 +609,35 @@
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - &lt;None&gt;</option"
+        },
+        {
+          "id": 1,
+          "label": "1 - Single or Married"
+        },
+        {
+          "id": 2,
+          "label": "2 - Single"
+        },
+        {
+          "id": 3,
+          "label": "3 - Married"
+        },
+        {
+          "id": 4,
+          "label": "4 - Married"
+        }
+      ]
     },
     "validationType": "string",
     "label": "EIC Status",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -813,32 +647,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Exemptions",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 4,
-          "message": "max 4 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -848,32 +664,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Personal Exemptions",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 4,
-          "message": "max 4 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -883,32 +681,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Dependent Exemptions",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 4,
-          "message": "max 4 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -918,32 +698,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Exemptions Amount",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -953,32 +715,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Number of Additional Exemptions",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 4,
-          "message": "max 4 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -988,32 +732,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Calculated Tax",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1023,32 +749,23 @@
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes"
+        }
+      ]
     },
     "validationType": "string",
     "label": "Elected State Indicator",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1063,25 +780,7 @@
     "value": "",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
-      ]
+      "type": "text"
     }
   },
   {
@@ -1091,32 +790,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Estimated Quarterly Gross Wages",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1126,32 +807,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Additional Nonwage Income",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1161,32 +824,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Employers Annual Gross Payroll",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1196,32 +841,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Pay Period To Date",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 4,
-          "message": "max 4 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1231,32 +858,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Month To Date",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 4,
-          "message": "max 4 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1266,32 +875,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Quarter To Date",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 4,
-          "message": "max 4 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1301,32 +892,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Year To Date",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 4,
-          "message": "max 4 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1337,32 +910,14 @@
     "fieldHeader": "Reciprocal",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Participate In Reciprocal Calculation",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 1,
-          "message": "max 1 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1372,32 +927,35 @@
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No Nonresident Certificate"
+        },
+        {
+          "id": 1,
+          "label": "1 - Nonresident Certificate Filed"
+        },
+        {
+          "id": 2,
+          "label": "2 - Advanced Local Courtesy Withholding"
+        },
+        {
+          "id": 3,
+          "label": "3 - State Level Courtesy Withholding"
+        },
+        {
+          "id": 4,
+          "label": "4 - Withholding Affidavit (Res. Certificate)"
+        }
+      ]
     },
     "validationType": "string",
     "label": "Certificate Code",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1407,32 +965,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Use Reciprocal Formula",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 1,
-          "message": "max 1 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1442,32 +982,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Percentage Worked",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 11,
-          "message": "max 11 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1477,32 +999,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Reciprocal Tax Credit Amount",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1512,32 +1016,23 @@
     "fieldtype": "select",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - No"
+        },
+        {
+          "id": 1,
+          "label": "1 - Yes"
+        }
+      ]
     },
     "validationType": "string",
     "label": "Nexis Indicator",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1548,32 +1043,99 @@
     "fieldHeader": "Voluntary",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - &lt;None&gt;"
+        },
+        {
+          "id": 1,
+          "label": "1 - Substitute flat amount"
+        },
+        {
+          "id": 2,
+          "label": "2 - Add flat amount"
+        },
+        {
+          "id": 3,
+          "label": "3 - Substitute percentage"
+        },
+        {
+          "id": 4,
+          "label": "4 - Add percentage"
+        },
+        {
+          "id": 5,
+          "label": "5 - Substitute percentage and flat amount"
+        },
+        {
+          "id": 6,
+          "label": "6 - Add Percent to Calculated Tax"
+        },
+        {
+          "id": 7,
+          "label": "7 - Substitute percentage of Calculated Tax"
+        },
+        {
+          "id": 8,
+          "label": "8 - Substitute voluntary tax"
+        },
+        {
+          "id": 9,
+          "label": "9 - Substitute lump sum tax"
+        },
+        {
+          "id": 10,
+          "label": "10 - Substitute percentage mandatory supplemental"
+        },
+        {
+          "id": 11,
+          "label": "11 - Substitute flat amount (exceed)"
+        },
+        {
+          "id": 12,
+          "label": "12 - Add flat amount (exceed)"
+        },
+        {
+          "id": 13,
+          "label": "13 - Substitute percentage (exceed)"
+        },
+        {
+          "id": 14,
+          "label": "14 - Add percentage (exceed)"
+        },
+        {
+          "id": 15,
+          "label": "15 - Substitute percentage and flat amount (exceed)"
+        },
+        {
+          "id": 16,
+          "label": "16 - Add Percent to Calculated Tax (exceed)"
+        },
+        {
+          "id": 17,
+          "label": "17 - Substitute percentage of Calculated Tax (exceed)"
+        },
+        {
+          "id": 18,
+          "label": "18 - Add Virginia Credit"
+        },
+        {
+          "id": 19,
+          "label": "19 - Add voluntary tax state"
+        },
+        {
+          "id": 22,
+          "label": "22 - Add flat amount"
+        }
+      ]
     },
     "validationType": "string",
     "label": "AdditionalTax",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1583,32 +1145,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Additional Amount",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1618,32 +1162,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Additional Tax Rate",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 11,
-          "message": "max 11 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1654,32 +1180,63 @@
     "fieldHeader": "Supplemental",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["test dropdown"]
+      "options": [
+        {
+          "id": 0,
+          "label": "0 - Regular"
+        },
+        {
+          "id": 1,
+          "label": "1 - Flat rate"
+        },
+        {
+          "id": 2,
+          "label": "2 - Separate aggregation"
+        },
+        {
+          "id": 3,
+          "label": "3 - Rate table"
+        },
+        {
+          "id": 4,
+          "label": "4 - Cumulative"
+        },
+        {
+          "id": 5,
+          "label": "5 - Aggregation with pay periods"
+        },
+        {
+          "id": 6,
+          "label": "6 - Wage-associated"
+        },
+        {
+          "id": 7,
+          "label": "7 - Concurrent"
+        },
+        {
+          "id": 8,
+          "label": "8 - Regular"
+        },
+        {
+          "id": 9,
+          "label": "9 - System selected"
+        },
+        {
+          "id": 10,
+          "label": "10 - Commission"
+        },
+        {
+          "id": 11,
+          "label": "11 - Christmas bonus"
+        }
+      ]
     },
     "validationType": "string",
     "label": "Supplemental Code",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1689,32 +1246,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Base Wages",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1724,32 +1263,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Year To Date Supplemental",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1759,32 +1280,14 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "options": []
     },
     "validationType": "string",
     "label": "Prior Commissions",
     "value": "",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "string"
     }
   },
   {
@@ -1795,32 +1298,15 @@
     "fieldHeader": "Pay Period",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Pay Period To Date Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "number"
     }
   },
   {
@@ -1830,32 +1316,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Pay Period To Date Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "number"
     }
   },
   {
@@ -1865,32 +1334,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Month To Date Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "number"
     }
   },
   {
@@ -1900,32 +1352,15 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Month To Date Tax",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "number"
     }
   },
   {
@@ -1935,67 +1370,33 @@
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Quarter To Date Wages",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
-        }
-      ]
+      "type": "number"
     }
   },
   {
     "name": "quarterToDateTax",
     "id": "quarterToDateTax",
-    "placeholder": "Click heree to add new Quarter to Date Tax",
+    "placeholder": "Quarter to Date Tax",
     "fieldtype": "text",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["Aggregate to Highest Maximum"]
+      "minlength": 1,
+      "maxlength": 14
     },
     "validationType": "string",
     "label": "Quarter To Date Tax",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
-      ]
+      "type": "number"
     }
   },
   {
