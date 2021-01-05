@@ -47,7 +47,7 @@
       },
       {
         "text": "Tax Type/User Tax Type",
-        "datafield": "taxtype",
+        "datafield": "bsitaxtyp",
         "cellsalign": "left",
         "width": "15%",
         "align": "left",
@@ -67,7 +67,7 @@
       },
       {
         "text": "Formula #",
-        "datafield": "formula",
+        "datafield": "formulawhatif",
         "cellsalign": "left",
         "width": "10%",
         "align": "left",
@@ -87,7 +87,7 @@
       },
       {
         "text": "Check Date",
-        "datafield": "checkDate",
+        "datafield": "chkdt",
         "cellsalign": "left",
         "width": "22%",
         "align": "left",
@@ -98,7 +98,7 @@
       },
       {
         "text": "Tax",
-        "datafield": "taxN",
+        "datafield": "taxn",
         "cellsalign": "left",
         "width": "22%",
         "align": "left",
@@ -109,7 +109,7 @@
       },
       {
         "text": "Reg Pen",
-        "datafield": "regPen",
+        "datafield": "regpen",
         "cellsalign": "left",
         "width": "22%",
         "align": "left",
@@ -142,7 +142,7 @@
         "map": "btxttax>btxtaxc>name"
       },
       {
-        "name": "taxtype",
+        "name": "bsitaxtyp",
         "type": "string",
         "map": "btxtaxt>taxtype"
       },
@@ -152,7 +152,7 @@
         "map": "btxtaxt>taxname"
       },
       {
-        "name": "formula",
+        "name": "formulawhatif",
         "type": "string",
         "map": "btxttax>formula"
       },
@@ -162,17 +162,17 @@
         "map": "btxform>title"
       },
       {
-        "name": "checkDate",
+        "name": "chkdt",
         "type": "string",
         "map": "btxttax>id>chkdt"
       },
       {
-        "name": "taxN",
+        "name": "taxn",
         "type": "string",
         "map": "btxttax>id>taxn"
       },
       {
-        "name": "regPen",
+        "name": "regpen",
         "type": "string",
         "map": "btxttax>id>regpen"
       },
@@ -180,8 +180,396 @@
         "name": "empCode",
         "type": "string",
         "map": "btxttax>id>empcode"
+      },
+      {
+        "name": "resicd",
+        "type": "string",
+        "map": "btxttax>resicd"
+      },
+      {
+        "name": "rndind",
+        "type": "string",
+        "map": "btxttax>rndind"
+      },
+      {
+        "name": "fymj",
+        "type": "string",
+        "map": "fymj"
+      },
+      {
+        "name": "ppdwgs",
+        "type": "string",
+        "map": "btxttax>ppdwgs"
+      },
+      {
+        "name": "ytdwgs",
+        "type": "string",
+        "map": "btxttax>ytdwgs"
+      },
+      {
+        "name": "ytdtax",
+        "type": "string",
+        "map": "btxttax>ytdtax"
+      },
+      {
+        "name": "ytdtaxpws",
+        "type": "string",
+        "map": "btxttax>ytdtaxpws"
+      },
+      {
+        "name": "opttaxpws",
+        "type": "string",
+        "map": "btxttax>opttaxpws"
+      },
+      {
+        "name": "opttaxpws",
+        "type": "string",
+        "map": "btxttax>opttaxpws"
+      },
+      {
+        "name": "riskclass",
+        "type": "string",
+        "map": "btxttax>riskclass"
+      },
+      {
+        "name": "exprate",
+        "type": "string",
+        "map": "btxttax>exprate"
+      },
+      {
+        "name": "maxwgovr",
+        "type": "string",
+        "map": "btxttax>maxwgovr"
+      },
+      {
+        "name": "hrswrk",
+        "type": "string",
+        "map": "btxttax>hrswrk"
+      },
+      {
+        "name": "addexmamt",
+        "type": "string",
+        "map": "btxttax>addexmamt"
+      },
+      {
+        "name": "taxcredit",
+        "type": "string",
+        "map": "btxttax>taxcredit"
+      },
+      {
+        "name": "aytdwgs",
+        "type": "string",
+        "map": "btxttax>aytdwgs"
+      },
+      {
+        "name": "ytdsubjwg",
+        "type": "string",
+        "map": "btxttax>ytdsubjwg"
+      },
+      {
+        "name": "ytdExmptWg",
+        "type": "string",
+        "map": "btxttax>ytdExmptWg"
+      },
+      {
+        "name": "taxexpind",
+        "type": "string",
+        "map": "btxttax>taxexpind"
+      },
+      {
+        "name": "selfadj",
+        "type": "string",
+        "map": "btxttax>selfadj"
+      },
+      {
+        "name": "mart",
+        "type": "string",
+        "map": "btxttax>mart"
+      },
+      {
+        "name": "eicstsind",
+        "type": "string",
+        "map": "btxttax>eicstsind"
+      },
+      {
+        "name": "regex",
+        "type": "string",
+        "map": "btxttax>regex"
+      },
+      {
+        "name": "prsex",
+        "type": "string",
+        "map": "btxttax>prsex"
+      },
+      {
+        "name": "depex",
+        "type": "string",
+        "map": "btxttax>depex"
+      },
+      {
+        "name": "regexmamt",
+        "type": "string",
+        "map": "btxttax>regexmamt"
+      },
+      {
+        "name": "addex",
+        "type": "string",
+        "map": "btxttax>addex"
+      },
+      {
+        "name": "calctax",
+        "type": "string",
+        "map": "btxttax>calctax"
+      },
+      {
+        "name": "elcstind",
+        "type": "string",
+        "map": "btxttax>elcstind"
+      },
+      {
+        "name": "taxeffdate",
+        "type": "string",
+        "map": "taxeffdate"
+      },
+      {
+        "name": "estquargrosswages",
+        "type": "string",
+        "map": "btxttax>estquargrosswages"
+      },
+      {
+        "name": "addnwi",
+        "type": "string",
+        "map": "btxttax>addnwi"
+      },
+      {
+        "name": "grossannp",
+        "type": "string",
+        "map": "btxttax>grossannp"
+      },
+      {
+        "name": "pnd",
+        "type": "string",
+        "map": "btxttax>pnd"
+      },
+      {
+        "name": "mnd",
+        "type": "string",
+        "map": "btxttax>mnd"
+      },
+      {
+        "name": "qnd",
+        "type": "string",
+        "map": "btxttax>qnd"
+      },
+      {
+        "name": "ynd",
+        "type": "string",
+        "map": "btxttax>ynd"
+      },
+      {
+        "name": "rcppart",
+        "type": "string",
+        "map": "btxttax>rcppart"
+      },
+      {
+        "name": "certcd",
+        "type": "string",
+        "map": "btxttax>certcd"
+      },
+      {
+        "name": "rcpform",
+        "type": "string",
+        "map": "btxttax>rcpform"
+      },
+      {
+        "name": "pctwrkd",
+        "type": "string",
+        "map": "btxttax>pctwrkd"
+      },
+      {
+        "name": "rcptxcram",
+        "type": "string",
+        "map": "btxttax>rcptxcram"
+      },
+      {
+        "name": "nxind",
+        "type": "string",
+        "map": "btxttax>nxind"
+      },
+      {
+        "name": "addtxcd",
+        "type": "string",
+        "map": "btxttax>addtxcd"
+      },
+      {
+        "name": "addamt",
+        "type": "string",
+        "map": "btxttax>addamt"
+      },
+      {
+        "name": "addtxrt",
+        "type": "string",
+        "map": "btxttax>addtxrt"
+      },
+      {
+        "name": "supcd",
+        "type": "string",
+        "map": "btxttax>supcd"
+      },
+      {
+        "name": "basewage",
+        "type": "string",
+        "map": "btxttax>basewage"
+      },
+      {
+        "name": "ytdsupp",
+        "type": "string",
+        "map": "btxttax>ytdsupp"
+      },
+      {
+        "name": "prrcom",
+        "type": "string",
+        "map": "btxttax>prrcom"
+      },
+      {
+        "name": "ppdtax",
+        "type": "string",
+        "map": "btxttax>ppdtax"
+      },
+      {
+        "name": "pptdwgs",
+        "type": "string",
+        "map": "btxttax>pptdwgs"
+      },
+      {
+        "name": "mtdwgs",
+        "type": "string",
+        "map": "btxttax>mtdwgs"
+      },
+      {
+        "name": "mtdtax",
+        "type": "string",
+        "map": "btxttax>mtdtax"
+      },
+      {
+        "name": "qtdwgs",
+        "type": "string",
+        "map": "btxttax>qtdwgs"
+      },
+      {
+        "name": "qtdtax",
+        "type": "string",
+        "map": "btxttax>qtdtax"
+      },
+      {
+        "name": "ttltxbern",
+        "type": "string",
+        "map": "btxttax>ttltxbern"
+      },
+      {
+        "name": "ttlntxrcnt",
+        "type": "string",
+        "map": "btxttax>ttlntxrcnt"
+      },
+      {
+        "name": "ttlntxecnt",
+        "type": "string",
+        "map": "btxttax>ttlntxecnt"
+      },
+      {
+        "name": "aggind",
+        "type": "string",
+        "map": "btxttax>aggind"
+      },
+      {
+        "name": "altagglim",
+        "type": "string",
+        "map": "btxttax>altagglim"
+      },
+      {
+        "name": "taxcodetype",
+        "type": "string",
+        "map": "taxcodetype"
+      },
+      {
+        "name": "txblhrs_out",
+        "type": "string",
+        "map": "txblhrs_out"
+      },
+      {
+        "name": "rptTax",
+        "type": "string",
+        "map": "rptTax"
+      },
+      {
+        "name": "calcsts",
+        "type": "string",
+        "map": "btxttax>calcsts"
+      },
+      {
+        "name": "txrt",
+        "type": "string",
+        "map": "btxttax>txrt"
+      },
+      {
+        "name": "taxLeftOver",
+        "type": "string",
+        "map": "btxttax>taxLeftOver"
+      },
+      {
+        "name": "subjWages",
+        "type": "string",
+        "map": "btxttax>subjWages"
+      },
+      {
+        "name": "gttype",
+        "type": "string",
+        "map": "btxtaxt>gttype"
+      },
+      {
+        "name": "numberOfPaymentEntries",
+        "type": "string",
+        "map": "numberOfPaymentEntries"
+      },
+      {
+        "name": "currtaxleft",
+        "type": "string",
+        "map": "currtaxleft"
       }
+      
+      
+      
     ]
   },
-  "formdef": ""
+  "formdef":{
+    "title":"What-If Taxes",
+    "subtitle":"",
+    "hasSave":true,
+    "hasDelete":true,
+    "hasSaveAs":true,
+    "hasViewPDF":true,
+    "hasView":false,
+    "hasRecentUsage":false,
+    "formflds":[],
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "usrauthcd",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "bsitaxtyp",
+        "order": 2,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "formulawhatif",
+        "order": 3,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }]
+    }
 }
