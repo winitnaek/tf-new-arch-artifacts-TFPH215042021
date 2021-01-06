@@ -546,7 +546,7 @@
     "subtitle":"",
     "hasSave":true,
     "hasDelete":true,
-    "hasSaveAs":true,
+    "hasSaveAs":false,
     "hasViewPDF":true,
     "hasView":false,
     "hasRecentUsage":false,
