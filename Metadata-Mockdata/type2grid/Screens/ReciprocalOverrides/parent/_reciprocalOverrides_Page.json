@@ -11,7 +11,12 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/reciprocalOverrides",
     "parentConfig": "",
-    "childConfig": [{ "pgid": "reciprocalOverride" }]
+    "childConfig": [{ "pgid": "reciprocalOverride" }],
+    "metaInfo":{
+      "cheader":"Warning",
+      "cbody": "This tool allows the customer to enter information that will be processed by BSI TaxFactory. BSI excludes responsibility for any outcome resulting from customer - entered information.",
+      "okbtnlbl": "Ok"
+  }
   },
   "griddef": {
     "gridtype": "type2",

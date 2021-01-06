@@ -80,7 +80,7 @@
  },
   
  {
-  "id":"formulaGroupOverride",
+  "id":"formulaTitle",
   "placeholder":"Enter Formula",
   "fieldtype":"select",
   "label":"Formula",

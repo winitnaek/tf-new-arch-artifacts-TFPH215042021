@@ -3,8 +3,6 @@
     "id": "upload",
     "placeholder": "Please select a batch test file to upload",
     "fieldtype": "fileUpload",
-    "fieldHeader": "File Upload",
-    "label": "Please select a batch test file to upload",
     "value": "",
     "errmsg": " ",
     "fieldlength": {
