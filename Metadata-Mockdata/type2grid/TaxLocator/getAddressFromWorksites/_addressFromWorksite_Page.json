@@ -61,6 +61,20 @@
             "datafield":"zip",
             "cellsalign":"center",
             "align":"center"
+         },
+         {
+            "text":"County",
+            "datafield":"county",
+            "hidden": true,
+            "cellsalign":"center",
+            "align":"center"
+         },
+         {
+            "text":"Street1",
+            "datafield":"street1",
+            "hidden": true,
+            "cellsalign":"center",
+            "align":"center"
          }
          
       ],
@@ -83,6 +97,14 @@
          },
          {
             "name":"zip",
+            "type":"string"
+         },
+         {
+            "name":"county",
+            "type":"string"
+         },
+         {
+            "name":"street1",
             "type":"string"
          }
       ]

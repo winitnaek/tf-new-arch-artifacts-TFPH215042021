@@ -1,5 +1,30 @@
 [
 	{
+		"id": "reciOverrideFor",
+		"placeholder": "Enter Reciprocal Override",
+		"fieldtype": "select",
+		"label": "Reciprocal Override For",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
+		},
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{ "id": "0", "label": "Local" },
+			{ "id": "1", "label": "State" }
+		  ],
+		  "multiselect": false
+		},
+		"validation": {
+		  "required": false,
+		  "type": "string"
+		}
+	  },
+	{
 		"name":"startDate",
 		"id":"startDate",
 		"placeholder":"Enter Start Date",
@@ -229,6 +254,9 @@
 		"id":"calculationMethod",
 		"placeholder":"Select Calculation Method",
 		"fieldtype":"select",
+		"show": {
+			"reciOverrideFor": ["1"]
+		  },
 		"fieldlength":{
 
 		},
@@ -259,6 +287,44 @@
 					"type":"max",
 					"input":50,
 					"message":"max 50 characters"
+				}
+			]
+		}
+	},
+	{
+		"id":"calculationMthd",
+		"placeholder":"Select Calculation Method",
+		"fieldtype":"select",
+		"show": {
+			"reciOverrideFor": ["0"]
+		  },
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"options":[
+			{ "id": "N", "label": "N-Do not tax nonresident wages in the resident authority" },
+			{ "id": "F", "label": "F-Subtract non-resident tax from the full resident tax (limited by the resident tax times nonresident percent worked)" },
+			{ "id": "P", "label": "P-Subtract percent of the nonresident tax from the full resident tax (limited by the resident tax times nonresident percent worked)" },
+			{ "id": "C", "label": "C-Do not tax nonresident wages in the resident authority and then add to the calculated resident tax a percent of nonresident wages" },
+			{ "id": "A", "label": "A-Tax nonresident wages in both: resident and nonresident authorities" },
+			{ "id": "B", "label": "B-Tax resident authority in lieu of nonresident authority" },
+			{ "id": "D", "label": "D-Turn reciprocal participation off; keep nonresident tax" },
+			{ "id": "S", "label": "S-Subtract full pristine nonresident tax from pristine resident tax" },
+			{ "id": "X", "label": "X-Do not tax nonresident wages in the resident authority and then subtract a percentage of the nonresident tax against the resident tax, using the rate provided" }
+			
+		]
+		},
+		"validationType":"string",
+		"label":"Calculation Method",
+		"value":"",
+		"validation":{
+			"required":false,
+			"type":"string",
+			"subtype":[
+				{
+					"type":"lowercase",
+					"message":""
 				}
 			]
 		}
@@ -303,51 +369,43 @@
 		}
 	},
 	{
-		"name":"showCalcMessage",
-		"id":"showCalcMessage",
-		"placeholder":"",
-		"fieldtype":"text",
-		"fieldlength":{
-
+		"id": "showcalcmesg",
+		"placeholder": "Show calc message",
+		"fieldtype": "checkbox",
+		"label": "",
+		"show": {
+			"reciOverrideFor": ["1"]
+		  },
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 1
 		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "label": "Show calc message",
+			  "id": "showcalcmesg"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Show Calc Message",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":25,
-					"message":"max 25 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "boolean"
 		}
-	},
+	  },
 	{
 		"name":"wageReportingMethod",
 		"id":"wageReportingMethod",
 		"placeholder":"Select Wage Reporting Method",
 		"fieldtype":"select",
-		"fieldlength":{
-		},
+		"show": {
+			"reciOverrideFor": ["1"]
+		  },
 		"fieldinfo":{
 		"options":[
 		"With Holding"
@@ -380,42 +438,33 @@
 		}
 	},
 	{
-		"name":"showReportMessage",
-		"id":"showReportMessage",
-		"placeholder":"",
-		"fieldtype":"text",
-		"fieldlength":{
-
+		"id": "showreportmesg",
+		"placeholder": "Show report message",
+		"fieldtype": "checkbox",
+		"label": "",
+		"show": {
+			"reciOverrideFor": ["1"]
+		  },
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 1
 		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+			{
+			  "label": "Show report message",
+			  "id": "showreportmesg"
+			}
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Show Report Message",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":1,
-					"message":"max 1 characters"
-				}
-			]
+		"validation": {
+		  "required": false,
+		  "type": "boolean"
 		}
-	}
+	  }
 ]

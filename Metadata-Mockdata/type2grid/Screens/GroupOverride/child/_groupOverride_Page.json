@@ -46,7 +46,7 @@
             },
             {
 				"text": "Tax Type",
-				"datafield": "taxname",
+				"datafield": "taxType",
 				"width": "15%",
 				"cellsalign": "center",
 				"align": "center",
@@ -86,7 +86,7 @@
 			},
 			{
 				"text": "Type",
-				"datafield": "type",
+				"datafield": "overtype",
 				"width": "15%",
 				"cellsalign": "center",
 				"align": "center",
@@ -95,16 +95,27 @@
 				"rendererStaticInput": ""
 			},
 			{
-				"text": "Type",
-				"datafield": "overtype",
-				"width": "15%",
+				"text": "Formula",
+				"datafield": "formula",
 				"cellsalign": "center",
+				"width": "15%",
+				"hidden": true,
 				"align": "center",
 				"sortable": true,
-				"hidden":true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
-			}
+			},
+			{
+				"text": "Code",
+				"datafield": "code",
+				"cellsalign": "center",
+				"width": "15%",
+				"hidden": true,
+				"align": "center",
+				"sortable": true,
+				"rendererInput": "",
+				"rendererStaticInput": ""
+            }
 		],
 		"dataFields": [
             {
@@ -123,7 +134,7 @@
 				"map": "btxover>id>taxcode"
             },
             {
-				"name": "taxname",
+				"name": "taxType",
 				"type": "string",
 				"map": "btxover>btxtaxt>taxname"
             },
@@ -133,16 +144,23 @@
 			},
            {
 				"name": "startDate",
-				"type": "date"
+				"type": "date",
+				"map": "btxover>id>startdate"
 			},
 			{
 				"name": "residency",
 				"type": "string"
             },
             {
-				"name": "type",
-				"type": "string"
-			}           			
+				"name": "formula",
+				"type": "string",
+				"map": "btxover>id>formula"
+			},
+			{
+				"name": "code",
+				"type": "string",
+				"map": "btxover>btxtaxt>taxtype"
+			}         			
             
 		]
 	},
