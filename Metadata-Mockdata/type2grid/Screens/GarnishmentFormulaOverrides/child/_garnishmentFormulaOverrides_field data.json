@@ -11,29 +11,11 @@
       "options": []
     },
     "validationType": "string",
-    "label": "Authority to be Overridden",
+    "label": "Authority",
     "value": "",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "text"
     }
   },
   {
@@ -47,29 +29,11 @@
       "options": []
     },
     "validationType": "string",
-    "label": "Garnishment to be Overridden",
+    "label": "Garnishment",
     "value": "",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
-      ]
+      "type": "text"
     }
   },
   {
@@ -84,20 +48,7 @@
     "value": "",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "uppercase",
-          "message": "Worksite needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
-      ]
+      "type": "text"
     }
   },
   {
@@ -112,622 +63,589 @@
     "value": "",
     "validation": {
       "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
-      ]
+      "type": "text"
     }
   },
   {
-    "name": "method",
-    "id": "method",
-    "placeholder": "Enter Method",
+    "id": "inputMethod",
+    "placeholder": "",
     "fieldHeader":"Input Section",
     "fieldtype": "select",
+    "label": "Method",
+    "value": "0",
+    "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["option1", "Option2"]
-    },
-    "validationType": "string",
-    "label": "Method",
-    "value": "",
-    "validation": {
-      "required": true,
-      "type": "string",
-      "subtype": [
+       "options":[
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
+          "id": "0",
+          "label": "0- Use Flat Amount"
         },
         {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
+          "id": "1",
+          "label": "1- Use Disposable Earnings Amount"
+        },
+        {
+          "id": "2",
+          "label": "2- Use Disposable Earnings Amount Reduced by Higher Priority Garnishment"
+        },
+        {
+          "id": "3",
+          "label": "3- Use Gross Wages API Amount"
+        },
+        {
+          "id": "4",
+          "label": "4- Use Gross Wages API Amount Reduced by Higher Priority Garnishments"
+        },
+        {
+          "id": "5",
+          "label": "5- Use Net Wages API Amount"
+        },
+        {
+          "id": "6",
+          "label": "6- Use Net Wages API Amount Reduced by Higher Priority Garnishments"
         }
       ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
     }
   },
   {
-    "name": "flatAmount",
-    "id": "flatAmount",
-    "placeholder": "Enter Flat Amount",
+    "id": "inputFlatAmt",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Flat Amount",
-    "value": "",
+    "value": "0.0",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "percent",
     "id": "percent",
-    "placeholder": "Enter Percent",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Percent",
-    "value": "",
+    "value": "0.000000",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 11
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 11,
-          "message": "max 11 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "priority",
     "id": "priority",
-    "placeholder": "Enter Priority",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Priority",
-    "value": "",
+    "value": "0",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 2
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 2,
-          "message": "max 2 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "method",
-    "id": "method",
-    "placeholder": "Enter Method",
-    "fieldHeader": "Exemption Section",
+    "id": "exemptionMethod",
+    "placeholder": "",
+    "fieldHeader":"Exemption Section",
     "fieldtype": "select",
+    "label": "Method",
+    "value": "No Exemptions",
+    "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["option1", "Option2"]
-    },
-    "validationType": "string",
-    "label": "Method",
-    "value": "",
-    "validation": {
-      "required": true,
-      "type": "string",
-      "subtype": [
+       "options":[
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
+          "id": "No Exemptions",
+          "label": "0- No Exemptions"
         },
         {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
+          "id": "Subtract Flat Amount",
+          "label": "1- Subtract Flat Amount"
+        },
+        {
+          "id": "Subtract Exemption Amount",
+          "label": "2- Subtract Exemption Amount"
+        },
+        {
+          "id": "Subtract Exemption Dependent Amount * Number of Dependents",
+          "label": "3- Subtract Exemption Dependent Amount * Number of Dependents"
+        },
+        {
+          "id": "Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependents",
+          "label": "4- Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependents"
+        },
+        {
+          "id": "Subtract Exemption Dependent Amount * Number of Exemptions",
+          "label": "5- Subtract Exemption Dependent Amount * Number of Exemptions"
+        },
+        {
+          "id": "Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions",
+          "label": "6- Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions"
         }
       ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
     }
   },
   {
-    "name": "exemptionFlatAmount",
-    "id": "exemptionFlatAmount",
-    "placeholder": "Enter Exemption Flat Amount",
+    "id": "exemptionFlatAmt",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Exemption Flat Amount",
-    "value": "",
+    "value": "0.0",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "exemptionAmount",
-    "id": "exemptionAmount",
-    "placeholder": "Enter Exemption Amount",
+    "id": "exemptionAmt",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Exemption Amount",
-    "value": "",
+    "value": "0.0",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "exemptionDependantAmount",
-    "id": "exemptionDependantAmount",
-    "placeholder": "Enter Exemption Dependant Amount",
+    "id": "exemptionDependentAmt",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Exemption Dependent Amount",
-    "value": "",
+    "value": "0.0",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "statementOfExemptions",
-    "id": "statementOfExemptions",
-    "placeholder": "Enter Statement Of Exemptions",
+    "id": "stmtOfExemptions",
+    "placeholder": "",
+    "fieldHeader":"",
     "fieldtype": "select",
+    "label": "Statement of Exemptions",
+    "value": "0",
+    "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
-      "options": ["option1", "Option2"]
-    },
-    "validationType": "string",
-    "label": "Statement Of Exemptions",
-    "value": "",
-    "validation": {
-      "required": true,
-      "type": "string",
-      "subtype": [
+       "options":[
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
+          "id": "0",
+          "label": "Not Required"
         },
         {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "id": "1",
+          "label": "Required"
         }
       ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
     }
   },
   {
-    "name": "method",
-    "id": "method",
-    "fieldHeader": "Calculation Section",
-    "placeholder": "Enter Method",
+    "id": "calculationMethod",
+    "placeholder": "",
+    "fieldHeader":"Calculation Section",
     "fieldtype": "select",
-    "fieldlength": {},
-    "fieldinfo": {
-      "options": ["option1", "Option2"]
-    },
-    "validationType": "string",
     "label": "Method",
-    "value": "",
-    "validation": {
-      "required": true,
-      "type": "string",
-      "subtype": [
+    "value": "No Calculation (Take Result of Input Section and Exemption Section)",
+    "errmsg": "",
+    "fieldlength": {},
+    "fieldinfo": {
+       "options":[
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
+          "id": "No Calculation (Take Result of Input Section and Exemption Section)",
+          "label": "0- No Calculation (Take Result of Input Section and Exemption Section)"
         },
         {
-          "type": "max",
-          "input": 75,
-          "message": "max 75 characters"
+          "id": "Take Calculation Percent",
+          "label": "1- Take Calculation Percent"
+        },
+        {
+          "id": "Take Greater of Calculation Amount or Calculation Percent",
+          "label": "2- Take Greater of Calculation Amount or Calculation Percent"
+        },
+        {
+          "id": "Take Lesser of Calculation Amount or Calculation Percent",
+          "label": "3- Take Lesser of Calculation Amount or Calculation Percent"
+        },
+        {
+          "id": "Take Calculation Percent to Calculation Limit",
+          "label": "4- Take Calculation Percent to Calculation Limit"
+        },
+        {
+          "id": "Take Greater of Calculation Amount or Calculation Percent to Calculation Limit",
+          "label": "5- Take Greater of Calculation Amount or Calculation Percent to Calculation Limit"
+        },
+        {
+          "id": "Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit",
+          "label": "6- Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit"
+        },
+        {
+          "id": "Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount",
+          "label": "7- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount"
+        },
+        {
+          "id": "Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount",
+          "label": "8- Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount"
+        },
+        {
+          "id": "Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit",
+          "label": "9- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit"
+        },
+        {
+          "id": "Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit",
+          "label": "10- Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "calcPercent",
+    "placeholder": "",
+    "fieldtype": "text",
+    "label": "Percent",
+    "value": "0.000000",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 11
+    },
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "calculationPercent",
-    "id": "calculationPercent",
-    "placeholder": "Enter Calculation Percent",
+    "id": "calcAmt",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
-    "label": "Calculation Percent",
-    "value": "",
-    "validation": {
-      "required": true,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 11,
-          "message": "max 11 characters"
-        }
-      ]
-    }
-  },
-  {
-    "name": "calculationAmount",
-    "id": "calculationAmount",
-    "placeholder": "Enter Calculation Amount",
-    "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Calculation Amount",
-    "value": "",
+    "value": "0.00",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "calculationLimit",
-    "id": "calculationLimit",
-    "placeholder": "Enter Calculation Limit",
+    "id": "calcLimit",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Calculation Limit",
-    "value": "",
+    "value": "0.00",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "method",
-    "id": "method",
+    "id": "deductionMethod",
+    "placeholder": "",
     "fieldHeader":"Deduction Section",
-    "placeholder": "Enter Method",
     "fieldtype": "select",
-    "fieldlength": {},
-    "fieldinfo": {
-      "options": ["option1", "Option2"]
-    },
-    "validationType": "string",
     "label": "Method",
-    "value": "",
-    "validation": {
-      "required": true,
-      "type": "string",
-      "subtype": [
+    "value": "No Deductions",
+    "errmsg": "",
+    "fieldlength": {},
+    "fieldinfo": {
+       "options":[
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
+          "id": "No Deductions",
+          "label": "0- No Deductions"
         },
         {
-          "type": "max",
-          "input": 75,
-          "message": "max 75 characters"
+          "id": "Subtract Deduction Flat Amount",
+          "label": "1- Subtract Deduction Flat Amount"
+        },
+        {
+          "id": "Subtract Deduction Amount",
+          "label": "2- Subtract Deduction Amount"
+        },
+        {
+          "id": "Subtract Deduction Dependent Amount * Number of Dependents",
+          "label": "3- Subtract Deduction Dependent Amount * Number of Dependents"
+        },
+        {
+          "id": "Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents",
+          "label": "4- Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents"
         }
       ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
     }
   },
   {
-    "name": "deductionFlatAmount",
-    "id": "deductionFlatAmount",
-    "placeholder": "Enter Deduction Flat Amount",
+    "id": "deductionFlatAmt",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Deduction Flat Amount",
-    "value": "",
+    "value": "0.00",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "deductionAmount",
-    "id": "deductionAmount",
-    "placeholder": "Enter Deduction Amount",
+    "id": "deductionAmt",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Deduction Amount",
-    "value": "",
+    "value": "0.00",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-    "name": "deductionDependentAmount",
-    "id": "deductionDependentAmount",
-    "placeholder": "Enter Deduction Dependent Amount",
+    "id": "deductionDependentAmt",
+    "placeholder": "",
     "fieldtype": "text",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": false
-    },
-    "validationType": "string",
     "label": "Deduction Dependent Amount",
-    "value": "",
+    "value": "0.00",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
     "validation": {
-      "required": true,
-      "type": "text",
+      "required": false,
+      "type": "number",
       "subtype": [
         {
-          "type": "lowercase",
-          "message": ""
+          "type": "typeError",
+          "message": "Must be a number"
         }
-      ],
-      "constraint": [
+      ]
+    }
+  },
+  {
+    "id": "decgarChkbox",
+    "fieldtype": "checkbox",
+    "fieldHeader":"Deceased Garnishment",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
         {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
+          "label": "Process Deceased Garnishment",
+          "id": "decgarChkbox"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    },
+    "disable": ["inputMethod","inputFlatAmt","percent","priority","exemptionMethod","exemptionFlatAmt","exemptionAmt","exemptionDependentAmt","stmtOfExemptions","calculationMethod","calcPercent","calcAmt","calcLimit","deductionMethod","deductionAmt","deductionFlatAmt","deductionDependentAmt"]
+  },
+  {
+    "id": "priority",
+    "placeholder": "",
+    "fieldtype": "text",
+    "label": "Days",
+    "value": "0",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 4
+    },
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
+        }
+      ]
+    }
+  },
+  {
+    "id": "deceasedGarnishment",
+    "placeholder": "",
+    "fieldHeader":"",
+    "fieldtype": "select",
+    "label": "Date of Death",
+    "value": "0",
+    "errmsg": "",
+    "fieldlength": {},
+    "fieldinfo": {
+       "options":[
+        {
+          "id": "0",
+          "label": "After"
         },
         {
-          "type": "max",
-          "input": 14,
-          "message": "max 14 characters"
+          "id": "1",
+          "label": "Within"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "decgarLimAmtChkbox",
+    "fieldtype": "checkbox",
+    "fieldHeader":"",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Deceased Garnishment Limit",
+          "id": "decgarLimAmtChkbox"
+        }
+      ]
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    },
+    "enable":["deceasedGarnishmentLimitAmount"]
+  },
+  {
+    "id": "deceasedGarnishmentLimitAmount",
+    "placeholder": "",
+    "fieldtype": "text",
+    "label": "Days",
+    "value": "0",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }

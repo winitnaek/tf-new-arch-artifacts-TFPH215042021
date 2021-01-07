@@ -1,7 +1,7 @@
 {
    "pgdef":{
       "pgid":"garnishmentFormulasOverride",
-      "pgtitle":"garnishmentFormulaOverrides",
+      "pgtitle":"Garnishment Formula Overrides",
       "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
       "flowtype":"flowtype2",
       "hasAddNew":false,
@@ -25,7 +25,7 @@
       "columns":[
          {
             "text":"Group Code",
-            "datafield":"groupCode",
+            "datafield":"code",
             "cellsalign":"left",
             "width":"50%",
             "align":"left",
@@ -35,7 +35,7 @@
          },
          {
             "text":"Group Name",
-            "datafield":"groupName",
+            "datafield":"name",
             "cellsalign":"left",
             "width":"50%",
             "align":"left",
@@ -46,11 +46,19 @@
       ],
       "dataFields":[
          {
-            "name":"groupName",
+            "name":"code",
             "type":"string"
          },
          {
-            "name":"groupName",
+            "name":"name",
+            "type":"string"
+         },
+         {
+            "name":"id",
+            "type":"string"
+         },
+         {
+            "name":"label",
             "type":"string"
          }
       ]
