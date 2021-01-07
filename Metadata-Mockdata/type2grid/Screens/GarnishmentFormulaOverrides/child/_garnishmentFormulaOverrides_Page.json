@@ -94,12 +94,12 @@
       ]
    },
    "formdef":{
-      "title":"Reciprocal Overrides",
+      "title":"Garnishment Formula Overrides",
       "subtitle":"Formula for ",
       "hasSave":true,
       "hasDelete":true,
       "hasSaveAs":false,
-      "hasViewPDF":false,
+      "hasViewPDF":true,
       "hasView":false,
       "hasRecentUsage":false,
       "formflds":[
