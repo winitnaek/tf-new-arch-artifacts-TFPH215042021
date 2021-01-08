@@ -32,7 +32,7 @@
          },
          {
             "text":"Tax Code",
-            "datafield":"taxCode",
+            "datafield":"authority",
             "cellsalign":"left",
             "align":"left",
             "sortable":true
@@ -72,8 +72,9 @@
             "type":"string"
          },
          {
-            "name":"taxCode",
-            "type":"string"
+            "name":"authority",
+            "type":"string",
+            "map": "taxCode"
          },
          {
             "name":"garnishmentType",
@@ -89,6 +90,102 @@
          },
          {
             "name":"endDate",
+            "type":"string"
+         },
+         {
+            "name":"inputMethod",
+            "type":"string"
+         },
+         {
+            "name":"inputFlatAmt",
+            "type":"string"
+         },
+         {
+            "name":"percent",
+            "type":"string"
+         },
+         {
+            "name":"priority",
+            "type":"string"
+         },
+         {
+            "name":"exemptionMethod",
+            "type":"string"
+         },
+         {
+            "name":"exemptionFlatAmt",
+            "type":"string"
+         },
+         {
+            "name":"exemptionAmt",
+            "type":"string"
+         },
+         {
+            "name":"exemptionDependentAmt",
+            "type":"string"
+         },
+         {
+            "name":"exemptionDependentAmt",
+            "type":"string"
+         },
+         {
+            "name":"stmtOfExemptions",
+            "type":"string"
+         },
+         {
+            "name":"calculationMethod",
+            "type":"string"
+         },
+         {
+            "name":"calcPercent",
+            "type":"string"
+         },
+         {
+            "name":"calcAmt",
+            "type":"string"
+         },
+         {
+            "name":"calcLimit",
+            "type":"string"
+         },
+         {
+            "name":"deductionMethod",
+            "type":"string"
+         },
+         {
+            "name":"deductionFlatAmt",
+            "type":"string"
+         },
+         {
+            "name":"deductionAmt",
+            "type":"string"
+         },
+         {
+            "name":"deductionDependentAmt",
+            "type":"string"
+         },
+         {
+            "name":"decgarChkbox",
+            "type":"string"
+         },
+         {
+            "name":"deceasedGarnishment",
+            "type":"string"
+         },
+         {
+            "name":"dayAfter",
+            "type":"string"
+         },
+         {
+            "name":"decgarLimAmtChkbox",
+            "type":"string"
+         },
+         {
+            "name":"deceasedGarnishmentLimitAmount",
+            "type":"string"
+         },
+         {
+            "name":"garnishmentGroup",
             "type":"string"
          }
       ]
@@ -110,7 +207,7 @@
             "isReadOnlyOnNew":true
          },
          {
-            "id":"taxCode",
+            "id":"authority",
             "order":2,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
@@ -124,7 +221,7 @@
          {
             "id":"garnishmentName",
             "order":4,
-            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
          },    
          {

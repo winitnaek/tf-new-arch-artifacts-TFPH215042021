@@ -1,41 +1,55 @@
 [
   {
-    "name": "authority",
     "id": "authority",
     "placeholder": "Enter Authority",
     "fieldHeader": "Edit Override Information",
     "fieldtype": "select",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": true,
-      "options": []
-    },
-    "validationType": "string",
     "label": "Authority",
     "value": "",
+    "errmsg": "Authority is required",
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "minLength": 1,
+      "labelMapping": false,
+      "globalSearch": false,
+      "resetFields": ["garnishment"]
+    },
     "validation": {
       "required": true,
-      "type": "text"
+      "type": "string"
     }
   },
   {
-    "name": "garnishment",
-    "id": "garnishment",
-    "placeholder": "Enter garnishment",
-    "fieldtype": "select",
-    "fieldlength": {},
-    "fieldinfo": {
-      "typeahead": true,
-      "options": []
+    "id":"garnishmentName",
+    "placeholder":"Enter Garnishment",
+    "fieldtype":"select",
+    "label":"Garnishment",
+    "value":"",
+    "errmsg":"Garnishment is required",
+    "fieldinfo":{
+       "typeahead":true,
+       "isasync":true,
+       "minLength": 1,
+       "labelMapping":true,
+       "globalSearch":false,
+       "fieldDisplayInfo":[
+          {
+             "fieldDescription":"",
+             "field":"label"
+          },
+          {
+             "fieldDescription":"Garnishment ID",
+             "field":"id"
+          }
+       ],
+       "dependentFields": ["authority"]
     },
-    "validationType": "string",
-    "label": "Garnishment",
-    "value": "",
-    "validation": {
-      "required": true,
-      "type": "text"
+    "validation":{
+       "required":true,
+       "type":"string"
     }
-  },
+ },
   {
     "name": "startDate",
     "id": "startDate",
@@ -560,7 +574,7 @@
     "disable": ["inputMethod","inputFlatAmt","percent","priority","exemptionMethod","exemptionFlatAmt","exemptionAmt","exemptionDependentAmt","stmtOfExemptions","calculationMethod","calcPercent","calcAmt","calcLimit","deductionMethod","deductionAmt","deductionFlatAmt","deductionDependentAmt"]
   },
   {
-    "id": "priority",
+    "id": "deceasedGarnishment",
     "placeholder": "",
     "fieldtype": "text",
     "label": "Days",
@@ -581,7 +595,7 @@
     }
   },
   {
-    "id": "deceasedGarnishment",
+    "id": "dayAfter",
     "placeholder": "",
     "fieldHeader":"",
     "fieldtype": "select",
