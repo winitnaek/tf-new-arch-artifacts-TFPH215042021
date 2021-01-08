@@ -195,37 +195,37 @@
     "fieldHeader":"Exemption Section",
     "fieldtype": "select",
     "label": "Method",
-    "value": "No Exemptions",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
        "options":[
         {
-          "id": "No Exemptions",
+          "id": "0",
           "label": "0- No Exemptions"
         },
         {
-          "id": "Subtract Flat Amount",
+          "id": "1",
           "label": "1- Subtract Flat Amount"
         },
         {
-          "id": "Subtract Exemption Amount",
+          "id": "2",
           "label": "2- Subtract Exemption Amount"
         },
         {
-          "id": "Subtract Exemption Dependent Amount * Number of Dependents",
+          "id": "3",
           "label": "3- Subtract Exemption Dependent Amount * Number of Dependents"
         },
         {
-          "id": "Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependents",
+          "id": "4",
           "label": "4- Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependents"
         },
         {
-          "id": "Subtract Exemption Dependent Amount * Number of Exemptions",
+          "id": "5",
           "label": "5- Subtract Exemption Dependent Amount * Number of Exemptions"
         },
         {
-          "id": "Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions",
+          "id": "6",
           "label": "6- Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions"
         }
       ]
@@ -330,53 +330,53 @@
     "fieldHeader":"Calculation Section",
     "fieldtype": "select",
     "label": "Method",
-    "value": "No Calculation (Take Result of Input Section and Exemption Section)",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
        "options":[
         {
-          "id": "No Calculation (Take Result of Input Section and Exemption Section)",
+          "id": "0",
           "label": "0- No Calculation (Take Result of Input Section and Exemption Section)"
         },
         {
-          "id": "Take Calculation Percent",
+          "id": "1",
           "label": "1- Take Calculation Percent"
         },
         {
-          "id": "Take Greater of Calculation Amount or Calculation Percent",
+          "id": "2",
           "label": "2- Take Greater of Calculation Amount or Calculation Percent"
         },
         {
-          "id": "Take Lesser of Calculation Amount or Calculation Percent",
+          "id": "3",
           "label": "3- Take Lesser of Calculation Amount or Calculation Percent"
         },
         {
-          "id": "Take Calculation Percent to Calculation Limit",
+          "id": "4",
           "label": "4- Take Calculation Percent to Calculation Limit"
         },
         {
-          "id": "Take Greater of Calculation Amount or Calculation Percent to Calculation Limit",
+          "id": "5",
           "label": "5- Take Greater of Calculation Amount or Calculation Percent to Calculation Limit"
         },
         {
-          "id": "Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit",
+          "id": "6",
           "label": "6- Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit"
         },
         {
-          "id": "Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount",
+          "id": "7",
           "label": "7- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount"
         },
         {
-          "id": "Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount",
+          "id": "8",
           "label": "8- Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount"
         },
         {
-          "id": "Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit",
+          "id": "9",
           "label": "9- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit"
         },
         {
-          "id": "Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit",
+          "id": "10",
           "label": "10- Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit"
         }
       ]
@@ -455,29 +455,29 @@
     "fieldHeader":"Deduction Section",
     "fieldtype": "select",
     "label": "Method",
-    "value": "No Deductions",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
        "options":[
         {
-          "id": "No Deductions",
+          "id": "0",
           "label": "0- No Deductions"
         },
         {
-          "id": "Subtract Deduction Flat Amount",
+          "id": "1",
           "label": "1- Subtract Deduction Flat Amount"
         },
         {
-          "id": "Subtract Deduction Amount",
+          "id": "2",
           "label": "2- Subtract Deduction Amount"
         },
         {
-          "id": "Subtract Deduction Dependent Amount * Number of Dependents",
+          "id": "3",
           "label": "3- Subtract Deduction Dependent Amount * Number of Dependents"
         },
         {
-          "id": "Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents",
+          "id": "4",
           "label": "4- Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents"
         }
       ]
