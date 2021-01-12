@@ -166,7 +166,7 @@
          },
          {
             "name":"decgarChkbox",
-            "type":"string"
+            "type":"boolean"
          },
          {
             "name":"deceasedGarnishment",
@@ -178,7 +178,7 @@
          },
          {
             "name":"decgarLimAmtChkbox",
-            "type":"string"
+            "type":"boolean"
          },
          {
             "name":"deceasedGarnishmentLimitAmount",

@@ -13,7 +13,7 @@
       "minLength": 1,
       "labelMapping": false,
       "globalSearch": false,
-      "resetFields": ["garnishment"]
+      "resetFields": ["garnishmentType"]
     },
     "validation": {
       "required": true,
@@ -21,7 +21,7 @@
     }
   },
   {
-    "id":"garnishmentName",
+    "id":"garnishmentType",
     "placeholder":"Enter Garnishment",
     "fieldtype":"select",
     "label":"Garnishment",
@@ -33,13 +33,14 @@
        "minLength": 1,
        "labelMapping":true,
        "globalSearch":false,
+       "fieldKey":"id",
        "fieldDisplayInfo":[
           {
              "fieldDescription":"",
              "field":"label"
           },
           {
-             "fieldDescription":"Garnishment ID",
+             "fieldDescription":"Garnishment Id",
              "field":"id"
           }
        ],
@@ -569,7 +570,7 @@
     },
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "boolean"
     },
     "disable": ["inputMethod","inputFlatAmt","percent","priority","exemptionMethod","exemptionFlatAmt","exemptionAmt","exemptionDependentAmt","stmtOfExemptions","calculationMethod","calcPercent","calcAmt","calcLimit","deductionMethod","deductionAmt","deductionFlatAmt","deductionDependentAmt"]
   },
@@ -639,7 +640,7 @@
     },
     "validation": {
       "required": false,
-      "type": "string"
+      "type": "boolean"
     },
     "enable":["deceasedGarnishmentLimitAmount"]
   },

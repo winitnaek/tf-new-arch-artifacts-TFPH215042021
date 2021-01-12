@@ -97,9 +97,7 @@
     "hasView": false,
     "hasRecentUsage": true,
 
-    "formflds": "",
-
-    "fltrflds": [
+    "formflds": [
       {
         "id": "company",
         "order": 1,
@@ -109,21 +107,23 @@
       {
         "id": "companyName",
         "order": 2,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
         "id": "fein",
         "order": 3,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
         "id": "courtesy",
         "order": 4,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       }
-    ]
+    ],
+
+    "fltrflds": ""
   }
 }
