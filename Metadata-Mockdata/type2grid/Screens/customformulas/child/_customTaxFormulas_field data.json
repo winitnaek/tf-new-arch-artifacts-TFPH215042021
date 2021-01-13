@@ -17,13 +17,6 @@
           "type": "uppercase",
           "message": "Tax Code needs to be in uppercase."
         }
-      ],
-      "constraint": [
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
@@ -44,18 +37,6 @@
         {
           "type": "lowercase",
           "message": "Tax Code needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
         }
       ]
     }
@@ -78,24 +59,12 @@
           "type": "lowercase",
           "message": "Tax Code needs to be in uppercase."
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
   {
-    "name": "cmName",
-    "id": "cmName",
+    "name": "calcMethod",
+    "id": "calcMethod",
     "placeholder": "Select Calculation Method",
     "fieldtype": "select",
     "fieldlength": {},
@@ -217,24 +186,12 @@
           "type": "typeError",
           "message": "Tax Rate must be a number."
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 0,
-          "message": "Tax Rate minimum value is 0."
-        },
-        {
-          "type": "max",
-          "input": 9.999999999,
-          "message": "Tax Rate maximum value is 9.999999999."
-        }
       ]
     }
   },
   {
-    "name": "roundingDisplay",
-    "id": "roundingDisplay",
+    "name": "rounding",
+    "id": "rounding",
     "placeholder": "Enter Rounding Value",
     "fieldtype": "select",
     "fieldlength": {},
@@ -300,18 +257,6 @@
           "type": "typeError",
           "message": "Minimum Wage must be a number"
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 0,
-          "message": "Minimum Wage minimum value is 0."
-        },
-        {
-          "type": "max",
-          "input": 99999999999.99,
-          "message": "Minimum Wage maximum value is 99999999999.99."
-        }
       ]
     }
   },
@@ -338,18 +283,6 @@
         {
           "type": "typeError",
           "message": "Maximum Wage must be a number."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 0,
-          "message": "Maximum Wage minimum value is 0."
-        },
-        {
-          "type": "max",
-          "input": 99999999999.99,
-          "message": "Maximum Wage minimum value is 99999999999.99."
         }
       ]
     }
@@ -378,18 +311,6 @@
           "type": "typeError",
           "message": "Maximum Tax must be a number."
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 0,
-          "message": "Maximum Tax minimum value is 0."
-        },
-        {
-          "type": "max",
-          "input": 99999999999.99,
-          "message": "Maximum Tax maximum value is 99999999999.99."
-        }
       ]
     }
   },
@@ -412,18 +333,6 @@
         {
           "type": "typeError",
           "message": "Flat Amount Must be a number"
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 0,
-          "message": "Flat Amount minimum value is 0."
-        },
-        {
-          "type": "max",
-          "input": 99999999999.99,
-          "message": "Flat Amount maximum value is 99999999999.99."
         }
       ]
     }

@@ -25,7 +25,7 @@
     "columns": [
       {
         "text": "Ovr. Type",
-        "datafield": "ovr.Type",
+        "datafield": "ovrTypeDisplay",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -33,7 +33,7 @@
       },
       {
         "text": "R. Tax Code",
-        "datafield": "r.TaxCode",
+        "datafield": "resAuthDisplay",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -41,7 +41,7 @@
       },
       {
         "text": "R. Tax Type",
-        "datafield": "r.TaxType",
+        "datafield": "resTaxTypeDisplay",
         "cellsalign": "",
         "align": "left",
         "sortable": true,
@@ -49,7 +49,7 @@
       },
       {
         "text": "NR. Tax Code",
-        "datafield": "nr.TaxCode",
+        "datafield": "nonResAuthDisplay",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -57,7 +57,7 @@
       },
       {
         "text": "NR. Tax Type",
-        "datafield": "nr.TaxType",
+        "datafield": "nonResTaxTypeDisplay",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -65,7 +65,7 @@
       },
       {
         "text": "Calculation Method",
-        "datafield": "calculationMethod",
+        "datafield": "method",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -81,7 +81,7 @@
       },
       {
         "text": "Display Recip. Calc. Message",
-        "datafield": "displayRecip.Calc.Message",
+        "datafield": "calcMsgDisplay",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -89,7 +89,7 @@
       },
       {
         "text": "Reporting Method",
-        "datafield": "reportingMethod",
+        "datafield": "wgRptDisplay",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -97,7 +97,7 @@
       },
       {
         "text": "Display Report Wage Message",
-        "datafield": "displayReportWageMessage",
+        "datafield": "rptMsgDisplay",
         "cellsalign": "left",
         "align": "left",
         "sortable": true,
@@ -118,31 +118,58 @@
         "align": "left",
         "sortable": true,
         "width": "8%"
+      },
+      {
+        "text": "ovrType",
+        "datafield": "ovrType",
+        "cellsalign": "left",
+        "hidden": true,
+        "align": "left",
+        "sortable": true,
+        "width": "8%"
+      },
+      {
+        "text": "resAuth",
+        "datafield": "resAuth",
+        "cellsalign": "left",
+        "hidden": true,
+        "align": "left",
+        "sortable": true,
+        "width": "8%"
+      },
+      {
+        "text": "nonResAuth",
+        "datafield": "nonResAuth",
+        "cellsalign": "left",
+        "hidden": true,
+        "align": "left",
+        "sortable": true,
+        "width": "8%"
       }
     ],
     "dataFields": [
       {
-        "name": "ovr.Type",
+        "name": "ovrTypeDisplay",
         "type": "string"
       },
       {
-        "name": "r.TaxCode",
+        "name": "resAuthDisplay",
         "type": "string"
       },
       {
-        "name": "r.TaxType",
+        "name": "resTaxTypeDisplay",
         "type": "string"
       },
       {
-        "name": "nr.TaxCode",
+        "name": "nonResAuthDisplay",
         "type": "string"
       },
       {
-        "name": "nr.TaxType",
+        "name": "nonResTaxTypeDisplay",
         "type": "string"
       },
       {
-        "name": "calculationMethod",
+        "name": "method",
         "type": "string"
       },
       {
@@ -150,15 +177,15 @@
         "type": "string"
       },
       {
-        "name": "displayRecip.Calc.Message",
+        "name": "calcMsgDisplay",
         "type": "string"
       },
       {
-        "name": "reportingMethod",
+        "name": "wgRptDisplay",
         "type": "string"
       },
       {
-        "name": "displayReportWageMessage",
+        "name": "rptMsgDisplay",
         "type": "string"
       },
       {
@@ -167,6 +194,18 @@
       },
       {
         "name": "endDate",
+        "type": "string"
+      },
+      {
+        "name": "ovrType",
+        "type": "string"
+      },
+      {
+        "name": "resAuth",
+        "type": "string"
+      },
+      {
+        "name": "nonResAuth",
         "type": "string"
       }
     ]

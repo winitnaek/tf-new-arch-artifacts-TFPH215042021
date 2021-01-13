@@ -1,6 +1,6 @@
 [
 	{
-		"id": "reciOverrideFor",
+		"id": "ovrType",
 		"placeholder": "Enter Reciprocal Override",
 		"fieldtype": "select",
 		"label": "Reciprocal Override For",
@@ -14,14 +14,10 @@
 		  "typeahead": false,
 		  "isasync": false,
 		  "options": [
-			{ "id": "0", "label": "Local" },
+			{ "id": "2", "label": "Local" },
 			{ "id": "1", "label": "State" }
 		  ],
 		  "multiselect": false
-		},
-		"validation": {
-		  "required": false,
-		  "type": "string"
 		}
 	  },
 	{
@@ -37,180 +33,161 @@
 		},
 		"validationType":"string",
 		"label":"Start Date",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"uppercase",
-					"message":"Worksite needs to be in uppercase."
-				}
-			],
-			"constraint":[
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"name":"taxCodeToBeOverridden",
 		"id":"taxCodeToBeOverridden",
 		"placeholder":"Enter Tax Code",
 		"fieldtype":"select",
-		"fieldlength":{
-
-		},
+		"show": {
+			"ovrType": ["1"]
+		  },
 		"fieldinfo":{
 		"typeahead":true,
-		"options":[
-		 
-		]
+		"isasync": true,
+		"autoPopulateFields":  ["residentTaxType"]
 		},
 		"validationType":"string",
 		"label":"Tax Code to be Overridden",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"name":"residentTaxType",
 		"id":"residentTaxType",
 		"placeholder":"Enter Tax Type",
 		"fieldtype":"select",
-		"fieldlength":{
-
-		},
+		"show": {
+			"ovrType": ["1"]
+		  },
 		"fieldinfo":{
+		"typeahead": false,
+		"isasync": true,
 		"options":[
-		"With Holding"
 		]
 		},
 		"validationType":"string",
 		"label":"Resident Tax Type",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"name":"taxCodeToReciprocate",
 		"id":"taxCodeToReciprocate",
 		"placeholder":"Enter Tax Code",
 		"fieldtype":"select",
+		"show": {
+			"ovrType": ["1"]
+		  },
 		"fieldlength":{
 
 		},
 		"fieldinfo":{
-			"typeahead":true
+			"typeahead":true,
+			"isasync": true,
+			"autoPopulateFields":  ["nonresidentTaxType"]
 
 		},
 		"validationType":"string",
 		"label":"Tax Code To Reciprocate",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"name":"nonresidentTaxType",
 		"id":"nonresidentTaxType",
 		"placeholder":"Enter Tax Type",
 		"fieldtype":"select",
+		"show": {
+			"ovrType": ["1"]
+		  },
 		"fieldlength":{
 
 		},
 		"fieldinfo":{
+		"typeahead":false,
+		"isasync": true,
+		"options":[
+		]
+		},
+		"validationType":"string",
+		"label":"Nonresident Tax Type",
+		"value":""
+	},
+	{
+		"id":"taxCodeToBeOverriddenlocal",
+		"placeholder":"Enter Tax Code",
+		"fieldtype":"select",
+		"show": {
+			"ovrType": ["2"]
+		  },
+		"fieldinfo":{
+		"typeahead":true,
+		"isasync": true,
+		"autoPopulateFields":  ["residentTaxTypelocal"]
+		},
+		"validationType":"string",
+		"label":"Tax Code to be Overridden",
+		"value":""
+	},
+	{
+		"name":"residentTaxType",
+		"id":"residentTaxTypelocal",
+		"placeholder":"Enter Tax Type",
+		"fieldtype":"select",
+		"show": {
+			"ovrType": ["2"]
+		  },
+		"fieldinfo":{
+		"typeahead": false,
+		"isasync": true,
+		"options":[
+		]
+		},
+		"validationType":"string",
+		"label":"Resident Tax Type",
+		"value":""
+	},
+	{
+		"name":"taxCodeToReciprocate",
+		"id":"taxCodeToReciprocatelocal",
+		"placeholder":"Enter Tax Code",
+		"fieldtype":"select",
+		"show": {
+			"ovrType": ["2"]
+		  },
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+			"typeahead":true,
+			"isasync": true,
+			"autoPopulateFields":  ["nonresidentTaxTypelocal"]
+
+		},
+		"validationType":"string",
+		"label":"Tax Code To Reciprocate",
+		"value":""
+	},
+	{
+		"name":"nonresidentTaxType",
+		"id":"nonresidentTaxTypelocal",
+		"placeholder":"Enter Tax Type",
+		"fieldtype":"select",
+		"show": {
+			"ovrType": ["2"]
+		  },
+		"fieldlength":{
+
+		},
+		"fieldinfo":{
+		"typeahead":false,
+		"isasync": true,
 		"options":[
 		"test dropdown"
 		]
 		},
 		"validationType":"string",
 		"label":"Nonresident Tax Type",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"name":"endDate",
@@ -225,29 +202,7 @@
 		},
 		"validationType":"string",
 		"label":"End Date",
-		"value":"",
-		"validation":{
-			"required":true,
-			"type":"text",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":8,
-					"message":"max 8 characters"
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"name":"calculationMethod",
@@ -255,48 +210,36 @@
 		"placeholder":"Select Calculation Method",
 		"fieldtype":"select",
 		"show": {
-			"reciOverrideFor": ["1"]
+			"ovrType": ["1"]
 		  },
 		"fieldlength":{
 
 		},
 		"fieldinfo":{
 		"options":[
-		"Do not override"
+	{ "id": "Z", "label" : "Do NOT override calculation method", "disable": ["showcalcmesg"] },
+    { "id": "A", "label" : "A-Tax nonresident wages in both resident and nonresident authorities", "enable": ["showcalcmesg"] },
+    { "id": "B", "label" : "B-Tax nonresident wages only in the resident authority", "enable": ["showcalcmesg"] },
+    { "id": "D", "label" : "D-Turn reciprocal participation off; keep nonresident tax; always set resident tax to zero", "enable": ["showcalcmesg"] },
+    { "id": "F", "label" : "F-Subtract the nonresident tax from the full resident tax (limited by the Res tax times the Nres percent worked)", "enable": ["showcalcmesg"] },
+    { "id": "N", "label" : "N-Do not tax nonresident wages in the resident authority", "enable": ["showcalcmesg"] },
+    { "id": "P", "label" : "P-Using recip. rate, subtract rate times nonresident tax from the full resident tax (limited by the Res tax times the Nres percent worked)", "enable": ["showcalcmesg"] },
+    { "id": "S", "label" : "S-Subtract the nonresident tax from full pristine resident tax", "enable": ["showcalcmesg"] },
+    { "id": "X", "label" : "X-Do not tax nonresident wages in the resident authority; using recip. rate, subtract the rate times nonresident tax from resident tax", "enable": ["showcalcmesg"] }
+
 		]
 		},
 		"validationType":"string",
 		"label":"Calculation Method",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
+		"value":"Do NOT override calculation method"
 	},
 	{
+		"name":"calculationMethod",
 		"id":"calculationMthd",
 		"placeholder":"Select Calculation Method",
 		"fieldtype":"select",
 		"show": {
-			"reciOverrideFor": ["0"]
+			"ovrType": ["2"]
 		  },
 		"fieldlength":{
 
@@ -317,21 +260,11 @@
 		},
 		"validationType":"string",
 		"label":"Calculation Method",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"name":"rate(methodPCAndX)",
-		"id":"rate(methodPCAndX)",
+		"id":"rate",
 		"placeholder":"Select Rate",
 		"fieldtype":"text",
 		"fieldlength":{
@@ -344,29 +277,7 @@
 		},
 		"validationType":"string",
 		"label":"Rate (methods P,C and X)",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":1,
-					"message":"min 1 characters"
-				},
-				{
-					"type":"max",
-					"input":12,
-					"message":"max 12 characters"
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"id": "showcalcmesg",
@@ -374,68 +285,50 @@
 		"fieldtype": "checkbox",
 		"label": "",
 		"show": {
-			"reciOverrideFor": ["1"]
+			"ovrType": ["1"]
 		  },
 		"value": "",
 		"errmsg": " ",
-		"fieldlength": {
-		  "minlength": 1,
-		  "maxlength": 1
-		},
-		"fieldinfo": {
-		  "typeahead": false,
-		  "isasync": false,
-		  "options": [
-			{
-			  "label": "Show calc message",
-			  "id": "showcalcmesg"
-			}
-		  ],
-		  "multiselect": false
-		},
-		"validation": {
-		  "required": false,
-		  "type": "boolean"
-		}
+	  "fieldlength": {
+		"minlength": 1,
+		"maxlength": 1
 	  },
+	  "fieldinfo": {
+		"typeahead": false,
+		"isasync": false,
+		"options": [
+		  {
+			"label": "Show calc message",
+			"id": "showcalcmesg"
+		  }
+		],
+		"multiselect": false
+	  }
+	},
+	  
+	  
 	{
 		"name":"wageReportingMethod",
 		"id":"wageReportingMethod",
 		"placeholder":"Select Wage Reporting Method",
 		"fieldtype":"select",
 		"show": {
-			"reciOverrideFor": ["1"]
+			"ovrType": ["1"]
 		  },
 		"fieldinfo":{
 		"options":[
-		"With Holding"
+			{ "id": "0", "label": "Do NOT override wage reporting method", "disable": ["showreportmesg"] },
+			{ "id": "1", "label": "1 - Report wages based on where the wages are earned", "enable": ["showreportmesg"] },
+			{ "id": "2", "label": "2 - Report wages based on where the wages are taxed", "enable": ["showreportmesg"] },
+			{ "id": "3", "label": "3 - Report nonresident wages to resident and nonresident authority; report resident wages to resident authority", "enable": ["showreportmesg"] },
+			{ "id": "4", "label": "4 - Do not report nonresident wages to either the resident or the nonresident authority", "enable": ["showreportmesg"] },
+			{ "id": "5", "label": "5 - Report all wages to nonresident authority regardless where they are earned. Report resident wages to resident authority", "enable": ["showreportmesg"] }
+		
 			]
 		},
 		"validationType":"string",
 		"label":"Wage Reporting Method",
-		"value":"",
-		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			],
-			"constraint":[
-				{
-					"type":"min",
-					"input":5,
-					"message":"min 5 characters"
-				},
-				{
-					"type":"max",
-					"input":50,
-					"message":"max 50 characters"
-				}
-			]
-		}
+		"value":""
 	},
 	{
 		"id": "showreportmesg",
@@ -443,7 +336,7 @@
 		"fieldtype": "checkbox",
 		"label": "",
 		"show": {
-			"reciOverrideFor": ["1"]
+			"ovrType": ["1"]
 		  },
 		"value": "",
 		"errmsg": " ",
@@ -461,10 +354,6 @@
 			}
 		  ],
 		  "multiselect": false
-		},
-		"validation": {
-		  "required": false,
-		  "type": "boolean"
 		}
 	  }
 ]

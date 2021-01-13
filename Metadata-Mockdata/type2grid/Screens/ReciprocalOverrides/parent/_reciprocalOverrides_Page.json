@@ -30,7 +30,7 @@
     "columns": [
       {
         "text": "Group Code",
-        "datafield": "groupCode",
+        "datafield": "id",
         "cellsalign": "left",
         "width": "50%",
         "align": "left",
@@ -51,7 +51,7 @@
     ],
     "dataFields": [
       {
-        "name": "groupCode",
+        "name": "id",
         "type": "string"
       },
       {

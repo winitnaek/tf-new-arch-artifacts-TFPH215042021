@@ -1,35 +1,28 @@
 [
   {
-    "id": "startdate",
-    "placeholder": "",
+    "id": "startDate",
+    "placeholder": "Enter a Effective Date",
     "fieldtype": "date",
     "label": "Effective Date",
-    "value": "new Date()",
-    "errmsg": "",
+    "value": "",
+    "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
     "validation": {
-      "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "uppercase",
-          "message": "Company Code needs to be in uppercase."
-        }
-      ],
+      "required": false,
+      "type": "date",
       "constraint": [
         {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "type": "currentDate",
+          "message": "Current Date validation message"
         }
       ]
     }

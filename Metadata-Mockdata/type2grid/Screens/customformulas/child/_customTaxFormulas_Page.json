@@ -93,6 +93,30 @@
             "cellsalign":"left",
             "align":"left",
             "width":"8.8889%"
+         },
+         {
+            "text":"calcMethod",
+            "datafield":"calcMethod",
+            "hidden": true,
+            "cellsalign":"left",
+            "align":"left",
+            "width":"8.8889%"
+         },
+         {
+            "text":"rounding",
+            "datafield":"rounding",
+            "hidden": true,
+            "cellsalign":"left",
+            "align":"left",
+            "width":"8.8889%"
+         },
+         {
+            "text":"taxCode",
+            "datafield":"taxCode",
+            "hidden": true,
+            "cellsalign":"left",
+            "align":"left",
+            "width":"8.8889%"
          }
       ],
       "dataFields":[
@@ -142,6 +166,10 @@
          },
          {
             "name":"rescind",
+            "type":"string"
+         },
+         {
+            "name":"calcMethod",
             "type":"string"
          }
       ]
