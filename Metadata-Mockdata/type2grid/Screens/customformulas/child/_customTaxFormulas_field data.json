@@ -152,7 +152,7 @@
     },
     "validationType": "string",
     "label": "Calculation Method",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -219,7 +219,7 @@
     },
     "validationType": "string",
     "label": "Rounding Methods",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
