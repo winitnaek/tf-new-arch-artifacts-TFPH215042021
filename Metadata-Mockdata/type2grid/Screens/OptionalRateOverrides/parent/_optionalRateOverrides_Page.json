@@ -25,9 +25,8 @@
       "columns":[
          {
             "text":"Company Code",
-            "datafield":"companyCode",
+            "datafield":"company",
             "cellsalign":"left",
-            "width":"50%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -37,7 +36,6 @@
             "text":"Company Name",
             "datafield":"companyName",
             "cellsalign":"left",
-            "width":"50%",
             "align":"left",
             "sortable":true,
             "rendererInput":"",
@@ -46,12 +44,20 @@
       ],
       "dataFields":[
          {
-            "name":"companyCode",
+            "name":"company",
             "type":"string"
          },
          {
             "name":"companyName",
             "type":"string"
+         },
+         {
+            "name":"fein",
+            "type":"string"
+         },
+         {
+            "name":"courtesy",
+            "type":"boolean"
          }
       ]
    },

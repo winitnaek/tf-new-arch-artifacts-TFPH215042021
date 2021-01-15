@@ -2,7 +2,7 @@
    "pgdef":{
       "pgid":"optionalRateOverride",
       "pgtitle":"Optional Rate Overrides",
-      "pgsubtitle":"The Following formulas are definded for : ",
+      "pgsubtitle":"",
       "flowtype":"flowtype2",
       "hasAddNew":true,
       "addNewLabel":"Click here to add new Optional Rate Override.",
@@ -29,7 +29,7 @@
             "cellsalign":"left",
             "align":"left",
             "sortable":true,
-            "width":"11%"
+            "rendererStaticInput": "authCodeauthNamerenderer"
          },
          {
             "text":"Tax Type",
@@ -37,7 +37,7 @@
             "cellsalign":"left",
             "align":"left",
             "sortable":true,
-            "width":"11%"
+            "rendererStaticInput":"taxTypeCodeNamerenderer"
          },
          {
             "text":"Formula",
@@ -45,84 +45,105 @@
             "cellsalign":"",
             "align":"left",
             "sortable":true,
-            "width":"11%"
+            "rendererStaticInput":"formulaNamerenderer"
          },
           {
             "text":"Start Date",
-            "datafield":"startDate",
+            "datafield":"startDateDspl",
             "cellsalign":"left",
-            "formatter":"date", 
-            "formatoptions": { "srcformat": "Y/m/d", "newformat": "d/m/Y"},
             "align":"left",
-            "sortable":true,
-            "width":"11%"
+            "sortable":true
          },
          {
             "text":"End Date",
-            "datafield":"endDate",
+            "datafield":"rescindDateDspl",
             "cellsalign":"left",
             "formatter":"date",
             "align":"left",
-            "sortable":true,
-            "width":"11%"
+            "sortable":true
          },
          {
             "text":"Risk Classification Code",
-            "datafield":"Risk Classification Code",
+            "datafield":"riskclass",
             "cellsalign":"left",
             "align":"left",
-            "sortable":true,
-            "width":"11%"
+            "sortable":true
          },
          {
             "text":"Account",
             "datafield":"account",
             "cellsalign":"left",
             "align":"left",
-            "sortable":true,
-            "width":"11%"
+            "sortable":true
          },
          {
             "text":"Optional Rate",
-            "datafield":"optionalRate",
+            "datafield":"exprateDspl",
             "cellsalign":"left",
             "align":"left",
-            "sortable":true,
-            "width":"11%"
+            "sortable":true
          },
          {
             "text":"Override Max Wage",
-            "datafield":"overrideMaxWage",
+            "datafield":"maxwageDspl",
             "cellsalign":"left",
             "align":"left",
-            "sortable":true,
-            "width":"11%"
-         },
-         {
-            "text":"BSI Wage",
-            "datafield":"bsiWage",
-            "cellsalign":"left",
-            "align":"left",
-            "sortable":true,
-            "width":"11%"
+            "sortable":true
          }
 
       ],
       "dataFields":[
          {
             "name":"authorityCode",
-            "type":"string"
+            "type":"string",
+            "map": "btxrate>id>taxcode"
+         },
+         {
+            "name":"authorityName",
+            "type":"string",
+            "map": "btxrate>id>btxtaxc>btxauth>name"
+         },
+         {
+            "name":"orOverrideAuth",
+            "type":"string",
+            "map": "btxrate>id>taxcode"
+         },
+         {
+            "name":"orOverrideAuth",
+            "type":"string",
+            "map": "btxrate>id>taxcode"
          },
          {
             "name":"taxType",
-            "type":"string"
+            "type":"string",
+            "map": "btxrate>btxtaxt>taxtype"
+         },
+         {
+            "name":"orOverrideTaxType",
+            "type":"string",
+            "map": "btxrate>btxtaxt>taxtype"
+         },
+         {
+            "name":"taxName",
+            "type":"string",
+            "map": "btxrate>btxtaxt>taxname"
          },
          {
             "name":"formula",
+            "type":"string",
+            "map": "btxrate>id>formula"
+         },
+         {
+            "name":"orOverrideFormula",
+            "type":"string",
+            "map": "btxrate>id>formula"
+         },
+         {
+            "name":"formulaTitle",
             "type":"string"
          },
          {
-            "name":"startDate",
+            "name":"startdate",
             "type":"string"
          },
          {
@@ -130,25 +151,52 @@
             "type":"string"
          },
          {
-            "name":"riskClassificationCode",
+            "name":"startDateDspl",
             "type":"string"
+         },
+         {
+            "name":"rescindDateDspl",
+            "type":"string"
+         },
+         {
+            "name":"riskclass",
+            "type":"string",
+            "map": "btxrate>id>riskclass"
          },
          {
             "name":"account",
+            "type":"string",
+            "map":"btxrate>account"
+         },
+         {
+            "name":"exprate",
+            "type":"string",
+            "map":"btxrate>exprate"
+         },
+         {
+            "name":"exprateDspl",
             "type":"string"
          },
          {
-            "name":"optionalRate",
-            "type":"string"
+            "name":"maxwage",
+            "type":"string",
+            "map":"btxrate>maxwage"
          },
          {
-            "name":"overrideMaxWage",
+            "name":"maxwageDspl",
             "type":"string"
          },
          {
             "name":"bsiWage",
             "type":"string"
+         },
+         {
+            "name":"orOverrideBsiWage",
+            "type":"string",
+            "map": "bsiWage"
          }
+         
+
       ]
    },
    "formdef":{
@@ -162,19 +210,19 @@
       "hasRecentUsage":false,
       "formflds":[
          {
-            "id":"authorityCode",
+            "id":"orOverrideAuth",
             "order":1,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
          },
          {
-            "id":"taxType",
+            "id":"orOverrideTaxType",
             "order":2,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
          },
          {
-            "id":"formula",
+            "id":"orOverrideFormula",
             "order":3,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
@@ -192,9 +240,9 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"riskClassificationCode",
+            "id":"riskclass",
             "order":6,
-            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
          },
          {
@@ -204,19 +252,19 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"optionalRate",
+            "id":"exprateDspl",
             "order":8,
             "isReadOnlyOnEdit":false,
             "isReadOnlyOnNew":false
          }, 
          {
-            "id":"overrideMaxWage",
+            "id":"maxwage",
             "order":9,
             "isReadOnlyOnEdit":false,
             "isReadOnlyOnNew":false
          },
          {
-            "id":"bsiWage",
+            "id":"orOverrideBsiWage",
             "order":10,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":true
