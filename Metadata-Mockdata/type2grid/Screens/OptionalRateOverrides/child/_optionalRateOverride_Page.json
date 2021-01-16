@@ -204,7 +204,7 @@
       "subtitle":"Formula for ",
       "hasSave":true,
       "hasDelete":true,
-      "hasSaveAs":true,
+      "hasSaveAs":false,
       "hasViewPDF":false,
       "hasView":false,
       "hasRecentUsage":false,

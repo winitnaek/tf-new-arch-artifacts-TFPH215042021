@@ -95,8 +95,7 @@
 					"field":"id"
 				}
 			],
-		   "dependentFields": ["orOverrideAuth","orOverrideTaxType"],
-		   "autoPopulateFields":  ["bsiWage"]
+		   "dependentFields": ["orOverrideAuth","orOverrideTaxType"]
 		},
 		"validation":{
 		   "required":true,
@@ -152,7 +151,10 @@
 		"placeholder": "",
 		"fieldtype": "text",
 		"fieldlength": {},
-		"fieldinfo": {},
+		"fieldinfo": {
+		  "minlength":1,
+		  "maxlength":25
+		},
 		"validationType": "string",
 		"label": "Account",
 		"value": "",
@@ -169,7 +171,7 @@
 		"fieldlength": {},
 		"fieldinfo": {
 		  "minlength":1,
-		  "maxlength":14
+		  "maxlength":11
 		},
 		"validationType": "string",
 		"label": "Optional Rate",
@@ -192,21 +194,6 @@
 		"validationType": "string",
 		"label": "Override Max Wage",
 		"value": "0.00",
-		"validation": {
-		  "required": false,
-		  "type": "string"
-		}
-	  },
-	  {
-		"name": "bsiWage",
-		"id": "bsiWage",
-		"placeholder": "Select BSI Wage",
-		"fieldtype": "text",
-		"fieldlength": {},
-		"fieldinfo": {},
-		"validationType": "string",
-		"label": "BSI Wage (BSI Maintained Formula)",
-		"value": "0",
 		"validation": {
 		  "required": false,
 		  "type": "string"

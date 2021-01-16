@@ -218,6 +218,14 @@
          {
             "name":"paymentType",
             "type":"string"
+         },
+         {
+            "name":"bselectedbirthdate",
+            "type":"boolean"
+         },
+         {
+            "name":"reciprocalCode",
+            "type":"number"
          }
          
       ]
@@ -279,6 +287,18 @@
             "id":"dateOfDeath",
             "order":8,
             "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"contribAlloc",
+            "order":9,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"birthDate",
+            "order":10,
+            "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":true
          }
       ],

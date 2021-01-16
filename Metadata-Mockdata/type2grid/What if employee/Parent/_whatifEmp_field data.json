@@ -321,15 +321,16 @@
       "options": [
         {
           "label": "Reciprocal Calculation",
-          "id": "reciprocalCalculation"
+          "id": "reciprocalCode"
         }
       ],
       "multiselect": false
     },
     "validation": {
       "required": false,
-      "type": "string"
-    }
+      "type": "number"
+    },
+    "enable": ["contribAlloc"]
   },
   {
     "id": "contribAlloc",
@@ -766,7 +767,8 @@
     "validation": {
       "required": false,
       "type": "string"
-    }
+    },
+    "enable": ["birthDate"]
   },
   {
     "name": "birthDate",
@@ -835,30 +837,11 @@
     "placeholder": "Enter Formula Effective Date",
     "fieldtype": "date",
     "fieldlength": {},
-    "validationType": "string",
     "label": "Formula Effective Date",
     "value": "",
     "validation": {
       "required": false,
-      "type": "text",
-      "subtype": [
-        {
-          "type": "lowercase",
-          "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
-      ]
+      "type": "date"
     }
   },
   {
