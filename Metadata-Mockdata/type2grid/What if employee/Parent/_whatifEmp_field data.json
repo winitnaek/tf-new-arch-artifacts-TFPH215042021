@@ -311,10 +311,7 @@
     "fieldtype": "checkbox",
     "value": "",
     "errmsg": " ",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
-    },
+    "fieldlength": {},
     "fieldinfo": {
       "typeahead": false,
       "isasync": false,
@@ -328,7 +325,7 @@
     },
     "validation": {
       "required": false,
-      "type": "number"
+      "type": "string"
     },
     "enable": ["contribAlloc"]
   },
@@ -832,18 +829,25 @@
     }
   },
   {
-    "name": "formulaEffectiveDateYYYYMMDD",
-    "id": "formulaEffectiveDateYYYYMMDD",
-    "placeholder": "Enter Formula Effective Date",
-    "fieldtype": "date",
-    "fieldlength": {},
-    "label": "Formula Effective Date",
-    "value": "",
-    "validation": {
-      "required": false,
-      "type": "date"
-    }
-  },
+		"name": "formulaEffectiveDateYYYYMMDD",
+		"id": "formulaEffectiveDateYYYYMMDD",
+		"label": "Formula Effective Date",
+		"placeholder": "",
+		"fieldtype": "date",
+		"fieldlength": {},
+		"fieldinfo": {},
+		"value": "",
+		"validation": {
+		  "required": false,
+		  "type": "date",
+		  "constraint": [
+			{
+			  "type": "currentDate",
+			  "message": "Current Date validation message"
+			}
+		  ]
+		}
+	  },
   {
     "id": "statEEInd",
     "placeholder": "Select Statutory EE Indicator",
