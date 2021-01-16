@@ -241,7 +241,25 @@
             "order":7,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":true
-         }             
+         },
+         {
+            "id":"deceasedGarnishment",
+            "order":8,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":true
+         } ,
+         {
+            "id":"dayAfter",
+            "order":9,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":true
+         },
+         {
+            "id":"decgarLimAmtChkbox",
+            "order":10,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":true
+         }                
       ],
       "fltrflds":""
    }

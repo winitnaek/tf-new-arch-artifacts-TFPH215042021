@@ -572,7 +572,8 @@
       "required": false,
       "type": "boolean"
     },
-    "disable": ["inputMethod","inputFlatAmt","percent","priority","exemptionMethod","exemptionFlatAmt","exemptionAmt","exemptionDependentAmt","stmtOfExemptions","calculationMethod","calcPercent","calcAmt","calcLimit","deductionMethod","deductionAmt","deductionFlatAmt","deductionDependentAmt"]
+    "disable": ["inputMethod","inputFlatAmt","percent","priority","exemptionMethod","exemptionFlatAmt","exemptionAmt","exemptionDependentAmt","stmtOfExemptions","calculationMethod","calcPercent","calcAmt","calcLimit","deductionMethod","deductionAmt","deductionFlatAmt","deductionDependentAmt"],
+    "enable":["deceasedGarnishment","dayAfter","decgarLimAmtChkbox"]
   },
   {
     "id": "deceasedGarnishment",
@@ -642,7 +643,7 @@
       "required": false,
       "type": "boolean"
     },
-    "enable":["deceasedGarnishmentLimitAmount"]
+    "enable":["deceasedGarnishment","dayAfter","decgarLimAmtChkbox","deceasedGarnishmentLimitAmount"]
   },
   {
     "id": "deceasedGarnishmentLimitAmount",
