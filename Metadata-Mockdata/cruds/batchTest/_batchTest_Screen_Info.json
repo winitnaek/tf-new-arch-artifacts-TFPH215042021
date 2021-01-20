@@ -1,8 +1,9 @@
 {
-  "value": "BT",
+  "value": "TS",
   "label": "Batch Test",
   "desc": "BatchTest",
   "id": "batchTest",
   "type": "page",
-  "link": true
+  "link": true,
+  "section":"Tests"
 }

@@ -1,8 +1,9 @@
 {
-   "value":"CO",
+   "value":"CD",
    "label":"Companies",
    "desc":"Companies",
    "id":"company",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Company Data"
 }

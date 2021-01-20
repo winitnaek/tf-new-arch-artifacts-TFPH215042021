@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"TS",
    "label":"Tax Locator",
    "desc":"Tax Locator",
    "id":"taxLocator",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Tests"
 }

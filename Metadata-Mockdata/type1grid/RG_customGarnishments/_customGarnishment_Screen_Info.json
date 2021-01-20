@@ -1,8 +1,9 @@
 {
-  "value": "CG",
+  "value": "GD",
   "label": "Custom Garnishments",
   "desc": "Custom Garnishments",
   "id": "customGarnishment",
   "type": "comp",
-  "link": true
+  "link": true,
+  "section":"Garnishment Data"
 }

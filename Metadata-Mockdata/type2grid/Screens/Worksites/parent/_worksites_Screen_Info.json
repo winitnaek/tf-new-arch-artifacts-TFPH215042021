@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"CD",
    "label":"Worksites",
    "desc":"Worksites",
    "id":"worksites",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Company Data"
 }

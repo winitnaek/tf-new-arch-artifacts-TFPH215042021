@@ -1,8 +1,9 @@
 {
-   "value":"CP",
+   "value":"PD",
    "label":"Custom Payments",
    "desc":"Custom Payments",
    "id":"customPayments",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section": "Payments Data"
 }

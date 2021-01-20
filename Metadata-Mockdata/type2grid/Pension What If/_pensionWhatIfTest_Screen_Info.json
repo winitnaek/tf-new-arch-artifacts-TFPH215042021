@@ -1,8 +1,9 @@
 {
-   "value":"PWI",
+   "value":"TS",
    "label":"Pension What-If Test",
    "desc":"Pension What-If Test",
    "id":"pensionWhatIfTest",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Tests"
 }

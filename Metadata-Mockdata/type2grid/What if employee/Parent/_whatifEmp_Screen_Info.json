@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"TS",
    "label":"What-If Test",
    "desc":"What-If Test",
    "id":"whatifEmp",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Tests"
 }

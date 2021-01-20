@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"GD",
    "label":"Reciprocal Overrides",
    "desc":"Reciprocal Overrides",
    "id":"reciprocalOverrides",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section": "Groups Data"
 }

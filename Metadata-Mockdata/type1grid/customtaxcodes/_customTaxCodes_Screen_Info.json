@@ -4,5 +4,6 @@
    "desc":"Custom Tax Codes",
    "id":"customTaxCodes",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section": "Custom Tax Data"
 }

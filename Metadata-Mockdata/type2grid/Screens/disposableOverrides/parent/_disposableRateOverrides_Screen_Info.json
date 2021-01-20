@@ -1,9 +1,10 @@
 {
-   "value":"CF",
+   "value":"GD",
    "label":"Disposable Overrides",
    "desc":"Disposable Overrides",
    "id":"disposableRateOverrides",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Garnishment Data"
 
 }

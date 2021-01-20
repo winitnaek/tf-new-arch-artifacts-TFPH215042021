@@ -1,9 +1,10 @@
 {
-   "value":"CF",
+   "value":"CT",
    "label":"Custom Garnishment Formulas",
    "desc":"Custom Garnishment Formulas",
    "id":"customGarnishmentFormulas",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section": "Custom Tax Data"
 
 }

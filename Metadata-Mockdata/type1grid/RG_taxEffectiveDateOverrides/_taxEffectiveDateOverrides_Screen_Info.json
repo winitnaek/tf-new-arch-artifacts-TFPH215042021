@@ -1,8 +1,9 @@
 {
-  "value": "TEDO",
+  "value": "MT",
   "label": "Tax Effective Date Overrides",
   "desc": "Tax Effective Date Overrides",
   "id": "taxEffectiveDateOverrides",
   "type": "comp",
-  "link": true
+  "link": true,
+  "section":"Tools"
 }

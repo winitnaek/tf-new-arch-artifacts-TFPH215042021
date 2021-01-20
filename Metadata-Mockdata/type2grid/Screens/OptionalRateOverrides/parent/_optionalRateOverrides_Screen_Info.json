@@ -1,8 +1,9 @@
 {
-   "value":"OO",
+   "value":"CD",
    "label":"Optional Rate Overrides",
    "desc":"Optional Rate Overrides",
    "id":"optionalRateOverrides",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Company Data"
 }

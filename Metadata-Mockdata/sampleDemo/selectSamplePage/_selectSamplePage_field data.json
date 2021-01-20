@@ -898,7 +898,7 @@
     }
   },
   {
-    "id": "stateAbbreviation",
+    "id": "state",
     "placeholder": "",
     "fieldtype": "select",
     "label": "State Abbreviation",

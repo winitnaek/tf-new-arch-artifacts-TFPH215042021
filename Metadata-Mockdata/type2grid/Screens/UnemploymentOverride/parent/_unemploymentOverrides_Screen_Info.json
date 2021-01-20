@@ -1,8 +1,9 @@
 {
-   "value":"UO",
+   "value":"CD",
    "label":"Unemployment Overrides",
    "desc":"Unemployment Overrides",
    "id":"unemploymentOverrides",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Company Data"
 }

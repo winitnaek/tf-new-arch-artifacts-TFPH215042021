@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"CT",
    "label":"Custom Formulas",
    "desc":"Custom Formulas",
    "id":"customFormulas",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section": "Custom Tax Data"
 }

@@ -4,5 +4,6 @@
   "desc": "Mapping Tools",
   "id": "mappingTools",
   "type": "page",
-  "link": true
+  "link": true,
+  "section": "Tools"
 }
