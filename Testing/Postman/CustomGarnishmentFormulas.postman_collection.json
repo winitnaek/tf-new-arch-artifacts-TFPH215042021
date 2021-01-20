@@ -1,0 +1,387 @@
+{
+	"info": {
+		"_postman_id": "2d049f5a-fe0d-478e-88ed-12a7277fdfdf",
+		"name": "CustomGarnishmentFormulas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getCustomGarnishmentFormulaDetail",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",   \r\n   \"usrtax\":\"CG\",\r\n   \"taxcode\":\"CUSTTAX\",\r\n   \"startdate\":\"09/03/2020\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/getCustomGarnishmentFormulaDetail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getCustomGarnishmentFormulaDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "autocompleteCustomGarnishments",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",    \r\n   \"taxcode\":\"CUSTTAX\",\r\n   \"pattern\":\"%\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/autocompleteCustomGarnishments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"autocompleteCustomGarnishments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCustomGarnishmentFormula",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",   \r\n   \"usrtax\":\"CG\",\r\n   \"taxcode\":\"CTC\",\r\n   \"startdate\":\"12/30/2019\",\r\n   \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/deleteCustomGarnishmentFormula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"deleteCustomGarnishmentFormula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveCustomGarnishmentFormula",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dataset\" : \"DEFAULT\",\r\n  \"usrTax\" : \"CG\",\r\n  \"taxCode\" : \"CUSTTAX\",  \r\n  \"startDate\" : \"09/03/2021\",\r\n  \"endDate\" : \"12/31/2021\",\r\n  \"inputMethod\" : \"1\",\r\n  \"inputFlatAmount\" : \"1.00\",\r\n  \"inputPercent\" : \"1.000000000\",\r\n  \"inputPriority\" : \"1\", \r\n  \"exemptionMethod\" : \"3\",\r\n  \"exemptionFlatAmount\" : \"0.00\",\r\n  \"exemptionAmount\" : \"0.00\",\r\n  \"exemptionDependentAmount\" : \"0.00\", \r\n  \"calculationMethod\" : \"4\",\r\n  \"calculationPercent\" : \"0.000000000\",\r\n  \"calculationAmount\" : \"0.00\",\r\n  \"calculationLimit\" : \"0.00\", \r\n  \"deductionMethod\" : \"4\",\r\n  \"deductionFlatAmount\" : \"0.00\",\r\n  \"deductionAmount\" : \"0.00\",\r\n  \"deductionDependentAmount\" : \"0.00\", \r\n  \"stmtOfException\" : \"0\",\r\n  \"userId\":\"TF11\",\r\n  \"editMode\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/saveCustomGarnishmentFormula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"saveCustomGarnishmentFormula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generateCustomGarnishmentFormulaPDF",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dataset\" : \"DEFAULT\",\r\n  \"usrTax\" : \"CG\",\r\n  \"garnishmentName\" : \"cg\",\r\n  \"taxCode\" : \"CUSTTAX\",  \r\n  \"startDate\" : \"09/03/2021\",\r\n  \"endDate\" : \"12/31/2021\",\r\n  \"inputMethod\" : \"1\",\r\n  \"inputFlatAmount\" : \"1.00\",\r\n  \"inputPercent\" : \"1.000000000\",\r\n  \"inputPriority\" : \"1\", \r\n  \"exemptionMethod\" : \"3\",\r\n  \"exemptionFlatAmount\" : \"0.00\",\r\n  \"exemptionAmount\" : \"0.00\",\r\n  \"exemptionDependentAmount\" : \"0.00\", \r\n  \"calculationMethod\" : \"4\",\r\n  \"calculationPercent\" : \"0.000000000\",\r\n  \"calculationAmount\" : \"0.00\",\r\n  \"calculationLimit\" : \"0.00\", \r\n  \"deductionMethod\" : \"4\",\r\n  \"deductionFlatAmount\" : \"0.00\",\r\n  \"deductionAmount\" : \"0.00\",\r\n  \"deductionDependentAmount\" : \"0.00\", \r\n  \"stmtOfException\" : \"0\"\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/generateCustomGarnishmentFormulaPDF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"generateCustomGarnishmentFormulaPDF"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateCustomGarnishmentFormula",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dataset\" : \"DEFAULT\",\r\n  \"usrTax\" : \"CG\",\r\n  \"taxCode\" : \"CUSTTAX\",  \r\n  \"startDate\" : \"09/03/2020\",\r\n  \"endDate\" : \"12/31/2020\",\r\n  \"inputMethod\" : \"1\",\r\n  \"inputFlatAmount\" : \"1.00\",\r\n  \"inputPercent\" : \"1.000000000\",\r\n  \"inputPriority\" : \"1\", \r\n  \"exemptionMethod\" : \"3\",\r\n  \"exemptionFlatAmount\" : \"0.00\",\r\n  \"exemptionAmount\" : \"0.00\",\r\n  \"exemptionDependentAmount\" : \"0.00\", \r\n  \"calculationMethod\" : \"4\",\r\n  \"calculationPercent\" : \"0.000000000\",\r\n  \"calculationAmount\" : \"0.00\",\r\n  \"calculationLimit\" : \"0.00\", \r\n  \"deductionMethod\" : \"4\",\r\n  \"deductionFlatAmount\" : \"0.00\",\r\n  \"deductionAmount\" : \"0.00\",\r\n  \"deductionDependentAmount\" : \"0.00\", \r\n  \"stmtOfException\" : \"0\",\r\n  \"userId\":\"TF11\",\r\n  \"editMode\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/saveCustomGarnishmentFormula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"saveCustomGarnishmentFormula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomGarnishmentFormulas",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"dataset\":\"DEFAULT\",   \r\n   \"customTaxCode\":\"CTC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/TaxCodeService/getCustomGarnishmentFormulas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"TaxCodeService",
+						"getCustomGarnishmentFormulas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
