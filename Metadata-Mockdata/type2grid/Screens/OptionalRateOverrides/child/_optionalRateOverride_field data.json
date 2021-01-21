@@ -1,22 +1,14 @@
 [
 	{
-		"name": "startDateDspl",
 		"id": "startDateDspl",
-		"label": "Start Date",
 		"placeholder": "",
 		"fieldtype": "date",
-		"fieldlength": {},
-		"fieldinfo": {},
+		"label": "Start Date:",
 		"value": "",
+		"errmsg": "From Date is required",
 		"validation": {
-		  "required": false,
-		  "type": "date",
-		  "constraint": [
-			{
-			  "type": "currentDate",
-			  "message": "Current Date validation message"
-			}
-		  ]
+		  "required": true,
+		  "type": "date"
 		}
 	  },
 	  {

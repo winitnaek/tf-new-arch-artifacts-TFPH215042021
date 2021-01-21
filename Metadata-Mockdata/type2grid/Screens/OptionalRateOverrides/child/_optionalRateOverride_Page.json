@@ -204,7 +204,7 @@
       "subtitle":"Formula for ",
       "hasSave":true,
       "hasDelete":true,
-      "hasSaveAs":false,
+      "hasSaveAs":true,
       "hasViewPDF":false,
       "hasView":false,
       "hasRecentUsage":false,
@@ -228,7 +228,7 @@
             "isReadOnlyOnNew":false
          },
          {
-            "id":"startDate",
+            "id":"startDateDspl",
             "order":4,
             "isReadOnlyOnEdit":true,
             "isReadOnlyOnNew":false
