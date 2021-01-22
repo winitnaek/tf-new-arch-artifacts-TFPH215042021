@@ -1,0 +1,291 @@
+{
+	"info": {
+		"_postman_id": "568838f6-94a4-4c48-b252-5e47c21ed2f1",
+		"name": "CustomNexusData",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getCompanyList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"companies\",\r\n      \"dataset\":\"DEFAULT\"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/getCompanyList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"getCompanyList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomNexusList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{     \r\n      \"dataset\":\"DEFAULT\",    \r\n      \"companyCode\":\"FB11\"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/getCustomNexusList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"getCustomNexusList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "autocompleteCustNexusAuthorities",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{     \r\n      \"dataset\":\"DEFAULT\",    \r\n      \"pattern\":\"%\"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/autocompleteCustNexusAuthorities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"autocompleteCustNexusAuthorities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCustomNexusData",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{     \r\n      \"dataset\":\"DEFAULT\",    \r\n      \"company\":\"FB11\",\r\n      \"authority1\":\"BSI00080000\"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/deleteCustomNexusData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"deleteCustomNexusData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveCustomNexusData",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n {\r\n    \"id\" : {\r\n      \"dataset\" : \"DEFAULT\",\r\n      \"company\" : \"FB11\",\r\n      \"authority1\" : \"BSI00080000\",        \r\n      \"userId\" : \"TF11\"\r\n    },  \r\n   \r\n    \"nxind\" : 2,\r\n    \"startdate\" : \"1/21/2021\",\r\n    \"rescind\" : \"12/31/2222\",\r\n    \"editMode\" : 1\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/saveCustomNexusData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"saveCustomNexusData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateCustomNexusData",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n {\r\n    \"id\" : {\r\n      \"dataset\" : \"DEFAULT\",\r\n      \"company\" : \"FB11\",\r\n      \"authority1\" : \"BSI00080000\",        \r\n      \"userId\" : \"TF11\"\r\n    },  \r\n   \r\n    \"nxind\" : 2,\r\n    \"startdate\" : \"1/21/2021\",\r\n    \"rescind\" : \"12/31/2021\",\r\n    \"editMode\" : 2\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/CompanyService/saveCustomNexusData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"CompanyService",
+						"saveCustomNexusData"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
