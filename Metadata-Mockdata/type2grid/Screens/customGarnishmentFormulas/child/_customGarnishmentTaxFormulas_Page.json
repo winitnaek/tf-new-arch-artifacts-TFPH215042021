@@ -28,7 +28,6 @@
         "text": "Custom Garnishment Code",
         "datafield": "usrTax",
         "cellsalign": "center",
-        "width": "25%",
         "align": "center",
         "sortable": true,
         "rendererInput": "",
@@ -37,7 +36,6 @@
       {
         "text": "Custom Garnishment Name",
         "datafield": "garnishmentName",
-        "width": "25%",
         "cellsalign": "center",
         "align": "center",
         "sortable": true,
@@ -48,7 +46,6 @@
         "text": "Start Date",
         "datafield": "startDate",
         "cellsalign": "center",
-        "width": "25%",
         "align": "center",
         "sortable": true,
         "rendererInput": "",
@@ -57,7 +54,6 @@
       {
         "text": "End Data",
         "datafield": "endDate",
-        "width": "25%",
         "cellsalign": "center",
         "align": "center",
         "sortable": true,

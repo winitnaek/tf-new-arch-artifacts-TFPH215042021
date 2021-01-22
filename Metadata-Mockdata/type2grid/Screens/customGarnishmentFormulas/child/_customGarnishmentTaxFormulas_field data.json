@@ -22,69 +22,38 @@
     }
   },
   {
-    "name": "Start Date",
+    "name": "startDate",
     "id": "startDate",
-    "placeholder": "Enter Start Date",
+    "label": "Start Date",
+    "placeholder": "",
     "fieldtype": "date",
     "fieldlength": {},
     "fieldinfo": {},
-    "validationType": "string",
-    "label": "Start Date",
     "value": "",
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "Date",
-          "message": "Please enter a Start Date."
-        }
-      ],
+      "type": "date",
       "constraint": [
         {
-          "type": "min",
-          "input": 8,
-          "message": "min 8 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "type": "currentDate",
+          "message": "Current Date validation message"
         }
       ]
     }
   },
   {
-    "name": "End Date",
+    "name": "endDate",
     "id": "endDate",
-    "placeholder": "Enter End Date",
+    "placeholder": "",
     "fieldtype": "date",
     "fieldlength": {},
     "fieldinfo": {},
     "validationType": "string",
     "label": "End Date",
-    "value": "12/31/9999",
+    "value": "9999-12-31",
     "validation": {
       "required": true,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "Date",
-          "message": "Please enter an End Date."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 8,
-          "message": "min 8 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
-      ]
+      "type": "text"
     }
   },
   {
@@ -93,37 +62,37 @@
     "fieldtype": "select",
     "label": "Method",
     "fieldHeader": "Input Section",
-    "value": "Use Flat Amount",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
       "options":[
         {
-           "id":"Use Flat Amount",
+           "id":"0",
            "label":"0- Use Flat Amount"
         },
         {
-           "id":"Use Disposable Earnings Amount",
+           "id":"1",
            "label":"1- Use Disposable Earnings Amount"
         },
         {
-           "id":"Use Disposable Earnings Amount Reduced by Higher Priority Garnishment",
+           "id":"2",
            "label":"2- Use Disposable Earnings Amount Reduced by Higher Priority Garnishment"
         },
         {
-           "id":"Use Gross Wages API Amount",
+           "id":"3",
            "label":"3- Use Gross Wages API Amount"
         },
         {
-           "id":"Use Gross Wages API Amount Reduced by Higher Priority Garnishments",
+           "id":"4",
            "label":"4- Use Gross Wages API Amount Reduced by Higher Priority Garnishments"
         },
         {
-           "id":"Use Net Wages API Amount",
+           "id":"5",
            "label":"5- Use Net Wages API Amount"
         },
         {
-           "id":"Use Net Wages API Amount Reduced by Higher Priority Garnishments",
+           "id":"6",
            "label":"6- Use Net Wages API Amount Reduced by Higher Priority Garnishments"
         }
      ]
@@ -190,24 +159,24 @@
     "fieldlength": {},
     "fieldinfo": {
       "options": [
-        { "id": "0", "label": "No Exemptions" },
-        { "id": "1", "label": "Subtract Flat Amount" },
-        { "id": "2", "label": "Subtract Exemption Amount" },
+        { "id": "0", "label": "0- No Exemptions" },
+        { "id": "1", "label": "1- Subtract Flat Amount" },
+        { "id": "2", "label": "2- Subtract Exemption Amount" },
         {
           "id": "3",
-          "label": "Subtract Exemption Dependent Amount * Number of Dependents"
+          "label": "3- Subtract Exemption Dependent Amount * Number of Dependents"
         },
         {
           "id": "4",
-          "label": "Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependent"
+          "label": "4- Subtract Exemption Amount and Exemption Dependent Amount * Number of Dependent"
         },
         {
           "id": "5",
-          "label": "Subtract Exemption Dependent Amount * Number of Exemptions"
+          "label": "5- Subtract Exemption Dependent Amount * Number of Exemptions"
         },
         {
           "id": "6",
-          "label": "Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions"
+          "label": "6- Subtract Exemption Amount and Exemption Dependent Amount * Number of Exemptions"
         }
       ]
     },
@@ -286,50 +255,50 @@
     "fieldHeader": "Calculation Section",
     "fieldtype": "select",
     "label": "Method",
-    "value": "No Calculation (Take Result of Input Section and Exemption Section)",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
        "options":[
          {
-           "id": "No Calculation (Take Result of Input Section and Exemption Section)",
+           "id": "0",
            "label": "0- No Calculation (Take Result of Input Section and Exemption Section)"
          },
-         { "id": "Take Calculation Percent", "label": "1- Take Calculation Percent" },
+         { "id": "1", "label": "1- Take Calculation Percent" },
          {
-           "id": "Take Greater of Calculation Amount or Calculation Percent",
+           "id": "2",
            "label": "2- Take Greater of Calculation Amount or Calculation Percent"
          },
          {
-           "id": "Take Lesser of Calculation Amount or Calculation Percent",
+           "id": "3",
            "label": "3- Take Lesser of Calculation Amount or Calculation Percent"
          },
          {
-           "id": "Take Calculation Percent to Calculation Limit",
+           "id": "4",
            "label": "4- Take Calculation Percent to Calculation Limit"
          },
          {
-           "id": "Take Greater of Calculation Amount or Calculation Percent to Calculation Limit",
+           "id": "5",
            "label": "5- Take Greater of Calculation Amount or Calculation Percent to Calculation Limit"
          },
          {
-           "id": "Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit",
+           "id": "6",
            "label": "6- Take Lesser of Calculation Amount or Calculation Percent to Calculation Limit"
          },
          {
-           "id": "Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount",
+           "id": "7",
            "label": "7- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount"
          },
          {
-           "id": "Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount",
+           "id": "8",
            "label": "8- Take Lesser of Calculation Percent or Amount that Exceeds Calculation Amount"
          },
          {
-           "id": "Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit",
+           "id": "9",
            "label": "9- Take Greater of Calculation Percent or Amount that Exceeds Calculation Amount to Limit"
          },
          {
-           "id": "Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit",
+           "id": "10",
            "label": "10- Take lesser of Calculation Percent or Amount that exceeds Calculation Amount to Limit"
          }
        ]
@@ -390,16 +359,16 @@
     "fieldtype": "select",
     "fieldHeader": "Deduction Section",
     "label": "Method",
-    "value": "No Deductions",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {},
     "fieldinfo": {
        "options": [
-         { "id": "No Deductions", "label": "0- No Deductions" },
-         { "id": "Subtract Deduction Flat Amount", "label": "1- Subtract Deduction Flat Amount" },
-         { "id": "Subtract Deduction Amount", "label": "2- Subtract Deduction Amount" },                                                    
-         { "id": "Subtract Deduction Dependent Amount * Number of Dependents", "label": "3- Subtract Deduction Dependent Amount * Number of Dependents" },
-         { "id": "Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents", "label": "4- Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents" }
+         { "id": "0", "label": "0- No Deductions" },
+         { "id": "1", "label": "1- Subtract Deduction Flat Amount" },
+         { "id": "2", "label": "2- Subtract Deduction Amount" },                                                    
+         { "id": "3", "label": "3- Subtract Deduction Dependent Amount * Number of Dependents" },
+         { "id": "4", "label": "4- Subtract Deduction Amount and Deduction Dependent Amount * Number of Dependents" }
        ]
     },
     "validation": {
