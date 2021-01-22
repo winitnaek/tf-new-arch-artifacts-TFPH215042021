@@ -14,7 +14,8 @@
 
     "fieldinfo": {
       "typeahead": true,
-      "isasync": true
+      "isasync": true,
+      "minLength": 1
     },
     "validation": {
       "required": true,
@@ -107,11 +108,14 @@
     "id": "inputFlatAmount",
     "placeholder": "Enter the Flat Amount",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Flat Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "number"
@@ -122,11 +126,14 @@
     "id": "inputPercent",
     "placeholder": "Enter the percentage",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Percent",
-    "value": "",
+    "value": "0.000000",
     "validation": {
       "required": false,
       "type": "number"
@@ -137,11 +144,14 @@
     "id": "inputPriority",
     "placeholder": "Enter the priority",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":2
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Priority",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "number"
@@ -190,11 +200,14 @@
     "id": "exemptionFlatAmount",
     "placeholder": "Enter the Exemption Flat Amount",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Exemption Flat Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "number"
@@ -205,11 +218,14 @@
     "id": "exemptionAmount",
     "placeholder": "Enter the Exemption Amount",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Exemption Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "number"
@@ -220,11 +236,14 @@
     "id": "exemptionDependentAmount",
     "placeholder": "Enter the Exemption Dependent Amount",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Exemption Dependent Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "number"
@@ -313,11 +332,14 @@
     "id": "calculationPercent",
     "placeholder": "Enter the Calculation Percent",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":11
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Calculation Percent",
-    "value": "",
+    "value": "0.000000",
     "validation": {
       "required": false,
       "type": "number"
@@ -328,11 +350,14 @@
     "id": "calculationAmount",
     "placeholder": "Enter the Calculation Amount",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Calculation Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "number"
@@ -343,11 +368,14 @@
     "id": "calculationLimit",
     "placeholder": "Enter the Calculation Limit",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+		  "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Calculation Limit",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "number"
@@ -382,11 +410,14 @@
     "id": "deductionFlatAmount",
     "placeholder": "Enter the Deduction Flat Amount",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": { 
+      "minlength":1,
+      "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Deduction Flat Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "number"
@@ -397,11 +428,14 @@
     "id": "deductionAmount",
     "placeholder": "Enter the Exemption Amount",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+      "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Deduction Amount",
-    "value": "",
+    "value": "0.00",
     "validation": {
       "required": false,
       "type": "number"    }
@@ -411,7 +445,10 @@
     "id": "deductionDependentAmount",
     "placeholder": "Enter the Deduction Dependent Amount",
     "fieldtype": "text",
-    "fieldlength": {},
+    "fieldlength": {
+      "minlength":1,
+      "maxlength":14
+    },
     "fieldinfo": {},
     "validationType": "string",
     "label": "Deduction Dependent Amount",

@@ -237,7 +237,7 @@
       {
         "id": "stmtOfException",
         "order": 12,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
