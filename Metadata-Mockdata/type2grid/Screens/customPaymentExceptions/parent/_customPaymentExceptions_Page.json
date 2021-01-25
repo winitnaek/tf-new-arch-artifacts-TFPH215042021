@@ -25,43 +25,57 @@
     "columns": [
       {
         "text": "Custom Payment Code",
-        "datafield": "customPaymentCode",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "userCode",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Custom Payment Name",
-        "datafield": "customPaymentName",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "name",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Payment Type",
-        "datafield": "paymentType",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "payType",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "payTypeNamerenderer"
       }
     ],
     "dataFields": [
       {
-        "name": "customPaymentCode",
+        "name": "userCode",
         "type": "string"
       },
       {
-        "name": "customPaymentName",
+        "name": "name",
         "type": "string"
       },
       {
-        "name": "paymentType",
+        "name": "payType",
+        "type": "string"
+      },
+      {
+        "name": "taxability",
+        "type": "string"
+      },
+      {
+        "name": "eemax",
+        "type": "string"
+      },
+      {
+        "name": "ermax",
+        "type": "string"
+      },
+      {
+        "name": "aggstatus",
+        "type": "string"
+      },
+      {
+        "name": "limit",
         "type": "string"
       }
     ]
