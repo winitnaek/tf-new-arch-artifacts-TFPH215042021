@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "customPaymentTaxExceptions",
     "pgtitle": "Custom Payment Exceptions",
-    "pgsubtitle": "Custom Payment Exceptions for: ",
+    "pgsubtitle": "",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "addNewLabel": "Click here to add new Custom Payment Exception. Or click on existing Custom Payment to edit.",
@@ -27,7 +27,6 @@
         "text": "Authority Code",
         "datafield": "authorityCode",
         "cellsalign": "center",
-        "width": "14.25%",
         "align": "center",
         "sortable": true,
         "rendererInput": "",
@@ -36,7 +35,6 @@
       {
         "text": "Authority",
         "datafield": "authority",
-        "width": "14.25%",
         "cellsalign": "center",
         "align": "center",
         "sortable": true,
@@ -46,7 +44,6 @@
       {
         "text": "Tax Type",
         "datafield": "taxType",
-        "width": "14.25%",
         "cellsalign": "center",
         "align": "center",
         "sortable": true,
@@ -57,7 +54,6 @@
         "text": "Start Date",
         "datafield": "startDate",
         "cellsalign": "center",
-        "width": "14.25%",
         "align": "center",
         "sortable": true,
         "rendererInput": "",
@@ -66,7 +62,6 @@
       {
         "text": "End Data",
         "datafield": "endDate",
-        "width": "14.25%",
         "cellsalign": "center",
         "align": "center",
         "sortable": true,
@@ -76,7 +71,6 @@
       {
         "text": "Taxability",
         "datafield": "taxability",
-        "width": "14.25%",
         "cellsalign": "center",
         "align": "center",
         "sortable": true,
@@ -86,7 +80,6 @@
       {
         "text": "EE Max",
         "datafield": "eEMax",
-        "width": "14.25%",
         "cellsalign": "center",
         "align": "center",
         "sortable": true,
