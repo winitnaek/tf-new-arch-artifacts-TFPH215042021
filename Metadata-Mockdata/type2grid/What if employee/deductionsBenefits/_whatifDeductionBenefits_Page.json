@@ -22,6 +22,7 @@
       "noResultsFoundTxt":"No Data Found : ",
       "recordEdit":true,
       "recordDelete":false,
+      "hasButtonBar": true,
       "columns":[
          {
             "text":"Deduction/Benefit Plan Code",
