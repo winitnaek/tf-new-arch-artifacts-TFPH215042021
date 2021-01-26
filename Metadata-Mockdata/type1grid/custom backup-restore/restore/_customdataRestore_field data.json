@@ -1,0 +1,165 @@
+[
+  {
+    "id": "delData",
+    "placeholder": "Delete Existing Data (if any) in the target Data Set",
+    "fieldtype": "checkbox",
+    "label": "",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Delete Existing Data (if any) in the target Data Set",
+          "id": "delData"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "boolean"
+    }
+  },
+  {
+    "id": "restorePer",
+    "placeholder": "Restore Permission (Rights) records into the target Data Set",
+    "fieldtype": "checkbox",
+    "label": "",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Restore Permission (Rights) records into the target Data Set",
+          "id": "restorePer"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "boolean"
+    }
+  },
+  {
+    "name": "newDataset",
+    "id": "newDataset",
+    "placeholder": "A new Data Set",
+    "fieldtype": "radio",
+    "label": "",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "A new Data Set",
+          "id": "newDataset"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "boolean"
+    },
+    "enable": ["set"],
+    "disable":["exitDataset"]
+  },
+  {
+    "id": "set",
+    "placeholder": "Data Set Id ",
+    "fieldtype": "text",
+    "label": "Data Set Id",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 10
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    },
+    "disable":["exitDataset"]
+  },
+  { 
+    "name": "newDataset",
+    "id": "exDataset",
+    "placeholder": "Existing Data Set",
+    "fieldtype": "radio",
+    "label": "",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "label": "Existing Data Set",
+          "id": "exDataset"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "boolean"
+    },
+    "enable": ["exitDataset"],
+    "disable":["set"]
+  },
+  {
+    "id": "exitDataset",
+    "placeholder": "Data Set Id",
+    "fieldtype": "select",
+    "label": "Data Set Id",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        {
+          "id": "1",
+          "label": "A new Data Set"
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false
+    }
+  }
+
+]

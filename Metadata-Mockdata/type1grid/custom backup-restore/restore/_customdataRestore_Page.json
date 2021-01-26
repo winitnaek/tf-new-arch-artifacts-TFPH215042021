@@ -1,0 +1,94 @@
+{
+   "pgdef": {
+     "pgid": "customdataRestore",
+     "pgtitle":"Custom Data Restore",
+     "hasGrid": true,
+     "hasAlert": true,
+     "link": "customrestoreStatus"
+   },
+   "griddef":{
+    "gridtype":"type1",
+    "isfilter":false,
+    "isfilterform":false,
+    "datatype":"json",
+    "contenttype":"application/json",
+    "noResultsFoundTxt":"No Data Found : ",
+    "recordEdit":false,
+    "hasButtonBar":true,
+    "recordDelete":false,
+    "editable": true,
+    "selectionmode": "singlecell",
+    "editmode": "click’",
+    "columns":[
+      {
+        "text":"Select",
+        "datafield":"select",
+        "cellsalign":"left",
+        "columntype": "checkbox",
+        "width":"50%",
+        "sortable":true,
+        "rendererInput":"",
+        "rendererStaticInput":"",
+        "editable": true
+     },
+       {
+          "text":"File To Load",
+          "datafield":"Value",
+          "cellsalign":"left",
+          "width":"50%",
+          "align":"left",
+          "sortable":true,
+          "rendererInput":"",
+          "rendererStaticInput":""
+       }
+    ],
+    "dataFields":[
+       {
+          "name":"select",
+          "type":"bool"
+       },
+       {
+          "name":"Value",
+          "type":"string"
+       }
+    ]
+ },
+   "formdef": {
+      "hideReset": true,
+      "hasSave": false,
+      "formActions": true,
+      "submitButtonText": "Upload",
+      "title": "Restore From",
+      "formflds":[
+         {
+            "id":"delData",
+            "order":1,
+            "isReadOnlyOnEdit":true
+         },
+         {
+            "id":"restorePer",
+            "order":2,
+            "isReadOnlyOnEdit":true
+         },
+         {
+            "id":"newDataset",
+            "order":3,
+            "isReadOnlyOnEdit":true
+         },
+         {
+            "id":"set",
+            "order":4,
+            "isReadOnlyOnEdit":true
+         },
+         {
+            "id":"exDataset",
+            "order":5,
+            "isReadOnlyOnEdit":true
+         },
+         {
+            "id":"exitDataset",
+            "order":6,
+            "isReadOnlyOnEdit":true
+         }]
+     }
+}

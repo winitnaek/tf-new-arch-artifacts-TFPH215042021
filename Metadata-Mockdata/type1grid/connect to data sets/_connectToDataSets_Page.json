@@ -1,0 +1,59 @@
+{
+   "pgdef":{
+      "pgid":"connectToDataSets",
+      "pgtitle":"Connect To Data Set",
+      "pgsubtitle":"",
+      "flowtype":"flowtype1",
+      "hasAddNew":false,
+      "addNewLabel":"",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/dataSets",
+      "parentConfig":"",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"type1",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":false,
+      "recordDelete":false,
+      "columns":[
+         {
+            "text":"Data Set ID",
+            "datafield":"dataSetId",
+            "cellsalign":"left",
+            "width":"50%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"Data Set Description",
+            "datafield":"dataSetDescription",
+            "cellsalign":"left",
+            "width":"50%",
+            "align":"left",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         }
+      ],
+      "dataFields":[
+         {
+            "name":"dataSetId",
+            "type":"string"
+         },
+         {
+            "name":"dataSetDescription",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef":""
+}

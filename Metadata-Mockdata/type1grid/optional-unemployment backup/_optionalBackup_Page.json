@@ -1,0 +1,81 @@
+{
+   "pgdef":{
+      "pgid":"optionalBackup",
+      "pgtitle":"Optional/Unemployment Rate Override Backup",
+      "pgsubtitle":"You may backup all data sets or choose just one. If you choose to select one data set then all remaining selections will be unchecked.",
+      "flowtype":"flowtype1",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/allBSIPlans",
+      "parentConfig":"",
+      "childConfig":""
+   },
+   "griddef":{
+      "gridtype":"type2",
+      "isfilter":false,
+      "isfilterform":false,
+      "isDateFilter": true,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "recordEdit":false,
+      "recordDelete":false,
+      "editable": true,
+      "selectionmode": "singlecell",
+      "editmode": "click’",
+      "hasAlert": true,
+      "hasButtonBar": true,
+      "selectAllLabel": "Backup All Data Sets",
+      "columns":[
+         {
+            "text":"Select",
+            "datafield":"select",
+            "cellsalign":"left",
+            "columntype": "checkbox",
+            "width":"30%",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":"",
+            "editable": true
+         },
+         {
+            "text":"Data Set ID",
+            "datafield":"data",
+            "cellsalign":"left",
+            "align":"left"
+         },
+         {
+            "text":"Description",
+            "datafield":"description",
+            "cellsalign":"left",
+            "align":"left"
+         }
+         
+      ],
+      "dataFields":[
+         {
+            "name":"select",
+            "type":"bool"
+         },
+         {
+            "name":"data",
+            "type":"string"
+         },
+         {
+            "name":"description",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef": {
+      "title": "Custom Data Backup",
+      "subtitle": "",
+      "hasSave": true,
+      "hasDelete": false,
+      "hasSaveAs": false,
+      "hasViewPDF": false,
+      "hasView": false,
+      "hasRecentUsage": false
+   }
+}

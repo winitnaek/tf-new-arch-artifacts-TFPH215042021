@@ -1,0 +1,144 @@
+[
+  {
+    "name": "importemployeesTo",
+    "id": "importemployeesTo ",
+    "fieldHeader": "Enter General Configuration Option",
+    "label": "Import Employees to What If",
+    "placeholder": "",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        { "id": "N", "label": "NO" },
+        { "id": "Y", "label": "YES" }
+      ]
+    },
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }, 
+  {
+    "name": "importemployeestoError",
+    "id": "importemployeestoError ",
+    "label": "Import Employees to What If on Error",
+    "placeholder": "",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "0 - N/A" },
+        { "id": "1", "label": "1 - Information" },
+        { "id": "2", "label": "2 - Legal" },
+        { "id": "3", "label": "3 - Severe" },
+        { "id": "4", "label": "4 - Fatal" }
+      ]
+    },
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "overrideApi",
+    "id": "overrideApi",
+    "label": "Override API Message",
+    "placeholder": "",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "0 - N/A" },
+        { "id": "1", "label": "1 - Information" },
+        { "id": "2", "label": "2 - Legal" },
+        { "id": "3", "label": "3 - Severe" },
+        { "id": "4", "label": "4 - Fatal" }
+      ]
+    },
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "Writemessages",
+    "id": "Writemessages",
+    "label": "Write Messages to Database",
+    "placeholder": "",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "NO" },
+        { "id": "1", "label": "YES" }
+      ]
+    },
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "calculateLocal",
+    "id": "calculateLocal",
+    "label": "Calculated Local Tax in RES or NRES",
+    "placeholder": "",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "Resident Tax Records win tie" },
+        { "id": "1", "label": "Nonresident Tax Record wins tie" }
+      ]
+    },
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "auditData",
+    "id": "auditData",
+    "label": "Audit Data Changes",
+    "placeholder": "",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "NO" },
+        { "id": "1", "label": "YES" }
+      ]
+    },
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "recip",
+    "id": "recip",
+    "label": "Recip. Override of Res. Taxable Wages",
+    "placeholder": "",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "NO" },
+        { "id": "1", "label": "YES" }
+      ]
+    },
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+ 
+
+]

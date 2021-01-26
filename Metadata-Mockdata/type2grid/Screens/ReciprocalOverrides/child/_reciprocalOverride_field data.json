@@ -20,21 +20,34 @@
 		  "multiselect": false
 		}
 	  },
-	{
-		"name":"startDate",
-		"id":"startDate",
-		"placeholder":"Enter Start Date",
-		"fieldtype":"date",
-		"fieldlength":{
-
+	  {
+		"id": "startDate",
+		"placeholder": "Enter a Start Date",
+		"fieldtype": "date",
+		"label": "Start Date",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
 		},
-		"fieldinfo":{
-
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Start Date",
-		"value":""
-	},
+		"validation": {
+		  "required": false,
+		  "type": "date",
+		  "constraint": [
+			{
+			  "type": "currentDate",
+			  "message": "Current Date validation message"
+			}
+		  ]
+		}
+	  },
 	{
 		"name":"taxCodeToBeOverridden",
 		"id":"taxCodeToBeOverridden",
@@ -190,20 +203,30 @@
 		"value":""
 	},
 	{
-		"name":"endDate",
+		"name":"End Date",
 		"id":"endDate",
 		"placeholder":"Enter End Date",
 		"fieldtype":"date",
 		"fieldlength":{
-
+  
 		},
 		"fieldinfo":{
-
+  
 		},
 		"validationType":"string",
 		"label":"End Date",
-		"value":""
-	},
+		"value":"12/31/9999",
+		"validation":{
+		   "required":false,
+		   "type":"string",
+		   "subtype":[
+			  {
+				 "type":"Date",
+				 "message":""
+			  }
+		   ]
+		}
+	 },
 	{
 		"name":"calculationMethod",
 		"id":"calculationMethod",

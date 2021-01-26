@@ -1,0 +1,28 @@
+{
+   "pgdef":{
+      "pgid":"optionalRestore",
+      "pgtitle":"Optional/Unemployment Rate Override Restore",
+      "pgsubtitle":"",
+      "flowtype":"flowtype1",
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/allBSIPlans",
+      "parentConfig":"",
+      "childConfig":"",
+      "hasAlert": true,
+      "link": "customrestoreStatus"
+   },
+   "griddef":{
+      "gridtype":"type2",
+      "isfilter":false,
+      "isfilterform":false,
+      "datatype":"json",
+      "contenttype":"application/json",
+      "columns":[],
+      "dataFields":[]
+   },
+   "formdef": {
+      "submitButtonText": "Process",
+      "title": "Restore From"
+   }
+}

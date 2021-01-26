@@ -1,0 +1,8 @@
+{
+   "value":"CF",
+   "label":"Custom Data Restore Status",
+   "desc":"Custom Data Restore Status",
+   "id":"customrestoreStatus",
+   "type":"comp",
+   "link":true
+}

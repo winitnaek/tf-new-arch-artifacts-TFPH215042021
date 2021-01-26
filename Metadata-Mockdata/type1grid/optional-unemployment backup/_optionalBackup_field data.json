@@ -1,0 +1,30 @@
+[
+  {
+    "id": "startDate",
+    "placeholder": "Enter a Effective Date",
+    "fieldtype": "date",
+    "label": "Effective Date",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "date",
+      "constraint": [
+        {
+          "type": "currentDate",
+          "message": "Current Date validation message"
+        }
+      ]
+    }
+  }
+]

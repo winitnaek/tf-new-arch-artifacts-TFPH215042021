@@ -1,0 +1,21 @@
+{
+   "pgdef": {
+     "pgid": "manualUpdate",
+     "pgtitle": "Manual Update",
+     "hasAlert": true,
+     "link": "manualupdateStatus"
+   },
+   "griddef":{
+    "gridtype":"type1",
+    "datatype":"json",
+    "contenttype":"application/json",
+    "columns":[ ],
+    "dataFields":[],
+    "hasButtonBar": true
+ },
+   "formdef": {
+    "title": "File Name",
+    "hideReset": true,
+    "submitButtonText": "Process"
+  }
+}

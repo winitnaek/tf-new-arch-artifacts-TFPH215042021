@@ -45,7 +45,7 @@
             "rendererStaticInput":""
          },
          {
-            "text":"Tax Type/User Tax Type",
+            "text":"Tax Type",
             "datafield":"taxTypeUserTaxType",
             "cellsalign":"left",
             "width":"16.66%",
@@ -88,27 +88,33 @@
       "dataFields":[
          {
             "name":"taxCode",
-            "type":"string"
+            "type":"string",
+            "map": "btxttax>usrauthcd"
          },
          {
             "name":"authorityName",
-            "type":"string"
+            "type":"string",
+            "map": "btxttax>btxtaxc>btxauth>name"
          },
          {
             "name":"taxTypeUserTaxType",
-            "type":"string"
+            "type":"string",
+            "map": "btxtaxt>taxtype"
          },
          {
             "name":"taxName",
-            "type":"string"
+            "type":"string",
+            "map": "btxtaxt>taxname"
          },
          {
             "name":"formula#",
-            "type":"string"
+            "type":"string",
+            "map":"btxttax>formula"
          },
          {
             "name":"formula",
-            "type":"string"
+            "type":"string",
+            "map":"btxform>title"
          }
       ]
    },

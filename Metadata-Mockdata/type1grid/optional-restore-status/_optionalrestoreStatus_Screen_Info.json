@@ -1,0 +1,8 @@
+{
+   "value":"CF",
+   "label":"Optional Restore Status",
+   "desc":"Optional Restore Status",
+   "id":"optionalrestoreStatus",
+   "type":"comp",
+   "link":false
+}

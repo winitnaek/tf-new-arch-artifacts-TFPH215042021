@@ -1,0 +1,21 @@
+{
+  "pgdef": {
+    "pgid": "enhancedsecurityOption",
+    "pgtitle": "Enhanced Security Option",
+    "helpLblTxt": "Click here for more info!",
+    "helpLink": "/enhancedsecurityOption"
+  },
+  "griddef":{
+    "gridtype":"type1",
+    "isfilter":false,
+    "isfilterform":false,
+    "datatype":"json",
+    "contenttype":"application/json",
+    "noResultsFoundTxt":"No Data Found : ",
+    "columns":[ ]
+ },
+  "formdef": {
+    "hideReset": false,
+    "hasSave": true
+  }
+}

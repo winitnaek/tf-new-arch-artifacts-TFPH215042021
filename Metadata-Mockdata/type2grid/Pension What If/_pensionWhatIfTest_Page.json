@@ -59,6 +59,17 @@
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
+      },
+      {
+        "text": "regPen",
+        "datafield": "regPen",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
       }
     ],
     "dataFields": [
@@ -72,6 +83,10 @@
       },
       {
         "name": "checkDate",
+        "type": "string"
+      },
+      {
+        "name": "regPen",
         "type": "string"
       }
     ]

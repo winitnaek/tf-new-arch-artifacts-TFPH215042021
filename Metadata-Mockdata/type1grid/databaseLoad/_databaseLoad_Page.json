@@ -1,0 +1,56 @@
+{
+   "pgdef": {
+     "pgid": "databaseLoad",
+     "pgtitle": "Database Load",
+     "pgsubtitle":"Loading Database from file: ",
+     "hasGrid": "true",
+     "hasAlert": true,
+     "link": "databaseloadStatus"
+   },
+   "griddef":{
+    "gridtype":"type2",
+    "datatype":"json",
+    "contenttype":"application/json",
+    "noResultsFoundTxt":"No Data Found : ",
+    "editable": true,
+    "selectionmode": "singlecell",
+    "editmode": "click’",
+    "selectAllLabel": "Load All Files",
+    "hasButtonBar": true,
+    "columns":[
+       {
+          "text":"Select",
+          "datafield":"select",
+          "cellsalign":"left",
+          "columntype": "checkbox",
+          "width":"30%",
+          "sortable":true,
+          "rendererInput":"",
+          "rendererStaticInput":"",
+          "editable": true
+       },
+       {
+          "text":"File to Load",
+          "datafield":"load",
+          "cellsalign":"left",
+          "align":"left"
+       }
+       
+    ],
+    "dataFields":[
+       {
+          "name":"select",
+          "type":"bool"
+       },
+       {
+          "name":"load",
+          "type":"string"
+       }
+    ]
+ },
+   "formdef": {
+    "title": "File Name",
+    "hideReset": true,
+    "submitButtonText": "Upload"
+  }
+}

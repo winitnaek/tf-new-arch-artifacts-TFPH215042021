@@ -1,0 +1,66 @@
+[
+  {
+    "name": "selectLogin",
+    "id": "selectLogin",
+    "fieldHeader": "Enter Enhanced Security Option",
+    "label": "Select a Login to use as a Root User",
+    "placeholder": "",
+    "fieldtype": "select",
+    "fieldlength": {},
+    "fieldinfo": {
+      "options": [
+        { "id": "0", "label": "AR" },
+        { "id": "1", "label": "CERTUSER" }
+      ]
+    },
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "maximumLength",
+    "id": "maximumLength",
+    "label": "Maximum Length of Passwords",
+    "placeholder": "",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "minimumLength",
+    "id": "minimumLength",
+    "label": "Minimum Length of Passwords",
+    "placeholder": "",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "name": "digits",
+    "id": "digits",
+    "label": "Number of Digits/Special characters Required",
+    "placeholder": "",
+    "fieldtype": "text",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "value": "",
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
+ 
+
+]

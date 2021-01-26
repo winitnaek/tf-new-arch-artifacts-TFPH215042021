@@ -20,18 +20,6 @@
           "type": "uppercase",
           "message": "Tax Code needs to be in uppercase."
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
@@ -82,18 +70,6 @@
         {
           "type": "uppercase",
           "message": "Payment Name needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 character"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
         }
       ]
     }

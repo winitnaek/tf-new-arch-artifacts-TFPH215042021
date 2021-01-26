@@ -1,0 +1,8 @@
+{
+   "value":"CF",
+   "label":"Custom Data Restore",
+   "desc":"Custom Data Restore",
+   "id":"customdataRestore",
+   "type":"page",
+   "link":true
+}

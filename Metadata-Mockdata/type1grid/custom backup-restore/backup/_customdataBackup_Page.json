@@ -1,0 +1,80 @@
+{
+   "pgdef":{
+      "pgid":"customdataBackup",
+      "pgtitle":"Custom Data Backup",
+      "pgsubtitle":"You may backup all data sets or choose just one. If you choose to select one data set then all remaining selections will be unchecked.",
+      "flowtype":"flowtype1",
+      "hasAddNew":false,
+      "hasSave":"Process",
+      "addNewLabel":"",
+      "actiondel":false,
+      "helpAvailable":true,
+      "helpLblTxt":"Click here for more info!",
+      "helpLink":"/allBSIPlans",
+      "parentConfig":"",
+      "childConfig":"",
+      "hasCheckbox": true,
+      "checkBoxLabel": "Create CF40 compatible file"
+   },
+   "griddef":{
+      "gridtype":"type2",
+      "datatype":"json",
+      "contenttype":"application/json",
+      "noResultsFoundTxt":"No Data Found : ",
+      "editable": true,
+      "selectionmode": "singlecell",
+      "editmode": "click’",
+      "hasAlert": true,
+      "selectAllLabel": "Backup All Data Sets (Create a Package File)",
+      "columns":[
+         {
+            "text":"Select",
+            "datafield":"select",
+            "cellsalign":"left",
+            "columntype": "checkbox",
+            "width":"30%",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":"",
+            "editable": true
+         },
+         {
+            "text":"Data Set ID",
+            "datafield":"data",
+            "cellsalign":"left",
+            "align":"left"
+         },
+         {
+            "text":"Description",
+            "datafield":"description",
+            "cellsalign":"left",
+            "align":"left"
+         }
+         
+      ],
+      "dataFields":[
+         {
+            "name":"select",
+            "type":"bool"
+         },
+         {
+            "name":"data",
+            "type":"string"
+         },
+         {
+            "name":"description",
+            "type":"string"
+         }
+      ]
+   },
+   "formdef": {
+      "title": "Custom Data Backup",
+      "subtitle": "",
+      "hasSave": true,
+      "hasDelete": false,
+      "hasSaveAs": false,
+      "hasViewPDF": false,
+      "hasView": false,
+      "hasRecentUsage": false
+   }
+}

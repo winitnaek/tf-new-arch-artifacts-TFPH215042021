@@ -1,0 +1,19 @@
+{
+   "pgdef": {
+     "pgid": "installmachineKey",
+     "pgtitle": "Install Machine Key",
+     "hasAlert": true
+   },
+   "griddef":{
+    "gridtype":"type2",
+    "datatype":"json",
+    "contenttype":"application/json",
+    "columns":[ ],
+    "dataFields":[]
+ },
+   "formdef": {
+    "title": "File Name",
+    "hideReset": true,
+    "submitButtonText": "Upload"
+  }
+}

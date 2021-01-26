@@ -26,6 +26,7 @@
       "editable": true,
       "selectionmode": "singlecell",
       "editmode": "click’",
+      "responseKey": "locationTaxes",
       "columns":[
          {
             "text":"Select Worksites",
