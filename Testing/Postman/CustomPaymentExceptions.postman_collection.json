@@ -1,0 +1,291 @@
+{
+	"info": {
+		"_postman_id": "760514d7-bda2-4a28-9674-2a79a39dc73b",
+		"name": "CustomPaymentExceptions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getCustomPaymentsForExceptions",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {     \r\n      \"dataset\":\"DEFAULT\"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/PaymentsService/getCustomPaymentsForExceptions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"PaymentsService",
+						"getCustomPaymentsForExceptions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomPaymentExceptions",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {     \r\n      \"dataset\":\"DEFAULT\",\r\n      \"pmtUsrCode\":\"401\",\r\n      \"codeType\":\"Benefit Plan\"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/PaymentsService/getCustomPaymentExceptions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"PaymentsService",
+						"getCustomPaymentExceptions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomPaymentExceptionDetail",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {     \r\n      \"dataset\":\"DEFAULT\",\r\n      \"pmtUsrCode\":\"401\",\r\n      \"taxCode\":\"00190000\",\r\n      \"taxType\":\"003\",\r\n      \"startdate\":\"10/27/2020\"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/PaymentsService/getCustomPaymentExceptionDetail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"PaymentsService",
+						"getCustomPaymentExceptionDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCustomPaymentException",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {     \r\n      \"dataset\":\"DEFAULT\",\r\n      \"userId\":\"TF11\",\r\n      \"pmtUsrCode\":\"401\",\r\n      \"taxCode\":\"00260000\",\r\n      \"taxType\":\"001\",\r\n      \"startdate\":\"03/05/2021\"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/PaymentsService/deleteCustomPaymentException",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"PaymentsService",
+						"deleteCustomPaymentException"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveCustomPaymentException",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"dataSet\": \"DEFAULT\",\r\n        \"taxCode\": \"00260000\",\r\n        \"taxType\": \"001\",\r\n        \"userCode\": \"401\",\r\n        \"payType\": \"P\",\r\n        \"startDate\": \"03/05/2021\",\r\n        \"rescind\": \"12/31/9999\",\r\n        \"eeMax\": \"0.00\",\r\n        \"erMax\": \"0.00\",\r\n        \"nonTaxable\": 0.0,\r\n        \"lmtFreq\": 0,\r\n        \"eeFreq\": 0,\r\n        \"erFreq\": 0,\r\n        \"aggStatus\": \"Y\",\r\n\t\t\"e_taxability\":0,\r\n\t\t\"p_aggStatus\":\"Y\",\r\n\t\t\"p_taxability\":0,\r\n\t\t\"er_taxability\":0,\r\n        \"editMode\":1\r\n           \r\n       \r\n      \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/PaymentsService/saveCustomPaymentException",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"PaymentsService",
+						"saveCustomPaymentException"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateCustomPaymentException",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"dataSet\": \"DEFAULT\",\r\n        \"taxCode\": \"00260000\",\r\n        \"taxType\": \"001\",\r\n        \"userCode\": \"401\",\r\n        \"payType\": \"P\",\r\n        \"startDate\": \"03/05/2021\",\r\n        \"rescind\": \"12/31/2021\",\r\n        \"eeMax\": \"0.00\",\r\n        \"erMax\": \"0.00\",\r\n        \"nonTaxable\": 0.0,\r\n        \"lmtFreq\": 0,\r\n        \"eeFreq\": 0,\r\n        \"erFreq\": 0,\r\n        \"aggStatus\": \"Y\",\r\n\t\t\"e_taxability\":0,\r\n\t\t\"p_aggStatus\":\"Y\",\r\n\t\t\"p_taxability\":0,\r\n\t\t\"er_taxability\":0,\r\n        \"editMode\":2\r\n           \r\n       \r\n      \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/PaymentsService/saveCustomPaymentException",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"PaymentsService",
+						"saveCustomPaymentException"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
