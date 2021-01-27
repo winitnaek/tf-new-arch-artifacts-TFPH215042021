@@ -119,19 +119,19 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "1 - Single"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "3 - Married filing separate"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "4 - Married filing jointly"
         },
         {
-          "id": 3,
+          "id": "3",
           "label": "6 - Unmarried"
         }
       ],
@@ -139,7 +139,7 @@
     },
     "validationType": "string",
     "label": "Filing Status",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -152,7 +152,7 @@
     "placeholder": "Enter Number Of Exemptions",
     "fieldtype": "text",
     "label": "Number Of Exemptions",
-    "value": "",
+    "value": "0",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -174,7 +174,7 @@
     "placeholder": "Enter Additional Standard Deduction",
     "fieldtype": "text",
     "label": "Additional Standard Deduction",
-    "value": "",
+    "value": "0",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -202,11 +202,11 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - No"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Yes"
         }
       ],
@@ -214,7 +214,7 @@
     },
     "validationType": "string",
     "label": "Second Family",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -233,11 +233,11 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - No"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Yes"
         }
       ],
@@ -245,7 +245,7 @@
     },
     "validationType": "string",
     "label": "Head Of Family",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -258,7 +258,7 @@
     "placeholder": "Enter Number Of Dependents",
     "fieldtype": "text",
     "label": "Number Of Dependents",
-    "value": "",
+    "value": "0",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -280,7 +280,7 @@
     "placeholder": "Enter Number Of Dependent Children",
     "fieldtype": "text",
     "label": "Number Of Dependent Children",
-    "value": "",
+    "value": "0",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -308,15 +308,15 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - Continuing"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - One Time"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Specific End Date"
         }
       ],
@@ -324,7 +324,7 @@
     },
     "validationType": "string",
     "label": "Garnishment Duration",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -337,7 +337,7 @@
     "placeholder": "Enter Calculated Amount",
     "fieldtype": "text",
     "label": "Calculated Amount",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -359,7 +359,7 @@
     "placeholder": "Enter Payment Number",
     "fieldtype": "text",
     "label": "Payment Number",
-    "value": "",
+    "value": "0",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -387,11 +387,11 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - Not Filed"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Filed"
         }
       ],
@@ -399,7 +399,7 @@
     },
     "validationType": "string",
     "label": "Statement Of Exemptions",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -412,7 +412,7 @@
     "placeholder": "Enter Override System Priority",
     "fieldtype": "text",
     "label": "Override System Priority",
-    "value": "",
+    "value": "0",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -440,11 +440,11 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - No"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Yes"
         }
       ],
@@ -452,7 +452,7 @@
     },
     "validationType": "string",
     "label": "Is Delinquent",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -479,13 +479,6 @@
           "type": "uppercase",
           "message": "Worksite needs to be in uppercase."
         }
-      ],
-      "constraint": [
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
       ]
     }
   },
@@ -507,13 +500,6 @@
         {
           "type": "uppercase",
           "message": "Worksite needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
         }
       ]
     }
@@ -537,13 +523,6 @@
           "type": "uppercase",
           "message": "Worksite needs to be in uppercase."
         }
-      ],
-      "constraint": [
-        {
-          "type": "max",
-          "input": 8,
-          "message": "max 8 characters"
-        }
       ]
     }
   },
@@ -558,55 +537,55 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - N/A"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Loan Contract"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Hospital"
         },
         {
-          "id": 3,
+          "id": "3",
           "label": "3 - Consumer Credit"
         },
         {
-          "id": 4,
+          "id": "4",
           "label": "4 - Civil Judgement"
         },
         {
-          "id": 5,
+          "id": "5",
           "label": "5 - Public Assistance Fund"
         },
         {
-          "id": 6,
+          "id": "6",
           "label": "6 - Debt To Creditor-Landlord"
         },
         {
-          "id": 7,
+          "id": "7",
           "label": "7 - Residential Lease"
         },
         {
-          "id": 8,
+          "id": "8",
           "label": "8 - Judgement Garnishment for Support"
         },
         {
-          "id": 9,
+          "id": "9",
           "label": "9 - Wage Assignment for Child Support"
         },
         {
-          "id": 10,
+          "id": "10",
           "label": "10 - Fines/Other Court Costs"
         },
         {
-          "id": 11,
+          "id": "11",
           "label": "11 - Order Issued by CSE"
         },
         {
-          "id": 12,
+          "id": "12",
           "label": "12 - Order Issued by Secretary"
         }
       ],
@@ -614,7 +593,7 @@
     },
     "validationType": "string",
     "label": "Type Of Debt",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -633,31 +612,31 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - N/A"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Sailor"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Laborer"
         },
         {
-          "id": 3,
+          "id": "3",
           "label": "3 - Mechanic"
         },
         {
-          "id": 4,
+          "id": "4",
           "label": "4 - Municipal Employee"
         },
         {
-          "id": 5,
+          "id": "5",
           "label": "5 - State Employee"
         },
         {
-          "id": 6,
+          "id": "6",
           "label": "6 - WI State Employee"
         }
       ],
@@ -665,7 +644,7 @@
     },
     "validationType": "string",
     "label": "Vocation",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -684,15 +663,15 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - No"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Yes"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Hardship"
         }
       ],
@@ -700,7 +679,7 @@
     },
     "validationType": "string",
     "label": "Consent",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -719,15 +698,15 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - System Selected"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Total Ordered Amount"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Total Pay Period"
         }
       ],
@@ -735,7 +714,7 @@
     },
     "validationType": "string",
     "label": "Ordered Amount flag",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -754,15 +733,15 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - System Default"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Round To Cents"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Round To Dollars"
         }
       ],
@@ -770,7 +749,7 @@
     },
     "validationType": "string",
     "label": "Rounding Indicator",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -789,11 +768,11 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - Use State Limit"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Use Federal Limit"
         }
       ],
@@ -801,7 +780,7 @@
     },
     "validationType": "string",
     "label": "Limit For Child Support",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "text",
@@ -814,7 +793,7 @@
     "placeholder": "Prior Amount",
     "fieldtype": "text",
     "label": "Prior Amount",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -836,7 +815,7 @@
     "placeholder": "Percent To Withhold",
     "fieldtype": "text",
     "label": "Percent To Withhold",
-    "value": "",
+    "value": "0.000000000",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -858,7 +837,7 @@
     "placeholder": "Ordered Dollar Amount",
     "fieldtype": "text",
     "label": "Ordered Dollar Amount",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -880,7 +859,7 @@
     "placeholder": "Ordered Percentage",
     "fieldtype": "text",
     "label": "Ordered Percentage",
-    "value": "",
+    "value": "0.000000000",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -902,7 +881,7 @@
     "placeholder": "Garnishment Exemption",
     "fieldtype": "text",
     "label": "Garnishment Exemption",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -924,7 +903,7 @@
     "placeholder": "Month To Date Wages",
     "fieldtype": "text",
     "label": "Enter Month To Date Wages",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -946,7 +925,7 @@
     "placeholder": "Annual Wages",
     "fieldtype": "text",
     "label": "Annual Wages",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -968,7 +947,7 @@
     "placeholder": "Enter Disposable Earnings",
     "fieldtype": "text",
     "label": "Disposable Earnings",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -990,7 +969,7 @@
     "placeholder": "Enter Garnishment Gross",
     "fieldtype": "text",
     "label": "Garnishment Gross",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1012,7 +991,7 @@
     "placeholder": "Enter Reducing Deductions",
     "fieldtype": "text",
     "label": "Reducing Deductions",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1034,7 +1013,7 @@
     "placeholder": "Enter Local Hourly Minimum Wage",
     "fieldtype": "text",
     "label": "Local Hourly Minimum Wage",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1062,11 +1041,11 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - normal"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - 100%"
         }
       ],
@@ -1074,7 +1053,7 @@
     },
     "validationType": "string",
     "label": "Reminder Of Disposable Earnings",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -1093,11 +1072,11 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - No Lump Sum Calculation"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Yes Lump Sum Calculation"
         }
       ],
@@ -1105,7 +1084,7 @@
     },
     "validationType": "string",
     "label": "Does This Garnishment Use A Time Reference Calulation",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -1118,7 +1097,7 @@
     "placeholder": "Number Of Periods For Payment",
     "fieldtype": "text",
     "label": "Number Of Periods For Payment",
-    "value": "",
+    "value": "0",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1140,7 +1119,7 @@
     "placeholder": "Enter MTD Garnishment",
     "fieldtype": "text",
     "label": "MTD Garnishment",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1162,7 +1141,7 @@
     "placeholder": "Enter MTD Disposable Earnings",
     "fieldtype": "text",
     "label": "MTD Disposable Earnings",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1184,7 +1163,7 @@
     "placeholder": "YTD Garnishment",
     "fieldtype": "text",
     "label": "YTD Garnishment",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1206,7 +1185,7 @@
     "placeholder": "YTD Disposable Earnings",
     "fieldtype": "text",
     "label": "YTD Disposable Earnings",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1228,7 +1207,7 @@
     "placeholder": "QTD Garnishment",
     "fieldtype": "text",
     "label": "QTD Garnishment",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1250,7 +1229,7 @@
     "placeholder": "PPTD Garnishment",
     "fieldtype": "text",
     "label": "PPTD Garnishment",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1272,7 +1251,7 @@
     "placeholder": "Garnishment Cap",
     "fieldtype": "text",
     "label": "Garnishment Cap",
-    "value": "",
+    "value": "0.00",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1300,20 +1279,20 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - YTD"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - QTD"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - MTD"
         }
         ,
         {
-          "id": 3,
+          "id": "3",
           "label": "3 - PPTD"
         }
       ],
@@ -1321,7 +1300,7 @@
     },
     "validationType": "string",
     "label": "Garnishment Limit IND",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -1340,11 +1319,11 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - Regular % Limit"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Alternate % Limit"
         }
       ],
@@ -1352,7 +1331,7 @@
     },
     "validationType": "string",
     "label": "Use Alternate Limit",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -1371,15 +1350,15 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - Stacking /Default"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Divide Evenly"
         },
         {
-          "id": 2,
+          "id": "2",
           "label": "2 - Pro-Rate"
         }
 
@@ -1388,7 +1367,7 @@
     },
     "validationType": "string",
     "label": "Garnishment Type",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -1407,18 +1386,18 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - No"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Yes"
         }],
       "multiselect": false
     },
     "validationType": "string",
     "label": "Use State of Issue",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
@@ -1431,7 +1410,7 @@
     "placeholder": "Local Protected Hours",
     "fieldtype": "text",
     "label": "Local Protected Hours",
-    "value": "",
+    "value": "0.000",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 25
@@ -1459,18 +1438,18 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
+          "id": "0",
           "label": "0 - First Pay"
         },
         {
-          "id": 1,
+          "id": "1",
           "label": "1 - Not First Pay"
         }],
       "multiselect": false
     },
     "validationType": "string",
     "label": "First Pay Code",
-    "value": "",
+    "value": "0",
     "validation": {
       "required": false,
       "type": "string",
