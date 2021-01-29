@@ -22,23 +22,11 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
   {
-    "id": "authorityCode",
+    "id": "taxCode",
     "placeholder": "Enter authority Code",
     "fieldtype": "select",
     "label": "Authority Code",
@@ -61,18 +49,6 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
@@ -90,7 +66,8 @@
 
     "fieldinfo": {
       "typeahead": true,
-      "isasync": true 
+      "isasync": true,
+      "minLength": 1 
     },
     "validation": {
       "required": true,
@@ -100,98 +77,105 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
+      ]
+    }
+  },
+  {
+    "name": "startDate",
+    "id": "startDate",
+    "label": "Start Date",
+    "placeholder": "",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "date",
       "constraint": [
         {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "type": "currentDate",
+          "message": "Current Date validation message"
         }
       ]
     }
   },
   {
-      "name":"Start Date",
-      "id":"startDate",
-      "placeholder":"Enter Start Date",
-      "fieldtype":"date",
-      "fieldlength":{
+    "name": "rescind",
+    "id": "rescind",
+    "placeholder": "",
+    "fieldtype": "date",
+    "fieldlength": {},
+    "fieldinfo": {},
+    "validationType": "string",
+    "label": "End Date",
+    "value": "9999-12-31",
+    "validation": {
+      "required": true,
+      "type": "text"
+    }
+  },
+  {
+    "id": "payType",
+    "placeholder": "Select a type",
+    "fieldtype": "select",
+    "label": "Type",
+    "value": "",
+    "errmsg": "PayType is required",
+    "hidden":"hidden",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [
+        { "id": "E", "label": "Custom Earnings" },
+        { "id": "P", "label": "Custom Benefit Plan"}
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
+  {
+    "id": "p_aggStatus",
+    "placeholder": "Select a Aggregation Status",
+    "fieldtype": "select",
+    "show": {
+      "payType": ["P"]
+    },
+    "label": "Aggregation Status",
+    "fieldHeader": "",
+    "nextFieldHeader": "",
+    "value": "",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
 
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"Start Date",
-      "value":"new Date()",
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"Date",
-               "message":"Please enter a Start Date."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":8,
-               "message":"min 8 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
+      "options": [
+        { "id": "Y", "label": "Aggregate to Highest Maximum" },
+        { "id": "L", "label": "Aggregate to Lowest Maximum" },
+        { "id": "N", "label": "Do Not Aggregate Plans" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  },
    {
-      "name":"End Date",
-      "id":"endDate",
-      "placeholder":"Enter End Date",
-      "fieldtype":"date",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"End Date",
-      "value":"12/31/9999",
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"Date",
-               "message":"Please enter an End Date."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":8,
-               "message":"min 8 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-   {
-    "id": "taxability",
-    "placeholder": "select Taxability",
+    "id": "e_taxability",
+    "placeholder": "Select a type",
     "fieldtype": "select",
     "label": "Taxability",
     "value": "",
@@ -201,74 +185,103 @@
       "maxlength": 25
     },
     "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
       "options": [
-        { "id":"0", "label": "Taxable" },
-        { "id":"1", "label": "Non-Taxable" },
-        { "id":"2", "label": "Limit-YTD" },
-        { "id":"3", "label": "Limit-QTD" },
-        { "id":"4", "label": "Limit-MTD" },
-        { "id":"5", "label": "Taxable/Exclude" },
-        { "id":"6", "label": "Imputed" }
-          ]    
-    },
-    "validation": {
-      "required": false,
-      "type": "string",
-      "subtype": [
         {
-          "type": "uppercase",
-          "message": "."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 5,
-          "message": "min 5 characters"
+          "id": "0",
+          "label": "Taxable",
+          "disable": ["eeMax"],
+          "valuesToUpdate": {
+            "eeMax": "0.00"
+          }
         },
         {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
+          "id": "999",
+          "label": "Non-Taxable",
+          "disable": ["eeMax"],
+          "valuesToUpdate": {
+            "eeMax": 99999999999.99
+          }
+        },
+        { "id": "100", "label": "Limit-YTD", "enable": ["eeMax"],"valuesToUpdate": {"eeMax": "0.00"}},
+        { "id": "101", "label": "Limit-QTD", "enable": ["eeMax"],"valuesToUpdate": {"eeMax": "0.00"} },
+        { "id": "102", "label": "Limit-MTD", "enable": ["eeMax"],"valuesToUpdate": {"eeMax": "0.00"} },
+        {
+          "id": "200",
+          "label": "Taxable/Exclude",
+          "disable": ["eeMax"],
+          "valuesToUpdate": {
+            "eeMax": 99999999998.99
+          }
+        },
+        {
+          "id": "995",
+          "label": "Imputed",
+          "disable": ["eeMax"],
+          "valuesToUpdate": {
+            "eeMax": 99999999995.99
+          }
+        }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  {
+    "id": "eeMax",
+    "placeholder": "Enter Maximum Limit Here",
+    "fieldtype": "text",
+    "label": "Maximum Limit",
+    "value": "",
+    "errmsg": "Custom Payment Name is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 14
+    },
+    "fieldinfo": {},
+    "validation": {
+      "required": false,
+      "type": "number",
+      "subtype": [
+        {
+          "type": "typeError",
+          "message": "Must be a number"
         }
       ]
     }
   },
   {
-      "name":"Maximum Limit",
-      "id":"maximumLimit",
-      "placeholder":"Enter the Maximum Limit",
-      "fieldtype":"text",
-      "fieldlength":{
+    "id": "er_taxability",
+    "show": {
+      "er_taxability": ["", "0", "999", "100", "101", "102", "995", "105", "104"],
+      "payType": ["P"]
+    },
+    "placeholder": "ER Frequency Limit",
+    "fieldtype": "select",
+    "label": "ER Frequency Limit",
+    "value": "0",
+    "errmsg": "",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
 
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"Maximum Limit",
-      "value":"0.00",
-      "validation":{
-         "required":false,
-         "type":"number",
-         "subtype":[
-            {
-               "type":"positive",
-               "message":"Maximum limit cannot be negative"
-            },
-            {
-               "type":"typeError",
-               "message":"Must be a number"
-            }
-         ],
-         "constraint":[
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   } 
-
+      "options": [
+        { "id": "0", "label": "Taxable" },
+        { "id": "999", "label": "Non-Taxable" }
+      ],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false,
+      "type": "string"
+    }
+  }
 ]

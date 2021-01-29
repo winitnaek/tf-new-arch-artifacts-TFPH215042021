@@ -25,27 +25,21 @@
     "columns": [
       {
         "text": "Authority Code",
-        "datafield": "authorityCode",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "taxCode",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Authority",
-        "datafield": "authority",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "taxName",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Tax Type",
-        "datafield": "taxType",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "taxTypeName",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -53,35 +47,27 @@
       {
         "text": "Start Date",
         "datafield": "startDate",
-        "cellsalign": "center",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "End Data",
-        "datafield": "endDate",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "rescind",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Taxability",
-        "datafield": "taxability",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "strTaxability",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "EE Max",
-        "datafield": "eEMax",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "strLimit",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -90,11 +76,11 @@
     ],
     "dataFields": [
       {
-        "name": "authorityCode",
+        "name": "taxCode",
         "type": "string"
       },
       {
-        "name": "authority",
+        "name": "taxName",
         "type": "string"
       },
       {
@@ -102,22 +88,73 @@
         "type": "string"
       },
       {
+        "name": "taxTypeName",
+        "type": "string"
+      },
+      {
         "name": "startDate",
         "type": "Date"
       },
       {
-        "name": "endDate",
+        "name": "rescind",
         "type": "Date"
       },
       {
-        "name": "taxability",
+        "name": "strTaxability",
         "type": "string"
       },
       {
-        "name": "eEMax",
+        "name": "eeMax",
         "type": "string"
-      }
-
+      },
+      {
+        "name": "userCode",
+        "type": "string"
+      },
+      {
+        "name": "erMax",
+        "type": "string"
+      },
+      {
+        "name": "nonTaxable",
+        "type": "string"
+      },
+      {
+        "name": "strLimit",
+        "type": "string"
+      },
+      {
+        "name": "lmtFreq",
+        "type": "string"
+      },
+      {
+        "name": "eeFreq",
+        "type": "string"
+      },
+      {
+        "name": "erFreq",
+        "type": "string"
+      },
+      {
+        "name": "aggStatus",
+        "type": "string"
+      }, 
+      {
+        "name": "p_aggStatus",
+        "type": "string"
+      },
+      {
+        "name": "e_taxability",
+        "type": "string"
+      },
+      {
+        "name":"payType",
+        "type":"string"
+     },
+     {
+      "name": "er_taxability",
+      "type": "string"
+    }
     ]
   },
 
@@ -138,43 +175,66 @@
         "isReadOnlyOnNew": true
       },
       {
-        "id": "authorityCode",
+        "id": "taxCode",
         "order": 2,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "taxType",
+        "id": "taxName",
         "order": 3,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "taxType",
+        "order": 4,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
 
       {
         "id": "startDate",
-        "order": 4,
+        "order": 5,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "endDate",
-        "order": 5,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "taxability",
+        "id": "rescind",
         "order": 6,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "maximumLimit",
+        "id": "strTaxability",
         "order": 7,
+        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id":"e_taxability",
+        "order":8,
+        "isReadOnlyOnEdit":false,
+        "isReadOnlyOnNew":false
+     },
+    {
+        "id": "eeMax",
+        "order": 9,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": true
-      }
-
+      },
+      {
+        "id":"payType",
+        "order":10,
+        "isReadOnlyOnEdit":true,
+        "isReadOnlyOnNew":false
+     },
+     {
+      "id":"p_aggStatus",
+      "order":11,
+      "isReadOnlyOnEdit":false,
+      "isReadOnlyOnNew":false
+   }
     ],
     "fltrflds": ""
   }
