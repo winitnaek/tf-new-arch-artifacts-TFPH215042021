@@ -1,8 +1,9 @@
 {
-  "value": "UQ",
+  "value": "SM",
   "label": "General Configuration Option",
   "desc": "General Configuration Option",
   "id": "generalconfigOption",
   "type": "page",
-  "link": true
+  "link": true,
+  "section":"Configuration"
 }

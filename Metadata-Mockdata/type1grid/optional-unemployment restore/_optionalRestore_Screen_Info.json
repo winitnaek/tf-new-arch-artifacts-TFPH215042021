@@ -1,8 +1,9 @@
 {
-   "value":"OO",
+   "value":"SM",
    "label":"Optional/Unemployment Rate Override Restore",
    "desc":"Optional/Unemployment Rate Override Restore",
    "id":"optionalRestore",
    "type":"page",
-   "link":true
+   "link":true,
+   "section": "Database Tools"
 }

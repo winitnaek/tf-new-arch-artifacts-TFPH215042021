@@ -1,8 +1,9 @@
 {
-  "value": "UQ",
+  "value": "SM",
   "label": "Enhanced Security Option",
   "desc": "Enhanced Security Option",
   "id": "enhancedsecurityOption",
   "type": "page",
-  "link": true
+  "link": true,
+  "section":"Configuration"
 }

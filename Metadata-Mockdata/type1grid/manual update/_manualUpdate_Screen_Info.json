@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"SM",
    "label":"Manual Update",
    "desc":"Manual Update",
    "id":"manualUpdate",
    "type":"page",
-   "link":true
+   "link":true,
+   "section":"Maintenance Tools"
 }

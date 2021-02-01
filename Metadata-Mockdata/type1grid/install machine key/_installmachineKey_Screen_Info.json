@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"SM",
    "label":"Install Machine Key",
    "desc":"Install Machine Key",
    "id":"installmachineKey",
    "type":"page",
-   "link":true
+   "link":true,
+   "section": "Database Tools"
 }

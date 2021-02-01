@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"SM",
    "label":"Custom Data Backup",
    "desc":"Custom Data Backup",
    "id":"customdataBackup",
    "type":"comp",
-   "link":false
+   "link":false,
+   "section": "Database Tools"
 }

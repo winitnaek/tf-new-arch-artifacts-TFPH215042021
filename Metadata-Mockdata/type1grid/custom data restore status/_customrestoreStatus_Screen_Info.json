@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"SM",
    "label":"Custom Data Restore Status",
    "desc":"Custom Data Restore Status",
    "id":"customrestoreStatus",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section": "Database Tools"
 }

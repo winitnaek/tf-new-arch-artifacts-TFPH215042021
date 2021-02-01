@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"SM",
    "label":"Database Load",
    "desc":"Database Load",
    "id":"databaseLoad",
    "type":"page",
-   "link":true
+   "link":true,
+   "section": "Database Tools"
 }

@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"SM",
    "label":"Database Load Status",
    "desc":"Database Load Status",
    "id":"databaseloadStatus",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section": "Database Tools"
 }

@@ -1,8 +1,10 @@
 {
-   "value":"CF",
+   "value":"SM",
    "label":"Custom Data Restore",
    "desc":"Custom Data Restore",
    "id":"customdataRestore",
    "type":"page",
-   "link":true
+   "link":true,
+   "section": "Database Tools"
+
 }

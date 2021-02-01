@@ -1,8 +1,9 @@
 {
-  "value": "TEDO",
+  "value": "SM",
   "label": "Audit Log Viewer",
   "desc": "Audit Log Viewer",
   "id": "auditLogViewer",
   "type": "comp",
-  "link": true
+  "link": true,
+  "section":"Access Tools"
 }

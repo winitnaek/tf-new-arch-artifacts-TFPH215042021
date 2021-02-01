@@ -1,8 +1,9 @@
 {
-   "value":"CF",
+   "value":"SM",
    "label":"Manual Update Status",
    "desc":"Manual Update Status",
    "id":"manualupdateStatus",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Maintenance Tools"
 }

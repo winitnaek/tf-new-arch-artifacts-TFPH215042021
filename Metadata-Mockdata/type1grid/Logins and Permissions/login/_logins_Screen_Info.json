@@ -1,8 +1,9 @@
 {
-   "value":"LI",
+   "value":"SM",
    "label":"Logins and Permissions",
    "desc":"Logins and Permissions",
    "id":"logins",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Access Tools"
 }

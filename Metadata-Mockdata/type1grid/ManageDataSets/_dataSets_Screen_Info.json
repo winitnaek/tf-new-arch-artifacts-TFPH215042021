@@ -1,8 +1,9 @@
 {
-   "value":"OO",
+   "value":"SM",
    "label":"Data Sets",
    "desc":"Data Sets",
    "id":"dataSets",
    "type":"comp",
-   "link":true
+   "link":true,
+   "section":"Access Tools"
 }
