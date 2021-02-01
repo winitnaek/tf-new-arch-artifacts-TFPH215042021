@@ -2,9 +2,9 @@
   "pgdef": {
     "pgid": "customNexusData",
     "pgtitle": "Custom Nexus Data",
-    "pgsubtitle": "Click here to create or manage Companies",
+    "pgsubtitle": "",
     "flowtype": "flowtype2",
-    "hasAddNew": true,
+    "hasAddNew": false,
     "addNewLabel": "",
     "actiondel": false,
     "helpAvailable": true,
@@ -25,7 +25,7 @@
       "columns":[
          {
             "text":"Company Code",
-            "datafield":"companyCode",
+            "datafield":"company",
             "cellsalign":"center",
             "width":"47.5%",
             "align":"center",
@@ -43,7 +43,7 @@
       ],
       "dataFields":[
          {
-            "name":"companyCode",
+            "name":"company",
             "type":"string"
          },
          {

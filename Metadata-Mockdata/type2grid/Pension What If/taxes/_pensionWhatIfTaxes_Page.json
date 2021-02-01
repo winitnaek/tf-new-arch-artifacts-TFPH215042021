@@ -26,7 +26,7 @@
       "columns":[
          {
             "text":"Tax Code",
-            "datafield":"taxCode",
+            "datafield":"usrauthcd",
             "cellsalign":"left",
             "width":"16.66%",
             "align":"left",
@@ -36,7 +36,7 @@
          },
          {
             "text":"Authority Name",
-            "datafield":"authorityName",
+            "datafield":"name",
             "cellsalign":"left",
             "width":"16.66%",
             "align":"left",
@@ -66,7 +66,7 @@
          },
          {
             "text":"Formula #",
-            "datafield":"formula#",
+            "datafield":"pensionFormula",
             "cellsalign":"left",
             "width":"16.66%",
             "align":"left",
@@ -83,16 +83,256 @@
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
+         },
+         {
+            "text":"taxN",
+            "datafield":"taxn",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"ppdwgs",
+            "datafield":"payPeriodWage",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"actualYearToDateWages",
+            "datafield":"actualYearToDateWages",
+            "cellsalign":"left",
+            "width":"16.66%",
+            "align":"left",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"yearToDateWage",
+            "datafield":"yearToDateWage",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"yearToDateTax",
+            "datafield":"yearToDateTax",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"additionalExemptionAmount",
+            "datafield":"additionalExemptionAmount",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"baseWages",
+            "datafield":"baseWages",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"exemptionAmount",
+            "datafield":"exemptionAmount",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"additionalAmount",
+            "datafield":"additionalAmount",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"payPeriodTax",
+            "datafield":"payPeriodTax",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"payPeriodToDateWages",
+            "datafield":"payPeriodToDateWages",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"monthToDateWages",
+            "datafield":"monthToDateWages",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"monthToDateTax",
+            "datafield":"monthToDateTax",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"quarterToDateWages",
+            "datafield":"quarterToDateWages",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"quarterToDateTax",
+            "datafield":"quarterToDateTax",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"additionalTaxRate",
+            "datafield":"additionalTaxRate",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"additionalNonwageIncome",
+            "datafield":"additionalNonwageIncome",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"taxCreditAmount",
+            "datafield":"taxCreditAmount",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"withholdingForm",
+            "datafield":"withholdingForm",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"exemptions",
+            "datafield":"exemptions",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"personalExemptions",
+            "datafield":"personalExemptions",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"dependentExemptions",
+            "datafield":"dependentExemptions",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"numberOfAdditionalExemptions",
+            "datafield":"numberOfAdditionalExemptions",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"maritalStatus",
+            "datafield":"maritalStatus",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"roundingIndicator",
+            "datafield":"roundingIndicator",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"supplementalCode",
+            "datafield":"supplementalCode",
+            "width":"16.66%",
+            "hidden":"true",
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
          }
       ],
       "dataFields":[
          {
-            "name":"taxCode",
+            "name":"usrauthcd",
             "type":"string",
             "map": "btxttax>usrauthcd"
          },
          {
-            "name":"authorityName",
+            "name":"name",
             "type":"string",
             "map": "btxttax>btxtaxc>btxauth>name"
          },
@@ -107,7 +347,7 @@
             "map": "btxtaxt>taxname"
          },
          {
-            "name":"formula#",
+            "name":"pensionFormula",
             "type":"string",
             "map":"btxttax>formula"
          },
@@ -115,8 +355,164 @@
             "name":"formula",
             "type":"string",
             "map":"btxform>title"
+         },
+         {
+            "name":"taxn",
+            "type":"string",
+            "map":"btxttax>id>taxn"
+         },
+         {
+            "name":"payPeriodWage",
+            "type":"string",
+            "map":"btxttax>ppdwgs"
+         },
+         {
+            "name":"actualYearToDateWages",
+            "type":"string",
+            "map":"btxttax>aytdwgs"
+         },
+         {
+            "name":"yearToDateWage",
+            "type":"string",
+            "map":"btxttax>ytdwgs"
+         },
+         {
+            "name":"yearToDateTax",
+            "type":"string",
+            "map":"btxttax>ytdtax"
+         },
+         {
+            "name":"additionalExemptionAmount",
+            "type":"string",
+            "map":"btxttax>addexmamt"
+         },
+         {
+            "name":"baseWages",
+            "type":"string",
+            "map":"btxttax>basewage"
+         },
+         {
+            "name":"exemptionAmount",
+            "type":"string",
+            "map":"btxttax>regexmamt"
+         },
+         {
+            "name":"additionalAmount",
+            "type":"string",
+            "map":"btxttax>addamt"
+         },
+         {
+            "name":"payPeriodTax",
+            "type":"string",
+            "map":"btxttax>ppdtax"
+         },
+         {
+            "name":"payPeriodToDateWages",
+            "type":"string",
+            "map":"btxttax>pptdwgs"
+         },
+         {
+            "name":"monthToDateWages",
+            "type":"string",
+            "map":"btxttax>mtdwgs"
+         },
+         {
+            "name":"monthToDateTax",
+            "type":"string",
+            "map":"btxttax>mtdtax"
+         },
+         {
+            "name":"quarterToDateWages",
+            "type":"string",
+            "map":"btxttax>qtdwgs"
+         },
+         {
+            "name":"quarterToDateTax",
+            "type":"string",
+            "map":"btxttax>qtdtax"
+         },
+         {
+            "name":"additionalTaxRate",
+            "type":"string",
+            "map":"btxttax>addtxrt"
+         },
+         {
+            "name":"additionalNonwageIncome",
+            "type":"string",
+            "map":"btxttax>addnwi"
+         },
+         {
+            "name":"taxCreditAmount",
+            "type":"string",
+            "map":"btxttax>taxcredit"
+         },
+         {
+            "name":"withholdingForm",
+            "type":"string",
+            "map":"btxttax>fymj"
+         },
+         {
+            "name":"exemptions",
+            "type":"string",
+            "map":"btxttax>regex"
+         },
+         {
+            "name":"personalExemptions",
+            "type":"string",
+            "map":"btxttax>prsex"
+         },
+         {
+            "name":"dependentExemptions",
+            "type":"string",
+            "map":"btxttax>depex"
+         },
+         {
+            "name":"numberOfAdditionalExemptions",
+            "type":"string",
+            "map":"btxttax>addex"
+         },
+         {
+            "name":"maritalStatus",
+            "type":"string",
+            "map":"btxttax>mart"
+         },
+         {
+            "name":"roundingIndicator",
+            "type":"string",
+            "map":"btxttax>rndind"
+         },
+         {
+            "name":"supplementalCode",
+            "type":"string",
+            "map":"btxttax>supcd"
          }
       ]
    },
-   "formdef":""
+   "formdef":{
+    "title": "Pension What-If Test",
+    "subtitle": "",
+    "hasSave": true,
+    "hasDelete": true,
+    "hasSaveAs": true,
+    "hasViewPDF": true,
+    "hasView": false,
+    "hasRecentUsage": false,
+    "formflds": [
+      {
+        "id": "usrauthcd",
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "taxTypeUserTaxType",
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "pensionFormula",
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      }
+    ]
+   }
 }

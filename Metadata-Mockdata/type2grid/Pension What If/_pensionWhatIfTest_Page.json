@@ -70,6 +70,138 @@
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
+      },
+      {
+        "text": "empGroup",
+        "datafield": "empGroup",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "companyCode",
+        "datafield": "companyCode",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "paymentType",
+        "datafield": "paymentType",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "payFreq",
+        "datafield": "payFreq",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "ytdPayPeriod",
+        "datafield": "ytdPayPeriod",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "estAnnualGrossAmt",
+        "datafield": "estAnnualGrossAmt",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "grossUpInd",
+        "datafield": "grossUpInd",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "rollOverElg",
+        "datafield": "rollOverElg",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "rollOverMonths",
+        "datafield": "rollOverMonths",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "companyPlan",
+        "datafield": "companyPlan",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "netWages",
+        "datafield": "netWages",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "disburseDate",
+        "datafield": "disburseDate",
+        "cellsalign": "left",
+        "width": "33%",
+        "align": "left",
+        "hidden": true,
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
       }
     ],
     "dataFields": [
@@ -88,6 +220,54 @@
       {
         "name": "regPen",
         "type": "string"
+      },
+      {
+        "name": "empGroup",
+        "type": "string"      
+      },
+      {
+        "name": "companyCode",
+        "type": "string"      
+      },
+      {
+        "name": "paymentType",
+        "type": "string"      
+      },
+      {
+        "name": "payFreq",
+        "type": "string"      
+      },
+      {
+        "name": "ytdPayPeriod",
+        "type": "string"      
+      },
+      {
+        "name": "estAnnualGrossAmt",
+        "type": "string"      
+      },
+      {
+        "name": "grossUpInd",
+        "type": "string"      
+      },
+      {
+        "name": "rollOverElg",
+        "type": "string"      
+      },
+      {
+        "name": "rollOverMonths",
+        "type": "string"      
+      },
+      {
+        "name": "companyPlan",
+        "type": "string"      
+      },
+      {
+        "name": "netWages",
+        "type": "string"      
+      },
+      {
+        "name": "disburseDate",
+        "type": "string"      
       }
     ]
   },
@@ -102,12 +282,12 @@
     "hasRecentUsage": false,
     "formflds": [
       {
-        "id": "recipientName",
+        "id": "empName",
         "isReadOnlyOnEdit": true,
-        "isReadOnlyOnNew": false
+        "isReadOnlyOnNew": true
       },
       {
-        "id": "recipientCode",
+        "id": "empCode",
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },

@@ -1,8 +1,8 @@
 
 [
 {
-      "id":"recipientName",
-      "placeholder":"Enter Recipient Name ",
+      "id":"empName",
+      "placeholder":"EMPLOYEE CODE ",
       "fieldtype":"text",
       "label":"Recipient Name",
       "value":"",
@@ -15,30 +15,18 @@
 
       },
       "validation":{
-         "required":true,
+         "required":false,
          "type":"string",
          "subtype":[
             {
                "type":"uppercase",
                "message":""
             }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":5,
-               "message":"min 5 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
          ]
       }
    },
    {
-      "id":"recipientCode",
+      "id":"empCode",
       "placeholder":"Enter the Recipient Code ",
       "fieldtype":"text",
       "label":"Recipient Code",
@@ -59,74 +47,53 @@
                "type":"uppercase",
                "message":""
             }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":5,
-               "message":"min 5 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
- {
-      "name":"Check Date",
-      "id":"checkDate",
-      "placeholder":"Enter Check Date",
-      "fieldtype":"date",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"Check Date",
-      "value":"",
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"Date",
-               "message":"Please enter a Check Date."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":8,
-               "message":"min 8 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
          ]
       }
    },
    {
-      "id":"group",
+		"name":"checkDate",
+      "id":"checkDate",
+      "placeholder":"Enter Check Date",
+		"fieldtype": "date",
+		"label":"Check Date",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
+		},
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [],
+		  "multiselect": false
+		},
+		"validation": {
+		  "required": true,
+		  "type": "date",
+		  "constraint": [
+			{
+			  "type": "currentDate",
+			  "message": "Current Date validation message"
+			}
+		  ]
+		}
+	  },
+   {
+      "id":"empGroup",
       "placeholder":"select the Employee Group ",
       "fieldtype":"select",
       "label":"Group",
-      "value":"",
+      "value":"0",
       "errmsg":" ",
       "fieldlength":{
          "minlength":5,
          "maxlength":25
       },
       "fieldinfo":{
-         "options":[
-            "N/A None",
-            "EMPGR00001 - EMPLOYEE GROUP 00001"
-         ]
+         "typeahead": false,
+		   "isasync": true,
+         "options":[]
       },
       "validation":{
          "required":false,
@@ -136,25 +103,24 @@
                "type":"uppercase",
                "message":"."
             }
-         ],
-         "constraint":[
-
          ]
       }
    },
    {
-      "id":"company",
+      "id":"companyCode",
       "placeholder":"Enter the Company ",
-      "fieldtype":"text",
+      "fieldtype":"select",
       "label":"Company",
-      "value":"",
+      "value":"0",
       "errmsg":" ",
       "fieldlength":{
          "minlength":5,
          "maxlength":25
       },
       "fieldinfo":{
-
+         "typeahead": false,
+		   "isasync": true,
+         "options":[]
       },
       "validation":{
          "required":false,
@@ -163,18 +129,6 @@
             {
                "type":"uppercase",
                "message":""
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":5,
-               "message":"min 5 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
             }
          ]
       }
@@ -192,10 +146,10 @@
       },
       "fieldinfo":{
          "options":[
-            "0- Regular",
-            "1- Supplemental",
-            "2- Cumulative",
-            "3- Vacation"
+            {"id": "0", "label": "Regular" },
+            {"id": "1", "label": "Supplemental" },
+            {"id": "2", "label": "Cumulative" },
+            {"id": "3", "label": "Vacation" }
          ]
       },
       "validation":{
@@ -213,11 +167,11 @@
       }
    },
    {
-      "id":"payFrequency",
+      "id":"payFreq",
       "placeholder":"Enter the Pay Frequency ",
       "fieldtype":"text",
       "label":"Pay Frequency",
-      "value":"",
+      "value":"52",
       "errmsg":" ",
       "fieldlength":{
 
@@ -245,8 +199,7 @@
       }
    },
    {
-      "name":"YTD Pay Period",
-      "id":"yTDPayPeriod",
+      "id":"ytdPayPeriod",
       "placeholder":"Enter the YTD Pay Period",
       "fieldtype":"text",
       "fieldlength":{
@@ -270,19 +223,11 @@
                "type":"typeError",
                "message":"Must be a number"
             }
-         ],
-         "constraint":[
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
          ]
       }
    },
    {
-      "name":"Est. Annual Gross Amount",
-      "id":"est.AnnualGrossAmount",
+      "id":"estAnnualGrossAmt",
       "placeholder":"Enter the Est.Annual Gross Amount",
       "fieldtype":"text",
       "fieldlength":{
@@ -306,18 +251,11 @@
                "type":"typeError",
                "message":"Must be a number"
             }
-         ],
-         "constraint":[
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
          ]
       }
    },
    {
-      "id":"grossUpIndicator",
+      "id":"grossUpInd",
       "placeholder":"Select if you want Gross Up ",
       "fieldtype":"select",
       "label":"Gross Up Indicator",
@@ -329,8 +267,8 @@
       },
       "fieldinfo":{
          "options":[
-            "0- Do not perform Gross up",
-            "1 - Perform Gross up"
+            {"id":"0", "label": "Do not perform Gross up"},
+            {"id":"1", "label": "Perform Gross up"}
          ]
       },
       "validation":{
@@ -348,9 +286,9 @@
       }
    },
    {
-      "id":"rolloverEligible",
+      "id":"rollOverElg",
       "placeholder":"",
-      "fieldtype":"text",
+      "fieldtype":"select",
       "label":"Rollover Eligible",
       "value":"",
       "errmsg":" ",
@@ -360,8 +298,8 @@
       },
       "fieldinfo":{
          "options":[
-            "0 Not Eligible",
-            "1 Eligible"
+            {"id":"0", "label": "Not Eligible"},
+            {"id":"1", "label": "Eligible"}
          ]
       },
       "validation":{
@@ -379,7 +317,7 @@
       }
    },
    {
-      "id":"disbursementRolloverMonths",
+      "id":"rollOverMonths",
       "placeholder":" ",
       "fieldtype":"text",
       "label":"Disbursement Rollover Months",
@@ -421,26 +359,22 @@
       },
       "fieldinfo":{
          "options":[
-            "0 -No",
-            "1- Yes"
+            {"id":"0", "label": "No"},
+            {"id":"1", "label": "Yes"}
          ]
       },
       "validation":{
-         "required":true,
+         "required":false,
          "type":"string",
          "subtype":[
             {
                "type":"uppercase",
                "message":""
             }
-         ],
-         "constraint":[
-
          ]
       }
    },
    {
-      "name":"Net Wages",
       "id":"netWages",
       "placeholder":"Enter the Net Wages",
       "fieldtype":"text",
@@ -465,51 +399,36 @@
                "type":"typeError",
                "message":"Must be a number"
             }
-         ],
-         "constraint":[
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
          ]
       }
    },
- {
-      "name":"Disbursement Date",
-      "id":"disbursementDate",
-      "placeholder":"Enter Disbursement Date",
-      "fieldtype":"date",
-      "fieldlength":{
+   {
+      "id":"disburseDate",
+		"placeholder":"Enter Disbursement Date",
+		"fieldtype": "date",
+		"label":"Disbursement Date",
+		"value": "",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 25
+		},
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [],
+		  "multiselect": false
+		},
+		"validation": {
+		  "required": false,
+		  "type": "date",
+		  "constraint": [
+			{
+			  "type": "currentDate",
+			  "message": "Current Date validation message"
+			}
+		  ]
+		}
+	  }
 
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"Disbursement Date",
-      "value":"",
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"Date",
-               "message":"Please enter a Disbursement Date."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":8,
-               "message":"min 8 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   }
 ]
