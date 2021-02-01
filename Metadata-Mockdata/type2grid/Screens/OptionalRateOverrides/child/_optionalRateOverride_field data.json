@@ -95,30 +95,20 @@
 		}
 	 },
 	 {
-		"name":"End Date",
-		"id":"rescindDateDspl",
-		"placeholder":"Enter End Date",
-		"fieldtype":"date",
-		"fieldlength":{
-   
-		},
-		"fieldinfo":{
-   
-		},
-		"validationType":"string",
-		"label":"End Date",
-		"value":"12/31/9999",
-		"validation":{
-		   "required":false,
-		   "type":"string",
-		   "subtype":[
-			  {
-				 "type":"Date",
-				 "message":""
-			  }
-		   ]
+		"name": "rescindDateDspl",
+		"id": "rescindDateDspl",
+		"placeholder": "",
+		"fieldtype": "date",
+		"fieldlength": {},
+		"fieldinfo": {},
+		"validationType": "string",
+		"label": "End Date",
+		"value": "9999-12-31",
+		"validation": {
+		  "required": true,
+		  "type": "text"
 		}
-	 },
+	  },
 	{
 		"name": "riskclass",
 		"id": "riskclass",
