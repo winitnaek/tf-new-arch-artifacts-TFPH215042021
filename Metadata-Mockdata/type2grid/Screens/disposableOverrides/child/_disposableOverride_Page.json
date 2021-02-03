@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "disposableOverride",
     "pgtitle": "Disposable Overrides",
-    "pgsubtitle": "disposable Overrides for: ",
+    "pgsubtitle": "",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "addNewLabel": "Click here to add new Override. Or click on existing Override to edit.",
@@ -27,50 +27,35 @@
 
       {
         "text": "Authority",
-        "datafield": "authorityCode",
-        "width": "12.50%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "authTaxCode",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "authCodeauthNamerenderer"
       },
       {
         "text": "Garnishment",
-        "datafield": "garnishment",
-        "width": "12.50%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "garnishType",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "garnishTypeNamerenderer"
       },
       {
         "text": "Payment",
         "datafield": "paymentCode",
-        "width": "12.50%",
-        "cellsalign": "center",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "paymentCodeNamerenderer"
       },
       {
         "text": "Dates",
         "datafield": "startDate",
-        "cellsalign": "center",
-        "width": "12.50%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "startDateEndDaterenderer"
       },
       {
         "text": "Process",
-        "datafield": "process",
-        "width": "12.50%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "processCode",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -78,43 +63,46 @@
       {
         "text": "Date Code",
         "datafield": "dateCode",
-        "width": "12.50%",
-        "cellsalign": "center",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Percent",
-        "datafield": "percent",
-        "width": "12.50%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "minPercent",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "minMaxPctrenderer"
       },
       {
         "text": "Amount",
-        "datafield": "amount",
-        "width": "12.50%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "maxAmount",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "minMaxAmtrenderer"
       }
 
     ],
     "dataFields": [
-
       {
-        "name": "authorityCode",
+        "name": "authTaxCode",
         "type": "string"
       },
       {
-        "name": "garnishment",
+        "name": "dispOvrdAuthTaxCode",
+        "type": "string",
+        "map":"authTaxCode"
+      },
+      {
+        "name": "authName",
+        "type": "string"
+      },
+      {
+        "name": "garnishType",
+        "type": "string"
+      },
+      {
+        "name": "garnishName",
         "type": "string"
       },
       {
@@ -122,11 +110,28 @@
         "type": "string"
       },
       {
-        "name": "dates",
+        "name": "dispOvrdPaymentCode",
+        "type": "string",
+        "map":"paymentCode"
+      },
+      {
+        "name": "paymentName",
         "type": "string"
       },
       {
-        "name": "process",
+        "name": "empgroup",
+        "type": "string"
+      },
+      {
+        "name": "startDate",
+        "type": "string"
+      },
+      {
+        "name": "endDate",
+        "type": "string"
+      },
+      {
+        "name": "processCode",
         "type": "string"
       },
       {
@@ -134,14 +139,33 @@
         "type": "string"
       },
       {
-        "name": "percent",
-        "type": "number"
+        "name": "minAmount",
+        "type": "string"
       },
       {
-        "name": "amount",
-        "type": "number"
+        "name": "maxAmount",
+        "type": "string"
+      },
+      {
+        "name": "minPercent",
+        "type": "string"
+      },
+      {
+        "name": "maxPercent",
+        "type": "string"
+      },
+      {
+        "name": "dateCodeVal",
+        "type": "string"
+      },
+      {
+        "name": "dateCodeVal",
+        "type": "string"
+      },
+      {
+        "name": "processCodeVal",
+        "type": "string"
       }
-
     ]
   },
 
@@ -163,19 +187,19 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "",
+        "id": "dispOvrdAuthTaxCode",
         "order": 2,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "garnishment",
+        "id": "garnishType",
         "order": 3,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "paymentCode",
+        "id": "dispOvrdPaymentCode",
         "order": 4,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
@@ -187,42 +211,41 @@
         "isReadOnlyOnNew": false
       },
       {
-        "id": "dateCode",
+        "id": "dateCodeVal",
         "order": 6,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "processCode",
+        "id": "processCodeVal",
         "order": 7,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "minimumAmount",
+        "id": "minAmount",
         "order": 8,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "maximumAmount",
+        "id": "maxAmount",
         "order": 9,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "minimumPercent",
+        "id": "minPercent",
         "order": 10,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "maximumPercent",
+        "id": "maxPercent",
         "order": 11,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       }
-
 ],
     "fltrflds": ""
   }

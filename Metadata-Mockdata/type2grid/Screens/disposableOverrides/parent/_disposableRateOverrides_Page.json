@@ -26,10 +26,7 @@
       
       {
         "text": "Group Code",
-        "datafield": "groupCode",
-        "width": "50%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "code",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,10 +34,7 @@
      
       {
         "text": "Group Name",
-        "datafield": "groupName",
-        "width": "50%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "name",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -50,11 +44,15 @@
     "dataFields": [
      
       {
-        "name": "groupCode",
+        "name": "code",
         "type": "string"
       },
       {
-        "name": "groupName",
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "label",
         "type": "string"
       }
 
@@ -72,13 +70,13 @@
     "hasRecentUsage": false,
     "formflds": [
       {
-        "id": "groupCode",
+        "id": "code",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "groupName",
+        "id": "name",
         "order": 2,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
