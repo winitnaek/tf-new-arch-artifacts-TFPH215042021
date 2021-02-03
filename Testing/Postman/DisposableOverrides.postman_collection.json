@@ -1,0 +1,549 @@
+{
+	"info": {
+		"_postman_id": "1dea9163-35d2-4d78-8034-13f888120c17",
+		"name": "DisposableOverrides",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getGarnishmentGroupList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"pageId\":\"GarnishmentGroup\",      \r\n      \"dataset\":\"DEFAULT\", \r\n      \"userId\":\"TF11\"\r\n         \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/getGarnishmentGroupList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"getGarnishmentGroupList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDisposableOverrideList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n      \"dataset\":\"DEFAULT\", \r\n      \"garnishmentGroupCode\":\"GG\"         \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/getDisposableOverrideList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"getDisposableOverrideList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDisposableOverrideDetail",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n      \"dataset\":\"DEFAULT\", \r\n      \"garnishmentGroupCode\":\"GG\" ,\r\n      \"authCode\":\"BSI00060000\",\r\n      \"taxType\":\"BSI502\",\r\n      \"pmtUsrCode\":\"BSID016\",\r\n      \"startdate\":\"02/20/2020\"        \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/getDisposableOverrideDetail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"getDisposableOverrideDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "viewAllDisposableOverrides",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n      \"dataset\":\"DEFAULT\", \r\n      \"groupCode\":\"BSI502\" ,\r\n      \"authCode\":\"BSI00060000\",      \r\n      \"startdate\":\"02/20/2020\" ,\r\n      \"endDate\":\"12/31/2020\"       \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/viewAllDisposableOverrides",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"viewAllDisposableOverrides"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "autocompleteDispOvrdGarnishments",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n      \"dataset\":\"DEFAULT\",       \r\n      \"authCode\":\"00060000\",\r\n      \"pattern\":\"cur\"\r\n            \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/autocompleteDispOvrdGarnishments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"autocompleteDispOvrdGarnishments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "autocompleteDispOvrdPymntCodes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n      \"dataset\":\"DEFAULT\",       \r\n      \"startdate\":\"02/01/2021\",\r\n      \"pattern\":\"401\"\r\n            \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/autocompleteDispOvrdPymntCodes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"autocompleteDispOvrdPymntCodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "autocompleteDispOvrdAuthorities",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n      \"dataset\":\"DEFAULT\", \r\n      \"garnishmentGroupCode\":\"GG\" ,\r\n      \"pattern\":\"fe\"\r\n              \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/autocompleteDispOvrdAuthorities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"autocompleteDispOvrdAuthorities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteDisposableOverride",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n      \"dataset\":\"DEFAULT\", \r\n      \"empgroup\":\"GG\" ,\r\n      \"authTaxCode\":\"BSI00060000\",\r\n      \"garnishType\":\"BSI502\",\r\n      \"paymentCode\":\"BSID016\",\r\n      \"startDate\":\"02/20/2020\" ,\r\n       \"userId\":\"TF11\"        \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/deleteDisposableOverride",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"deleteDisposableOverride"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveDisposableOverride",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"dataset\":\"DEFAULT\",\r\n\t\"userId\":\"TF11\",\r\n    \"authId\": \"00060000\",\r\n    \"empgroup\": \"GG\",   \r\n    \"authTaxCode\": \"BSI00060000\",      \r\n    \"garnishType\": \"BSI502\",    \r\n    \"paymentCode\": \"BSID016\",   \r\n    \"startDate\": \"02/20/2020\",\r\n    \"endDate\": \"12/31/2020\",\r\n    \"dateCode\": \"0\",\r\n    \"processCode\": \"0\",\r\n    \"minAmount\": \"1.00\",\r\n    \"maxAmount\": \"2.00\",\r\n    \"minPercent\": \"5.000000000\",\r\n    \"maxPercent\": \"6.000000000\",\r\n\t\"editMode\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/saveDisposableOverride",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"saveDisposableOverride"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateDisposableOverride",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"dataset\":\"DEFAULT\",\r\n\t\"userId\":\"TF11\",\r\n    \"authId\": \"00060000\",\r\n    \"empgroup\": \"GG\",   \r\n    \"authTaxCode\": \"BSI00060000\",      \r\n    \"garnishType\": \"BSI502\",    \r\n    \"paymentCode\": \"BSID016\",   \r\n    \"startDate\": \"02/20/2020\",\r\n    \"endDate\": \"12/31/2020\",\r\n    \"dateCode\": \"0\",\r\n    \"processCode\": \"0\",\r\n    \"minAmount\": \"1.00\",\r\n    \"maxAmount\": \"2.00\",\r\n    \"minPercent\": \"5.000000000\",\r\n    \"maxPercent\": \"6.000000000\",\r\n\t\"editMode\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/GarnishmentService/saveDisposableOverride",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"GarnishmentService",
+						"saveDisposableOverride"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
