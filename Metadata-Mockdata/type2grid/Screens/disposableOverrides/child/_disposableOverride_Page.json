@@ -11,7 +11,7 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/disposableOverrides",
     "parentConfig": "disposableRateOverrides",
-    "childConfig": []
+    "childConfig":""
 
   },
   "griddef": {
@@ -176,8 +176,8 @@
     "hasDelete": true,
     "hasSaveAs": false,
     "hasViewPDF": false,
-    "hasView": true,
-    "viewAllBtnText": "View All Disposable",
+    "hasView": false,
+    "viewAllBtnText": "View All Disposables",
     "hasRecentUsage": false,
     "formflds": [
       {
