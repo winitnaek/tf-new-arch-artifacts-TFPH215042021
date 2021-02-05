@@ -56,7 +56,7 @@
          },
          {
             "text":"GP Indicator",
-            "datafield":"gwPriorityString",
+            "datafield":"gwPriority",
             "cellsalign":"left",
             "width":"auto",
             "align":"left",
@@ -96,10 +96,6 @@
          },
          {
             "name":"remncd",
-            "type":"string"
-         },
-         {
-            "name":"gwPriorityString",
             "type":"string"
          },
          {

@@ -3,9 +3,9 @@
     "id": "checkDate",
     "placeholder": "",
     "fieldtype": "date",
-    "label": "From:",
+    "label": "Check Date:",
     "value": "",
-    "errmsg": "From Date is required",
+    "errmsg": "Check Date is required",
     "validation": {
       "required": true,
       "type": "date"
@@ -41,47 +41,59 @@
     }
   },
   {
-    "id": "empGroup",
-    "placeholder": "Enter Group",
-    "fieldtype": "select",
-    "label": "Group",
-    "value": "",
-    "errmsg": "Group is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
+    "id":"empGroup",
+    "placeholder":"select the Employee Group ",
+    "fieldtype":"select",
+    "label":"Group",
+    "value":"0",
+    "errmsg":" ",
+    "fieldlength":{
+       "minlength":5,
+       "maxlength":25
     },
-    "fieldinfo": {
-      "typeahead": true,
-      "isasync": true,
-      "minLength": 1
+    "fieldinfo":{
+       "typeahead": false,
+     "isasync": true,
+       "options":[]
     },
-    "validation": {
-      "required": false,
-      "type": "string"
+    "validation":{
+       "required":false,
+       "type":"string",
+       "subtype":[
+          {
+             "type":"uppercase",
+             "message":"."
+          }
+       ]
     }
-  },
-  {
-    "id": "companyCode",
-    "placeholder": "Enter Company",
-    "fieldtype": "select",
-    "label": "Company",
-    "value": "",
-    "errmsg": "Company is required",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
+ },
+ {
+    "id":"companyCode",
+    "placeholder":"Enter the Company ",
+    "fieldtype":"select",
+    "label":"Company",
+    "value":"0",
+    "errmsg":" ",
+    "fieldlength":{
+       "minlength":5,
+       "maxlength":25
     },
-    "fieldinfo": {
-      "typeahead": true,
-      "isasync": true,
-      "minLength": 1
+    "fieldinfo":{
+       "typeahead": false,
+     "isasync": true,
+       "options":[]
     },
-    "validation": {
-      "required": false,
-      "type": "string"
+    "validation":{
+       "required":false,
+       "type":"string",
+       "subtype":[
+          {
+             "type":"uppercase",
+             "message":""
+          }
+       ]
     }
-  },
+ },
   {
     "id": "paymentType",
     "placeholder": "Select Payment Type",
@@ -229,7 +241,7 @@
     "placeholder": "Select Gross UP Indicator",
     "fieldtype": "select",
     "label": "Gross up Indicator",
-    "value": "0",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -425,7 +437,7 @@
     "placeholder": "Select Garnishment",
     "fieldtype": "select",
     "label": "Garnishment",
-    "value": "0",
+    "value": "",
     "errmsg": "",
     "fieldlength": {
       "minlength": 1,
@@ -436,16 +448,19 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
-          "label": "0 - Do not Process Garnishments"
+          "id": "0",
+          "label": "0 - Do not Process Garnishments",
+          "disable": ["garnishmentGrp","principalStateOfEmp"]
         },
         {
-          "id": 1,
-          "label": "1 - Do Garnishments and Tax Calculation"
+          "id": "1",
+          "label": "1 - Do Garnishments and Tax Calculation",
+          "enable": ["garnishmentGrp", "principalStateOfEmp"]
         },
         {
-          "id": 2,
-          "label": "2 - Do Garnishments with Input Calculation"
+          "id": "2",
+          "label": "2 - Do Garnishments with Input Calculation",
+          "enable": ["garnishmentGrp", "principalStateOfEmp"]
         }
       ],
       "multiselect": false
@@ -456,29 +471,32 @@
     }
   },
   {
-    "id": "garnishmentGroup",
-    "placeholder": "Enter Garnishment Group",
-    "fieldtype": "select",
-    "label": "Garnishment Group",
-    "value": "",
-    "errmsg": "",
-    "fieldlength": {
-      "minlength": 1,
-      "maxlength": 25
+    "id":"garnishmentGrp",
+    "placeholder":"select the Garnishment Group ",
+    "fieldtype":"select",
+    "label":"Garnishment Group",
+    "value":"0",
+    "errmsg":" ",
+    "fieldlength":{
+       "minlength":5,
+       "maxlength":25
     },
-    "fieldinfo": {
-      "typeahead": true,
-      "isasync": true,
-      "minLength": 1,
-      "globalSearch": false,
-      "options": [],
-      "multiselect": false
+    "fieldinfo":{
+       "typeahead": false,
+       "isasync": true,
+       "options":[]
     },
-    "validation": {
-      "required": false,
-      "type": "string"
+    "validation":{
+       "required":false,
+       "type":"string",
+       "subtype":[
+          {
+             "type":"uppercase",
+             "message":"."
+          }
+       ]
     }
-  },
+ },
   {
     "id": "principalStateOfEmp",
     "placeholder": "Enter Principal State of Employment",
@@ -508,7 +526,7 @@
     "placeholder": "Select Calculation Type",
     "fieldtype": "select",
     "label": "Calculation Type",
-    "value": "0",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -555,7 +573,7 @@
     "placeholder": "Select Wage Process Code",
     "fieldtype": "select",
     "label": "Wage Process Code",
-    "value": "0",
+    "value": "",
     "errmsg": "",
     "fieldlength": {
       "minlength": 1,
@@ -615,7 +633,7 @@
     "placeholder": "Select Employee Type",
     "fieldtype": "select",
     "label": "Employee Type",
-    "value": "0",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -658,7 +676,7 @@
     "placeholder": "Select Employment Type",
     "fieldtype": "select",
     "label": "Employment Type",
-    "value": "0",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -669,36 +687,50 @@
       "isasync": false,
       "options": [
         {
-          "id": 0,
-          "label": "0 - Active Regular Employee"
+          "id": "0",
+          "label": "0 - Active Regular Employee",
+          "disable":["terminationDate", "dateOfDeath"]
         },
         {
-          "id": 1,
-          "label": "1 - Mobile Workforce Employee"
+          "id": "1",
+          "label": "1 - Mobile Workforce Employee",
+          "disable":["terminationDate", "dateOfDeath"]
         },
         {
-          "id": 2,
-          "label": "2 - Terminated Employee</option>"
+          "id": "2",
+          "label": "2 - Terminated Employee</option>",
+          "enable":["terminationDate"],
+          "disable":["dateOfDeath"]
         },
         {
-          "id": 4,
-          "label": "4 - Deceased Employee in the Private Sector"
+          "id": "4",
+          "label": "4 - Deceased Employee in the Private Sector",
+          "enable":["dateOfDeath"],
+          "disable":["terminationDate"]
         },
         {
-          "id": 5,
-          "label": "5 - Deceased Railroad Employee (non ICC-eligible)"
+          "id": "5",
+          "label": "5 - Deceased Railroad Employee (non ICC-eligible)",
+          "enable":["dateOfDeath"],
+          "disable":["terminationDate"]
         },
         {
-          "id": 6,
-          "label": "6 - Deceased Employee in the Public Sector"
+          "id": "6",
+          "label": "6 - Deceased Employee in the Public Sector",
+          "enable":["dateOfDeath"],
+          "disable":["terminationDate"]
         },
         {
-          "id": 7,
-          "label": "7 - Active Railroad Employee (ICC-eligible)"
+          "id": "7",
+          "label": "7 - Active Railroad Employee (ICC-eligible)",
+          "enable":["dateOfDeath"],
+          "disable":["terminationDate"]
         },
         {
-          "id": 8,
-          "label": "8 - Deceased Railroad Employee (ICC-eligible)"
+          "id": "8",
+          "label": "8 - Deceased Railroad Employee (ICC-eligible)",
+          "enable":["dateOfDeath"],
+          "disable":["terminationDate"]
         }
       ],
       "multiselect": false
@@ -798,7 +830,7 @@
     "placeholder": "Select Calculated Local Tax In",
     "fieldtype": "select",
     "label": "Calculated Local Tax In",
-    "value": "0",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -853,7 +885,7 @@
     "placeholder": "Select Statutory EE Indicator",
     "fieldtype": "select",
     "label": "Statutory EE Indicator",
-    "value": "0",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -896,7 +928,7 @@
     "placeholder": "Select Foreign Earned Income",
     "fieldtype": "select",
     "label": "Foreign Earned Income",
-    "value": "0",
+    "value": "",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,

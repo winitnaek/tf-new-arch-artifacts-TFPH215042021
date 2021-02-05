@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "customNexusCompanyData",
     "pgtitle": "Custom Nexus Data",
-    "pgsubtitle": "Custom Nexus Data for: ",
+    "pgsubtitle": "",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "addNewLabel": "Click here to add new Nexus relationship or click on existing item to edit its properties.",
@@ -25,7 +25,7 @@
     "columns": [
       {
         "text": "Tax Code",
-        "datafield": "taxCode",
+        "datafield": "taxCode1",
         "cellsalign": "center",
         "width": "20%",
         "align": "center",
@@ -35,7 +35,7 @@
       },
       {
         "text": "Authority Name",
-        "datafield": "authorityName",
+        "datafield": "authname1",
         "width": "20%",
         "cellsalign": "center",
         "align": "center",
@@ -45,7 +45,7 @@
       },
       {
         "text": "Start Date",
-        "datafield": "startDate",
+        "datafield": "startdate",
         "cellsalign": "center",
         "width": "20%",
         "align": "center",
@@ -55,7 +55,7 @@
       },
       {
         "text": "End Data",
-        "datafield": "endDate",
+        "datafield": "rescind",
         "width": "20%",
         "cellsalign": "center",
         "align": "center",
@@ -72,14 +72,44 @@
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
+      },
+      {
+        "text": "company",
+        "datafield": "company",
+        "cellsalign": "center",
+        "hidden": true,
+        "width": "20%",
+        "align": "center",
+        "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "authority1",
+        "datafield": "authority1",
+        "hidden": true,
+        "width": "20%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "nxind",
+        "datafield": "nxind",
+        "hidden": true,
+        "width": "20%",
+        "rendererInput": "",
+        "rendererStaticInput": ""
       }
     ],
     "dataFields": [
-      { "name": "taxCode","type": "string"},
-      {"name": "authorityName","type": "string"},
-      {"name": "startDate","type": "Date"},
-      { "name": "endDate", "type": "Date"},
-       {"name": "dCCourtesy","type": "string"}
+      { "name": "taxCode1","type": "string"},
+      {"name": "authname1","type": "string"},
+      {"name": "startdate","type": "Date"},
+      { "name": "rescind", "type": "Date"},
+       {"name": "dCCourtesy","type": "string"},
+       {"name": "company","type": "string"},
+       {"name": "authority1","type": "string"},
+       {"name": "nxind","type": "string"}
     ]
   },
 
@@ -94,28 +124,16 @@
     "hasRecentUsage": false,
     "formflds": [
       {
-        "id": "authorityName",
+        "id": "taxCode1",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
 
       {
-        "id": "startDate",
+        "id": "startdate",
         "order": 2,
         "isReadOnlyOnEdit": true,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "endDate",
-        "order": 3,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "dCCourtesy",
-        "order": 4,
-        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       }
 

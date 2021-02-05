@@ -256,7 +256,7 @@
             "text":"withholdingForm",
             "datafield":"withholdingForm",
             "width":"16.66%",
-            "hidden":"true",
+            "hidden":true,
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -449,7 +449,7 @@
          {
             "name":"withholdingForm",
             "type":"string",
-            "map":"btxttax>fymj"
+            "map":"fymj"
          },
          {
             "name":"exemptions",

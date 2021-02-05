@@ -549,8 +549,6 @@
     "hasSaveAs":false,
     "hasViewPDF":true,
     "hasView":false,
-    "hasRecentUsage":false,
-    "formflds":[],
     "hasRecentUsage": false,
     "formflds": [
       {
@@ -570,6 +568,12 @@
         "order": 3,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
+      },
+      {
+        "id": "nxind",
+        "order": 4,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": true
       }]
     }
 }
