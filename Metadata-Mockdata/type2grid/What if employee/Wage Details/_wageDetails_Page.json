@@ -228,6 +228,17 @@
             "hidden": true,
             "rendererInput":"",
             "rendererStaticInput":""
+         },
+         {
+            "text":"seqn",
+            "datafield":"seqn",
+            "cellsalign":"left",
+            "width":"33%",
+            "align":"left",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
          }
       ],
       "dataFields":[
@@ -325,6 +336,11 @@
             "name":"currentCredit",
             "type":"string",
             "map": "btxtwge>curcrdt"
+         },
+         {
+            "name":"seqn",
+            "type":"string",
+            "map": "btxtwge>id>seqn"
          }
       ]
    },

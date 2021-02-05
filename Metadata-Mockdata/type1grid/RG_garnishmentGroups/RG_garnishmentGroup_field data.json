@@ -21,18 +21,6 @@
                "type":"uppercase",
                "message":"Group Code needs to be in uppercase."
             }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":1,
-               "message":"min 1 characters"
-            },
-            {
-               "type":"max",
-               "input":11,
-               "message":"max 11 characters"
-            }
          ]
       }
    },
@@ -57,18 +45,6 @@
             {
                "type":"uppercase",
                "message":"Group Name needs to be in uppercase."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":1,
-               "message":"min 1 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
             }
          ]
       }

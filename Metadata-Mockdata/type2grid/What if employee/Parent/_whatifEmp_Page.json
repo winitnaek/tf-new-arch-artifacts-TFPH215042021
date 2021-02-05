@@ -148,7 +148,7 @@
             "type":"string"
          },
          {
-            "name":"garnishmentGroup",
+            "name":"garnishmentGrp",
             "type":"string"
          },
          {
@@ -266,10 +266,10 @@
             "isReadOnlyOnNew":true
          },
          {
-            "id":"garnishmentGroup",
+            "id":"garnishmentGrp",
             "order":5,
             "isReadOnlyOnEdit":false,
-            "isReadOnlyOnNew":true
+            "isReadOnlyOnNew":false
          },
          {
             "id":"principalStateOfEmployment",
@@ -281,13 +281,13 @@
             "id":"terminationDate",
             "order":7,
             "isReadOnlyOnEdit":false,
-            "isReadOnlyOnNew":true
+            "isReadOnlyOnNew":false
          },
          {
             "id":"dateOfDeath",
             "order":8,
             "isReadOnlyOnEdit":false,
-            "isReadOnlyOnNew":true
+            "isReadOnlyOnNew":false
          },
          {
             "id":"contribAlloc",

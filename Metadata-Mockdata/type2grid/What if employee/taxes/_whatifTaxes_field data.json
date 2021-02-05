@@ -999,7 +999,6 @@
       }] 
     },
     "validationType": "string",
-    "label": "Use Reciprocal Formula",
     "value": "",
     "validation": {
       "required": false,

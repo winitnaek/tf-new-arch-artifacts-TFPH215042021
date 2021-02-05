@@ -103,6 +103,17 @@
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
+         },
+         {
+            "text":"taxtype",
+            "datafield":"taxtype",
+            "cellsalign":"left",
+            "width":"12.5%",
+            "align":"left",
+            "hidden": true,
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
          }
       ],
       "dataFields":[
