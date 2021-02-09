@@ -35,9 +35,6 @@
          {
             "text":"LiveWork",
             "datafield":"liveWork",
-            "cellsalign":"left",
-            "width":"20%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -45,9 +42,6 @@
          {
             "text":"City",
             "datafield":"city",
-            "cellsalign":"left",
-            "width":"20%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -55,9 +49,6 @@
          {
             "text":"County",
             "datafield":"county",
-            "cellsalign":"left",
-            "width":"20%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -65,9 +56,6 @@
 		 {
 			"text":"State",
 			"datafield":"state",
-			"cellsalign":"left",
-			"width":"20%",
-			"align":"left",
 			"sortable":true,
 			"rendererInput":"",
 			"rendererStaticInput":""
@@ -75,9 +63,6 @@
 		 {
 			"text":"Zip Code",
 			"datafield":"zip",
-			"cellsalign":"left",
-			"width":"20%",
-			"align":"left",
 			"sortable":true,
 			"rendererInput":"",
 			"rendererStaticInput":""
@@ -85,9 +70,6 @@
       {
          "text":"Street1",
          "datafield":"street1",
-         "cellsalign":"left",
-         "width":"33%",
-         "align":"left",
          "sortable":true,
          "hidden": true,
          "rendererInput":"",
@@ -96,9 +78,6 @@
       {
          "text":"Street2",
          "datafield":"street2",
-         "cellsalign":"left",
-         "width":"33%",
-         "align":"left",
          "sortable":true,
          "hidden": true,
          "rendererInput":"",
@@ -107,9 +86,6 @@
       {
          "text":"eicCode",
          "datafield":"eicCode",
-         "cellsalign":"left",
-         "width":"33%",
-         "align":"left",
          "sortable":true,
          "hidden": true,
          "rendererInput":"",
@@ -118,9 +94,6 @@
       {
          "text":"primews",
          "datafield":"primews",
-         "cellsalign":"left",
-         "width":"33%",
-         "align":"left",
          "sortable":true,
          "hidden": true,
          "rendererInput":"",
@@ -129,9 +102,6 @@
       {
          "text":"locnnumbr",
          "datafield":"locnnumbr",
-         "cellsalign":"left",
-         "width":"33%",
-         "align":"left",
          "sortable":true,
          "hidden": true,
          "rendererInput":"",

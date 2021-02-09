@@ -33,9 +33,6 @@
          {
             "text":"Employee Code",
             "datafield":"employeeCode",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -43,9 +40,6 @@
          {
             "text":"Employee Name",
             "datafield":"employeeName",
-            "cellsalign":"left",
-            "width":"34%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -53,9 +47,6 @@
          {
             "text":"Check Date",
             "datafield":"checkDate",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -63,9 +54,6 @@
          {
             "text":"Company Code",
             "datafield":"cpycode",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
