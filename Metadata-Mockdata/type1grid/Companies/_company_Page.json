@@ -27,9 +27,6 @@
       {
         "text": "Company",
         "datafield": "company",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "Company Name",
         "datafield": "companyName",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,9 +41,6 @@
       {
         "text": "FEIN",
         "datafield": "fein",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -57,9 +48,6 @@
       {
         "text": "Local Courtesy Withholding",
         "datafield": "courtesy",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "courtesyRenderer"
