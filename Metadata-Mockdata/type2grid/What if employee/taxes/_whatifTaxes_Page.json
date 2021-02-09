@@ -28,9 +28,6 @@
       {
         "text": "Tax Code",
         "datafield": "usrauthcd",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -38,9 +35,6 @@
       {
         "text": "Authority Name",
         "datafield": "name",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -48,9 +42,6 @@
       {
         "text": "Tax Type/User Tax Type",
         "datafield": "bsitaxtyp",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -58,9 +49,6 @@
       {
         "text": "Tax Name",
         "datafield": "taxname",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -68,9 +56,6 @@
       {
         "text": "Formula #",
         "datafield": "formulawhatif",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -78,9 +63,6 @@
       {
         "text": "Formula",
         "datafield": "title",
-        "cellsalign": "left",
-        "width": "22%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -88,9 +70,6 @@
       {
         "text": "Check Date",
         "datafield": "chkdt",
-        "cellsalign": "left",
-        "width": "22%",
-        "align": "left",
         "sortable": true,
         "hidden": true,
         "rendererInput": "",
@@ -99,9 +78,6 @@
       {
         "text": "Tax",
         "datafield": "taxn",
-        "cellsalign": "left",
-        "width": "22%",
-        "align": "left",
         "sortable": true,
         "hidden": true,
         "rendererInput": "",
@@ -110,9 +86,6 @@
       {
         "text": "Reg Pen",
         "datafield": "regpen",
-        "cellsalign": "left",
-        "width": "22%",
-        "align": "left",
         "sortable": true,
         "hidden": true,
         "rendererInput": "",
@@ -121,9 +94,6 @@
       {
         "text": "Emp Code",
         "datafield": "empCode",
-        "cellsalign": "left",
-        "width": "22%",
-        "align": "left",
         "sortable": true,
         "hidden": true,
         "rendererInput": "",

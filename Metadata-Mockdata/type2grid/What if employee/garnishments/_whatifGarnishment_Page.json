@@ -27,9 +27,6 @@
          {
             "text":"Tax Code",
             "datafield":"usrauth",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -37,9 +34,6 @@
          {
             "text":"Authority Name",
             "datafield":"authorityName",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -47,9 +41,6 @@
          {
             "text":"Tax Type/User Tax Type",
             "datafield":"usrtxtyp",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -57,9 +48,6 @@
          {
             "text":"Tax Name",
             "datafield":"garnishmentName",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -67,9 +55,6 @@
          {
             "text":"Formula #",
             "datafield":"gform",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -77,9 +62,6 @@
          {
             "text":"Formula",
             "datafield":"formulaTitle",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -87,9 +69,6 @@
          {
             "text":"Case ID",
             "datafield":"caseid",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -97,9 +76,6 @@
          {
             "text":"Docket Number",
             "datafield":"docket",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -107,9 +83,6 @@
          {
             "text":"taxtype",
             "datafield":"taxtype",
-            "cellsalign":"left",
-            "width":"12.5%",
-            "align":"left",
             "hidden": true,
             "sortable":true,
             "rendererInput":"",

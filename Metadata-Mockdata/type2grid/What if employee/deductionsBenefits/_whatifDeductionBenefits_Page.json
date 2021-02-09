@@ -27,9 +27,6 @@
          {
             "text":"Deduction/Benefit Plan Code",
             "datafield":"deductionBenefitPlanCode",
-            "cellsalign":"left",
-            "width":"auto",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":"deductionBenefitPlanCodeRenderer"
@@ -37,9 +34,6 @@
          {
             "text":"Deduction/Benefit Plan Description",
             "datafield":"remncdnpayment",
-            "cellsalign":"left",
-            "width":"auto",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -47,9 +41,6 @@
          {
             "text":"Amount",
             "datafield":"wamount",
-            "cellsalign":"left",
-            "width":"auto",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -57,9 +48,6 @@
          {
             "text":"GP Indicator",
             "datafield":"gwPriority",
-            "cellsalign":"left",
-            "width":"auto",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":"gwPriorityRenderer"

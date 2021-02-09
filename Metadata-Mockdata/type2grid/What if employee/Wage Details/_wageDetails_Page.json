@@ -26,9 +26,6 @@
          {
             "text":"Description",
             "datafield":"wageCodedesc",
-            "cellsalign":"left",
-            "width":"34%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -36,9 +33,6 @@
          {
             "text":"Type",
             "datafield":"paytype",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -46,9 +40,6 @@
          {
             "text":"Code",
             "datafield":"code",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -56,9 +47,6 @@
          {
             "text":"currentContribution",
             "datafield":"currentContribution",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -67,9 +55,6 @@
          {
             "text":"Code",
             "datafield":"currentEarning",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -78,9 +63,6 @@
          {
             "text":"Code",
             "datafield":"initiationDate",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -89,9 +71,6 @@
          {
             "text":"catchupEI",
             "datafield":"catchupEI",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -100,9 +79,6 @@
          {
             "text":"currentMatch",
             "datafield":"currentMatch",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -111,9 +87,6 @@
          {
             "text":"mtdcnt",
             "datafield":"mtdcnt",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -122,9 +95,6 @@
          {
             "text":"mtdmch",
             "datafield":"mtdmch",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -133,9 +103,6 @@
          {
             "text":"mtdmch",
             "datafield":"qtdcnt",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -144,9 +111,6 @@
          {
             "text":"qtdmch",
             "datafield":"qtdmch",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -155,9 +119,6 @@
          {
             "text":"ytdcnt",
             "datafield":"ytdcnt",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -166,9 +127,6 @@
          {
             "text":"ytdmch",
             "datafield":"ytdmch",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -177,9 +135,6 @@
          {
             "text":"employeeIndicator",
             "datafield":"employeeIndicator",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -188,9 +143,6 @@
          {
             "text":"eelim",
             "datafield":"eelim",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -199,9 +151,6 @@
          {
             "text":"employerIndicator",
             "datafield":"employerIndicator",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -210,9 +159,6 @@
          {
             "text":"erlim",
             "datafield":"erlim",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -221,9 +167,6 @@
          {
             "text":"currentCredit",
             "datafield":"currentCredit",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -232,9 +175,6 @@
          {
             "text":"seqn",
             "datafield":"seqn",
-            "cellsalign":"left",
-            "width":"33%",
-            "align":"left",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
