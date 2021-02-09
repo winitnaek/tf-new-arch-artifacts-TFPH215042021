@@ -17,7 +17,8 @@
 		"isasync": true,
 		"minlength": 1,
 		"options": [],
-		"multiselect": false
+		"multiselect": false,
+		"fieldKey": "label"
 	  },
 	  "validation": {
 		"required": false,

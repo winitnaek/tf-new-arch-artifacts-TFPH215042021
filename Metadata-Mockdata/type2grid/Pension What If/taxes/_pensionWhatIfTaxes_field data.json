@@ -30,7 +30,7 @@
 			},
 		"validationType":"string",
 		"label":"Tax Type",
-		"value":"",
+		"value":"0",
 		"validation":{
 			"required":true,
 			"type":"string",
@@ -54,7 +54,7 @@
 		},
 		"validationType":"string",
 		"label":"Formula",
-		"value":"",
+		"value":"0",
 		"validation":{
 			"required":true,
 			"type":"string",
@@ -104,7 +104,7 @@
 		"fieldlength":{},
 		"fieldinfo":{
 			"options":[
-				{"id": "0", "label": "ResidentNon Exempt"},
+				{"id": "0", "label": "Non Exempt"},
 				{"id": "1", "label": "Exempt Taxes only"},
 				{"id": "2", "label": "Exempt Wages and Taxes" }
 			 ]
@@ -218,24 +218,22 @@
 		"id":"payPeriodWage",
 		"placeholder":"Enter the Est.Annual Gross Amount",
 		"fieldtype":"text",
-		"fieldlength":{},
-		"fieldinfo":{		},
-		"validationType":"string",
+		"fieldlength":{
+			"minlength":1,
+			"maxlength":25
+		 },
+		"fieldinfo":{},
 		"label":"Pay Period Wage",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
-		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Pay Period Wage cannot be negative"
-			  },
-			  {
-				 "type":"typeError",
-				 "message":"Must be a number"
-			  }
-		   ]
+		   "subtype": [
+			{
+			  "type": "typeError",
+			  "message": "Must be a number"
+			}
+		  ]
 		}
 	 },
 	{
@@ -243,28 +241,25 @@
 		"id":"yearToDateWage",
 		"placeholder":"Enter the Year To Date Wage",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Year To Date Wage",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
-		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Year To Date Wage cannot be negative"
-			  },
-			  {
-				 "type":"typeError",
-				 "message":"Must be a number"
-			  }
-		   ]
+		   "subtype": [
+			{
+			  "type": "typeError",
+			  "message": "Must be a number"
+			}
+		  ]
 		}
 	 }, 
    {
@@ -272,28 +267,25 @@
 		"id":"yearToDateTax",
 		"placeholder":"Enter the Year To Date Tax",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Year To Date Tax",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
-		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Year To Date Tax cannot be negative"
-			  },
-			  {
-				 "type":"typeError",
-				 "message":"Must be a number"
-			  }
-		   ]
+		   "subtype": [
+			{
+			  "type": "typeError",
+			  "message": "Must be a number"
+			}
+		  ]
 		}
 	 },
 	{
@@ -301,23 +293,20 @@
 		"id":"actualYearToDateWages",
 		"placeholder":"Enter the Actual Year To Date Wages",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Actual Year To Date Wages",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Actual Year To Date Wages cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -376,23 +365,20 @@
 		"id":"exemptions",
 		"placeholder":"Enter the number of exemptions",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Exemptions",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Exemptions cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -405,23 +391,20 @@
 		"id":"personalExemptions",
 		"placeholder":"Enter the Personal Exemptions",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Personal Exemptions",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Personal Exemptions cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -433,23 +416,20 @@
 		"id":"dependentExemptions",
 		"placeholder":"Enter the Dependent Exemptions",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Dependent Exemptions",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Dependent Exemptions cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -461,23 +441,20 @@
 		"id":"exemptionAmount",
 		"placeholder":"Enter the Exemption Amount",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Exemption Amount",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Exemption Amount cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -489,23 +466,20 @@
 		"id":"numberOfAdditionalExemptions",
 		"placeholder":"Enter the Number of Additional Exemptions",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Number of Additional Exemptions",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Number of Additional Exemptions cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -517,23 +491,20 @@
 		"id":"additionalExemptionAmount",
 		"placeholder":"Enter the Additional Exemption Amount",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Additional Exemption Amount",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Additional Exemption Amount cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -545,23 +516,20 @@
 		"id":"taxCreditAmount",
 		"placeholder":"Enter the Tax Credit Amount",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Tax Credit Amount",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Tax Credit Amount cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -601,23 +569,20 @@
 		"id":"additionalNonwageIncome",
 		"placeholder":"Enter the Additional Nonwage Income",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Additional Nonwage Income",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Additional Nonwage Income cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -677,23 +642,20 @@
 		"id":"additionalAmount",
 		"placeholder":"Enter the Additional Amount",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Additional Amount",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Additional Amount cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -705,23 +667,20 @@
 		"id":"additionalTaxRate",
 		"placeholder":"Enter the Additional Tax Rate",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Additional Tax Rate",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Supplemental Code cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -774,11 +733,12 @@
 		"placeholder":"Enter the Base Wages ",
 		"fieldtype":"text",
 		"label":"Base Wages",
-		"value":"",
+		"value":"0",
 		"errmsg":" ",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
@@ -787,10 +747,6 @@
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":""
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -803,23 +759,20 @@
 		"placeholder":"Enter the Pay Period Tax",
 		"fieldtype":"text",
 		"fieldHeader": "Pay Period",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Pay Period Tax",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Pay Period Tax cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -831,23 +784,20 @@
 		"id":"payPeriodToDateWages",
 		"placeholder":"Enter the Pay Period to Date Wages",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Pay Period to Date Wages",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Pay Period to Date Wages cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -859,23 +809,20 @@
 		"id":"monthToDateWages",
 		"placeholder":"Enter the Month to Date Wages",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Month to Date Wages",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Month to Date Wages cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -887,23 +834,20 @@
 		"id":"monthToDateTax",
 		"placeholder":"Enter the Month To Date Tax",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Month To Date Tax",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Month To Date Tax cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -915,23 +859,20 @@
 		"id":"quarterToDateWages",
 		"placeholder":"Enter the Quarter to Date Wages",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Quarter to Date Wages",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Quarter to Date Wages cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"
@@ -943,23 +884,20 @@
 		"id":"quarterToDateTax",
 		"placeholder":"Enter the Quarter To Date Tax",
 		"fieldtype":"text",
-		"fieldlength":{
-  
-		},
+		"fieldlength": {
+			"minlength": 1,
+			"maxlength": 25
+		  },
 		"fieldinfo":{
   
 		},
 		"validationType":"string",
 		"label":"Quarter To Date Tax",
-		"value":"",
+		"value":"0",
 		"validation":{
 		   "required":false,
 		   "type":"number",
 		   "subtype":[
-			  {
-				 "type":"positive",
-				 "message":"Quarter To Date Tax cannot be negative"
-			  },
 			  {
 				 "type":"typeError",
 				 "message":"Must be a number"

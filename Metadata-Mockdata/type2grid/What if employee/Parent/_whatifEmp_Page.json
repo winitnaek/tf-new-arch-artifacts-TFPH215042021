@@ -72,6 +72,17 @@
             "hidden": true,
             "rendererInput": "",
             "rendererStaticInput": ""
+          },
+          {
+            "text": "paymentType",
+            "datafield": "paymentType",
+            "cellsalign": "left",
+            "width": "25%",
+            "align": "left",
+            "sortable": true,
+            "hidden": true,
+            "rendererInput": "",
+            "rendererStaticInput": ""
           }
       ],
       "dataFields":[

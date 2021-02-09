@@ -11,7 +11,12 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/customPaymentExceptions",
     "parentConfig": "",
-    "childConfig": [{"pgid":"customTaxPaymentOverride", "columnHeader": "View"}]
+    "childConfig": [{"pgid":"customTaxPaymentOverride", "columnHeader": "View"}],
+    "metaInfo":{
+      "cheader":"***Warning***",
+      "cbody": "This tool allows the customer to enter information that will be processed by BSI TaxFactory. BSI excludes responsibility for any outcome resulting from customer - entered information.",
+      "okbtnlbl": "Ok"
+  }
   },
    "griddef":{
       "gridtype":"type2",
@@ -25,7 +30,7 @@
     "columns": [
       {
         "text": "Custom Tax Code",
-        "datafield": "customTaxCode",
+        "datafield": "taxCode",
         "cellsalign": "center",
         "width": "49.5%",
         "align": "center",
@@ -35,7 +40,7 @@
       },
       {
         "text": "Custom Tax Name",
-        "datafield": "customTaxName",
+        "datafield": "name",
         "cellsalign": "center",
         "width": "49.5%",
         "align": "center",
@@ -46,11 +51,11 @@
     ],
     "dataFields": [
       {
-        "name": "customTaxCode",
+        "name": "taxCode",
         "type": "string"
       },
       {
-        "name": "customTaxName",
+        "name": "name",
         "type": "string"
       }
     ]
@@ -69,7 +74,7 @@
       {
         "id": "customTaxCode",
         "order": 1,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       },
       {

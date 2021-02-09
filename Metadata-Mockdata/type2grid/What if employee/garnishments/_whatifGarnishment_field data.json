@@ -139,7 +139,7 @@
     },
     "validationType": "string",
     "label": "Filing Status",
-    "value": "0",
+    "value": "",
     "validation": {
       "required": false,
       "type": "string",

@@ -323,6 +323,15 @@
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
+         },
+         {
+            "text":"bsiauth",
+            "datafield":"bsiauth",
+            "width":"16.66%",
+            "hidden":true,
+            "sortable":true,
+            "rendererInput":"",
+            "rendererStaticInput":""
          }
       ],
       "dataFields":[
@@ -335,6 +344,11 @@
             "name":"name",
             "type":"string",
             "map": "btxttax>btxtaxc>btxauth>name"
+         },
+         {
+            "name":"bsiauth",
+            "type":"string",
+            "map": "btxttax>btxtaxc>btxauth>bsiauth"
          },
          {
             "name":"taxTypeUserTaxType",
