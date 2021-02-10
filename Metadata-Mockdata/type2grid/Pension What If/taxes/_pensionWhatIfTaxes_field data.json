@@ -30,7 +30,7 @@
 			},
 		"validationType":"string",
 		"label":"Tax Type",
-		"value":"0",
+		"value":"",
 		"validation":{
 			"required":true,
 			"type":"string",
@@ -54,7 +54,7 @@
 		},
 		"validationType":"string",
 		"label":"Formula",
-		"value":"0",
+		"value":"",
 		"validation":{
 			"required":true,
 			"type":"string",

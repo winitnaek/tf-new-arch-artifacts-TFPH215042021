@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "customTaxPaymentOverride",
     "pgtitle": "Custom Tax Payment Overrides",
-    "pgsubtitle": "Custom Tax Payment Overrides for: ",
+    "pgsubtitle": "",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "addNewLabel": "Click here to add new Override. Or click on existing Override to edit.",
@@ -26,51 +26,52 @@
       
       {
         "text": "Authority",
-        "datafield": "authorityCode",
-        "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "authorityname",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Tax Type",
-        "datafield": "taxType",
-        "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "taxTypesPymtOvrd",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Start Date",
-        "datafield": "startDate",
-        "cellsalign": "center",
-        "width": "20%",
-        "align": "center",
+        "datafield": "startdate",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "End Data",
-        "datafield": "endDate",
-        "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "stopdate",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Custom Tax Code",
-        "datafield": "customTaxCode",
-        "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
+        "datafield": "taxCode",
         "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "bsiauth",
+        "datafield": "bsiauth",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "taxtype",
+        "datafield": "taxtype",
+        "sortable": true,
+        "hidden": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       }
@@ -79,23 +80,32 @@
     "dataFields": [
      
       {
-        "name": "authorityCode",
+        "name": "authorityname",
         "type": "string"
       },
       {
-        "name": "taxType",
+        "name": "taxTypesPymtOvrd",
+        "type": "string",
+        "map": "taxTypeName"
+      },
+      {
+        "name": "startdate",
+        "type": "Date"
+      },
+      {
+        "name": "stopdate",
+        "type": "Date"
+      },
+      {
+        "name": "taxCode",
         "type": "string"
       },
       {
-        "name": "startDate",
-        "type": "Date"
+        "name": "bsiauth",
+        "type": "string"
       },
       {
-        "name": "endDate",
-        "type": "Date"
-      },
-      {
-        "name": "customTaxCode",
+        "name": "taxtype",
         "type": "string"
       }
 
@@ -113,25 +123,25 @@
     "hasRecentUsage": false,
     "formflds": [
       {
-        "id": "startDate",
+        "id": "startdate",
         "order": 1,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "authorityCode",
+        "id": "authorityname",
         "order": 2,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "taxType",
+        "id": "taxTypesPymtOvrd",
         "order": 3,
         "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "endDate",
+        "id": "stopdate",
         "order": 4,
         "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
