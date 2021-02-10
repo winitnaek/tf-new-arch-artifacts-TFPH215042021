@@ -26,9 +26,6 @@
          {
             "text":"Group Code",
             "datafield":"id",
-            "cellsalign":"left",
-            "width":"50%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -36,9 +33,6 @@
          {
             "text":"Group Name",
             "datafield":"groupName",
-            "cellsalign":"left",
-            "width":"50%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""

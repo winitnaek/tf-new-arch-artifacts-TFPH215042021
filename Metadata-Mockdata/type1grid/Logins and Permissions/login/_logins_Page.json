@@ -26,9 +26,6 @@
       {
         "text": "Login",
         "datafield": "login",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -36,9 +33,6 @@
       {
         "text": "Manage Logins and Permissions",
         "datafield": "manageLoginsAndPermissions",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -46,9 +40,6 @@
       {
         "text": "Manage Datasets",
         "datafield": "manageDatasets",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -56,9 +47,6 @@
       {
         "text": "User Interface Permission",
         "datafield": "userInteracePermission",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

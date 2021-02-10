@@ -27,9 +27,6 @@
          {
             "text":"Description",
             "datafield":"description",
-            "cellsalign":"left",
-            "width":"50%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -37,9 +34,6 @@
          {
             "text":"Value",
             "datafield":"Value",
-            "cellsalign":"left",
-            "width":"50%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""

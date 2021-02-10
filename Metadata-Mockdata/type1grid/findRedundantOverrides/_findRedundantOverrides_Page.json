@@ -27,9 +27,6 @@
       {
         "text": "Street Name",
          "datafield": "streetNameDspl",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":""
@@ -37,9 +34,6 @@
       {
         "text": "Starting Number",
         "datafield": "fadd",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":""
@@ -47,9 +41,6 @@
       {
         "text": "Ending Number",
         "datafield": "tadd",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":""
@@ -57,9 +48,6 @@
       {
         "text": "Parity",
         "datafield": "parity",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":"parityNameRenderer"
@@ -67,9 +55,6 @@
       {
         "text": "State",
         "datafield": "state",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":""
@@ -77,9 +62,6 @@
       {
         "text": "Postal Code",
         "datafield": "fzip",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":""
@@ -88,9 +70,6 @@
       {
         "text": "County",
         "datafield": "countyName",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":""
@@ -98,9 +77,6 @@
       {
         "text": "Place Code",
         "datafield": "placeName",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":"placeCodeNameRenderer"
@@ -108,9 +84,6 @@
       {
         "text": "School District",
         "datafield": "sdName",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":"schoolDistrictNameRenderer"
@@ -118,9 +91,6 @@
       {
         "text": "School District Tax Code",
         "datafield": "schoolDistrictTaxCode",
-         "cellsalign": "left",
-         "width": "10%",
-         "align": "left",
          "sortable": true,
          "rendererInput":"",
          "rendererStaticInput":""

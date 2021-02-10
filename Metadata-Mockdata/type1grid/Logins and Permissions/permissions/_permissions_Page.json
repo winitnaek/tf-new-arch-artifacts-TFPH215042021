@@ -36,9 +36,6 @@
       {
         "text": "Tool Name",
         "datafield": "toolName",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "editable": false,
@@ -47,9 +44,6 @@
       {
         "text": "View",
         "datafield": "view",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -58,9 +52,6 @@
       {
         "text": "Save",
         "datafield": "save",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -69,9 +60,6 @@
       {
         "text": "Delete",
         "datafield": "delete",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -80,9 +68,6 @@
       {
         "text": "Run",
         "datafield": "run",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -91,9 +76,6 @@
       {
         "text": "Audit",
         "datafield": "audit",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -103,9 +85,6 @@
       {
         "text": "Auditable",
         "datafield": "isAuditable",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "columntype": "checkbox",
         "hidden": true,
         "sortable": false,

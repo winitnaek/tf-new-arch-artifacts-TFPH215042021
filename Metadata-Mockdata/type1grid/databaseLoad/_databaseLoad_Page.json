@@ -21,9 +21,7 @@
        {
           "text":"Select",
           "datafield":"select",
-          "cellsalign":"left",
           "columntype": "checkbox",
-          "width":"30%",
           "sortable":true,
           "rendererInput":"",
           "rendererStaticInput":"",
@@ -31,9 +29,7 @@
        },
        {
           "text":"File to Load",
-          "datafield":"load",
-          "cellsalign":"left",
-          "align":"left"
+          "datafield":"load"
        }
        
     ],

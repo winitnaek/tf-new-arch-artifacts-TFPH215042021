@@ -26,9 +26,6 @@
          {
             "text":"Data Set ID",
             "datafield":"dataSetId",
-            "cellsalign":"left",
-            "width":"50%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -36,9 +33,6 @@
          {
             "text":"Data Set Description",
             "datafield":"dataSetDescription",
-            "cellsalign":"left",
-            "width":"50%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""

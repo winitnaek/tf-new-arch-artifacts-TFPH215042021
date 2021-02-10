@@ -31,9 +31,7 @@
          {
             "text":"Select",
             "datafield":"select",
-            "cellsalign":"left",
             "columntype": "checkbox",
-            "width":"30%",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":"",
@@ -41,15 +39,11 @@
          },
          {
             "text":"Data Set ID",
-            "datafield":"data",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"data"
          },
          {
             "text":"Description",
-            "datafield":"description",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"description"
          }
          
       ],

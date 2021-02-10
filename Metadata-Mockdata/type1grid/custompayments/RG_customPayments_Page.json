@@ -26,43 +26,29 @@
          {
             "text":"Custom Payment Code",
             "datafield":"userCode",
-            "cellsalign":"left",
-            "width":"30%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
          {
             "text":"Custom Payment Name",
-            "datafield":"name",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"name"
          },
          {
             "text":"Payment Type",
-            "datafield":"payType",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"payType"
          },
          {
             "text":"Taxability",
-            "datafield":"taxability",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"taxability"
          },
          {
             "text":"EE Max",
-            "datafield":"eemax",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"10%"
+            "datafield":"eemax"
          },
          {
             "text":"AggStatus",
-            "datafield":"aggstatus",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"aggstatus"
          }
       ],
       "dataFields":[

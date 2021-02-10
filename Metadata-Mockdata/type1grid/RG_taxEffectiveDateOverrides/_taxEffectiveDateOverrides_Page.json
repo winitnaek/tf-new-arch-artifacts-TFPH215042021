@@ -31,9 +31,6 @@
       {
         "text": "Authority",
         "datafield": "bsiAuth",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "baiAuthAuthNamerenderer"
@@ -41,9 +38,6 @@
       {
         "text": "Tax Type",
         "datafield": "taxType",
-        "width": "20%",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "taxTypeCodeNamerenderer"
@@ -51,11 +45,8 @@
       {
         "text": "Formula Effective Date",
         "datafield": "effecDate",
-        "cellsalign": "left",
         "formatter": "date", 
         "cellsformat": "MM/DD/yyyy",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -63,9 +54,6 @@
       {
         "text": "Start Date",
         "datafield": "startDate",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -73,10 +61,7 @@
       {
         "text": "End Date",
         "datafield": "endDate",
-        "width": "20%",
         "cellsformat": "MM/dd/yyyy",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

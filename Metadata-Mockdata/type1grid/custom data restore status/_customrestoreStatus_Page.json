@@ -26,9 +26,6 @@
          {
            "text": "Restore Loading Status",
             "datafield": "file",
-            "cellsalign": "left",
-            "width": "100%",
-            "align": "left",
             "sortable": true,
             "rendererInput":"",
             "rendererStaticInput":""
