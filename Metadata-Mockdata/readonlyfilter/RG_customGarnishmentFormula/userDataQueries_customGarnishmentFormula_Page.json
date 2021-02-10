@@ -27,9 +27,6 @@
       {
         "text": "Attribute",
         "datafield": "label",
-        "cellsalign": "left",
-        "width": "50%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "Value",
         "datafield": "value",
-        "cellsalign": "left",
-        "width": "50%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

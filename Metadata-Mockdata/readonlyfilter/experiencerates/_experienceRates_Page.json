@@ -26,76 +26,51 @@
          {
             "text":"Company Code",
             "datafield":"companyCode",
-            "cellsalign":"center",
-            "align":"center",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
          {
             "text":"Tax Code",
-            "datafield":"taxCode",
-            "cellsalign":"center",
-            "align":"center",
-            "width":"10%"
+            "datafield":"taxCode"
          },
          {
             "text":"Tax Type",
-            "datafield":"taxType",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"taxType"
          },
          {
             "text":"Formula No.",
-            "datafield":"formula",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"formula"
          },
          {
             "text":"Start Date",
             "datafield":"startDateDspl",
-            "cellsalign":"center",
-            "formatter":"date",
-            "align":"center",
-            "width":"10%"
+            "formatter":"date"
          },
          {
             "text":"End Date",
             "datafield":"rescindDateDspl",
-            "formatter":"date",
-            "cellsalign":"center",
-            "align":"center",
-            "width":"10%"
+            "formatter":"date"
          },
          {
             "text":"Account No.",
-            "datafield":"acctNumber",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"acctNumber"
          },
          {
             "text":"Exp. Rate",
-            "datafield":"exprateDspl",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"exprateDspl"
          },
          {
             "text":"Max. Wage",
-            "datafield":"maxwageDspl",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"maxwageDspl"
          },
          {
             "text":"BSI Wage",
-            "datafield":"bsiWage",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"bsiWage"
          },
          {
             "text":"Risk Class",
-            "datafield":"riskClass",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"riskClass"
          }
       ],
       "dataFields":[

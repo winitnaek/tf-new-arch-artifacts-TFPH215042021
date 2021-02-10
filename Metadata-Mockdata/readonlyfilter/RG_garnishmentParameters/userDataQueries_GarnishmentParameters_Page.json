@@ -27,9 +27,6 @@
       {
         "text": "Authority",
         "datafield":"authorityCode",
-        "cellsalign": "left",
-        "width": "12%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -38,10 +35,7 @@
       {
         "text": "Tax Type",
         "datafield":"taxType",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "8%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -49,10 +43,7 @@
       {
         "text": "DU:",
         "datafield":"usesDuration",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -60,10 +51,7 @@
       {
         "text": "GI:",
         "datafield":"usesGarnishmentCap",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -71,10 +59,7 @@
       {
         "text": "PN:",
         "datafield":"usesPaymentNumber",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -82,20 +67,14 @@
       {
         "text": "SE:",
         "datafield":"usesSOE",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "CO:",
         "datafield":"usesConsent",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -103,10 +82,7 @@
       {
         "text": "HF:",
         "datafield":"usesHeadOfFamily",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -114,10 +90,7 @@
       {
         "text": "NC:",
         "datafield":"usesNumDepChildren",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -125,20 +98,14 @@
       {
         "text": "TD:",
         "datafield":"usesTypeOfDebt",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "VO:",
         "datafield":"usesVocation",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -146,10 +113,7 @@
       {
         "text": "AL:",
         "datafield":"usesUseAlternateLimit",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -157,10 +121,7 @@
       {
         "text": "DE:",
         "datafield":"usesIsDelinquent",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -168,10 +129,7 @@
       {
         "text": "LS:",
         "datafield":"usesLumpSumInd",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -179,20 +137,14 @@
       {
         "text": "SF:",
         "datafield":"usesSecondFamily",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "UF:",
         "datafield":"usesUseFederalLimit",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -200,10 +152,7 @@
       {
         "text": "AD:",
         "datafield":"usesAdditionalSTD",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -211,30 +160,21 @@
       {
         "text": "FS:",
         "datafield":"usesFilingStatus",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "ND:",
         "datafield":"usesNumberOfDependents",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "NE:",
         "datafield":"usesNumberOfExemptions",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -242,20 +182,14 @@
       {
         "text": "TOW",
         "datafield":"usesTimeOfWrit",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "4%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Medical Support",
         "datafield":"usesMedicalSupport",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "6%",
         "rendererInput": "",
         "rendererStaticInput": ""
       }

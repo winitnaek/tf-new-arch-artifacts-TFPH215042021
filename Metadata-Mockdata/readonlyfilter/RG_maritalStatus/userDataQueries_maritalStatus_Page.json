@@ -27,8 +27,6 @@
       {
         "text": "Authority",
         "datafield": "authorityCode",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -36,8 +34,6 @@
       {
         "text": "Tax Type",
         "datafield": "taxType",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -45,8 +41,6 @@
       {
         "text": "Formula",
         "datafield": "formulaNumber",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -54,8 +48,6 @@
       {
         "text": "Start Date",
         "datafield": "effectiveDate",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -63,18 +55,13 @@
       {
         "text": "End Date",
         "datafield": "rescindDate",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Single",
         "datafield": "singleMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -82,18 +69,13 @@
       {
         "text": "Married",
         "datafield": "marriedTwoMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "3%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Separate",
         "datafield": "marriedThreeMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -101,8 +83,6 @@
       {
         "text": "One Working",
         "datafield": "marriedFiveMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -110,8 +90,6 @@
       {
         "text": "Two Working",
         "datafield": "marriedFourMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -119,8 +97,6 @@
       {
         "text": "Head of Household",
         "datafield": "headOfHouseMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -128,8 +104,6 @@
       {
         "text": "Multiple Employers",
         "datafield": "marriedSevenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -137,8 +111,6 @@
       {
         "text": "Widow/Widower",
         "datafield": "widowWidowerMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -146,8 +118,6 @@
       {
         "text": "Not Living w. Spouse",
         "datafield": "marriedNineMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -155,8 +125,6 @@
       {
         "text": "Claim All/Joint",
         "datafield": "marriedTenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -164,8 +132,6 @@
       {
         "text": "Claim Half/Joint",
         "datafield": "marriedElevenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -173,8 +139,6 @@
       {
         "text": "Claim All/Separate",
         "datafield": "marriedTwelveMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -182,8 +146,6 @@
       {
         "text": "Claim None/Joint",
         "datafield": "marriedThirteenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -191,8 +153,6 @@
       {
         "text": "Living With Spouse",
         "datafield": "marriedFourteenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -200,8 +160,6 @@
       {
         "text": "Single Tax Rate",
         "datafield": "marriedFifteenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -209,8 +167,6 @@
       {
         "text": "Civil Union",
         "datafield": "marriedSixteenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -218,8 +174,6 @@
       {
         "text": "CU/Single Tax Rate",
         "datafield": "marriedSeventeenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -227,8 +181,6 @@
       {
         "text": "Spouse is Nonres Alien",
         "datafield": "marriedEighteenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -236,8 +188,6 @@
       {
         "text": "Married 19",
         "datafield": "marriedNineteenMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -245,8 +195,6 @@
       {
         "text": "Married 20",
         "datafield": "marriedTwentyMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -254,8 +202,6 @@
       {
         "text": "Married 21",
         "datafield": "marriedTwentyOneMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -263,8 +209,6 @@
       {
         "text": "Married 22",
         "datafield": "marriedTwentyTwoMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -272,8 +216,6 @@
       {
         "text": "Married 23",
         "datafield": "marriedTwentyThreeMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -281,8 +223,6 @@
       {
         "text": "Married 24",
         "datafield": "marriedTwentyFourMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -290,8 +230,6 @@
       {
         "text": "Married 25",
         "datafield": "marriedTwentyFiveMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -299,8 +237,6 @@
       {
         "text": "Default",
         "datafield": "defaultMarital",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

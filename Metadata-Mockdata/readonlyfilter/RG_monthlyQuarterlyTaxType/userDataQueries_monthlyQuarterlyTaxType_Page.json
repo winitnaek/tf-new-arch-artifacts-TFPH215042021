@@ -27,9 +27,6 @@
       {
         "text": "Authority Code",
         "datafield": "authCode",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "Tax Type",
         "datafield": "taxType",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,9 +41,6 @@
       {
         "text": "Formula Number",
         "datafield": "formula",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -57,9 +48,6 @@
       {
         "text": "Start Date",
         "datafield": "startDateDspl",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -67,9 +55,6 @@
       {
         "text": "End Date",
         "datafield": "rescindDateDspl",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -77,9 +62,6 @@
       {
         "text": "Monthly/Quarterly",
         "datafield": "monQuarTaxType",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -87,10 +69,7 @@
       {
         "text": "Formula Title",
         "datafield": "formulaTitle",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "20%",
         "rendererInput": "",
         "rendererStaticInput": ""
       }

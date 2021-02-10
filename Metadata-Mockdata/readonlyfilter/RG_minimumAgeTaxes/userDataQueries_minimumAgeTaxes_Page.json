@@ -27,9 +27,6 @@
         {
             "text": "Authority",
             "datafield": "auth",
-            "cellsalign": "left",
-           "width": "20%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -37,9 +34,6 @@
         {
             "text": "Tax Type",
             "datafield": "taxType",
-            "cellsalign": "left",
-           "width": "20%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -47,9 +41,6 @@
         {
             "text": "Formula",
             "datafield": "formula",
-            "cellsalign": "left",
-            "width": "20%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -57,9 +48,6 @@
         {
             "text": "Effective Date",
             "datafield": "effectiveDate",
-            "cellsalign": "left",
-           "width": "20%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -67,9 +55,6 @@
         {
             "text": "Minimum Age",
             "datafield": "minimumage",
-            "cellsalign": "left",
-            "width": "20%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""

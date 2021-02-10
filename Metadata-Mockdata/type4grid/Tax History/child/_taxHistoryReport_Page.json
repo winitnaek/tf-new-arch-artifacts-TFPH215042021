@@ -26,9 +26,6 @@
       {
         "text": "Authority Code / Name",
         "datafield": "bsiAuth",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "baiAuthAuthNamerenderer"
@@ -36,9 +33,6 @@
       {
         "text": "Tax Type / Tax Name",
         "datafield": "taxType",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "taxTypeCodeNamerenderer"
@@ -46,9 +40,6 @@
       {
         "text": "Formula / Name",
         "datafield": "formula",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "formulaNamerenderer"
@@ -56,9 +47,6 @@
       {
         "text": "Start Date",
         "datafield": "startDateDspl",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -66,9 +54,6 @@
       {
         "text": "Type",
         "datafield": "type",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -76,9 +61,6 @@
       {
         "text": "County",
         "datafield": "county",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -86,9 +68,6 @@
       {
         "text": "End Date",
         "datafield": "rescindDateDspl",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -172,9 +151,6 @@
       {
         "text": "Authority Code / Name",
         "datafield": "bsiAuth",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "baiAuthAuthNamerenderer"
@@ -182,9 +158,6 @@
       {
         "text": "Tax Type / Tax Name",
         "datafield": "taxType",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "taxTypeCodeNamerenderer"
@@ -192,9 +165,6 @@
       {
         "text": "Formula / Name",
         "datafield": "formula",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "formulaNamerenderer"
@@ -202,9 +172,6 @@
       {
         "text": "Start Date",
         "datafield": "startDateDspl",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -212,9 +179,6 @@
       {
         "text": "Type",
         "datafield": "type",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -222,9 +186,6 @@
       {
         "text": "County",
         "datafield": "county",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -232,9 +193,6 @@
       {
         "text": "End Date",
         "datafield": "rescindDateDspl",
-        "cellsalign": "left",
-        "width": "14%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

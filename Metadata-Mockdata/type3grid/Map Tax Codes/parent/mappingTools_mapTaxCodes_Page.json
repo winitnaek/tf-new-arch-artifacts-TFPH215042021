@@ -42,9 +42,6 @@
       {
         "text": "Authority",
         "datafield": "authority",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -52,9 +49,6 @@
       {
         "text": "Title",
         "datafield": "title",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -62,9 +56,6 @@
       {
         "text": "Coutry ID",
         "datafield": "countryId",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -72,9 +63,6 @@
       {
         "text": "BSI Code",
         "datafield": "bsiCode",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -82,9 +70,6 @@
       {
         "text": "Tax Code",
         "datafield": "taxCode",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -92,9 +77,6 @@
       {
         "text": "Preferred",
         "datafield": "preferred",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

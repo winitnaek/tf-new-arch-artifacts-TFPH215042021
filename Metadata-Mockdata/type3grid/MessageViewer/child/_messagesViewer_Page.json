@@ -35,9 +35,6 @@
       {
         "text": "Message Number",
         "datafield": "msgnum",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -45,9 +42,6 @@
       {
         "text": "Employee Code",
         "datafield": "empcode",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -55,9 +49,6 @@
       {
         "text": "Employee Name",
         "datafield": "empname",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -65,9 +56,6 @@
       {
         "text": "Company",
         "datafield": "companycode",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -75,9 +63,6 @@
       {
         "text": "Employee Group",
         "datafield": "groupcode",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -85,9 +70,6 @@
       {
         "text": "Message Text",
         "datafield": "xmessage",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

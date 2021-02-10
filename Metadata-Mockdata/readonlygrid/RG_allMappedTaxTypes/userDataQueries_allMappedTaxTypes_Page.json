@@ -27,9 +27,6 @@
       {
         "text": "User Code",
         "datafield": "userTax",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "BSI Code",
         "datafield": "taxType",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,9 +41,6 @@
       {
         "text": "Tax Type Name",
         "datafield": "taxTypeName",
-        "cellsalign": "left",
-        "width": "40%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -57,9 +48,6 @@
       {
         "text": "Preferred",
         "datafield": "locReturn",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

@@ -42,9 +42,6 @@
       {
         "text": "Tax Code",
         "datafield": "taxCode",
-        "cellsalign": "left",
-        "width": "50%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -52,8 +49,6 @@
       {
         "text": "Preferred for Tax Locator",
         "datafield": "taxLocator",
-        "width": "45%",
-        "align": "left",
         "columntype": "checkbox",
         "rendererInput": "",
         "rendererStaticInput": ""

@@ -27,9 +27,6 @@
       {
         "text": "Tax Code",
         "datafield": "taxcode",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,75 +34,48 @@
       {
         "text": "Start Date",
         "datafield": "startdate",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "10%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "End Date",
         "datafield": "rescinddate",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Tax Rate",
         "datafield": "taxrateDspl",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Minimum Wage",
         "datafield": "minwageDspl",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Maximum Wage",
         "datafield": "maxwageDspl",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "MaximumTax",
         "datafield": "maxtaxDspl",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Flat Amount",
         "datafield": "flatamtDspl",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Rounding",
         "datafield": "rounding",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Calculation Method",
         "datafield": "calcmeth",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       }
     ],

@@ -26,9 +26,6 @@
       {
         "text": "TAX TYPE",
         "datafield": "taxType",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -36,9 +33,6 @@
       {
         "text": "MUNICIPALITY",
         "datafield": "authnametitlelst",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -46,9 +40,6 @@
       {
         "text": "MUNICIPAL PERCENT",
         "datafield": "othertaxrlst",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -56,9 +47,6 @@
       {
         "text": "MUNICIPAL AMOUNT",
         "datafield": "maximumtax2lst",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -66,9 +54,6 @@
       {
         "text": "SD PERCENT",
         "datafield": "taxratelst",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -76,9 +61,6 @@
       {
         "text": "SD AMOUNT",
         "datafield": "maximumtax_lst",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

@@ -27,9 +27,6 @@
       {
         "text": "Authority Code",
         "datafield": "bsiauth",
-        "cellsalign": "left",
-        "width": "33%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "Title",
         "datafield": "authtitle",
-        "cellsalign": "left",
-        "width": "34%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,9 +41,6 @@
       {
         "text": "County Name",
         "datafield": "countyid",
-        "cellsalign": "left",
-        "width": "33%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -57,10 +48,7 @@
       {
         "text": "Effective Date",
         "datafield": "startdate",
-        "cellsalign": "left",
-        "width": "0%",
         "hidden": true,
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

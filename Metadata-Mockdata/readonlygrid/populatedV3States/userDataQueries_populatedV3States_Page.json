@@ -26,30 +26,21 @@
       {
         "text": "State",
         "datafield": "state",
-        "cellsalign": "center",
-        "width": "30%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "State Name",
-        "datafield": "stName",
-        "cellsalign": "center",
-        "align": "center"
+        "datafield": "stName"
       },
       {
         "text": "Record Count",
-        "datafield": "count",
-        "cellsalign": "center",
-        "align": "center"
+        "datafield": "count"
       },
       {
         "text": "Bulletin",
-        "datafield": "bulltn",
-        "cellsalign": "center",
-        "align": "center"
+        "datafield": "bulltn"
       }
     ],
     "dataFields": [

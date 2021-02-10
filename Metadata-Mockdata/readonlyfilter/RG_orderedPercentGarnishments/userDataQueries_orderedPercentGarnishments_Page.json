@@ -27,9 +27,6 @@
       {
         "text": "Authority",
         "datafield": "bsiauthName",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "Authority ID",
         "datafield": "bsiauth",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,9 +41,6 @@
       {
         "text": "Tax Type",
         "datafield": "taxtypeName",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -57,9 +48,6 @@
       {
         "text": "Tax Type ID",
         "datafield": "taxtype",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -67,9 +55,6 @@
       {
         "text": "Start Date",
         "datafield": "effective",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

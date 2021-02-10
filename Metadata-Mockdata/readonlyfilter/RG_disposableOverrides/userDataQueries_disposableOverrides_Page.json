@@ -27,9 +27,6 @@
       {
         "text": "Authority Code",
         "datafield": "authTaxCode",
-        "cellsalign": "left",
-        "width": "8.5%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "Authority Name",
         "datafield": "authName",
-        "cellsalign": "left",
-        "width": "7.5%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,29 +41,20 @@
       {
         "text": "Garnishment Type",
         "datafield": "garnishType",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "6.5%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Garnishment Name",
         "datafield": "garnishName",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "7.5%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Payment Code",
         "datafield": "paymentCode",
-        "cellsalign": "left",
-        "width": "8%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -77,9 +62,6 @@
       {
         "text": "Payment Name",
         "datafield": "paymentName",
-        "cellsalign": "left",
-        "width": "8%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -87,65 +69,41 @@
       {
         "text": "Start Date",
         "datafield": "startDate",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "8%",
         "sortable": true
       },
       {
         "text": "End Date",
         "datafield": "endDate",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "8%",
         "sortable": true
       },
       {
         "text": "Process",
         "datafield": "processCode",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       },
       {
         "text": "Date Code",
         "datafield": "dateCode",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "8%",
         "sortable": true
       },
       {
         "text": "Min Amount",
         "datafield": "minAmount",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       },
       {
         "text": "Max Amount",
         "datafield": "maxAmount",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       },
       {
         "text": "Min Percent",
         "datafield": "minPercent",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       },
       {
         "text": "Max Percent",
         "datafield": "maxPercent",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       }
     ],

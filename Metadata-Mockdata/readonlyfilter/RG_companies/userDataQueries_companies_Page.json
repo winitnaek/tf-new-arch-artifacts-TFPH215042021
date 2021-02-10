@@ -27,9 +27,6 @@
       {
         "text": "Company Code",
         "datafield": "company",
-        "cellsalign": "left",
-        "width": "33%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "Company Name",
         "datafield": "companyName",
-        "cellsalign": "left",
-        "width": "33%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,9 +41,6 @@
       {
         "text": "Company FEIN",
         "datafield": "fein",
-        "cellsalign": "left",
-        "width": "33%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

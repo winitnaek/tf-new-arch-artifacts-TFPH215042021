@@ -27,9 +27,6 @@
       {
         "text": "Custom Code",
         "datafield": "customCode",
-        "cellsalign": "left",
-        "width": "50%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "BSI Code",
         "datafield": "bsiCode",
-        "cellsalign": "left",
-        "width": "45%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

@@ -27,9 +27,6 @@
       {
         "text": "Tax Type",
         "datafield": "taxType",
-        "cellsalign": "left",
-        "width": "3%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,9 +34,6 @@
       {
         "text": "Description",
         "datafield": "taxTypeName",
-        "cellsalign": "left",
-        "width": "12%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,9 +41,6 @@
       {
         "text": "Pay Type",
         "datafield": "paymentType",
-        "cellsalign": "left",
-        "width": "3%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -57,9 +48,6 @@
       {
         "text": "Custom Payment Code",
         "datafield": "payment",
-        "cellsalign": "left",
-        "width": "15%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -67,9 +55,6 @@
       {
         "text": "Description",
         "datafield": "paymentName",
-        "cellsalign": "left",
-        "width": "20%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -77,9 +62,6 @@
       {
         "text": "EE Limit",
         "datafield": "employeePlanMax",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -87,9 +69,6 @@
       {
         "text": "EE Freq",
         "datafield": "eelimitFrequency",
-        "cellsalign": "left",
-        "width": "6%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -97,9 +76,6 @@
       {
         "text": "ER Limit",
         "datafield": "employerPlanMax",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -107,9 +83,6 @@
       {
         "text": "ER Freq",
         "datafield": "erlimitFrequency",
-        "cellsalign": "left",
-        "width": "7%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -117,9 +90,6 @@
       {
         "text": "Earn Freq",
         "datafield": "earnLimitFrequency",
-        "cellsalign": "left",
-        "width": "7%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -127,10 +97,7 @@
       {
         "text": "Limit Type",
         "datafield": "limitFrequency",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "7%",
         "rendererInput": "",
         "rendererStaticInput": ""
       }

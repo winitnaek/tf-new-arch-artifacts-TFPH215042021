@@ -28,9 +28,6 @@
         {
             "text": "Authority",
             "datafield": "authCode",
-            "cellsalign": "left",
-            "width": "40%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -38,9 +35,6 @@
         {
             "text": "Tax Type",
             "datafield": "taxType",
-            "cellsalign": "left",
-            "width": "30%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -48,9 +42,6 @@
         {
             "text": "Start Date",
             "datafield": "startDateDspl",
-            "cellsalign": "left",
-            "width": "30%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""

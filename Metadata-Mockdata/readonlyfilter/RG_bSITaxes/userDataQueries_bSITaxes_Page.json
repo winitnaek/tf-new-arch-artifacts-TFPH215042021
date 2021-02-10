@@ -27,9 +27,6 @@
       {
         "text": "Authority Code",
         "datafield": "authorityCode",
-        "cellsalign": "left",
-        "width": "12%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -37,115 +34,73 @@
       {
         "text": "Tax Type",
         "datafield": "taxType",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "7%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Start Date",
         "datafield": "effectiveDate",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "7%",
         "sortable": true
       },
       {
         "text": "End Date",
         "datafield": "rescindDate",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "7%",
         "sortable": true
       },
       {
         "text": "Coterm. Valid",
         "datafield": "coterminusValid",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       },
       {
         "text": "Reg. Valid",
         "datafield": "regularValid",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "7%",
         "sortable": true
       },
       {
         "text": "Supp. Valid",
         "datafield": "supplementalValid",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "7%",
         "sortable": true
       },
       {
         "text": "Vac. Valid",
         "datafield": "vacationValid",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "7%",
         "sortable": true
       },
       {
         "text": "Cum. Valid",
         "datafield": "cumulativeValid",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "7%",
         "sortable": true
       },
       {
         "text": "Daily Factor",
         "datafield": "dailyFactor",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       },
       {
         "text": "Additional Tax",
         "datafield": "additionalTax",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "7%",
         "sortable": true
       },
       {
         "text": "Tax Disposition",
         "datafield": "taxDisposition",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       },
       {
         "text": "Mandatory",
         "datafield": "mandatory",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "6%",
         "sortable": true
       },
       {
         "text": "PSR Proc.Flag",
         "datafield": "psrprocess",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "7%",
         "sortable": true
       },
       {
         "text": "EIC Cert",
         "datafield": "eiccert",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "5%",
         "sortable": true
       }
     ],

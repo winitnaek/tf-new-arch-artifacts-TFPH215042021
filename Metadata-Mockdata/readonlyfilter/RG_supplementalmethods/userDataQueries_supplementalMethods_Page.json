@@ -27,8 +27,6 @@
       {
         "text": "Formula Number",
         "datafield": "formula",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -36,8 +34,6 @@
       {
         "text": "Start Date",
         "datafield": "startDate",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -45,8 +41,6 @@
       {
         "text": "End Date",
         "datafield": "endDate",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -54,8 +48,6 @@
       {
         "text": "Regular Method",
         "datafield": "regMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -63,8 +55,6 @@
       {
         "text": "Flat-Rate Method",
         "datafield": "flatMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -72,8 +62,6 @@
       {
         "text": "Separate Aggregation Method",
         "datafield": "sepAggreMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -81,8 +69,6 @@
       {
         "text": "Rate Table Method",
         "datafield": "rateTableMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -90,8 +76,6 @@
       {
         "text": "Cumulative Method",
         "datafield": "cumuMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -99,8 +83,6 @@
       {
         "text": "Aggregation Pay Period Method",
         "datafield": "aggPayMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -108,8 +90,6 @@
       {
         "text": "Wage Associated Method",
         "datafield": "wageAssoMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -117,8 +97,6 @@
       {
         "text": "Concurrent Method",
         "datafield": "conMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -126,8 +104,6 @@
       {
         "text": "Regular No Exemptions Method",
         "datafield": "regNoExemMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -135,8 +111,6 @@
       {
         "text": "System Selected Supplemental Method",
         "datafield": "sysSelSuppMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -144,8 +118,6 @@
       {
         "text": "Commission Cumulative Method",
         "datafield": "commCumuMethValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -153,8 +125,6 @@
       {
         "text": "Christmas Bonus Method",
         "datafield": "christmasMethodValid",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

@@ -33,9 +33,6 @@
       {
         "text": "Run Name",
         "datafield": "runname",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -43,9 +40,6 @@
       {
         "text": "Run Date",
         "datafield": "rundate",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -53,9 +47,6 @@
       {
         "text": "Run Time",
         "datafield": "runtime",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -63,9 +54,6 @@
       {
         "text": "Product",
         "datafield": "product",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -73,9 +61,6 @@
       {
         "text": "Run Id",
         "datafield": "runid",
-        "cellsalign": "left",
-        "width": "25%",
-        "align": "left",
         "sortable": true,
         "hidden": true,
         "rendererInput": "",

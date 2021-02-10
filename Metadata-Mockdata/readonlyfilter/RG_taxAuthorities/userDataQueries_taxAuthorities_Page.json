@@ -27,9 +27,6 @@
       {
         "text": "Authority Code",
         "datafield": "bsiauth",
-        "cellsalign": "left",
-        "width": "30%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -38,43 +35,28 @@
       {
         "text": "Authority Name",
         "datafield": "name",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "40%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "County ID",
         "datafield": "countyid",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "15%",
         "sortable": true
       },
       {
         "text": "Authority Type",
         "datafield": "authtype",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "15%",
         "sortable": true
       },
       {
         "text": "Authority Title",
         "datafield": "authtitle",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "15%",
         "sortable": true
       },
       {
         "text": "Authority ID",
         "datafield": "authid",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "15%",
         "sortable": true
       }
     ],

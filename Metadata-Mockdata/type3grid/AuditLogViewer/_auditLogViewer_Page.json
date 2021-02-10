@@ -33,9 +33,6 @@
       {
         "text": "Event Time",
         "datafield": "eventTime",
-        "cellsalign": "center",
-        "width": "20%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -43,9 +40,6 @@
       {
         "text": "Login",
         "datafield": "login",
-        "width": "10%",
-        "cellsalign": "center",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -53,9 +47,6 @@
       {
         "text": "Data Set",
         "datafield": "dataSet",
-        "cellsalign": "center",
-        "width": "20%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -63,9 +54,6 @@
       {
         "text": "Tool ID",
         "datafield": "toolId",
-        "cellsalign": "center",
-        "width": "10%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -73,9 +61,6 @@
       {
         "text": "Event",
         "datafield": "event",
-        "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -83,9 +68,6 @@
       {
         "text": "Event Description",
         "datafield": "eventDescription",
-        "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

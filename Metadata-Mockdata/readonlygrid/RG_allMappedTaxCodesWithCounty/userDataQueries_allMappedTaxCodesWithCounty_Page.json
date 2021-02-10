@@ -28,9 +28,6 @@
         {
             "text": "User Code",
             "datafield": "taxcode",
-            "cellsalign": "left",
-            "width": "16.5%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -38,9 +35,6 @@
         {
             "text": "BSI Code",
             "datafield": "bsiCode",
-            "cellsalign": "left",
-            "width": "16.5%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -48,9 +42,6 @@
         {
             "text": "Authority Name",
             "datafield": "authorityName",
-            "cellsalign": "left",
-            "width": "16.5%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -58,9 +49,6 @@
         {
             "text": "Preferred",
             "datafield": "preferredVal",
-            "cellsalign": "left",
-            "width": "16.5%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -68,9 +56,6 @@
         {
             "text": "Authority Title",
             "datafield": "authorityTitle",
-            "cellsalign": "left",
-           "width": "17%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -78,9 +63,6 @@
         {
             "text": "County ID",
             "datafield": "countyID",
-            "cellsalign": "left",
-            "width": "17%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""

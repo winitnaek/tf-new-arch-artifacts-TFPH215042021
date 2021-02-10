@@ -27,9 +27,6 @@
         {
             "text": "Authority",
             "datafield": "authorityName",
-            "cellsalign": "left",
-            "width": "12.5%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": "authCodeauthNamerenderer"
@@ -37,9 +34,6 @@
         {
             "text": "Tax Type",
             "datafield": "taxTypeName",
-            "cellsalign": "left",
-            "width": "12.5%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": "taxTypeCodeNamerenderer"
@@ -47,9 +41,6 @@
         {
             "text": "Formula",
             "datafield": "formulaNumber",
-            "cellsalign": "left",
-            "width": "5%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -57,10 +48,7 @@
         {
             "text": "Start Date",
             "datafield": "effectiveDate",
-            "cellsalign": "left",
             "formatter":"date",
-            "width": "20%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -68,9 +56,6 @@
         {
             "text": "End Date",
             "datafield": "rescindDate",
-            "cellsalign": "left",
-            "width": "20%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -78,9 +63,6 @@
         {
             "text": "Maximum Wage",
             "datafield": "maximumWage",
-            "cellsalign": "left",
-            "width": "10%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -88,9 +70,6 @@
         {
             "text": "Tax Rate",
             "datafield": "taxRate",
-            "cellsalign": "left",
-            "width": "10%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -98,9 +77,6 @@
         {
             "text": "Minimum Wage",
             "datafield": "minimumWage",
-            "cellsalign": "left",
-            "width": "10%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""

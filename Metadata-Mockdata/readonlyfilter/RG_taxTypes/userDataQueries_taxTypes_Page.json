@@ -27,9 +27,6 @@
       {
         "text": "Tax Type",
         "datafield": "taxtype",
-        "cellsalign": "left",
-        "width": "10%",
-        "align": "left",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -38,59 +35,38 @@
       {
         "text": "Tax Name",
         "datafield": "taxname",
-        "cellsalign": "left",
-        "align": "left",
         "sortable": true,
-        "width": "30%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Payee",
         "datafield": "payee",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Recip",
         "datafield": "recip",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Tax ID",
         "datafield": "taxid",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Rail Road",
         "datafield": "railroad",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Garn Type Ind",
         "datafield": "gttype",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       },
       {
         "text": "Garn Cap Limit",
         "datafield": "garncap",
-        "cellsalign": "left",
-        "align": "left",
-        "width": "10%",
         "sortable": true
       }
     ],

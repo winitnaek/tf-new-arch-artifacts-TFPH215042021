@@ -28,9 +28,6 @@
         {
             "text": "Tax Type",
             "datafield": "taxTypeALL",
-            "cellsalign": "left",
-            "width": "5%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -38,9 +35,6 @@
         {
             "text": "Description",
             "datafield": "taxTypeName",
-            "cellsalign": "left",
-            "width": "12%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -48,9 +42,6 @@
         {
             "text": "Override",
             "datafield": "isOverride",
-            "cellsalign": "left",
-            "width": "7%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -58,9 +49,6 @@
         {
             "text": "Group Code",
             "datafield": "groupCode",
-            "cellsalign": "left",
-            "width": "10%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -68,9 +56,6 @@
         {
             "text": "Description",
             "datafield": "groupName",
-            "cellsalign": "left",
-            "width": "8%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -78,9 +63,6 @@
         {
             "text": "Pay Type",
             "datafield": "paymentType",
-            "cellsalign": "left",
-            "width": "6%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -88,9 +70,6 @@
         {
             "text": "Earn/Pay Code",
             "datafield": "payment",
-            "cellsalign": "left",
-            "width": "6%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -98,9 +77,6 @@
         {
             "text": "Description",
             "datafield": "paymentName",
-            "cellsalign": "left",
-            "width": "6%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -108,9 +84,6 @@
         {
             "text": "Employee Limit",
             "datafield": "employeePlanMax",
-            "cellsalign": "left",
-            "width": "6%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -118,9 +91,6 @@
         {
             "text": "Employer Limit",
             "datafield": "employerPlanMax",
-            "cellsalign": "left",
-            "width": "7%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -128,9 +98,6 @@
         {
             "text": "Class",
             "datafield": "planClass",
-            "cellsalign": "left",
-            "width": "6%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -138,9 +105,6 @@
         {
             "text": "Freq",
             "datafield": "limitFrequency",
-            "cellsalign": "left",
-            "width": "6%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -148,9 +112,6 @@
         {
             "text": "Start Date",
             "datafield": "startDate",
-            "cellsalign": "left",
-            "width": "8%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -158,10 +119,7 @@
         {
             "text": "End Date",
             "datafield": "endDate",
-            "cellsalign": "left",
-            "align": "left",
             "sortable": true,
-            "width": "7%",
             "rendererInput": "",
             "rendererStaticInput": ""
         }

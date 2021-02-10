@@ -27,9 +27,6 @@
         {
             "text": "Authority Code",
             "datafield": "auth",
-            "cellsalign": "left",
-            "width": "25%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -37,9 +34,6 @@
         {
             "text": "Tax Type",
             "datafield": "taxType",
-            "cellsalign": "left",
-            "width": "25%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -47,9 +41,6 @@
         {
             "text": "Effective Date",
             "datafield": "effectiveDateDspl",
-            "cellsalign": "left",
-            "width": "25%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
@@ -57,9 +48,6 @@
         {
             "text": "Rescind Date",
             "datafield": "rescindDateDspl",
-            "cellsalign": "left",
-            "width": "25%",
-            "align": "left",
             "sortable": true,
             "rendererInput": "",
             "rendererStaticInput": ""
