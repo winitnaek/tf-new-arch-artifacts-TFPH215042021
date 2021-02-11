@@ -9,7 +9,8 @@
 		},
 		"fieldinfo":{
 			"options":
-					[
+					[	
+					{ "id": " ", "label": "<None>" },
 					{ "id": "AK", "label": "ALASKA" },
 					{ "id": "AL", "label": "ALABAMA" },
 					{ "id": "AR", "label": "ARKANSAS" },
@@ -70,7 +71,7 @@
 
 		},
 		"validationType":"string",
-		"label":"",
+		"label":"State",
 		"value":"",
 		"validation":{
 			"required":false,

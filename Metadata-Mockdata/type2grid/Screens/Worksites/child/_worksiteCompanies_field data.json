@@ -37,7 +37,7 @@
    }
  },
   {
-    "name": "Worksite",
+    "name": "location",
     "id": "location",
     "placeholder": "Enter Worksite",
     "fieldtype": "text",
@@ -57,18 +57,6 @@
         {
           "type": "lowercase",
           "message": "Tax Code needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 11,
-          "message": "max 11 characters"
         }
       ]
     }
@@ -96,18 +84,6 @@
           "type": "lowercase",
           "message": "Tax Code needs to be in uppercase."
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 character"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
-        }
       ]
     }
   },
@@ -131,18 +107,6 @@
         {
           "type": "lowercase",
           "message": "Tax Code needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 character"
-        },
-        {
-          "type": "max",
-          "input": 50,
-          "message": "max 50 characters"
         }
       ]
     }
@@ -168,18 +132,6 @@
         {
           "type": "lowercase",
           "message": "Tax Code needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 character"
-        },
-        {
-          "type": "max",
-          "input": 57,
-          "message": "max 57 characters"
         }
       ]
     }
@@ -208,18 +160,6 @@
         {
           "type": "lowercase",
           "message": "Tax Code needs to be in uppercase."
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 character"
-        },
-        {
-          "type": "max",
-          "input": 22,
-          "message": "max 22 characters"
         }
       ]
     }
@@ -499,18 +439,6 @@
         {
           "type": "typeError",
           "message": "Must be a number"
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 10000,
-          "message": "US Postal Code must be 5 or 9 digits."
-        },
-        {
-          "type": "max",
-          "input": 999999999,
-          "message": "US Postal Code must be 5 or 9 digits."
         }
       ]
     }
