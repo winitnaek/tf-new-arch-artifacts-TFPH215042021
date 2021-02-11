@@ -13,7 +13,9 @@
       "helpLink":"/whatifLocations",
       "parentConfig":"taxLocator",
       "childConfig":"",
-      "hasCheckbox": true
+      "hasCheckbox": true,
+      "checkBoxLabel": "Display Local Tax Codes by Location"
+
    },
    "confirmdef": {
       "cheader": "",
