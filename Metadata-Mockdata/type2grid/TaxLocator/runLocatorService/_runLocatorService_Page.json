@@ -30,27 +30,33 @@
             "datafield":"taxCode",   
             "sortable":true,
             "rendererInput":"",
-            "rendererStaticInput":""
+            "rendererStaticInput":"",
+            "width":"20%"
          },
          {
             "text":"Title",
-            "datafield":"title"   
+            "datafield":"title",
+            "width":"15%"   
          },
          {
             "text":"Tax Name",
-            "datafield":"taxName"   
+            "datafield":"taxName",
+            "width":"30%"    
          },
          {
             "text":"Frml #",
-            "datafield":"formula"   
+            "datafield":"formula",
+            "width":"10%"    
          },
          {
             "text":"Res/Nres",
-            "datafield":"resNRes"
+            "datafield":"resNRes",
+            "width":"10%"   
          },
          {
             "text":"Tax Type Classification Code",
-            "datafield":"taxTypeClassificationCode"
+            "datafield":"taxTypeClassificationCode",
+            "width":"20%"   
          }
 
          
