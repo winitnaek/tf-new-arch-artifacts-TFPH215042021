@@ -27,9 +27,6 @@
 			{
 				"text": "Authority",
 				"datafield": "authority",
-				"cellsalign": "center",
-				"width": "15%",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -37,9 +34,6 @@
 			{
 				"text": "Tax Code",
 				"datafield": "taxCode",
-				"width": "15%",
-				"cellsalign": "center",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -47,9 +41,6 @@
             {
 				"text": "Tax Type",
 				"datafield": "taxType",
-				"width": "15%",
-				"cellsalign": "center",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -57,9 +48,6 @@
             {
 				"text": "Formula",
 				"datafield": "formulaTitle",
-				"cellsalign": "center",
-				"width": "15%",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -67,9 +55,6 @@
             {
 				"text": "Start Date",
 				"datafield": "startDate",
-				"cellsalign": "center",
-				"width": "10%",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -77,9 +62,6 @@
             {
 				"text": "Residency",
 				"datafield": "residency",
-				"cellsalign": "center",
-				"width": "15%",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -87,9 +69,6 @@
 			{
 				"text": "Type",
 				"datafield": "overtype",
-				"width": "15%",
-				"cellsalign": "center",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -97,10 +76,7 @@
 			{
 				"text": "Formula",
 				"datafield": "formula",
-				"cellsalign": "center",
-				"width": "15%",
 				"hidden": true,
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -108,10 +84,7 @@
 			{
 				"text": "Code",
 				"datafield": "code",
-				"cellsalign": "center",
-				"width": "15%",
 				"hidden": true,
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""

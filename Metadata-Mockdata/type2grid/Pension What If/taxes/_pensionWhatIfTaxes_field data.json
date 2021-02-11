@@ -26,7 +26,8 @@
 		"fieldinfo":{
 			"typeahead":false,
 			"isasync": true,
-			"autoPopulateFields":  ["pensionFormula"]
+			"autoPopulateFields":  ["pensionFormula"],
+			"options": []
 			},
 		"validationType":"string",
 		"label":"Tax Type",
@@ -50,7 +51,8 @@
 		"fieldinfo":{
 			"typeahead":false,
 			"isasync": true,
-			"dependentFields": ["usrauthcd"]
+			"dependentFields": ["usrauthcd"],
+			"options": []
 		},
 		"validationType":"string",
 		"label":"Formula",

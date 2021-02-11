@@ -26,78 +26,51 @@
 			{
 				"text":"Authority",
 				"datafield":"authTaxCode",
-				"cellsalign":"left",
-				"align":"left",
 				"sortable":true,
-				"width":"11%",
 				"rendererStaticInput": "authCodeauthNamerenderer"
 			},
 			{
 				"text":"Tax Type",
 				"datafield":"taxType",
-				"cellsalign":"left",
-				"align":"left",
 				"sortable":true,
-				"width":"11%",
 				"rendererStaticInput": "taxTypeCodeNamerenderer"
 			},
 			{
 				"text":"Payment",
 				"datafield":"planId",
-				"cellsalign":"",
-				"align":"left",
 				"sortable":true,
-				"width":"11%",
 				"rendererStaticInput": "planIdNamerenderer"
 			},
 			{
 				"text":"Type",
 				"datafield":"payType",
-				"cellsalign":"left",
-				"align":"left",
 				"sortable":true,
-				"width":"11%",
 				"rendererStaticInput": "payTypeNamerenderer"
 			},
 			{
 				"text":"Start Date",
 				"datafield":"startDate",
-				"cellsalign":"left",
-				"align":"left",
-				"sortable":true,
-				"width":"11%"
+				"sortable":true
 			},
 			{
 				"text":"End Date",
 				"datafield":"endDate",
-				"cellsalign":"left",
-				"align":"left",
-				"sortable":true,
-				"width":"11%"
+				"sortable":true
 			},
 			{
 				"text":"Taxability",
 				"datafield":"taxability",
-				"cellsalign":"left",
-				"align":"left",
-				"sortable":true,
-				"width":"11%"
+				"sortable":true
 			},
 			{
 				"text":"EE Max",
 				"datafield":"eeMaxAmount",
-				"cellsalign":"left",
-				"align":"left",
-				"sortable":true,
-				"width":"11%"
+				"sortable":true
 			},
 			{
 				"text":"Agg Status",
 				"datafield":"aggStatus",
-				"cellsalign":"left",
-				"align":"left",
 				"sortable":true,
-				"width":"11%",
 				"rendererStaticInput": "aggStatusNamerenderer"
 			}
 		],

@@ -26,17 +26,13 @@
          {
             "text":"Custom Tax Code",
             "datafield":"taxCode",
-            "cellsalign":"center",
-            "align":"center",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
          {
             "text":"Custom Tax Name",
-            "datafield":"name",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"name"
          }
       ],
       "dataFields":[

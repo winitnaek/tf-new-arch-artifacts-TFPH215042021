@@ -26,27 +26,21 @@
       "columns":[
          {
             "text":"Employee Code",
-            "datafield":"empCode",
-            "cellsalign":"left",
-            "align":"left",
+            "datafield":"empCode"   ,
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
          {
             "text":"Employee Name",
-            "datafield":"empName",
-            "cellsalign":"left",
-            "align":"left",
+            "datafield":"empName"   ,
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
          {
             "text":"Check Date",
-            "datafield":"checkDate",
-            "cellsalign":"left",
-            "align":"left",
+            "datafield":"checkDate"   ,
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -54,9 +48,6 @@
          {
             "text": "Run Id",
             "datafield": "regPen",
-            "cellsalign": "left",
-            "width": "25%",
-            "align": "left",
             "sortable": true,
             "hidden": true,
             "rendererInput": "",
@@ -65,9 +56,6 @@
           {
             "text": "Run Id",
             "datafield": "taxN",
-            "cellsalign": "left",
-            "width": "25%",
-            "align": "left",
             "sortable": true,
             "hidden": true,
             "rendererInput": "",
@@ -76,9 +64,6 @@
           {
             "text": "paymentType",
             "datafield": "paymentType",
-            "cellsalign": "left",
-            "width": "25%",
-            "align": "left",
             "sortable": true,
             "hidden": true,
             "rendererInput": "",

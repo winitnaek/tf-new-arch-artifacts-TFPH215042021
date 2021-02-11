@@ -27,43 +27,30 @@
       "columns":[
          {
             "text":"Authority",
-            "datafield":"taxCode",
-            "cellsalign":"left",
-            "width":"30%",
-            "align":"left",
+            "datafield":"taxCode",   
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
          {
             "text":"Title",
-            "datafield":"title",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"title"   
          },
          {
             "text":"Tax Name",
-            "datafield":"taxName",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"taxName"   
          },
          {
             "text":"Frml #",
-            "datafield":"formula",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"formula"   
          },
          {
             "text":"Res/Nres",
-            "datafield":"resNRes",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"resNRes"
          },
          {
             "text":"Tax Type Classification Code",
-            "datafield":"taxTypeClassificationCode",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"taxTypeClassificationCode"
          }
 
          

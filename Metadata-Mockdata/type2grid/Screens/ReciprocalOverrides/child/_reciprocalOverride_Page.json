@@ -26,125 +26,80 @@
       {
         "text": "Ovr. Type",
         "datafield": "ovrTypeDisplay",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "R. Tax Code",
         "datafield": "resAuthDisplay",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "R. Tax Type",
         "datafield": "resTaxTypeDisplay",
-        "cellsalign": "",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "NR. Tax Code",
         "datafield": "nonResAuthDisplay",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "NR. Tax Type",
         "datafield": "nonResTaxTypeDisplay",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "Calculation Method",
         "datafield": "method",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "Rate",
         "datafield": "rate",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "Display Recip. Calc. Message",
         "datafield": "calcMsgDisplay",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "Reporting Method",
         "datafield": "wgRptDisplay",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "Display Report Wage Message",
         "datafield": "rptMsgDisplay",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "Start Date",
         "datafield": "startDate",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "End Date",
         "datafield": "endDate",
-        "cellsalign": "left",
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "ovrType",
         "datafield": "ovrType",
-        "cellsalign": "left",
         "hidden": true,
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "resAuth",
         "datafield": "resAuth",
-        "cellsalign": "left",
         "hidden": true,
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       },
       {
         "text": "nonResAuth",
         "datafield": "nonResAuth",
-        "cellsalign": "left",
         "hidden": true,
-        "align": "left",
-        "sortable": true,
-        "width": "8%"
+        "sortable": true
       }
     ],
     "dataFields": [

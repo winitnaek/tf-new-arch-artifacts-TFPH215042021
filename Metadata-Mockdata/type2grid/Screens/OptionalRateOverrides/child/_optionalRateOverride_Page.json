@@ -26,68 +26,50 @@
          {
             "text":"Authority",
             "datafield":"authorityCode",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true,
             "rendererStaticInput": "authCodeauthNamerenderer"
          },
          {
             "text":"Tax Type",
             "datafield":"taxType",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true,
             "rendererStaticInput":"taxTypeCodeNamerenderer"
          },
          {
             "text":"Formula",
             "datafield":"formula",
-            "cellsalign":"",
-            "align":"left",
             "sortable":true,
             "rendererStaticInput":"formulaNamerenderer"
          },
           {
             "text":"Start Date",
             "datafield":"startDateDspl",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"End Date",
             "datafield":"rescindDateDspl",
-            "cellsalign":"left",
             "formatter":"date",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"Risk Classification Code",
             "datafield":"riskclass",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"Account",
             "datafield":"account",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"Optional Rate",
             "datafield":"exprateDspl",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"Override Max Wage",
             "datafield":"maxwageDspl",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          }
 

@@ -27,9 +27,6 @@
          {
             "text":"Tax Code",
             "datafield":"usrauthcd",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -37,9 +34,6 @@
          {
             "text":"Authority Name",
             "datafield":"name",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -47,9 +41,6 @@
          {
             "text":"Tax Type",
             "datafield":"taxTypeUserTaxType",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -57,9 +48,6 @@
          {
             "text":"Tax Name",
             "datafield":"taxName",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -67,9 +55,6 @@
          {
             "text":"Formula #",
             "datafield":"pensionFormula",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -77,9 +62,6 @@
          {
             "text":"Formula",
             "datafield":"formula",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -87,9 +69,6 @@
          {
             "text":"taxN",
             "datafield":"taxn",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -98,9 +77,6 @@
          {
             "text":"ppdwgs",
             "datafield":"payPeriodWage",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -108,10 +84,7 @@
          },
          {
             "text":"actualYearToDateWages",
-            "datafield":"actualYearToDateWages",
-            "cellsalign":"left",
-            "width":"16.66%",
-            "align":"left",
+            "datafield":"actualYearToDateWages",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -119,8 +92,7 @@
          },
          {
             "text":"yearToDateWage",
-            "datafield":"yearToDateWage",
-            "width":"16.66%",
+            "datafield":"yearToDateWage",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -128,8 +100,7 @@
          },
          {
             "text":"yearToDateTax",
-            "datafield":"yearToDateTax",
-            "width":"16.66%",
+            "datafield":"yearToDateTax",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -137,8 +108,7 @@
          },
          {
             "text":"additionalExemptionAmount",
-            "datafield":"additionalExemptionAmount",
-            "width":"16.66%",
+            "datafield":"additionalExemptionAmount",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -146,8 +116,7 @@
          },
          {
             "text":"baseWages",
-            "datafield":"baseWages",
-            "width":"16.66%",
+            "datafield":"baseWages",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -155,8 +124,7 @@
          },
          {
             "text":"exemptionAmount",
-            "datafield":"exemptionAmount",
-            "width":"16.66%",
+            "datafield":"exemptionAmount",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -164,8 +132,7 @@
          },
          {
             "text":"additionalAmount",
-            "datafield":"additionalAmount",
-            "width":"16.66%",
+            "datafield":"additionalAmount",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -173,8 +140,7 @@
          },
          {
             "text":"payPeriodTax",
-            "datafield":"payPeriodTax",
-            "width":"16.66%",
+            "datafield":"payPeriodTax",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -182,8 +148,7 @@
          },
          {
             "text":"payPeriodToDateWages",
-            "datafield":"payPeriodToDateWages",
-            "width":"16.66%",
+            "datafield":"payPeriodToDateWages",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -191,8 +156,7 @@
          },
          {
             "text":"monthToDateWages",
-            "datafield":"monthToDateWages",
-            "width":"16.66%",
+            "datafield":"monthToDateWages",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -200,8 +164,7 @@
          },
          {
             "text":"monthToDateTax",
-            "datafield":"monthToDateTax",
-            "width":"16.66%",
+            "datafield":"monthToDateTax",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -209,8 +172,7 @@
          },
          {
             "text":"quarterToDateWages",
-            "datafield":"quarterToDateWages",
-            "width":"16.66%",
+            "datafield":"quarterToDateWages",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -218,8 +180,7 @@
          },
          {
             "text":"quarterToDateTax",
-            "datafield":"quarterToDateTax",
-            "width":"16.66%",
+            "datafield":"quarterToDateTax",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -227,8 +188,7 @@
          },
          {
             "text":"additionalTaxRate",
-            "datafield":"additionalTaxRate",
-            "width":"16.66%",
+            "datafield":"additionalTaxRate",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -236,8 +196,7 @@
          },
          {
             "text":"additionalNonwageIncome",
-            "datafield":"additionalNonwageIncome",
-            "width":"16.66%",
+            "datafield":"additionalNonwageIncome",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -245,8 +204,7 @@
          },
          {
             "text":"taxCreditAmount",
-            "datafield":"taxCreditAmount",
-            "width":"16.66%",
+            "datafield":"taxCreditAmount",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -254,8 +212,7 @@
          },
          {
             "text":"withholdingForm",
-            "datafield":"withholdingForm",
-            "width":"16.66%",
+            "datafield":"withholdingForm",   
             "hidden":true,
             "sortable":true,
             "rendererInput":"",
@@ -263,8 +220,7 @@
          },
          {
             "text":"exemptions",
-            "datafield":"exemptions",
-            "width":"16.66%",
+            "datafield":"exemptions",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -272,8 +228,7 @@
          },
          {
             "text":"personalExemptions",
-            "datafield":"personalExemptions",
-            "width":"16.66%",
+            "datafield":"personalExemptions",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -281,8 +236,7 @@
          },
          {
             "text":"dependentExemptions",
-            "datafield":"dependentExemptions",
-            "width":"16.66%",
+            "datafield":"dependentExemptions",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -290,8 +244,7 @@
          },
          {
             "text":"numberOfAdditionalExemptions",
-            "datafield":"numberOfAdditionalExemptions",
-            "width":"16.66%",
+            "datafield":"numberOfAdditionalExemptions",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -299,8 +252,7 @@
          },
          {
             "text":"maritalStatus",
-            "datafield":"maritalStatus",
-            "width":"16.66%",
+            "datafield":"maritalStatus",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -308,8 +260,7 @@
          },
          {
             "text":"roundingIndicator",
-            "datafield":"roundingIndicator",
-            "width":"16.66%",
+            "datafield":"roundingIndicator",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -317,8 +268,7 @@
          },
          {
             "text":"supplementalCode",
-            "datafield":"supplementalCode",
-            "width":"16.66%",
+            "datafield":"supplementalCode",   
             "hidden":"true",
             "sortable":true,
             "rendererInput":"",
@@ -326,8 +276,7 @@
          },
          {
             "text":"bsiauth",
-            "datafield":"bsiauth",
-            "width":"16.66%",
+            "datafield":"bsiauth",   
             "hidden":true,
             "sortable":true,
             "rendererInput":"",
@@ -338,7 +287,7 @@
          {
             "name":"usrauthcd",
             "type":"string",
-            "map": "btxttax>usrauthcd"
+            "map": "btxttax>btxtaxc>btxauth>bsiauth"
          },
          {
             "name":"name",

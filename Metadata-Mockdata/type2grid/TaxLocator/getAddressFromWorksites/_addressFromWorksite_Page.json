@@ -31,9 +31,7 @@
          {
             "text":"Select Worksites",
             "datafield":"locationTaxes",
-            "cellsalign":"left",
             "columntype": "checkbox",
-            "width":"30%",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":"",
@@ -41,41 +39,29 @@
          },
          {
             "text":"Location",
-            "datafield":"location",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"location"   
          },
          {
             "text":"City",
-            "datafield":"city",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"city" 
          },
          {
             "text":"State",
-            "datafield":"state",
-            "cellsalign":"left",
-            "align":"left"
+            "datafield":"state"  
          },
          {
             "text":"Zip",
-            "datafield":"zip",
-            "cellsalign":"center",
-            "align":"center"
+            "datafield":"zip"
          },
          {
             "text":"County",
             "datafield":"county",
-            "hidden": true,
-            "cellsalign":"center",
-            "align":"center"
+            "hidden": true   
          },
          {
             "text":"Street1",
             "datafield":"street1",
-            "hidden": true,
-            "cellsalign":"center",
-            "align":"center"
+            "hidden": true   
          }
          
       ],

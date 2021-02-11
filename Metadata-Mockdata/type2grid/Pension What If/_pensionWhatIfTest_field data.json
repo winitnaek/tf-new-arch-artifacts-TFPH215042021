@@ -349,7 +349,7 @@
    },
    {
       "id":"companyPlan",
-      "placeholder":" ",
+      "placeholder":"Enter Company Plan ",
       "fieldtype":"select",
       "label":"Company Plan ",
       "value":"",

@@ -26,43 +26,30 @@
          {
             "text":"Tax Name",
             "datafield":"authName",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"Tax Code",
             "datafield":"authority",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"Garnishment",
             "datafield":"garnishmentType",
-            "cellsalign":"",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"Garnishment Name",
             "datafield":"garnishmentName",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          },
-         {
-            "text":"Start Date",
+         {  "text":"Start Date",
             "datafield":"startDate",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          },
          {
             "text":"End Date",
             "datafield":"endDate",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true
          }
       ],

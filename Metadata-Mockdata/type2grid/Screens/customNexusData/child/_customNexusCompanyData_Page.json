@@ -26,9 +26,6 @@
       {
         "text": "Tax Code",
         "datafield": "taxCode1",
-        "cellsalign": "center",
-        "width": "20%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -36,9 +33,6 @@
       {
         "text": "Authority Name",
         "datafield": "authname1",
-        "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -46,9 +40,6 @@
       {
         "text": "Start Date",
         "datafield": "startdate",
-        "cellsalign": "center",
-        "width": "20%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -56,9 +47,6 @@
       {
         "text": "End Data",
         "datafield": "rescind",
-        "width": "20%",
-        "cellsalign": "center",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -66,9 +54,6 @@
       {
         "text": "DC Courtesy",
         "datafield": "dCCourtesy",
-        "cellsalign": "center",
-        "width": "20%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -76,10 +61,7 @@
       {
         "text": "company",
         "datafield": "company",
-        "cellsalign": "center",
         "hidden": true,
-        "width": "20%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -88,7 +70,6 @@
         "text": "authority1",
         "datafield": "authority1",
         "hidden": true,
-        "width": "20%",
         "rendererInput": "",
         "rendererStaticInput": ""
       },
@@ -96,7 +77,6 @@
         "text": "nxind",
         "datafield": "nxind",
         "hidden": true,
-        "width": "20%",
         "rendererInput": "",
         "rendererStaticInput": ""
       }

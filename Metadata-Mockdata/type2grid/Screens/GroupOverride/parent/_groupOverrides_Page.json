@@ -26,9 +26,6 @@
 			{
 				"text": "Group Code",
 				"datafield": "id",
-				"cellsalign": "center",
-				"width": "50%",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -36,9 +33,6 @@
 			{
 				"text": "Group Name",
 				"datafield": "groupName",
-				"width": "50%",
-				"cellsalign": "center",
-				"align": "center",
 				"sortable": true,
 				"rendererInput": "",
 				"rendererStaticInput": ""
@@ -46,9 +40,6 @@
 			{
 				"text": "Tax Code",
 				"datafield": "taxcode",
-				"width": "15%",
-				"cellsalign": "center",
-				"align": "center",
 				"hidden": true,
 				"sortable": true,
 				"rendererInput": "",

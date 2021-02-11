@@ -26,8 +26,6 @@
          {
             "text":"Company Code",
             "datafield":"company",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -35,8 +33,6 @@
          {
             "text":"Company Name",
             "datafield":"companyName",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""

@@ -26,19 +26,13 @@
          {
             "text":"Company Code",
             "datafield":"company",
-            "cellsalign":"center",
-            "width":"47.5%",
-            "align":"center",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
         {
           "text": "Company Name",
-          "datafield": "companyName",
-          "width": "47.5%",
-          "cellsalign": "center",
-          "align": "center"
+          "datafield": "companyName"
         }
       ],
       "dataFields":[

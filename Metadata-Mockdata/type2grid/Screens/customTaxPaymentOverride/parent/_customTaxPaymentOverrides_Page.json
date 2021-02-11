@@ -31,9 +31,6 @@
       {
         "text": "Custom Tax Code",
         "datafield": "taxCode",
-        "cellsalign": "center",
-        "width": "49.5%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -41,9 +38,6 @@
       {
         "text": "Custom Tax Name",
         "datafield": "name",
-        "cellsalign": "center",
-        "width": "49.5%",
-        "align": "center",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""

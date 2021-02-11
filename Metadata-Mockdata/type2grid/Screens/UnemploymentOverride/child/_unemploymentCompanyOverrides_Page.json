@@ -26,69 +26,45 @@
          {
             "text":"Authority",
             "datafield":"taxCode",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true,
-            "width":"12%",
             "rendererStaticInput":"authCodeauthNamerenderer"
          },
          {
             "text":"Tax Type",
             "datafield":"taxType",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true,
-            "width":"12%",
             "rendererStaticInput":"taxTypeCodeNamerenderer"
          },
          {
             "text":"Formula",
             "datafield":"formula",
-            "cellsalign":"left",
-            "align":"left",
             "sortable":true,
-            "width":"12%",
             "rendererStaticInput":"formulaNamerenderer"
          },
           {
             "text":"Start Date",
             "datafield":"startDate",
-            "cellsalign":"left",
-            "align":"left",
-            "sortable":true,
-            "width":"12%"
+            "sortable":true
          },
          {
             "text":"End Date",
             "datafield":"endDate",
-            "cellsalign":"left",
-            "align":"left",
-            "sortable":true,
-            "width":"12%"
+            "sortable":true
          },
          {
             "text":"Rate",
             "datafield":"rate",
-            "cellsalign":"left",
-            "align":"left",
-            "sortable":true,
-            "width":"12%"
+            "sortable":true
          },
          {
             "text":"Override Max Wage",
             "datafield":"maxWage",
-            "cellsalign":"left",
-            "align":"left",
-            "sortable":true,
-            "width":"12%"
+            "sortable":true
          },
          {
             "text":"BSI Wage",
             "datafield":"bsiWage",
-            "cellsalign":"left",
-            "align":"left",
-            "sortable":true,
-            "width":"11%"
+            "sortable":true
          }
       ],
       "dataFields":[

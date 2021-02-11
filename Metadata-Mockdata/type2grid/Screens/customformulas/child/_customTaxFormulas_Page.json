@@ -26,97 +26,58 @@
          {
             "text":"Custom Tax Code Name",
             "datafield":"taxName",
-            "cellsalign":"left",
-            "align":"left",
-            "sortable":true,
-            "width":"15%"
+            "sortable":true
          },
          {
             "text":"Method",
-            "datafield":"cmName",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"cmName"
          },
          {
             "text":"Tax Rate",
-            "datafield":"taxRate",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"taxRate"
          },
          {
             "text":"Rounding",
-            "datafield":"roundingDisplay",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"roundingDisplay"
          },
          {
             "text":"Min Wage",
-            "datafield":"minWage",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"minWage"
          },
          {
             "text":"Max Wage",
-            "datafield":"maxWage",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"maxWage"   
          },
          {
             "text":"Max Tax",
-            "datafield":"maxTax",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"maxTax"   
          },
          {
             "text":"Flat Amount",
-            "datafield":"flatAmount",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"flatAmount"   
          },
          {
             "text":"Start Date",
-            "datafield":"startDate",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"startDate"   
          },
          {
             "text":"End Date",
-            "datafield":"rescind",
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "datafield":"rescind"   
          },
          {
             "text":"calcMethod",
             "datafield":"calcMethod",
-            "hidden": true,
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "hidden": true   
          },
          {
             "text":"rounding",
             "datafield":"rounding",
-            "hidden": true,
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "hidden": true   
          },
          {
             "text":"taxCode",
             "datafield":"taxCode",
-            "hidden": true,
-            "cellsalign":"left",
-            "align":"left",
-            "width":"8.8889%"
+            "hidden": true   
          }
       ],
       "dataFields":[
