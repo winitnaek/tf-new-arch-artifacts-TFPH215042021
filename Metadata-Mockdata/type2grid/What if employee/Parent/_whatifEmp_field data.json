@@ -13,7 +13,7 @@
   },
   {
     "id": "empCode",
-    "placeholder": "Enter Custom Payment Code",
+    "placeholder": "Enter Employee Code",
     "fieldtype": "text",
     "label": "Employee Code",
     "value": "",
