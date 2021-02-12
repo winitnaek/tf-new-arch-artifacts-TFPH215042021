@@ -34,13 +34,7 @@
 		"value":"",
 		"validation":{
 			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			]
+			"type":"string"
 		}
 	},
 	{
@@ -59,13 +53,7 @@
 		"value":"",
 		"validation":{
 			"required":true,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			]
+			"type":"string"
 		}
 	},
 	{

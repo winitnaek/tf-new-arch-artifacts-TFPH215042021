@@ -1,9 +1,10 @@
 [
 	{
-		"id": "checkDate",
-		"placeholder": "Enter a check Date",
+	  "name":"checkDate",
+      "id":"checkDate",
+      "placeholder":"Enter Check Date",
 		"fieldtype": "date",
-		"label": "Check Date",
+		"label":"Check Date",
 		"value": "",
 		"errmsg": " ",
 		"fieldlength": {
@@ -17,8 +18,14 @@
 		  "multiselect": false
 		},
 		"validation": {
-		  "required": false,
-		  "type": "date"
+		  "required": true,
+		  "type": "date",
+		  "constraint": [
+			{
+			  "type": "currentDate",
+			  "message": "Current Date validation message"
+			}
+		  ]
 		}
 	  },
 	{
@@ -36,14 +43,8 @@
 		"label":"Employee Code",
 		"value":"",
 		"validation":{
-			"required":false,
-			"type":"string",
-			"subtype":[
-				{
-					"type":"lowercase",
-					"message":""
-				}
-			]
+			"required":true,
+			"type":"string"
 		}
 	},
 	{
@@ -352,7 +353,7 @@
 			},
 
 			{
-				"name":"fedWthForEeLive/WorkInSameTerritory",
+				"name":"fedWthForEeLive",
 				"id":"fedWthForEeLive",
 				"placeholder":"Select FED WTH for EE live/work in same Territory",
 				"fieldtype":"select",
@@ -376,33 +377,34 @@
 					
 				}	
 			},
-
 			{
 				"name":"companyCode",
 				"id":"companyCode",
-				"placeholder":"Select Company Code",
+				"placeholder":"Enter the Company ",
 				"fieldtype":"select",
+				"label":"Company Code",
+				"value":"0",
+				"errmsg":" ",
 				"fieldlength":{
-				
+				   "minlength":5,
+				   "maxlength":25
 				},
-				"fieldinfo": {
-					"options":
-					[
-					{ "id": "1", "label": "Test Company Drop Down" }
-					
-					]
+				"fieldinfo":{
+				   "typeahead": false,
+					 "isasync": true,
+				   "options":[]
 				},
-				"validationType":"string",
-				"label": "Company code",
-				"value": "",
-				"validation": {
-					
-					"required":false,
-					"message":""
-					
+				"validation":{
+				   "required":false,
+				   "type":"string",
+				   "subtype":[
+					  {
+						 "type":"uppercase",
+						 "message":""
+					  }
+				   ]
 				}
-			
-			},
+			 },
 			
 			{
 				"name": "paidBy",

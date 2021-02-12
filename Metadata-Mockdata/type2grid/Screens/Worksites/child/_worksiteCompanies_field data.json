@@ -1,41 +1,4 @@
-[{
-   "name": "company",
-   "id": "company",
-   "placeholder": "",
-   "fieldtype": "text",
-   "fieldlength": {},
-   "fieldinfo": {},
-   "hidden":"hidden",
-   "validationType": "string",
-   "label": "",
-   "value": "",
-   "validation": {
-     "required": false,
-     "type": "string",
-     "subtype": [
-     ],
-     "constraint": []
-   }
- },
- {
-   "name": "companyName",
-   "id": "companyName",
-   "placeholder": "",
-   "fieldtype": "text",
-   "fieldlength": {},
-   "fieldinfo": {},
-   "hidden":"hidden",
-   "validationType": "string",
-   "label": "",
-   "value": "",
-   "validation": {
-     "required": false,
-     "type": "string",
-     "subtype": [
-     ],
-     "constraint": []
-   }
- },
+[
   {
     "name": "location",
     "id": "location",
@@ -426,21 +389,7 @@
     "errmsg":"Zip is required.",
     "validation": {
       "required": true,
-      "type": "number",
-      "subtype": [
-        {
-          "type": "positive",
-          "message": "Zip cannot be negative"
-        },
-        {
-          "type": "integer",
-          "message": "Zip must be an integer"
-        },
-        {
-          "type": "typeError",
-          "message": "Must be a number"
-        }
-      ]
+      "type": "number"
     }
   }
 ]

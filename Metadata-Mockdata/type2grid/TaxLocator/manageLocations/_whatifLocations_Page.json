@@ -38,6 +38,7 @@
             "text":"LiveWork",
             "datafield":"liveWork",
             "sortable":true,
+            "hidden": true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
