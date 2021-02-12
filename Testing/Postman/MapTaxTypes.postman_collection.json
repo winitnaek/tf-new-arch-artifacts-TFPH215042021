@@ -1,0 +1,603 @@
+{
+	"info": {
+		"_postman_id": "371adabc-cd80-426c-b369-311007a24dea",
+		"name": "MapTaxTypes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mapTaxTypes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\"\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/mapTaxTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"mapTaxTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customizeMapTaxTypesList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"mapMode\":0,\r\n      \"pattern\":\"with\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/customizeMapTaxTypesList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"customizeMapTaxTypesList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createDefaultMappingForAllTaxTypes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",     \r\n      \"userId\":\"TF11\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/createDefaultMappingForAllTaxTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"createDefaultMappingForAllTaxTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "taxTypesMappedForAuthority",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"taxType\":\"001\"\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/taxTypesMappedForAuthority",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"taxTypesMappedForAuthority"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createNewTaxType",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",     \r\n      \"userId\":\"TF11\",\r\n      \"taxType\":\"001\",\r\n      \"taxTypeName\":\"WITHHOLDING TAX\",\r\n      \"userTax\":\"withhold\",\r\n      \"locReturn\":\"Y\"\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/createNewTaxType",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"createNewTaxType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteTaxTypeMapping",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",     \r\n      \"userId\":\"TF11\",\r\n      \"usrtax\":\"withhold\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/deleteTaxTypeMapping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"deleteTaxTypeMapping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatePreferredStatusTaxType",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",     \r\n      \"userId\":\"TF11\",\r\n      \"usrtax\":\"WTH\",\r\n      \"taxType\":\"001\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/updatePreferredStatusTaxType",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"updatePreferredStatusTaxType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDisposableOverrideGroupListTaxType",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"usrtax\":\"SUPPORT\"\r\n     \r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getDisposableOverrideGroupListTaxType",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getDisposableOverrideGroupListTaxType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getGarnishmentFormulaOverrideGroupList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"usrtax\":\"SUPPORT\"\r\n     \r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getGarnishmentFormulaOverrideGroupList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getGarnishmentFormulaOverrideGroupList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEmployeeGarnishmentList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"usrtax\":\"BSI502\"\r\n     \r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getEmployeeGarnishmentList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getEmployeeGarnishmentList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEmployeeTaxList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"usrtax\":\"WTH\"\r\n     \r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getEmployeeTaxList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getEmployeeTaxList"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
