@@ -15,7 +15,7 @@
 	  "fieldinfo": {
 		"typeahead": true,
 		"isasync": true,
-		"minlength": 1,
+		"minLength": 1,
 		"options": [],
 		"multiselect": false,
 		"fieldKey": "label"
