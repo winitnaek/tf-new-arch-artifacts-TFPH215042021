@@ -5,7 +5,6 @@
       "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
       "flowtype":"flowtype2",
       "hasAddNew":true,
-      "hasDeleteAll": true,
       "addNewLabel":"Click here to add new Employee.",
       "actiondel":false,
       "helpAvailable":true,
@@ -14,12 +13,6 @@
       "parentConfig":"",
       "childConfig":[{ "pgid": "whatifLocations", "columnHeader": "Manage Locations" }]
    },
-   "confirmdef": {
-      "cheader": "",
-      "cbody": "Are you sure you want to delete all records?",
-      "okbtnlbl": "Ok",
-      "cancelbtnlbl": "Cancel"
-    },
    "griddef":{
       "gridtype":"type2",
       "isfilter":false,
@@ -29,6 +22,7 @@
       "noResultsFoundTxt":"No Data Found : ",
       "recordEdit":true,
       "recordDelete":false,
+      "hasButtonBar":true,
       "columns":[
          {
             "text":"Employee Code",
@@ -62,6 +56,14 @@
          {
             "text":"Company Code",
             "datafield":"selectedState",
+            "sortable":true,
+            "hidden": true,
+            "rendererInput":"",
+            "rendererStaticInput":""
+         },
+         {
+            "text":"hireDate",
+            "datafield":"hireDate",
             "sortable":true,
             "hidden": true,
             "rendererInput":"",
@@ -103,6 +105,71 @@
             "name": "fedWthForEeLive",
             "type": "string",
             "map": "btxlemp>fed"
+         },
+         {
+            "name": "hireDate",
+            "type": "string",
+            "map": "btxlemp>hiredate"
+         },
+         {
+            "name": "grossAmount",
+            "type": "string",
+            "map": "btxlemp>grosswages"
+         },
+         {
+            "name": "employeeClass",
+            "type": "string",
+            "map": "btxlemp>empclass"
+         },
+         {
+            "name": "eicCode",
+            "type": "string",
+            "map": "btxlemp>eicstatus"
+         },
+         {
+            "name": "taxFilter",
+            "type": "string",
+            "map": "btxlemp>taxfilter"
+         },
+         {
+            "name": "privateSectorRetirementPlanIndicator",
+            "type": "string",
+            "map": "btxlemp>retireplan"
+         },
+         {
+            "name": "dataVersion",
+            "type": "string",
+            "map": "btxlemp>dataver"
+         },
+         {
+            "name": "selectedStateIndicator",
+            "type": "string",
+            "map": "btxlemp>selstaind"
+         },
+         {
+            "name": "paidBy",
+            "type": "string",
+            "map": "btxlemp>whopays"
+         },
+         {
+            "name": "railRoadCode",
+            "type": "string",
+            "map": "btxlemp>railroad"
+         },
+         {
+            "name": "returnAllStates",
+            "type": "string",
+            "map": "btxlemp>allstates"
+         },
+         {
+            "name": "employmentType",
+            "type": "string",
+            "map": "btxlemp>empltype"
+         },
+         {
+            "name": "dateOfDeath",
+            "type": "string",
+            "map": "btxlemp>deathdate"
          }
       ]
    },

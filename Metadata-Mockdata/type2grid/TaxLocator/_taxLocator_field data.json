@@ -59,6 +59,7 @@
 		},
 		"validationType":"string",
 		"label":"Employee Name",
+		"hidden":"hidden",
 		"value":"",
 		"validation":{
 			"required":false,
@@ -193,29 +194,35 @@
 					
 				}
 			},
-			
 			{
-				"id": "hireDate",
-				"placeholder": "Enter a Hire Date",
-				"fieldtype": "date",
-				"label": "Hire Date",
-				"value": "",
-				"errmsg": " ",
-				"fieldlength": {
-				  "minlength": 1,
-				  "maxlength": 25
+				"name":"hireDate",
+				"id":"hireDate",
+				"placeholder":"Enter Hire Date",
+				  "fieldtype": "date",
+				  "label":"Hire Date",
+				  "value": "",
+				  "errmsg": " ",
+				  "fieldlength": {
+					"minlength": 1,
+					"maxlength": 25
+				  },
+				  "fieldinfo": {
+					"typeahead": false,
+					"isasync": false,
+					"options": [],
+					"multiselect": false
+				  },
+				  "validation": {
+					"required": true,
+					"type": "date",
+					"constraint": [
+					  {
+						"type": "currentDate",
+						"message": "Current Date validation message"
+					  }
+					]
+				  }
 				},
-				"fieldinfo": {
-				  "typeahead": false,
-				  "isasync": false,
-				  "options": [],
-				  "multiselect": false
-				},
-				"validation": {
-				  "required": false,
-				  "type": "date"
-				}
-			  },
 			{
 				"name":"dataVersion",
 				"id":"dataVersion",
@@ -574,30 +581,27 @@
 				}	
 			},
 			{
-				"name":"dateOfDeath",
-				"id":"dateOfDeath",
-				"placeholder":"Enter Date of Death",
-				"fieldtype":"date",
-				"fieldlength":{
-
+				"id": "dateOfDeath",
+				"placeholder": "Enter a Date of Death",
+				"fieldtype": "date",
+				"label": "Date of Death",
+				"value": "",
+				"errmsg": " ",
+				"fieldlength": {
+				  "minlength": 1,
+				  "maxlength": 25
 				},
-				"fieldinfo":{
-
+				"fieldinfo": {
+				  "typeahead": false,
+				  "isasync": false,
+				  "options": [],
+				  "multiselect": false
 				},
-				"validationType":"string",
-				"label":"Date of Death",
-				"value":"",
-				"validation":{
-					"required":false,
-					"type":"text",
-					"subtype":[
-					{
-					"type":"uppercase",
-					"message":"Worksite needs to be in uppercase."
-					}
-			]
-		}
-	}
+				"validation": {
+				  "required": false,
+				  "type": "date"
+				}
+			  }
 				
 		
 ]

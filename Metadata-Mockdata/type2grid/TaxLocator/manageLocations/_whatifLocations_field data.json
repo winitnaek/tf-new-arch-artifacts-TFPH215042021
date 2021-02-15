@@ -143,9 +143,9 @@
 				"options":[
 					{ "id": "0", "label": "Live" },
 					{ "id": "1", "label": "Work" },
-					{ "id": "2", "label": "Resident on 1/1" },
-					{ "id": "3", "label": "Work on 1/1" },
-					{ "id": "4", "label": "Remote Employee" }
+					{ "id": "4", "label": "Resident on 1/1" },
+					{ "id": "5", "label": "Work on 1/1" },
+					{ "id": "7", "label": "Remote Employee" }
 					]
 				},
 				"validationType":"string",

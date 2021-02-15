@@ -5,7 +5,6 @@
       "pgsubtitle":"",
       "flowtype":"flowtype2",
       "hasAddNew":true,
-      "hasDeleteAll": true,
       "addNewLabel":"Click here to add new Location.",
       "actiondel":false,
       "helpAvailable":true,
@@ -17,12 +16,6 @@
       "checkBoxLabel": "Display Local Tax Codes by Location"
 
    },
-   "confirmdef": {
-      "cheader": "",
-      "cbody": "Are you sure you want to delete all records?",
-      "okbtnlbl": "Ok",
-      "cancelbtnlbl": "Cancel"
-    },
    "griddef":{
       "gridtype":"type1",
       "isfilter":true,
@@ -36,9 +29,8 @@
       "columns":[
          {
             "text":"LiveWork",
-            "datafield":"liveWork",
+            "datafield":"liveWork1",
             "sortable":true,
-            "hidden": true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
@@ -160,6 +152,11 @@
 			"name":"locnnumbr",
          "type":"number",
          "map":"btxldetl>id>locnnumbr"
+      },
+      {
+			"name":"liveWork",
+         "type":"string",
+         "map":"btxldetl>resident"
       }
 	
       ]
