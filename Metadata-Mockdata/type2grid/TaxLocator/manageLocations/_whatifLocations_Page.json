@@ -29,10 +29,10 @@
       "columns":[
          {
             "text":"LiveWork",
-            "datafield":"liveWork1",
+            "datafield":"liveWork",
             "sortable":true,
             "rendererInput":"",
-            "rendererStaticInput":""
+            "rendererStaticInput": "liveworkRenderer"
          },
          {
             "text":"City",
