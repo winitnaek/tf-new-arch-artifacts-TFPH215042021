@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "customTaxPaymentOverrides",
     "pgtitle": "Custom Tax Payment Overrides ",
-    "pgsubtitle": "Click on the Custom Tax Code to manage its Overrides.",
+    "pgsubtitle": "Click the magnifying glass in the view column on the appropriate row to manage the Custom Tax Payment Overrides",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "",

@@ -76,7 +76,7 @@
       },
       {
         "text": "Preferred",
-        "datafield": "preferred",
+        "datafield": "preferredVal",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -86,26 +86,32 @@
     "dataFields": [
       {
         "name": "authority",
-        "type": "string"
+        "type": "string",
+        "map":"btxauth>name"
+        
       },
       {
         "name": "title",
-        "type": "string"
+        "type": "string",
+        "map": "btxauth>authtitle"
       },
       {
         "name": "countryId",
-        "type": "string"
+        "type": "string",
+        "map": "btxauth>countyid"
       },
       {
         "name": "bsiCode",
-        "type": "string"
+        "type": "string",
+        "map": "btxauth>bsiauth"
       },
       {
         "name": "taxCode",
-        "type": "string"
+        "type": "string",
+        "map":"taxcode"
       },
       {
-        "name": "preferred",
+        "name": "preferredVal",
         "type": "string"
       }
     ]

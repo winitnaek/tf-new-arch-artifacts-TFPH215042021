@@ -2,11 +2,11 @@
   "pgdef": {
     "pgid": "pensionWhatIfTest",
     "pgtitle": "Pension What-If Test",
-    "pgsubtitle": "",
+    "pgsubtitle": "Click the magnifying glass in the taxes column and edit icon in the edit column on the appropriate row to manage the employee records and taxes",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "hasDeleteAll": true,
-    "addNewLabel": "Click here to add new Pension What-If.",
+    "addNewLabel": "Click here to add new Pension What-If",
     "actiondel": false,
     "helpAvailable": true,
     "helpLblTxt": "Click here for more info!",

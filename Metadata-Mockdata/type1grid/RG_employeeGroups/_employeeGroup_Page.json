@@ -2,10 +2,10 @@
    "pgdef":{
       "pgid":"employeeGroup",
       "pgtitle":"Employee Groups",
-      "pgsubtitle":"",
+      "pgsubtitle":"Click the edit icon in the edit column on the appropriate row to manage the Employee Groups",
       "flowtype":"flowtype1",
       "hasAddNew":true,
-      "addNewLabel":"Click here to add new Employee group Or click on existing Group to edit.",
+      "addNewLabel":"Click here to add new Employee group",
       "actiondel":false,
       "helpAvailable":true,
       "helpLblTxt":"Click here for more info!",

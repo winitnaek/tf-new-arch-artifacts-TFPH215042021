@@ -505,10 +505,12 @@
         "name": "currtaxleft",
         "type": "string",
         "map": "currtaxleft"
+      },
+      {
+        "name": "wages",
+        "type": "array",
+        "map": "wages"
       }
-      
-      
-      
     ]
   },
   "formdef":{

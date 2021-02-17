@@ -2,10 +2,10 @@
   "pgdef": {
     "pgid": "addressOverrides",
     "pgtitle": "Address Overrides",
-    "pgsubtitle": "",
+    "pgsubtitle": "Click the edit icon in the edit column on the appropriate row to manage the Address Overrides",
     "flowtype": "flowtype1",
     "hasAddNew": true,
-    "addNewLabel": "Click here to add new Custom Payment.",
+    "addNewLabel": "Click here to add new Address Overrides",
     "actiondel": false,
     "helpAvailable": true,
     "helpLblTxt": "Click here for more info!",

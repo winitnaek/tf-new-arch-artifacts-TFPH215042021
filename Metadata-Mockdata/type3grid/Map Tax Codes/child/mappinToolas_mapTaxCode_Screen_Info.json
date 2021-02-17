@@ -1,7 +1,7 @@
 {
   "value": "MT",
-  "label": "Employee Groups",
-  "desc": "Employee Groups",
+  "label": "Map Tax Codes",
+  "desc": "Map Tax Codes",
   "id": "mapTaxCode",
   "type": "comp",
   "link": false
