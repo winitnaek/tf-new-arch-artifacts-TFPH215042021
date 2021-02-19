@@ -1,0 +1,549 @@
+{
+	"info": {
+		"_postman_id": "07f1e52e-0af1-4c44-8ba8-0084f9645a5f",
+		"name": "MapPaymentCodes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mapPaymentCodes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\"\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/mapPaymentCodes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"mapPaymentCodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customizeMapPaymentCodesList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"mapMode\":-1,\r\n      \"pattern\":\"tip\",\r\n      \"codeType\":\"0\"\r\n      \r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/customizeMapPaymentCodesList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"customizeMapPaymentCodesList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createDefaultMappingForAllPaymentCodes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",     \r\n      \"userId\":\"TF11\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/createDefaultMappingForAllPaymentCodes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"createDefaultMappingForAllPaymentCodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createDefaultMappingForThisPaymentCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",     \r\n      \"userId\":\"TF11\",\r\n      \"pmtUsrCode\":\"P019\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/createDefaultMappingForThisPaymentCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"createDefaultMappingForThisPaymentCode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createNewPaymentCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",     \r\n      \"userId\":\"TF11\",\r\n      \"planCode\":\"CCC\",\r\n      \"pmtUsrCode\":\"C001\",\r\n      \"pmtUsrName\":\"TIP CREDIT\",\r\n      \"codeType\":\"C\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/createNewPaymentCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"createNewPaymentCode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUserPaymentsMappedForPayCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"pmtUsrCode\":\"C001\",\r\n      \"pmtUsrName\":\"TIP CREDIT\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getUserPaymentsMappedForPayCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getUserPaymentsMappedForPayCode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletePaymentCodeMapping",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",     \r\n      \"userId\":\"TF11\",\r\n      \"pmtUsrCode\":\"BSIP019\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/deletePaymentCodeMapping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"deletePaymentCodeMapping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPaymentOverrideGroupListForPayCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\", \r\n      \"pmtUsrCode\":\"BSIC001\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getPaymentOverrideGroupListForPayCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getPaymentOverrideGroupListForPayCode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDisposableOverrideGroupListForPayCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\", \r\n      \"pmtUsrCode\":\"BSIC001\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getDisposableOverrideGroupListForPayCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getDisposableOverrideGroupListForPayCode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getWhatIfUsageListForPayCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\", \r\n      \"pmtUsrCode\":\"BSIC001\"\r\n      \r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getWhatIfUsageListForPayCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getWhatIfUsageListForPayCode"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

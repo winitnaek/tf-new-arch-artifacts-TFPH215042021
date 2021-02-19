@@ -2,10 +2,10 @@
 	"pgdef": {
 		"pgid": "groupOverrides",
 		"pgtitle": "Group Overrides",
-		"pgsubtitle": "",
+		"pgsubtitle": "Click the magnifying glass in the view column on the appropriate row to manage the Group Overrides",
 		"flowtype": "flowtype1",
 		"hasAddNew": false,
-		"addNewLabel": "Click here to add new Override or click on existing Override to edit.",
+		"addNewLabel": "Click here to add new Group Override",
 		"actiondel": false,
 		"helpAvailable": true,
 		"helpLblTxt": "Click here for more info!",

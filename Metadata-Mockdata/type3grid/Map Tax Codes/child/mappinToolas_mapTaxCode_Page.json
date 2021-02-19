@@ -48,11 +48,12 @@
       },
       {
         "text": "Preferred for Tax Locator",
-        "datafield": "taxLocator",
+        "datafield": "locReturn",
         "columntype": "checkbox",
-        "rendererInput": "",
-        "rendererStaticInput": ""
-      }
+        "sortable":true,
+        "rendererInput":"",
+        "rendererStaticInput":""
+       }
     ],
 
     "dataFields": [
@@ -61,9 +62,14 @@
         "type": "string"
       },
       {
-        "name": "taxLocator",
+        "name": "locReturn",
         "type": "bool"
+      },
+      {
+        "name": "name",
+        "type": "string"
       }
+
     ]
 
   },
@@ -80,15 +86,14 @@
     "hasView": false,
     "hasRecentUsage": false,
 
-    "formflds": "",
-    "fltrflds": [
+    "formflds": [
       {
         "id": "taxCode",
         "order": 1,
-        "isReadOnlyOnEdit": false,
+        "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       }
-
-    ]
+    ],
+    "fltrflds": ""
   }
 }
