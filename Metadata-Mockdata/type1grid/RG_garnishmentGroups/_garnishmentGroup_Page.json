@@ -2,7 +2,7 @@
    "pgdef":{
       "pgid":"garnishmentGroup",
       "pgtitle":"Garnishment Groups",
-      "pgsubtitle":"Click the edit icon in the edit column on the appropriate row to manage the Garnishment Groups",
+      "pgsubtitle":"Create and manage Garnishments Groups.",
       "flowtype":"flowtype1",
       "hasAddNew":true,
       "addNewLabel":"Click here to add new garnishment Groups Or click on existing Group to edit.",

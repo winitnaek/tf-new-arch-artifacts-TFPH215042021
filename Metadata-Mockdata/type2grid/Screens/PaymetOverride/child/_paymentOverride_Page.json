@@ -2,7 +2,7 @@
 	"pgdef":{
 		"pgid":"paymentOverride",
 		"pgtitle":"Payment Overrides",
-		"pgsubtitle":"",
+		"pgsubtitle":"Create and manage authorities for Payment Overrides.",
 		"flowtype":"flowtype2",
 		"hasAddNew":true,
 		"addNewLabel":"Click here to add new Custom Payment Override.",

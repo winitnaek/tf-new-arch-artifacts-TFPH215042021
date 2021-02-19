@@ -2,7 +2,7 @@
    "pgdef":{
       "pgid":"optionalRateOverride",
       "pgtitle":"Optional Rate Overrides",
-      "pgsubtitle":"",
+      "pgsubtitle":"Create and manage authorities for Optional Rate Overrides.",
       "flowtype":"flowtype2",
       "hasAddNew":true,
       "addNewLabel":"Click here to add new Optional Rate Override.",

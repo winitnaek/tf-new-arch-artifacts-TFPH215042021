@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "whatifTaxes",
     "pgtitle": "What-If Test Taxes",
-    "pgsubtitle": "",
+    "pgsubtitle": "Create and manage employee taxes for  tax calculations.",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "addNewLabel": "Click here to add new Tax.",

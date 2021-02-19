@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "customNexusData",
     "pgtitle": "Custom Nexus Data",
-    "pgsubtitle": "Click the magnifying glass in the view column on the appropriate row to manage the Custom Nexus Data",
+    "pgsubtitle": "Create and manage Custom Nexus Data.",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "",

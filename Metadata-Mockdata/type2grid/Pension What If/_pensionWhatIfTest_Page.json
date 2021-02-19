@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "pensionWhatIfTest",
     "pgtitle": "Pension What-If Test",
-    "pgsubtitle": "Click the magnifying glass in the taxes column and edit icon in the edit column on the appropriate row to manage the employee records and taxes",
+    "pgsubtitle": "Create and manage recipient to calculate pension and taxes.",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "hasDeleteAll": true,

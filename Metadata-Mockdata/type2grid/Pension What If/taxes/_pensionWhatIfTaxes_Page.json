@@ -2,7 +2,7 @@
    "pgdef":{
       "pgid":"pensionWhatIfTaxes",
       "pgtitle":"Pension What-If Test",
-      "pgsubtitle":"",
+      "pgsubtitle":"Create and manage recipient  taxes for  tax calculations.",
       "flowtype":"flowtype2",
       "hasAddNew":true,
       "addNewLabel":"Click here to add new Tax.",

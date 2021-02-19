@@ -2,7 +2,7 @@
 	"pgdef": {
 		"pgid": "groupOverrides",
 		"pgtitle": "Group Overrides",
-		"pgsubtitle": "Click the magnifying glass in the view column on the appropriate row to manage the Group Overrides",
+		"pgsubtitle": "Create and manage Group Overrides.",
 		"flowtype": "flowtype1",
 		"hasAddNew": false,
 		"addNewLabel": "Click here to add new Group Override",

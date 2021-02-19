@@ -2,7 +2,7 @@
    "pgdef":{
       "pgid":"whatifDeductionBenefits",
       "pgtitle":"What-If Deduction Benefits Plans",
-      "pgsubtitle":"",
+      "pgsubtitle":"Create and manage employee Deductions and Benefits.",
       "flowtype":"flowtype2",
       "hasAddNew":true,
       "addNewLabel":"Click here to add new Deduction and Benefits.",

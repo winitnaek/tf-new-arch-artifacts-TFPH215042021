@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "customGarnishmentTaxFormulas",
     "pgtitle": "Custom Garnishment Formulas",
-    "pgsubtitle": "",
+    "pgsubtitle": "Create and manage custom garnishment codes  for Custom Garnishments Formulas.",
     "flowtype": "flowtype2",
     "hasAddNew": true,
     "addNewLabel": "Click here to add new Custom Garnishment Formula or click on existing Custom Garnishment Formula to edit.",

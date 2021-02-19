@@ -2,7 +2,7 @@
   pgdef: {
     pgid: "employeeGroups",
     pgtitle: "Employee Groups",
-    pgsubtitle: "",
+    pgsubtitle: "Create and manage Employee Groups.",
     flowtype: "flowtype1",
     hasAddNew: false,
     addNewLabel: "",

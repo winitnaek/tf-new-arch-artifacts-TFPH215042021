@@ -2,7 +2,7 @@
    "pgdef":{
       "pgid":"wageDetails",
       "pgtitle":"What-If Test Wage Details",
-      "pgsubtitle":"",
+      "pgsubtitle":"Create and manage employee wage details.",
       "flowtype":"flowtype2",
       "hasAddNew":true,
       "addNewLabel":"Click here to add new Wage Details.",

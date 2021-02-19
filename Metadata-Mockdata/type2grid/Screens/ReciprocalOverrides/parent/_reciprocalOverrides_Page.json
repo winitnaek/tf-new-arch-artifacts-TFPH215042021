@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "reciprocalOverrides",
     "pgtitle": "Reciprocal Overrides",
-    "pgsubtitle": "Click the magnifying glass in the view column on the appropriate row to manage the formula",
+    "pgsubtitle": "Create and manage Reciprocal Override.",
     "flowtype": "flowtype2",
     "hasAddNew": false,
     "addNewLabel": "",
