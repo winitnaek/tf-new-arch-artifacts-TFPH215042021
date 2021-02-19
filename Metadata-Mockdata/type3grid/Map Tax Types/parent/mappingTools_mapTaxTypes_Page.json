@@ -11,7 +11,15 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/mapTaxTypes",
     "parentConfig": "",
-    "childConfig": [{ "pgid": "mapTaxType" }]
+    "childConfig": [{ "pgid": "mapTaxType" }],
+    "extraLinks": [
+      {
+        "id": "createDefaultTT",
+        "description": "Click here to create default mapping for all tax types",
+        "icon": "fa-window-restore",
+        "successMessage": "All Tax Tax Types are updated with default Mappings",
+        "errorMessage": ""
+      }]
   },
 
   "griddef": {
@@ -26,14 +34,14 @@
     "columns": [
       {
         "text": "Tax Type Name",
-        "datafield": "taxTypeName",
+        "datafield": "taxname",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "BSI Code",
-        "datafield": "bsiCode",
+        "datafield": "taxtype",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -47,7 +55,7 @@
       },
       {
         "text": "Preferred",
-        "datafield": "preferred",
+        "datafield": "locreturn",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -56,20 +64,59 @@
 
     "dataFields": [
       {
-        "name": "taxTypeName",
-        "type": "string"
+        "name": "taxname",
+        "type": "string",
+        "map":"btxtaxt>taxname"
       },
       {
-        "name": "bsiCode",
-        "type": "string"
+        "name": "payee",
+        "type": "string",
+        "map":"btxtaxt>payee"
+      },
+      {
+        "name": "taxtype",
+        "type": "string",
+        "map":"btxtaxt>taxtype"
       },
       {
         "name": "mapping",
-        "type": "string"
+        "type":"string",
+        "map": "btxutaxt>id>usrtax"
       },
       {
-        "name": "preferred",
-        "type": "string"
+        "name": "locreturn",
+        "type":"string",
+        "map": "btxutaxt>locreturn"
+      },
+      {
+        "name": "recip",
+        "type": "boolean",
+        "map":"btxutaxt>recip"
+      },
+      {
+        "name": "taxid",
+        "type": "boolean",
+        "map":"btxutaxt>taxid"
+      },
+      {
+        "name": "railroad",
+        "type": "boolean",
+        "map":"btxutaxt>railroad"
+      },
+      {
+        "name": "gttype",
+        "type": "string",
+        "map":"btxutaxt>gttype"
+      },
+      {
+        "name": "admin",
+        "type": "string",
+        "map":"btxutaxt>admin"
+      },
+      {
+        "name": "psrp",
+        "type": "boolean",
+        "map":"btxutaxt>psrp"
       }
     ]
   },

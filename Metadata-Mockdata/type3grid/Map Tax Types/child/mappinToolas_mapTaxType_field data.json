@@ -1,28 +1,45 @@
 [
-{
-      "id":"groupCode",
-      "placeholder":"Enter Group Code",
-      "fieldtype":"select",
-      "label":"Group Code",
-      "value":"",
-      "errmsg":" ",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
+   {
+      "id": "userTax",
+      "placeholder": "Enter Custom Tax Type",
+      "fieldtype": "text",
+      "label": "Custom Tax Type",
+      "value": "",
+      "errmsg": "Custom Tax Type is required",
+      "fieldlength": {
+        "minlength": 1,
+        "maxlength": 11
       },
-      "fieldinfo":{
-         "typeahead":true,
-         "isasync":true,
-         "options":[
-
-         ],
-         "multiselect":false
-      },
-      "validation":{
-         "required":true,
-         "type":"string"
+      "fieldinfo": {},
+      "validation": {
+        "required": true,
+        "type": "string",
+        "subtype": [],
+        "constraint": []
       }
-   }
+    },
+    {
+      "id": "preferred",
+      "fieldtype": "checkbox",
+      "fieldHeader":"",
+      "value": "",
+      "errmsg": " ",
+      "fieldlength": {},
+      "fieldinfo": {
+        "typeahead": false,
+        "isasync": false,
+        "options": [
+          {
+            "label": "Preferred",
+            "id": "preferred"
+          }
+        ]
+      },
+      "validation": {
+        "required": false,
+        "type": "boolean"
+      }
+    }
 ]
 
 
