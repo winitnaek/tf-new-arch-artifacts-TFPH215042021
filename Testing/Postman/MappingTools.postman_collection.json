@@ -60,6 +60,60 @@
 			"response": []
 		},
 		{
+			"name": "getCountMappingTools",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\"\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getCountMappingTools",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getCountMappingTools"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "getCountTaxCodesNotMapped",
 			"request": {
 				"auth": {
@@ -918,6 +972,60 @@
 						"v1",
 						"MappingToolsService",
 						"getDisposableOverrideGroupList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTaxCodesUsage",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{            \r\n      \"dataset\":\"DEFAULT\",\r\n      \"authCode\":\"GA\"\r\n}\r\n      ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/MappingToolsService/getTaxCodesUsage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"MappingToolsService",
+						"getTaxCodesUsage"
 					]
 				}
 			},
