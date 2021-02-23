@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "taxTypeUsage",
     "pgtitle": "Tax Code Usage Summary",
-    "pgsubtitle": "Tax Code ${customTaxType} is used in the following context:",
+    "pgsubtitle": "Tax Code ${customTaxType} is used in the following context.",
     "flowtype": "flowtype1",
     "hasAddNew": false,
     "addNewLabel": "",

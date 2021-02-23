@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "paymentCodeUsage",
     "pgtitle": "Map Payment Codes",
-    "pgsubtitle": "Payment Code ${customCode} is used in the following context:",
+    "pgsubtitle": "Payment Code ${customCode} is used in the following context.",
     "flowtype": "flowtype1",
     "hasAddNew": false,
     "addNewLabel": "",
