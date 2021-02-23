@@ -1,40 +1,46 @@
 [
-   {
-		"name": "dataset",
-		"id": "dataset",
-		"placeholder": "Enter Data Set ID",
-      "fieldtype": "text",
-      "errmsg":"Data Set ID is required",
-		"fieldlength": {},
-		"fieldinfo": {
-		  "minlength":1,
-		  "maxlength":25
-		},
-		"validationType": "string",
-		"label": "Data Set ID",
-		"value": "",
-		"validation": {
-		  "required": true,
-		  "type": "string"
-		}
-     },
-     {
-		"name": "descript",
-		"id": "descript",
-		"placeholder": "Enter Data Set Description",
-      "fieldtype": "text",
-      "errmsg":"Data Set Description is required",
-		"fieldlength": {},
-		"fieldinfo": {
-		  "minlength":1,
-		  "maxlength":25
-		},
-		"validationType": "string",
-		"label": "Data Set Description",
-		"value": "",
-		"validation": {
-		  "required": true,
-		  "type": "string"
-		}
-	  }
+  {
+    "name": "dataset",
+    "id": "dataset",
+    "placeholder": "Enter Data Set ID",
+    "fieldtype": "text",
+    "errmsg": "Data Set ID is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "validationType": "string",
+    "label": "Data Set ID",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  {
+    "name": "descript",
+    "id": "descript",
+    "placeholder": "Enter Data Set Description",
+    "fieldtype": "text",
+    "errmsg": "Data Set Description is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 100
+    },
+    "fieldinfo": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "validationType": "string",
+    "label": "Data Set Description",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  }
 ]

@@ -2,10 +2,10 @@
    "pgdef":{
       "pgid":"dataSets",
       "pgtitle":"Data Sets",
-      "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
+      "pgsubtitle":"Create and manage Data Sets.",
       "flowtype":"flowtype2",
       "hasAddNew":true,
-      "addNewLabel":"Click on the Data Set ID to manage the Override.",
+      "addNewLabel":"Click here to add new Data Set.",
       "actiondel":false,
       "helpAvailable":true,
       "helpLblTxt":"Click here for more info!",
