@@ -1,76 +1,46 @@
 [
-   {
-      "id":"dataSetId",
-      "placeholder":"Enter Data Set ID",
-      "fieldtype":"text",
-      "label":"Data Set ID",
-      "value":"",
-      "errmsg":" is required",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":25
-      },
-      "fieldinfo":{
-
-      },
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"uppercase",
-               "message":"Data Set ID needs to be in uppercase."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":1,
-               "message":"min 1 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
-   {
-      "id":"dataSetDescription",
-      "placeholder":"Enter Data Set Description",
-      "fieldtype":"text",
-      "label":"Data Set Description",
-      "value":"",
-      "errmsg":"Data Set Description is required",
-      "fieldlength":{
-         "minlength":1,
-         "maxlength":104
-      },
-      "fieldinfo":{
-
-      },
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"lowercase",
-               "message":"Data Set Descripion may not be blank."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":1,
-               "message":"min 1 characters"
-            },
-            {
-               "type":"max",
-               "input":104,
-               "message":"max 104 characters"
-            }
-         ]
-      }
-   }
+  {
+    "name": "dataset",
+    "id": "dataset",
+    "placeholder": "Enter Data Set ID",
+    "fieldtype": "text",
+    "errmsg": "Data Set ID is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "fieldinfo": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "validationType": "string",
+    "label": "Data Set ID",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  {
+    "name": "descript",
+    "id": "descript",
+    "placeholder": "Enter Data Set Description",
+    "fieldtype": "text",
+    "errmsg": "Data Set Description is required",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 100
+    },
+    "fieldinfo": {
+      "minlength": 1,
+      "maxlength": 25
+    },
+    "validationType": "string",
+    "label": "Data Set Description",
+    "value": "",
+    "validation": {
+      "required": true,
+      "type": "string"
+    }
+  }
 ]
