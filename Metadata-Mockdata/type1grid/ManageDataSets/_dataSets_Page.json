@@ -1,7 +1,7 @@
 {
    "pgdef":{
       "pgid":"dataSets",
-      "pgtitle":"",
+      "pgtitle":"Data Sets",
       "pgsubtitle":"Click the magnifying glass in the view column on the appropriate row to manage the formula",
       "flowtype":"flowtype2",
       "hasAddNew":true,
@@ -25,14 +25,14 @@
       "columns":[
          {
             "text":"Data Set ID",
-            "datafield":"dataSetId",
+            "datafield":"dataset",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
          {
             "text":"Data Set Description",
-            "datafield":"dataSetDescription",
+            "datafield":"descript",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -40,14 +40,45 @@
       ],
       "dataFields":[
          {
-            "name":"dataSetId",
-            "type":"string"
+            "name":"dataset",
+            "type":"string",
+            "map":"btxdset>dataset"
          },
          {
-            "name":"dataSetDescription",
-            "type":"string"
+            "name":"descript",
+            "type":"string",
+            "map":"btxdset>descript"
+         },
+         {
+            "name":"tfpass",
+            "type":"string",
+            "map":"btxdset>tfpass"
          }
       ]
    },
-   "formdef":""
+   "formdef":{
+      "title":"Data Sets",
+      "subtitle":"",
+      "hasSave":true,
+      "hasDelete":true,
+      "hasSaveAs":false,
+      "hasViewPDF":false,
+      "hasView":false,
+      "hasRecentUsage":false,
+      "formflds":[
+         {
+            "id":"dataset",
+            "order":1,
+            "isReadOnlyOnEdit":true,
+            "isReadOnlyOnNew":false
+         },
+         {
+            "id":"descript",
+            "order":2,
+            "isReadOnlyOnEdit":false,
+            "isReadOnlyOnNew":false
+         }
+      ],
+      "fltrflds":""
+      }
 }
