@@ -1,9 +1,9 @@
 [
 {
-      "id":"groupCode",
-      "placeholder":"Enter Group Code",
-      "fieldtype":"select",
-      "label":"Group Code",
+      "id":"payCode",
+      "placeholder":"Enter Custom Payment Code",
+      "fieldtype":"text",
+      "label":"Custom Payment Code",
       "value":"",
       "errmsg":" ",
       "fieldlength":{
@@ -11,8 +11,8 @@
          "maxlength":25
       },
       "fieldinfo":{
-         "typeahead":true,
-         "isasync":true,
+         "typeahead":false,
+         "isasync":false,
          "options":[
 
          ],

@@ -22,7 +22,7 @@
     }
   },
   {
-    "id": "taxType",
+    "id": "mapMode",
     "placeholder": "",
     "fieldtype": "select",
     "label": "Tax Types that are",

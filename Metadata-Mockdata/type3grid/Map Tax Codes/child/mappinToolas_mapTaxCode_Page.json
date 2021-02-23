@@ -14,17 +14,17 @@
     "childConfig": [{"pgid":"taxCodeUsage"}],
     "extraLinks": [
       {
-        "id": "createDefault",
-        "description": "Click here to create default mapping for all authorities",
+        "id": "createDefaultAuthority",
+        "description": "Click here to create default mapping for this authority",
         "icon": "fa-window-restore",
-        "successMessage": "All Tax Codes are updated with default Mappings",
+        "successMessage": "Default mapping for this authority successfully created",
         "errorMessage": ""
       },
       {
-        "id": "createMap",
-        "description": "Click here to create default mapping for all Federal and State authorities",
+        "id": "createMapAuthority",
+        "description": "Click here to create default mapping for for this authority and all it's localities (if applicable).",
         "icon": "fa-link",
-        "successMessage": "All Tax Codes are updated with default Mappings",
+        "successMessage": "Default mapping for this authority and it's localities (if applicable) successfully created.",
         "errorMessage": ""
       }]
   },
@@ -38,6 +38,10 @@
     "noResultsFoundTxt": "No record retrieved for your query",
     "recordEdit": false,
     "recordDelete": false,
+    "hasButtonBar":true,
+    "editable": true,
+    "selectionmode": "singlecell",
+    "editmode": "click’",
     "columns": [
       {
         "text": "Tax Code",
@@ -48,11 +52,14 @@
       },
       {
         "text": "Preferred for Tax Locator",
-        "datafield": "locReturn",
+        "datafield": "preferred",
+        "sortable": true,
+        "aling":"left",
+        "cellsalign": "left", 
         "columntype": "checkbox",
-        "sortable":true,
-        "rendererInput":"",
-        "rendererStaticInput":""
+        "rendererInput": "",
+        "rendererStaticInput": "",
+        "editable": true
        }
     ],
 
@@ -62,11 +69,16 @@
         "type": "string"
       },
       {
-        "name": "locReturn",
-        "type": "bool"
+        "name": "preferred",
+        "type": "boolean",
+        "map": "locReturn"
       },
       {
         "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "bsiAuth",
         "type": "string"
       }
 

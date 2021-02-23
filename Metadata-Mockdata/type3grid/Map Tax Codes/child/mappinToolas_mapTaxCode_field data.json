@@ -22,7 +22,7 @@
     }
   },
   {
-    "id": "locReturn",
+    "id": "preferred",
     "placeholder": "Preferred for Tax Locator",
     "fieldtype": "checkbox",
     "label": "",
@@ -38,7 +38,7 @@
       "options": [
         {
           "label": "Preferred for Tax Locator",
-          "id": "locReturn"
+          "id": "preferred"
         }
       ],
       "multiselect": false

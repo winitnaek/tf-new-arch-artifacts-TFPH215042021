@@ -4,14 +4,23 @@
     "pgtitle": "Map Payment Codes",
     "pgsubtitle": "",
     "flowtype": "flowtype1",
-    "hasAddNew": false,
-    "addNewLabel": "",
+    "hasAddNew": true,
+    "addNewLabel": "Create new custom Payments Code",
     "actiondel": false,
     "helpAvailable": true,
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/mapPaymentCode",
     "parentConfig": "mapPaymentCodes",
-    "childConfig": [{ "pgid": "paymentCodeUsage" }]
+    "childConfig": [{ "pgid": "paymentCodeUsage" }],
+    "extraLinks": [
+      {
+        "id": "createMapPC",
+        "description": "Click here to create a default mapping for this record only.",
+        "icon": "fa-link",
+        "successMessage": "All Tax Codes are updated with default Mappings",
+        "errorMessage": ""
+      }
+    ]
   },
 
   "griddef": {
@@ -26,14 +35,14 @@
     "columns": [
       {
         "text": "Custom Code",
-        "datafield": "customCode",
+        "datafield": "userCode",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "BSI Code",
-        "datafield": "bsiCode",
+        "datafield": "payment",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -42,11 +51,15 @@
 
     "dataFields": [
       {
-        "name": "customCode",
+        "name": "userCode",
         "type": "string"
       },
       {
-        "name": "bsiCode",
+        "name": "payment",
+        "type": "string"
+      },
+      {
+        "name": "name",
         "type": "string"
       }
     ]
@@ -67,7 +80,7 @@
       {
         "id": "garnishmentGroup",
         "order": 1,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       }
     ]

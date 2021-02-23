@@ -11,7 +11,16 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/mapPaymentCode",
     "parentConfig": "",
-    "childConfig": [{ "pgid": "mapPaymentCode" }]
+    "childConfig": [{ "pgid": "mapPaymentCode" }],
+    "extraLinks": [
+      {
+        "id": "createDefaultPC",
+        "description": "Click here to create default mapping for all Payment codes",
+        "icon": "fa-link",
+        "successMessage": "All Tax Codes are updated with default Mappings",
+        "errorMessage": ""
+      }
+    ]
   },
 
   "griddef": {
@@ -26,28 +35,28 @@
     "columns": [
       {
         "text": "Payment Name",
-        "datafield": "paymentName",
+        "datafield": "name",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Type/Title",
-        "datafield": "typeOrTitle",
+        "datafield": "payType",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "BSI Code",
-        "datafield": "bsiCode",
+        "datafield": "payment",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Payment Code",
-        "datafield": "paymentCode",
+        "datafield": "userCode",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -56,19 +65,19 @@
 
     "dataFields": [
       {
-        "name": "paymentName",
+        "name": "name",
         "type": "string"
       },
       {
-        "name": "typeOrTitle",
+        "name": "payType",
         "type": "string"
       },
       {
-        "name": "bsiCode",
+        "name": "payment",
         "type": "string"
       },
       {
-        "name": "paymentCode",
+        "name": "userCode",
         "type": "string"
       }
     ]
@@ -89,7 +98,7 @@
       {
         "id": "garnishmentGroup",
         "order": 1,
-        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnEdit": false,
         "isReadOnlyOnNew": false
       }
     ]

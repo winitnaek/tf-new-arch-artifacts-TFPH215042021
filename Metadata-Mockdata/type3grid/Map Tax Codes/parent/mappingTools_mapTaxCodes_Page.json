@@ -41,21 +41,21 @@
     "columns": [
       {
         "text": "Authority",
-        "datafield": "authority",
+        "datafield": "name",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Title",
-        "datafield": "title",
+        "datafield": "authtitle",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
-        "text": "Coutry ID",
-        "datafield": "countryId",
+        "text": "Country ID",
+        "datafield": "countyid",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -85,18 +85,18 @@
 
     "dataFields": [
       {
-        "name": "authority",
+        "name": "name",
         "type": "string",
         "map":"btxauth>name"
         
       },
       {
-        "name": "title",
+        "name": "authtitle",
         "type": "string",
         "map": "btxauth>authtitle"
       },
       {
-        "name": "countryId",
+        "name": "countyid",
         "type": "string",
         "map": "btxauth>countyid"
       },

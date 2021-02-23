@@ -1,6 +1,6 @@
 [
   {
-    "id": "name_bsicode_paymentcode",
+    "id": "paymentCode",
     "placeholder": "Enter Payment Code",
     "fieldtype": "text",
     "label": "Name / BSI Code / Payment Code Containing",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "id": "payment_codes",
+    "id": "paymentModes",
     "placeholder": "",
     "fieldtype": "select",
     "label": "Payment Codes that are",
@@ -51,7 +51,7 @@
     }
   },
   {
-    "id": "earning_types",
+    "id": "earningTypes",
     "placeholder": "",
     "fieldtype": "select",
     "label": "Plan Earning Types",
