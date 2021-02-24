@@ -1,0 +1,225 @@
+{
+	"info": {
+		"_postman_id": "92149b7a-e134-4745-8116-c3818782ee0e",
+		"name": "ConnectDataset",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getDatasetsForLogin",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n      \"userId\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/DatasetService/getDatasetsForLogin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"DatasetService",
+						"getDatasetsForLogin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "isManageLogins",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n      \"login\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/DatasetService/isManageLogins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"DatasetService",
+						"isManageLogins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "isManageDatasets",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n      \"login\":\"TF11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/DatasetService/isManageDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"DatasetService",
+						"isManageDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "connectDataset",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n    \"login\":\"TF11\",\r\n    \"dataset\":\"DEFAULT\"    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/DatasetService/connectDataset",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"DatasetService",
+						"connectDataset"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
