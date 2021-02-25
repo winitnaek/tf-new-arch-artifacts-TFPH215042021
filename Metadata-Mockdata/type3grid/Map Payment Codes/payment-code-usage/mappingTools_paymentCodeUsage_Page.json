@@ -2,7 +2,8 @@
   "pgdef": {
     "pgid": "paymentCodeUsage",
     "pgtitle": "Map Payment Codes",
-    "pgsubtitle": "Payment Code ${customCode} is used in the following context.",
+    "pgsubtitle": "Payment Code ${userCode} is used in the following context.",
+    "subtitle": "The Custom Payment Code is mapped for BSI Code ${payment} which is ${name}.",
     "flowtype": "flowtype1",
     "hasAddNew": false,
     "addNewLabel": "",
