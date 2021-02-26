@@ -11,7 +11,7 @@
       "helpLblTxt":"Click here for more info!",
       "helpLink":"/dataSets",
       "parentConfig":"",
-      "childConfig":""
+      "childConfig":[{"pgid":"home", "columnHeader": "View"}]
    },
    "griddef":{
       "gridtype":"type1",
@@ -41,11 +41,13 @@
       "dataFields":[
          {
             "name":"dataSetId",
-            "type":"string"
+            "type":"string",
+            "map":"btxdset>dataset"
          },
          {
             "name":"dataSetDescription",
-            "type":"string"
+            "type":"string",
+            "map":"btxdset>descript"
          }
       ]
    },
