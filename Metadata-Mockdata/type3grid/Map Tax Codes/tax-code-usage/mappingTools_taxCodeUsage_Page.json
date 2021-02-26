@@ -2,7 +2,8 @@
   "pgdef": {
     "pgid": "taxCodeUsage",
     "pgtitle": "Tax Code Usage Summary",
-    "pgsubtitle": "Tax Code ${taxCode} is used in the following context.",
+    "pgsubtitle": "Payment Code ${taxCode} is used in the following context.",
+    "subtitle": "This Tax Code is mapped for ${name} (${bsiAuth}).",
     "flowtype": "flowtype1",
     "hasAddNew": false,
     "addNewLabel": "",
