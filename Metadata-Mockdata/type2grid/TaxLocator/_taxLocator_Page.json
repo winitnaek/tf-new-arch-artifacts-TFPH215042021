@@ -1,7 +1,7 @@
 {
    "pgdef":{
       "pgid":"taxLocator",
-      "pgtitle":"TaxLocator",
+      "pgtitle":"Tax Locator",
       "pgsubtitle":"Create and manage employee records and tax locations.",
       "flowtype":"flowtype2",
       "hasAddNew":true,
