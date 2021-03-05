@@ -5,5 +5,7 @@
    "id":"databaseloadStatus",
    "type":"comp",
    "link":true,
-   "section": "Database Tools"
+   "section": "Database Tools",
+   "linkid":304,
+   "module":3
 }

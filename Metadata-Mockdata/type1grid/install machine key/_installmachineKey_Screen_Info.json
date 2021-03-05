@@ -5,5 +5,7 @@
    "id":"installmachineKey",
    "type":"page",
    "link":true,
-   "section": "Database Tools"
+   "section": "Database Tools",
+   "linkid":305,
+   "module":3
 }

@@ -5,5 +5,7 @@
    "id":"optionalRestore",
    "type":"page",
    "link":true,
-   "section": "Database Tools"
+   "section": "Database Tools",
+   "linkid":59,
+   "module":3
 }

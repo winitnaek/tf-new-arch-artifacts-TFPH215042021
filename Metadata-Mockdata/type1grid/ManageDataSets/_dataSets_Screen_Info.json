@@ -5,5 +5,7 @@
    "id":"dataSets",
    "type":"comp",
    "link":true,
-   "section":"Access Tools"
+   "section":"Access Tools",
+   "linkid":4,
+   "module":3
 }
