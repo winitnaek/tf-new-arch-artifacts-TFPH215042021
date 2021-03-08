@@ -4,62 +4,26 @@
     "placeholder": " ",
     "fieldtype": "select",
     "label": "Select Login",
-    "value": "",
-    "errmsg": " ",
+    "value": "0",
+    "errmsg": "",
     "fieldlength": {
-      "minlength": 1,
+      "minlength": 5,
       "maxlength": 25
     },
 
     "fieldinfo": {
-      "options": [
-    { "id": "1", "label": "ALL" },
-    { "id": "2", "label": "AR" },
-    { "id": "3", "label": "CERTUSR" },
-    { "id": "4", "label": "daniel" },
-    { "id": "5", "label": "deborah" },
-    { "id": "6", "label": "HS" },
-    { "id": "7", "label": "igor" },
-    { "id": "8", "label": "jeff" },
-    { "id": "9", "label": "jkrute@applied.com1313" },
-    { "id": "10", "label": "k" },
-    { "id": "11", "label": "ming" },
-    { "id": "12", "label": "peter" },
-    { "id": "13", "label": "qP9cV9h" },
-    { "id": "14", "label": "raj" },
-    { "id": "15", "label": "raji" },
-    { "id": "16", "label": "reynolds_ralph@bsi.com.dev" },
-    { "id": "17", "label": "sita" },
-    { "id": "18", "label": "sudhir" },
-    { "id": "19", "label": "supcert@bsi.com.sfdev" },
-    { "id": "20", "label": "TEST" },
-    { "id": "21", "label": "tf10_generator" },
-    { "id": "22", "label": "tf10_generator_noui" },
-    { "id": "23", "label": "TF11" },
-    { "id": "24", "label": "tf11" },
-    { "id": "25", "label": "vinit" },
-    { "id": "26", "label": "vw4Ski6" }
-      ]
+      "typeahead": false,
+      "isasync": true,
+      "options": [],
+      "autoPopulateFields":  ["selectDataSet"]
     },
     "validation": {
-      "required": true,
+      "required": false,
       "type": "string",
       "subtype": [
         {
           "type": "uppercase",
           "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
         }
       ]
     }
@@ -69,50 +33,19 @@
     "placeholder": "Enter the Tax Type",
     "fieldtype": "select",
     "label": "Select Data Set",
-    "value": "",
-    "errmsg": " ",
+    "value": "0",
+    "errmsg": "",
     "fieldlength": {
-      "minlength": 1,
+      "minlength": 5,
       "maxlength": 25
     },
 
     "fieldinfo": {
-      "options": [
-    { "id": "1", "label": "ALL" },
-    { "id": "2", "label": "00RG1" },
-    { "id": "3", "label": "ABTEST" },
-    { "id": "4", "label": "ABTEST2" },
-    { "id": "5", "label": "ARTEST" },
-    { "id": "6", "label": "CERTUSR1" },
-    { "id": "7", "label": "CERTUSR2" },
-    { "id": "8", "label": "CYNDI" },
-    { "id": "9", "label": "DANIEL" },
-    { "id": "10", "label": "DEBORAH" },
-    { "id": "11", "label": "DEFAULT" },
-    { "id": "12", "label": "DSCSBHH4ZY95NOO1" },
-    { "id": "13", "label": "DSCSBHH4ZY95NOO2" },
-    { "id": "14", "label": "DSCSBHH4ZY95NOO3" },
-    { "id": "15", "label": "HS_LAB_2" },
-    { "id": "16", "label": "HSLAB" },
-    { "id": "17", "label": "IGOR" },
-    { "id": "18", "label": "JEFF" },
-    { "id": "19", "label": "MING" },
-    { "id": "20", "label": "NEAL_LABCU" },
-    { "id": "21", "label": "PETER" },
-    { "id": "22", "label": "PRUTHVI" },
-    { "id": "23", "label": "RAJI" },
-    { "id": "24", "label": "RRDATASET" },
-    { "id": "25", "label": "SF128034" },
-    { "id": "26", "label": "SF136876" },
-    { "id": "27", "label": "SFDEV" },
-    { "id": "28", "label": "SITA" },
-    { "id": "29", "label": "SUDHIR" },
-    { "id": "30", "label": "SUNLAB11" },
-    { "id": "31", "label": "TF10_LJY_LOCAL4" },
-    { "id": "32", "label": "TF11_LAB_INSTANCE" },
-    { "id": "33", "label": "TF11_LJY_SAAS" },
-    { "id": "34", "label": "VINIT" }
-      ]    },
+      "typeahead": false,
+      "isasync": true,
+      "options": [],
+      "dependentFields": ["selectLogin"]
+    },
     "validation": {
       "required": false,
       "type": "string",
@@ -120,18 +53,6 @@
         {
           "type": "uppercase",
           "message": ""
-        }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
         }
       ]
     }
