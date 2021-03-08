@@ -2,13 +2,13 @@
   "pgdef": {
     "pgid": "auditLogViewer",
     "pgtitle": "Audit Log Viewer",
-    "pgsubtitle": "The Following formulas are definded for : ",
+    "pgsubtitle": "",
     "flowtype": "flowtype1",
     "hasAddNew": false,
     "addNewLabel": "",
     "actiondel": false,
     "helpAvailable": true,
-    "hasDeleteAll": true,
+    "hasDeleteAll": false,
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/auditLogViewer",
     "parentConfig": "",
@@ -27,26 +27,27 @@
     "datatype": "json",
     "contenttype": "application/json",
     "noResultsFoundTxt": "There are no formulas defined for : ",
+    "hasButtonBar":true,
     "recordEdit": false,
     "recordDelete": false,
     "columns": [
       {
         "text": "Event Time",
-        "datafield": "eventTime",
+        "datafield": "streventTime",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Login",
-        "datafield": "login",
+        "datafield": "loginId",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Data Set",
-        "datafield": "dataSet",
+        "datafield": "dataset",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -60,14 +61,14 @@
       },
       {
         "text": "Event",
-        "datafield": "event",
+        "datafield": "eventIdstr",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       },
       {
         "text": "Event Description",
-        "datafield": "eventDescription",
+        "datafield": "data",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -75,15 +76,15 @@
     ],
     "dataFields": [
       {
-        "name": "eventTime",
+        "name": "streventTime",
         "type": "string"
       },
       {
-        "name": "login",
+        "name": "loginId",
         "type": "string"
       },
       {
-        "name": "dataSet",
+        "name": "dataset",
         "type": "string"
       },
       {
@@ -91,11 +92,11 @@
         "type": "string"
       },
       {
-        "name": "event",
+        "name": "eventIdstr",
         "type": "string"
       },
       {
-        "name": "eventDescription",
+        "name": "data",
         "type": "string"
       }
 

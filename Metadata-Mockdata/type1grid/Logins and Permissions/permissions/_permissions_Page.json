@@ -2,7 +2,7 @@
   "pgdef": {
     "pgid": "permissions",
     "pgtitle": "Permissions",
-    "pgsubtitle": "Login ID -",
+    "pgsubtitle": "",
     "flowtype": "flowtype1",
     "hasAddNew": false,
     "addNewLabel": "Click here to add new Login Or click on existing Login to edit.",
@@ -11,7 +11,13 @@
     "helpLblTxt": "Click here for more info!",
     "helpLink": "/permissions",
     "parentConfig": "logins",
-    "childConfig": ""
+    "childConfig": "",
+    "topLink": [
+      {
+        "id": "resetDefaultLogin",
+        "icon": "fa-link"
+      }
+    ]
   },
   "griddef": {
     "gridtype": "type1",
@@ -23,8 +29,10 @@
     "contenttype": "application/json",
     "noResultsFoundTxt": "No Data Found : ",
     "recordEdit": false,
+    "hasButtonBar":true,
     "recordDelete": false,
     "editable": true,
+    "isSelectFilter": true,
     "editControls": [
       { "id": "checkAll", "buttonText": "Check All", "color": "primary", "className": "mr-1" },
       { "id": "uncheckAll", "buttonText": "Uncheck All", "color": "primary", "className": "mr-1" },
@@ -43,7 +51,7 @@
       },
       {
         "text": "View",
-        "datafield": "view",
+        "datafield": "viewPermission",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -51,7 +59,7 @@
       },
       {
         "text": "Save",
-        "datafield": "save",
+        "datafield": "savePermission",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -59,7 +67,7 @@
       },
       {
         "text": "Delete",
-        "datafield": "delete",
+        "datafield": "deletePermission",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -67,7 +75,7 @@
       },
       {
         "text": "Run",
-        "datafield": "run",
+        "datafield": "runPermission",
         "columntype": "checkbox",
         "sortable": true,
         "rendererInput": "",
@@ -75,17 +83,25 @@
       },
       {
         "text": "Audit",
-        "datafield": "audit",
+        "datafield": "auditPermission",
         "columntype": "checkbox",
         "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "Auditable",
+        "datafield": "flag",
+        "columntype": "checkbox",
+        "hidden": true,
+        "sortable": false,
         "rendererInput": "",
         "rendererStaticInput": "",
         "editable": false
       },
       {
         "text": "Auditable",
-        "datafield": "isAuditable",
-        "columntype": "checkbox",
+        "datafield": "toolId",
         "hidden": true,
         "sortable": false,
         "rendererInput": "",
@@ -99,28 +115,32 @@
         "type": "string"
       },
       {
-        "name": "view",
+        "name": "viewPermission",
         "type": "bool"
       },
       {
-        "name": "save",
+        "name": "savePermission",
         "type": "bool"
       },
       {
-        "name": "delete",
+        "name": "deletePermission",
         "type": "bool"
       },
       {
-        "name": "run",
+        "name": "runPermission",
         "type": "bool"
       },
       {
-        "name": "audit",
+        "name": "auditPermission",
         "type": "bool"
       },
       {
-        "name": "isAuditable",
+        "name": "flag",
         "type": "bool"
+      },
+      {
+        "name": "toolId",
+        "type": "string"
       }
     ]
   },
