@@ -5,5 +5,7 @@
    "id":"groupOverrides",
    "type":"comp",
    "link":true,
-   "section": "Groups Data"
+   "section": "Groups Data",
+   "linkid":35,
+   "module":2
 }

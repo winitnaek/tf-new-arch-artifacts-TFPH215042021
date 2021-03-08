@@ -5,5 +5,7 @@
    "id":"optionalRateOverrides",
    "type":"comp",
    "link":true,
-   "section":"Company Data"
+   "section":"Company Data",
+   "linkid":32,
+   "module":2
 }

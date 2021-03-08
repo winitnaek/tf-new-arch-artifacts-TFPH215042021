@@ -5,6 +5,7 @@
    "id":"disposableRateOverrides",
    "type":"comp",
    "link":true,
-   "section":"Garnishment Data"
-
+   "section":"Garnishment Data",
+   "linkid":42,
+   "module":2
 }

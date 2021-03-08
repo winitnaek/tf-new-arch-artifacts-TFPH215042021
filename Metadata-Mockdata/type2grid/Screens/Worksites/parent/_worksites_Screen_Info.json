@@ -5,5 +5,7 @@
    "id":"worksites",
    "type":"comp",
    "link":true,
-   "section":"Company Data"
+   "section":"Company Data",
+   "linkid":33,
+   "module":2
 }
