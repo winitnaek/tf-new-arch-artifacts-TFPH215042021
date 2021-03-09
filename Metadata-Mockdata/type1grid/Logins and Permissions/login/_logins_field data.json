@@ -28,7 +28,7 @@
  {
       "id":"password",
       "placeholder":"Enter Password",
-      "fieldtype":"text",
+      "fieldtype":"password",
       "label":"Password",
       "value":"",
       "errmsg":"Password is required",
@@ -53,7 +53,7 @@
 {
       "id":"confirmPassword",
       "placeholder":"Confirm Password",
-      "fieldtype":"text",
+      "fieldtype":"password",
       "label":"Confirm Password",
       "value":"",
       "errmsg":"Confirm Password is required",

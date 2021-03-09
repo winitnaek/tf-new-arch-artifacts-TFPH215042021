@@ -32,7 +32,7 @@
       },
       {
         "text": "Manage Logins and Permissions",
-        "datafield": "manageLoginsAndPermissions",
+        "datafield": "manageLogins",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -53,7 +53,7 @@
           
       },
       {
-        "name": "manageLoginsAndPermissions",
+        "name": "manageLogins",
         "type": "string",
         "map": "manageLogin"
       },
