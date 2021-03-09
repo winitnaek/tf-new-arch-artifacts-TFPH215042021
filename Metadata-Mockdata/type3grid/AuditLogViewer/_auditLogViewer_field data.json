@@ -4,7 +4,7 @@
     "placeholder": " ",
     "fieldtype": "select",
     "label": "Select Login",
-    "value": "0",
+    "value": "ALL",
     "errmsg": "",
     "fieldlength": {
       "minlength": 5,
@@ -33,7 +33,7 @@
     "placeholder": "Enter the Tax Type",
     "fieldtype": "select",
     "label": "Select Data Set",
-    "value": "0",
+    "value": "AR",
     "errmsg": "",
     "fieldlength": {
       "minlength": 5,

@@ -115,6 +115,14 @@
     "hasRecentUsage": false,
 
     "formflds": [
+      {
+        "id": "selectLogin",
+        "order": 1
+      },
+      {
+        "id": "selectDataSet",
+        "order": 2
+      }
     ],
 
     "fltrflds": ""
