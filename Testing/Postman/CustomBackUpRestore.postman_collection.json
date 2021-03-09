@@ -1,0 +1,714 @@
+{
+	"info": {
+		"_postman_id": "9f9fdba1-0337-4553-9652-348a8dc3be51",
+		"name": "CustomBackUpRestore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "backupDatasets_SAAS",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",        \r\n        \"datasetSelected\":[\"DEFAULT\"],\r\n        \"backupAll\":false,\r\n        \"cfFormat\":false\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/backupDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"backupDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "restoreDatasets_NewDataset",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615307234498_TF11_EMPTY.xml\",   \r\n        \"newDataset\":true,\r\n        \"newDatasetId\":\"T9\",\r\n        \"deleteExistingData\":false,\r\n        \"restorePermission\":false\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/restoreDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"restoreDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "restoreDatasets_ExistingDataset",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615307234498_TF11_EMPTY.xml\",   \r\n        \"newDataset\":false,\r\n        \"existingDataset\":\"TEST\",\r\n        \"deleteExistingData\":true,\r\n        \"restorePermission\":true\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/restoreDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"restoreDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "restoreDatasets_Pkg_ExistingDataset",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615309591770_TF11_All.pkg\",  \r\n        \"datasetSelected\":[\"DEFAULT.xml\"],\r\n        \"newDataset\":false,\r\n        \"restoreAll\":false,\r\n        \"existingDataset\":\"TEST2\",\r\n        \"deleteExistingData\":false,\r\n        \"restorePermission\":false\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/restoreDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"restoreDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "restoreDatasets_Pkg_NewDataset",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615307315511_TF11_All.pkg\",  \r\n        \"datasetSelected\":[\"TEST.xml\"],\r\n        \"newDataset\":true,\r\n        \"newDatasetId\":\"TEST6\",\r\n        \"restoreAll\":false,\r\n        \"existingDataset\":\"\",\r\n        \"deleteExistingData\":false,\r\n        \"restorePermission\":false\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/restoreDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"restoreDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "restoreDatasets_Pkg_AllDatasets",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615307315511_TF11_All.pkg\",\r\n        \"newDataset\":false,\r\n        \"restoreAll\":true,\r\n        \"deleteExistingData\":false,\r\n        \"restorePermission\":false\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/restoreDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"restoreDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadRestoreDatasetFile_XML",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n        \"data\":\"PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8VEYxMURPQz4KPFZFUlNJT04+CjxQUkVGSVg+VEYxMTwvUFJFRklYPgo8Q1lDTElDPkE8L0NZQ0xJQz4KPC9WRVJTSU9OPgo8RFNFVD4KPERTMDA+RU1QVFk8L0RTMDA+CjxEUzAxPkVNUFRZPC9EUzAxPgo8RFMwMz4yNTwvRFMwMz4KPC9EU0VUPgo8L1RGMTFET0M+Cg==\",\r\n        \"userID\": \"TF11\",\r\n        \"fileName\":\"TF11_EMPTY.xml\"\r\n       \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/uploadRestoreDatasetFile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"uploadRestoreDatasetFile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadRestoreDatasetFile_PKG",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",\r\n        \"data\":\"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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\",\r\n        \"fileName\":\"TF11_All.pkg\"\r\n       \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/uploadRestoreDatasetFile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"uploadRestoreDatasetFile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCustomBackupRestoreInfo",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n   \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/getCustomBackupRestoreInfo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"getCustomBackupRestoreInfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getBackUpRestoreStatus_SAAS",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",        \r\n        \"threadKey\":\"10544.20604\"\r\n       \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/getBackUpRestoreStatus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"getBackUpRestoreStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getBackUpRestoreStatus_OnPremise",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\"\r\n       \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/getBackUpRestoreStatus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"getBackUpRestoreStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "backupDatasets_OnPremise",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",        \r\n        \"datasetSelected\":[\"TEST\"],\r\n        \"backupAll\":false,\r\n        \"cfFormat\":false\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/backupDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"backupDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "backupDatasets_OnPremise_CF40",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",        \r\n        \"datasetSelected\":[\"DEFAULT\"],\r\n        \"backupAll\":false,\r\n        \"cfFormat\":true\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/backupDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"backupDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "backupDatasets_OnPremise_backupAll",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",\r\n        \"backupAll\":true\r\n        \r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/backupDatasets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"backupDatasets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "backupRestoreOutputFiles",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n    \"userID\": \"TF11\"     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/backupRestoreOutputFiles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"backupRestoreOutputFiles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
