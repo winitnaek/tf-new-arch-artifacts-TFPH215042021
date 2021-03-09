@@ -5,5 +5,7 @@
    "id":"paymentOverrides",
    "type":"comp",
    "link":true,
-   "section": "Groups Data"
+   "section": "Groups Data",
+   "linkid":40,
+   "module":2
 }

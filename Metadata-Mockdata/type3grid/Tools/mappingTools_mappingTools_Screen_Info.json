@@ -5,5 +5,7 @@
   "id": "mappingTools",
   "type": "page",
   "link": true,
-  "section": "Tools"
+  "section": "Tools",
+  "linkid":12,
+  "module":2
 }

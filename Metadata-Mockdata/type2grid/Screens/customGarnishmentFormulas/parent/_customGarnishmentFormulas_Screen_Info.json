@@ -5,6 +5,7 @@
    "id":"customGarnishmentFormulas",
    "type":"comp",
    "link":true,
-   "section": "Custom Tax Data"
-
+   "section": "Custom Tax Data",
+   "linkid":45,
+   "module":2
 }

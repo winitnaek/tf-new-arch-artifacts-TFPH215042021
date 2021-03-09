@@ -5,6 +5,7 @@
   "id": "customPaymentExceptions",
   "type": "comp",
   "link": true,
-  "section": "Payments Data"
-
+  "section": "Payments Data",
+  "linkid":48,
+  "module":2
 }

@@ -5,5 +5,7 @@
   "id": "batchTest",
   "type": "page",
   "link": true,
-  "section":"Tests"
+  "section":"Tests",
+  "linkid":26,
+  "module":2
 }

@@ -5,5 +5,7 @@
    "id":"garnishmentGroup",
    "type":"comp",
    "link":true,
-   "section":"Garnishment Data"
+   "section":"Garnishment Data",
+   "linkid":41,
+   "module":2
 }

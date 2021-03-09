@@ -5,5 +5,7 @@
    "id":"whatifEmp",
    "type":"comp",
    "link":true,
-   "section":"Tests"
+   "section":"Tests",
+   "linkid":24,
+   "module":2
 }
