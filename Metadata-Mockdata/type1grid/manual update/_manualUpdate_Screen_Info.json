@@ -5,5 +5,7 @@
    "id":"manualUpdate",
    "type":"page",
    "link":true,
-   "section":"Maintenance Tools"
+   "section":"Maintenance Tools",
+   "linkid":9,
+   "module":3
 }

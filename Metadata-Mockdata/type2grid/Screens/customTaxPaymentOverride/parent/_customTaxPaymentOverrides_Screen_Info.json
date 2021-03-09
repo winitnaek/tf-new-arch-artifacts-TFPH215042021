@@ -5,6 +5,7 @@
    "id":"customTaxPaymentOverrides",
    "type":"comp",
    "link":true,
-   "section": "Custom Tax Data"
-
+   "section": "Custom Tax Data",
+   "linkid":53,
+   "module":2
 }

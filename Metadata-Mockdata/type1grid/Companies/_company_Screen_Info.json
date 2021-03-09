@@ -5,5 +5,7 @@
    "id":"company",
    "type":"comp",
    "link":true,
-   "section":"Company Data"
+   "section":"Company Data",
+   "linkid":30,
+   "module":2
 }

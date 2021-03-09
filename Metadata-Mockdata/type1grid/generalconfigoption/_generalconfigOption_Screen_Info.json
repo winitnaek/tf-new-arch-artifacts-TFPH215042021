@@ -5,5 +5,7 @@
   "id": "generalconfigOption",
   "type": "page",
   "link": true,
-  "section":"Configuration"
+  "section":"Configuration",
+  "linkid":49,
+  "module":3
 }

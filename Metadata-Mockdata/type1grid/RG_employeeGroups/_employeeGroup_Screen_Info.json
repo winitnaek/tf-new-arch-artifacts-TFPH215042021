@@ -5,5 +5,7 @@
    "id":"employeeGroup",
    "type":"comp",
    "link":true,
-   "section": "Groups Data"
+   "section": "Groups Data",
+   "linkid":34,
+   "module":2
 }

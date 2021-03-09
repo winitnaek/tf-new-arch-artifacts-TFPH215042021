@@ -5,5 +5,7 @@
    "id":"customPayments",
    "type":"comp",
    "link":true,
-   "section": "Payments Data"
+   "section": "Payments Data",
+   "linkid":39,
+   "module":2
 }

@@ -5,5 +5,7 @@
   "id": "customGarnishment",
   "type": "comp",
   "link": true,
-  "section":"Garnishment Data"
+  "section":"Garnishment Data",
+  "linkid":44,
+  "module":2
 }

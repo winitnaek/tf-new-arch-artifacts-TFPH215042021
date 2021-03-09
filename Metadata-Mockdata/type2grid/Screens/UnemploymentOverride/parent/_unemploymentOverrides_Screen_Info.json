@@ -5,5 +5,7 @@
    "id":"unemploymentOverrides",
    "type":"comp",
    "link":true,
-   "section":"Company Data"
+   "section":"Company Data",
+   "linkid":31,
+   "module":2
 }

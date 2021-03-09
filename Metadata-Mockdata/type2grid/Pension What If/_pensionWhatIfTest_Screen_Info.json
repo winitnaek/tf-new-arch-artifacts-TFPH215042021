@@ -5,5 +5,7 @@
    "id":"pensionWhatIfTest",
    "type":"comp",
    "link":true,
-   "section":"Tests"
+   "section":"Tests",
+   "linkid":25,
+   "module":2
 }

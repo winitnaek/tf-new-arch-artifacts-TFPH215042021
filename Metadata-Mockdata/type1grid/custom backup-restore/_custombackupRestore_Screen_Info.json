@@ -5,5 +5,7 @@
    "id":"custombackupRestore",
    "type":"comp",
    "link":true,
-   "section":"Database Tools"
+   "section":"Database Tools",
+   "linkid":6,
+   "module":3
 }

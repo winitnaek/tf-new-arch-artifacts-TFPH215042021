@@ -5,6 +5,7 @@
    "id":"customNexusData",
    "type":"comp",
    "link":true,
-   "section":"Company Data"
-
+   "section":"Company Data",
+   "linkid":54,
+   "module":2
 }

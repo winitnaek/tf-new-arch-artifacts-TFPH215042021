@@ -4,7 +4,7 @@
     "placeholder": "",
     "fieldtype": "select",
     "label": "Permission for dataset:",
-    "value": "",
+    "value": "0",
     "errmsg": "",
     "fieldlength": {
       "minlength": 1,
@@ -23,8 +23,7 @@
           "type": "lowercase",
           "message": ""
         }
-      ],
-      "constraint": []
+      ]
     }
   }
 ]

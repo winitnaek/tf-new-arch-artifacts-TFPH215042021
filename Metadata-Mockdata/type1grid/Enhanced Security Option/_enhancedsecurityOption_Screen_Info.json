@@ -5,5 +5,7 @@
   "id": "enhancedsecurityOption",
   "type": "page",
   "link": true,
-  "section":"Configuration"
+  "section":"Configuration",
+  "linkid":50,
+  "module":3
 }

@@ -5,5 +5,7 @@
    "id":"customrestoreStatus",
    "type":"comp",
    "link":true,
-   "section": "Database Tools"
+   "section": "Database Tools",
+   "linkid":303,
+   "module":3
 }

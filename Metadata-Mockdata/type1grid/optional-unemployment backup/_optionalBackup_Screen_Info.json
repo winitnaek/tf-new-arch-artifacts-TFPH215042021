@@ -5,5 +5,7 @@
    "id":"optionalBackup",
    "type":"comp",
    "link":true,
-   "section": "Database Tools"
+   "section": "Database Tools",
+   "linkid":58,
+   "module":3
 }

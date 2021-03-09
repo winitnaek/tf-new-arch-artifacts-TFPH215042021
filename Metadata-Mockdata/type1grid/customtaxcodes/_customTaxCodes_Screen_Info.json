@@ -5,5 +5,7 @@
    "id":"customTaxCodes",
    "type":"comp",
    "link":true,
-   "section": "Custom Tax Data"
+   "section": "Custom Tax Data",
+   "linkid":37,
+   "module":2
 }
