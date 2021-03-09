@@ -5,5 +5,7 @@
   "desc": "Companies",
   "id": "companies",
   "type": "comp",
-  "link": true
+  "link": true,
+  "linkid":107,
+  "module":1
 }

@@ -5,5 +5,7 @@
   "id": "maritalStatusReport",
   "type": "page",
   "link": true,
-  "section":"Tax Details"
+  "section":"Tax Details",
+  "linkid":60,
+  "module":1
 }

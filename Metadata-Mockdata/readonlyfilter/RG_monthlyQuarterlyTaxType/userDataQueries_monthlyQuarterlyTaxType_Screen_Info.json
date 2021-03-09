@@ -5,5 +5,7 @@
   "desc": "MonthlyQuarterly Tax Type",
   "id": "monthlyQuarterlyTaxType",
   "type": "comp",
-  "link": true
+  "link": true,
+  "linkid":123,
+  "module":1
 }

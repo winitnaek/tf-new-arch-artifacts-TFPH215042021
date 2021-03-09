@@ -5,5 +5,7 @@
   "id": "experienceRates",
   "type": "comp",
   "link": true,
-  "section": "User Data Queries"
+  "section": "User Data Queries",
+  "linkid":115,
+  "module":1
 }

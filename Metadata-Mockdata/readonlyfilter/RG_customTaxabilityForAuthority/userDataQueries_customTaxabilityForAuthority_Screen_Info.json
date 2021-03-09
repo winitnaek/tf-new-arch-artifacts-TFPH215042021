@@ -4,5 +4,7 @@
    "desc":"Custom Taxability For Authority",
    "id":"customTaxabilityForAuthority",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":111,
+   "module":1
 }

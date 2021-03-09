@@ -4,5 +4,7 @@
    "desc":"Garnishment Formula Override",
    "id":"garnishmentFormulaOverride",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":117,
+   "module":1
 }

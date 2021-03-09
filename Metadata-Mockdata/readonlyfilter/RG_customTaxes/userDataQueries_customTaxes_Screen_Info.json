@@ -5,5 +5,7 @@
   "desc": "Custom Taxes",
   "id": "customTaxes",
   "type": "comp",
-  "link": true
+  "link": true,
+  "linkid":112,
+  "module":1
 }

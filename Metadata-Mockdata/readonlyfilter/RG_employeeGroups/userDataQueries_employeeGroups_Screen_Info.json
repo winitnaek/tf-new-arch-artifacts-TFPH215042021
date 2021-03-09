@@ -4,5 +4,7 @@
    "desc":"Employee Groups",
    "id":"employeeGroups",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":114,
+   "module":1
 }

@@ -4,5 +4,7 @@
    "desc":"Marital Status",
    "id":"maritalStatus",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":121,
+   "module":1
 }

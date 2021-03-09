@@ -5,5 +5,7 @@
   "id": "taxHistory",
   "type": "comp",
   "link": true,
-  "section":"Tax Details"
+  "section":"Tax Details",
+  "linkid":19,
+  "module":1
 }

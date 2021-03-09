@@ -5,5 +5,7 @@
   "desc": "Custom Garnishment Formula",
   "id": "customGarnishmentFormula",
   "type": "comp",
-  "link": true
+  "link": true,
+  "linkid":108,
+  "module":1
 }

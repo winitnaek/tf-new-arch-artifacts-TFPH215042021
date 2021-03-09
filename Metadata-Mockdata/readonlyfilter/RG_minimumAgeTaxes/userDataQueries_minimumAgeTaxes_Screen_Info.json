@@ -4,5 +4,7 @@
    "desc":"Minimum Age Taxes",
    "id":"minimumAgeTaxes",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":122,
+   "module":1
 }

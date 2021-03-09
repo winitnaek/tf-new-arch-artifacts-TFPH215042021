@@ -5,5 +5,7 @@
   "id": "paServicesTaxReport",
   "type": "comp",
   "link": true,
-  "section": "Tax Details"
+  "section": "Tax Details",
+  "linkid":21,
+  "module":1
 }

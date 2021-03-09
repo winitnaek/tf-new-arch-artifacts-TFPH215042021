@@ -4,5 +4,7 @@
    "desc":"Tax Types",
    "id":"taxTypes",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":130,
+   "module":1
 }

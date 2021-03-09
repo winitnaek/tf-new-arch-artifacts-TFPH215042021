@@ -4,5 +4,7 @@
    "desc":"Tax Authorities",
    "id":"taxAuthorities",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":129,
+   "module":1
 }

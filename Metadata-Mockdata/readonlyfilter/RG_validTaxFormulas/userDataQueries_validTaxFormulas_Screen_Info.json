@@ -4,5 +4,7 @@
    "desc":"Valid Tax Formulas",
    "id":"validTaxFormulas",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":132,
+   "module":1
 }
