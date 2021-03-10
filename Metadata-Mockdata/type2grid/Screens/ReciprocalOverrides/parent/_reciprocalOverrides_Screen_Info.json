@@ -1,5 +1,5 @@
 {
-   "value":"GD",
+   "value":"RO",
    "label":"Reciprocal Overrides",
    "desc":"Reciprocal Overrides",
    "id":"reciprocalOverrides",
@@ -7,5 +7,6 @@
    "link":true,
    "section": "Groups Data",
    "linkid":36,
-   "module":2
+   "module":2,
+   "sid":"GD"
 }

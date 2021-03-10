@@ -1,5 +1,5 @@
 {
-   "value":"GD",
+   "value":"GC",
    "label":"Employee Groups",
    "desc":"Employee Groups",
    "id":"employeeGroup",
@@ -7,5 +7,6 @@
    "link":true,
    "section": "Groups Data",
    "linkid":34,
-   "module":2
+   "module":2,
+   "sid":"GD"
 }

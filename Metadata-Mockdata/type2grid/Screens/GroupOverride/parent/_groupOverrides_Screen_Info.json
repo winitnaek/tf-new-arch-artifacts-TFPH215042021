@@ -1,5 +1,5 @@
 {
-   "value":"GD",
+   "value":"GO",
    "label":"Group Overrides",
    "desc":"groupOverride",
    "id":"groupOverrides",
@@ -7,5 +7,6 @@
    "link":true,
    "section": "Groups Data",
    "linkid":35,
-   "module":2
+   "module":2,
+   "sid":"GD"
 }
