@@ -1,5 +1,5 @@
 {
-   "value":"TS",
+   "value":"PT",
    "label":"Pension What-If Test",
    "desc":"Pension What-If Test",
    "id":"pensionWhatIfTest",
@@ -7,5 +7,6 @@
    "link":true,
    "section":"Tests",
    "linkid":25,
-   "module":2
+   "module":2,
+   "sid":"TS"
 }

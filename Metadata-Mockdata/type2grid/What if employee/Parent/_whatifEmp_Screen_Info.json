@@ -1,5 +1,5 @@
 {
-   "value":"TS",
+   "value":"ET",
    "label":"What-If Test",
    "desc":"What-If Test",
    "id":"whatifEmp",
@@ -7,5 +7,6 @@
    "link":true,
    "section":"Tests",
    "linkid":24,
-   "module":2
+   "module":2,
+   "sid":"TS"
 }
