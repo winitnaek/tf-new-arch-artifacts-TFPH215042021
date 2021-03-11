@@ -1,5 +1,5 @@
 {
-   "value":"CT",
+   "value":"CF",
    "label":"Custom Formulas",
    "desc":"Custom Formulas",
    "id":"customFormulas",
@@ -7,5 +7,6 @@
    "link":true,
    "section": "Custom Tax Data",
    "linkid":38,
-   "module":2
+   "module":2,
+   "sid":"CT"
 }
