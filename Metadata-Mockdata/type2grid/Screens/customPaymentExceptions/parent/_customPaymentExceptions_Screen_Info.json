@@ -1,5 +1,5 @@
 {
-  "value": "PD",
+  "value": "CP",
   "label": "Custom Payment Exceptions",
   "desc": "Custom Payment Exceptions",
   "id": "customPaymentExceptions",
@@ -7,5 +7,6 @@
   "link": true,
   "section": "Payments Data",
   "linkid":48,
-  "module":2
+  "module":2,
+  "sid":"PD"
 }
