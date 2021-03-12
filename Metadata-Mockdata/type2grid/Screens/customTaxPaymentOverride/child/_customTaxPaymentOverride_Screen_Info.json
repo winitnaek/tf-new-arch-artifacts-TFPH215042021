@@ -1,10 +1,8 @@
 {
-  "value": "CF",
+  "value": "CPO",
   "label": "Custom Tax Payment Overrides",
   "desc": "Custom Tax Payment Overrides",
   "id": "customTaxPaymentOverride",
   "type": "comp",
   "link": false
-
-
 }
