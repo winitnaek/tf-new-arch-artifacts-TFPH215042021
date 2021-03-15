@@ -1,5 +1,5 @@
 {
-   "value":"SM",
+   "value":"CB",
    "label":"Custom Data Backup",
    "desc":"Custom Data Backup",
    "id":"custombackupRestore",
@@ -7,5 +7,6 @@
    "link":true,
    "section":"Database Tools",
    "linkid":6,
-   "module":3
+   "module":3,
+   "sid":"SM"
 }
