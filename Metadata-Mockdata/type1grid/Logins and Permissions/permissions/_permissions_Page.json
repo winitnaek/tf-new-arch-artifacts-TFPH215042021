@@ -15,7 +15,8 @@
     "topLink": [
       {
         "id": "resetDefaultLogin",
-        "icon": "fa-link"
+        "description": "Click here to reset this login to default Permissions for the selected Data Set",
+        "icon": "fa-sync"
       }
     ]
   },

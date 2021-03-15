@@ -5,6 +5,7 @@
    "id":"manualupdateStatus",
    "type":"comp",
    "link":true,
+   "hideSaaS": true,
    "section":"Maintenance Tools",
    "linkid":306,
    "module":3
