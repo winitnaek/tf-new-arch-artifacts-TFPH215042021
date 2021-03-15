@@ -8,5 +8,6 @@
    "hideSaaS": true,
    "section": "Database Tools",
    "linkid":5,
-   "module":3
+   "module":3,
+   "sid":"SM"
 }
