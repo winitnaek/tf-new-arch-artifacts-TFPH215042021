@@ -26,14 +26,14 @@
       "columns":[
          {
             "text":"Description",
-            "datafield":"description",
+            "datafield":"key",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
          },
          {
             "text":"Value",
-            "datafield":"Value",
+            "datafield":"value",
             "sortable":true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -41,11 +41,11 @@
       ],
       "dataFields":[
          {
-            "name":"description",
+            "name":"key",
             "type":"string"
          },
          {
-            "name":"Value",
+            "name":"value",
             "type":"string"
          }
       ]

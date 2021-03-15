@@ -24,7 +24,9 @@
     "validation": {
       "required": false,
       "type": "boolean"
-    }
+    },
+    "enable": ["exitDataset"],
+    "disable":["set"]
   },
   {
     "id": "restorePer",
@@ -51,7 +53,8 @@
     "validation": {
       "required": false,
       "type": "boolean"
-    }
+    },
+    "enable": ["exitDataset", "set"]
   },
   {
     "name": "newDataset",
@@ -61,6 +64,7 @@
     "label": "",
     "value": "",
     "errmsg": " ",
+    "alignedField": "set",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 1
@@ -80,8 +84,8 @@
       "required": false,
       "type": "boolean"
     },
-    "enable": ["set"],
-    "disable":["exitDataset"]
+    "enable": ["restorePer", "set"],
+    "disable":["delData", "exitDataset"]
   },
   {
     "id": "set",
@@ -113,6 +117,7 @@
     "label": "",
     "value": "",
     "errmsg": " ",
+    "alignedField": "exitDataset",
     "fieldlength": {
       "minlength": 1,
       "maxlength": 1
@@ -132,7 +137,7 @@
       "required": false,
       "type": "boolean"
     },
-    "enable": ["exitDataset"],
+    "enable": ["restorePer","delData", "exitDataset"],
     "disable":["set"]
   },
   {

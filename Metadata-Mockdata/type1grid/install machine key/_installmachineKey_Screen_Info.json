@@ -5,6 +5,7 @@
    "id":"installmachineKey",
    "type":"page",
    "link":true,
+   "hideSaaS": true,
    "section": "Database Tools",
    "linkid":305,
    "module":3

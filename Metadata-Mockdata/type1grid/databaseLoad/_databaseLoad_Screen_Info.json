@@ -5,6 +5,7 @@
    "id":"databaseLoad",
    "type":"page",
    "link":true,
+   "hideSaaS": true,
    "section": "Database Tools",
    "linkid":5,
    "module":3

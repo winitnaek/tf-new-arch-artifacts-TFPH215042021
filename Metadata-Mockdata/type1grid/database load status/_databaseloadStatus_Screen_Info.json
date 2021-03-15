@@ -5,6 +5,7 @@
    "id":"databaseloadStatus",
    "type":"comp",
    "link":true,
+   "hideSaaS": true,
    "section": "Database Tools",
    "linkid":304,
    "module":3
