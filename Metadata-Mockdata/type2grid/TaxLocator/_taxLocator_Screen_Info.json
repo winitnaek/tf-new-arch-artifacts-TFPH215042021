@@ -1,5 +1,5 @@
 {
-   "value":"TS",
+   "value":"TL",
    "label":"Tax Locator",
    "desc":"Tax Locator",
    "id":"taxLocator",
@@ -7,5 +7,6 @@
    "link":true,
    "section":"Tests",
    "linkid":28,
-   "module":2
+   "module":2,
+   "sid":"TS"
 }

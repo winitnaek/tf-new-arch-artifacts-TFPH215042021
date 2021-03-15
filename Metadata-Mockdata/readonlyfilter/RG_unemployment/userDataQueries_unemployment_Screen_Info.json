@@ -4,5 +4,7 @@
    "desc":"Unemployment",
    "id":"unemployment",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":131,
+   "module":1
 }

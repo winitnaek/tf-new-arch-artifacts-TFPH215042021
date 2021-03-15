@@ -53,6 +53,100 @@
 			"response": []
 		},
 		{
+			"name": "backupRateOverrides_DatasetList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",        \r\n        \"datasetSelected\":[\"TEST3\"],\r\n        \"backupAll\":false,\r\n        \"filterDate\":false,\r\n        \"startDate\":\"03/09/2021\"\r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/backupRateOverrides",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"backupRateOverrides"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "backupRateOverrides_AllDatasets",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",\r\n        \"backupAll\":true,\r\n        \"filterDate\":false,\r\n        \"startDate\":\"03/09/2021\"\r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/backupRateOverrides",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"backupRateOverrides"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "restoreDatasets_NewDataset",
 			"request": {
 				"auth": {
@@ -74,7 +168,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615307234498_TF11_EMPTY.xml\",   \r\n        \"newDataset\":true,\r\n        \"newDatasetId\":\"T9\",\r\n        \"deleteExistingData\":false,\r\n        \"restorePermission\":false\r\n        \r\n        \r\n}",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615311807745_TF11_EMPTY.xml\",   \r\n        \"newDataset\":true,\r\n        \"newDatasetId\":\"T8\",\r\n        \"deleteExistingData\":false,\r\n        \"restorePermission\":false\r\n        \r\n        \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -121,7 +215,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615307234498_TF11_EMPTY.xml\",   \r\n        \"newDataset\":false,\r\n        \"existingDataset\":\"TEST\",\r\n        \"deleteExistingData\":true,\r\n        \"restorePermission\":true\r\n        \r\n        \r\n}",
+					"raw": "{      \r\n        \"dataset\":\"DEFAULT\"              ,\r\n        \"userID\": \"TF11\",  \r\n        \"fileName\": \"d:\\\\temp\\\\tfws\\\\TF11BR_1615313312514_TF11_EMPTY.xml\",   \r\n        \"newDataset\":false,\r\n        \"existingDataset\":\"DEFAULT\",\r\n        \"deleteExistingData\":true,\r\n        \"restorePermission\":true\r\n        \r\n        \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -329,6 +423,53 @@
 						"v1",
 						"FileUploaderService",
 						"uploadRestoreDatasetFile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "restoreRateOverrides",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n        \"data\":\"REFUQVNFVCxDT01QQU5ZLFRBWENPREUsVEFYVFlQRSxGT1JNVUxBLFNUQVJUREFURSxBQ0NPVU5ULEVYUFJBVEUsTUFYV0FHRSxSRVNDSU5ELFJJU0tDTEFTUw0KVEVTVDMsQ09NUDEsQlNJMDAwMDAwMDAsMywxLDIwMjEwMzEwLE4vQSwzLDAsOTk5OTEyMzEsIA0K\",\r\n        \"userID\": \"TF11\",\r\n        \"dataset\": \"TEST3\",\r\n        \"fileName\":\"TEST3.csv\"\r\n       \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/restoreRateOverrides",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"restoreRateOverrides"
 					]
 				}
 			},

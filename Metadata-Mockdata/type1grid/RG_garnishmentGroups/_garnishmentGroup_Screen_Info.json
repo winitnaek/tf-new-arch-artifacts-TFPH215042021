@@ -1,5 +1,5 @@
 {
-   "value":"GD",
+   "value":"GG",
    "label":"Garnishment Groups",
    "desc":"Garnishment Groups",
    "id":"garnishmentGroup",
@@ -7,5 +7,6 @@
    "link":true,
    "section":"Garnishment Data",
    "linkid":41,
-   "module":2
+   "module":2,
+   "sid":"GD"
 }

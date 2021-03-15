@@ -5,5 +5,7 @@
   "desc": "BSI Taxes",
   "id": "bSITaxes",
   "type": "comp",
-  "link": true
+  "link": true,
+  "linkid":106,
+  "module":1
 }

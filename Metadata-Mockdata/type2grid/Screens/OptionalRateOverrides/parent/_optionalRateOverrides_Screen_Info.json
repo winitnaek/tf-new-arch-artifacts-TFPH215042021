@@ -1,5 +1,5 @@
 {
-   "value":"CD",
+   "value":"OR",
    "label":"Optional Rate Overrides",
    "desc":"Optional Rate Overrides",
    "id":"optionalRateOverrides",
@@ -7,5 +7,6 @@
    "link":true,
    "section":"Company Data",
    "linkid":32,
-   "module":2
+   "module":2,
+   "sid":"CD"
 }

@@ -5,5 +5,7 @@
   "desc": "Garnishment Requiring Filing Status",
   "id": "garnishmentRequiringFilingStatus",
   "type": "comp",
-  "link": true
+  "link": true,
+  "linkid":120,
+  "module":1
 }

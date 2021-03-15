@@ -4,5 +4,7 @@
    "desc":"Garnishment Disposable Wages",
    "id":"garnishmentDisposableWages",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":116,
+   "module":1
 }

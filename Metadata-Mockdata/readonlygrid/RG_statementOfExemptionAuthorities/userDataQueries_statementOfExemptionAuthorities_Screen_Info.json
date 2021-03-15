@@ -5,5 +5,7 @@
   "desc": "Statement Of Exemption Authorities",
   "id": "statementOfExemptionAuthorities",
   "type": "comp",
-  "link": true
+  "link": true,
+  "linkid":127,
+  "module":1
 }

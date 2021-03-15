@@ -5,5 +5,7 @@
   "desc": "Custom Garnishment",
   "id": "customGarnishments",
   "type": "comp",
-  "link": true
+  "link": true,
+  "linkid":109,
+  "module":1
 }

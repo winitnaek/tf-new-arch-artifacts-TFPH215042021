@@ -1,5 +1,5 @@
 {
-  "value": "TS",
+  "value": "BT",
   "label": "Batch Test",
   "desc": "BatchTest",
   "id": "batchTest",
@@ -7,5 +7,6 @@
   "link": true,
   "section":"Tests",
   "linkid":26,
-  "module":2
+  "module":2,
+  "sid":"TS"
 }

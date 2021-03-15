@@ -4,5 +4,7 @@
    "desc":"Resident / Work Validation",
    "id":"residentWorkValidation",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":126,
+   "module":1
 }

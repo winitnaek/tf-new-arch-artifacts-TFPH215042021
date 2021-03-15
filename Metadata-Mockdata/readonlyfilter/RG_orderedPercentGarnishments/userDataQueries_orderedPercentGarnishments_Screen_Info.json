@@ -4,5 +4,7 @@
    "desc":"Ordered-Percent Garnishments",
    "id":"orderedPercentGarnishments",
    "type":"comp",
-   "link":true
+   "link":true,
+   "linkid":124,
+   "module":1
 }

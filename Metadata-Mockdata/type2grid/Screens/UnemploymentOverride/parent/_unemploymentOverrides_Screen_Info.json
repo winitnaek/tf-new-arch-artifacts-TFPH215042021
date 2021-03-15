@@ -1,5 +1,5 @@
 {
-   "value":"CD",
+   "value":"UR",
    "label":"Unemployment Overrides",
    "desc":"Unemployment Overrides",
    "id":"unemploymentOverrides",
@@ -7,5 +7,6 @@
    "link":true,
    "section":"Company Data",
    "linkid":31,
-   "module":2
+   "module":2,
+   "sid":"CD"
 }

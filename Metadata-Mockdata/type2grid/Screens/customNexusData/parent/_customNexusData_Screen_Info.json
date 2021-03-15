@@ -1,5 +1,5 @@
 {
-   "value":"CD",
+   "value":"NX",
    "label":"Custom Nexus Data",
    "desc":"Custom Nexus Data",
    "id":"customNexusData",
@@ -7,5 +7,6 @@
    "link":true,
    "section":"Company Data",
    "linkid":54,
-   "module":2
+   "module":2,
+   "sid":"CD"
 }
