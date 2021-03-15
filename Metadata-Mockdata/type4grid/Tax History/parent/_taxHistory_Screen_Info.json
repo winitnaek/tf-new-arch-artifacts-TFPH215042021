@@ -1,5 +1,5 @@
 {
-  "value": "UQ",
+  "value": "TH",
   "label": "Tax History Report",
   "desc": "Tax History Report",
   "id": "taxHistory",
@@ -7,5 +7,6 @@
   "link": true,
   "section":"Tax Details",
   "linkid":19,
-  "module":1
+  "module":1,
+  "sid":"UQ"
 }

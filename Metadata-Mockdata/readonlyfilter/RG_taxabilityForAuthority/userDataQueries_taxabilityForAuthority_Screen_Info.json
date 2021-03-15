@@ -1,10 +1,12 @@
 {
-   "section": "User Data Queries","value":"UQ",
+   "section": "User Data Queries",
+   "value":"TR",
    "label":"Taxability For Authority",
    "desc":"Taxability For Authority",
    "id":"taxabilityForAuthority",
    "type":"comp",
    "link":true,
    "linkid":20,
-   "module":1
+   "module":1,
+   "sid":"UQ"
 }

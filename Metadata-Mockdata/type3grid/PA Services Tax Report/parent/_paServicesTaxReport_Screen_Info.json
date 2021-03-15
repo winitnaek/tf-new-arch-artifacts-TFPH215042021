@@ -1,5 +1,5 @@
 {
-  "value": "UQ",
+  "value": "PA",
   "label": "PA Services Tax Report",
   "desc": "PA Services Tax Report",
   "id": "paServicesTaxReport",
@@ -7,5 +7,6 @@
   "link": true,
   "section": "Tax Details",
   "linkid":21,
-  "module":1
+  "module":1,
+  "sid":"UQ"
 }

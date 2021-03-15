@@ -1,5 +1,5 @@
 {
-  "value": "UQ",
+  "value": "MS",
   "label": "Marital Status Report",
   "desc": "Marital Status Report",
   "id": "maritalStatusReport",
@@ -7,5 +7,6 @@
   "link": true,
   "section":"Tax Details",
   "linkid":60,
-  "module":1
+  "module":1,
+  "sid":"UQ"
 }

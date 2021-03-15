@@ -1,10 +1,12 @@
 {
-   "section": "User Data Queries","value":"UQ",
+   "section": "User Data Queries",
+   "value":"MS",
    "label":"Marital Status",
    "desc":"Marital Status",
    "id":"maritalStatus",
    "type":"comp",
    "link":true,
    "linkid":121,
-   "module":1
+   "module":1,
+   "sid":"UQ"
 }
