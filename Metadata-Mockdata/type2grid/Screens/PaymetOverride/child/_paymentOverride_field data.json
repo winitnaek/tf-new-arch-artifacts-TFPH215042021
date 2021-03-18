@@ -51,7 +51,8 @@
     "fieldlength": {},
     "fieldinfo": {
       "typeahead": true,
-      "isasync": true
+      "isasync": true,
+      "minLength": 1
     },
     "validationType": "string",
     "label": "Tax Type",
@@ -83,7 +84,7 @@
     "fieldinfo": {
       "typeahead": true,
       "isasync": true,
-      "minlength": 1,
+      "minLength": 1,
       "options": [],
       "multiselect": false
     },
