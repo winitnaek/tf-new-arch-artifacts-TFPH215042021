@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "3ac0e44c-eae6-4087-8dff-7ffad0fec35e",
+		"name": "MachineKey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "installMachineKey",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n        \"data\":\"DQoqKioqIExJQ0VOU0UgQ0VSVElGSUNBVEUgKEJCVEYxMTApIEZPUiAqKioqDQoNCiAgIEhvc3Q6CQlYMTU0DQoNCiAgIERhdGUgY3JlYXRlZDoJMDMvMTcvMjEgMTI6MDk6MDMNCiAgIERhdGUgZXhwaXJlZDoJMDMvMjIvMjAyMSwgdGhlIGNvbnRhaW5lZCBrZXkgaXMgdXNlbGVzcyBhZnRlciB0aGlzIGRhdGUNCg0KYWN0aXZhdGlvbjogMDAxQzBGRDMyNDAzRkVGNjZDQkY4QTZCNEZGRkM3OUNEMDJGNUIyNjQyNkM2OEJBQUY1OTI5QkQ0N0E5RDgyQjY4MEZFQzE2QjBCRTYxMDAzQjE3RkQ3QjkzQUZDQ0ZGMDExNTEyNkFBMTI1MDY4RjVBMTU1QUIwNEM0QjE4MUMwQkEzMDY0MkZFNzQ1Mjk2NjQ5M0VGOUM2QkU3MjU1RENDNEUzREQ0NTRDREJBNTgyOTNERTA0MzQ5RjdFM0U2DQpDdXN0b21lciBuYW1lOiANClBsYXRmb3JtIG5hbWU6IA0KSG93IGNyZWF0ZWQ6IG1hbnVhbC9ic2lnZW5saWMNCg0KKioqKiBFTkQgT0YgTElDRU5TRSBDRVJUSUZJQ0FURSAqKioqDQo=\",\r\n        \"userID\": \"TF11\",\r\n        \"dataset\": \"DEFAULT\",\r\n        \"fileName\":\"UshaTF11.lic\"\r\n       \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/FileUploaderService/installMachineKey",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"FileUploaderService",
+						"installMachineKey"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
