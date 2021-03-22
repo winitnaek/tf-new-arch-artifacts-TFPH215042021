@@ -17,6 +17,7 @@
     "hasButtonBar":true,
     "recordDelete":false,
     "editable": true,
+    "hasAlert": true,
     "selectionmode": "singlecell",
     "editmode": "click’",
     "columns":[

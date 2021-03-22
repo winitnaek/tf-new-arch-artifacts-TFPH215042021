@@ -25,6 +25,7 @@
       "selectionmode": "singlecell",
       "editmode": "click’",
       "hasAlert": true,
+      "hasButtonBar":true,
       "selectAllLabel": "Backup All Data Sets (Create a Package File)",
       "columns":[
          {
