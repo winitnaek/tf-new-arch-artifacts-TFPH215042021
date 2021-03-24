@@ -5,6 +5,7 @@
   "id": "enhancedsecurityOption",
   "type": "page",
   "link": true,
+  "hideSaaS": true,
   "section":"Configuration",
   "linkid":50,
   "module":3,
