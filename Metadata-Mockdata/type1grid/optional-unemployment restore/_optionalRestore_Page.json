@@ -9,7 +9,7 @@
       "helpLink":"/allBSIPlans",
       "parentConfig":"",
       "childConfig":"",
-      "link": "customrestoreStatus",
+      "link": "optionalrestoreStatus",
       "hasAlert": true,
       "extension": ".csv"
    },

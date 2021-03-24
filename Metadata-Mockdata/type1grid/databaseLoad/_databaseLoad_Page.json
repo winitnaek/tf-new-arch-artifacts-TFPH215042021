@@ -5,7 +5,8 @@
      "pgsubtitle":"Loading Database from file: ",
      "hasGrid": "true",
      "hasAlert": true,
-     "link": "databaseloadStatus"
+     "link": "databaseloadStatus",
+     "extension": ".pkg"
    },
    "griddef":{
     "gridtype":"type2",
