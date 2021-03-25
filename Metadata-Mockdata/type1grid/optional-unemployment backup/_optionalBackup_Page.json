@@ -54,11 +54,13 @@
          },
          {
             "name":"data",
-            "type":"string"
+            "type":"string",
+            "map": "btxdset>dataset"
          },
          {
             "name":"description",
-            "type":"string"
+            "type":"string",
+            "map": "btxdset>descript"
          }
       ]
    },

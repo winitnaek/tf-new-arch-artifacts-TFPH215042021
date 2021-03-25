@@ -9,8 +9,9 @@
       "helpLink":"/allBSIPlans",
       "parentConfig":"",
       "childConfig":"",
+      "link": "optionalrestoreStatus",
       "hasAlert": true,
-      "link": "customrestoreStatus"
+      "extension": ".csv"
    },
    "griddef":{
       "gridtype":"type2",

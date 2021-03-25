@@ -2,7 +2,8 @@
    "pgdef": {
      "pgid": "installmachineKey",
      "pgtitle": "Install Machine Key",
-     "hasAlert": true
+     "hasAlert": true,
+     "extension": ".lic,.txt"
    },
    "griddef":{
     "gridtype":"type2",

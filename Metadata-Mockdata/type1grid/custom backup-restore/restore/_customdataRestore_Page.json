@@ -4,7 +4,8 @@
      "pgtitle":"Custom Data Restore",
      "hasGrid": true,
      "hasAlert": true,
-     "link": "customrestoreStatus"
+     "link": "customrestoreStatus",
+     "extension": ".xml,.pkg"
    },
    "griddef":{
     "gridtype":"type1",
@@ -17,6 +18,7 @@
     "hasButtonBar":true,
     "recordDelete":false,
     "editable": true,
+    "hasAlert": true,
     "selectionmode": "singlecell",
     "editmode": "click’",
     "columns":[

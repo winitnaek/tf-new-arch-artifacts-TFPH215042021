@@ -2,8 +2,9 @@
    "pgdef": {
      "pgid": "manualUpdate",
      "pgtitle": "Manual Update",
-     "hasAlert": true,
-     "link": "manualupdateStatus"
+     "link": "manualupdateStatus",
+     "extension": ".orq",
+     "hasAlert": true
    },
    "griddef":{
     "gridtype":"type1",

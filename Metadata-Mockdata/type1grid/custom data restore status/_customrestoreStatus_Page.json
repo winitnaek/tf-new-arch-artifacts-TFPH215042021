@@ -25,17 +25,8 @@
       "columns":[
          {
            "text": "Restore Loading Status",
-            "datafield": "file",
-            "sortable": true,
-            "rendererInput":"",
-            "rendererStaticInput":""
+           "datafield": "status"
          }
-      ],
-      "dataFields":[
-        {
-          "name": "file",
-          "type": "string"
-        }
       ]
    },
    "formdef":{

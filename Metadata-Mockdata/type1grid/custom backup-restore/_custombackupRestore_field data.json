@@ -1,0 +1,24 @@
+[
+  {
+    "id": "exitDataset",
+    "placeholder": "Data Set Id",
+    "fieldtype": "select",
+    "label": "Data Set Id",
+    "value": "",
+    "errmsg": " ",
+    "fieldlength": {
+      "minlength": 1,
+      "maxlength": 1
+    },
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": false,
+      "options": [],
+      "multiselect": false
+    },
+    "validation": {
+      "required": false
+    }
+  }
+
+]

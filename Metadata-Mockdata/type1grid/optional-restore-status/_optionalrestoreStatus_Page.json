@@ -20,6 +20,8 @@
       "contenttype":"application/json",
       "noResultsFoundTxt":"No Data Found : ",
       "recordDelete":false,
+      "hasAlert": true,
+      "hasButtonBar": true,
       "columns":[
          {
            "text": "Restore Loading Status",
