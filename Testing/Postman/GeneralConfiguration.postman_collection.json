@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "ff51b503-ed62-4ac5-9839-9c4f7ab50f9d",
+		"name": "GeneralConfiguration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getConfigurationPermissions",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \r\n        \"userId\": \"TF11\"\r\n       \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/UserProfileService/getConfigurationPermissions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"UserProfileService",
+						"getConfigurationPermissions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getGeneralConfiguration",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \r\n        \"userId\": \"TF11\",\r\n        \"dataset\": \"DEFAULT\",\r\n        \"resetConfig\": false\r\n       \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/UserProfileService/getGeneralConfiguration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"UserProfileService",
+						"getGeneralConfiguration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getGeneralConfiguration_Reset",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{      \r\n        \r\n        \"userId\": \"TF11\",\r\n        \"dataset\": \"DEFAULT\",\r\n        \"resetConfig\": true\r\n       \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/UserProfileService/getGeneralConfiguration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"UserProfileService",
+						"getGeneralConfiguration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveGeneralConfiguration",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WSUSERXXX",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "WSUSERXXX",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"enhSecOn\" : false,\r\n  \"canViewEnhancedSec\" : true,\r\n  \"manageDatasets\" : true,\r\n  \"manageLogins\" : true,\r\n  \"dataset\" : \"DEFAULT\",\r\n  \"optnList\" : [ {\r\n    \"id\" : {\r\n      \"dataset\" : null,\r\n      \"optnfld\" : 0\r\n    },\r\n    \"btxdset\" : null,\r\n    \"optndsc\" : null,\r\n    \"optnrsp\" : \"1\",\r\n    \"optntyp\" : \"\\u0000\"\r\n  }, {\r\n    \"id\" : {\r\n      \"dataset\" : null,\r\n      \"optnfld\" : 1\r\n    },\r\n    \"btxdset\" : null,\r\n    \"optndsc\" : null,\r\n    \"optnrsp\" : \"1\",\r\n    \"optntyp\" : \"\\u0000\"\r\n  }, {\r\n    \"id\" : {\r\n      \"dataset\" : null,\r\n      \"optnfld\" : 2\r\n    },\r\n    \"btxdset\" : null,\r\n    \"optndsc\" : null,\r\n    \"optnrsp\" : \"1\",\r\n    \"optntyp\" : \"\\u0000\"\r\n  }, {\r\n    \"id\" : {\r\n      \"dataset\" : null,\r\n      \"optnfld\" : 3\r\n    },\r\n    \"btxdset\" : null,\r\n    \"optndsc\" : null,\r\n    \"optnrsp\" : \"0\",\r\n    \"optntyp\" : \"\\u0000\"\r\n  }, {\r\n    \"id\" : {\r\n      \"dataset\" : null,\r\n      \"optnfld\" : 78\r\n    },\r\n    \"btxdset\" : null,\r\n    \"optndsc\" : null,\r\n    \"optnrsp\" : \"1\",\r\n    \"optntyp\" : \"\\u0000\"\r\n  }, {\r\n    \"id\" : {\r\n      \"dataset\" : null,\r\n      \"optnfld\" : 80\r\n    },\r\n    \"btxdset\" : null,\r\n    \"optndsc\" : null,\r\n    \"optnrsp\" : \"1\",\r\n    \"optntyp\" : \"N\"\r\n  }, {\r\n    \"id\" : {\r\n      \"dataset\" : null,\r\n      \"optnfld\" : 83\r\n    },\r\n    \"btxdset\" : null,\r\n    \"optndsc\" : null,\r\n    \"optnrsp\" : \"0\",\r\n    \"optntyp\" : \"\\u0000\"\r\n  }, {\r\n    \"id\" : {\r\n      \"dataset\" : null,\r\n      \"optnfld\" : 84\r\n    },\r\n    \"btxdset\" : null,\r\n    \"optndsc\" : null,\r\n    \"optnrsp\" : \"1\",\r\n    \"optntyp\" : \"N\"\r\n  } ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/tfws/r/v1/UserProfileService/saveGeneralConfiguration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"tfws",
+						"r",
+						"v1",
+						"UserProfileService",
+						"saveGeneralConfiguration"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
