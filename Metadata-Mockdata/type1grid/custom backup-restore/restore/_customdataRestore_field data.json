@@ -163,7 +163,7 @@
     },
     "fieldinfo": {
       "typeahead": false,
-      "isasync": false,
+      "isasync": true,
       "options": [
         {
           "id": "1",
