@@ -63,7 +63,7 @@
     "value": "",
     "validation": {
       "required": true,
-      "type": "text"
+      "type": "date"
     }
   },
   {
@@ -78,7 +78,14 @@
     "value": "",
     "validation": {
       "required": true,
-      "type": "text"
+      "type": "date",
+      "constraint": [
+        {
+          "type": "after",
+          "dependentField": "startDate",
+          "message": "End Date should be after Start date."
+        }
+      ]
     }
   },
   {

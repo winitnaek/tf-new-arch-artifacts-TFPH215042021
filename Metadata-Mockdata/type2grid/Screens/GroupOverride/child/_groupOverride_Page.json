@@ -117,7 +117,7 @@
 			},
            {
 				"name": "startDate",
-				"type": "date",
+				"type": "Date",
 				"map": "btxover>id>startdate"
 			},
 			{
@@ -133,6 +133,11 @@
 				"name": "code",
 				"type": "string",
 				"map": "btxover>btxtaxt>taxtype"
+			},
+			{
+				"name": "endDate",
+				"type": "Date",
+				"map": "btxover>rescind"
 			}         			
             
 		]

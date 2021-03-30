@@ -244,10 +244,6 @@
       "type": "number",
       "subtype": [
         {
-          "type": "positive",
-          "message": "Minimum Wage cannot be negative"
-        },
-        {
           "type": "typeError",
           "message": "Minimum Wage must be a number"
         }
@@ -271,10 +267,6 @@
       "type": "number",
       "subtype": [
         {
-          "type": "positive",
-          "message": "Maximum Wage cannot be negative."
-        },
-        {
           "type": "typeError",
           "message": "Maximum Wage must be a number."
         }
@@ -297,10 +289,6 @@
       "required": false,
       "type": "number",
       "subtype": [
-        {
-          "type": "positive",
-          "message": "Maximum Tax cannot be negative."
-        },
         {
           "type": "typeError",
           "message": "Maximum Tax must be a number."
