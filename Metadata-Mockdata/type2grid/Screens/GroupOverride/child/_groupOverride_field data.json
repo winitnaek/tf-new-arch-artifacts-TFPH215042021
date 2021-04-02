@@ -106,7 +106,7 @@
 },
   
 {
-  "id": "residentType",
+  "id": "residency",
   "placeholder": "Enter Resident Type",
   "fieldtype": "select",
   "label": "Resident Type",

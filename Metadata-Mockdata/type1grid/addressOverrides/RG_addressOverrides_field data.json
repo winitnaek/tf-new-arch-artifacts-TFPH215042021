@@ -518,6 +518,7 @@
     "errmsg": "State Abbreviation is required.",
     "fieldlength": {},
     "fieldinfo": {
+      "autoPopulateFields":  ["countyName"],
       "options": [
         { "id": "AL", "label": "AL" },
         { "id": "AR", "label": "AR" },
@@ -553,7 +554,7 @@
   {
     "id": "countyName",
     "placeholder": "Enter the County",
-    "fieldtype": "text",
+    "fieldtype": "select",
     "label": "County",
     "value": "",
     "errmsg": "County is required.",
@@ -561,7 +562,11 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
+    "fieldinfo": {
+      "typeahead": false,
+      "isasync": true,
+      "options": []
+    },
     "validation": {
       "required": true,
       "type": "string",
@@ -574,9 +579,9 @@
     }
   },
   {
-    "id": "placeCode",
+    "id": "placeName",
     "placeholder": "Enter Place Code",
-    "fieldtype": "text",
+    "fieldtype": "select",
     "label": "Place Code",
     "value": "",
     "errmsg": "",
@@ -584,7 +589,13 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "autoSelectFields": [],
+      "dependentFields": ["state","countyName"]
+    },
     "validation": {
       "required": false,
       "type": "string",
@@ -599,7 +610,7 @@
   {
     "id": "sdName",
     "placeholder": "Enter School District",
-    "fieldtype": "text",
+    "fieldtype": "select",
     "label": "School District",
     "value": "",
     "errmsg": "",
@@ -607,7 +618,13 @@
       "minlength": 1,
       "maxlength": 25
     },
-    "fieldinfo": {},
+    "fieldinfo": {
+      "typeahead": true,
+      "isasync": true,
+      "options": [],
+      "autoSelectFields": [],
+      "dependentFields": ["state"]
+    },
     "validation": {
       "required": false,
       "type": "string",

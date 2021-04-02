@@ -5,7 +5,7 @@
     "pgsubtitle": "Create and manage recipient to calculate pension and taxes.",
     "flowtype": "flowtype2",
     "hasAddNew": true,
-    "hasDeleteAll": true,
+    "hasDeleteAll": false,
     "addNewLabel": "Click here to add new Pension What-If",
     "actiondel": false,
     "helpAvailable": true,
@@ -28,6 +28,7 @@
     "contenttype": "application/json",
     "noResultsFoundTxt": "No Data Found : ",
     "recordEdit": true,
+    "hasButtonBar": true,
     "recordDelete": true,
     "columns": [
       {

@@ -71,7 +71,7 @@
   },
 
   {
-    "id": "dCCourtesy",
+    "id": "dcCourtesy",
     "placeholder": " ",
     "fieldtype": "checkbox",
     "value": "",
@@ -84,19 +84,13 @@
       "options": [
         {
           "label": "DC Courtesy",
-          "id": "dCCourtesy"
+          "id": "dcCourtesy"
         }
       ]
     },
     "validation": {
       "required": false,
-      "type": "string",
-      "subtype": [
-        {
-          "type": "uppercase",
-          "message": "."
-        }
-      ]
+      "type": "boolean"
     }
   }
 

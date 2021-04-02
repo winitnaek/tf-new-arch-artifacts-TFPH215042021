@@ -53,10 +53,10 @@
       },
       {
         "text": "DC Courtesy",
-        "datafield": "dCCourtesy",
+        "datafield": "dcCourtesy",
         "sortable": true,
         "rendererInput": "",
-        "rendererStaticInput": ""
+        "rendererStaticInput": "dcCourtesyRenderer"
       },
       {
         "text": "company",
@@ -72,13 +72,6 @@
         "hidden": true,
         "rendererInput": "",
         "rendererStaticInput": ""
-      },
-      {
-        "text": "nxind",
-        "datafield": "nxind",
-        "hidden": true,
-        "rendererInput": "",
-        "rendererStaticInput": ""
       }
     ],
     "dataFields": [
@@ -86,10 +79,9 @@
       {"name": "authname1","type": "string"},
       {"name": "startdate","type": "Date"},
       { "name": "rescind", "type": "Date"},
-       {"name": "dCCourtesy","type": "string"},
+       {"name": "dcCourtesy","type": "boolean", "map": "nxind"},
        {"name": "company","type": "string"},
-       {"name": "authority1","type": "string"},
-       {"name": "nxind","type": "string"}
+       {"name": "authority1","type": "string"}
     ]
   },
 

@@ -25,9 +25,15 @@
       "columns":[
          {
            "text": "Restore Loading Status",
-           "datafield": "status"
+           "datafield": "value"
          }
-      ]
+      ],
+      "dataFields":[
+         {
+           "name": "value",
+           "type": "string"
+         }
+       ]
    },
    "formdef":{
       "title":"Custom Data Restore Status",

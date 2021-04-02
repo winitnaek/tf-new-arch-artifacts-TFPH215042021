@@ -166,94 +166,6 @@
       ]
     }
   },
-
-  {
-    "skipFields": true,
-    "C": [
-      {
-        "id": "currentCredit",
-        "placeholder": "Enter Current Credit",
-        "fieldtype": "text",
-        "label": "Current Credit",
-        "value": "0.00",
-        "errmsg": " ",
-        "fieldlength": {
-          "minlength": 1,
-          "maxlength": 25
-        },
-        "fieldinfo": {
-          "typeahead": false,
-          "isasync": false,
-          "options": [],
-          "multiselect": false
-        },
-        "validation": {
-          "required": false,
-          "type": "string",
-          "subtype": [
-            {
-              "type": "string",
-              "message": "Please enter valid number"
-            }
-          ]
-        }
-      }
-    ],
-    "D": [
-      {
-        "id": "currentContribution",
-        "placeholder": "Enter Current Contribution",
-        "fieldtype": "text",
-        "label": "Current Contribution",
-        "value": "0.00",
-        "errmsg": " ",
-        "fieldlength": {
-          "minlength": 1,
-          "maxlength": 25
-        },
-        "fieldinfo": {
-          "typeahead": false,
-          "isasync": false,
-          "options": [],
-          "multiselect": false
-        },
-        "validation": {
-          "required": false,
-          "type": "string",
-          "subtype": [
-            {
-              "type": "string",
-              "message": "Please enter valid number"
-            }
-          ]
-        }
-      }
-    ],
-    "E": [
-      {
-        "id": "currentEarning",
-        "placeholder": "Enter Current Earning",
-        "fieldtype": "text",
-        "label": "Current Earning",
-        "value": "0.00",
-        "errmsg": " ",
-        "fieldlength": {
-          "minlength": 1,
-          "maxlength": 25
-        },
-        "fieldinfo": {
-          "typeahead": false,
-          "isasync": false,
-          "options": [],
-          "multiselect": false
-        },
-        "validation": {
-          "required": false,
-          "type": "string"
-        }
-      }
-    ]
-  },
   {
     "id": "useEEMax",
     "placeholder": "Use Employee Maximum",
@@ -278,7 +190,8 @@
     "validation": {
       "required": false,
       "type": "string"
-    }
+    },
+    "enable": ["taxability", "eeMaxAmount"]
   },
   {
     "id": "taxability",
@@ -311,9 +224,18 @@
             "eeMaxAmount": 99999999999.99
           }
         },
-        { "id": "2", "label": "Limit / YTD", "enable": ["eeMaxAmount"] },
-        { "id": "3", "label": "Limit / QTD", "enable": ["eeMaxAmount"] },
-        { "id": "4", "label": "Limit / MTD", "enable": ["eeMaxAmount"] },
+        { "id": "2", "label": "Limit / YTD", "enable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+          "eeMaxAmount": "0.00"
+        }},
+        { "id": "3", "label": "Limit / QTD", "enable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+            "eeMaxAmount": "0.00"
+          }},
+        { "id": "4", "label": "Limit / MTD", "enable": ["eeMaxAmount"],
+          "valuesToUpdate": {
+            "eeMaxAmount": "0.00"
+          }},
         {
           "id": "7",
           "label": "Taxable/Exclude",
@@ -325,17 +247,17 @@
         {
           "id": "5",
           "label": "Taxable with YTD Limit",
-          "disable": ["eeMaxAmount"],
+          "enable": ["eeMaxAmount"],
           "valuesToUpdate": {
-            "eeMaxAmount": 99999999995.99
+            "eeMaxAmount": "0.00"
           }
         },
         {
           "id": "6",
           "label": "Nontaxable with YTD Limit",
-          "disable": ["eeMaxAmount"],
+          "enable": ["eeMaxAmount"],
           "valuesToUpdate": {
-            "eeMaxAmount": 99999999995.99
+            "eeMaxAmount": "0.00"
           }
         },
         {
@@ -401,7 +323,8 @@
     "validation": {
       "required": false,
       "type": "string"
-    }
+    },
+    "enable": ["erTaxability"]
   },
   {
     "id": "erTaxability",

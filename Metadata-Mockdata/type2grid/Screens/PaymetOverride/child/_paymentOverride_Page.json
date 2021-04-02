@@ -60,6 +60,12 @@
 			{
 				"text":"Taxability",
 				"datafield":"taxability",
+				"sortable":true,
+				"hidden": true
+			},
+			{
+				"text":"Taxability",
+				"datafield":"taxabilityString",
 				"sortable":true
 			},
 			{
@@ -121,6 +127,10 @@
 			},
 			{
 				"name":"taxability",
+				"type":"string"
+			},
+			{
+				"name":"taxabilityString",
 				"type":"string"
 			},
 			{
@@ -198,18 +208,29 @@
 			{
 				"id":"taxability",
 				"order":7,
-				"isReadOnlyOnEdit":false,
-				"isReadOnlyOnNew":false
+				"isReadOnlyOnEdit":true,
+				"isReadOnlyOnNew":true
+			},
+			{
+				"id":"eeMaxAmount",
+				"order":8,
+				"isReadOnlyOnEdit":true,
+				"isReadOnlyOnNew":true
+			},{
+				"id":"erTaxability",
+				"order":9,
+				"isReadOnlyOnEdit":true,
+				"isReadOnlyOnNew":true
 			},
 			{
 				"id":"eeMax",
-				"order":7,
+				"order":9,
 				"isReadOnlyOnEdit":false,
 				"isReadOnlyOnNew":false
 			},
 			{
 				"id":"aggStatus",
-				"order":7,
+				"order":10,
 				"isReadOnlyOnEdit":false,
 				"isReadOnlyOnNew":false
 			}

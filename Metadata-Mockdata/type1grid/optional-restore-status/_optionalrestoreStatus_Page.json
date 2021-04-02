@@ -25,7 +25,7 @@
       "columns":[
          {
            "text": "Restore Loading Status",
-            "datafield": "status",
+            "datafield": "value",
             "sortable": true,
             "rendererInput":"",
             "rendererStaticInput":""
@@ -33,7 +33,7 @@
       ],
       "dataFields":[
         {
-          "name": "status",
+          "name": "value",
           "type": "string"
         }
       ]

@@ -5,7 +5,6 @@
       "pgsubtitle":"You may backup all data sets or choose just one. If you choose to select one data set then all remaining selections will be unchecked.",
       "flowtype":"flowtype1",
       "hasAddNew":false,
-      "hasSave":"Process",
       "addNewLabel":"",
       "actiondel":false,
       "helpAvailable":true,
@@ -55,12 +54,12 @@
          {
             "name":"data",
             "type":"string",
-            "map": "btxdset>dataset"
+            "map": "key"
          },
          {
             "name":"description",
             "type":"string",
-            "map": "btxdset>descript"
+            "map": "value"
          }
       ]
    },

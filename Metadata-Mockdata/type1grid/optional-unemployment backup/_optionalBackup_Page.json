@@ -55,12 +55,12 @@
          {
             "name":"data",
             "type":"string",
-            "map": "btxdset>dataset"
+            "map": "key"
          },
          {
             "name":"description",
             "type":"string",
-            "map": "btxdset>descript"
+            "map": "value"
          }
       ]
    },
