@@ -286,22 +286,29 @@
 		"value":""
 	},
 	{
-		"name":"rate(methodPCAndX)",
-		"id":"rate",
-		"placeholder":"Select Rate",
-		"fieldtype":"text",
-		"fieldlength":{
-
+		"id": "rate",
+		"placeholder": "Enter Company Code",
+		"fieldtype": "text",
+		"label": "Rate (methods P,C and X)",
+		"value": "0.0000",
+		"errmsg": " ",
+		"fieldlength": {
+		  "minlength": 1,
+		  "maxlength": 11
 		},
-		"fieldinfo":{
-			"options":[
-				"Aggregate to Highest Maximum"
-			]
+		"fieldinfo": {
+		  "typeahead": false,
+		  "isasync": false,
+		  "options": [
+	
+		  ],
+		  "multiselect": false
 		},
-		"validationType":"string",
-		"label":"Rate (methods P,C and X)",
-		"value":""
-	},
+		"validation": {
+		  "required": false,
+		  "type": "string"
+		}
+	  },
 	{
 		"id": "showcalcmesg",
 		"placeholder": "Show calc message",
