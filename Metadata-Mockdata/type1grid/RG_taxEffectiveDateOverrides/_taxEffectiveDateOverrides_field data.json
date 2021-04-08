@@ -23,18 +23,6 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
@@ -62,60 +50,32 @@
           "type": "uppercase",
           "message": ""
         }
-      ],
-      "constraint": [
-        {
-          "type": "min",
-          "input": 1,
-          "message": "min 1 characters"
-        },
-        {
-          "type": "max",
-          "input": 25,
-          "message": "max 25 characters"
-        }
       ]
     }
   },
  {
-      "name":"Formula Effective Date",
       "id":"effecDate",
       "placeholder":"Enter Formula Effective Date",
-      "fieldtype":"date",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"Formula Effective Date",
-      "value":"new Date()",
-      "validation":{
-         "required":true,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"Date",
-               "message":"Please enter a Formula Effective Date."
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":8,
-               "message":"min 8 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
-      }
-   },
+         "fieldtype": "date",
+         "label": "Effective Date",
+         "value": "new Date()",
+         "errmsg": " ",
+         "fieldlength": {
+           "minlength": 1,
+           "maxlength": 25
+         },
+         "fieldinfo": {
+           "typeahead": false,
+           "isasync": false,
+           "options": [],
+           "multiselect": false
+         },
+         "validation": {
+           "required": true,
+           "type": "date"
+         }
+       },
  {
-      "name":"Start Date",
       "id":"startDate",
       "placeholder":"Enter Start Date",
       "fieldtype":"date",
@@ -136,58 +96,29 @@
                "type":"Date",
                "message":""
             }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":8,
-               "message":"min 8 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
          ]
       }
    },
-{
-      "name":"End Date",
-      "id":"endDate",
-      "placeholder":"Enter End Date",
-      "fieldtype":"date",
-      "fieldlength":{
-
-      },
-      "fieldinfo":{
-
-      },
-      "validationType":"string",
-      "label":"End Date",
-      "value":"12/31/9999",
-      "validation":{
-         "required":false,
-         "type":"string",
-         "subtype":[
-            {
-               "type":"Date",
-               "message":""
-            }
-         ],
-         "constraint":[
-            {
-               "type":"min",
-               "input":8,
-               "message":"min 8 characters"
-            },
-            {
-               "type":"max",
-               "input":25,
-               "message":"max 25 characters"
-            }
-         ]
+   {
+      "name": "endDate",
+      "id": "endDate",
+      "placeholder": "Enter End Date",
+      "fieldtype": "date",
+      "fieldlength": {},
+      "fieldinfo": {},
+      "label": "End Date",
+      "value": "9999-12-31",
+      "validation": {
+        "required": false,
+        "type": "string",
+        "subtype": [
+          {
+            "type": "lowercase",
+            "message": "Tax Code needs to be in uppercase."
+          }
+        ]
       }
-   }
+    }
 
  
 
