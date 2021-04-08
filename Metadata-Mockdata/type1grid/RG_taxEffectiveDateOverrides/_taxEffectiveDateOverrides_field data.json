@@ -42,7 +42,7 @@
     "id": "taxType",
     "placeholder": "Enter the Tax Type",
     "fieldtype": "select",
-    "label": "tax Type",
+    "label": "Tax Type",
     "value": "",
     "errmsg": " ",
     "fieldlength": {
