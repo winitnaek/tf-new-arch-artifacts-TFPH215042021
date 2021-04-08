@@ -37,7 +37,7 @@
       },
       {
         "text": "Tax Type",
-        "datafield": "taxType",
+        "datafield": "TaxType",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": "taxTypeCodeNamerenderer"
