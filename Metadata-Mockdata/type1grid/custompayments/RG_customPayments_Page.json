@@ -49,6 +49,21 @@
          {
             "text":"AggStatus",
             "datafield":"aggstatus"
+         },
+         {
+            "text":"aggstatusCode",
+            "datafield":"aggregationStatus",
+            "hidden": true
+         }, 
+         {
+            "text":"ee_taxability",
+            "datafield":"e_taxability",
+            "hidden": true
+         },
+         {
+            "text":"er_taxability",
+            "datafield":"employerTaxability",
+            "hidden": true
          }
       ],
       "dataFields":[
@@ -75,6 +90,21 @@
          {
             "name":"aggstatus",
             "type":"string"
+         },
+         {
+            "name":"aggregationStatus",
+            "type":"string",
+            "map": "aggstatusCode"
+         },
+         {
+            "name":"e_taxability",
+            "type":"string",
+            "map": "ee_taxability"
+         },
+         {
+            "name":"employerTaxability",
+            "type":"string",
+            "map": "er_taxability"
          }
       ]
    },
