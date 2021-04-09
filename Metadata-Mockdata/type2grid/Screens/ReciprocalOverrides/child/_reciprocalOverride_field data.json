@@ -4,7 +4,7 @@
 		"placeholder": "Enter Reciprocal Override",
 		"fieldtype": "select",
 		"label": "Reciprocal Override For",
-		"value": "",
+		"value": "2",
 		"errmsg": " ",
 		"fieldlength": {
 		  "minlength": 1,
