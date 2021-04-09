@@ -18,6 +18,10 @@
 			{ "id": "1", "label": "State" }
 		  ],
 		  "multiselect": false
+		},
+		"validation": {
+			"required": true,
+			"type": "string"
 		}
 	  },
 	  {
@@ -35,10 +39,11 @@
 		  "typeahead": false,
 		  "isasync": false,
 		  "options": [],
-		  "multiselect": false
+		  "multiselect": false,
+		  "minLength": 1
 		},
 		"validation": {
-		  "required": false,
+		  "required": true,
 		  "type": "date",
 		  "constraint": [
 			{
@@ -61,9 +66,11 @@
 		"isasync": true,
 		"autoPopulateFields":  ["residentTaxType"]
 		},
-		"validationType":"string",
 		"label":"Tax Code to be Overridden",
-		"value":""
+		"value":"",
+		"validation": {
+			"required": true
+		}
 	},
 	{
 		"name":"residentTaxType",
@@ -97,6 +104,7 @@
 		"fieldinfo":{
 			"typeahead":true,
 			"isasync": true,
+			"minLength": 1,
 			"autoPopulateFields":  ["nonresidentTaxType"]
 
 		},
@@ -216,7 +224,7 @@
 		"label":"End Date",
 		"value":"12/31/9999",
 		"validation":{
-		   "required":false,
+		   "required":true,
 		   "type":"string",
 		   "subtype":[
 			  {
