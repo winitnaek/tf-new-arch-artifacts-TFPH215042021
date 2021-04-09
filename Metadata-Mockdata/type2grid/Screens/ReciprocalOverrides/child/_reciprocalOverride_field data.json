@@ -203,7 +203,6 @@
 		"value":""
 	},
 	{
-		"name":"End Date",
 		"id":"endDate",
 		"placeholder":"Enter End Date",
 		"fieldtype":"date",

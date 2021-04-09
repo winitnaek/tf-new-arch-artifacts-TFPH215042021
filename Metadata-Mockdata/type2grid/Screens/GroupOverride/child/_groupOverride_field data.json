@@ -432,7 +432,7 @@
         "paymentType": ["0", "1", "2", "3"],
         "overtype": ["F", "R"]
       },
-      "value": "",
+      "value": "0.00",
       "errmsg": " ",
       "fieldlength": {
         "minlength": 5,
@@ -463,7 +463,7 @@
         "paymentType": ["0", "1", "2", "3"],
         "overtype": ["F"]
       },
-      "value": "",
+      "value": "0.00",
       "errmsg": "",
       "fieldlength": {
         "minlength": 1,
@@ -492,7 +492,7 @@
         "paymentType": ["0", "1", "2", "3"],
         "overtype": ["F"]
       },
-      "value": "",
+      "value": "0.00",
       "errmsg": "",
       "fieldlength": {
         "minlength": 1,
@@ -521,7 +521,7 @@
             "paymentType": ["0", "1", "2", "3"],
             "overtype": ["F"]
           },
-          "value": "",
+          "value": "0.00",
           "errmsg": "",
           "fieldlength": {
             "minlength": 1,
@@ -552,7 +552,7 @@
         "paymentType": ["0", "1", "2", "3"],
         "overtype": ["F"]
       },
-      "value": "",
+      "value": "0.00",
       "errmsg": "",
       "fieldlength": {
         "minlength": 1,
