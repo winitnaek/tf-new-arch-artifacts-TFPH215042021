@@ -176,6 +176,12 @@
     "hasRecentUsage": false,
     "formflds": [
       {
+        "id": "ovrType",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
         "id": "startDate",
         "order": 2,
         "isReadOnlyOnEdit": true,

@@ -211,9 +211,7 @@
 		"fieldinfo":{
 		"typeahead":false,
 		"isasync": true,
-		"options":[
-		"test dropdown"
-		]
+		"options":[]
 		},
 		"validationType":"string",
 		"label":"Nonresident Tax Type",
