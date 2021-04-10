@@ -100,6 +100,24 @@
         "datafield": "nonResAuth",
         "hidden": true,
         "sortable": true
+      },
+      {
+        "text": "taxCodeToBeOverriddenlocal",
+        "datafield": "taxCodeToBeOverriddenlocal",
+        "hidden": true,
+        "sortable": true
+      },
+      {
+        "text": "residentTaxTypelocal",
+        "datafield": "residentTaxTypelocal",
+        "hidden": true,
+        "sortable": true
+      },
+      {
+        "text": "taxCodeToReciprocatelocal",
+        "datafield": "taxCodeToReciprocatelocal",
+        "hidden": true,
+        "sortable": true
       }
     ],
     "dataFields": [
@@ -162,6 +180,16 @@
       {
         "name": "nonResAuth",
         "type": "string"
+      },
+      {
+        "name": "taxCodeToBeOverriddenlocal",
+        "type": "string",
+        "map": "resAuth"
+      },
+      {
+        "name": "taxCodeToReciprocatelocal",
+        "type": "string",
+        "map": "nonResAuth"
       }
     ]
   },
@@ -175,6 +203,12 @@
     "hasView": false,
     "hasRecentUsage": false,
     "formflds": [
+      {
+        "id": "ovrType",
+        "order": 1,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
       {
         "id": "startDate",
         "order": 2,

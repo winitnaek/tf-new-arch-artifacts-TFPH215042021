@@ -341,13 +341,7 @@
     "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "number",
-      "subtype": [
-        {
-          "type": "positive",
-          "message": "Starting Number cannot be negative"
-        }
-      ]
+      "type": "number"
     }
   },
   {
@@ -387,13 +381,7 @@
     "fieldinfo": {},
     "validation": {
       "required": false,
-      "type": "number",
-      "subtype": [
-        {
-          "type": "positive",
-          "message": "Ending Number cannot be negative"
-        }
-      ]
+      "type": "number"
     }
   },
   {

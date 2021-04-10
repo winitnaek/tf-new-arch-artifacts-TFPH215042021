@@ -203,6 +203,11 @@
         "name": "schoolDistrictTaxCode",
         "type": "string",
         "map": "btxadovr>taxcode"
+      },
+      {
+        "name": "cfips",
+        "type": "string",
+        "map": "btxadovr>cfips"
       }
     ]
   },
