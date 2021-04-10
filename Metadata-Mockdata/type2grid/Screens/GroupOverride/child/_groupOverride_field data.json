@@ -17,7 +17,7 @@
         "multiselect": false
       },
       "validation": {
-        "required": false,
+        "required": true,
         "type": "date",
         "constraint": [
           {
@@ -48,7 +48,7 @@
          "multiselect":false
       },
       "validation":{
-         "required":false,
+         "required":true,
          "type":"string"
       }
    },
@@ -74,7 +74,7 @@
        "multiselect":false
     },
     "validation":{
-       "required":false,
+       "required":true,
        "type":"string"
     }
  },
@@ -100,7 +100,7 @@
      "multiselect":false
   },
   "validation":{
-     "required":false,
+     "required":true,
      "type":"string"
   }
 },
@@ -127,7 +127,7 @@
     "multiselect": false
   },
   "validation": {
-    "required": false,
+    "required": true,
     "type": "string"
   }
 },
@@ -137,7 +137,7 @@
       "placeholder": "End Date",
       "fieldtype": "date",
       "label": "End Date",
-      "value": "",
+      "value": "9999-12-31",
       "errmsg": "",
       "fieldlength": {
         "minlength": 8,
@@ -180,7 +180,7 @@
         "multiselect": false
       },
       "validation": {
-        "required": false,
+        "required": true,
         "type": "string"
       }
     },

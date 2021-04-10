@@ -198,6 +198,11 @@
         "name": "sunit",
         "type": "string",
         "map": "btxadovr>sunit"
+      },
+      {
+        "name": "schoolDistrictTaxCode",
+        "type": "string",
+        "map": "btxadovr>taxcode"
       }
     ]
   },

@@ -79,7 +79,7 @@
       {"name": "authname1","type": "string"},
       {"name": "startdate","type": "Date"},
       { "name": "rescind", "type": "Date"},
-       {"name": "dcCourtesy","type": "boolean", "map": "nxind"},
+       {"name": "dcCourtesy","type": "boolean"},
        {"name": "company","type": "string"},
        {"name": "authority1","type": "string"}
     ]

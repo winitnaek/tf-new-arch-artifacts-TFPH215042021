@@ -64,14 +64,14 @@
 				"datafield": "residency",
 				"sortable": true,
 				"rendererInput": "",
-				"rendererStaticInput": ""
+				"rendererStaticInput": "residencyRenderer"
 			},
 			{
 				"text": "Type",
 				"datafield": "overtype",
 				"sortable": true,
 				"rendererInput": "",
-				"rendererStaticInput": ""
+				"rendererStaticInput": "overtypeRenderer"
 			},
 			{
 				"text": "Formula",
