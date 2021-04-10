@@ -176,75 +176,57 @@
     "hasRecentUsage": false,
     "formflds": [
       {
-        "id": "ovr.Type",
-        "order": 1,
-        "isReadOnlyOnEdit": true,
-        "isReadOnlyOnNew": true
-      },
-      {
-        "id": "r.TaxCode",
-        "order": 2,
-        "isReadOnlyOnEdit": true,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "r.TaxType",
-        "order": 2,
-        "isReadOnlyOnEdit": true,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "nr.TaxCode",
-        "order": 3,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "nr.TaxType",
-        "order": 4,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "calculationMethod",
-        "order": 5,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "rate",
-        "order": 6,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "displayRecip.Calc.Message",
-        "order": 7,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "reportingMethod",
-        "order": 8,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
-        "id": "displayReportWageMessage",
-        "order": 9,
-        "isReadOnlyOnEdit": false,
-        "isReadOnlyOnNew": false
-      },
-      {
         "id": "startDate",
-        "order": 10,
-        "isReadOnlyOnEdit": false,
+        "order": 2,
+        "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       },
       {
-        "id": "endDate",
-        "order": 11,
-        "isReadOnlyOnEdit": false,
+        "id": "taxCodeToBeOverridden",
+        "order": 3,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "residentTaxType",
+        "order": 4,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "taxCodeToReciprocate",
+        "order": 5,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "nonresidentTaxType",
+        "order": 6,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "taxCodeToBeOverriddenlocal",
+        "order": 7,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "residentTaxTypelocal",
+        "order": 8,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "taxCodeToReciprocatelocal",
+        "order": 9,
+        "isReadOnlyOnEdit": true,
+        "isReadOnlyOnNew": false
+      },
+      {
+        "id": "nonresidentTaxTypelocal",
+        "order": 10,
+        "isReadOnlyOnEdit": true,
         "isReadOnlyOnNew": false
       }
     ],

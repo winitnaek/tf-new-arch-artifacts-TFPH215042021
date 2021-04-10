@@ -88,7 +88,10 @@
 		},
 		"validationType":"string",
 		"label":"Resident Tax Type",
-		"value":""
+		"value":"",
+		"validation": {
+			"required": true
+		}
 	},
 	{
 		"name":"taxCodeToReciprocate",
@@ -110,7 +113,10 @@
 		},
 		"validationType":"string",
 		"label":"Tax Code To Reciprocate",
-		"value":""
+		"value":"",
+		"validation": {
+			"required": true
+		}
 	},
 	{
 		"name":"nonresidentTaxType",
@@ -131,7 +137,10 @@
 		},
 		"validationType":"string",
 		"label":"Nonresident Tax Type",
-		"value":""
+		"value":"",
+		"validation": {
+			"required": true
+		}
 	},
 	{
 		"id":"taxCodeToBeOverriddenlocal",
@@ -150,7 +159,7 @@
 		"value":""
 	},
 	{
-		"name":"residentTaxType",
+		"name":"residentTaxTypelocal",
 		"id":"residentTaxTypelocal",
 		"placeholder":"Enter Tax Type",
 		"fieldtype":"select",
@@ -168,7 +177,7 @@
 		"value":""
 	},
 	{
-		"name":"taxCodeToReciprocate",
+		"name":"taxCodeToReciprocatelocal",
 		"id":"taxCodeToReciprocatelocal",
 		"placeholder":"Enter Tax Code",
 		"fieldtype":"select",
@@ -189,7 +198,7 @@
 		"value":""
 	},
 	{
-		"name":"nonresidentTaxType",
+		"name":"nonresidentTaxTypelocal",
 		"id":"nonresidentTaxTypelocal",
 		"placeholder":"Enter Tax Type",
 		"fieldtype":"select",
@@ -264,7 +273,7 @@
 		"value":"Do NOT override calculation method"
 	},
 	{
-		"name":"calculationMethod",
+		"name":"calculationMthd",
 		"id":"calculationMthd",
 		"placeholder":"Select Calculation Method",
 		"fieldtype":"select",
