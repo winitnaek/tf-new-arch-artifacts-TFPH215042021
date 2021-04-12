@@ -4,7 +4,7 @@
     "placeholder": "Street Number Type",
     "fieldtype": "select",
     "label": "Street Number Type",
-    "value": "",
+    "value": "0",
     "errmsg": " ",
     "fieldlength": {
       "minlength": 1,
@@ -12,9 +12,9 @@
     },
     "fieldinfo": {
       "options": [
-        { "id": "0", "label": "Numeric" },
-        { "id": "1", "label": "Alpha Numeric" },
-        { "id": "2", "label": "None" }
+        { "id": "0", "label": "Numeric", "enable": ["fadd", "tadd", "parity"], "disable": ["alphaNumericStartingNumber", "alphaNumericEndingNumber"] },
+        { "id": "1", "label": "Alpha Numeric", "enable": ["alphaNumericStartingNumber", "alphaNumericEndingNumber"], "disable": ["fadd", "tadd", "parity"] },
+        { "id": "2", "label": "None",  "disable": ["alphaNumericStartingNumber", "alphaNumericEndingNumber", "fadd", "tadd", "parity"] }
       ]
     },
     "validation": {

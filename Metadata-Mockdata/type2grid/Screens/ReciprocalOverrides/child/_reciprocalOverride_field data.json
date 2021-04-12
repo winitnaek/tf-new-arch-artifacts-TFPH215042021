@@ -64,7 +64,8 @@
 		"fieldinfo":{
 		"typeahead":true,
 		"isasync": true,
-		"autoPopulateFields":  ["residentTaxType"]
+		"autoPopulateFields":  ["residentTaxType"],
+		"options": []
 		},
 		"label":"Tax Code to be Overridden",
 		"value":"",
@@ -108,7 +109,8 @@
 			"typeahead":true,
 			"isasync": true,
 			"minLength": 1,
-			"autoPopulateFields":  ["nonresidentTaxType"]
+			"autoPopulateFields":  ["nonresidentTaxType"],
+			"options": []
 
 		},
 		"validationType":"string",
@@ -152,7 +154,8 @@
 		"fieldinfo":{
 		"typeahead":true,
 		"isasync": true,
-		"autoPopulateFields":  ["residentTaxTypelocal"]
+		"autoPopulateFields":  ["residentTaxTypelocal"],
+		"options": []
 		},
 		"validationType":"string",
 		"label":"Tax Code to be Overridden",
@@ -169,8 +172,7 @@
 		"fieldinfo":{
 		"typeahead": false,
 		"isasync": true,
-		"options":[
-		]
+		"options":[]
 		},
 		"validationType":"string",
 		"label":"Resident Tax Type",
@@ -190,7 +192,8 @@
 		"fieldinfo":{
 			"typeahead":true,
 			"isasync": true,
-			"autoPopulateFields":  ["nonresidentTaxTypelocal"]
+			"autoPopulateFields":  ["nonresidentTaxTypelocal"],
+			"options": []
 
 		},
 		"validationType":"string",

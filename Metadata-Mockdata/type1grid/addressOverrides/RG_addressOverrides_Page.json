@@ -69,7 +69,7 @@
 
       {
         "text": "County",
-        "datafield": "countyName",
+        "datafield": "countyname",
         "sortable": true,
         "rendererInput": "",
         "rendererStaticInput": ""
@@ -92,6 +92,38 @@
         "text": "School District Tax Code",
         "datafield": "schoolDistrictTaxCode",
         "sortable": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "countyName",
+        "datafield": "countyName",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "snt",
+        "datafield": "snt",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "alphaNumericStartingNumber",
+        "datafield": "alphaNumericStartingNumber",
+        "sortable": true,
+        "hidden": true,
+        "rendererInput": "",
+        "rendererStaticInput": ""
+      },
+      {
+        "text": "alphaNumericEndingNumber",
+        "datafield": "alphaNumericEndingNumber",
+        "sortable": true,
+        "hidden": true,
         "rendererInput": "",
         "rendererStaticInput": ""
       }
@@ -142,8 +174,9 @@
         "map": "btxadovr>fzip"
       },
       {
-        "name": "countyName",
-        "type": "string"
+        "name": "countyname",
+        "type": "string",
+        "map": "countyName"
       },
       {
         "name": "placeName",
@@ -205,7 +238,7 @@
         "map": "btxadovr>taxcode"
       },
       {
-        "name": "cfips",
+        "name": "countyName",
         "type": "string",
         "map": "btxadovr>cfips"
       }

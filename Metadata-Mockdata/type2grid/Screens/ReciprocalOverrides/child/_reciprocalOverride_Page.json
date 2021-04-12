@@ -190,6 +190,11 @@
         "name": "taxCodeToReciprocatelocal",
         "type": "string",
         "map": "nonResAuth"
+      },
+      {
+        "name": "residentTaxTypelocal",
+        "type": "string",
+        "map": "resTaxType"
       }
     ]
   },
