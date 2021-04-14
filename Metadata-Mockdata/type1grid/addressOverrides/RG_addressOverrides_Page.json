@@ -188,7 +188,8 @@
       },
       {
         "name": "placecode",
-        "type": "string"
+        "type": "string",
+        "map": "btxadovr>placecode"
       },
       {
         "name": "sdName",
