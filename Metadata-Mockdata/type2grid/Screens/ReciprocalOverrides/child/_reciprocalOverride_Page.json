@@ -187,14 +187,49 @@
         "map": "resAuth"
       },
       {
-        "name": "taxCodeToReciprocatelocal",
+        "name": "calculationMethod",
         "type": "string",
-        "map": "nonResAuth"
+        "map": "method"
       },
       {
-        "name": "residentTaxTypelocal",
+        "name": "wageReportingMethod",
         "type": "string",
-        "map": "resTaxType"
+        "map": "wgRpt"
+      },
+      {
+        "name": "calculationMthd",
+        "type": "string",
+        "map": "method"
+      },
+      {
+        "name": "taxCodeToBeOverridden",
+        "type": "string",
+        "map": "resTaxCode"
+      },
+      {
+        "name": "taxCodeToReciprocate",
+        "type": "string",
+        "map": "nonResTaxCode"
+      },
+      {
+        "name": "taxCodeToBeOverriddenlocal",
+        "type": "string",
+        "map": "resTaxCode"
+      },
+      {
+        "name": "taxCodeToReciprocatelocal",
+        "type": "string",
+        "map": "nonResTaxCode"
+      },
+      {
+        "name": "showcalcmesg",
+        "type": "string",
+        "map": "calcMsgDisplay"
+      },
+      {
+        "name": "showreportmesg",
+        "type": "string",
+        "map": "rptMsgDisplay"
       }
     ]
   },
