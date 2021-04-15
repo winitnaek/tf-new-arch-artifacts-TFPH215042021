@@ -582,7 +582,8 @@
       "isasync": true,
       "options": [],
       "autoSelectFields": [],
-      "dependentFields": ["state","countyName"]
+      "dependentFields": ["state","countyName"],
+      "fieldKey": "label"
     },
     "validation": {
       "required": false,
