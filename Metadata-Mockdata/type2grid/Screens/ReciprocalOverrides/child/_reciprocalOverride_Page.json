@@ -224,12 +224,12 @@
       {
         "name": "showcalcmesg",
         "type": "string",
-        "map": "calcMsgDisplay"
+        "map": "calcMsg"
       },
       {
         "name": "showreportmesg",
         "type": "string",
-        "map": "rptMsgDisplay"
+        "map": "rptMsg"
       }
     ]
   },
